@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>GitHub Trends — Flutter &amp; Dart | FlutterCook</title>
+<meta name="description" content="A live leaderboard of the most-starred and fastest-rising Flutter and Dart open-source repositories on GitHub, updated on every visit.">
+<style>
+:root{--bg:#0b0b0c;--ink:#f3efe8;--muted:#9b968c;--accent:#57e3cf;--line:#2a2a2c;--panel:#141416}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.05;z-index:50;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.mono{font-family:"SF Mono","JetBrains Mono",ui-monospace,Menlo,Consolas,monospace}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+header{display:flex;justify-content:space-between;align-items:center;padding:28px 0}
+.logo{font-weight:700;letter-spacing:.06em;font-size:14px;text-transform:uppercase}
+.logo em{color:var(--accent);font-style:normal}
+header nav{display:flex;gap:22px;align-items:center}
+header nav a{color:var(--muted);font-size:13px;letter-spacing:.08em;text-transform:uppercase;text-decoration:none}
+header nav a:hover{color:var(--ink)}
+.hero{padding:5vh 0 3vh}
+.hero .kicker{color:var(--accent);letter-spacing:.24em;text-transform:uppercase;font-size:12px}
+.hero h1{font-size:clamp(34px,5vw,60px);font-weight:400;line-height:1.05;margin:14px 0 12px}
+.hero h1 i{font-style:italic;color:var(--accent)}
+.hero p{color:var(--muted);max-width:560px}
+.tabs{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 8px}
+.tab{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:100px;padding:9px 16px;font-size:13px;letter-spacing:.04em;cursor:pointer}
+.tab.active{background:var(--accent);color:#08201c;border-color:var(--accent);font-weight:600}
+.tab:hover:not(.active){color:var(--ink);border-color:var(--accent)}
+.status{color:var(--muted);font-size:13px;margin:6px 0 14px;min-height:18px}
+table{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel)}
+thead th{text-align:left;background:#101012;color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:14px 16px;border-bottom:1px solid var(--line)}
+tbody td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+tbody tr:last-child td{border-bottom:none}
+tbody tr:hover{background:#16181b}
+.rank{color:var(--accent);font-weight:700;font-family:"SF Mono",monospace;width:44px}
+.repo a{color:var(--ink);text-decoration:none;font-weight:600;font-family:"SF Mono",monospace;font-size:13.5px}
+.repo a:hover{color:var(--accent)}
+.repo .desc{color:var(--muted);font-size:12.5px;margin-top:3px;max-width:520px}
+.repo .topics{margin-top:5px;display:flex;flex-wrap:wrap;gap:5px}
+.repo .topics span{font-size:10px;color:var(--accent);border:1px solid var(--line);border-radius:100px;padding:2px 8px}
+.stars{font-weight:600;white-space:nowrap;font-variant-numeric:tabular-nums}
+.lang{color:var(--muted);white-space:nowrap}
+.upd{color:var(--muted);white-space:nowrap;font-size:13px}
+.upd b{color:var(--accent);font-weight:600}
+.num{text-align:right;font-variant-numeric:tabular-nums}
+.skeleton td{color:transparent}
+.skeleton td>*{background:#1c1e21;border-radius:6px;color:transparent}
+footer{border-top:1px solid var(--line);margin-top:8vh;padding:32px 0;color:var(--muted);font-size:13px;text-align:center}
+footer a{color:var(--accent);text-decoration:none}
+.note{color:var(--muted);font-size:12px;margin-top:10px}
+@media(max-width:720px){.hide-sm{display:none}.repo .desc{max-width:none}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <a class="logo" href="../">Flutter<em>Cook</em></a>
+    <nav>
+      <a href="../#demos">Demos</a>
+      <a href="../#menu">The menu</a>
+      <a href="https://github.com/fluttercook">GitHub</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <div class="kicker">Live from the GitHub API</div>
+    <h1 class="serif">Flutter trends, <i>ranked</i>.</h1>
+    <p>The most-starred and fastest-rising Flutter &amp; Dart open-source repositories on GitHub — fetched fresh every time you load this page.</p>
+  </section>
+
+  <div class="tabs" id="tabs">
+    <button class="tab active" data-q="language:dart sort:stars" data-label="Most starred">★ Most starred</button>
+    <button class="tab" data-q="flutter ai in:name,description,topics sort:stars" data-label="AI &amp; LLM">AI &amp; LLM</button>
+    <button class="tab" data-q="flutter app in:name,description,topics sort:stars" data-label="Apps">Apps</button>
+    <button class="tab" data-q="language:dart created:>2024-01-01 sort:stars" data-label="New &amp; rising">New &amp; rising</button>
+    <button class="tab" data-q="flutter package in:name,description,topics sort:stars" data-label="Packages">Packages</button>
+  </div>
+  <div class="status" id="status">Loading…</div>
+
+  <table>
+    <thead><tr>
+      <th class="num">#</th><th>Repository</th><th class="num">Stars</th>
+      <th class="hide-sm">Language</th><th class="hide-sm">Updated</th>
+    </tr></thead>
+    <tbody id="rows"></tbody>
+  </table>
+  <p class="note">Data: GitHub Search API (unauthenticated, cached by GitHub). If a tab shows a rate-limit note, wait a minute and retry — GitHub limits anonymous search to ~10 requests/min.</p>
+
+  <footer>
+    Built by FlutterCook · <a href="https://github.com/fluttercook">github.com/fluttercook</a> ·
+    <a href="../">Home</a>
+  </footer>
+</div>
+
+<script>
+(function(){
+  var rows=document.getElementById('rows');
+  var status=document.getElementById('status');
+  var tabs=document.getElementById('tabs');
+  function kfmt(n){return n>=1000?(n/1000).toFixed(n>=10000?0:1)+'k':''+n;}
+  function ago(iso){
+    var d=(Date.now()-new Date(iso))/86400000;
+    if(d<1)return'today';if(d<2)return'yesterday';
+    if(d<30)return Math.floor(d)+'d ago';
+    if(d<365)return Math.floor(d/30)+'mo ago';
+    return Math.floor(d/365)+'y ago';
+  }
+  function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+  function skeleton(){
+    rows.innerHTML='';
+    for(var i=0;i<10;i++){
+      rows.innerHTML+='<tr class="skeleton"><td class="rank">'+(i+1)+'</td><td class="repo"><a>owner/repo placeholder</a><div class="desc">loading description text here</div></td><td class="num stars">0000</td><td class="hide-sm lang">Dart</td><td class="hide-sm upd">recently</td></tr>';
+    }
+  }
+  function render(items){
+    rows.innerHTML='';
+    items.forEach(function(r,i){
+      var topics=(r.topics||[]).slice(0,3).map(function(t){return '<span>'+esc(t)+'</span>';}).join('');
+      rows.innerHTML+=
+        '<tr>'+
+          '<td class="num rank">'+(i+1)+'</td>'+
+          '<td class="repo"><a href="'+r.html_url+'" target="_blank" rel="noopener">'+esc(r.full_name)+'</a>'+
+            '<div class="desc">'+esc(r.description||'')+'</div>'+
+            (topics?'<div class="topics">'+topics+'</div>':'')+
+          '</td>'+
+          '<td class="num stars">&#9733; '+kfmt(r.stargazers_count)+'</td>'+
+          '<td class="hide-sm lang">'+esc(r.language||'—')+'</td>'+
+          '<td class="hide-sm upd">Updated <b>'+ago(r.pushed_at)+'</b></td>'+
+        '</tr>';
+    });
+  }
+  function load(q,label){
+    skeleton();
+    status.textContent='Loading '+label.replace(/&amp;/g,'&')+' …';
+    var url='https://api.github.com/search/repositories?per_page=25&q='+encodeURIComponent(q);
+    fetch(url,{headers:{'Accept':'application/vnd.github+json'}})
+      .then(function(x){ if(x.status===403) throw new Error('rate'); if(!x.ok) throw new Error('http'); return x.json(); })
+      .then(function(d){
+        var items=(d.items||[]).slice(0,25);
+        if(!items.length){status.textContent='No results.';rows.innerHTML='';return;}
+        render(items);
+        status.innerHTML='Showing top '+items.length+' — '+label+' · sorted by stars · live from GitHub';
+      })
+      .catch(function(e){
+        rows.innerHTML='';
+        status.textContent=(e.message==='rate')
+          ? 'GitHub rate limit hit (anonymous search is ~10/min). Wait a minute and click the tab again.'
+          : 'Could not reach the GitHub API right now — please retry in a moment.';
+      });
+  }
+  tabs.addEventListener('click',function(e){
+    var b=e.target.closest('.tab'); if(!b)return;
+    [].forEach.call(tabs.children,function(t){t.classList.remove('active');});
+    b.classList.add('active');
+    load(b.dataset.q,b.dataset.label);
+  });
+  load('language:dart sort:stars','Most starred');
+})();
+</script>
+</body>
+</html>
