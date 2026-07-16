@@ -1,0 +1,33 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipes');
+  return recipes.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+---
+<BaseLayout title={`${d.title} · FlutterCook`} description={d.description} ogType="article">
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/">FlutterCook</a> / <a href="/recipes">recipes</a> / {d.package}</div>
+      <h1 class="serif">{d.title}</h1>
+      <p class="sub">{d.description}</p>
+      <div class="factbox">
+        <div><small>Category</small><b>{d.category}</b></div>
+        <div><small>Stars</small><b>★ {d.stars.toLocaleString()}</b></div>
+        <div><small>Last update</small><b>{d.lastUpdate}</b></div>
+        <div><small>Priority</small><b>{d.priority}</b></div>
+      </div>
+      <div class="prose">
+        <Content />
+      </div>
+      {d.topics && d.topics.length > 0 && (
+        <div class="tags">{d.topics.map((t) => <a href={`/recipes`}>#{t}</a>)}</div>
+      )}
+    </article>
+  </main>
+</BaseLayout>

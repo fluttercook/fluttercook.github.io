@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('recipes')).filter(r => !r.data.draft);
+---
+<BaseLayout title="About — FlutterCook">
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/">FlutterCook</a> / about</div>
+      <h1 class="serif">A cookbook for <i>open-source</i> Flutter.</h1>
+      <div class="prose">
+        <p>FlutterCook is a growing library of {all.length} hands-on recipes for the best open-source Flutter and Dart projects — libraries, UI components, state management, animation, backend, and AI. Every recipe is chosen from live GitHub trend data and pub.dev, so the list reflects what the community is actually building with right now.</p>
+        <h2 class="serif">How recipes are <i>chosen</i></h2>
+        <p>We scan hundreds of Flutter/Dart repositories, rank them by stars weighted for recent activity, layer in editorial "must-know" picks and YouTube demand signals, then write a focused guide for each. The <a href="/trends">live trends page</a> shows the raw leaderboard, refreshed on every visit.</p>
+        <h2 class="serif">Built in the <i>open</i></h2>
+        <p>Source and demos live at <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. This site is built with <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> and deployed to GitHub Pages; a companion edition is published at <a href="https://flutter9.blogspot.com" target="_blank" rel="noopener">flutter9.blogspot.com</a>.</p>
+      </div>
+    </article>
+  </main>
+</BaseLayout>

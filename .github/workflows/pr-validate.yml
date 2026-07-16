@@ -1,43 +1,30 @@
-# Validate contributor PRs against the FlutterCook "standard".
-# This gates merges via a required status check — the actual merge stays
-# with a maintainer (or GitHub native auto-merge once branch protection is on).
 name: Validate PR
 
 on:
   pull_request:
-    types: [opened, synchronize, reopened]
-
-permissions:
-  contents: read
-  pull-requests: write
+    branches: [main]
 
 jobs:
   validate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-
-      - name: Check demo standard
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Check recipe front-matter
         run: |
           set -e
-          git fetch origin "${{ github.base_ref }}" --depth=1
-          CHANGED=$(git diff --name-only "origin/${{ github.base_ref }}"...HEAD | grep -E '^demos/.+/index\.html$' || true)
-          if [ -z "$CHANGED" ]; then
-            echo "No demos/<name>/index.html changed — nothing to validate."
-            exit 0
-          fi
-          FAIL=0
-          for f in $CHANGED; do
-            echo "Checking $f"
-            [ -s "$f" ] || { echo "::error file=$f::File is empty"; FAIL=1; continue; }
-            grep -qi '<title>' "$f"            || { echo "::error file=$f::Missing <title>"; FAIL=1; }
-            grep -qi 'name="description"' "$f"  || { echo "::error file=$f::Missing meta description"; FAIL=1; }
-            grep -qi 'pub.dev' "$f"             || echo "::warning file=$f::No pub.dev link found"
-            if grep -Eq '(gh[po]_[A-Za-z0-9]{20,}|AKIA[0-9A-Z]{16})' "$f"; then
-              echo "::error file=$f::Possible secret/token committed"; FAIL=1;
-            fi
+          fail=0
+          for f in src/content/recipes/*.md; do
+            for key in title package repo category; do
+              grep -q "^$key:" "$f" || { echo "::error file=$f::missing '$key' in front-matter"; fail=1; }
+            done
           done
-          [ "$FAIL" = "0" ] || { echo "Validation failed."; exit 1; }
-          echo "All demo files pass the FlutterCook standard."
+          exit $fail
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install & build
+        run: |
+          npm ci
+          npm run build

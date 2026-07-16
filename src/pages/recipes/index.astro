@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('recipes'))
+  .filter(r => !r.data.draft)
+  .sort((a,b) => (a.data.trendRank||9999) - (b.data.trendRank||9999));
+const cats = [...new Set(all.map(r => r.data.category))].sort();
+---
+<BaseLayout title="All recipes — FlutterCook" description="Browse all FlutterCook recipes: the best open-source Flutter libraries, packages and components, ranked by GitHub trend data.">
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">The catalog</div>
+      <h1 class="serif">All <i>recipes</i></h1>
+      <p>{all.length} open-source Flutter projects & components — filter by category.</p>
+    </section>
+    <div class="filterbar" id="filters">
+      <button class="active" data-cat="all">All ({all.length})</button>
+      {cats.map(c => <button data-cat={c}>{c}</button>)}
+    </div>
+    <section class="sec" style="padding-top:0">
+      <div class="grid" id="grid">
+        {all.map(r => (
+          <a class="card" href={`/recipes/${r.id}`} data-cat={r.data.category}>
+            <span class="cat">{r.data.category}</span>
+            <h3>{r.data.package}</h3>
+            <p>{r.data.description}</p>
+            <div class="meta"><span>★ <b>{r.data.stars.toLocaleString()}</b></span><span>Updated {r.data.lastUpdate}</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+  <script is:inline>
+    (function(){
+      const params = new URLSearchParams(location.search);
+      const pre = params.get('cat');
+      const btns = [...document.querySelectorAll('#filters button')];
+      const cards = [...document.querySelectorAll('#grid .card')];
+      function apply(cat){
+        btns.forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
+        cards.forEach(c => c.style.display = (cat === 'all' || c.dataset.cat === cat) ? '' : 'none');
+      }
+      btns.forEach(b => b.addEventListener('click', () => apply(b.dataset.cat)));
+      apply(pre && btns.some(b => b.dataset.cat === pre) ? pre : 'all');
+    })();
+  </script>
+</BaseLayout>

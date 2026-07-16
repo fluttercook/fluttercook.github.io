@@ -1,0 +1,44 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('recipes')).filter(r => !r.data.draft);
+const featured = all.sort((a,b) => (a.data.trendRank||9999) - (b.data.trendRank||9999)).slice(0, 9);
+const cats = [...new Set(all.map(r => r.data.category))];
+const total = all.length;
+---
+<BaseLayout title="FlutterCook — 500 open-source Flutter recipes, AI-first">
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Open-source · AI-first · trend-driven</div>
+      <h1 class="serif">A cookbook for the best <i>Flutter</i> libraries.</h1>
+      <p>{total} hands-on recipes covering the top open-source Flutter projects and components — ranked from live GitHub trend data, each with what it does, why it's rising, and how to use it.</p>
+      <div class="cta-row">
+        <a class="btn pri" href="/recipes">Browse recipes</a>
+        <a class="btn" href="/trends">Live GitHub trends</a>
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2 class="serif">Trending <i>right now</i></h2>
+      <p class="lead">The highest-momentum projects in the dataset, by stars weighted for recency.</p>
+      <div class="grid">
+        {featured.map(r => (
+          <a class="card" href={`/recipes/${r.id}`}>
+            <span class="cat">{r.data.category}</span>
+            <h3>{r.data.package}</h3>
+            <p>{r.data.description}</p>
+            <div class="meta"><span>★ <b>{r.data.stars.toLocaleString()}</b></span><span>Updated {r.data.lastUpdate}</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2 class="serif">By <i>category</i></h2>
+      <p class="lead">{cats.length} categories across {total} recipes.</p>
+      <div class="filterbar">
+        {cats.map(c => <a class="btn" href={`/recipes?cat=${encodeURIComponent(c)}`}>{c}</a>)}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
