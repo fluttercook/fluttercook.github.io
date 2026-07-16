@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>google_generative_ai demo · FlutterCook</title>
+<meta name="description" content="Interactive demo of a Google Gemini chatbot built with the google_generative_ai SDK in Flutter.">
+<style>
+:root{--bg:#0b0b0c;--ink:#f3efe8;--muted:#9b968c;--accent:#57e3cf;--line:#2a2a2c;--panel:#141416}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;-webkit-font-smoothing:antialiased}
+body::after{content:"";position:fixed;inset:0;pointer-events:none;opacity:.05;z-index:50;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.serif{font-family:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+.wrap{max-width:720px;margin:0 auto;padding:0 24px}
+.top{padding:30px 0 6px}
+.crumb{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted)}
+.crumb a{color:var(--accent);text-decoration:none}
+h1{font-size:clamp(28px,5vw,42px);font-weight:400;margin:16px 0 8px;line-height:1.08}
+h1 i{font-style:italic;color:var(--accent)}
+.sub{color:var(--muted);font-size:15px}
+.note{margin:18px 0;padding:12px 16px;border-radius:12px;border:1px solid var(--line);background:var(--panel);color:var(--muted);font-size:13px}
+.note b{color:var(--ink)}.note a{color:var(--accent);text-decoration:none}
+.phone{max-width:400px;margin:14px auto 26px;background:#000;border:1px solid #3a3a3e;border-radius:40px;padding:10px;box-shadow:0 40px 90px rgba(0,0,0,.65)}
+.screen{background:var(--panel);border-radius:32px;overflow:hidden}
+.bar{display:flex;align-items:center;gap:10px;padding:16px 18px;border-bottom:1px solid var(--line)}
+.bar .av{width:34px;height:34px;border-radius:9px;background:linear-gradient(135deg,#4285f4,#9b72cb 50%,#d96570);display:grid;place-items:center;color:#fff;font-weight:700}
+.bar b{font-size:15px}.bar small{display:block;color:var(--accent);font-size:11px}
+.badge{margin-left:auto;font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--accent);border:1px solid var(--line);border-radius:100px;padding:4px 10px}
+.chat{height:400px;overflow-y:auto;padding:16px;display:flex;flex-direction:column;gap:10px}
+.msg{max-width:82%;padding:10px 13px;border-radius:14px;font-size:14px;line-height:1.5;white-space:pre-wrap}
+.bot{background:#1d1d20;align-self:flex-start;border-bottom-left-radius:4px}
+.me{background:var(--accent);color:#08201c;align-self:flex-end;border-bottom-right-radius:4px;font-weight:500}
+.cursor::after{content:'▍';animation:blink 1s steps(2) infinite;color:var(--accent)}
+@keyframes blink{0%,50%{opacity:1}50.01%,100%{opacity:0}}
+.input{display:flex;gap:8px;padding:12px;border-top:1px solid var(--line)}
+.input input{flex:1;background:#08080a;border:1px solid var(--line);color:var(--ink);border-radius:12px;padding:11px 13px;font-size:14px;outline:none}
+.input button{background:var(--accent);border:none;color:#08201c;border-radius:12px;padding:0 16px;font-weight:700;cursor:pointer}
+.chips{max-width:400px;margin:0 auto 40px;display:flex;flex-wrap:wrap;gap:8px;justify-content:center}
+.chip{font-size:13px;color:var(--muted);border:1px solid var(--line);border-radius:100px;padding:7px 13px;cursor:pointer;background:var(--panel)}
+.chip:hover{border-color:var(--accent);color:var(--ink)}
+footer{border-top:1px solid var(--line);padding:26px 0 40px;text-align:center;color:var(--muted);font-size:13px}
+footer a{color:var(--accent);text-decoration:none}
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="top">
+      <div class="crumb"><a href="../../">FlutterCook</a> / demos / google_generative_ai</div>
+      <h1 class="serif">Gemini chat with <i>google_generative_ai</i></h1>
+      <p class="sub">A UI demo of Recipe #02 — streaming multimodal chat powered by Google Gemini.</p>
+    </div>
+    <div class="note">This static page <b>simulates</b> the streaming UI so it runs anywhere. In a real Flutter build the same widget streams tokens from the Gemini API via the official SDK — full source at <a href="https://github.com/fluttercook">github.com/fluttercook</a>.</div>
+    <div class="phone">
+      <div class="screen">
+        <div class="bar">
+          <div class="av">✦</div>
+          <div><b>Gemini</b><small>● gemini-1.5-flash</small></div>
+          <span class="badge">streaming</span>
+        </div>
+        <div class="chat" id="chat">
+          <div class="msg bot">Hi! I'm Gemini, wired up through the google_generative_ai SDK. Ask me anything — I stream answers token by token. ✦</div>
+        </div>
+        <div class="input">
+          <input id="q" placeholder="Type a message…" autocomplete="off">
+          <button id="send">➤</button>
+        </div>
+      </div>
+    </div>
+    <div class="chips">
+      <span class="chip">What can Gemini do?</span>
+      <span class="chip">Give me a Flutter tip</span>
+      <span class="chip">Write a haiku about apps</span>
+    </div>
+    <footer>Read the guide on FlutterCook · <a href="https://github.com/fluttercook">Full runnable source</a> · <a href="https://pub.dev/packages/google_generative_ai">pub.dev/packages/google_generative_ai</a></footer>
+  </div>
+<script>
+  const chat=document.getElementById('chat'),q=document.getElementById('q'),send=document.getElementById('send');
+  const answers={
+    "what can gemini do":"Gemini is multimodal: it can chat, reason over images, write and explain code, summarize long text, and call functions/tools. In Flutter you get all of it through the google_generative_ai SDK.",
+    "give me a flutter tip":"Prefer const constructors wherever you can — they let Flutter skip rebuilding and reuse widgets, which is one of the easiest performance wins in any app.",
+    "write a haiku about apps":"Taps ripple like rain—\nwidgets bloom on glowing glass,\nDart hums underneath.",
+  };
+  const fallback=t=>"Streaming from Gemini, I'd reason about \""+t+"\" and reply token by token — this static demo shows the UI; the Flutter build calls the real Gemini API.";
+  const add=(cls,text="")=>{const d=document.createElement('div');d.className='msg '+cls;d.textContent=text;chat.appendChild(d);chat.scrollTop=chat.scrollHeight;return d;};
+  async function stream(el,text){el.classList.add('cursor');for(let i=0;i<text.length;i++){el.textContent+=text[i];chat.scrollTop=chat.scrollHeight;await new Promise(r=>setTimeout(r,13+Math.random()*20));}el.classList.remove('cursor');}
+  async function ask(text){if(!text.trim())return;add('me',text);q.value='';const key=text.toLowerCase().replace(/[^a-z ]/g,'').trim();const ans=answers[key]||fallback(text);await new Promise(r=>setTimeout(r,280));const bot=add('bot');await stream(bot,ans);}
+  send.onclick=()=>ask(q.value);
+  q.addEventListener('keydown',e=>{if(e.key==='Enter')ask(q.value);});
+  document.querySelectorAll('.chip').forEach(c=>c.onclick=()=>ask(c.textContent));
+</script>
+</body>
+</html>
