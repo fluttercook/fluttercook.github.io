@@ -5,13 +5,14 @@ const all = (await getCollection('recipes'))
   .filter(r => !r.data.draft)
   .sort((a,b) => (a.data.trendRank||9999) - (b.data.trendRank||9999));
 const cats = [...new Set(all.map(r => r.data.category))].sort();
+const PAGE = 48;
 ---
-<BaseLayout title="All recipes — FlutterCook" description="Browse all FlutterCook recipes: the best open-source Flutter libraries, packages and components, ranked by GitHub trend data.">
+<BaseLayout title="All recipes — FlutterCook" description="Browse all 500 FlutterCook recipes: the best open-source Flutter libraries, packages and components, ranked by GitHub trend data.">
   <main class="wrap">
     <section class="hero" style="padding:5vh 0 1vh">
       <div class="kicker">The catalog</div>
       <h1 class="serif">All <i>recipes</i></h1>
-      <p>{all.length} open-source Flutter projects & components — filter by category.</p>
+      <p>{all.length} open-source Flutter projects &amp; components — filter by category, ranked by momentum.</p>
     </section>
     <div class="filterbar" id="filters">
       <button class="active" data-cat="all">All ({all.length})</button>
@@ -19,8 +20,8 @@ const cats = [...new Set(all.map(r => r.data.category))].sort();
     </div>
     <section class="sec" style="padding-top:0">
       <div class="grid" id="grid">
-        {all.map(r => (
-          <a class="card" href={`/recipes/${r.id}`} data-cat={r.data.category}>
+        {all.map((r,i) => (
+          <a class="card" href={`/recipes/${r.id}`} data-cat={r.data.category} data-i={i}>
             <span class="cat">{r.data.category}</span>
             <h3>{r.data.package}</h3>
             <p>{r.data.description}</p>
@@ -28,20 +29,38 @@ const cats = [...new Set(all.map(r => r.data.category))].sort();
           </a>
         ))}
       </div>
+      <div style="text-align:center;margin-top:28px">
+        <button class="btn" id="more">Load more</button>
+        <p class="note" id="count" style="color:var(--muted);font-size:13px;margin-top:10px"></p>
+      </div>
     </section>
   </main>
-  <script is:inline>
+  <script is:inline define:vars={{ PAGE }}>
     (function(){
       const params = new URLSearchParams(location.search);
-      const pre = params.get('cat');
       const btns = [...document.querySelectorAll('#filters button')];
       const cards = [...document.querySelectorAll('#grid .card')];
-      function apply(cat){
-        btns.forEach(b => b.classList.toggle('active', b.dataset.cat === cat));
-        cards.forEach(c => c.style.display = (cat === 'all' || c.dataset.cat === cat) ? '' : 'none');
+      const moreBtn = document.getElementById('more');
+      const count = document.getElementById('count');
+      let cat = 'all', shown = 0;
+      function matches(c){ return cat==='all' || c.dataset.cat===cat; }
+      function render(reset){
+        if(reset){ shown = 0; }
+        const list = cards.filter(c => matches(c));
+        cards.forEach(c => { c.style.display='none'; });
+        shown = Math.min(shown + PAGE, list.length);
+        list.forEach((c,idx)=>{ c.style.display = idx < shown ? '' : 'none'; });
+        count.textContent = `Showing ${Math.min(shown,list.length)} of ${list.length}`;
+        moreBtn.style.display = shown < list.length ? '' : 'none';
       }
-      btns.forEach(b => b.addEventListener('click', () => apply(b.dataset.cat)));
-      apply(pre && btns.some(b => b.dataset.cat === pre) ? pre : 'all');
+      btns.forEach(b => b.addEventListener('click', () => {
+        btns.forEach(x=>x.classList.remove('active')); b.classList.add('active');
+        cat = b.dataset.cat; render(true);
+      }));
+      moreBtn.addEventListener('click', () => render(false));
+      const pre = params.get('cat');
+      if(pre && btns.some(b=>b.dataset.cat===pre)){ btns.forEach(x=>x.classList.remove('active')); const t=btns.find(b=>b.dataset.cat===pre); t.classList.add('active'); cat=pre; }
+      render(true);
     })();
   </script>
 </BaseLayout>

@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const guides = (await getCollection('guides')).filter(g=>!g.data.draft);
+
+const featured = [
+  { id: 'lHhRhPV--G0', title: 'Flutter in 100 Seconds', channel: 'Fireship' },
+  { id: 'VPvVD8t02U8', title: 'Flutter Course for Beginners (37-hour)', channel: 'freeCodeCamp' },
+  { id: 'CzRQ9mnmh44', title: 'The Complete Dart & Flutter Developer Course', channel: 'Tutorials' },
+  { id: 'Zp7VKVhirmw', title: 'Riverpod 2.0 — Complete Guide', channel: 'Code With Andrea' },
+  { id: 'J2iFYZUabVM', title: 'State Management with Riverpod: Essential Guide', channel: 'Code With Andrea' },
+];
+
+const channels = [
+  { name: 'Flutter (official)', url: 'https://www.youtube.com/@flutterdev', focus: 'Releases · Widget of the Week' },
+  { name: 'Fireship', url: 'https://www.youtube.com/@Fireship', focus: 'Fast, high-view explainers' },
+  { name: 'Code With Andrea', url: 'https://www.youtube.com/@CodeWithAndrea', focus: 'Architecture · Riverpod' },
+  { name: 'HeyFlutter.com', url: 'https://www.youtube.com/@HeyFlutter', focus: 'Package & widget how-tos' },
+  { name: 'The Flutter Way', url: 'https://www.youtube.com/@TheFlutterWay', focus: 'UI clones & design' },
+  { name: 'Reso Coder', url: 'https://www.youtube.com/@ResoCoder', focus: 'TDD · clean architecture' },
+  { name: 'Flutter Mapp', url: 'https://www.youtube.com/@FlutterMapp', focus: 'Tips · packages' },
+  { name: 'Vandad Nahavandipoor', url: 'https://www.youtube.com/@vandadnp', focus: 'Long-form courses' },
+  { name: 'Rivaan Ranawat', url: 'https://www.youtube.com/@RivaanRanawat', focus: 'Full-stack app builds' },
+  { name: 'Mitch Koko', url: 'https://www.youtube.com/@createdbykoko', focus: 'Trendy UI & AI builds' },
+  { name: 'Tadas Petra', url: 'https://www.youtube.com/@TadasPetra', focus: 'Package deep-dives · news' },
+  { name: 'The Net Ninja', url: 'https://www.youtube.com/@NetNinja', focus: 'Beginner Flutter series' },
+];
+
+const topics = [
+  'flutter ai', 'flutter animation', 'flutter state management riverpod', 'flutter ui design',
+  'flutter firebase', 'flutter clean architecture', 'flutter bloc', 'flutter gemini ai',
+];
+const yt = (q) => 'https://www.youtube.com/results?search_query=' + encodeURIComponent(q) + '&sp=CAM%253D';
+---
+<BaseLayout title="Flutter on YouTube — trends & top channels | FlutterCook" description="A showcase of the best Flutter content on YouTube: flagship videos, the top creators to follow, and live trend searches by topic.">
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Video trends</div>
+      <h1 class="serif">Flutter on <i>YouTube</i>.</h1>
+      <p>The videos and creators the Flutter community is watching — flagship tutorials, the channels worth following, and live trend searches you can open by topic.</p>
+    </section>
+
+    <section class="sec">
+      <h2 class="serif">Flagship <i>videos</i></h2>
+      <p class="lead">Evergreen, high-view introductions and guides — a fast on-ramp for any topic.</p>
+      <div class="vgrid">
+        {featured.map(v => (
+          <a class="vcard" href={`https://www.youtube.com/watch?v=${v.id}`} target="_blank" rel="noopener">
+            <div class="thumb">
+              <img loading="lazy" src={`https://i.ytimg.com/vi/${v.id}/hqdefault.jpg`} alt={v.title} width="480" height="360" />
+              <span class="play">▶</span>
+            </div>
+            <div class="vmeta"><b>{v.title}</b><small>{v.channel}</small></div>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2 class="serif">Live trend <i>searches</i></h2>
+      <p class="lead">Open the freshest videos for a topic — sorted by upload date, straight on YouTube.</p>
+      <div class="filterbar">
+        {topics.map(t => <a class="btn" href={yt(t)} target="_blank" rel="noopener">{t.replace('flutter ','')} ↗</a>)}
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2 class="serif">YouTube <i>learning paths</i></h2>
+      <p class="lead">Curated guides that turn trending videos into a plan — by topic.</p>
+      <div class="grid">
+        {guides.map(g => (
+          <a class="card" href={`/guides/${g.id}`}>
+            <span class="cat">{g.data.topic || 'Guide'}</span>
+            <h3 style="font-family:inherit;font-size:15px">{g.data.title}</h3>
+            <p>{g.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+
+    <section class="sec">
+      <h2 class="serif">Top <i>channels</i> to follow</h2>
+      <p class="lead">Where FlutterCook watches for what's next.</p>
+      <div class="grid">
+        {channels.map(c => (
+          <a class="card" href={c.url} target="_blank" rel="noopener">
+            <span class="cat">YouTube</span>
+            <h3>{c.name}</h3>
+            <p>{c.focus}</p>
+          </a>
+        ))}
+      </div>
+      <p class="note" style="color:var(--muted);font-size:12px;margin-top:14px">Trend signals are compiled from public YouTube search and editorial sources; open a topic above for live, up-to-the-minute results.</p>
+    </section>
+  </main>
+
+  <style>
+    .vgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:16px}
+    .vcard{background:var(--panel);border:1px solid var(--line);border-radius:16px;overflow:hidden;display:block;transition:border-color .2s,transform .2s}
+    .vcard:hover{border-color:var(--accent);transform:translateY(-2px)}
+    .thumb{position:relative;aspect-ratio:16/9;overflow:hidden;background:#000}
+    .thumb img{width:100%;height:100%;object-fit:cover;display:block}
+    .thumb .play{position:absolute;inset:0;display:grid;place-items:center;font-size:34px;color:#fff;background:rgba(0,0,0,.25);text-shadow:0 2px 10px rgba(0,0,0,.6)}
+    .vmeta{padding:12px 14px}
+    .vmeta b{display:block;font-size:14px;color:var(--ink);line-height:1.3}
+    .vmeta small{color:var(--accent);font-size:12px}
+  </style>
+</BaseLayout>

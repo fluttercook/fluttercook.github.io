@@ -23,4 +23,18 @@ const recipes = defineCollection({
   }),
 });
 
-export const collections = { recipes };
+const guides = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/guides' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().default(''),
+    kind: z.string().default('YouTube'),
+    topic: z.string().default(''),
+    videos: z.array(z.string()).default([]),
+    channels: z.array(z.string()).default([]),
+    searchUrl: z.string().default(''),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { recipes, guides };

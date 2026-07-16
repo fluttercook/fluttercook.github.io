@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const guides = (await getCollection('guides')).filter(g => !g.data.draft);
+---
+<BaseLayout title="Flutter guides & YouTube trends — FlutterCook" description="Editorial Flutter guides: the best YouTube tutorials by topic, top channels, and what's trending in Flutter video right now.">
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Guides</div>
+      <h1 class="serif">Flutter <i>guides</i> & video trends</h1>
+      <p>Curated YouTube learning paths by topic — plus the channels and searches to follow.</p>
+    </section>
+    <section class="sec" style="padding-top:0">
+      <div class="grid">
+        {guides.map(g => (
+          <a class="card" href={`/guides/${g.id}`}>
+            <span class="cat">{g.data.kind}{g.data.topic ? ' · ' + g.data.topic : ''}</span>
+            <h3 style="font-family:inherit;font-size:16px">{g.data.title}</h3>
+            <p>{g.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
