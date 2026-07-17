@@ -43,4 +43,24 @@ const guides = defineCollection({
   }),
 });
 
-export const collections = { recipes, guides };
+const news = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/news' }),
+  schema: z.object({
+    title: z.string(),
+    description: z.string().default(''),
+    seoDescription: z.string().default(''),
+    keywords: z.array(z.string()).default([]),
+    category: z.string().default('Mobile'),
+    topic: z.string().default(''),
+    author: z.string().default('FlutterCook Editorial'),
+    publishDate: z.string(),
+    updatedDate: z.string().default(''),
+    emoji: z.string().default('📱'),
+    tags: z.array(z.string()).default([]),
+    sources: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
+    related: z.array(z.object({ slug: z.string(), title: z.string() })).default([]),
+    draft: z.boolean().default(false),
+  }),
+});
+
+export const collections = { recipes, guides, news };

@@ -1,0 +1,74 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('news'))
+  .filter((n) => !n.data.draft)
+  .sort((a, b) => (a.data.publishDate < b.data.publishDate ? 1 : -1));
+const cats = [...new Set(all.map((n) => n.data.category))].sort();
+const site = 'https://fluttercook.github.io';
+const fmtDate = (s) =>
+  new Date(s).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'CollectionPage',
+  name: 'FlutterCook News — Mobile & Flutter developer news',
+  url: `${site}/news/`,
+  description:
+    'Reviews and analysis on Apple iOS, Google Android, Flutter, iPhone, and macOS for mobile app developers.',
+  hasPart: all.slice(0, 20).map((n) => ({
+    '@type': 'NewsArticle',
+    headline: n.data.title,
+    datePublished: n.data.publishDate,
+    url: `${site}/news/${n.id}/`,
+  })),
+};
+---
+<BaseLayout
+  title="Mobile & Flutter News — Apple, iOS, Android, iPhone, macOS · FlutterCook"
+  description="FlutterCook News: reviews and analysis on Apple iOS, Google Android, Flutter, iPhone, and macOS — written for mobile app developers."
+  keywords={['flutter news', 'ios news', 'android news', 'iphone news', 'macos news', 'mobile app development news']}
+  jsonLd={jsonLd}
+>
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Daily developer news</div>
+      <h1 class="serif">Mobile &amp; Flutter <i>News</i></h1>
+      <p>Reviews and analysis on Apple, iOS, Google Android, Flutter, iPhone &amp; macOS — written for people who build mobile apps.</p>
+    </section>
+    <div class="filterbar" id="filters">
+      <button class="active" data-cat="all">All ({all.length})</button>
+      {cats.map((c) => <button data-cat={c}>{c}</button>)}
+    </div>
+    <section class="sec" style="padding-top:0">
+      <div class="grid" id="grid">
+        {all.map((n) => (
+          <a class="card newscard" href={`/news/${n.id}/`} data-cat={n.data.category}>
+            <span class="cat">{n.data.emoji} {n.data.category}</span>
+            <h3>{n.data.title}</h3>
+            <p>{n.data.description}</p>
+            <div class="meta">
+              <span>{n.data.author}</span><span>{fmtDate(n.data.publishDate)}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+  <script is:inline>
+    (function () {
+      const btns = [...document.querySelectorAll('#filters button')];
+      const cards = [...document.querySelectorAll('#grid .card')];
+      btns.forEach((b) =>
+        b.addEventListener('click', () => {
+          btns.forEach((x) => x.classList.remove('active'));
+          b.classList.add('active');
+          const cat = b.dataset.cat;
+          cards.forEach((c) => {
+            c.style.display = cat === 'all' || c.dataset.cat === cat ? '' : 'none';
+          });
+        })
+      );
+    })();
+  </script>
+</BaseLayout>
