@@ -56,13 +56,14 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
   {graphs.map((g) => (
     <script type="application/ld+json" set:html={JSON.stringify(g)} />
   ))}
-  <!-- Google tag (gtag.js) -->
+  <!-- Google Analytics (gtag.js) — primary property + FighTechVN GA4 stream -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-B299VQ6G9N"></script>
   <script is:inline>
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
     gtag('config', 'G-B299VQ6G9N');
+    gtag('config', 'G-25H7QLJYDE');
   </script>
 </head>
 <body>
