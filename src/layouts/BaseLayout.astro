@@ -11,14 +11,19 @@ const {
   datePublished,
   dateModified,
   jsonLd = [],
+  lang = 'en',
 } = Astro.props;
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(image, Astro.site).href;
 const kw = Array.isArray(keywords) ? keywords.join(', ') : keywords;
 const graphs = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
+// hreflang alternates: derive the shared canonical path (strip /vi) then build both.
+const basePath = Astro.url.pathname.replace(/^\/vi(?=\/|$)/, '') || '/';
+const enHref = new URL(basePath, Astro.site).href;
+const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site).href;
 ---
 <!doctype html>
-<html lang="en">
+<html lang={lang}>
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -29,6 +34,9 @@ const graphs = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
   <meta name="robots" content="index, follow, max-image-preview:large" />
   <meta name="author" content="FlutterCook" />
   <link rel="canonical" href={canonical} />
+  <link rel="alternate" hreflang="en" href={enHref} />
+  <link rel="alternate" hreflang="vi" href={viHref} />
+  <link rel="alternate" hreflang="x-default" href={enHref} />
   <meta property="og:site_name" content="FlutterCook" />
   <meta property="og:title" content={title} />
   <meta property="og:description" content={description} />
@@ -56,8 +64,8 @@ const graphs = Array.isArray(jsonLd) ? jsonLd : [jsonLd];
   </script>
 </head>
 <body>
-  <div class="wrap"><Header /></div>
+  <div class="wrap"><Header lang={lang} /></div>
   <slot />
-  <Footer />
+  <Footer lang={lang} />
 </body>
 </html>

@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('recipesVi'))
+  .filter((r) => !r.data.draft)
+  .sort((a, b) => (a.data.trendRank || 9999) - (b.data.trendRank || 9999));
+const cats = [...new Set(all.map((r) => r.data.category))].sort();
+const PAGE = 48;
+---
+<BaseLayout lang="vi" title="Tất cả công thức — FlutterCook" description="Duyệt toàn bộ 500 công thức FlutterCook: các thư viện, gói và thành phần Flutter mã nguồn mở tốt nhất, xếp hạng theo dữ liệu xu hướng GitHub.">
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Danh mục</div>
+      <h1 class="serif">Tất cả <i>công thức</i></h1>
+      <p>{all.length} dự án &amp; thành phần Flutter mã nguồn mở — lọc theo danh mục, xếp theo độ hot.</p>
+    </section>
+    <div class="filterbar" id="filters">
+      <button class="active" data-cat="all">Tất cả ({all.length})</button>
+      {cats.map((c) => <button data-cat={c}>{c}</button>)}
+    </div>
+    <section class="sec" style="padding-top:0">
+      <div class="grid" id="grid">
+        {all.map((r) => (
+          <a class="card" href={`/vi/recipes/${r.id}/`} data-cat={r.data.category}>
+            <span class="cat">{r.data.category}</span>
+            <h3>{r.data.package}</h3>
+            <p>{r.data.description}</p>
+            <div class="meta"><span>★ <b>{r.data.stars.toLocaleString()}</b></span><span>Cập nhật {r.data.lastUpdate}</span></div>
+          </a>
+        ))}
+      </div>
+      <div style="text-align:center;margin-top:28px">
+        <button class="btn" id="more">Xem thêm</button>
+        <p class="note" id="count" style="color:var(--muted);font-size:13px;margin-top:10px"></p>
+      </div>
+    </section>
+  </main>
+  <script is:inline define:vars={{ PAGE }}>
+    (function(){
+      const btns=[...document.querySelectorAll('#filters button')];
+      const cards=[...document.querySelectorAll('#grid .card')];
+      const moreBtn=document.getElementById('more');
+      const count=document.getElementById('count');
+      let cat='all',shown=0;
+      function matches(c){return cat==='all'||c.dataset.cat===cat;}
+      function render(reset){
+        if(reset)shown=0;
+        const list=cards.filter(c=>matches(c));
+        cards.forEach(c=>{c.style.display='none';});
+        shown=Math.min(shown+PAGE,list.length);
+        list.forEach((c,idx)=>{c.style.display=idx<shown?'':'none';});
+        count.textContent=`Đang hiện ${Math.min(shown,list.length)} / ${list.length}`;
+        moreBtn.style.display=shown<list.length?'':'none';
+      }
+      btns.forEach(b=>b.addEventListener('click',()=>{btns.forEach(x=>x.classList.remove('active'));b.classList.add('active');cat=b.dataset.cat;render(true);}));
+      moreBtn.addEventListener('click',()=>render(false));
+      render(true);
+    })();
+  </script>
+</BaseLayout>

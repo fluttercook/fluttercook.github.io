@@ -20,6 +20,7 @@ from collections import defaultdict
 
 ROOT = Path(__file__).resolve().parent.parent
 RECIPES = ROOT / "src/content/recipes"
+RECIPES_VI = ROOT / "src/content/recipes-vi"
 DATASET = json.loads((ROOT / "data/FlutterCook_500_dataset.json").read_text("utf-8"))
 YEAR = "2026"
 
@@ -138,6 +139,142 @@ DEFAULT_CAT = {
 }
 
 APP_CATEGORIES = {"App/Template", "Learning/Awesome"}
+
+# ---- Vietnamese ----
+CAT_VI = {
+    "State management": "quản lý trạng thái",
+    "UI/Components": "giao diện & thành phần UI",
+    "Animation": "hoạt ảnh",
+    "AI/ML": "AI/ML",
+    "Backend/Data": "backend & dữ liệu",
+    "Library/Tooling": "thư viện & công cụ",
+    "App/Template": "ứng dụng & mẫu",
+    "Navigation": "điều hướng",
+    "Learning/Awesome": "học tập & tài nguyên",
+    "Framework/Core": "framework lõi",
+}
+CATEGORY_VI = {
+    "State management": {
+        "kind": "thư viện quản lý trạng thái",
+        "blurb": "giữ giao diện đồng bộ với trạng thái ứng dụng khi dữ liệu thay đổi",
+        "keywords": ["flutter quản lý trạng thái", "flutter state management", "ứng dụng di động flutter"],
+        "use_cases": [
+            "cây widget cần phản ứng theo dữ liệu dùng chung thay đổi",
+            "bạn muốn tách logic nghiệp vụ khỏi giao diện",
+            "bạn vượt quá `setState` và cần rebuild có kiểm soát",
+        ],
+    },
+    "UI/Components": {
+        "kind": "thư viện thành phần giao diện (UI)",
+        "blurb": "dựng các widget giao diện đẹp, tái sử dụng nhanh hơn",
+        "keywords": ["flutter ui", "widget flutter", "giao diện ứng dụng flutter"],
+        "use_cases": [
+            "bạn cần một widget dựng sẵn thay vì tự viết từ đầu",
+            "bạn muốn giao diện nhất quán giữa các màn hình",
+            "bạn dựng nhanh giao diện ứng dụng di động",
+        ],
+    },
+    "Animation": {
+        "kind": "thư viện hoạt ảnh",
+        "blurb": "thêm chuyển động mượt mà, sinh động cho ứng dụng Flutter",
+        "keywords": ["flutter animation", "hoạt ảnh flutter", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn muốn micro-interaction đẹp mà không phải tự viết tween",
+            "bạn cần hiệu ứng chuyển trang hoặc loading",
+            "bạn muốn làm sống động giao diện tĩnh",
+        ],
+    },
+    "AI/ML": {
+        "kind": "bộ công cụ AI/ML",
+        "blurb": "đưa AI (trên thiết bị hoặc đám mây) vào ứng dụng Flutter",
+        "keywords": ["flutter ai", "flutter llm", "học máy flutter", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung",
+            "bạn cần suy luận trên thiết bị vì quyền riêng tư hoặc offline",
+            "bạn tích hợp LLM hoặc mô hình ML vào ứng dụng",
+        ],
+    },
+    "Backend/Data": {
+        "kind": "thư viện backend & dữ liệu",
+        "blurb": "làm việc với API, cơ sở dữ liệu và lưu trữ",
+        "keywords": ["flutter http", "backend flutter", "cơ sở dữ liệu flutter", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn gọi API REST/GraphQL từ ứng dụng Flutter",
+            "bạn cần lưu trữ cục bộ, cache hoặc đồng bộ offline",
+            "bạn muốn truy cập dữ liệu có kiểu và dễ kiểm thử",
+        ],
+    },
+    "Library/Tooling": {
+        "kind": "thư viện & công cụ cho lập trình viên",
+        "blurb": "cải thiện quy trình phát triển và chất lượng mã Flutter",
+        "keywords": ["công cụ flutter", "flutter tooling", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn muốn tự động hóa hoặc tối ưu một phần quy trình build",
+            "bạn cần debug, sinh mã hoặc trải nghiệm lập trình tốt hơn",
+            "bạn chuẩn hóa công cụ cho cả nhóm",
+        ],
+    },
+    "App/Template": {
+        "kind": "ứng dụng mã nguồn mở / mẫu khởi đầu",
+        "blurb": "học từ một codebase Flutter hoàn chỉnh, thực tế",
+        "keywords": ["ứng dụng flutter", "mẫu flutter", "flutter template", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn muốn một ví dụ chất lượng production để nghiên cứu hoặc fork",
+            "bạn khởi tạo app mới từ một mẫu đã được kiểm chứng",
+            "bạn học tốt nhất qua việc đọc dự án hoàn chỉnh",
+        ],
+    },
+    "Navigation": {
+        "kind": "thư viện điều hướng & định tuyến",
+        "blurb": "tổ chức màn hình, route và deep link",
+        "keywords": ["flutter navigation", "định tuyến flutter", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn cần định tuyến khai báo, theo URL",
+            "bạn xử lý deep link hoặc điều hướng lồng nhau",
+            "bạn muốn route an toàn kiểu (type-safe)",
+        ],
+    },
+    "Learning/Awesome": {
+        "kind": "tài nguyên học tập được tuyển chọn",
+        "blurb": "tìm các ví dụ, hướng dẫn và tài liệu Flutter tốt nhất",
+        "keywords": ["học flutter", "ví dụ flutter", "hướng dẫn flutter", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn cần một điểm khởi đầu được tuyển chọn",
+            "bạn muốn ví dụ đã được kiểm chứng thay vì tìm ngẫu nhiên",
+            "bạn đang lên lộ trình học",
+        ],
+    },
+    "Framework/Core": {
+        "kind": "dự án framework lõi",
+        "blurb": "nền tảng mà toàn bộ hệ sinh thái Flutter xây trên đó",
+        "keywords": ["flutter framework", "flutter sdk", "ứng dụng di động flutter"],
+        "use_cases": [
+            "bạn muốn hiểu điều gì vận hành chính Flutter",
+            "bạn đóng góp hoặc theo dõi dự án lõi",
+            "bạn cần nguồn chuẩn về cách Flutter hoạt động",
+        ],
+    },
+}
+DEFAULT_CAT_VI = {
+    "kind": "dự án Flutter",
+    "blurb": "xây ứng dụng Flutter tốt hơn",
+    "keywords": ["flutter", "ứng dụng di động flutter"],
+    "use_cases": ["bạn đang xây ứng dụng di động Flutter",
+                  "bạn muốn một lựa chọn mã nguồn mở được bảo trì tốt",
+                  "bạn coi trọng cộng đồng năng động"],
+}
+
+
+def maint_status_vi(days):
+    if days is None:
+        return "vẫn được bảo trì"
+    if days <= 30:
+        return "được bảo trì tích cực (cập nhật trong tháng qua)"
+    if days <= 180:
+        return "được bảo trì tích cực"
+    if days <= 365:
+        return "ổn định, có cập nhật trong năm qua"
+    return "trưởng thành và ổn định"
 
 
 def scrub(obj):
@@ -385,6 +522,164 @@ def body(fm, extra, related):
     return text, faq
 
 
+def vi_title(fm):
+    name = fm["package"]
+    cat = fm.get("category", "")
+    cvi = CAT_VI.get(cat, "Flutter")
+    if cat in APP_CATEGORIES:
+        return f"{name}: dự án Flutter mã nguồn mở đáng nghiên cứu"
+    return f"{name}: hướng dẫn {cvi} trong Flutter"
+
+
+def seo_description_vi(name, cat, stars, desc):
+    cvi = CAT_VI.get(cat, "Flutter")
+    base = f"{name}: {cvi} cho Flutter"
+    if stars:
+        base += f", {stars:,}★ trên GitHub"
+    tail = clean_desc(desc)
+    out = f"{base}. {tail} Cài đặt, cách dùng, lựa chọn thay thế & FAQ."
+    return out[:158].rsplit(" ", 1)[0] + "…" if len(out) > 160 else out
+
+
+def make_faq_vi(name, cat, stars, forks, pub, is_app, related):
+    cvi = CAT_VI.get(cat, "Flutter")
+    faq = [
+        {"q": f"{name} có miễn phí không?",
+         "a": f"Có. {name} là mã nguồn mở và miễn phí dùng trong dự án Flutter của "
+              f"bạn. Bạn có thể xem mã nguồn, báo lỗi và đóng góp trên GitHub."},
+        {"q": f"{name} có chạy trên cả iOS và Android không?",
+         "a": f"{name} được xây cho Flutter nên chạy trên iOS và Android từ một "
+              f"codebase duy nhất, và thường cả web lẫn desktop tùy mức hỗ trợ nền "
+              f"tảng của dự án."},
+    ]
+    if stars:
+        faq.append({
+            "q": f"{name} phổ biến đến mức nào?",
+            "a": f"Tính đến {YEAR}, {name} có khoảng {stars:,} sao"
+                 + (f" và {forks:,} lượt fork" if forks else "")
+                 + f" trên GitHub, thuộc nhóm được dùng nhiều trong mảng {cvi}."})
+    if related:
+        alts = ", ".join(r["slug"] for r in related[:3])
+        faq.append({
+            "q": f"Có lựa chọn nào thay thế {name}?",
+            "a": f"Các lựa chọn phổ biến trong nhóm {cvi} gồm {alts}. Lựa chọn tốt "
+                 f"nhất tùy vào quy mô app, đội ngũ và yêu cầu hiệu năng của bạn."})
+    if not is_app and pub:
+        faq.append({
+            "q": f"Cài đặt {name} thế nào?",
+            "a": f"Thêm {name} vào mục dependencies trong pubspec.yaml rồi chạy "
+                 f"flutter pub get. Phiên bản và tài liệu API đầy đủ có trên pub.dev."})
+    return faq
+
+
+def body_vi(fm, extra, related):
+    name = fm["package"]
+    cat = fm.get("category", "")
+    ci = CATEGORY_VI.get(cat, DEFAULT_CAT_VI)
+    cvi = CAT_VI.get(cat, "Flutter")
+    stars = fm.get("stars", 0) or 0
+    forks = fm.get("forks", 0) or 0
+    repo = fm.get("repo", "")
+    gh = fm.get("githubUrl", "")
+    pub = fm.get("pubDev", "")
+    yt = fm.get("youtube", "")
+    topics = fm.get("topics", []) or []
+    desc = clean_desc(fm.get("description", ""))
+    last = fm.get("lastUpdate", "")
+    is_app = cat in APP_CATEGORIES
+    issues = extra.get("open_issues")
+    created = extra.get("created")
+    days = extra.get("days_since_update")
+    owner = repo.split("/")[0] if "/" in repo else repo
+
+    P = []
+    P.append(
+        f"[`{name}`]({gh}) là một **{ci['kind']}** mã nguồn mở cho phát triển ứng "
+        f"dụng di động Flutter"
+        + (f", với **{stars:,}★** trên GitHub" if stars else "")
+        + (f" và cập nhật lần cuối ngày **{last}**" if last else "")
+        + f". Bài viết này trình bày {name} làm gì, vì sao đáng quan tâm năm {YEAR}, "
+          f"cách thêm vào dự án, khi nào nên dùng, so sánh với các lựa chọn thay "
+          f"thế — kèm phần FAQ ngắn."
+    )
+    P.append(f"## {name} là gì?")
+    what = desc if desc else f"{name} là một {ci['kind']} trong hệ sinh thái Flutter."
+    P.append(
+        f"{what} Nó tập trung vào việc {ci['blurb']}. Dự án nằm tại [{repo}]({gh})"
+        + (f" và được duy trì bởi `{owner}`" if owner else "") + "."
+    )
+    P.append(f"## Vì sao nên biết {name} trong năm {YEAR}")
+    signals = []
+    if stars:
+        signals.append(f"**{stars:,} sao GitHub**")
+    if forks:
+        signals.append(f"**{forks:,} fork**")
+    if issues is not None:
+        signals.append(f"{issues:,} issue đang mở")
+    sig = ", ".join(signals) if signals else "sự quan tâm ổn định từ cộng đồng"
+    P.append(
+        f"{name} có {sig}. "
+        + (f"Dự án tồn tại từ năm {created[:4]} và {maint_status_vi(days)}. "
+           if created else f"Dự án {maint_status_vi(days)}. ")
+        + f"Với một lựa chọn {cvi}, mức độ được dùng và bảo trì như vậy thường đồng "
+          f"nghĩa với cộng đồng khỏe mạnh, được dùng thực tế và nhiều ví dụ để học."
+    )
+    if is_app:
+        P.append(f"## Chạy {name}")
+        P.append(
+            f"{name} là một dự án hoàn chỉnh, bạn có thể clone và chạy. Hãy cài "
+            f"Flutter SDK trước, rồi:")
+        P.append(f"```bash\ngit clone {gh}.git\ncd {name}\nflutter pub get\nflutter run\n```")
+        P.append(
+            "Sau đó đọc cấu trúc dự án để xem một app Flutter thực tế được tổ chức "
+            "ra sao — điều hướng, trạng thái, truy cập dữ liệu và giao diện — rồi "
+            "fork làm điểm khởi đầu cho app của bạn.")
+    else:
+        P.append(f"## Cài đặt {name}")
+        P.append("Thêm gói vào `pubspec.yaml`:")
+        P.append(f"```yaml\ndependencies:\n  {name}: ^latest\n```")
+        P.append("Rồi tải về và import trong mã Dart:")
+        imp = re.sub(r"[^a-z0-9_]", "_", name.lower())
+        P.append(f"```bash\nflutter pub get\n```\n```dart\nimport 'package:{imp}/{imp}.dart';\n```")
+        P.append(
+            "Xem thư mục `example/` và "
+            + (f"[trang pub.dev]({pub})" if pub else f"[repo GitHub]({gh})")
+            + f" để biết API chính xác — {name} được đánh phiên bản kèm tài liệu đầy "
+              f"đủ nên bạn luôn tích hợp đúng bản phát hành hiện tại.")
+    P.append(f"## Khi nào nên dùng {name}?")
+    P.append(f"Hãy chọn {name} khi:")
+    P.append("\n".join(f"- {u}" for u in ci["use_cases"]))
+    if topics:
+        P.append("Đặc biệt phù hợp nếu dự án của bạn liên quan tới "
+                 + ", ".join(f"`{t}`" for t in topics[:6]) + ".")
+    if related:
+        P.append(f"## {name} so với các lựa chọn thay thế")
+        P.append(
+            f"Nếu bạn đang cân nhắc các lựa chọn trong nhóm **{cvi}**, đây là những "
+            f"dự án thường được đem ra so sánh với {name}:")
+        P.append("\n".join(f"- [{r['title']}](/vi/recipes/{r['slug']}/)" for r in related))
+        P.append(
+            f"Không có lựa chọn nào thắng tuyệt đối — điều đó tùy quy mô app, mức "
+            f"quen thuộc của đội ngũ và ngân sách hiệu năng. Xem toàn bộ "
+            f"[nhóm {cvi}](/vi/recipes/) để so sánh trực tiếp.")
+    faq = make_faq_vi(name, cat, stars, forks, pub, is_app, related)
+    P.append("## Câu hỏi thường gặp")
+    for item in faq:
+        P.append(f"### {item['q']}\n\n{item['a']}")
+    P.append("## Tài nguyên & liên kết")
+    res = [f"- **GitHub:** [{repo}]({gh})"]
+    if pub:
+        res.append(f"- **pub.dev:** [{name}]({pub})")
+    if yt:
+        res.append(f"- **Video hướng dẫn:** [tìm {name} trên YouTube]({yt})")
+    P.append("\n".join(res))
+    P.append(
+        "---\n\n*Thuộc [FlutterCook](/vi/recipes/) — 500 hướng dẫn thực hành về các "
+        "thư viện, UI kit và ứng dụng Flutter mã nguồn mở tốt nhất. Xem "
+        "[xu hướng GitHub](/vi/trends/) hoặc [hướng dẫn YouTube](/vi/youtube/).*")
+    return "\n\n".join(P) + "\n", faq
+
+
 def dump_fm(fm):
     """Emit frontmatter deterministically, preserving our schema order."""
     import yaml
@@ -464,7 +759,25 @@ def main():
         out = scrub(dump_fm(fm) + "\n\n" + new_body.strip() + "\n")
         f.write_bytes(out.encode("utf-8"))
 
-    print(f"regenerated {len(files)} recipes, avg words ~{total_words // len(files)}")
+        # ---- Vietnamese variant ----
+        vi_body, vi_faq = body_vi(fm, extra, related)
+        vfm = dict(fm)
+        vfm["title"] = vi_title(fm)
+        vfm["description"] = fm["description"]
+        vfm["seoDescription"] = seo_description_vi(name, cat, stars, fm["description"])
+        cvi = CATEGORY_VI.get(cat, DEFAULT_CAT_VI)
+        vfm["keywords"] = list(dict.fromkeys(
+            [f"flutter {name}", f"{name} flutter",
+             f"flutter {CAT_VI.get(cat, cat).lower()}"] + cvi["keywords"]
+            + [f"{name} ví dụ", f"{name} hướng dẫn"]))
+        vfm["related"] = [{"slug": r["slug"], "title": vi_title(fm_by_slug[r["slug"]])}
+                          for r in related]
+        vfm["faq"] = vi_faq
+        vfm = scrub(vfm)
+        vout = scrub(dump_fm(vfm) + "\n\n" + vi_body.strip() + "\n")
+        (RECIPES_VI / f.name).write_bytes(vout.encode("utf-8"))
+
+    print(f"regenerated {len(files)} recipes (EN+VI), avg EN words ~{total_words // len(files)}")
 
 
 if __name__ == "__main__":

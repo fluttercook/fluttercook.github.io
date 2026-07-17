@@ -1,0 +1,64 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+---
+<BaseLayout lang="vi" title="Xu hướng GitHub — Flutter & Dart | FlutterCook" description="Bảng xếp hạng trực tiếp các repo Flutter và Dart mã nguồn mở nhiều sao và tăng nhanh nhất trên GitHub, cập nhật mỗi lần truy cập.">
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Trực tiếp từ GitHub API</div>
+      <h1 class="serif">Xu hướng Flutter, <i>xếp hạng</i>.</h1>
+      <p>Các repo Flutter &amp; Dart mã nguồn mở nhiều sao và tăng nhanh nhất trên GitHub — lấy mới mỗi lần bạn tải trang.</p>
+    </section>
+    <div class="tabs" id="tabs">
+      <button class="tab active" data-q="language:dart sort:stars" data-label="Nhiều sao nhất">★ Nhiều sao nhất</button>
+      <button class="tab" data-q="flutter ai in:name,description,topics sort:stars" data-label="AI &amp; LLM">AI &amp; LLM</button>
+      <button class="tab" data-q="flutter app in:name,description,topics sort:stars" data-label="Ứng dụng">Ứng dụng</button>
+      <button class="tab" data-q="language:dart created:>2025-01-01 sort:stars" data-label="Mới &amp; đang lên">Mới &amp; đang lên</button>
+      <button class="tab" data-q="flutter package in:name,description,topics sort:stars" data-label="Gói">Gói</button>
+    </div>
+    <div class="status" id="status">Đang tải…</div>
+    <table>
+      <thead><tr>
+        <th class="num">#</th><th>Repository</th><th class="num">Sao</th>
+        <th class="hide-sm">Ngôn ngữ</th><th class="hide-sm">Cập nhật</th>
+      </tr></thead>
+      <tbody id="rows"></tbody>
+    </table>
+    <p class="note">Dữ liệu: GitHub Search API (ẩn danh, cache bởi GitHub). Nếu một tab báo giới hạn, đợi một phút rồi thử lại — GitHub giới hạn tìm kiếm ẩn danh ~10 yêu cầu/phút.</p>
+  </main>
+  <style>
+    .tabs{display:flex;flex-wrap:wrap;gap:8px;margin:26px 0 8px}
+    .tab{background:var(--panel);border:1px solid var(--line);color:var(--muted);border-radius:100px;padding:9px 16px;font-size:13px;cursor:pointer}
+    .tab.active{background:var(--accent);color:#08201c;border-color:var(--accent);font-weight:600}
+    .tab:hover:not(.active){color:var(--ink);border-color:var(--accent)}
+    .status{color:var(--muted);font-size:13px;margin:6px 0 14px;min-height:18px}
+    table{width:100%;border-collapse:collapse;border:1px solid var(--line);border-radius:16px;overflow:hidden;background:var(--panel)}
+    thead th{text-align:left;background:#101012;color:var(--muted);font-size:11px;letter-spacing:.12em;text-transform:uppercase;padding:14px 16px;border-bottom:1px solid var(--line)}
+    tbody td{padding:14px 16px;border-bottom:1px solid var(--line);vertical-align:top;font-size:14px}
+    tbody tr:last-child td{border-bottom:none}
+    tbody tr:hover{background:#16181b}
+    .rank{color:var(--accent);font-weight:700;font-family:"SF Mono",monospace;width:44px}
+    .repo a{color:var(--ink);font-weight:600;font-family:"SF Mono",monospace;font-size:13.5px}
+    .repo a:hover{color:var(--accent)}
+    .repo .desc{color:var(--muted);font-size:12.5px;margin-top:3px;max-width:520px}
+    .repo .topics{margin-top:5px;display:flex;flex-wrap:wrap;gap:5px}
+    .repo .topics span{font-size:10px;color:var(--accent);border:1px solid var(--line);border-radius:100px;padding:2px 8px}
+    .stars{font-weight:600;white-space:nowrap}
+    .lang,.upd{color:var(--muted);white-space:nowrap}
+    .upd b{color:var(--accent);font-weight:600}
+    .num{text-align:right;font-variant-numeric:tabular-nums}
+    .note{color:var(--muted);font-size:12px;margin-top:10px}
+    @media(max-width:720px){.hide-sm{display:none}}
+  </style>
+  <script is:inline>
+  (function(){
+    var rows=document.getElementById('rows'),status=document.getElementById('status'),tabs=document.getElementById('tabs');
+    function kfmt(n){return n>=1000?(n/1000).toFixed(n>=10000?0:1)+'k':''+n;}
+    function ago(iso){var d=(Date.now()-new Date(iso))/86400000;if(d<1)return'hôm nay';if(d<2)return'hôm qua';if(d<30)return Math.floor(d)+' ngày trước';if(d<365)return Math.floor(d/30)+' tháng trước';return Math.floor(d/365)+' năm trước';}
+    function esc(s){return (s||'').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;');}
+    function render(items){rows.innerHTML='';items.forEach(function(r,i){var topics=(r.topics||[]).slice(0,3).map(function(t){return '<span>'+esc(t)+'</span>';}).join('');rows.innerHTML+='<tr><td class="num rank">'+(i+1)+'</td><td class="repo"><a href="'+r.html_url+'" target="_blank" rel="noopener">'+esc(r.full_name)+'</a><div class="desc">'+esc(r.description||'')+'</div>'+(topics?'<div class="topics">'+topics+'</div>':'')+'</td><td class="num stars">&#9733; '+kfmt(r.stargazers_count)+'</td><td class="hide-sm lang">'+esc(r.language||'—')+'</td><td class="hide-sm upd">Cập nhật <b>'+ago(r.pushed_at)+'</b></td></tr>';});}
+    function load(q,label){status.textContent='Đang tải '+label.replace(/&amp;/g,'&')+' …';var url='https://api.github.com/search/repositories?per_page=25&q='+encodeURIComponent(q);fetch(url,{headers:{'Accept':'application/vnd.github+json'}}).then(function(x){if(x.status===403)throw new Error('rate');if(!x.ok)throw new Error('http');return x.json();}).then(function(d){var items=(d.items||[]).slice(0,25);if(!items.length){status.textContent='Không có kết quả.';rows.innerHTML='';return;}render(items);status.innerHTML='Hiển thị top '+items.length+' — '+label+' · xếp theo sao · trực tiếp từ GitHub';}).catch(function(e){rows.innerHTML='';status.textContent=(e.message==='rate')?'Đã chạm giới hạn GitHub (tìm ẩn danh ~10/phút). Đợi một phút rồi bấm lại tab.':'Không kết nối được GitHub API lúc này — thử lại sau giây lát.';});}
+    tabs.addEventListener('click',function(e){var b=e.target.closest('.tab');if(!b)return;[].forEach.call(tabs.children,function(t){t.classList.remove('active');});b.classList.add('active');load(b.dataset.q,b.dataset.label);});
+    load('language:dart sort:stars','Nhiều sao nhất');
+  })();
+  </script>
+</BaseLayout>

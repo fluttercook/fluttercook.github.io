@@ -1,11 +1,23 @@
+---
+import { t, localizePath, type Locale } from '../i18n';
+const { lang = 'en' as Locale } = Astro.props;
+const tr = t(lang);
+const p = (path: string) => localizePath(path, lang);
+// Language switcher target = same page in the other language.
+const here = Astro.url.pathname;
+const basePath = here.replace(/^\/vi(?=\/|$)/, '') || '/';
+const other: Locale = lang === 'en' ? 'vi' : 'en';
+const switchHref = localizePath(basePath, other);
+---
 <header class="site">
-  <a class="logo" href="/">Flutter<em>Cook</em></a>
+  <a class="logo" href={p('/')}>Flutter<em>Cook</em></a>
   <nav>
-    <a href="/recipes">Recipes</a>
-    <a href="/news">News</a>
-    <a href="/trends">GitHub</a>
-    <a href="/youtube">YouTube</a>
-    <a href="/about">About</a>
-    <a href="https://github.com/fluttercook" target="_blank" rel="noopener">Repo</a>
+    <a href={p('/recipes')}>{tr('nav.recipes')}</a>
+    <a href={p('/news')}>{tr('nav.news')}</a>
+    <a href={p('/trends')}>{tr('nav.github')}</a>
+    <a href={p('/youtube')}>{tr('nav.youtube')}</a>
+    <a href={p('/about')}>{tr('nav.about')}</a>
+    <a href="https://github.com/fluttercook" target="_blank" rel="noopener">{tr('nav.repo')}</a>
+    <a class="lang" href={switchHref} hreflang={other}>{tr('lang.switch')}</a>
   </nav>
 </header>

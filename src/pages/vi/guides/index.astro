@@ -1,0 +1,25 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const guides = (await getCollection('guides')).filter((g) => !g.data.draft);
+---
+<BaseLayout lang="vi" title="Hướng dẫn Flutter & xu hướng YouTube — FlutterCook" description="Hướng dẫn Flutter biên tập: các tutorial YouTube tốt nhất theo chủ đề, kênh hàng đầu, và điều đang thịnh hành trong video Flutter.">
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Hướng dẫn</div>
+      <h1 class="serif">Hướng dẫn <i>Flutter</i> & xu hướng video</h1>
+      <p>Lộ trình học YouTube được tuyển chọn theo chủ đề — cùng các kênh và tìm kiếm nên theo dõi.</p>
+    </section>
+    <section class="sec" style="padding-top:0">
+      <div class="grid">
+        {guides.map((g) => (
+          <a class="card" href={`/vi/guides/${g.id}/`}>
+            <span class="cat">{g.data.kind}{g.data.topic ? ' · ' + g.data.topic : ''}</span>
+            <h3 style="font-family:inherit;font-size:16px">{g.data.title}</h3>
+            <p>{g.data.description}</p>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+</BaseLayout>

@@ -1,0 +1,20 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('recipesVi')).filter((r) => !r.data.draft);
+---
+<BaseLayout lang="vi" title="Giới thiệu — FlutterCook">
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/vi/">FlutterCook</a> / giới thiệu</div>
+      <h1 class="serif">Sổ tay cho Flutter <i>mã nguồn mở</i>.</h1>
+      <div class="prose">
+        <p>FlutterCook là thư viện đang lớn dần gồm {all.length} hướng dẫn thực hành về các dự án Flutter và Dart mã nguồn mở tốt nhất — thư viện, thành phần UI, quản lý trạng thái, hoạt ảnh, backend và AI. Mỗi công thức được chọn từ dữ liệu xu hướng GitHub trực tiếp và pub.dev, nên danh sách phản ánh đúng những gì cộng đồng đang thực sự dùng.</p>
+        <h2 class="serif">Công thức được <i>chọn</i> thế nào</h2>
+        <p>Chúng tôi quét hàng trăm repo Flutter/Dart, xếp hạng theo số sao có tính đến hoạt động gần đây, thêm các lựa chọn "must-know" của biên tập và tín hiệu nhu cầu từ YouTube, rồi viết một hướng dẫn tập trung cho mỗi mục. <a href="/vi/trends/">Trang xu hướng trực tiếp</a> hiển thị bảng xếp hạng thô, làm mới mỗi lần truy cập.</p>
+        <h2 class="serif">Xây dựng <i>công khai</i></h2>
+        <p>Mã nguồn và demo có tại <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. Trang này dựng bằng <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> và deploy lên GitHub Pages; một phiên bản đồng hành được đăng tại <a href="https://flutter9.blogspot.com" target="_blank" rel="noopener">flutter9.blogspot.com</a>.</p>
+      </div>
+    </article>
+  </main>
+</BaseLayout>

@@ -1,0 +1,51 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('newsVi'))
+  .filter((n) => !n.data.draft)
+  .sort((a, b) => (a.data.publishDate < b.data.publishDate ? 1 : -1));
+const cats = [...new Set(all.map((n) => n.data.category))].sort();
+const fmtDate = (s) => new Date(s).toLocaleDateString('vi-VN', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+<BaseLayout
+  lang="vi"
+  title="Tin Mobile & Flutter — Apple, iOS, Android, iPhone, macOS · FlutterCook"
+  description="FlutterCook Tin tức: đánh giá và phân tích về Apple iOS, Google Android, Flutter, iPhone và macOS — viết cho người làm ứng dụng di động."
+  keywords={['tin flutter', 'tin ios', 'tin android', 'tin iphone', 'tin macos', 'tin phát triển app di động']}
+>
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Tin lập trình hằng ngày</div>
+      <h1 class="serif">Tin <i>Mobile &amp; Flutter</i></h1>
+      <p>Đánh giá và phân tích về Apple, iOS, Google Android, Flutter, iPhone &amp; macOS — cho người làm ứng dụng di động.</p>
+    </section>
+    <div class="filterbar" id="filters">
+      <button class="active" data-cat="all">Tất cả ({all.length})</button>
+      {cats.map((c) => <button data-cat={c}>{c}</button>)}
+    </div>
+    <section class="sec" style="padding-top:0">
+      <div class="grid" id="grid">
+        {all.map((n) => (
+          <a class="card newscard" href={`/vi/news/${n.id}/`} data-cat={n.data.category}>
+            <span class="cat">{n.data.emoji} {n.data.category}</span>
+            <h3>{n.data.title}</h3>
+            <p>{n.data.description}</p>
+            <div class="meta"><span>{n.data.author}</span><span>{fmtDate(n.data.publishDate)}</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+  <script is:inline>
+    (function () {
+      const btns = [...document.querySelectorAll('#filters button')];
+      const cards = [...document.querySelectorAll('#grid .card')];
+      btns.forEach((b) => b.addEventListener('click', () => {
+        btns.forEach((x) => x.classList.remove('active'));
+        b.classList.add('active');
+        const cat = b.dataset.cat;
+        cards.forEach((c) => { c.style.display = cat === 'all' || c.dataset.cat === cat ? '' : 'none'; });
+      }));
+    })();
+  </script>
+</BaseLayout>

@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('newsVi')).filter((n) => !n.data.draft);
+  return all.map((entry) => {
+    const related = all
+      .filter((n) => n.id !== entry.id && n.data.topic === entry.data.topic)
+      .slice(0, 3)
+      .map((n) => ({ slug: n.id, title: n.data.title }));
+    return { params: { slug: entry.id }, props: { entry, related } };
+  });
+}
+const { entry, related } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const site = 'https://fluttercook.github.io';
+const url = `${site}/vi/news/${entry.id}/`;
+const metaDesc = d.seoDescription || d.description;
+const fmtDate = (s) => (s ? new Date(s).toLocaleDateString('vi-VN', { year: 'numeric', month: 'long', day: 'numeric' }) : '');
+
+const article = {
+  '@context': 'https://schema.org', '@type': 'NewsArticle', inLanguage: 'vi',
+  headline: d.title, description: metaDesc, url,
+  datePublished: d.publishDate, dateModified: d.updatedDate || d.publishDate,
+  author: { '@type': 'Organization', name: d.author, url: site },
+  publisher: { '@type': 'Organization', name: 'FlutterCook', url: site, logo: { '@type': 'ImageObject', url: `${site}/og-default.svg` } },
+  mainEntityOfPage: url, articleSection: d.category, keywords: (d.keywords || []).join(', '),
+};
+const breadcrumb = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'FlutterCook', item: `${site}/vi/` },
+    { '@type': 'ListItem', position: 2, name: 'Tin tức', item: `${site}/vi/news/` },
+    { '@type': 'ListItem', position: 3, name: d.category, item: url },
+  ],
+};
+const jsonLd = [article, breadcrumb];
+---
+<BaseLayout
+  lang="vi"
+  title={`${d.title} · FlutterCook`}
+  description={metaDesc}
+  keywords={d.keywords}
+  ogType="article"
+  datePublished={d.publishDate}
+  dateModified={d.updatedDate || d.publishDate}
+  jsonLd={jsonLd}
+>
+  <main class="wrap">
+    <article class="article">
+      <nav class="crumb" aria-label="Breadcrumb">
+        <a href="/vi/">FlutterCook</a> / <a href="/vi/news/">tin tức</a> / {d.category}
+      </nav>
+      <span class="cat" style="display:inline-block;margin:6px 0">{d.emoji} {d.category}</span>
+      <h1 class="serif">{d.title}</h1>
+      <p class="byline">Bởi <b>{d.author}</b> · <time datetime={d.publishDate}>{fmtDate(d.publishDate)}</time></p>
+      <p class="sub">{d.description}</p>
+      <div class="prose"><Content /></div>
+      {d.sources && d.sources.length > 0 && (
+        <aside class="sources">
+          <h2>Nguồn</h2>
+          <ul>{d.sources.map((s) => (<li><a href={s.url} target="_blank" rel="noopener nofollow">{s.name}</a></li>))}</ul>
+        </aside>
+      )}
+      {related && related.length > 0 && (
+        <aside class="related">
+          <h2>Thêm tin {d.topic}</h2>
+          <ul>{related.map((r) => (<li><a href={`/vi/news/${r.slug}/`}>{r.title}</a></li>))}</ul>
+        </aside>
+      )}
+      {d.tags && d.tags.length > 0 && (<div class="tags">{d.tags.map((t) => <span>#{t}</span>)}</div>)}
+    </article>
+  </main>
+</BaseLayout>

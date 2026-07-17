@@ -1,0 +1,93 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const recipes = await getCollection('recipesVi');
+  return recipes.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
+}
+const { entry } = Astro.props;
+const { Content } = await render(entry);
+const d = entry.data;
+const site = 'https://fluttercook.github.io';
+const url = `${site}/vi/recipes/${entry.id}/`;
+const metaDesc = d.seoDescription || d.description;
+
+const article = {
+  '@context': 'https://schema.org',
+  '@type': 'TechArticle',
+  inLanguage: 'vi',
+  headline: d.title,
+  description: metaDesc,
+  url,
+  datePublished: d.datePublished || undefined,
+  dateModified: d.dateModified || d.datePublished || undefined,
+  author: { '@type': 'Organization', name: 'FlutterCook', url: site },
+  publisher: {
+    '@type': 'Organization', name: 'FlutterCook', url: site,
+    logo: { '@type': 'ImageObject', url: `${site}/og-default.svg` },
+  },
+  mainEntityOfPage: url,
+  about: d.category,
+  keywords: (d.keywords || []).join(', '),
+};
+const breadcrumb = {
+  '@context': 'https://schema.org',
+  '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'FlutterCook', item: `${site}/vi/` },
+    { '@type': 'ListItem', position: 2, name: 'Công thức', item: `${site}/vi/recipes/` },
+    { '@type': 'ListItem', position: 3, name: d.package, item: url },
+  ],
+};
+const faqLd = d.faq && d.faq.length
+  ? {
+      '@context': 'https://schema.org', '@type': 'FAQPage', inLanguage: 'vi',
+      mainEntity: d.faq.map((f) => ({
+        '@type': 'Question', name: f.q,
+        acceptedAnswer: { '@type': 'Answer', text: f.a },
+      })),
+    }
+  : null;
+const jsonLd = [article, breadcrumb, faqLd].filter(Boolean);
+---
+<BaseLayout
+  lang="vi"
+  title={`${d.title} · FlutterCook`}
+  description={metaDesc}
+  keywords={d.keywords}
+  ogType="article"
+  datePublished={d.datePublished}
+  dateModified={d.dateModified}
+  jsonLd={jsonLd}
+>
+  <main class="wrap">
+    <article class="article">
+      <nav class="crumb" aria-label="Breadcrumb">
+        <a href="/vi/">FlutterCook</a> / <a href="/vi/recipes/">công thức</a> / {d.package}
+      </nav>
+      <h1 class="serif">{d.title}</h1>
+      <p class="sub">{d.description}</p>
+      <div class="factbox">
+        <div><small>Danh mục</small><b>{d.category}</b></div>
+        <div><small>Sao</small><b>★ {d.stars.toLocaleString()}</b></div>
+        <div><small>Cập nhật</small><b>{d.lastUpdate}</b></div>
+        <div><small>Ưu tiên</small><b>{d.priority}</b></div>
+      </div>
+      <div class="prose"><Content /></div>
+      {d.related && d.related.length > 0 && (
+        <aside class="related">
+          <h2>Hướng dẫn {d.category} liên quan</h2>
+          <ul>
+            {d.related.map((r) => (
+              <li><a href={`/vi/recipes/${r.slug}/`}>{r.title}</a></li>
+            ))}
+          </ul>
+        </aside>
+      )}
+      {d.topics && d.topics.length > 0 && (
+        <div class="tags">{d.topics.map((t) => <a href={`/vi/recipes/`}>#{t}</a>)}</div>
+      )}
+    </article>
+  </main>
+</BaseLayout>

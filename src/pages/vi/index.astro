@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('recipesVi')).filter((r) => !r.data.draft);
+const featured = all.sort((a, b) => (a.data.trendRank || 9999) - (b.data.trendRank || 9999)).slice(0, 9);
+const cats = [...new Set(all.map((r) => r.data.category))];
+const total = all.length;
+---
+<BaseLayout lang="vi" title="FlutterCook — 500 công thức Flutter mã nguồn mở, ưu tiên AI">
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Mã nguồn mở · Ưu tiên AI · Theo xu hướng</div>
+      <h1 class="serif">Sổ tay các thư viện <i>Flutter</i> tốt nhất.</h1>
+      <p>{total} hướng dẫn thực hành về các dự án và thành phần Flutter mã nguồn mở hàng đầu — xếp hạng từ dữ liệu xu hướng GitHub trực tiếp, mỗi bài nêu rõ nó làm gì, vì sao đang lên, và cách dùng.</p>
+      <div class="cta-row">
+        <a class="btn pri" href="/vi/recipes/">Xem công thức</a>
+        <a class="btn" href="/vi/trends/">Xu hướng GitHub trực tiếp</a>
+      </div>
+    </section>
+    <section class="sec">
+      <h2 class="serif">Đang <i>thịnh hành</i></h2>
+      <p class="lead">Các dự án có đà tăng mạnh nhất trong dữ liệu, theo số sao có tính đến độ mới.</p>
+      <div class="grid">
+        {featured.map((r) => (
+          <a class="card" href={`/vi/recipes/${r.id}/`}>
+            <span class="cat">{r.data.category}</span>
+            <h3>{r.data.package}</h3>
+            <p>{r.data.description}</p>
+            <div class="meta"><span>★ <b>{r.data.stars.toLocaleString()}</b></span><span>Cập nhật {r.data.lastUpdate}</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+    <section class="sec">
+      <h2 class="serif">Theo <i>danh mục</i></h2>
+      <p class="lead">{cats.length} danh mục trên {total} công thức.</p>
+      <div class="filterbar">
+        {cats.map((c) => <a class="btn" href={`/vi/recipes/?cat=${encodeURIComponent(c)}`}>{c}</a>)}
+      </div>
+    </section>
+  </main>
+</BaseLayout>
