@@ -31,6 +31,12 @@ topics:
   - flutter
   - flutter-app
   - flutter-apps
+summary:
+  - '**flutter_twitter_clone** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **4,239★** and 1,160 forks, and is mature and stable.
+  - 'Install it with `flutter_twitter_clone: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

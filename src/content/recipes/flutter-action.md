@@ -28,6 +28,12 @@ topics:
   - dart
   - flutter
   - github-actions
+summary:
+  - '**flutter-action** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **2,599★** and 264 forks, and is actively maintained.
+  - 'Install it with `flutter-action: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

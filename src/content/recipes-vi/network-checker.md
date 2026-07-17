@@ -26,6 +26,11 @@ keywords:
   - network-checker hướng dẫn
 topics:
   []
+summary:
+  - '**network-checker** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **778★** và 63 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `network-checker: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

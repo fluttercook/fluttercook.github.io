@@ -26,6 +26,12 @@ topics:
   - animation-3d
   - dart
   - flutter
+summary:
+  - '**flutter_flip_panel** is an open-source animation library in the **Animation**
+    category.'
+  - It has **617★** and 84 forks, and is mature and stable.
+  - 'Install it with `flutter_flip_panel: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

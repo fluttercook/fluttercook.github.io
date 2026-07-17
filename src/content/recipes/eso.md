@@ -26,6 +26,11 @@ keywords:
   - eso tutorial
 topics:
   []
+summary:
+  - '**eso** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **1,775★** and 211 forks, and is mature and stable.
+  - 'Install it with `eso: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

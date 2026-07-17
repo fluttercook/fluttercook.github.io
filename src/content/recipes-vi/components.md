@@ -30,6 +30,12 @@ topics:
   - javascript
   - nextjs
   - react
+summary:
+  - '**components** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm
+    **UI/Components**.'
+  - Dự án có **648★** và 39 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `components: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

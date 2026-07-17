@@ -31,6 +31,12 @@ topics:
   - learning-by-doing
   - machine-learning
   - mobile-development
+summary:
+  - '**projectlearn-project-based-learning** là một bộ công cụ AI/ML mã nguồn mở thuộc
+    nhóm **AI/ML**.'
+  - Dự án có **6,111★** và 525 fork, và được bảo trì tích cực.
+  - 'Cài bằng `projectlearn-project-based-learning: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

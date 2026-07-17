@@ -26,6 +26,12 @@ keywords:
   - Flutter-Course-Resources tutorial
 topics:
   []
+summary:
+  - '**Flutter-Course-Resources** is an open-source curated learning resource in the
+    **Learning/Awesome** category.'
+  - It has **10,516★** and 3,099 forks, and is mature and stable.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: a curated shortcut to mastering Flutter'

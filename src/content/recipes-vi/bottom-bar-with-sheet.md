@@ -30,6 +30,11 @@ topics:
   - bottomnavigation
   - bottomnavigationbar
   - bottomsheet
+summary:
+  - '**bottom_bar_with_sheet** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **442★** và 46 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `bottom_bar_with_sheet: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

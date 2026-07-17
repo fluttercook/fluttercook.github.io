@@ -30,6 +30,13 @@ topics:
   - hysteria
   - multi-platform
   - proxy
+summary:
+  - '**FlClash** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc nhóm
+    **Library/Tooling**.'
+  - Dự án có **45,865★** và 2,900 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `FlClash: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: ente
     title: 'ente: hướng dẫn thư viện & công cụ trong Flutter'

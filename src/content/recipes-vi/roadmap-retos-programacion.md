@@ -31,6 +31,13 @@ topics:
   - ejercicios
   - go
   - java
+summary:
+  - '**roadmap-retos-programacion** là một tài nguyên học tập được tuyển chọn mã nguồn
+    mở thuộc nhóm **Learning/Awesome**.'
+  - Dự án có **8,503★** và 6,164 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn cần một điểm khởi đầu được tuyển chọn.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: dự án Flutter mã nguồn mở đáng nghiên cứu'

@@ -26,6 +26,12 @@ keywords:
   - marionette_mcp tutorial
 topics:
   []
+summary:
+  - '**marionette_mcp** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **355★** and 39 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `marionette_mcp: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

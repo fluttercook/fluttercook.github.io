@@ -31,6 +31,11 @@ topics:
   - flutter
   - ios
   - ui
+summary:
+  - '**flutter_chat_ui** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **2,316★** và 856 fork, và được bảo trì tích cực.
+  - 'Cài bằng `flutter_chat_ui: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

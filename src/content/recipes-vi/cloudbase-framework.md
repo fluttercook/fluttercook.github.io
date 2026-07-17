@@ -30,6 +30,12 @@ topics:
   - deno
   - docker
   - flutter
+summary:
+  - '**cloudbase-framework** là một thư viện & công cụ cho lập trình viên mã nguồn mở
+    thuộc nhóm **Library/Tooling**.'
+  - Dự án có **1,998★** và 189 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `cloudbase-framework: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

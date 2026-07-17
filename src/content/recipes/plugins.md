@@ -30,6 +30,12 @@ topics:
   - flutter-plugin
   - ios
   - plugin
+summary:
+  - '**plugins** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **17,717★** and 9,626 forks, and is mature and stable.
+  - 'Install it with `plugins: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

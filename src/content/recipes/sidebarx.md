@@ -29,6 +29,12 @@ topics:
   - dart
   - flutter
   - flutter-examples
+summary:
+  - '**sidebarx** is an open-source navigation & routing library in the **Navigation**
+    category.'
+  - It has **346★** and 55 forks, and is stable, with updates in the past year.
+  - 'Install it with `sidebarx: ^latest` in your pubspec.yaml.'
+  - Best when you need declarative, URL-driven routing.
 related:
   - slug: lantern
     title: Flutter navigation done right with lantern

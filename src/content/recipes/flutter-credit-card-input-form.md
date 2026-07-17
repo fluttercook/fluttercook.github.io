@@ -29,6 +29,12 @@ topics:
   - flutter
   - flutter-apps
   - flutter-examples
+summary:
+  - '**Flutter-Credit-Card-Input-Form** is an open-source animation library in the **Animation**
+    category.'
+  - It has **492★** and 49 forks, and is mature and stable.
+  - 'Install it with `Flutter-Credit-Card-Input-Form: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

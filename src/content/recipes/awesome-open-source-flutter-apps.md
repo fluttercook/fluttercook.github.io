@@ -31,6 +31,12 @@ topics:
   - flutter-desktop
   - flutter-examples
   - flutter-project
+summary:
+  - '**awesome-open-source-flutter-apps** is an open-source curated learning resource
+    in the **Learning/Awesome** category.'
+  - It has **2,998★** and 450 forks, and is actively maintained.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: a curated shortcut to mastering Flutter'

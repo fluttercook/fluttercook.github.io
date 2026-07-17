@@ -29,6 +29,12 @@ topics:
   - flutter-bloc-test
   - flutter-clean-architecture
   - flutter-demo
+summary:
+  - '**Flutter-News-App** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm
+    **State management**.'
+  - Dự án có **601★** và 181 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `Flutter-News-App: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

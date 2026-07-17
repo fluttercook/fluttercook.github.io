@@ -30,6 +30,11 @@ topics:
   - flutter-package
   - flutter-plugin
   - flutter-widget
+summary:
+  - '**bottom_navy_bar** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **1,093★** và 221 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `bottom_navy_bar: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

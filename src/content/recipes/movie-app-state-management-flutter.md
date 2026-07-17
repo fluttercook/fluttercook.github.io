@@ -29,6 +29,12 @@ topics:
   - riverpod
   - rxdart
   - sembast
+summary:
+  - '**movie_app_state_management_flutter** is an open-source state-management library
+    in the **State management** category.'
+  - It has **575★** and 103 forks, and is mature and stable.
+  - 'Install it with `movie_app_state_management_flutter: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

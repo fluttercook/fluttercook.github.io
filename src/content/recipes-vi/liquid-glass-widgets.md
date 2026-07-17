@@ -30,6 +30,11 @@ topics:
   - flutter-widgets
   - fragment-shader
   - glassmorphism
+summary:
+  - '**liquid_glass_widgets** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **368★** và 52 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `liquid_glass_widgets: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

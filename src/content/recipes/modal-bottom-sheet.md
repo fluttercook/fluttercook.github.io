@@ -30,6 +30,12 @@ topics:
   - ios13
   - material
   - modal-bottom-sheets
+summary:
+  - '**modal_bottom_sheet** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **1,969★** and 521 forks, and is mature and stable.
+  - 'Install it with `modal_bottom_sheet: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

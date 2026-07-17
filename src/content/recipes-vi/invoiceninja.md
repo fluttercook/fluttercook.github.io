@@ -30,6 +30,13 @@ topics:
   - hacktoberfest
   - invoice
   - invoiceninja
+summary:
+  - '**invoiceninja** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm
+    **UI/Components**.'
+  - Dự án có **9,887★** và 2,668 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `invoiceninja: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

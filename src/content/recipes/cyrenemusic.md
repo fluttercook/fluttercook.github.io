@@ -25,6 +25,12 @@ keywords:
   - CyreneMusic tutorial
 topics:
   []
+summary:
+  - '**CyreneMusic** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **431★** and 57 forks, and is actively maintained.
+  - 'Install it with `CyreneMusic: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

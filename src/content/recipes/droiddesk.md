@@ -25,6 +25,13 @@ keywords:
   - DroidDesk tutorial
 topics:
   []
+summary:
+  - '**DroidDesk** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **2,331★** and 224 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `DroidDesk: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

@@ -31,6 +31,12 @@ topics:
   - persistence
   - reactive
   - sqlite
+summary:
+  - '**drift** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **3,240★** và 460 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `drift: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

@@ -30,6 +30,12 @@ topics:
   - game
   - gamedev
   - gamedev-library
+summary:
+  - '**bonfire** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **1,459★** and 193 forks, and is actively maintained.
+  - 'Install it with `bonfire: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

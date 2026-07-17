@@ -29,6 +29,11 @@ topics:
   - flutter-games
   - flutter-graphic
   - fluttercanvas
+summary:
+  - '**zerker** is an open-source animation library in the **Animation** category.'
+  - It has **701★** and 65 forks, and is stable, with updates in the past year.
+  - 'Install it with `zerker: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

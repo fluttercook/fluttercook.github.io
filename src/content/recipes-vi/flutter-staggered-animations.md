@@ -25,6 +25,12 @@ keywords:
   - flutter_staggered_animations hướng dẫn
 topics:
   []
+summary:
+  - '**flutter_staggered_animations** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm
+    **Animation**.'
+  - Dự án có **1,675★** và 130 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_staggered_animations: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

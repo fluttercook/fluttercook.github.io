@@ -29,6 +29,12 @@ topics:
   - flutter
   - framework
   - functional-programming
+summary:
+  - '**fish-redux** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm **State
+    management**.'
+  - Dự án có **7,273★** và 832 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `fish-redux: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

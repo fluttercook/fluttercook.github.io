@@ -30,6 +30,12 @@ topics:
   - flutter
   - flutter-package
   - flutter-plugin
+summary:
+  - '**table_calendar** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc
+    nhóm **UI/Components**.'
+  - Dự án có **1,960★** và 1,052 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `table_calendar: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

@@ -24,6 +24,12 @@ keywords:
   - flutter-login-home-animation tutorial
 topics:
   []
+summary:
+  - '**flutter-login-home-animation** is an open-source animation library in the **Animation**
+    category.'
+  - It has **1,261★** and 273 forks, and is actively maintained.
+  - 'Install it with `flutter-login-home-animation: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

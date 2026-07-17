@@ -30,6 +30,12 @@ topics:
   - jaspr
   - web
   - web-framework
+summary:
+  - '**jaspr** is an open-source UI component library in the **UI/Components** category.'
+  - It has **2,402★** and 317 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `jaspr: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

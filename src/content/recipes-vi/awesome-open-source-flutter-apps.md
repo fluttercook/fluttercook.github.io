@@ -31,6 +31,12 @@ topics:
   - flutter-desktop
   - flutter-examples
   - flutter-project
+summary:
+  - '**awesome-open-source-flutter-apps** là một tài nguyên học tập được tuyển chọn
+    mã nguồn mở thuộc nhóm **Learning/Awesome**.'
+  - Dự án có **2,998★** và 450 fork, và được bảo trì tích cực.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn cần một điểm khởi đầu được tuyển chọn.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: dự án Flutter mã nguồn mở đáng nghiên cứu'

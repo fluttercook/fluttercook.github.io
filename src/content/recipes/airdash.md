@@ -31,6 +31,11 @@ topics:
   - firebase-firestore
   - firebase-functions
   - flutter
+summary:
+  - '**airdash** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **667★** and 125 forks, and is actively maintained.
+  - 'Install it with `airdash: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

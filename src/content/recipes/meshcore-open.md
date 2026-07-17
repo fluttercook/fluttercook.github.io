@@ -26,6 +26,13 @@ keywords:
   - meshcore-open tutorial
 topics:
   []
+summary:
+  - '**meshcore-open** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **565★** and 94 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `meshcore-open: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

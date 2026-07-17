@@ -30,6 +30,11 @@ topics:
   - dart
   - flutter
   - flutter-examples
+summary:
+  - '**sidebarx** là một thư viện điều hướng & định tuyến mã nguồn mở thuộc nhóm **Navigation**.'
+  - Dự án có **346★** và 55 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `sidebarx: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần định tuyến khai báo, theo URL.
 related:
   - slug: lantern
     title: 'lantern: hướng dẫn điều hướng trong Flutter'

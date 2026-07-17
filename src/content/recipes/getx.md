@@ -29,6 +29,12 @@ topics:
   - framework
   - get
   - getx
+summary:
+  - '**getx** is an open-source state-management library in the **State management**
+    category.'
+  - It has **11,191★** and 1,849 forks, and is actively maintained.
+  - 'Install it with `getx: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

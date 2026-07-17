@@ -31,6 +31,12 @@ topics:
   - blog-template
   - blog-theme
   - demo
+summary:
+  - '**FlutterMinimalWebsite** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm
+    **Backend/Data**.'
+  - Dự án có **488★** và 182 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `FlutterMinimalWebsite: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

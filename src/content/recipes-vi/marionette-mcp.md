@@ -26,6 +26,11 @@ keywords:
   - marionette_mcp hướng dẫn
 topics:
   []
+summary:
+  - '**marionette_mcp** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **355★** và 39 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `marionette_mcp: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

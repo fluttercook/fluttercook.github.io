@@ -30,6 +30,12 @@ topics:
   - flutter-package
   - flutter-widget
   - gzx-dropdown-menu
+summary:
+  - '**gzx_dropdown_menu** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **696★** and 136 forks, and is mature and stable.
+  - 'Install it with `gzx_dropdown_menu: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

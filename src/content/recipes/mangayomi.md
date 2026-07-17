@@ -29,6 +29,12 @@ topics:
   - dart
   - dart-eval
   - flutter
+summary:
+  - '**mangayomi** is an open-source animation library in the **Animation** category.'
+  - It has **3,586★** and 104 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `mangayomi: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

@@ -31,6 +31,12 @@ topics:
   - antigravity
   - cursor
   - cursor-ai
+summary:
+  - '**flutter-ai-rules** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **590★** and 55 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `flutter-ai-rules: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

@@ -30,6 +30,12 @@ topics:
   - deno
   - docker
   - flutter
+summary:
+  - '**cloudbase-framework** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **1,998★** and 189 forks, and is stable, with updates in the past year.
+  - 'Install it with `cloudbase-framework: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

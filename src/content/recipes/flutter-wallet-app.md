@@ -29,6 +29,12 @@ topics:
   - flutter-demo
   - flutter-examples
   - flutter-material
+summary:
+  - '**flutter_wallet_app** is an open-source animation library in the **Animation**
+    category.'
+  - It has **402★** and 153 forks, and is mature and stable.
+  - 'Install it with `flutter_wallet_app: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

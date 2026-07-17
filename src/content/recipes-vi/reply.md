@@ -28,6 +28,11 @@ topics:
   - flutter
   - material-design
   - transitions
+summary:
+  - '**reply** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **555★** và 69 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `reply: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

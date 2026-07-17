@@ -29,6 +29,12 @@ topics:
   - dart
   - dart-platform
   - desktop
+summary:
+  - '**flutter** là một dự án framework lõi mã nguồn mở thuộc nhóm **Framework/Core**.'
+  - Dự án có **177,863★** và 30,800 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `flutter: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn hiểu điều gì vận hành chính Flutter.
 related:
   - slug: sdk
     title: 'sdk: hướng dẫn framework lõi trong Flutter'

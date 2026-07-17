@@ -25,6 +25,12 @@ keywords:
   - ProxyCloud hướng dẫn
 topics:
   []
+summary:
+  - '**ProxyCloud** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc nhóm
+    **Library/Tooling**.'
+  - Dự án có **775★** và 88 fork, và được bảo trì tích cực.
+  - 'Cài bằng `ProxyCloud: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

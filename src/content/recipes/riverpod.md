@@ -29,6 +29,13 @@ topics:
   - inheritedwidget
   - provider
   - riverpod
+summary:
+  - '**riverpod** is an open-source state-management library in the **State management**
+    category.'
+  - It has **7,336★** and 1,097 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `riverpod: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

@@ -26,6 +26,11 @@ keywords:
   - OllamaTalk tutorial
 topics:
   - ollama
+summary:
+  - '**OllamaTalk** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **384★** and 29 forks, and is mature and stable.
+  - 'Install it with `OllamaTalk: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

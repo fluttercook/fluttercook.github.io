@@ -30,6 +30,13 @@ topics:
   - cross-platform
   - flutter
   - ios
+summary:
+  - '**NativeScript** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **25,553★** and 1,735 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `NativeScript: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

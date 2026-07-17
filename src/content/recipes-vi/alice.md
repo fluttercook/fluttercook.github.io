@@ -31,6 +31,11 @@ topics:
   - flutter
   - flutter-examples
   - flutter-package
+summary:
+  - '**alice** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **632★** và 324 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `alice: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

@@ -31,6 +31,12 @@ topics:
   - flutter-examples
   - flutter-widget
   - fluttertoast
+summary:
+  - '**wanandroid_flutter** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm
+    **Backend/Data**.'
+  - Dự án có **911★** và 191 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `wanandroid_flutter: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

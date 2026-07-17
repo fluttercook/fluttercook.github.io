@@ -30,6 +30,11 @@ topics:
   - flutter
   - framework
   - hacktoberfest
+summary:
+  - '**VelocityX** is an open-source UI component library in the **UI/Components** category.'
+  - It has **1,504★** and 219 forks, and is mature and stable.
+  - 'Install it with `VelocityX: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

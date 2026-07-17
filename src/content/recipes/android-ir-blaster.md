@@ -29,6 +29,13 @@ topics:
   - fdroid
   - flipper-zero
   - flipperzero
+summary:
+  - '**android-ir-blaster** is an open-source state-management library in the **State
+    management** category.'
+  - It has **472★** and 46 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `android-ir-blaster: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

@@ -30,6 +30,12 @@ topics:
   - flutter-package
   - flutter-plugin
   - flutter-rating
+summary:
+  - '**flutter_rating_bar** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **421★** and 118 forks, and is mature and stable.
+  - 'Install it with `flutter_rating_bar: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

@@ -26,6 +26,13 @@ keywords:
   - network-checker tutorial
 topics:
   []
+summary:
+  - '**network-checker** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **778★** and 63 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `network-checker: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

@@ -31,6 +31,11 @@ topics:
   - flutter
   - local-network
   - nearby
+summary:
+  - '**Airclap** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **419★** and 26 forks, and is actively maintained.
+  - 'Install it with `Airclap: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

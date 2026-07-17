@@ -25,6 +25,13 @@ keywords:
   - agent-plugins hướng dẫn
 topics:
   []
+summary:
+  - '**agent-plugins** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc
+    nhóm **Library/Tooling**.'
+  - Dự án có **2,684★** và 156 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `agent-plugins: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

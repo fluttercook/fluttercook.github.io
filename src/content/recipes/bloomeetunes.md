@@ -29,6 +29,12 @@ topics:
   - bloc
   - dart
   - downloader
+summary:
+  - '**BloomeeTunes** is an open-source state-management library in the **State management**
+    category.'
+  - It has **2,134★** and 200 forks, and is actively maintained.
+  - 'Install it with `BloomeeTunes: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

@@ -25,6 +25,12 @@ keywords:
   - dart_simple_live tutorial
 topics:
   []
+summary:
+  - '**dart_simple_live** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **15,843★** and 2,956 forks, and is actively maintained.
+  - 'Install it with `dart_simple_live: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

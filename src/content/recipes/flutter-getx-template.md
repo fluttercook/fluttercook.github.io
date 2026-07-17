@@ -29,6 +29,12 @@ topics:
   - dart
   - error-handle
   - fcm
+summary:
+  - '**flutter_getx_template** is an open-source state-management library in the **State
+    management** category.'
+  - It has **515★** and 136 forks, and is actively maintained.
+  - 'Install it with `flutter_getx_template: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

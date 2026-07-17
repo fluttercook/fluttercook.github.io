@@ -31,6 +31,11 @@ topics:
   - firebase-firestore
   - firebase-functions
   - flutter
+summary:
+  - '**airdash** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **667★** và 125 fork, và được bảo trì tích cực.
+  - 'Cài bằng `airdash: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

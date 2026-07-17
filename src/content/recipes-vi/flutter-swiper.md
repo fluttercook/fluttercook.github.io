@@ -30,6 +30,12 @@ topics:
   - flutter-plugin
   - flutter-widget
   - swiper
+summary:
+  - '**flutter_swiper** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc
+    nhóm **UI/Components**.'
+  - Dự án có **3,531★** và 729 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_swiper: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

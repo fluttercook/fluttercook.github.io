@@ -31,6 +31,12 @@ topics:
   - content-services
   - documentation
   - flutter
+summary:
+  - '**AppFlowy** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **73,906★** and 5,648 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `AppFlowy: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appwrite
     title: Add AI to your Flutter app with appwrite

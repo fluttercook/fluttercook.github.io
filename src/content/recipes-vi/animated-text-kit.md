@@ -30,6 +30,11 @@ topics:
   - flutter
   - flutter-package
   - material-design
+summary:
+  - '**Animated-Text-Kit** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **1,775★** và 320 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `Animated-Text-Kit: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

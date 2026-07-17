@@ -29,6 +29,12 @@ topics:
   - flutter-demo
   - flutter-ui
   - freezed
+summary:
+  - '**flutter-crypto-app** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm
+    **State management**.'
+  - Dự án có **439★** và 101 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter-crypto-app: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

@@ -27,6 +27,12 @@ topics:
   - dart
   - flutter
   - flutter-ui
+summary:
+  - '**flutter-tips-and-tricks** là một thư viện thành phần giao diện (UI) mã nguồn
+    mở thuộc nhóm **UI/Components**.'
+  - Dự án có **6,814★** và 1,107 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter-tips-and-tricks: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

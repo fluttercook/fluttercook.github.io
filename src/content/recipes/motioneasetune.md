@@ -26,6 +26,11 @@ topics:
   - android-application
   - flutter-apps
   - motion-sickness
+summary:
+  - '**MotionEaseTune** is an open-source animation library in the **Animation** category.'
+  - It has **1,058★** and 26 forks, and is actively maintained.
+  - 'Install it with `MotionEaseTune: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

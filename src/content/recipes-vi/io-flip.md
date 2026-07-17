@@ -26,6 +26,11 @@ keywords:
   - io_flip hướng dẫn
 topics:
   []
+summary:
+  - '**io_flip** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **691★** và 122 fork, và được bảo trì tích cực.
+  - 'Cài bằng `io_flip: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

@@ -26,6 +26,12 @@ topics:
   - dart
   - flutter
   - redux
+summary:
+  - '**flutter_architecture_samples** is an open-source state-management library in
+    the **State management** category.'
+  - It has **8,924★** and 1,711 forks, and is stable, with updates in the past year.
+  - 'Install it with `flutter_architecture_samples: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

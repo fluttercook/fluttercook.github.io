@@ -31,6 +31,12 @@ topics:
   - dnstt
   - flutter-apps
   - iran
+summary:
+  - '**dnstt_xyz_app** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **349★** and 17 forks, and is actively maintained.
+  - 'Install it with `dnstt_xyz_app: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

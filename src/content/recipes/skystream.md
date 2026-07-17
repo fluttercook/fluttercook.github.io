@@ -25,6 +25,13 @@ keywords:
   - skystream tutorial
 topics:
   []
+summary:
+  - '**skystream** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **454★** and 37 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `skystream: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

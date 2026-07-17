@@ -31,6 +31,12 @@ topics:
   - claude
   - claude-code
   - codex
+summary:
+  - '**openpencil** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **4,101★** và 405 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `openpencil: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

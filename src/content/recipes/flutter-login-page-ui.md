@@ -29,6 +29,12 @@ topics:
   - flutter-design
   - flutter-example
   - flutter-login
+summary:
+  - '**Flutter-Login-Page-UI** is an open-source animation library in the **Animation**
+    category.'
+  - It has **442★** and 251 forks, and is mature and stable.
+  - 'Install it with `Flutter-Login-Page-UI: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

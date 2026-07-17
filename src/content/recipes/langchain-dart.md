@@ -31,6 +31,12 @@ topics:
   - generative-ai
   - llms
   - nlp
+summary:
+  - '**langchain_dart** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **685★** and 155 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `langchain_dart: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

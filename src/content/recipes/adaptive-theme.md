@@ -30,6 +30,12 @@ topics:
   - flutter-ui
   - flutter-widget
   - hacktoberfest
+summary:
+  - '**adaptive_theme** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **682★** and 47 forks, and is stable, with updates in the past year.
+  - 'Install it with `adaptive_theme: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

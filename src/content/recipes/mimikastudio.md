@@ -31,6 +31,12 @@ topics:
   - flutter-app
   - flutter-apps
   - flutter-examples
+summary:
+  - '**MimikaStudio** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **639★** and 85 forks, and is actively maintained.
+  - 'Install it with `MimikaStudio: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

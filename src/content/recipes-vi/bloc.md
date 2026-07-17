@@ -29,6 +29,12 @@ topics:
   - dart
   - dart-library
   - dart-web
+summary:
+  - '**bloc** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm **State management**.'
+  - Dự án có **12,474★** và 3,417 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `bloc: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: getx
     title: 'getx: hướng dẫn quản lý trạng thái trong Flutter'

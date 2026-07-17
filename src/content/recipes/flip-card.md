@@ -27,6 +27,11 @@ topics:
   - dart
   - flutter
   - flutter-package
+summary:
+  - '**flip_card** is an open-source animation library in the **Animation** category.'
+  - It has **351★** and 106 forks, and is mature and stable.
+  - 'Install it with `flip_card: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

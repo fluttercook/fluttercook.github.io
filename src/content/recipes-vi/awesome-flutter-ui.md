@@ -31,6 +31,12 @@ topics:
   - dart
   - example
   - figma
+summary:
+  - '**awesome-flutter-ui** là một tài nguyên học tập được tuyển chọn mã nguồn mở thuộc
+    nhóm **Learning/Awesome**.'
+  - Dự án có **1,179★** và 153 fork, và trưởng thành và ổn định.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn cần một điểm khởi đầu được tuyển chọn.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: dự án Flutter mã nguồn mở đáng nghiên cứu'

@@ -31,6 +31,11 @@ topics:
   - flutter
   - hive
   - key-value
+summary:
+  - '**hive** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **4,386★** and 451 forks, and is mature and stable.
+  - 'Install it with `hive: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

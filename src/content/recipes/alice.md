@@ -31,6 +31,11 @@ topics:
   - flutter
   - flutter-examples
   - flutter-package
+summary:
+  - '**alice** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **632★** and 324 forks, and is stable, with updates in the past year.
+  - 'Install it with `alice: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

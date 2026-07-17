@@ -30,6 +30,12 @@ topics:
   - flatpak
   - flutter
   - flutter-apps
+summary:
+  - '**rustdesk** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm **UI/Components**.'
+  - Dự án có **118,373★** và 18,005 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `rustdesk: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: hiddify-app
     title: 'hiddify-app: hướng dẫn giao diện & thành phần UI trong Flutter'

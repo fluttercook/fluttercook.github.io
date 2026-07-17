@@ -26,6 +26,12 @@ keywords:
 topics:
   - dart
   - flutter
+summary:
+  - '**mpflutter** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc nhóm
+    **Library/Tooling**.'
+  - Dự án có **2,138★** và 145 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `mpflutter: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

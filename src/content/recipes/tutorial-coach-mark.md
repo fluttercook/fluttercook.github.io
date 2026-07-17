@@ -28,6 +28,12 @@ topics:
   - flutter
   - flutter-package
   - tutorial
+summary:
+  - '**tutorial_coach_mark** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **615★** and 237 forks, and is stable, with updates in the past year.
+  - 'Install it with `tutorial_coach_mark: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

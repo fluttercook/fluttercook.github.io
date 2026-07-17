@@ -31,6 +31,13 @@ topics:
   - claude-code
   - cli
   - codex
+summary:
+  - '**ccpocket** is an open-source open-source app / starter template in the **App/Template**
+    category.'
+  - It has **973★** and 91 forks, and is actively maintained (updated within the last
+    month).
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you want a production-grade example to study or fork.
 related:
   - slug: immich
     title: 'Inside immich: an open-source Flutter app worth studying'

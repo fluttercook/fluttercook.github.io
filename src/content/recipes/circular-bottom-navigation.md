@@ -26,6 +26,12 @@ topics:
   - flutter
   - hacktoberfest
   - ui
+summary:
+  - '**circular_bottom_navigation** is an open-source animation library in the **Animation**
+    category.'
+  - It has **691★** and 100 forks, and is mature and stable.
+  - 'Install it with `circular_bottom_navigation: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

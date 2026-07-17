@@ -27,6 +27,12 @@ topics:
   - dart
   - flutter
   - flutter-package
+summary:
+  - '**grouped_list** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **416★** and 108 forks, and is stable, with updates in the past year.
+  - 'Install it with `grouped_list: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

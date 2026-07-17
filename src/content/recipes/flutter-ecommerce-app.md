@@ -30,6 +30,12 @@ topics:
   - flutter-demo
   - flutter-examples
   - flutter-ui
+summary:
+  - '**flutter_ecommerce_app** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **3,453★** and 1,271 forks, and is mature and stable.
+  - 'Install it with `flutter_ecommerce_app: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -31,6 +31,12 @@ topics:
   - douban-movie
   - flutter
   - http
+summary:
+  - '**flutter_app** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **2,702★** and 512 forks, and is mature and stable.
+  - 'Install it with `flutter_app: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

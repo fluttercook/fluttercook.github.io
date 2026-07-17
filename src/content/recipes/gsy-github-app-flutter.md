@@ -30,6 +30,13 @@ topics:
   - dartlang
   - flutter
   - flutter-app
+summary:
+  - '**gsy_github_app_flutter** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **15,463★** and 2,623 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `gsy_github_app_flutter: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

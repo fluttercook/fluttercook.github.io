@@ -31,6 +31,11 @@ topics:
   - dart
   - dialog
   - dio
+summary:
+  - '**flutter-shopping-AiRi** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **460★** and 107 forks, and is mature and stable.
+  - 'Install it with `flutter-shopping-AiRi: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

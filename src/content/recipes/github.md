@@ -31,6 +31,11 @@ topics:
   - china
   - gege-circle
   - message-board
+summary:
+  - '**.github** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **1,942★** and 151 forks, and is stable, with updates in the past year.
+  - 'Install it with `.github: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

@@ -29,6 +29,12 @@ topics:
   - dartlang
   - flutter
   - flutter-package
+summary:
+  - '**cubit** is an open-source state-management library in the **State management**
+    category.'
+  - It has **597★** and 25 forks, and is mature and stable.
+  - 'Install it with `cubit: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

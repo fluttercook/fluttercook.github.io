@@ -28,6 +28,13 @@ topics:
   - dart
   - dart-sass
   - sass
+summary:
+  - '**dart-sass** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **4,201★** and 377 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `dart-sass: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

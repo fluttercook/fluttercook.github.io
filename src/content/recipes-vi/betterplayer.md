@@ -30,6 +30,12 @@ topics:
   - dartlang
   - flutter
   - flutter-package
+summary:
+  - '**betterplayer** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc
+    nhóm **Library/Tooling**.'
+  - Dự án có **1,019★** và 1,384 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `betterplayer: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

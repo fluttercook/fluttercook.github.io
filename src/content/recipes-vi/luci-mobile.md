@@ -25,6 +25,12 @@ keywords:
   - luci-mobile hướng dẫn
 topics:
   []
+summary:
+  - '**luci-mobile** là một thư viện điều hướng & định tuyến mã nguồn mở thuộc nhóm
+    **Navigation**.'
+  - Dự án có **564★** và 48 fork, và được bảo trì tích cực.
+  - 'Cài bằng `luci-mobile: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần định tuyến khai báo, theo URL.
 related:
   - slug: lantern
     title: 'lantern: hướng dẫn điều hướng trong Flutter'

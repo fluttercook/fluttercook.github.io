@@ -30,6 +30,11 @@ topics:
   - flutter-demo
   - flutter-examples
   - flutter-material
+summary:
+  - '**flutter_wallet_app** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **402★** và 153 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_wallet_app: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

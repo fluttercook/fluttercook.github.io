@@ -30,6 +30,12 @@ topics:
   - dart
   - flutter
   - ios
+summary:
+  - '**FlutterFoodybite** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc
+    nhóm **UI/Components**.'
+  - Dự án có **1,714★** và 475 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `FlutterFoodybite: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

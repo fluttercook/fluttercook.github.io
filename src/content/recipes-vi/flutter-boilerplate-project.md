@@ -29,6 +29,12 @@ topics:
   - dependency-injection
   - dio
   - encryption-decryption
+summary:
+  - '**flutter_boilerplate_project** là một thư viện quản lý trạng thái mã nguồn mở
+    thuộc nhóm **State management**.'
+  - Dự án có **2,424★** và 910 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_boilerplate_project: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

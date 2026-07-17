@@ -30,6 +30,12 @@ topics:
   - flutter-package
   - flutter-plugin
   - flutter-transition
+summary:
+  - '**flutter_page_transition** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **484★** and 67 forks, and is actively maintained.
+  - 'Install it with `flutter_page_transition: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -27,6 +27,12 @@ topics:
   - firebase
   - flutter
   - riverpod
+summary:
+  - '**starter_architecture_flutter_firebase** là một thư viện quản lý trạng thái mã
+    nguồn mở thuộc nhóm **State management**.'
+  - Dự án có **1,809★** và 489 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `starter_architecture_flutter_firebase: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

@@ -28,6 +28,12 @@ topics:
   - parameters
   - router
   - routing
+summary:
+  - '**fluro** is an open-source navigation & routing library in the **Navigation**
+    category.'
+  - It has **3,713★** and 409 forks, and is mature and stable.
+  - 'Install it with `fluro: ^latest` in your pubspec.yaml.'
+  - Best when you need declarative, URL-driven routing.
 related:
   - slug: lantern
     title: Flutter navigation done right with lantern

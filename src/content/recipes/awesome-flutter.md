@@ -31,6 +31,12 @@ topics:
   - collections
   - cross-platform
   - dartlang
+summary:
+  - '**awesome-flutter** is an open-source curated learning resource in the **Learning/Awesome**
+    category.'
+  - It has **60,616★** and 6,905 forks, and is actively maintained.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: flutter-course-resources
     title: 'Flutter-Course-Resources: a curated shortcut to mastering Flutter'

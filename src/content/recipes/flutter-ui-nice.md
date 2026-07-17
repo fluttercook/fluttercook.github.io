@@ -29,6 +29,11 @@ topics:
   - course
   - demo
   - example
+summary:
+  - '**flutter-ui-nice** is an open-source animation library in the **Animation** category.'
+  - It has **3,801★** and 604 forks, and is mature and stable.
+  - 'Install it with `flutter-ui-nice: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

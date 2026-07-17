@@ -30,6 +30,12 @@ topics:
   - csharp
   - dart
   - golang
+summary:
+  - '**antlr4** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **18,954★** and 3,457 forks, and is actively maintained.
+  - 'Install it with `antlr4: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

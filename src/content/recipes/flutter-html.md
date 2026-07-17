@@ -31,6 +31,11 @@ topics:
   - flutter-widget
   - flutter-widgets
   - html-css
+summary:
+  - '**flutter_html** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **1,890★** and 931 forks, and is mature and stable.
+  - 'Install it with `flutter_html: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

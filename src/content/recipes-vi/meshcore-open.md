@@ -26,6 +26,11 @@ keywords:
   - meshcore-open hướng dẫn
 topics:
   []
+summary:
+  - '**meshcore-open** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **565★** và 94 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `meshcore-open: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

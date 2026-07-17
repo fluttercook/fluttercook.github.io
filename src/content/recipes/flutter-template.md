@@ -29,6 +29,12 @@ topics:
   - dio
   - e2e-tests
   - flutter
+summary:
+  - '**flutter_template** is an open-source state-management library in the **State
+    management** category.'
+  - It has **401★** and 82 forks, and is mature and stable.
+  - 'Install it with `flutter_template: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

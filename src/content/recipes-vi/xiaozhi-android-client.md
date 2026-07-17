@@ -31,6 +31,11 @@ topics:
   - chatgpt
   - dart
   - dify
+summary:
+  - '**xiaozhi-android-client** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **1,542★** và 397 fork, và được bảo trì tích cực.
+  - 'Cài bằng `xiaozhi-android-client: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

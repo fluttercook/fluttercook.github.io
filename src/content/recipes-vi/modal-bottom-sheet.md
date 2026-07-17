@@ -30,6 +30,12 @@ topics:
   - ios13
   - material
   - modal-bottom-sheets
+summary:
+  - '**modal_bottom_sheet** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc
+    nhóm **UI/Components**.'
+  - Dự án có **1,969★** và 521 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `modal_bottom_sheet: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

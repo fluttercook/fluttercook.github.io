@@ -25,6 +25,12 @@ keywords:
   - LINUX-DO tutorial
 topics:
   []
+summary:
+  - '**LINUX-DO** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **403★** and 37 forks, and is mature and stable.
+  - 'Install it with `LINUX-DO: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

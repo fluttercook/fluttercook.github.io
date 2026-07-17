@@ -28,6 +28,12 @@ topics:
   - flutter
   - local-ai
   - uncensored-ai
+summary:
+  - '**Uncensored-Local-AI-Multiplatform** is an open-source AI/ML toolkit in the **AI/ML**
+    category.'
+  - It has **894★** and 192 forks, and is actively maintained.
+  - 'Install it with `Uncensored-Local-AI-Multiplatform: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

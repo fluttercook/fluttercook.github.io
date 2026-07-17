@@ -30,6 +30,11 @@ topics:
   - dartlang
   - darts
   - flutter
+summary:
+  - '**getwidget** is an open-source UI component library in the **UI/Components** category.'
+  - It has **4,824★** and 646 forks, and is actively maintained.
+  - 'Install it with `getwidget: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

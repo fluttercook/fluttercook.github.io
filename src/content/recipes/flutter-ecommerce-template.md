@@ -29,6 +29,12 @@ topics:
   - flutter-examples
   - flutter-ui
   - ui-components
+summary:
+  - '**flutter_ecommerce_template** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **1,582★** and 714 forks, and is mature and stable.
+  - 'Install it with `flutter_ecommerce_template: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -29,6 +29,12 @@ topics:
   - dartlang
   - flutter
   - flutter-easyloading
+summary:
+  - '**flutter_easyloading** is an open-source animation library in the **Animation**
+    category.'
+  - It has **1,334★** and 249 forks, and is mature and stable.
+  - 'Install it with `flutter_easyloading: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

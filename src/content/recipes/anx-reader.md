@@ -28,6 +28,11 @@ topics:
   - dart
   - ebook-reader
   - flutter
+summary:
+  - '**anx-reader** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **8,437★** and 572 forks, and is actively maintained.
+  - 'Install it with `anx-reader: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

@@ -26,6 +26,12 @@ keywords:
 topics:
   - dart
   - flutter
+summary:
+  - '**gallery** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc nhóm
+    **Library/Tooling**.'
+  - Dự án có **6,576★** và 1,544 fork, và được bảo trì tích cực.
+  - 'Cài bằng `gallery: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

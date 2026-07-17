@@ -29,6 +29,11 @@ topics:
   - flutter
   - flutter-package
   - flutter-pin-code
+summary:
+  - '**Flutter_Pinput** is an open-source animation library in the **Animation** category.'
+  - It has **856★** and 214 forks, and is actively maintained.
+  - 'Install it with `Flutter_Pinput: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

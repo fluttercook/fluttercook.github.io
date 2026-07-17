@@ -29,6 +29,11 @@ topics:
   - svg
   - svg-animations
   - svg-path
+summary:
+  - '**drawing_animation** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **512★** và 127 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `drawing_animation: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

@@ -27,6 +27,11 @@ topics:
   - dart
   - flutter
   - loading
+summary:
+  - '**flutter_shimmer** is an open-source animation library in the **Animation** category.'
+  - It has **1,859★** and 204 forks, and is mature and stable.
+  - 'Install it with `flutter_shimmer: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

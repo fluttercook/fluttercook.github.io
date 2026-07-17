@@ -30,6 +30,12 @@ topics:
   - dart2
   - dartlang
   - design-pattern
+summary:
+  - '**flutter_clean_architecture** là một thư viện thành phần giao diện (UI) mã nguồn
+    mở thuộc nhóm **UI/Components**.'
+  - Dự án có **735★** và 177 fork, và được bảo trì tích cực.
+  - 'Cài bằng `flutter_clean_architecture: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

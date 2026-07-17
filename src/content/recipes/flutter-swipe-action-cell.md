@@ -29,6 +29,13 @@ topics:
   - dart
   - flutter
   - flutter-widget
+summary:
+  - '**flutter_swipe_action_cell** is an open-source animation library in the **Animation**
+    category.'
+  - It has **352★** and 63 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `flutter_swipe_action_cell: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

@@ -29,6 +29,11 @@ topics:
   - effects
   - flutter
   - flutter-apps
+summary:
+  - '**flutter_effects** is an open-source animation library in the **Animation** category.'
+  - It has **502★** and 57 forks, and is mature and stable.
+  - 'Install it with `flutter_effects: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

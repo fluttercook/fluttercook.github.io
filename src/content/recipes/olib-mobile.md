@@ -26,6 +26,11 @@ keywords:
   - olib-mobile tutorial
 topics:
   []
+summary:
+  - '**olib-mobile** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **919★** and 38 forks, and is actively maintained.
+  - 'Install it with `olib-mobile: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

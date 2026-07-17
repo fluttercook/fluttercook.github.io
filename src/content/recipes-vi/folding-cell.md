@@ -28,6 +28,12 @@ topics:
   - flutter
   - flutter-package
   - flutter-widget
+summary:
+  - '**folding_cell** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm
+    **UI/Components**.'
+  - Dự án có **564★** và 40 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `folding_cell: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

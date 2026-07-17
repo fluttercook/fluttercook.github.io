@@ -25,6 +25,13 @@ keywords:
   - mithka tutorial
 topics:
   []
+summary:
+  - '**mithka** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **447★** and 16 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `mithka: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

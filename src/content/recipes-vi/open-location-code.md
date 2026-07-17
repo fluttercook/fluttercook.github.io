@@ -30,6 +30,12 @@ topics:
   - geo
   - golang
   - gps
+summary:
+  - '**open-location-code** là một thư viện & công cụ cho lập trình viên mã nguồn mở
+    thuộc nhóm **Library/Tooling**.'
+  - Dự án có **4,335★** và 528 fork, và được bảo trì tích cực.
+  - 'Cài bằng `open-location-code: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

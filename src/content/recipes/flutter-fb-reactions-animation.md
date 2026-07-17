@@ -27,6 +27,12 @@ topics:
   - demo
   - facebook-reactions
   - flutter
+summary:
+  - '**flutter-fb-reactions-animation** is an open-source animation library in the **Animation**
+    category.'
+  - It has **444★** and 65 forks, and is mature and stable.
+  - 'Install it with `flutter-fb-reactions-animation: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

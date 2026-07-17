@@ -30,6 +30,11 @@ topics:
   - flutter
   - ios
   - otp
+summary:
+  - '**pin_code_fields** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **791★** và 385 fork, và được bảo trì tích cực.
+  - 'Cài bằng `pin_code_fields: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

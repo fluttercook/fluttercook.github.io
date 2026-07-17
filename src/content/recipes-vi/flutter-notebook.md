@@ -26,6 +26,12 @@ keywords:
 topics:
   - flutter
   - flutter-demo
+summary:
+  - '**Flutter-Notebook** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc
+    nhóm **Library/Tooling**.'
+  - Dự án có **7,206★** và 1,182 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `Flutter-Notebook: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

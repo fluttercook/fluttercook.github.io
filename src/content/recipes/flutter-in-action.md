@@ -26,6 +26,12 @@ keywords:
 topics:
   - flutter
   - flutter-book
+summary:
+  - '**flutter-in-action** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **8,607★** and 1,658 forks, and is mature and stable.
+  - 'Install it with `flutter-in-action: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

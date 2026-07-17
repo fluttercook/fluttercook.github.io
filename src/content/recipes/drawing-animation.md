@@ -28,6 +28,12 @@ topics:
   - svg
   - svg-animations
   - svg-path
+summary:
+  - '**drawing_animation** is an open-source animation library in the **Animation**
+    category.'
+  - It has **512★** and 127 forks, and is stable, with updates in the past year.
+  - 'Install it with `drawing_animation: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

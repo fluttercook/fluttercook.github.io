@@ -30,6 +30,12 @@ topics:
   - concave
   - convex
   - custom-shape
+summary:
+  - '**Flutter-Neumorphic** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **2,191★** and 416 forks, and is mature and stable.
+  - 'Install it with `Flutter-Neumorphic: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

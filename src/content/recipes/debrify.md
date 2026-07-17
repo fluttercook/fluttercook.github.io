@@ -30,6 +30,13 @@ topics:
   - flutter
   - media-player
   - real-debrid
+summary:
+  - '**debrify** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **350★** and 18 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `debrify: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

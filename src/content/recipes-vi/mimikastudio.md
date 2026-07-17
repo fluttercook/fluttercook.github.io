@@ -31,6 +31,11 @@ topics:
   - flutter-app
   - flutter-apps
   - flutter-examples
+summary:
+  - '**MimikaStudio** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **639★** và 85 fork, và được bảo trì tích cực.
+  - 'Cài bằng `MimikaStudio: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

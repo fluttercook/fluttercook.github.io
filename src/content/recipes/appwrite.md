@@ -31,6 +31,12 @@ topics:
   - backend-as-a-service
   - docker
   - firebase
+summary:
+  - '**appwrite** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **56,594★** and 5,556 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `appwrite: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

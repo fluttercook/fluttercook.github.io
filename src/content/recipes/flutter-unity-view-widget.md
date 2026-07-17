@@ -31,6 +31,12 @@ topics:
   - flutter-plugin
   - game-engine
   - unity
+summary:
+  - '**flutter-unity-view-widget** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **2,300★** and 591 forks, and is actively maintained.
+  - 'Install it with `flutter-unity-view-widget: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

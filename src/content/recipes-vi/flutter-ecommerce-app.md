@@ -30,6 +30,12 @@ topics:
   - flutter-demo
   - flutter-examples
   - flutter-ui
+summary:
+  - '**flutter_ecommerce_app** là một thư viện thành phần giao diện (UI) mã nguồn mở
+    thuộc nhóm **UI/Components**.'
+  - Dự án có **3,453★** và 1,271 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_ecommerce_app: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

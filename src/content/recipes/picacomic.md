@@ -30,6 +30,11 @@ topics:
   - flutter
   - hitomi-la
   - ios-app
+summary:
+  - '**PicaComic** is an open-source UI component library in the **UI/Components** category.'
+  - It has **8,657★** and 1,070 forks, and is mature and stable.
+  - 'Install it with `PicaComic: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -30,6 +30,11 @@ topics:
   - chat-ui-components
   - chat-uikit
   - flutter
+summary:
+  - '**TIMSDK** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm **UI/Components**.'
+  - Dự án có **2,725★** và 2,728 fork, và được bảo trì tích cực.
+  - 'Cài bằng `TIMSDK: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

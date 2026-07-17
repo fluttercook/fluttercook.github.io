@@ -30,6 +30,13 @@ topics:
   - hysteria
   - multi-platform
   - proxy
+summary:
+  - '**FlClash** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **45,865★** and 2,900 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `FlClash: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: ente
     title: 'ente: a Flutter developer''s guide'

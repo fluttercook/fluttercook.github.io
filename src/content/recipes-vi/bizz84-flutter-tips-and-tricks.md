@@ -28,6 +28,12 @@ topics:
   - dart
   - firebase
   - flutter
+summary:
+  - '**flutter-tips-and-tricks** là một thư viện backend & dữ liệu mã nguồn mở thuộc
+    nhóm **Backend/Data**.'
+  - Dự án có **2,300★** và 261 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `flutter-tips-and-tricks: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

@@ -28,6 +28,11 @@ topics:
   - ai
   - flutter
   - screenshots
+summary:
+  - '**shots-studio** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **657★** and 38 forks, and is actively maintained.
+  - 'Install it with `shots-studio: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

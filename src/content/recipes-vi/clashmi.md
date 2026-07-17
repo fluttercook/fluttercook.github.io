@@ -27,6 +27,13 @@ topics:
   - clash
   - clashmi
   - mihomo
+summary:
+  - '**clashmi** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc nhóm
+    **Library/Tooling**.'
+  - Dự án có **8,369★** và 499 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `clashmi: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

@@ -27,6 +27,12 @@ topics:
   - flutter
   - gui
   - rust
+summary:
+  - '**flutter-rs** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **2,114★** and 82 forks, and is mature and stable.
+  - 'Install it with `flutter-rs: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

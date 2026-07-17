@@ -30,6 +30,12 @@ topics:
   - navigation
   - navigator
   - router
+summary:
+  - '**flow_builder** là một thư viện điều hướng & định tuyến mã nguồn mở thuộc nhóm
+    **Navigation**.'
+  - Dự án có **416★** và 68 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flow_builder: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần định tuyến khai báo, theo URL.
 related:
   - slug: lantern
     title: 'lantern: hướng dẫn điều hướng trong Flutter'

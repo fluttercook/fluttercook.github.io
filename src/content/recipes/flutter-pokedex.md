@@ -29,6 +29,11 @@ topics:
   - flutter-apps
   - flutter-demo
   - flutter-examples
+summary:
+  - '**flutter_pokedex** is an open-source animation library in the **Animation** category.'
+  - It has **2,532★** and 579 forks, and is actively maintained.
+  - 'Install it with `flutter_pokedex: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

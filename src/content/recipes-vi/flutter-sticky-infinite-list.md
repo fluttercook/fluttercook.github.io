@@ -31,6 +31,12 @@ topics:
   - infinite-scroll
   - multidirectionscroll
   - sticky
+summary:
+  - '**flutter_sticky_infinite_list** là một ứng dụng mã nguồn mở / mẫu khởi đầu mã
+    nguồn mở thuộc nhóm **App/Template**.'
+  - Dự án có **340★** và 31 fork, và trưởng thành và ổn định.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn muốn một ví dụ chất lượng production để nghiên cứu hoặc fork.
 related:
   - slug: immich
     title: 'immich: dự án Flutter mã nguồn mở đáng nghiên cứu'

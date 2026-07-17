@@ -29,6 +29,12 @@ topics:
   - flutter-apps
   - flutter-demo
   - flutter-example-app
+summary:
+  - '**findseat** is an open-source state-management library in the **State management**
+    category.'
+  - It has **1,220★** and 363 forks, and is mature and stable.
+  - 'Install it with `findseat: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

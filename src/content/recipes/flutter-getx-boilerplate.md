@@ -29,6 +29,12 @@ topics:
   - flutter-ui
   - get
   - getx
+summary:
+  - '**flutter_getx_boilerplate** is an open-source state-management library in the
+    **State management** category.'
+  - It has **347★** and 128 forks, and is mature and stable.
+  - 'Install it with `flutter_getx_boilerplate: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

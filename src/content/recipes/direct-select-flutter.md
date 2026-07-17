@@ -30,6 +30,12 @@ topics:
   - flutter-ui-collection
   - selection-widget
   - widget
+summary:
+  - '**direct-select-flutter** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **834★** and 64 forks, and is mature and stable.
+  - 'Install it with `direct-select-flutter: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

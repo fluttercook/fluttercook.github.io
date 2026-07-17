@@ -31,6 +31,12 @@ topics:
   - android
   - automation
   - bot
+summary:
+  - '**OmniBot** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **1,897★** and 105 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `OmniBot: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

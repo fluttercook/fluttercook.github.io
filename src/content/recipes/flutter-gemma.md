@@ -26,6 +26,12 @@ keywords:
   - flutter_gemma tutorial
 topics:
   []
+summary:
+  - '**flutter_gemma** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **590★** and 153 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `flutter_gemma: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

@@ -30,6 +30,13 @@ topics:
   - nodejs
   - parsec
   - remote-desktop
+summary:
+  - '**billd-desk** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **6,988★** and 855 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `billd-desk: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

@@ -31,6 +31,11 @@ topics:
   - flutter-widget
   - flutter-widgets
   - html-css
+summary:
+  - '**flutter_html** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **1,890★** và 931 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_html: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

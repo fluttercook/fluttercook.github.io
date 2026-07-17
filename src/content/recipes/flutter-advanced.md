@@ -29,6 +29,11 @@ topics:
   - flutter
   - flutter-apps
   - flutter-demo
+summary:
+  - '**flutter_advanced** is an open-source animation library in the **Animation** category.'
+  - It has **481★** and 68 forks, and is actively maintained.
+  - 'Install it with `flutter_advanced: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

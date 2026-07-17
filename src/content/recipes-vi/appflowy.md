@@ -31,6 +31,12 @@ topics:
   - content-services
   - documentation
   - flutter
+summary:
+  - '**AppFlowy** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **73,906★** và 5,648 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `AppFlowy: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appwrite
     title: 'appwrite: hướng dẫn AI/ML trong Flutter'

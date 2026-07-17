@@ -30,6 +30,11 @@ topics:
   - drag
   - flutter
   - flutter-package
+summary:
+  - '**dough** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm **UI/Components**.'
+  - Dự án có **749★** và 29 fork, và được bảo trì tích cực.
+  - 'Cài bằng `dough: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

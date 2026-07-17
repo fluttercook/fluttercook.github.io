@@ -31,6 +31,11 @@ topics:
   - coreml
   - dart
   - flutter
+summary:
+  - '**yolo-flutter-app** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **457★** và 168 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `yolo-flutter-app: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

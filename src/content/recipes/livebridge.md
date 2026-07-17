@@ -30,6 +30,12 @@ topics:
   - dynamic-island-android
   - live-updates
   - utility
+summary:
+  - '**livebridge** is an open-source open-source app / starter template in the **App/Template**
+    category.'
+  - It has **842★** and 32 forks, and is actively maintained.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you want a production-grade example to study or fork.
 related:
   - slug: immich
     title: 'Inside immich: an open-source Flutter app worth studying'

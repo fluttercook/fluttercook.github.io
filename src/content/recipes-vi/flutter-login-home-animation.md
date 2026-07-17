@@ -25,6 +25,12 @@ keywords:
   - flutter-login-home-animation hướng dẫn
 topics:
   []
+summary:
+  - '**flutter-login-home-animation** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm
+    **Animation**.'
+  - Dự án có **1,261★** và 273 fork, và được bảo trì tích cực.
+  - 'Cài bằng `flutter-login-home-animation: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

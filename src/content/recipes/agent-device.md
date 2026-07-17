@@ -31,6 +31,12 @@ topics:
   - ai-agents
   - android-emulator
   - automation
+summary:
+  - '**agent-device** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **3,418★** and 190 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `agent-device: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

@@ -31,6 +31,12 @@ topics:
   - dart
   - dartlang
   - flutter
+summary:
+  - '**FlutterExampleApps** là một ứng dụng mã nguồn mở / mẫu khởi đầu mã nguồn mở thuộc
+    nhóm **App/Template**.'
+  - Dự án có **21,508★** và 3,794 fork, và trưởng thành và ổn định.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn muốn một ví dụ chất lượng production để nghiên cứu hoặc fork.
 related:
   - slug: immich
     title: 'immich: dự án Flutter mã nguồn mở đáng nghiên cứu'

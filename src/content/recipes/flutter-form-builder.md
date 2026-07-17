@@ -30,6 +30,13 @@ topics:
   - flutter-form-builder
   - flutter-package
   - form-validation
+summary:
+  - '**flutter_form_builder** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **1,603★** and 560 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `flutter_form_builder: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

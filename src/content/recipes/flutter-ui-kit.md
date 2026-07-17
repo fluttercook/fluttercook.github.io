@@ -27,6 +27,12 @@ topics:
   - dart
   - flutter
   - uikit
+summary:
+  - '**Flutter-UI-Kit** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **6,289★** and 1,150 forks, and is mature and stable.
+  - 'Install it with `Flutter-UI-Kit: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

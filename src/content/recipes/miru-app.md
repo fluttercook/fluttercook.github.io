@@ -29,6 +29,11 @@ topics:
   - bangumi
   - bittorrent
   - flutter
+summary:
+  - '**miru-app** is an open-source animation library in the **Animation** category.'
+  - It has **5,561★** and 238 forks, and is stable, with updates in the past year.
+  - 'Install it with `miru-app: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: anich
     title: Beautiful Flutter animations with AniCh

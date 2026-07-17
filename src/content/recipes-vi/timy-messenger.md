@@ -31,6 +31,11 @@ topics:
   - flutter
   - ios
   - kotlin
+summary:
+  - '**timy-messenger** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **2,105★** và 444 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `timy-messenger: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

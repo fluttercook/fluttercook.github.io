@@ -31,6 +31,11 @@ topics:
   - flutter
   - ios
   - ui
+summary:
+  - '**flutter_chat_ui** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **2,316★** and 856 forks, and is actively maintained.
+  - 'Install it with `flutter_chat_ui: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

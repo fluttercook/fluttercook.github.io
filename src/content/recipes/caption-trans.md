@@ -25,6 +25,12 @@ keywords:
   - Caption-Trans tutorial
 topics:
   []
+summary:
+  - '**Caption-Trans** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **842★** and 59 forks, and is actively maintained.
+  - 'Install it with `Caption-Trans: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

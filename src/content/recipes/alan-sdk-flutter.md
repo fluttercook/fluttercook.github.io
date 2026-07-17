@@ -31,6 +31,11 @@ topics:
   - chatbot
   - conversational-ai
   - flutter
+summary:
+  - '**alan-sdk-flutter** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **1,760★** and 40 forks, and is mature and stable.
+  - 'Install it with `alan-sdk-flutter: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

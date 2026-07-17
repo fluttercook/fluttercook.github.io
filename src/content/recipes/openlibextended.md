@@ -31,6 +31,12 @@ topics:
   - ebook
   - ebook-downloader
   - ereader
+summary:
+  - '**OpenlibExtended** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **409★** and 15 forks, and is actively maintained.
+  - 'Install it with `OpenlibExtended: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

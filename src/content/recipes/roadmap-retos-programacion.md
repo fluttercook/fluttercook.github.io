@@ -31,6 +31,13 @@ topics:
   - ejercicios
   - go
   - java
+summary:
+  - '**roadmap-retos-programacion** is an open-source curated learning resource in the
+    **Learning/Awesome** category.'
+  - It has **8,503★** and 6,164 forks, and is actively maintained (updated within the
+    last month).
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: a curated shortcut to mastering Flutter'

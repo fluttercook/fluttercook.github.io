@@ -30,6 +30,12 @@ topics:
   - flutter
   - flutter-package
   - flutter-plugin
+summary:
+  - '**FlutterToast** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **1,530★** and 433 forks, and is actively maintained.
+  - 'Install it with `FlutterToast: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

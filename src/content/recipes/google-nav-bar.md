@@ -29,6 +29,12 @@ topics:
   - flutter
   - flutter-apps
   - flutter-material
+summary:
+  - '**google_nav_bar** is an open-source navigation & routing library in the **Navigation**
+    category.'
+  - It has **790★** and 117 forks, and is mature and stable.
+  - 'Install it with `google_nav_bar: ^latest` in your pubspec.yaml.'
+  - Best when you need declarative, URL-driven routing.
 related:
   - slug: lantern
     title: Flutter navigation done right with lantern

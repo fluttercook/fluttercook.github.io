@@ -31,6 +31,11 @@ topics:
   - godot-engine
   - godot-plugin
   - godot4
+summary:
+  - '**nobodywho** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **1,029★** và 72 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `nobodywho: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

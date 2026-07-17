@@ -29,6 +29,12 @@ topics:
   - flutter
   - flutter-app
   - flutter-bloc
+summary:
+  - '**flutter-checkio** is an open-source state-management library in the **State management**
+    category.'
+  - It has **706★** and 148 forks, and is mature and stable.
+  - 'Install it with `flutter-checkio: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

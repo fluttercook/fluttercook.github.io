@@ -29,6 +29,13 @@ topics:
   - ffi
   - flutter
   - rust
+summary:
+  - '**flutter_rust_bridge** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **5,338★** and 408 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `flutter_rust_bridge: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

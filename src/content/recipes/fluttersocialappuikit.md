@@ -30,6 +30,12 @@ topics:
   - mobile
   - social-media
   - ui
+summary:
+  - '**FlutterSocialAppUIKit** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **1,989★** and 513 forks, and is mature and stable.
+  - 'Install it with `FlutterSocialAppUIKit: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

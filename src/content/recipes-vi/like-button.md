@@ -28,6 +28,11 @@ topics:
   - like-animation
   - like-button
   - twitter-heart
+summary:
+  - '**like_button** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **476★** và 99 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `like_button: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

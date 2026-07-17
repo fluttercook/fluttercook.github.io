@@ -26,6 +26,11 @@ keywords:
   - olib-mobile hướng dẫn
 topics:
   []
+summary:
+  - '**olib-mobile** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **919★** và 38 fork, và được bảo trì tích cực.
+  - 'Cài bằng `olib-mobile: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

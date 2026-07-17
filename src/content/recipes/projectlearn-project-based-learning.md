@@ -31,6 +31,12 @@ topics:
   - learning-by-doing
   - machine-learning
   - mobile-development
+summary:
+  - '**projectlearn-project-based-learning** is an open-source AI/ML toolkit in the
+    **AI/ML** category.'
+  - It has **6,111★** and 525 forks, and is actively maintained.
+  - 'Install it with `projectlearn-project-based-learning: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

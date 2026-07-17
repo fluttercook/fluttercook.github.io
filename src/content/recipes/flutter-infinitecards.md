@@ -28,6 +28,12 @@ topics:
   - cards
   - cardview
   - flutter
+summary:
+  - '**Flutter-InfiniteCards** is an open-source animation library in the **Animation**
+    category.'
+  - It has **363★** and 51 forks, and is mature and stable.
+  - 'Install it with `Flutter-InfiniteCards: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

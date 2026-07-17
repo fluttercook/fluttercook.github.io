@@ -27,6 +27,12 @@ topics:
   - flutter
   - rxdart
   - wanandroid
+summary:
+  - '**flutter_wanandroid** is an open-source state-management library in the **State
+    management** category.'
+  - It has **5,671★** and 1,215 forks, and is mature and stable.
+  - 'Install it with `flutter_wanandroid: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

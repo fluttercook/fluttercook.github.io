@@ -29,6 +29,12 @@ topics:
   - flutter-examples
   - flutter-ui
   - flutter-widget
+summary:
+  - '**Flutter-UI-Kits** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **1,533★** and 410 forks, and is mature and stable.
+  - 'Install it with `Flutter-UI-Kits: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

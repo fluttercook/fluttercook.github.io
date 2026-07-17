@@ -29,6 +29,12 @@ topics:
   - flutter-app
   - flutter-application
   - flutter-design
+summary:
+  - '**Flutter-Shoes-Shop-App** is an open-source animation library in the **Animation**
+    category.'
+  - It has **343★** and 66 forks, and is mature and stable.
+  - 'Install it with `Flutter-Shoes-Shop-App: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

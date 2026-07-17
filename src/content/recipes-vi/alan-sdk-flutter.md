@@ -31,6 +31,11 @@ topics:
   - chatbot
   - conversational-ai
   - flutter
+summary:
+  - '**alan-sdk-flutter** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **1,760★** và 40 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `alan-sdk-flutter: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

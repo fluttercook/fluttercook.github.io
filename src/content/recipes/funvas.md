@@ -27,6 +27,11 @@ topics:
   - dart
   - flutter
   - flutter-package
+summary:
+  - '**funvas** is an open-source animation library in the **Animation** category.'
+  - It has **557★** and 41 forks, and is actively maintained.
+  - 'Install it with `funvas: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

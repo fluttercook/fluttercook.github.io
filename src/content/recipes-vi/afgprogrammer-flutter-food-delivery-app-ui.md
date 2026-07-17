@@ -30,6 +30,12 @@ topics:
   - flutter-delivery-app
   - flutter-design
   - flutter-example
+summary:
+  - '**Flutter-food-delivery-app-ui** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm
+    **Animation**.'
+  - Dự án có **387★** và 104 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `Flutter-food-delivery-app-ui: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

@@ -31,6 +31,11 @@ topics:
   - dart
   - dialog
   - dio
+summary:
+  - '**flutter-shopping-AiRi** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **460★** và 107 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter-shopping-AiRi: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

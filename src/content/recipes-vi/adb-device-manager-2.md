@@ -31,6 +31,12 @@ topics:
   - device-manager
   - file-manager
   - flutter
+summary:
+  - '**Adb-Device-Manager-2** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm
+    **Backend/Data**.'
+  - Dự án có **450★** và 28 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `Adb-Device-Manager-2: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

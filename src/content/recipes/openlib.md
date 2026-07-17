@@ -31,6 +31,11 @@ topics:
   - ebook-reader
   - epub
   - flutter
+summary:
+  - '**Openlib** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **2,403★** and 122 forks, and is actively maintained.
+  - 'Install it with `Openlib: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

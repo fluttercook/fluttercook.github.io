@@ -30,6 +30,12 @@ topics:
   - flutter
   - flutter-package
   - ios
+summary:
+  - '**flutter-settings-ui** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **959★** and 239 forks, and is actively maintained.
+  - 'Install it with `flutter-settings-ui: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -29,6 +29,12 @@ topics:
   - flutter-package
   - grid
   - hsb
+summary:
+  - '**flutter_colorpicker** is an open-source state-management library in the **State
+    management** category.'
+  - It has **383★** and 234 forks, and is actively maintained.
+  - 'Install it with `flutter_colorpicker: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

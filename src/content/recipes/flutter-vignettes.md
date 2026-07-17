@@ -25,6 +25,12 @@ keywords:
   - flutter_vignettes tutorial
 topics:
   []
+summary:
+  - '**flutter_vignettes** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **4,754★** and 1,013 forks, and is mature and stable.
+  - 'Install it with `flutter_vignettes: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

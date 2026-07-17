@@ -24,6 +24,12 @@ keywords:
   - flutter tutorial
 topics:
   []
+summary:
+  - '**flutter** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **398★** and 26 forks, and is actively maintained.
+  - 'Install it with `flutter: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

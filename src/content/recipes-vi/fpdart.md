@@ -31,6 +31,11 @@ topics:
   - dart-functional-programming
   - dart-package
   - dartlang
+summary:
+  - '**fpdart** là một ứng dụng mã nguồn mở / mẫu khởi đầu mã nguồn mở thuộc nhóm **App/Template**.'
+  - Dự án có **622★** và 50 fork, và ổn định, có cập nhật trong năm qua.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn muốn một ví dụ chất lượng production để nghiên cứu hoặc fork.
 related:
   - slug: immich
     title: 'immich: dự án Flutter mã nguồn mở đáng nghiên cứu'

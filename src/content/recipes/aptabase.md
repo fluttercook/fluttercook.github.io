@@ -30,6 +30,11 @@ topics:
   - flutter
   - ios
   - maui
+summary:
+  - '**aptabase** is an open-source UI component library in the **UI/Components** category.'
+  - It has **1,751★** and 132 forks, and is actively maintained.
+  - 'Install it with `aptabase: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

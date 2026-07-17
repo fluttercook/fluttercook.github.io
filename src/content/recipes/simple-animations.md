@@ -24,6 +24,12 @@ keywords:
   - simple_animations tutorial
 topics:
   []
+summary:
+  - '**simple_animations** is an open-source animation library in the **Animation**
+    category.'
+  - It has **1,059★** and 104 forks, and is actively maintained.
+  - 'Install it with `simple_animations: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

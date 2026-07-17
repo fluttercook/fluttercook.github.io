@@ -29,6 +29,11 @@ topics:
   - parameters
   - router
   - routing
+summary:
+  - '**fluro** là một thư viện điều hướng & định tuyến mã nguồn mở thuộc nhóm **Navigation**.'
+  - Dự án có **3,713★** và 409 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `fluro: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần định tuyến khai báo, theo URL.
 related:
   - slug: lantern
     title: 'lantern: hướng dẫn điều hướng trong Flutter'

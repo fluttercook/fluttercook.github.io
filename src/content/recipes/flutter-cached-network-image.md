@@ -28,6 +28,12 @@ topics:
   - flutter
   - image
   - imageprovider
+summary:
+  - '**flutter_cached_network_image** is an open-source state-management library in
+    the **State management** category.'
+  - It has **2,583★** and 733 forks, and is mature and stable.
+  - 'Install it with `flutter_cached_network_image: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

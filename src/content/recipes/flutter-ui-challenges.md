@@ -30,6 +30,12 @@ topics:
   - flutter-ui
   - flutter-ui-challenges
   - flutter-widget
+summary:
+  - '**flutter_ui_challenges** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **4,762★** and 1,392 forks, and is mature and stable.
+  - 'Install it with `flutter_ui_challenges: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

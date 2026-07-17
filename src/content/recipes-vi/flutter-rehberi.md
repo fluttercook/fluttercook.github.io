@@ -29,6 +29,12 @@ topics:
   - resources
   - turkce-dokuman
   - turkce-kaynak
+summary:
+  - '**flutter-rehberi** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc
+    nhóm **Library/Tooling**.'
+  - Dự án có **994★** và 110 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter-rehberi: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

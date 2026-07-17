@@ -30,6 +30,13 @@ topics:
   - dashboard-templates
   - flutter
   - web
+summary:
+  - '**Flutter-Responsive-Admin-Panel-or-Dashboard** is an open-source open-source app
+    / starter template in the **App/Template** category.'
+  - It has **7,106★** and 2,011 forks, and is actively maintained (updated within the
+    last month).
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you want a production-grade example to study or fork.
 related:
   - slug: immich
     title: 'Inside immich: an open-source Flutter app worth studying'

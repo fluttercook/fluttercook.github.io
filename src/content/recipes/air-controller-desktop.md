@@ -31,6 +31,11 @@ topics:
   - dart
   - desktop
   - flutter
+summary:
+  - '**air-controller-desktop** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **582★** and 67 forks, and is mature and stable.
+  - 'Install it with `air-controller-desktop: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

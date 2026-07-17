@@ -30,6 +30,12 @@ topics:
   - flutter-animation
   - flutter-application
   - flutter-design
+summary:
+  - '**Flutter-Complete-e-commerce** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm
+    **Animation**.'
+  - Dự án có **552★** và 175 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `Flutter-Complete-e-commerce: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

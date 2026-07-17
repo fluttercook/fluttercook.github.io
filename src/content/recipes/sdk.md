@@ -27,6 +27,12 @@ topics:
   - language
   - programming-language
   - sdk
+summary:
+  - '**sdk** is an open-source core framework project in the **Framework/Core** category.'
+  - It has **11,211★** and 1,849 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `sdk: ^latest` in your pubspec.yaml.'
+  - Best when you want to understand what powers Flutter itself.
 related:
   - slug: flutter
     title: 'flutter: what powers Flutter and why it matters'

@@ -31,6 +31,12 @@ topics:
   - flutter-articles
   - flutter-components
   - flutter-navigation
+summary:
+  - '**awesome-flutter-cn** is an open-source curated learning resource in the **Learning/Awesome**
+    category.'
+  - It has **3,813★** and 447 forks, and is mature and stable.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: a curated shortcut to mastering Flutter'

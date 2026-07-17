@@ -28,6 +28,12 @@ topics:
   - flutter
   - flutter-package
   - state-management
+summary:
+  - '**states_rebuilder** is an open-source state-management library in the **State
+    management** category.'
+  - It has **476★** and 52 forks, and is mature and stable.
+  - 'Install it with `states_rebuilder: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

@@ -1,0 +1,24 @@
+---
+// Renders a "Summary / Tóm tắt" callout box. Items may contain inline
+// markdown (**bold** and `code`), converted to HTML here.
+const { items = [], text = '', lang = 'en', title } = Astro.props;
+const label = title ?? (lang === 'vi' ? 'Tóm tắt' : 'In summary');
+function inline(s) {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>')
+    .replace(/`(.+?)`/g, '<code>$1</code>');
+}
+---
+{(items.length > 0 || text) && (
+  <aside class="summary-box">
+    <p class="summary-title">📌 {label}</p>
+    {items.length > 0 ? (
+      <ul>{items.map((it) => <li set:html={inline(it)} />)}</ul>
+    ) : (
+      <p set:html={inline(text)} />
+    )}
+  </aside>
+)}

@@ -31,6 +31,12 @@ topics:
   - cross-platform
   - developer-roadmap
   - firebase
+summary:
+  - '**flutter-development-roadmap** is an open-source curated learning resource in
+    the **Learning/Awesome** category.'
+  - It has **973★** and 241 forks, and is mature and stable.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: a curated shortcut to mastering Flutter'

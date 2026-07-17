@@ -31,6 +31,11 @@ topics:
   - dynamic-tools
   - flutter
   - harness
+summary:
+  - '**mcp_flutter** là một bộ công cụ AI/ML mã nguồn mở thuộc nhóm **AI/ML**.'
+  - Dự án có **349★** và 41 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `mcp_flutter: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn thêm chatbot, trợ lý hoặc tính năng sinh nội dung.
 related:
   - slug: appflowy
     title: 'AppFlowy: hướng dẫn AI/ML trong Flutter'

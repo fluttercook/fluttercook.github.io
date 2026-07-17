@@ -31,6 +31,12 @@ topics:
   - debugging-tool
   - developer
   - development
+summary:
+  - '**flutter_ume** is an open-source open-source app / starter template in the **App/Template**
+    category.'
+  - It has **2,162★** and 243 forks, and is mature and stable.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you want a production-grade example to study or fork.
 related:
   - slug: immich
     title: 'Inside immich: an open-source Flutter app worth studying'

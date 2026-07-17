@@ -30,6 +30,12 @@ topics:
   - flutter-plugin
   - flutter-widget
   - swiper
+summary:
+  - '**flutter_swiper** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **3,531★** and 729 forks, and is mature and stable.
+  - 'Install it with `flutter_swiper: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

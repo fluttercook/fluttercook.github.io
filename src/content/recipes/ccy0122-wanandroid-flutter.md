@@ -29,6 +29,12 @@ topics:
   - flutter-apps
   - flutter-bloc
   - flutter-provider
+summary:
+  - '**WanAndroid_Flutter** is an open-source state-management library in the **State
+    management** category.'
+  - It has **486★** and 93 forks, and is mature and stable.
+  - 'Install it with `WanAndroid_Flutter: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

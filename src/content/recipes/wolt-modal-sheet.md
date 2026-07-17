@@ -26,6 +26,11 @@ topics:
   - dart
   - flutter
   - hactoberfest
+summary:
+  - '**wolt_modal_sheet** is an open-source animation library in the **Animation** category.'
+  - It has **641★** and 90 forks, and is stable, with updates in the past year.
+  - 'Install it with `wolt_modal_sheet: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

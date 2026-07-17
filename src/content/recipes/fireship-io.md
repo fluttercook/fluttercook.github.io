@@ -28,6 +28,12 @@ topics:
   - firebase
   - flutter
   - javascript
+summary:
+  - '**fireship.io** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **3,760★** and 1,328 forks, and is mature and stable.
+  - 'Install it with `fireship.io: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

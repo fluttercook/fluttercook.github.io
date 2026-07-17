@@ -28,6 +28,12 @@ topics:
   - flutter
   - flutter-package
   - state-management
+summary:
+  - '**states_rebuilder** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm
+    **State management**.'
+  - Dự án có **476★** và 52 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `states_rebuilder: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

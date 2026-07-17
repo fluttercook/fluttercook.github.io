@@ -31,6 +31,11 @@ topics:
   - dart
   - flutter
   - flutter-apps
+summary:
+  - '**Prism** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **651★** and 148 forks, and is actively maintained.
+  - 'Install it with `Prism: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

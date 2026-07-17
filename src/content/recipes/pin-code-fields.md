@@ -29,6 +29,11 @@ topics:
   - flutter
   - ios
   - otp
+summary:
+  - '**pin_code_fields** is an open-source animation library in the **Animation** category.'
+  - It has **791★** and 385 forks, and is actively maintained.
+  - 'Install it with `pin_code_fields: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

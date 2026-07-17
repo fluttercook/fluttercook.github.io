@@ -26,6 +26,11 @@ keywords:
   - china-dictatroship-7 tutorial
 topics:
   []
+summary:
+  - '**china-dictatroship-7** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **357★** and 37 forks, and is actively maintained.
+  - 'Install it with `china-dictatroship-7: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

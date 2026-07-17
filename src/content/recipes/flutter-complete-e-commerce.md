@@ -29,6 +29,12 @@ topics:
   - flutter-animation
   - flutter-application
   - flutter-design
+summary:
+  - '**Flutter-Complete-e-commerce** is an open-source animation library in the **Animation**
+    category.'
+  - It has **552★** and 175 forks, and is mature and stable.
+  - 'Install it with `Flutter-Complete-e-commerce: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

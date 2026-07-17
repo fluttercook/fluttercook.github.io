@@ -28,6 +28,12 @@ topics:
   - flutter
   - kraken
   - web
+summary:
+  - '**kraken** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **4,929★** and 303 forks, and is mature and stable.
+  - 'Install it with `kraken: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

@@ -27,6 +27,12 @@ topics:
   - fpga
   - rohd
   - silicon
+summary:
+  - '**aegis** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **342★** and 17 forks, and is actively maintained.
+  - 'Install it with `aegis: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

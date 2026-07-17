@@ -31,6 +31,11 @@ topics:
   - backend
   - cloud
   - cloud-native
+summary:
+  - '**nitric** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **2,000★** and 121 forks, and is actively maintained.
+  - 'Install it with `nitric: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

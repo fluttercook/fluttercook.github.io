@@ -27,6 +27,12 @@ topics:
   - astral
   - et
   - p2p
+summary:
+  - '**astral** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc nhóm
+    **Library/Tooling**.'
+  - Dự án có **1,095★** và 63 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `astral: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

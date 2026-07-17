@@ -31,6 +31,12 @@ topics:
   - angular
   - best-practices
   - coding-standards
+summary:
+  - '**agent-skills-standard** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **525★** and 153 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `agent-skills-standard: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

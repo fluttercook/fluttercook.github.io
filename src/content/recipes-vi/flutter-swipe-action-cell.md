@@ -30,6 +30,11 @@ topics:
   - dart
   - flutter
   - flutter-widget
+summary:
+  - '**flutter_swipe_action_cell** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **352★** và 63 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `flutter_swipe_action_cell: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

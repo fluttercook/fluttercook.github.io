@@ -30,6 +30,11 @@ topics:
   - flutter-apps
   - flutter-demo
   - flutter-examples
+summary:
+  - '**flutter_pokedex** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **2,532★** và 579 fork, và được bảo trì tích cực.
+  - 'Cài bằng `flutter_pokedex: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

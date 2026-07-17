@@ -30,6 +30,12 @@ topics:
   - clean-code
   - flutter
   - flutter-advanced
+summary:
+  - '**ez_tickets_app** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **439★** and 108 forks, and is mature and stable.
+  - 'Install it with `ez_tickets_app: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

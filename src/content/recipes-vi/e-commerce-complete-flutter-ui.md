@@ -30,6 +30,12 @@ topics:
   - flutter
   - flutter-ecommerce
   - flutter-ecommerce-template
+summary:
+  - '**E-commerce-Complete-Flutter-UI** là một thư viện thành phần giao diện (UI) mã
+    nguồn mở thuộc nhóm **UI/Components**.'
+  - Dự án có **4,826★** và 1,990 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `E-commerce-Complete-Flutter-UI: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

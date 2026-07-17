@@ -26,6 +26,12 @@ topics:
   - dart
   - flutter
   - redux
+summary:
+  - '**flutter_architecture_samples** là một thư viện quản lý trạng thái mã nguồn mở
+    thuộc nhóm **State management**.'
+  - Dự án có **8,924★** và 1,711 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `flutter_architecture_samples: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

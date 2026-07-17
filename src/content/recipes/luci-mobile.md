@@ -24,6 +24,12 @@ keywords:
   - luci-mobile tutorial
 topics:
   []
+summary:
+  - '**luci-mobile** is an open-source navigation & routing library in the **Navigation**
+    category.'
+  - It has **564★** and 48 forks, and is actively maintained.
+  - 'Install it with `luci-mobile: ^latest` in your pubspec.yaml.'
+  - Best when you need declarative, URL-driven routing.
 related:
   - slug: lantern
     title: Flutter navigation done right with lantern

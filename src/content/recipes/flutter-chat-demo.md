@@ -29,6 +29,12 @@ topics:
   - demo
   - firebase
   - flutter
+summary:
+  - '**flutter-chat-demo** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **1,831★** and 684 forks, and is actively maintained.
+  - 'Install it with `flutter-chat-demo: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

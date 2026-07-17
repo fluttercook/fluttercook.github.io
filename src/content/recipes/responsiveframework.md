@@ -31,6 +31,12 @@ topics:
   - demo
   - flutter
   - flutter-plugin
+summary:
+  - '**ResponsiveFramework** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **1,400★** and 159 forks, and is mature and stable.
+  - 'Install it with `ResponsiveFramework: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

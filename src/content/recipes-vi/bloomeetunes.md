@@ -29,6 +29,12 @@ topics:
   - bloc
   - dart
   - downloader
+summary:
+  - '**BloomeeTunes** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm **State
+    management**.'
+  - Dự án có **2,134★** và 200 fork, và được bảo trì tích cực.
+  - 'Cài bằng `BloomeeTunes: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

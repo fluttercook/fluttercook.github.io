@@ -31,6 +31,11 @@ topics:
   - ebook-reader
   - epub
   - flutter
+summary:
+  - '**Openlib** là một thư viện backend & dữ liệu mã nguồn mở thuộc nhóm **Backend/Data**.'
+  - Dự án có **2,403★** và 122 fork, và được bảo trì tích cực.
+  - 'Cài bằng `Openlib: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn gọi API REST/GraphQL từ ứng dụng Flutter.
 related:
   - slug: gopeed
     title: 'gopeed: hướng dẫn backend & dữ liệu trong Flutter'

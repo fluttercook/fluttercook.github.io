@@ -30,6 +30,12 @@ topics:
   - media
   - server
   - sfu
+summary:
+  - '**ion** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **3,803★** and 511 forks, and is mature and stable.
+  - 'Install it with `ion: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

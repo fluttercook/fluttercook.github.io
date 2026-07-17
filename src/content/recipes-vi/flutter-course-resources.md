@@ -26,6 +26,12 @@ keywords:
   - Flutter-Course-Resources hướng dẫn
 topics:
   []
+summary:
+  - '**Flutter-Course-Resources** là một tài nguyên học tập được tuyển chọn mã nguồn
+    mở thuộc nhóm **Learning/Awesome**.'
+  - Dự án có **10,516★** và 3,099 fork, và trưởng thành và ổn định.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn cần một điểm khởi đầu được tuyển chọn.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: dự án Flutter mã nguồn mở đáng nghiên cứu'

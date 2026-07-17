@@ -31,6 +31,11 @@ topics:
   - ios-app
   - kikoeru
   - linux-app
+summary:
+  - '**KikoFlu** là một ứng dụng mã nguồn mở / mẫu khởi đầu mã nguồn mở thuộc nhóm **App/Template**.'
+  - Dự án có **453★** và 16 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn muốn một ví dụ chất lượng production để nghiên cứu hoặc fork.
 related:
   - slug: immich
     title: 'immich: dự án Flutter mã nguồn mở đáng nghiên cứu'

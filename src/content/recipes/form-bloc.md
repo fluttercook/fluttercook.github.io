@@ -29,6 +29,12 @@ topics:
   - form
   - form-handler
   - form-validation
+summary:
+  - '**form_bloc** is an open-source state-management library in the **State management**
+    category.'
+  - It has **467★** and 217 forks, and is mature and stable.
+  - 'Install it with `form_bloc: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

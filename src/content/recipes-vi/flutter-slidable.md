@@ -28,6 +28,12 @@ topics:
   - flutter
   - slide-menu
   - swipe-menu
+summary:
+  - '**flutter_slidable** là một thư viện & công cụ cho lập trình viên mã nguồn mở thuộc
+    nhóm **Library/Tooling**.'
+  - Dự án có **2,854★** và 644 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `flutter_slidable: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn tự động hóa hoặc tối ưu một phần quy trình build.
 related:
   - slug: flclash
     title: 'FlClash: hướng dẫn thư viện & công cụ trong Flutter'

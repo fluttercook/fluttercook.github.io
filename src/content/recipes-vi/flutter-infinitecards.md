@@ -29,6 +29,11 @@ topics:
   - cards
   - cardview
   - flutter
+summary:
+  - '**Flutter-InfiniteCards** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **363★** và 51 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `Flutter-InfiniteCards: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

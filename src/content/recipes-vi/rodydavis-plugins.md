@@ -29,6 +29,11 @@ topics:
   - flutter-package
   - flutter-plugin
   - flutter-widget
+summary:
+  - '**plugins** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm **UI/Components**.'
+  - Dự án có **494★** và 85 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `plugins: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

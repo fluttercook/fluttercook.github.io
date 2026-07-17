@@ -30,6 +30,13 @@ topics:
   - flutter-package
   - flutter-plugin
   - flutter-widget
+summary:
+  - '**showcaseview** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc nhóm
+    **UI/Components**.'
+  - Dự án có **1,917★** và 529 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `showcaseview: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

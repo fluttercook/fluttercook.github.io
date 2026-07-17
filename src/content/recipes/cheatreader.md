@@ -30,6 +30,13 @@ topics:
   - macos
   - markdown
   - reader
+summary:
+  - '**cheatreader** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **540★** and 15 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `cheatreader: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

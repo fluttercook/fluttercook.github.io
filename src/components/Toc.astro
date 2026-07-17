@@ -1,0 +1,18 @@
+---
+// Table of contents built from a rendered entry's headings (H2/H3).
+const { headings = [], lang = 'en' } = Astro.props;
+const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
+const label = lang === 'vi' ? 'Mục lục' : 'On this page';
+---
+{items.length > 2 && (
+  <nav class="toc" aria-label={label}>
+    <p class="toc-title">{label}</p>
+    <ol>
+      {items.map((h) => (
+        <li class={h.depth === 3 ? 'sub' : ''}>
+          <a href={`#${h.slug}`}>{h.text}</a>
+        </li>
+      ))}
+    </ol>
+  </nav>
+)}

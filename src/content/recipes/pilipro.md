@@ -26,6 +26,11 @@ keywords:
   - pilipro tutorial
 topics:
   []
+summary:
+  - '**pilipro** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **412★** and 17 forks, and is actively maintained.
+  - 'Install it with `pilipro: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

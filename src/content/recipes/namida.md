@@ -31,6 +31,12 @@ topics:
   - audio-player
   - beautiful-ui
   - flutter
+summary:
+  - '**namida** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **6,014★** and 325 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `namida: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

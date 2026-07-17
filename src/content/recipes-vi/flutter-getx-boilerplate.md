@@ -29,6 +29,12 @@ topics:
   - flutter-ui
   - get
   - getx
+summary:
+  - '**flutter_getx_boilerplate** là một thư viện quản lý trạng thái mã nguồn mở thuộc
+    nhóm **State management**.'
+  - Dự án có **347★** và 128 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_getx_boilerplate: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import Toc from '../../components/Toc.astro';
+import Summary from '../../components/Summary.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -7,7 +9,7 @@ export async function getStaticPaths() {
   return recipes.map((entry) => ({ params: { id: entry.id }, props: { entry } }));
 }
 const { entry } = Astro.props;
-const { Content } = await render(entry);
+const { Content, headings } = await render(entry);
 const d = entry.data;
 const site = 'https://fluttercook.github.io';
 const url = `${site}/recipes/${entry.id}/`;
@@ -76,6 +78,8 @@ const jsonLd = [article, breadcrumb, faqLd].filter(Boolean);
         <div><small>Last update</small><b>{d.lastUpdate}</b></div>
         <div><small>Priority</small><b>{d.priority}</b></div>
       </div>
+      <Summary items={d.summary} lang="en" />
+      <Toc headings={headings} lang="en" />
       <div class="prose">
         <Content />
       </div>

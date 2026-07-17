@@ -28,6 +28,12 @@ topics:
   - flutter-ui
   - flutter-ui-collection
   - widget
+summary:
+  - '**animated-bottom-navigation-bar-flutter** is an open-source animation library
+    in the **Animation** category.'
+  - It has **444★** and 128 forks, and is mature and stable.
+  - 'Install it with `animated-bottom-navigation-bar-flutter: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

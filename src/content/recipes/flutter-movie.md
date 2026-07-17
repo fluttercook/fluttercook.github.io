@@ -29,6 +29,12 @@ topics:
   - fish-redux
   - flutter
   - flutter-examples
+summary:
+  - '**Flutter-Movie** is an open-source state-management library in the **State management**
+    category.'
+  - It has **738★** and 225 forks, and is mature and stable.
+  - 'Install it with `Flutter-Movie: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

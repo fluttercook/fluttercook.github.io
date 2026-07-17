@@ -29,6 +29,13 @@ topics:
   - dart
   - dart-library
   - dart-web
+summary:
+  - '**bloc** is an open-source state-management library in the **State management**
+    category.'
+  - It has **12,474★** and 3,417 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `bloc: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: getx
     title: 'State management in Flutter with getx: a practical guide'

@@ -30,6 +30,11 @@ topics:
   - flutter-example
   - flutter-ui
   - flutter-ui-kit
+summary:
+  - '**Taskez** is an open-source UI component library in the **UI/Components** category.'
+  - It has **967★** and 189 forks, and is mature and stable.
+  - 'Install it with `Taskez: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

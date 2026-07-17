@@ -30,6 +30,12 @@ topics:
   - flutter-ui
   - google-flutter
   - hacktoberfest
+summary:
+  - '**fancy_on_boarding** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **366★** and 79 forks, and is mature and stable.
+  - 'Install it with `fancy_on_boarding: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

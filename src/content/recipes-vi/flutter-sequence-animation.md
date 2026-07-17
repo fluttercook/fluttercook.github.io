@@ -25,6 +25,12 @@ keywords:
   - flutter_sequence_animation hướng dẫn
 topics:
   []
+summary:
+  - '**flutter_sequence_animation** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm
+    **Animation**.'
+  - Dự án có **392★** và 32 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `flutter_sequence_animation: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

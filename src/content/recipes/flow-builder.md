@@ -29,6 +29,12 @@ topics:
   - navigation
   - navigator
   - router
+summary:
+  - '**flow_builder** is an open-source navigation & routing library in the **Navigation**
+    category.'
+  - It has **416★** and 68 forks, and is mature and stable.
+  - 'Install it with `flow_builder: ^latest` in your pubspec.yaml.'
+  - Best when you need declarative, URL-driven routing.
 related:
   - slug: lantern
     title: Flutter navigation done right with lantern

@@ -25,6 +25,12 @@ keywords:
   - snapping_sheet tutorial
 topics:
   - flutter-package
+summary:
+  - '**snapping_sheet** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **365★** and 49 forks, and is mature and stable.
+  - 'Install it with `snapping_sheet: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -28,6 +28,11 @@ topics:
   - flutter
   - ui-design
   - uikit
+summary:
+  - '**bruno** is an open-source UI component library in the **UI/Components** category.'
+  - It has **3,442★** and 513 forks, and is mature and stable.
+  - 'Install it with `bruno: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

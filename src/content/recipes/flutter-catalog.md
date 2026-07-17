@@ -29,6 +29,12 @@ topics:
   - flutter-examples
   - flutter-state-management
   - showcasing-flutter-components
+summary:
+  - '**flutter_catalog** is an open-source state-management library in the **State management**
+    category.'
+  - It has **2,281★** and 571 forks, and is actively maintained.
+  - 'Install it with `flutter_catalog: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

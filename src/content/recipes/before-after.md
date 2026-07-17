@@ -30,6 +30,12 @@ topics:
   - flutter-package
   - hacktoberfest
   - slider
+summary:
+  - '**before_after** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **1,031★** and 109 forks, and is mature and stable.
+  - 'Install it with `before_after: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

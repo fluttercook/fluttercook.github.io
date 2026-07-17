@@ -31,6 +31,12 @@ topics:
   - hybrid-app
   - hybrid-flutter
   - ios
+summary:
+  - '**flutter_boost** is an open-source open-source app / starter template in the **App/Template**
+    category.'
+  - It has **7,191★** and 1,271 forks, and is actively maintained.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you want a production-grade example to study or fork.
 related:
   - slug: immich
     title: 'Inside immich: an open-source Flutter app worth studying'

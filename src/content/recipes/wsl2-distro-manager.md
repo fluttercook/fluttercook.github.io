@@ -30,6 +30,12 @@ topics:
   - github
   - gui
   - rootfs
+summary:
+  - '**wsl2-distro-manager** is an open-source UI component library in the **UI/Components**
+    category.'
+  - It has **3,942★** and 177 forks, and is actively maintained.
+  - 'Install it with `wsl2-distro-manager: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

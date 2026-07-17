@@ -29,6 +29,12 @@ topics:
   - flutter-examples
   - flutter-state-management
   - showcasing-flutter-components
+summary:
+  - '**flutter_catalog** là một thư viện quản lý trạng thái mã nguồn mở thuộc nhóm **State
+    management**.'
+  - Dự án có **2,281★** và 571 fork, và được bảo trì tích cực.
+  - 'Cài bằng `flutter_catalog: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

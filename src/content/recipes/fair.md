@@ -30,6 +30,11 @@ topics:
   - dynamic
   - dynamic-widget
   - flutter
+summary:
+  - '**Fair** is an open-source UI component library in the **UI/Components** category.'
+  - It has **2,738★** and 321 forks, and is mature and stable.
+  - 'Install it with `Fair: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -29,6 +29,12 @@ topics:
   - flutter
   - flutter-bloc
   - flutter-bloc-pattern
+summary:
+  - '**flutter-bloc-patterns** is an open-source state-management library in the **State
+    management** category.'
+  - It has **351★** and 30 forks, and is mature and stable.
+  - 'Install it with `flutter-bloc-patterns: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

@@ -31,6 +31,12 @@ topics:
   - flutter
   - image-processing
   - ios-app
+summary:
+  - '**Flutter-AI-Rubik-cube-Solver** is an open-source AI/ML toolkit in the **AI/ML**
+    category.'
+  - It has **855★** and 242 forks, and is mature and stable.
+  - 'Install it with `Flutter-AI-Rubik-cube-Solver: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

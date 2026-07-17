@@ -28,6 +28,12 @@ topics:
   - flutter
   - slide-menu
   - swipe-menu
+summary:
+  - '**flutter_slidable** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **2,854★** and 644 forks, and is stable, with updates in the past year.
+  - 'Install it with `flutter_slidable: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

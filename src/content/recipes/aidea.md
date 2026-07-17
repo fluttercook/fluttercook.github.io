@@ -31,6 +31,11 @@ topics:
   - gpt
   - gpt-4
   - stable-diffusion
+summary:
+  - '**aidea** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **6,931★** and 1,050 forks, and is actively maintained.
+  - 'Install it with `aidea: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

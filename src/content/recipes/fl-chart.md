@@ -30,6 +30,11 @@ topics:
   - candlesticks
   - chart
   - charts
+summary:
+  - '**fl_chart** is an open-source UI component library in the **UI/Components** category.'
+  - It has **7,554★** and 1,967 forks, and is actively maintained.
+  - 'Install it with `fl_chart: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -30,6 +30,11 @@ topics:
   - debugging
   - design-patterns
   - flutter
+summary:
+  - '**Flawless-iOS** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **344★** và 42 fork, và trưởng thành và ổn định.
+  - 'Cài bằng `Flawless-iOS: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

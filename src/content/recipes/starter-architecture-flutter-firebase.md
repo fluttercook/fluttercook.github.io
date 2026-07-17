@@ -27,6 +27,12 @@ topics:
   - firebase
   - flutter
   - riverpod
+summary:
+  - '**starter_architecture_flutter_firebase** is an open-source state-management library
+    in the **State management** category.'
+  - It has **1,809★** and 489 forks, and is stable, with updates in the past year.
+  - 'Install it with `starter_architecture_flutter_firebase: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

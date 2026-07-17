@@ -29,6 +29,13 @@ topics:
   - gfw
   - lantern
   - router
+summary:
+  - '**lantern** is an open-source navigation & routing library in the **Navigation**
+    category.'
+  - It has **15,800★** and 11,076 forks, and is actively maintained (updated within
+    the last month).
+  - 'Install it with `lantern: ^latest` in your pubspec.yaml.'
+  - Best when you need declarative, URL-driven routing.
 related:
   - slug: fluro
     title: Flutter navigation done right with fluro

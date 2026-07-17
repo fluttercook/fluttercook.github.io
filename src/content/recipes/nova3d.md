@@ -31,6 +31,12 @@ topics:
   - claude
   - flutter
   - gemini
+summary:
+  - '**Nova3D** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **448★** and 46 forks, and is actively maintained (updated within the last
+    month).
+  - 'Install it with `Nova3D: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

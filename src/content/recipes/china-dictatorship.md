@@ -31,6 +31,11 @@ topics:
   - china
   - china-dictatorship
   - chinese-communist-party
+summary:
+  - '**china-dictatorship** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **3,101★** and 295 forks, and is actively maintained.
+  - 'Install it with `china-dictatorship: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

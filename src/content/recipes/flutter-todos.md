@@ -31,6 +31,12 @@ topics:
   - flutter
   - mvp
   - todolist
+summary:
+  - '**flutter-todos** is an open-source backend & data library in the **Backend/Data**
+    category.'
+  - It has **2,120★** and 460 forks, and is stable, with updates in the past year.
+  - 'Install it with `flutter-todos: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: gopeed
     title: Data & backend in Flutter using gopeed

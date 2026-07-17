@@ -29,6 +29,12 @@ topics:
   - flutter-bloc-test
   - flutter-clean-architecture
   - flutter-demo
+summary:
+  - '**Flutter-News-App** is an open-source state-management library in the **State
+    management** category.'
+  - It has **601★** and 181 forks, and is mature and stable.
+  - 'Install it with `Flutter-News-App: ^latest` in your pubspec.yaml.'
+  - Best when your widget tree needs to react to shared, changing data.
 related:
   - slug: bloc
     title: 'State management in Flutter with bloc: a practical guide'

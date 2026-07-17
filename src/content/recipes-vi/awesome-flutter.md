@@ -31,6 +31,12 @@ topics:
   - collections
   - cross-platform
   - dartlang
+summary:
+  - '**awesome-flutter** là một tài nguyên học tập được tuyển chọn mã nguồn mở thuộc
+    nhóm **Learning/Awesome**.'
+  - Dự án có **60,616★** và 6,905 fork, và được bảo trì tích cực.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn cần một điểm khởi đầu được tuyển chọn.
 related:
   - slug: flutter-course-resources
     title: 'Flutter-Course-Resources: dự án Flutter mã nguồn mở đáng nghiên cứu'

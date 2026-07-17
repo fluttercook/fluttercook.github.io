@@ -26,6 +26,12 @@ topics:
   - flutter
   - mvvm
   - riverpod
+summary:
+  - '**flutter_mvvm_riverpod** là một thư viện quản lý trạng thái mã nguồn mở thuộc
+    nhóm **State management**.'
+  - Dự án có **338★** và 121 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `flutter_mvvm_riverpod: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi cây widget cần phản ứng theo dữ liệu dùng chung thay đổi.
 related:
   - slug: bloc
     title: 'bloc: hướng dẫn quản lý trạng thái trong Flutter'

@@ -25,6 +25,12 @@ keywords:
   - HistoryOfEverything tutorial
 topics:
   []
+summary:
+  - '**HistoryOfEverything** is an open-source developer tooling library in the **Library/Tooling**
+    category.'
+  - It has **6,590★** and 987 forks, and is mature and stable.
+  - 'Install it with `HistoryOfEverything: ^latest` in your pubspec.yaml.'
+  - Best when you want to automate or streamline part of your build.
 related:
   - slug: flclash
     title: 'FlClash: a Flutter developer''s guide'

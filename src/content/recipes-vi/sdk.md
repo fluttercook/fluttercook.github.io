@@ -27,6 +27,12 @@ topics:
   - language
   - programming-language
   - sdk
+summary:
+  - '**sdk** là một dự án framework lõi mã nguồn mở thuộc nhóm **Framework/Core**.'
+  - Dự án có **11,211★** và 1,849 fork, và được bảo trì tích cực (cập nhật trong tháng
+    qua).
+  - 'Cài bằng `sdk: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn hiểu điều gì vận hành chính Flutter.
 related:
   - slug: flutter
     title: 'flutter: hướng dẫn framework lõi trong Flutter'

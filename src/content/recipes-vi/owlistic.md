@@ -30,6 +30,11 @@ topics:
   - flutter
   - go
   - golang
+summary:
+  - '**owlistic** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **432★** và 19 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `owlistic: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

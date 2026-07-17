@@ -31,6 +31,12 @@ topics:
   - debian
   - downloader
   - flutter
+summary:
+  - '**gopeed** is an open-source backend & data library in the **Backend/Data** category.'
+  - It has **25,265★** and 1,665 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `gopeed: ^latest` in your pubspec.yaml.'
+  - Best when you're calling REST/GraphQL APIs from a Flutter app.
 related:
   - slug: mmkv
     title: Data & backend in Flutter using MMKV

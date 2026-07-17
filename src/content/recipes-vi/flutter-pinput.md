@@ -30,6 +30,11 @@ topics:
   - flutter
   - flutter-package
   - flutter-pin-code
+summary:
+  - '**Flutter_Pinput** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **856★** và 214 fork, và được bảo trì tích cực.
+  - 'Cài bằng `Flutter_Pinput: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: miru-app
     title: 'miru-app: hướng dẫn hoạt ảnh trong Flutter'

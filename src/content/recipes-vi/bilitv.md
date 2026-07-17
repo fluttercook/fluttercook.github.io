@@ -26,6 +26,11 @@ keywords:
   - BiliTV hướng dẫn
 topics:
   []
+summary:
+  - '**BiliTV** là một ứng dụng mã nguồn mở / mẫu khởi đầu mã nguồn mở thuộc nhóm **App/Template**.'
+  - Dự án có **714★** và 35 fork, và được bảo trì tích cực.
+  - Clone repo và chạy `flutter run` để khám phá.
+  - Phù hợp nhất khi bạn muốn một ví dụ chất lượng production để nghiên cứu hoặc fork.
 related:
   - slug: immich
     title: 'immich: dự án Flutter mã nguồn mở đáng nghiên cứu'

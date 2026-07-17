@@ -30,6 +30,11 @@ topics:
   - bangumi
   - bittorrent
   - flutter
+summary:
+  - '**miru-app** là một thư viện hoạt ảnh mã nguồn mở thuộc nhóm **Animation**.'
+  - Dự án có **5,561★** và 238 fork, và ổn định, có cập nhật trong năm qua.
+  - 'Cài bằng `miru-app: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn muốn micro-interaction đẹp mà không phải tự viết tween.
 related:
   - slug: anich
     title: 'AniCh: hướng dẫn hoạt ảnh trong Flutter'

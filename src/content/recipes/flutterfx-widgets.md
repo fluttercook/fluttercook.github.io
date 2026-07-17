@@ -28,6 +28,12 @@ topics:
   - flutter
   - ui-components
   - ui-design
+summary:
+  - '**flutterfx_widgets** is an open-source animation library in the **Animation**
+    category.'
+  - It has **692★** and 86 forks, and is actively maintained.
+  - 'Install it with `flutterfx_widgets: ^latest` in your pubspec.yaml.'
+  - Best when you want delightful micro-interactions without hand-rolling tweens.
 related:
   - slug: miru-app
     title: Beautiful Flutter animations with miru-app

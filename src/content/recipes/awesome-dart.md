@@ -30,6 +30,12 @@ topics:
   - dart
   - dart-frameworks
   - list
+summary:
+  - '**awesome-dart** is an open-source curated learning resource in the **Learning/Awesome**
+    category.'
+  - It has **2,486★** and 217 forks, and is actively maintained.
+  - Clone the repo and run `flutter run` to explore it.
+  - Best when you're looking for a curated jumping-off point.
 related:
   - slug: awesome-flutter
     title: 'awesome-flutter: a curated shortcut to mastering Flutter'

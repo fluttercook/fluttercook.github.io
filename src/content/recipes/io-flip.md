@@ -26,6 +26,11 @@ keywords:
   - io_flip tutorial
 topics:
   []
+summary:
+  - '**io_flip** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **691★** and 122 forks, and is actively maintained.
+  - 'Install it with `io_flip: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

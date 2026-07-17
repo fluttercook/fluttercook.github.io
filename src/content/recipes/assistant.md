@@ -31,6 +31,11 @@ topics:
   - figma
   - figma-flutter
   - figma-plugin
+summary:
+  - '**assistant** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **618★** and 51 forks, and is mature and stable.
+  - 'Install it with `assistant: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

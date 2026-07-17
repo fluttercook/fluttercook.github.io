@@ -30,6 +30,12 @@ topics:
   - flutter
   - flutter-favorite
   - uwp
+summary:
+  - '**fluent_ui** is an open-source UI component library in the **UI/Components** category.'
+  - It has **3,444★** and 505 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `fluent_ui: ^latest` in your pubspec.yaml.'
+  - Best when you need a ready-made widget instead of building one from scratch.
 related:
   - slug: rustdesk
     title: Build better Flutter UI with rustdesk

@@ -29,6 +29,12 @@ topics:
   - shadcn-ui
   - ui
   - ui-components
+summary:
+  - '**shadcn_flutter** là một thư viện thành phần giao diện (UI) mã nguồn mở thuộc
+    nhóm **UI/Components**.'
+  - Dự án có **905★** và 118 fork, và được bảo trì tích cực (cập nhật trong tháng qua).
+  - 'Cài bằng `shadcn_flutter: ^latest` trong pubspec.yaml.'
+  - Phù hợp nhất khi bạn cần một widget dựng sẵn thay vì tự viết từ đầu.
 related:
   - slug: rustdesk
     title: 'rustdesk: hướng dẫn giao diện & thành phần UI trong Flutter'

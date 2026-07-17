@@ -31,6 +31,12 @@ topics:
   - diffusion-models
   - edge
   - flutter
+summary:
+  - '**runanywhere-sdks** is an open-source AI/ML toolkit in the **AI/ML** category.'
+  - It has **10,309★** and 364 forks, and is actively maintained (updated within the
+    last month).
+  - 'Install it with `runanywhere-sdks: ^latest` in your pubspec.yaml.'
+  - Best when you're adding a chatbot, assistant, or generative feature.
 related:
   - slug: appflowy
     title: Add AI to your Flutter app with AppFlowy

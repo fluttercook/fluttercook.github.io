@@ -265,6 +265,33 @@ DEFAULT_CAT_VI = {
 }
 
 
+def make_summary(name, cat, ci, stars, forks, days, is_app, lang):
+    uc = ci["use_cases"][0] if ci.get("use_cases") else ""
+    if lang == "en":
+        b = [f"**{name}** is an open-source {ci['kind']} in the **{cat}** category."]
+        pop = f"**{stars:,}★**" if stars else "an active community"
+        if forks:
+            pop += f" and {forks:,} forks"
+        b.append(f"It has {pop}, and is {maint_status(days)}.")
+        b.append(
+            "Clone the repo and run `flutter run` to explore it." if is_app
+            else f"Install it with `{name}: ^latest` in your pubspec.yaml.")
+        if uc:
+            b.append(f"Best when {uc}.")
+        return b
+    b = [f"**{name}** là một {ci['kind']} mã nguồn mở thuộc nhóm **{cat}**."]
+    pop = f"**{stars:,}★**" if stars else "một cộng đồng năng động"
+    if forks:
+        pop += f" và {forks:,} fork"
+    b.append(f"Dự án có {pop}, và {maint_status_vi(days)}.")
+    b.append(
+        "Clone repo và chạy `flutter run` để khám phá." if is_app
+        else f"Cài bằng `{name}: ^latest` trong pubspec.yaml.")
+    if uc:
+        b.append(f"Phù hợp nhất khi {uc}.")
+    return b
+
+
 def maint_status_vi(days):
     if days is None:
         return "vẫn được bảo trì"
@@ -685,8 +712,8 @@ def dump_fm(fm):
     import yaml
     order = ["title", "package", "repo", "githubUrl", "category", "stars", "forks",
              "lastUpdate", "pubDev", "youtube", "priority", "phase", "trendRank",
-             "description", "seoDescription", "keywords", "topics", "related",
-             "faq", "datePublished", "dateModified", "draft"]
+             "description", "seoDescription", "keywords", "topics", "summary",
+             "related", "faq", "datePublished", "dateModified", "draft"]
     lines = ["---"]
     for k in order:
         if k not in fm:
@@ -748,6 +775,9 @@ def main():
         fm["keywords"] = kws
         fm["related"] = related
         fm["faq"] = faq
+        is_app = cat in APP_CATEGORIES
+        fm["summary"] = make_summary(name, cat, ci, stars, fm.get("forks", 0) or 0,
+                                     extra.get("days_since_update"), is_app, "en")
         if extra.get("created"):
             fm["datePublished"] = extra["created"]
         if fm.get("lastUpdate"):
@@ -773,6 +803,8 @@ def main():
         vfm["related"] = [{"slug": r["slug"], "title": vi_title(fm_by_slug[r["slug"]])}
                           for r in related]
         vfm["faq"] = vi_faq
+        vfm["summary"] = make_summary(name, cat, cvi, stars, fm.get("forks", 0) or 0,
+                                      extra.get("days_since_update"), is_app, "vi")
         vfm = scrub(vfm)
         vout = scrub(dump_fm(vfm) + "\n\n" + vi_body.strip() + "\n")
         (RECIPES_VI / f.name).write_bytes(vout.encode("utf-8"))
