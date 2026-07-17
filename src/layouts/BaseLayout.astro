@@ -27,7 +27,9 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="color-scheme" content="dark light" />
   <link rel="preconnect" href="https://www.googletagmanager.com" />
+  <link rel="dns-prefetch" href="https://www.google-analytics.com" />
   <title>{title}</title>
   <meta name="description" content={description} />
   {kw && <meta name="keywords" content={kw} />}
