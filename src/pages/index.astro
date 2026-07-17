@@ -5,8 +5,27 @@ const all = (await getCollection('recipes')).filter(r => !r.data.draft);
 const featured = all.sort((a,b) => (a.data.trendRank||9999) - (b.data.trendRank||9999)).slice(0, 9);
 const cats = [...new Set(all.map(r => r.data.category))];
 const total = all.length;
+const site = 'https://fluttercook.github.io';
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'FlutterCook',
+    url: `${site}/`,
+    inLanguage: ['en', 'vi'],
+    description: `${total} hands-on guides to the best open-source Flutter libraries, UI kits, and apps.`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'FlutterCook',
+    url: `${site}/`,
+    logo: `${site}/og-default.svg`,
+    sameAs: ['https://github.com/fluttercook', 'https://flutter9.blogspot.com'],
+  },
+];
 ---
-<BaseLayout title="FlutterCook — 500 open-source Flutter recipes, AI-first">
+<BaseLayout title="FlutterCook — 500 open-source Flutter recipes, AI-first" jsonLd={jsonLd}>
   <main class="wrap">
     <section class="hero">
       <div class="kicker">Open-source · AI-first · trend-driven</div>

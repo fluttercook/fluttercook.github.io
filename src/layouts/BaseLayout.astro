@@ -42,6 +42,8 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
   <meta property="og:description" content={description} />
   <meta property="og:type" content={ogType} />
   <meta property="og:url" content={canonical} />
+  <meta property="og:locale" content={lang === 'vi' ? 'vi_VN' : 'en_US'} />
+  <meta property="og:locale:alternate" content={lang === 'vi' ? 'en_US' : 'vi_VN'} />
   <meta property="og:image" content={ogImage} />
   {datePublished && <meta property="article:published_time" content={datePublished} />}
   {dateModified && <meta property="article:modified_time" content={dateModified} />}

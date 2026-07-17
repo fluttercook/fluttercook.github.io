@@ -5,8 +5,27 @@ const all = (await getCollection('recipesVi')).filter((r) => !r.data.draft);
 const featured = all.sort((a, b) => (a.data.trendRank || 9999) - (b.data.trendRank || 9999)).slice(0, 9);
 const cats = [...new Set(all.map((r) => r.data.category))];
 const total = all.length;
+const site = 'https://fluttercook.github.io';
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    name: 'FlutterCook',
+    url: `${site}/vi/`,
+    inLanguage: ['vi', 'en'],
+    description: `${total} hướng dẫn thực hành về các thư viện, UI kit và ứng dụng Flutter mã nguồn mở tốt nhất.`,
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'Organization',
+    name: 'FlutterCook',
+    url: `${site}/`,
+    logo: `${site}/og-default.svg`,
+    sameAs: ['https://github.com/fluttercook', 'https://flutter9.blogspot.com'],
+  },
+];
 ---
-<BaseLayout lang="vi" title="FlutterCook — 500 công thức Flutter mã nguồn mở, ưu tiên AI">
+<BaseLayout lang="vi" title="FlutterCook — 500 công thức Flutter mã nguồn mở, ưu tiên AI" jsonLd={jsonLd}>
   <main class="wrap">
     <section class="hero">
       <div class="kicker">Mã nguồn mở · Ưu tiên AI · Theo xu hướng</div>
