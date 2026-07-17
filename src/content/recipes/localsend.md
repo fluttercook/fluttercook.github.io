@@ -12,34 +12,117 @@ youtube: "https://www.youtube.com/results?search_query=flutter+localsend"
 priority: "High"
 phase: "P1"
 trendRank: 4
-description: "An open-source cross-platform alternative to AirDrop"
-topics: ["dart", "file-sharing", "flutter", "flutter-apps"]
+description: "An open-source cross-platform alternative to AirDrop."
+seoDescription: "localsend: App/Template for Flutter with 85,396★ on GitHub. An open-source cross-platform alternative to AirDrop. Install, usage, alternatives & FAQ."
+keywords:
+  - flutter localsend
+  - localsend flutter
+  - flutter app/template
+  - flutter app
+  - flutter template
+  - flutter example app
+  - flutter mobile app
+  - localsend example
+  - localsend tutorial
+topics:
+  - dart
+  - file-sharing
+  - flutter
+  - flutter-apps
+related:
+  - slug: immich
+    title: 'Inside immich: an open-source Flutter app worth studying'
+  - slug: open-source-ios-apps
+    title: 'Inside open-source-ios-apps: an open-source Flutter app worth studying'
+  - slug: spotube
+    title: 'Inside spotube: an open-source Flutter app worth studying'
+  - slug: kazumi
+    title: 'Inside Kazumi: an open-source Flutter app worth studying'
+faq:
+  - q: Is localsend free to use?
+    a: Yes. localsend is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does localsend work on both iOS and Android?
+    a: localsend is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is localsend?
+    a: As of 2026, localsend has around 85,396 stars and 4,686 forks on GitHub, which
+      puts it among the more widely used options in the App/Template space.
+  - q: What are good alternatives to localsend?
+    a: Popular alternatives in the App/Template category include immich, open-source-ios-apps,
+      spotube. The best choice depends on your app's size, team, and performance needs.
+datePublished: "2022-12-16"
+dateModified: "2026-07-16"
 draft: false
 ---
 
-[`localsend`](https://github.com/localsend/localsend) is one of the Flutter ecosystem's most-watched **app/template** projects, with **85,396★** on GitHub and its last update on **2026-07-16**. Here's what it is, why it's on the radar, and how to start using it.
+[`localsend`](https://github.com/localsend/localsend) is an open-source **open-source app / starter template** for Flutter mobile app development, with **85,396★** on GitHub and last updated on **2026-07-16**. This guide covers what localsend does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What localsend is
+## What is localsend?
 
-An open-source cross-platform alternative to AirDrop It lives at [localsend/localsend](https://github.com/localsend/localsend) and is maintained by the `localsend` project.
+An open-source cross-platform alternative to AirDrop. It focuses on learning from a complete, real-world Flutter codebase. The project lives at [localsend/localsend](https://github.com/localsend/localsend) and is maintained by `localsend`.
 
-## Why it's trending
+## Why localsend is worth knowing in 2026
 
-With 85,396 stars and 4,686 forks, localsend is actively maintained and sits in the top of our App/Template rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+localsend carries **85,396 GitHub stars**, **4,686 forks**, 1,043 open issues. It has been around since 2022, and is actively maintained (updated within the last month). For a App/Template option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## What to learn from it
+## Running localsend
 
-localsend is a great codebase to read: clone it, run it, and study how a real, popular Flutter project structures its widgets, state, and navigation. Browse the source at [localsend/localsend](https://github.com/localsend/localsend).
+localsend is a complete project you can clone and run. Make sure you have the Flutter SDK installed, then:
 
-## Good to know
+```bash
+git clone https://github.com/localsend/localsend.git
+cd localsend
+flutter pub get
+flutter run
+```
 
-Key themes: `dart`, `file-sharing`, `flutter`, `flutter-apps`.
+From there, read through the project structure to see how a real Flutter app is organised — routing, state, data access, and UI — and fork it as a starting point for your own build.
 
-## Learn more
+## When should you use localsend?
+
+Reach for localsend when:
+
+- you want a production-grade example to study or fork
+- you're bootstrapping a new app from a proven starter
+- you learn best by reading complete projects
+
+It's especially relevant if your project touches `dart`, `file-sharing`, `flutter`, `flutter-apps`.
+
+## localsend vs. the alternatives
+
+If you're weighing options in the **App/Template** space, these are the other projects developers most often compare localsend against:
+
+- [Inside immich: an open-source Flutter app worth studying](/recipes/immich/)
+- [Inside open-source-ios-apps: an open-source Flutter app worth studying](/recipes/open-source-ios-apps/)
+- [Inside spotube: an open-source Flutter app worth studying](/recipes/spotube/)
+- [Inside Kazumi: an open-source Flutter app worth studying](/recipes/kazumi/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [App/Template collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is localsend free to use?
+
+Yes. localsend is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does localsend work on both iOS and Android?
+
+localsend is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is localsend?
+
+As of 2026, localsend has around 85,396 stars and 4,686 forks on GitHub, which puts it among the more widely used options in the App/Template space.
+
+### What are good alternatives to localsend?
+
+Popular alternatives in the App/Template category include immich, open-source-ios-apps, spotube. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [localsend/localsend](https://github.com/localsend/localsend)
-- **Video walkthroughs:** [search YouTube for localsend](https://www.youtube.com/results?search_query=flutter+localsend)
+- **Video tutorials:** [search YouTube for localsend](https://www.youtube.com/results?search_query=flutter+localsend)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

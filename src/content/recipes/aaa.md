@@ -13,33 +13,119 @@ priority: "Medium"
 phase: "P4"
 trendRank: 151
 description: ":iphone: Curated list of THE BEST FOSS Android apps to maximize your freedom & privacy!"
-topics: ["alternatives", "android", "android-app", "apk", "apps", "awesome"]
+seoDescription: "AAA: App/Template for Flutter with 3,000★ on GitHub. :iphone: Curated list of THE BEST FOSS Android apps to maximize your freedom & privacy! Install, usage,…"
+keywords:
+  - flutter AAA
+  - AAA flutter
+  - flutter app/template
+  - flutter app
+  - flutter template
+  - flutter example app
+  - flutter mobile app
+  - AAA example
+  - AAA tutorial
+topics:
+  - alternatives
+  - android
+  - android-app
+  - apk
+  - apps
+  - awesome
+related:
+  - slug: immich
+    title: 'Inside immich: an open-source Flutter app worth studying'
+  - slug: localsend
+    title: 'Inside localsend: an open-source Flutter app worth studying'
+  - slug: open-source-ios-apps
+    title: 'Inside open-source-ios-apps: an open-source Flutter app worth studying'
+  - slug: spotube
+    title: 'Inside spotube: an open-source Flutter app worth studying'
+faq:
+  - q: Is AAA free to use?
+    a: Yes. AAA is open source and free to use in your Flutter projects. You can view
+      the source, report issues, and contribute on GitHub.
+  - q: Does AAA work on both iOS and Android?
+    a: AAA is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is AAA?
+    a: As of 2026, AAA has around 3,000 stars and 68 forks on GitHub, which puts it
+      among the more widely used options in the App/Template space.
+  - q: What are good alternatives to AAA?
+    a: Popular alternatives in the App/Template category include immich, localsend,
+      open-source-ios-apps. The best choice depends on your app's size, team, and performance
+      needs.
+datePublished: "2021-11-15"
+dateModified: "2026-02-05"
 draft: false
 ---
 
-[`AAA`](https://github.com/Psyhackological/AAA) is one of the Flutter ecosystem's most-watched **app/template** projects, with **3,000★** on GitHub and its last update on **2026-02-05**. Here's what it is, why it's on the radar, and how to start using it.
+[`AAA`](https://github.com/Psyhackological/AAA) is an open-source **open-source app / starter template** for Flutter mobile app development, with **3,000★** on GitHub and last updated on **2026-02-05**. This guide covers what AAA does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What AAA is
+## What is AAA?
 
-:iphone: Curated list of THE BEST FOSS Android apps to maximize your freedom & privacy! It lives at [Psyhackological/AAA](https://github.com/Psyhackological/AAA) and is maintained by the `Psyhackological` project.
+:iphone: Curated list of THE BEST FOSS Android apps to maximize your freedom & privacy! It focuses on learning from a complete, real-world Flutter codebase. The project lives at [Psyhackological/AAA](https://github.com/Psyhackological/AAA) and is maintained by `Psyhackological`.
 
-## Why it's trending
+## Why AAA is worth knowing in 2026
 
-With 3,000 stars and 68 forks, AAA is still maintained and sits in the top of our App/Template rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+AAA carries **3,000 GitHub stars**, **68 forks**, 11 open issues. It has been around since 2021, and is actively maintained. For a App/Template option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## What to learn from it
+## Running AAA
 
-AAA is a great codebase to read: clone it, run it, and study how a real, popular Flutter project structures its widgets, state, and navigation. Browse the source at [Psyhackological/AAA](https://github.com/Psyhackological/AAA).
+AAA is a complete project you can clone and run. Make sure you have the Flutter SDK installed, then:
 
-## Good to know
+```bash
+git clone https://github.com/Psyhackological/AAA.git
+cd AAA
+flutter pub get
+flutter run
+```
 
-Key themes: `alternatives`, `android`, `android-app`, `apk`, `apps`.
+From there, read through the project structure to see how a real Flutter app is organised — routing, state, data access, and UI — and fork it as a starting point for your own build.
 
-## Learn more
+## When should you use AAA?
+
+Reach for AAA when:
+
+- you want a production-grade example to study or fork
+- you're bootstrapping a new app from a proven starter
+- you learn best by reading complete projects
+
+It's especially relevant if your project touches `alternatives`, `android`, `android-app`, `apk`, `apps`, `awesome`.
+
+## AAA vs. the alternatives
+
+If you're weighing options in the **App/Template** space, these are the other projects developers most often compare AAA against:
+
+- [Inside immich: an open-source Flutter app worth studying](/recipes/immich/)
+- [Inside localsend: an open-source Flutter app worth studying](/recipes/localsend/)
+- [Inside open-source-ios-apps: an open-source Flutter app worth studying](/recipes/open-source-ios-apps/)
+- [Inside spotube: an open-source Flutter app worth studying](/recipes/spotube/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [App/Template collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is AAA free to use?
+
+Yes. AAA is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does AAA work on both iOS and Android?
+
+AAA is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is AAA?
+
+As of 2026, AAA has around 3,000 stars and 68 forks on GitHub, which puts it among the more widely used options in the App/Template space.
+
+### What are good alternatives to AAA?
+
+Popular alternatives in the App/Template category include immich, localsend, open-source-ios-apps. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [Psyhackological/AAA](https://github.com/Psyhackological/AAA)
-- **Video walkthroughs:** [search YouTube for AAA](https://www.youtube.com/results?search_query=flutter+aaa)
+- **Video tutorials:** [search YouTube for AAA](https://www.youtube.com/results?search_query=flutter+aaa)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

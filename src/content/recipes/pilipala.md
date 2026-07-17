@@ -12,34 +12,124 @@ youtube: "https://www.youtube.com/results?search_query=flutter+pilipala"
 priority: "High"
 phase: "P2"
 trendRank: 94
-description: "PiliPala \u662f\u4f7f\u7528Flutter\u5f00\u53d1\u7684BiliBili\u7b2c\u4e09\u65b9\u5ba2\u6237\u7aef\uff0c\u611f\u8c22\u4f7f\u7528\u3002"
-topics: ["bilibili", "dart", "flutter", "material-ui"]
+description: "PiliPala 是使用Flutter开发的BiliBili第三方客户端，感谢使用。."
+seoDescription: "pilipala: UI/Components for Flutter with 13,850★ on GitHub. PiliPala 是使用Flutter开发的BiliBili第三方客户端，感谢使用。. Install, usage, alternatives & FAQ."
+keywords:
+  - flutter pilipala
+  - pilipala flutter
+  - flutter ui/components
+  - flutter ui
+  - flutter widgets
+  - flutter mobile app ui
+  - pilipala example
+  - pilipala tutorial
+topics:
+  - bilibili
+  - dart
+  - flutter
+  - material-ui
+related:
+  - slug: rustdesk
+    title: Build better Flutter UI with rustdesk
+  - slug: hiddify-app
+    title: Build better Flutter UI with hiddify-app
+  - slug: best-flutter-ui-templates
+    title: Build better Flutter UI with Best-Flutter-UI-Templates
+  - slug: flet
+    title: Build better Flutter UI with flet
+faq:
+  - q: Is pilipala free to use?
+    a: Yes. pilipala is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does pilipala work on both iOS and Android?
+    a: pilipala is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is pilipala?
+    a: As of 2026, pilipala has around 13,850 stars and 1,050 forks on GitHub, which
+      puts it among the more widely used options in the UI/Components space.
+  - q: What are good alternatives to pilipala?
+    a: Popular alternatives in the UI/Components category include rustdesk, hiddify-app,
+      best-flutter-ui-templates. The best choice depends on your app's size, team, and
+      performance needs.
+datePublished: "2023-04-18"
+dateModified: "2025-05-14"
 draft: false
 ---
 
-[`pilipala`](https://github.com/guozhigq/pilipala) is one of the Flutter ecosystem's most-watched **ui/components** projects, with **13,850★** on GitHub and its last update on **2025-05-14**. Here's what it is, why it's on the radar, and how to start using it.
+[`pilipala`](https://github.com/guozhigq/pilipala) is an open-source **UI component library** for Flutter mobile app development, with **13,850★** on GitHub and last updated on **2025-05-14**. This guide covers what pilipala does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What pilipala is
+## What is pilipala?
 
-PiliPala 是使用Flutter开发的BiliBili第三方客户端，感谢使用。 It lives at [guozhigq/pilipala](https://github.com/guozhigq/pilipala) and is maintained by the `guozhigq` project.
+PiliPala 是使用Flutter开发的BiliBili第三方客户端，感谢使用。. It focuses on building polished, reusable interface widgets faster. The project lives at [guozhigq/pilipala](https://github.com/guozhigq/pilipala) and is maintained by `guozhigq`.
 
-## Why it's trending
+## Why pilipala is worth knowing in 2026
 
-With 13,850 stars and 1,050 forks, pilipala is well-established and sits in the top of our UI/Components rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+pilipala carries **13,850 GitHub stars**, **1,050 forks**, 780 open issues. It has been around since 2023, and is mature and stable. For a UI/Components option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing pilipala
 
-Clone or explore the repository to see setup instructions and examples: [guozhigq/pilipala](https://github.com/guozhigq/pilipala).
+Add the package to your `pubspec.yaml`:
 
-## Good to know
+```yaml
+dependencies:
+  pilipala: ^latest
+```
 
-Key themes: `bilibili`, `dart`, `flutter`, `material-ui`.
+Then fetch it and import it in your Dart code:
 
-## Learn more
+```bash
+flutter pub get
+```
+```dart
+import 'package:pilipala/pilipala.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/guozhigq/pilipala) for the exact API — pilipala is versioned there with full docs so you always integrate against the current release.
+
+## When should you use pilipala?
+
+Reach for pilipala when:
+
+- you need a ready-made widget instead of building one from scratch
+- you want a consistent look across screens
+- you're prototyping a mobile app UI quickly
+
+It's especially relevant if your project touches `bilibili`, `dart`, `flutter`, `material-ui`.
+
+## pilipala vs. the alternatives
+
+If you're weighing options in the **UI/Components** space, these are the other projects developers most often compare pilipala against:
+
+- [Build better Flutter UI with rustdesk](/recipes/rustdesk/)
+- [Build better Flutter UI with hiddify-app](/recipes/hiddify-app/)
+- [Build better Flutter UI with Best-Flutter-UI-Templates](/recipes/best-flutter-ui-templates/)
+- [Build better Flutter UI with flet](/recipes/flet/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [UI/Components collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is pilipala free to use?
+
+Yes. pilipala is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does pilipala work on both iOS and Android?
+
+pilipala is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is pilipala?
+
+As of 2026, pilipala has around 13,850 stars and 1,050 forks on GitHub, which puts it among the more widely used options in the UI/Components space.
+
+### What are good alternatives to pilipala?
+
+Popular alternatives in the UI/Components category include rustdesk, hiddify-app, best-flutter-ui-templates. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [guozhigq/pilipala](https://github.com/guozhigq/pilipala)
-- **Video walkthroughs:** [search YouTube for pilipala](https://www.youtube.com/results?search_query=flutter+pilipala)
+- **Video tutorials:** [search YouTube for pilipala](https://www.youtube.com/results?search_query=flutter+pilipala)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

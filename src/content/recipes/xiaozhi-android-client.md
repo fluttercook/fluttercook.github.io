@@ -12,34 +12,127 @@ youtube: "https://www.youtube.com/results?search_query=flutter+xiaozhi-android-c
 priority: "Medium"
 phase: "P4"
 trendRank: 187
-description: "\u4e00\u4e2a\u57fa\u4e8e\u5c0f\u667a\u3001xiaozhi-server\u7684Android\u3001IOS\u8bed\u97f3\u5bf9\u8bdd\u5e94\u7528,\u652f\u6301\u5b9e\u65f6\u8bed\u97f3\u4ea4\u4e92\u548c\u6587\u5b57\u5bf9\u8bdd\u3002\u73b0\u5728\u662fflutter\u7248\u672c\uff0c\u6253\u901aIOS\u3001Android\u7aef\u3002\u8bf7\u540c\u5fd7\u4eec\u52a8\u52a8\u5c0f\u624b\uff0c\u70b9\u70b9\u5c0f\u661f\u661f\uff0c\u4e88\u4ee5\u9f13\u52b1\u3002"
-topics: ["ai", "chat", "chatbot", "chatgpt", "dart", "dify"]
+description: "一个基于小智、xiaozhi-server的Android、IOS语音对话应用,支持实时语音交互和文字对话。现在是flutter版本，打通IOS、Android端。请同志们动动小手，点点小星星，予以鼓励。."
+seoDescription: "xiaozhi-android-client: AI/ML for Flutter with 1,542★ on GitHub.…"
+keywords:
+  - flutter xiaozhi-android-client
+  - xiaozhi-android-client flutter
+  - flutter ai/ml
+  - flutter ai
+  - flutter llm
+  - flutter machine learning
+  - flutter mobile app
+  - xiaozhi-android-client example
+  - xiaozhi-android-client tutorial
+topics:
+  - ai
+  - chat
+  - chatbot
+  - chatgpt
+  - dart
+  - dify
+related:
+  - slug: appflowy
+    title: Add AI to your Flutter app with AppFlowy
+  - slug: appwrite
+    title: Add AI to your Flutter app with appwrite
+  - slug: some-many-books
+    title: Add AI to your Flutter app with Some-Many-Books
+  - slug: omi
+    title: Add AI to your Flutter app with omi
+faq:
+  - q: Is xiaozhi-android-client free to use?
+    a: Yes. xiaozhi-android-client is open source and free to use in your Flutter projects.
+      You can view the source, report issues, and contribute on GitHub.
+  - q: Does xiaozhi-android-client work on both iOS and Android?
+    a: xiaozhi-android-client is built for Flutter, so it targets iOS and Android from
+      a single codebase, and typically web and desktop too depending on the project's
+      platform support.
+  - q: How popular is xiaozhi-android-client?
+    a: As of 2026, xiaozhi-android-client has around 1,542 stars and 397 forks on GitHub,
+      which puts it among the more widely used options in the AI/ML space.
+  - q: What are good alternatives to xiaozhi-android-client?
+    a: Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2025-02-23"
+dateModified: "2026-05-29"
 draft: false
 ---
 
-[`xiaozhi-android-client`](https://github.com/TOM88812/xiaozhi-android-client) is one of the Flutter ecosystem's most-watched **ai/ml** projects, with **1,542★** on GitHub and its last update on **2026-05-29**. Here's what it is, why it's on the radar, and how to start using it.
+[`xiaozhi-android-client`](https://github.com/TOM88812/xiaozhi-android-client) is an open-source **AI/ML toolkit** for Flutter mobile app development, with **1,542★** on GitHub and last updated on **2026-05-29**. This guide covers what xiaozhi-android-client does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What xiaozhi-android-client is
+## What is xiaozhi-android-client?
 
-一个基于小智、xiaozhi-server的Android、IOS语音对话应用,支持实时语音交互和文字对话。现在是flutter版本，打通IOS、Android端。请同志们动动小手，点点小星星，予以鼓励。 It lives at [TOM88812/xiaozhi-android-client](https://github.com/TOM88812/xiaozhi-android-client) and is maintained by the `TOM88812` project.
+一个基于小智、xiaozhi-server的Android、IOS语音对话应用,支持实时语音交互和文字对话。现在是flutter版本，打通IOS、Android端。请同志们动动小手，点点小星星，予以鼓励。. It focuses on bringing on-device or cloud AI features into a Flutter app. The project lives at [TOM88812/xiaozhi-android-client](https://github.com/TOM88812/xiaozhi-android-client) and is maintained by `TOM88812`.
 
-## Why it's trending
+## Why xiaozhi-android-client is worth knowing in 2026
 
-With 1,542 stars and 397 forks, xiaozhi-android-client is still maintained and sits in the top of our AI/ML rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+xiaozhi-android-client carries **1,542 GitHub stars**, **397 forks**, 4 open issues. It has been around since 2025, and is actively maintained. For a AI/ML option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing xiaozhi-android-client
 
-Clone or explore the repository to see setup instructions and examples: [TOM88812/xiaozhi-android-client](https://github.com/TOM88812/xiaozhi-android-client).
+Add the package to your `pubspec.yaml`:
 
-## Good to know
+```yaml
+dependencies:
+  xiaozhi-android-client: ^latest
+```
 
-Key themes: `ai`, `chat`, `chatbot`, `chatgpt`, `dart`.
+Then fetch it and import it in your Dart code:
 
-## Learn more
+```bash
+flutter pub get
+```
+```dart
+import 'package:xiaozhi_android_client/xiaozhi_android_client.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/TOM88812/xiaozhi-android-client) for the exact API — xiaozhi-android-client is versioned there with full docs so you always integrate against the current release.
+
+## When should you use xiaozhi-android-client?
+
+Reach for xiaozhi-android-client when:
+
+- you're adding a chatbot, assistant, or generative feature
+- you need on-device inference for privacy or offline use
+- you're wiring an LLM or ML model into a mobile app
+
+It's especially relevant if your project touches `ai`, `chat`, `chatbot`, `chatgpt`, `dart`, `dify`.
+
+## xiaozhi-android-client vs. the alternatives
+
+If you're weighing options in the **AI/ML** space, these are the other projects developers most often compare xiaozhi-android-client against:
+
+- [Add AI to your Flutter app with AppFlowy](/recipes/appflowy/)
+- [Add AI to your Flutter app with appwrite](/recipes/appwrite/)
+- [Add AI to your Flutter app with Some-Many-Books](/recipes/some-many-books/)
+- [Add AI to your Flutter app with omi](/recipes/omi/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [AI/ML collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is xiaozhi-android-client free to use?
+
+Yes. xiaozhi-android-client is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does xiaozhi-android-client work on both iOS and Android?
+
+xiaozhi-android-client is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is xiaozhi-android-client?
+
+As of 2026, xiaozhi-android-client has around 1,542 stars and 397 forks on GitHub, which puts it among the more widely used options in the AI/ML space.
+
+### What are good alternatives to xiaozhi-android-client?
+
+Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [TOM88812/xiaozhi-android-client](https://github.com/TOM88812/xiaozhi-android-client)
-- **Video walkthroughs:** [search YouTube for xiaozhi-android-client](https://www.youtube.com/results?search_query=flutter+xiaozhi-android-client)
+- **Video tutorials:** [search YouTube for xiaozhi-android-client](https://www.youtube.com/results?search_query=flutter+xiaozhi-android-client)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

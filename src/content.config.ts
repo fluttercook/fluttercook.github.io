@@ -18,7 +18,13 @@ const recipes = defineCollection({
     phase: z.string().default('P1'),
     trendRank: z.number().default(0),
     description: z.string().default(''),
+    seoDescription: z.string().default(''),
+    keywords: z.array(z.string()).default([]),
     topics: z.array(z.string()).default([]),
+    related: z.array(z.object({ slug: z.string(), title: z.string() })).default([]),
+    faq: z.array(z.object({ q: z.string(), a: z.string() })).default([]),
+    datePublished: z.string().default(''),
+    dateModified: z.string().default(''),
     draft: z.boolean().default(false),
   }),
 });

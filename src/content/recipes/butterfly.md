@@ -12,34 +12,120 @@ youtube: "https://www.youtube.com/results?search_query=flutter+butterfly"
 priority: "Medium"
 phase: "P4"
 trendRank: 154
-description: "\ud83c\udfa8 Powerful, minimalistic, cross-platform, opensource note-taking app"
-topics: ["android", "app", "cross-platform", "customizable", "dart", "dartlang"]
+description: "Powerful, minimalistic, cross-platform, opensource note-taking app."
+seoDescription: "Butterfly: App/Template for Flutter with 1,925★ on GitHub. Powerful, minimalistic, cross-platform, opensource note-taking app. Install, usage, alternatives &…"
+keywords:
+  - flutter Butterfly
+  - Butterfly flutter
+  - flutter app/template
+  - flutter app
+  - flutter template
+  - flutter example app
+  - flutter mobile app
+  - Butterfly example
+  - Butterfly tutorial
+topics:
+  - android
+  - app
+  - cross-platform
+  - customizable
+  - dart
+  - dartlang
+related:
+  - slug: immich
+    title: 'Inside immich: an open-source Flutter app worth studying'
+  - slug: localsend
+    title: 'Inside localsend: an open-source Flutter app worth studying'
+  - slug: open-source-ios-apps
+    title: 'Inside open-source-ios-apps: an open-source Flutter app worth studying'
+  - slug: spotube
+    title: 'Inside spotube: an open-source Flutter app worth studying'
+faq:
+  - q: Is Butterfly free to use?
+    a: Yes. Butterfly is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does Butterfly work on both iOS and Android?
+    a: Butterfly is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is Butterfly?
+    a: As of 2026, Butterfly has around 1,925 stars and 141 forks on GitHub, which puts
+      it among the more widely used options in the App/Template space.
+  - q: What are good alternatives to Butterfly?
+    a: Popular alternatives in the App/Template category include immich, localsend,
+      open-source-ios-apps. The best choice depends on your app's size, team, and performance
+      needs.
+datePublished: "2020-12-21"
+dateModified: "2026-07-16"
 draft: false
 ---
 
-[`Butterfly`](https://github.com/LinwoodDev/Butterfly) is one of the Flutter ecosystem's most-watched **app/template** projects, with **1,925★** on GitHub and its last update on **2026-07-16**. Here's what it is, why it's on the radar, and how to start using it.
+[`Butterfly`](https://github.com/LinwoodDev/Butterfly) is an open-source **open-source app / starter template** for Flutter mobile app development, with **1,925★** on GitHub and last updated on **2026-07-16**. This guide covers what Butterfly does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What Butterfly is
+## What is Butterfly?
 
-🎨 Powerful, minimalistic, cross-platform, opensource note-taking app It lives at [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) and is maintained by the `LinwoodDev` project.
+Powerful, minimalistic, cross-platform, opensource note-taking app. It focuses on learning from a complete, real-world Flutter codebase. The project lives at [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly) and is maintained by `LinwoodDev`.
 
-## Why it's trending
+## Why Butterfly is worth knowing in 2026
 
-With 1,925 stars and 141 forks, Butterfly is actively maintained and sits in the top of our App/Template rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+Butterfly carries **1,925 GitHub stars**, **141 forks**, 44 open issues. It has been around since 2020, and is actively maintained (updated within the last month). For a App/Template option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## What to learn from it
+## Running Butterfly
 
-Butterfly is a great codebase to read: clone it, run it, and study how a real, popular Flutter project structures its widgets, state, and navigation. Browse the source at [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly).
+Butterfly is a complete project you can clone and run. Make sure you have the Flutter SDK installed, then:
 
-## Good to know
+```bash
+git clone https://github.com/LinwoodDev/Butterfly.git
+cd Butterfly
+flutter pub get
+flutter run
+```
 
-Key themes: `android`, `app`, `cross-platform`, `customizable`, `dart`.
+From there, read through the project structure to see how a real Flutter app is organised — routing, state, data access, and UI — and fork it as a starting point for your own build.
 
-## Learn more
+## When should you use Butterfly?
+
+Reach for Butterfly when:
+
+- you want a production-grade example to study or fork
+- you're bootstrapping a new app from a proven starter
+- you learn best by reading complete projects
+
+It's especially relevant if your project touches `android`, `app`, `cross-platform`, `customizable`, `dart`, `dartlang`.
+
+## Butterfly vs. the alternatives
+
+If you're weighing options in the **App/Template** space, these are the other projects developers most often compare Butterfly against:
+
+- [Inside immich: an open-source Flutter app worth studying](/recipes/immich/)
+- [Inside localsend: an open-source Flutter app worth studying](/recipes/localsend/)
+- [Inside open-source-ios-apps: an open-source Flutter app worth studying](/recipes/open-source-ios-apps/)
+- [Inside spotube: an open-source Flutter app worth studying](/recipes/spotube/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [App/Template collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is Butterfly free to use?
+
+Yes. Butterfly is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does Butterfly work on both iOS and Android?
+
+Butterfly is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is Butterfly?
+
+As of 2026, Butterfly has around 1,925 stars and 141 forks on GitHub, which puts it among the more widely used options in the App/Template space.
+
+### What are good alternatives to Butterfly?
+
+Popular alternatives in the App/Template category include immich, localsend, open-source-ios-apps. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [LinwoodDev/Butterfly](https://github.com/LinwoodDev/Butterfly)
-- **Video walkthroughs:** [search YouTube for Butterfly](https://www.youtube.com/results?search_query=flutter+butterfly)
+- **Video tutorials:** [search YouTube for Butterfly](https://www.youtube.com/results?search_query=flutter+butterfly)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

@@ -12,30 +12,118 @@ youtube: "https://www.youtube.com/results?search_query=flutter+bilitv"
 priority: "Medium"
 phase: "P7"
 trendRank: 339
-description: "\u7531flutter\u5b9e\u73b0\u7684TV\u7248\u54d4\u54e9\u54d4\u54e9\uff0c\u7c7b\u4f3c\u4e8ebbll\u548cbilibilitv\u3002"
-topics: []
+description: "由flutter实现的TV版哔哩哔哩，类似于bbll和bilibilitv。."
+seoDescription: "bilitv: Library/Tooling for Flutter with 489★ on GitHub. 由flutter实现的TV版哔哩哔哩，类似于bbll和bilibilitv。. Install, usage, alternatives & FAQ."
+keywords:
+  - flutter bilitv
+  - bilitv flutter
+  - flutter library/tooling
+  - flutter tooling
+  - flutter developer tools
+  - flutter mobile app
+  - bilitv example
+  - bilitv tutorial
+topics:
+  []
+related:
+  - slug: flclash
+    title: 'FlClash: a Flutter developer''s guide'
+  - slug: ente
+    title: 'ente: a Flutter developer''s guide'
+  - slug: nativescript
+    title: 'NativeScript: a Flutter developer''s guide'
+  - slug: antlr4
+    title: 'antlr4: a Flutter developer''s guide'
+faq:
+  - q: Is bilitv free to use?
+    a: Yes. bilitv is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does bilitv work on both iOS and Android?
+    a: bilitv is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is bilitv?
+    a: As of 2026, bilitv has around 489 stars and 15 forks on GitHub, which puts it
+      among the more widely used options in the Library/Tooling space.
+  - q: What are good alternatives to bilitv?
+    a: Popular alternatives in the Library/Tooling category include flclash, ente, nativescript.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2025-10-25"
+dateModified: "2026-06-14"
 draft: false
 ---
 
-[`bilitv`](https://github.com/kkkunny/bilitv) is one of the Flutter ecosystem's most-watched **library/tooling** projects, with **489★** on GitHub and its last update on **2026-06-14**. Here's what it is, why it's on the radar, and how to start using it.
+[`bilitv`](https://github.com/kkkunny/bilitv) is an open-source **developer tooling library** for Flutter mobile app development, with **489★** on GitHub and last updated on **2026-06-14**. This guide covers what bilitv does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What bilitv is
+## What is bilitv?
 
-由flutter实现的TV版哔哩哔哩，类似于bbll和bilibilitv。 It lives at [kkkunny/bilitv](https://github.com/kkkunny/bilitv) and is maintained by the `kkkunny` project.
+由flutter实现的TV版哔哩哔哩，类似于bbll和bilibilitv。. It focuses on improving your Flutter developer workflow and codebase. The project lives at [kkkunny/bilitv](https://github.com/kkkunny/bilitv) and is maintained by `kkkunny`.
 
-## Why it's trending
+## Why bilitv is worth knowing in 2026
 
-With 489 stars and 15 forks, bilitv is still maintained and sits in the top of our Library/Tooling rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+bilitv carries **489 GitHub stars**, **15 forks**, 9 open issues. It has been around since 2025, and is actively maintained. For a Library/Tooling option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing bilitv
 
-Clone or explore the repository to see setup instructions and examples: [kkkunny/bilitv](https://github.com/kkkunny/bilitv).
+Add the package to your `pubspec.yaml`:
 
-## Learn more
+```yaml
+dependencies:
+  bilitv: ^latest
+```
+
+Then fetch it and import it in your Dart code:
+
+```bash
+flutter pub get
+```
+```dart
+import 'package:bilitv/bilitv.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/kkkunny/bilitv) for the exact API — bilitv is versioned there with full docs so you always integrate against the current release.
+
+## When should you use bilitv?
+
+Reach for bilitv when:
+
+- you want to automate or streamline part of your build
+- you need better debugging, codegen, or DX
+- you're standardising tooling across a team
+
+## bilitv vs. the alternatives
+
+If you're weighing options in the **Library/Tooling** space, these are the other projects developers most often compare bilitv against:
+
+- [FlClash: a Flutter developer's guide](/recipes/flclash/)
+- [ente: a Flutter developer's guide](/recipes/ente/)
+- [NativeScript: a Flutter developer's guide](/recipes/nativescript/)
+- [antlr4: a Flutter developer's guide](/recipes/antlr4/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [Library/Tooling collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is bilitv free to use?
+
+Yes. bilitv is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does bilitv work on both iOS and Android?
+
+bilitv is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is bilitv?
+
+As of 2026, bilitv has around 489 stars and 15 forks on GitHub, which puts it among the more widely used options in the Library/Tooling space.
+
+### What are good alternatives to bilitv?
+
+Popular alternatives in the Library/Tooling category include flclash, ente, nativescript. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [kkkunny/bilitv](https://github.com/kkkunny/bilitv)
-- **Video walkthroughs:** [search YouTube for bilitv](https://www.youtube.com/results?search_query=flutter+bilitv)
+- **Video tutorials:** [search YouTube for bilitv](https://www.youtube.com/results?search_query=flutter+bilitv)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

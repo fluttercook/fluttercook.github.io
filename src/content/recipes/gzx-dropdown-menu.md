@@ -12,22 +12,67 @@ youtube: "https://www.youtube.com/results?search_query=flutter+gzx-dropdown-menu
 priority: "Low"
 phase: "P9"
 trendRank: 424
-description: "\u81ea\u5b9a\u4e49\u529f\u80fd\u5f3a\u5927\u7684\u4e0b\u62c9\u7b5b\u9009\u83dc\u5355flutter package\uff0c\u652f\u6301iOS\u548cAndroid"
-topics: ["dart", "dropdownmenu", "flutter", "flutter-package", "flutter-widget", "gzx-dropdown-menu"]
+description: "自定义功能强大的下拉筛选菜单flutter package，支持iOS和Android."
+seoDescription: "gzx_dropdown_menu: UI/Components for Flutter with 696★ on GitHub. 自定义功能强大的下拉筛选菜单flutter package，支持iOS和Android. Install, usage, alternatives & FAQ."
+keywords:
+  - flutter gzx_dropdown_menu
+  - gzx_dropdown_menu flutter
+  - flutter ui/components
+  - flutter ui
+  - flutter widgets
+  - flutter mobile app ui
+  - gzx_dropdown_menu example
+  - gzx_dropdown_menu tutorial
+topics:
+  - dart
+  - dropdownmenu
+  - flutter
+  - flutter-package
+  - flutter-widget
+  - gzx-dropdown-menu
+related:
+  - slug: rustdesk
+    title: Build better Flutter UI with rustdesk
+  - slug: hiddify-app
+    title: Build better Flutter UI with hiddify-app
+  - slug: best-flutter-ui-templates
+    title: Build better Flutter UI with Best-Flutter-UI-Templates
+  - slug: flet
+    title: Build better Flutter UI with flet
+faq:
+  - q: Is gzx_dropdown_menu free to use?
+    a: Yes. gzx_dropdown_menu is open source and free to use in your Flutter projects.
+      You can view the source, report issues, and contribute on GitHub.
+  - q: Does gzx_dropdown_menu work on both iOS and Android?
+    a: gzx_dropdown_menu is built for Flutter, so it targets iOS and Android from a
+      single codebase, and typically web and desktop too depending on the project's
+      platform support.
+  - q: How popular is gzx_dropdown_menu?
+    a: As of 2026, gzx_dropdown_menu has around 696 stars and 136 forks on GitHub, which
+      puts it among the more widely used options in the UI/Components space.
+  - q: What are good alternatives to gzx_dropdown_menu?
+    a: Popular alternatives in the UI/Components category include rustdesk, hiddify-app,
+      best-flutter-ui-templates. The best choice depends on your app's size, team, and
+      performance needs.
+  - q: How do I install gzx_dropdown_menu?
+    a: Add gzx_dropdown_menu to the dependencies section of your pubspec.yaml and run
+      flutter pub get. Full versions and API docs are on pub.dev.
+datePublished: "2019-06-03"
+dateModified: "2021-04-27"
 draft: false
 ---
 
-[`gzx_dropdown_menu`](https://github.com/GanZhiXiong/gzx_dropdown_menu) is one of the Flutter ecosystem's most-watched **ui/components** projects, with **696★** on GitHub and its last update on **2021-04-27**. Here's what it is, why it's on the radar, and how to start using it.
+[`gzx_dropdown_menu`](https://github.com/GanZhiXiong/gzx_dropdown_menu) is an open-source **UI component library** for Flutter mobile app development, with **696★** on GitHub and last updated on **2021-04-27**. This guide covers what gzx_dropdown_menu does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What gzx_dropdown_menu is
+## What is gzx_dropdown_menu?
 
-自定义功能强大的下拉筛选菜单flutter package，支持iOS和Android It lives at [GanZhiXiong/gzx_dropdown_menu](https://github.com/GanZhiXiong/gzx_dropdown_menu) and is maintained by the `GanZhiXiong` project.
+自定义功能强大的下拉筛选菜单flutter package，支持iOS和Android. It focuses on building polished, reusable interface widgets faster. The project lives at [GanZhiXiong/gzx_dropdown_menu](https://github.com/GanZhiXiong/gzx_dropdown_menu) and is maintained by `GanZhiXiong`.
 
-## Why it's trending
+## Why gzx_dropdown_menu is worth knowing in 2026
 
-With 696 stars and 136 forks, gzx_dropdown_menu is well-established and sits in the top of our UI/Components rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+gzx_dropdown_menu carries **696 GitHub stars**, **136 forks**, 20 open issues. It has been around since 2019, and is mature and stable. For a UI/Components option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Add it to your project
+## Installing gzx_dropdown_menu
 
 Add the package to your `pubspec.yaml`:
 
@@ -36,18 +81,66 @@ dependencies:
   gzx_dropdown_menu: ^latest
 ```
 
-Then run `flutter pub get`. Full API docs and versions are on [pub.dev](https://pub.dev/packages/gzx_dropdown_menu).
+Then fetch it and import it in your Dart code:
 
-## Good to know
+```bash
+flutter pub get
+```
+```dart
+import 'package:gzx_dropdown_menu/gzx_dropdown_menu.dart';
+```
 
-Key themes: `dart`, `dropdownmenu`, `flutter`, `flutter-package`, `flutter-widget`.
+Check the package's `example/` directory and its [pub.dev page](https://pub.dev/packages/gzx_dropdown_menu) for the exact API — gzx_dropdown_menu is versioned there with full docs so you always integrate against the current release.
 
-## Learn more
+## When should you use gzx_dropdown_menu?
+
+Reach for gzx_dropdown_menu when:
+
+- you need a ready-made widget instead of building one from scratch
+- you want a consistent look across screens
+- you're prototyping a mobile app UI quickly
+
+It's especially relevant if your project touches `dart`, `dropdownmenu`, `flutter`, `flutter-package`, `flutter-widget`, `gzx-dropdown-menu`.
+
+## gzx_dropdown_menu vs. the alternatives
+
+If you're weighing options in the **UI/Components** space, these are the other projects developers most often compare gzx_dropdown_menu against:
+
+- [Build better Flutter UI with rustdesk](/recipes/rustdesk/)
+- [Build better Flutter UI with hiddify-app](/recipes/hiddify-app/)
+- [Build better Flutter UI with Best-Flutter-UI-Templates](/recipes/best-flutter-ui-templates/)
+- [Build better Flutter UI with flet](/recipes/flet/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [UI/Components collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is gzx_dropdown_menu free to use?
+
+Yes. gzx_dropdown_menu is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does gzx_dropdown_menu work on both iOS and Android?
+
+gzx_dropdown_menu is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is gzx_dropdown_menu?
+
+As of 2026, gzx_dropdown_menu has around 696 stars and 136 forks on GitHub, which puts it among the more widely used options in the UI/Components space.
+
+### What are good alternatives to gzx_dropdown_menu?
+
+Popular alternatives in the UI/Components category include rustdesk, hiddify-app, best-flutter-ui-templates. The best choice depends on your app's size, team, and performance needs.
+
+### How do I install gzx_dropdown_menu?
+
+Add gzx_dropdown_menu to the dependencies section of your pubspec.yaml and run flutter pub get. Full versions and API docs are on pub.dev.
+
+## Resources & links
 
 - **GitHub:** [GanZhiXiong/gzx_dropdown_menu](https://github.com/GanZhiXiong/gzx_dropdown_menu)
 - **pub.dev:** [gzx_dropdown_menu](https://pub.dev/packages/gzx_dropdown_menu)
-- **Video walkthroughs:** [search YouTube for gzx_dropdown_menu](https://www.youtube.com/results?search_query=flutter+gzx-dropdown-menu)
+- **Video tutorials:** [search YouTube for gzx_dropdown_menu](https://www.youtube.com/results?search_query=flutter+gzx-dropdown-menu)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

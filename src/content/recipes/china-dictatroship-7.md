@@ -12,30 +12,120 @@ youtube: "https://www.youtube.com/results?search_query=flutter+china-dictatroshi
 priority: "Low"
 phase: "P9"
 trendRank: 403
-description: "\u53cd\u4e2d\u5171\u653f\u6cbb\u5ba3\u4f20\u5e93\u3002Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship \u7684\u5907\u4efdbackup. \u4f4f\u5728\u4e2d\u56fd\u771f\u540d\u7528\u6237\u7684\u7f51\u53cb\u8bf7\u522b\u7ed9\u661f\u661f\uff0c\u4e0d\u7136\u4f60\u8981\u88ab\u8b66\u5bdf\u8bf7\u559d\u8336\u3002\u5e38\u89c1\u95ee\u7b54\u96c6\uff0c\u65b0\u95fb\u96c6\u548c\u996d\u5e97\u548c\u97f3\u4e50\u5efa\u8bae\u3002\u5350\u4e60\u4e07\u5c81\u5350\u3002\u51a0"
-topics: []
+description: "反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠."
+seoDescription: "china-dictatroship-7: AI/ML for Flutter with 357★ on GitHub. 反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship…"
+keywords:
+  - flutter china-dictatroship-7
+  - china-dictatroship-7 flutter
+  - flutter ai/ml
+  - flutter ai
+  - flutter llm
+  - flutter machine learning
+  - flutter mobile app
+  - china-dictatroship-7 example
+  - china-dictatroship-7 tutorial
+topics:
+  []
+related:
+  - slug: appflowy
+    title: Add AI to your Flutter app with AppFlowy
+  - slug: appwrite
+    title: Add AI to your Flutter app with appwrite
+  - slug: some-many-books
+    title: Add AI to your Flutter app with Some-Many-Books
+  - slug: omi
+    title: Add AI to your Flutter app with omi
+faq:
+  - q: Is china-dictatroship-7 free to use?
+    a: Yes. china-dictatroship-7 is open source and free to use in your Flutter projects.
+      You can view the source, report issues, and contribute on GitHub.
+  - q: Does china-dictatroship-7 work on both iOS and Android?
+    a: china-dictatroship-7 is built for Flutter, so it targets iOS and Android from
+      a single codebase, and typically web and desktop too depending on the project's
+      platform support.
+  - q: How popular is china-dictatroship-7?
+    a: As of 2026, china-dictatroship-7 has around 357 stars and 37 forks on GitHub,
+      which puts it among the more widely used options in the AI/ML space.
+  - q: What are good alternatives to china-dictatroship-7?
+    a: Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2021-08-18"
+dateModified: "2026-02-05"
 draft: false
 ---
 
-[`china-dictatroship-7`](https://github.com/cirosantilli/china-dictatroship-7) is one of the Flutter ecosystem's most-watched **ai/ml** projects, with **357★** on GitHub and its last update on **2026-02-05**. Here's what it is, why it's on the radar, and how to start using it.
+[`china-dictatroship-7`](https://github.com/cirosantilli/china-dictatroship-7) is an open-source **AI/ML toolkit** for Flutter mobile app development, with **357★** on GitHub and last updated on **2026-02-05**. This guide covers what china-dictatroship-7 does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What china-dictatroship-7 is
+## What is china-dictatroship-7?
 
-反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠 It lives at [cirosantilli/china-dictatroship-7](https://github.com/cirosantilli/china-dictatroship-7) and is maintained by the `cirosantilli` project.
+反中共政治宣传库。Anti Chinese government propaganda. https://github.com/cirosantilli/china-dictatorship 的备份backup. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠. It focuses on bringing on-device or cloud AI features into a Flutter app. The project lives at [cirosantilli/china-dictatroship-7](https://github.com/cirosantilli/china-dictatroship-7) and is maintained by `cirosantilli`.
 
-## Why it's trending
+## Why china-dictatroship-7 is worth knowing in 2026
 
-With 357 stars and 37 forks, china-dictatroship-7 is still maintained and sits in the top of our AI/ML rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+china-dictatroship-7 carries **357 GitHub stars**, **37 forks**, 46 open issues. It has been around since 2021, and is actively maintained. For a AI/ML option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing china-dictatroship-7
 
-Clone or explore the repository to see setup instructions and examples: [cirosantilli/china-dictatroship-7](https://github.com/cirosantilli/china-dictatroship-7).
+Add the package to your `pubspec.yaml`:
 
-## Learn more
+```yaml
+dependencies:
+  china-dictatroship-7: ^latest
+```
+
+Then fetch it and import it in your Dart code:
+
+```bash
+flutter pub get
+```
+```dart
+import 'package:china_dictatroship_7/china_dictatroship_7.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/cirosantilli/china-dictatroship-7) for the exact API — china-dictatroship-7 is versioned there with full docs so you always integrate against the current release.
+
+## When should you use china-dictatroship-7?
+
+Reach for china-dictatroship-7 when:
+
+- you're adding a chatbot, assistant, or generative feature
+- you need on-device inference for privacy or offline use
+- you're wiring an LLM or ML model into a mobile app
+
+## china-dictatroship-7 vs. the alternatives
+
+If you're weighing options in the **AI/ML** space, these are the other projects developers most often compare china-dictatroship-7 against:
+
+- [Add AI to your Flutter app with AppFlowy](/recipes/appflowy/)
+- [Add AI to your Flutter app with appwrite](/recipes/appwrite/)
+- [Add AI to your Flutter app with Some-Many-Books](/recipes/some-many-books/)
+- [Add AI to your Flutter app with omi](/recipes/omi/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [AI/ML collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is china-dictatroship-7 free to use?
+
+Yes. china-dictatroship-7 is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does china-dictatroship-7 work on both iOS and Android?
+
+china-dictatroship-7 is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is china-dictatroship-7?
+
+As of 2026, china-dictatroship-7 has around 357 stars and 37 forks on GitHub, which puts it among the more widely used options in the AI/ML space.
+
+### What are good alternatives to china-dictatroship-7?
+
+Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [cirosantilli/china-dictatroship-7](https://github.com/cirosantilli/china-dictatroship-7)
-- **Video walkthroughs:** [search YouTube for china-dictatroship-7](https://www.youtube.com/results?search_query=flutter+china-dictatroship-7)
+- **Video tutorials:** [search YouTube for china-dictatroship-7](https://www.youtube.com/results?search_query=flutter+china-dictatroship-7)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

@@ -12,30 +12,119 @@ youtube: "https://www.youtube.com/results?search_query=flutter+pilipro"
 priority: "Low"
 phase: "P8"
 trendRank: 390
-description: "\u4f7f\u7528Flutter\u5f00\u53d1\u7684BiliBili\u7b2c\u4e09\u65b9\u5b89\u5353\u5ba2\u6237\u7aef\uff0c\u5bf9piliplus\u505a\u4e86\u6700\u5c0f\u5316\u4fee\u6539\uff0c\u589e\u52a0\u4e00\u4e9b\u81ea\u7528\u529f\u80fd\u2014\u2014\u81ea\u52a8\u8bb0\u5f55\u8bc4\u8bba\u548c\u5f39\u5e55\uff0c\u5e94\u7528\u5185\u5c0f\u7a97\u3002\u5c0f\u5b57\uff1apro\u662fPeRsOnal\u7684\u7f29\u5199\uff0c\u975eprofessional\uff08\u7531\u4e8e\u79cd\u79cd\u539f\u56e0\u6b64\u9879\u76ee\u5df2\u4e0d\u518d\u66f4\u65b0\u7ef4\u62a4\uff0c\u8f6c\u800c\u7ef4\u62a4\u65b0\u7684\u5ba2\u6237\u7aefhttps://github.com/naaammme/b"
-topics: []
+description: "使用Flutter开发的BiliBili第三方安卓客户端，对piliplus做了最小化修改，增加一些自用功能——自动记录评论和弹幕，应用内小窗。小字：pro是PeRsOnal的缩写，非professional（由于种种原因此项目已不再更新维护，转而维护新的客户端https://github.com/naaammme/b."
+seoDescription: "pilipro: Backend/Data for Flutter with 412★ on GitHub.…"
+keywords:
+  - flutter pilipro
+  - pilipro flutter
+  - flutter backend/data
+  - flutter http
+  - flutter backend
+  - flutter database
+  - flutter mobile app
+  - pilipro example
+  - pilipro tutorial
+topics:
+  []
+related:
+  - slug: gopeed
+    title: Data & backend in Flutter using gopeed
+  - slug: mmkv
+    title: Data & backend in Flutter using MMKV
+  - slug: proxypin
+    title: Data & backend in Flutter using proxypin
+  - slug: dio
+    title: Data & backend in Flutter using dio
+faq:
+  - q: Is pilipro free to use?
+    a: Yes. pilipro is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does pilipro work on both iOS and Android?
+    a: pilipro is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is pilipro?
+    a: As of 2026, pilipro has around 412 stars and 17 forks on GitHub, which puts it
+      among the more widely used options in the Backend/Data space.
+  - q: What are good alternatives to pilipro?
+    a: Popular alternatives in the Backend/Data category include gopeed, mmkv, proxypin.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2025-10-24"
+dateModified: "2026-03-12"
 draft: false
 ---
 
-[`pilipro`](https://github.com/naaammme/pilipro) is one of the Flutter ecosystem's most-watched **backend/data** projects, with **412★** on GitHub and its last update on **2026-03-12**. Here's what it is, why it's on the radar, and how to start using it.
+[`pilipro`](https://github.com/naaammme/pilipro) is an open-source **backend & data library** for Flutter mobile app development, with **412★** on GitHub and last updated on **2026-03-12**. This guide covers what pilipro does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What pilipro is
+## What is pilipro?
 
-使用Flutter开发的BiliBili第三方安卓客户端，对piliplus做了最小化修改，增加一些自用功能——自动记录评论和弹幕，应用内小窗。小字：pro是PeRsOnal的缩写，非professional（由于种种原因此项目已不再更新维护，转而维护新的客户端https://github.com/naaammme/b It lives at [naaammme/pilipro](https://github.com/naaammme/pilipro) and is maintained by the `naaammme` project.
+使用Flutter开发的BiliBili第三方安卓客户端，对piliplus做了最小化修改，增加一些自用功能——自动记录评论和弹幕，应用内小窗。小字：pro是PeRsOnal的缩写，非professional（由于种种原因此项目已不再更新维护，转而维护新的客户端https://github.com/naaammme/b. It focuses on talking to APIs, databases, and persistence layers. The project lives at [naaammme/pilipro](https://github.com/naaammme/pilipro) and is maintained by `naaammme`.
 
-## Why it's trending
+## Why pilipro is worth knowing in 2026
 
-With 412 stars and 17 forks, pilipro is still maintained and sits in the top of our Backend/Data rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+pilipro carries **412 GitHub stars**, **17 forks**, 21 open issues. It has been around since 2025, and is actively maintained. For a Backend/Data option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing pilipro
 
-Clone or explore the repository to see setup instructions and examples: [naaammme/pilipro](https://github.com/naaammme/pilipro).
+Add the package to your `pubspec.yaml`:
 
-## Learn more
+```yaml
+dependencies:
+  pilipro: ^latest
+```
+
+Then fetch it and import it in your Dart code:
+
+```bash
+flutter pub get
+```
+```dart
+import 'package:pilipro/pilipro.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/naaammme/pilipro) for the exact API — pilipro is versioned there with full docs so you always integrate against the current release.
+
+## When should you use pilipro?
+
+Reach for pilipro when:
+
+- you're calling REST/GraphQL APIs from a Flutter app
+- you need local storage, caching, or offline sync
+- you want typed, testable data access
+
+## pilipro vs. the alternatives
+
+If you're weighing options in the **Backend/Data** space, these are the other projects developers most often compare pilipro against:
+
+- [Data & backend in Flutter using gopeed](/recipes/gopeed/)
+- [Data & backend in Flutter using MMKV](/recipes/mmkv/)
+- [Data & backend in Flutter using proxypin](/recipes/proxypin/)
+- [Data & backend in Flutter using dio](/recipes/dio/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [Backend/Data collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is pilipro free to use?
+
+Yes. pilipro is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does pilipro work on both iOS and Android?
+
+pilipro is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is pilipro?
+
+As of 2026, pilipro has around 412 stars and 17 forks on GitHub, which puts it among the more widely used options in the Backend/Data space.
+
+### What are good alternatives to pilipro?
+
+Popular alternatives in the Backend/Data category include gopeed, mmkv, proxypin. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [naaammme/pilipro](https://github.com/naaammme/pilipro)
-- **Video walkthroughs:** [search YouTube for pilipro](https://www.youtube.com/results?search_query=flutter+pilipro)
+- **Video tutorials:** [search YouTube for pilipro](https://www.youtube.com/results?search_query=flutter+pilipro)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

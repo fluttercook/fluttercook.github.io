@@ -12,34 +12,121 @@ youtube: "https://www.youtube.com/results?search_query=flutter+mpflutter"
 priority: "Medium"
 phase: "P6"
 trendRank: 287
-description: "MPFlutter \u662f\u4e00\u4e2a\u8de8\u5e73\u53f0 Flutter \u5f00\u53d1\u6846\u67b6\uff0c\u53ef\u7528\u4e8e\u5fae\u4fe1\u5c0f\u7a0b\u5e8f\u4ee5\u53ca Web \u5e94\u7528\u5f00\u53d1\u3002"
-topics: ["dart", "flutter"]
+description: "MPFlutter 是一个跨平台 Flutter 开发框架，可用于微信小程序以及 Web 应用开发。."
+seoDescription: "mpflutter: Library/Tooling for Flutter with 2,138★ on GitHub. MPFlutter 是一个跨平台 Flutter 开发框架，可用于微信小程序以及 Web 应用开发。. Install, usage, alternatives & FAQ."
+keywords:
+  - flutter mpflutter
+  - mpflutter flutter
+  - flutter library/tooling
+  - flutter tooling
+  - flutter developer tools
+  - flutter mobile app
+  - mpflutter example
+  - mpflutter tutorial
+topics:
+  - dart
+  - flutter
+related:
+  - slug: flclash
+    title: 'FlClash: a Flutter developer''s guide'
+  - slug: ente
+    title: 'ente: a Flutter developer''s guide'
+  - slug: nativescript
+    title: 'NativeScript: a Flutter developer''s guide'
+  - slug: antlr4
+    title: 'antlr4: a Flutter developer''s guide'
+faq:
+  - q: Is mpflutter free to use?
+    a: Yes. mpflutter is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does mpflutter work on both iOS and Android?
+    a: mpflutter is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is mpflutter?
+    a: As of 2026, mpflutter has around 2,138 stars and 145 forks on GitHub, which puts
+      it among the more widely used options in the Library/Tooling space.
+  - q: What are good alternatives to mpflutter?
+    a: Popular alternatives in the Library/Tooling category include flclash, ente, nativescript.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2020-12-08"
+dateModified: "2025-03-25"
 draft: false
 ---
 
-[`mpflutter`](https://github.com/mpflutter/mpflutter) is one of the Flutter ecosystem's most-watched **library/tooling** projects, with **2,138★** on GitHub and its last update on **2025-03-25**. Here's what it is, why it's on the radar, and how to start using it.
+[`mpflutter`](https://github.com/mpflutter/mpflutter) is an open-source **developer tooling library** for Flutter mobile app development, with **2,138★** on GitHub and last updated on **2025-03-25**. This guide covers what mpflutter does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What mpflutter is
+## What is mpflutter?
 
-MPFlutter 是一个跨平台 Flutter 开发框架，可用于微信小程序以及 Web 应用开发。 It lives at [mpflutter/mpflutter](https://github.com/mpflutter/mpflutter) and is maintained by the `mpflutter` project.
+MPFlutter 是一个跨平台 Flutter 开发框架，可用于微信小程序以及 Web 应用开发。. It focuses on improving your Flutter developer workflow and codebase. The project lives at [mpflutter/mpflutter](https://github.com/mpflutter/mpflutter) and is maintained by `mpflutter`.
 
-## Why it's trending
+## Why mpflutter is worth knowing in 2026
 
-With 2,138 stars and 145 forks, mpflutter is well-established and sits in the top of our Library/Tooling rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+mpflutter carries **2,138 GitHub stars**, **145 forks**, 27 open issues. It has been around since 2020, and is mature and stable. For a Library/Tooling option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing mpflutter
 
-Clone or explore the repository to see setup instructions and examples: [mpflutter/mpflutter](https://github.com/mpflutter/mpflutter).
+Add the package to your `pubspec.yaml`:
 
-## Good to know
+```yaml
+dependencies:
+  mpflutter: ^latest
+```
 
-Key themes: `dart`, `flutter`.
+Then fetch it and import it in your Dart code:
 
-## Learn more
+```bash
+flutter pub get
+```
+```dart
+import 'package:mpflutter/mpflutter.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/mpflutter/mpflutter) for the exact API — mpflutter is versioned there with full docs so you always integrate against the current release.
+
+## When should you use mpflutter?
+
+Reach for mpflutter when:
+
+- you want to automate or streamline part of your build
+- you need better debugging, codegen, or DX
+- you're standardising tooling across a team
+
+It's especially relevant if your project touches `dart`, `flutter`.
+
+## mpflutter vs. the alternatives
+
+If you're weighing options in the **Library/Tooling** space, these are the other projects developers most often compare mpflutter against:
+
+- [FlClash: a Flutter developer's guide](/recipes/flclash/)
+- [ente: a Flutter developer's guide](/recipes/ente/)
+- [NativeScript: a Flutter developer's guide](/recipes/nativescript/)
+- [antlr4: a Flutter developer's guide](/recipes/antlr4/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [Library/Tooling collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is mpflutter free to use?
+
+Yes. mpflutter is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does mpflutter work on both iOS and Android?
+
+mpflutter is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is mpflutter?
+
+As of 2026, mpflutter has around 2,138 stars and 145 forks on GitHub, which puts it among the more widely used options in the Library/Tooling space.
+
+### What are good alternatives to mpflutter?
+
+Popular alternatives in the Library/Tooling category include flclash, ente, nativescript. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [mpflutter/mpflutter](https://github.com/mpflutter/mpflutter)
-- **Video walkthroughs:** [search YouTube for mpflutter](https://www.youtube.com/results?search_query=flutter+mpflutter)
+- **Video tutorials:** [search YouTube for mpflutter](https://www.youtube.com/results?search_query=flutter+mpflutter)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

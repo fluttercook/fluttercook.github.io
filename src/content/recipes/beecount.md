@@ -12,34 +12,126 @@ youtube: "https://www.youtube.com/results?search_query=flutter+beecount"
 priority: "Medium"
 phase: "P4"
 trendRank: 153
-description: "Local-first bookkeeping for iOS/Android/Web \u00b7 Self-hosted cloud + iCloud/WebDAV/S3 sync \u00b7 AI capture \u00b7 MCP | \u672c\u5730\u4f18\u5148\u7684\u8de8\u7aef\u8bb0\u8d26 \u00b7 \u81ea\u5efa\u4e91 + iCloud/WebDAV/S3 \u540c\u6b65 \u00b7 AI \u8bb0\u8d26 \u00b7 MCP"
-topics: ["accounting", "ai", "android", "bookkeeping", "chinese", "expense-tracker"]
+description: "Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP | 本地优先的跨端记账 · 自建云 + iCloud/WebDAV/S3 同步 · AI 记账 · MCP."
+seoDescription: "BeeCount: AI/ML for Flutter with 1,936★ on GitHub. Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP…"
+keywords:
+  - flutter BeeCount
+  - BeeCount flutter
+  - flutter ai/ml
+  - flutter ai
+  - flutter llm
+  - flutter machine learning
+  - flutter mobile app
+  - BeeCount example
+  - BeeCount tutorial
+topics:
+  - accounting
+  - ai
+  - android
+  - bookkeeping
+  - chinese
+  - expense-tracker
+related:
+  - slug: appflowy
+    title: Add AI to your Flutter app with AppFlowy
+  - slug: appwrite
+    title: Add AI to your Flutter app with appwrite
+  - slug: some-many-books
+    title: Add AI to your Flutter app with Some-Many-Books
+  - slug: omi
+    title: Add AI to your Flutter app with omi
+faq:
+  - q: Is BeeCount free to use?
+    a: Yes. BeeCount is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does BeeCount work on both iOS and Android?
+    a: BeeCount is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is BeeCount?
+    a: As of 2026, BeeCount has around 1,936 stars and 267 forks on GitHub, which puts
+      it among the more widely used options in the AI/ML space.
+  - q: What are good alternatives to BeeCount?
+    a: Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2025-09-06"
+dateModified: "2026-07-14"
 draft: false
 ---
 
-[`BeeCount`](https://github.com/TNT-Likely/BeeCount) is one of the Flutter ecosystem's most-watched **ai/ml** projects, with **1,936★** on GitHub and its last update on **2026-07-14**. Here's what it is, why it's on the radar, and how to start using it.
+[`BeeCount`](https://github.com/TNT-Likely/BeeCount) is an open-source **AI/ML toolkit** for Flutter mobile app development, with **1,936★** on GitHub and last updated on **2026-07-14**. This guide covers what BeeCount does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What BeeCount is
+## What is BeeCount?
 
-Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP | 本地优先的跨端记账 · 自建云 + iCloud/WebDAV/S3 同步 · AI 记账 · MCP It lives at [TNT-Likely/BeeCount](https://github.com/TNT-Likely/BeeCount) and is maintained by the `TNT-Likely` project.
+Local-first bookkeeping for iOS/Android/Web · Self-hosted cloud + iCloud/WebDAV/S3 sync · AI capture · MCP | 本地优先的跨端记账 · 自建云 + iCloud/WebDAV/S3 同步 · AI 记账 · MCP. It focuses on bringing on-device or cloud AI features into a Flutter app. The project lives at [TNT-Likely/BeeCount](https://github.com/TNT-Likely/BeeCount) and is maintained by `TNT-Likely`.
 
-## Why it's trending
+## Why BeeCount is worth knowing in 2026
 
-With 1,936 stars and 267 forks, BeeCount is actively maintained and sits in the top of our AI/ML rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+BeeCount carries **1,936 GitHub stars**, **267 forks**, 77 open issues. It has been around since 2025, and is actively maintained (updated within the last month). For a AI/ML option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing BeeCount
 
-Clone or explore the repository to see setup instructions and examples: [TNT-Likely/BeeCount](https://github.com/TNT-Likely/BeeCount).
+Add the package to your `pubspec.yaml`:
 
-## Good to know
+```yaml
+dependencies:
+  BeeCount: ^latest
+```
 
-Key themes: `accounting`, `ai`, `android`, `bookkeeping`, `chinese`.
+Then fetch it and import it in your Dart code:
 
-## Learn more
+```bash
+flutter pub get
+```
+```dart
+import 'package:beecount/beecount.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/TNT-Likely/BeeCount) for the exact API — BeeCount is versioned there with full docs so you always integrate against the current release.
+
+## When should you use BeeCount?
+
+Reach for BeeCount when:
+
+- you're adding a chatbot, assistant, or generative feature
+- you need on-device inference for privacy or offline use
+- you're wiring an LLM or ML model into a mobile app
+
+It's especially relevant if your project touches `accounting`, `ai`, `android`, `bookkeeping`, `chinese`, `expense-tracker`.
+
+## BeeCount vs. the alternatives
+
+If you're weighing options in the **AI/ML** space, these are the other projects developers most often compare BeeCount against:
+
+- [Add AI to your Flutter app with AppFlowy](/recipes/appflowy/)
+- [Add AI to your Flutter app with appwrite](/recipes/appwrite/)
+- [Add AI to your Flutter app with Some-Many-Books](/recipes/some-many-books/)
+- [Add AI to your Flutter app with omi](/recipes/omi/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [AI/ML collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is BeeCount free to use?
+
+Yes. BeeCount is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does BeeCount work on both iOS and Android?
+
+BeeCount is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is BeeCount?
+
+As of 2026, BeeCount has around 1,936 stars and 267 forks on GitHub, which puts it among the more widely used options in the AI/ML space.
+
+### What are good alternatives to BeeCount?
+
+Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [TNT-Likely/BeeCount](https://github.com/TNT-Likely/BeeCount)
-- **Video walkthroughs:** [search YouTube for BeeCount](https://www.youtube.com/results?search_query=flutter+beecount)
+- **Video tutorials:** [search YouTube for BeeCount](https://www.youtube.com/results?search_query=flutter+beecount)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

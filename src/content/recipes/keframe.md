@@ -12,34 +12,122 @@ youtube: "https://www.youtube.com/results?search_query=flutter+keframe"
 priority: "Low"
 phase: "P8"
 trendRank: 396
-description: "Components that optimize Flutter fluency.\uff08Flutter \u6d41\u7545\u5ea6\u4f18\u5316\u7684\u901a\u7528\u65b9\u6848\uff0c\u8f7b\u677e\u89e3\u51b3\u5361\u987f\u95ee\u9898\uff09"
-topics: ["flutter", "optimization"]
+description: "Components that optimize Flutter fluency.（Flutter 流畅度优化的通用方案，轻松解决卡顿问题）."
+seoDescription: "keframe: UI/Components for Flutter with 1,004★ on GitHub. Components that optimize Flutter fluency.（Flutter 流畅度优化的通用方案，轻松解决卡顿问题）. Install, usage,…"
+keywords:
+  - flutter keframe
+  - keframe flutter
+  - flutter ui/components
+  - flutter ui
+  - flutter widgets
+  - flutter mobile app ui
+  - keframe example
+  - keframe tutorial
+topics:
+  - flutter
+  - optimization
+related:
+  - slug: rustdesk
+    title: Build better Flutter UI with rustdesk
+  - slug: hiddify-app
+    title: Build better Flutter UI with hiddify-app
+  - slug: best-flutter-ui-templates
+    title: Build better Flutter UI with Best-Flutter-UI-Templates
+  - slug: flet
+    title: Build better Flutter UI with flet
+faq:
+  - q: Is keframe free to use?
+    a: Yes. keframe is open source and free to use in your Flutter projects. You can
+      view the source, report issues, and contribute on GitHub.
+  - q: Does keframe work on both iOS and Android?
+    a: keframe is built for Flutter, so it targets iOS and Android from a single codebase,
+      and typically web and desktop too depending on the project's platform support.
+  - q: How popular is keframe?
+    a: As of 2026, keframe has around 1,004 stars and 107 forks on GitHub, which puts
+      it among the more widely used options in the UI/Components space.
+  - q: What are good alternatives to keframe?
+    a: Popular alternatives in the UI/Components category include rustdesk, hiddify-app,
+      best-flutter-ui-templates. The best choice depends on your app's size, team, and
+      performance needs.
+datePublished: "2021-06-30"
+dateModified: "2023-04-14"
 draft: false
 ---
 
-[`keframe`](https://github.com/LianjiaTech/keframe) is one of the Flutter ecosystem's most-watched **ui/components** projects, with **1,004★** on GitHub and its last update on **2023-04-14**. Here's what it is, why it's on the radar, and how to start using it.
+[`keframe`](https://github.com/LianjiaTech/keframe) is an open-source **UI component library** for Flutter mobile app development, with **1,004★** on GitHub and last updated on **2023-04-14**. This guide covers what keframe does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What keframe is
+## What is keframe?
 
-Components that optimize Flutter fluency.（Flutter 流畅度优化的通用方案，轻松解决卡顿问题） It lives at [LianjiaTech/keframe](https://github.com/LianjiaTech/keframe) and is maintained by the `LianjiaTech` project.
+Components that optimize Flutter fluency.（Flutter 流畅度优化的通用方案，轻松解决卡顿问题）. It focuses on building polished, reusable interface widgets faster. The project lives at [LianjiaTech/keframe](https://github.com/LianjiaTech/keframe) and is maintained by `LianjiaTech`.
 
-## Why it's trending
+## Why keframe is worth knowing in 2026
 
-With 1,004 stars and 107 forks, keframe is well-established and sits in the top of our UI/Components rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+keframe carries **1,004 GitHub stars**, **107 forks**, 9 open issues. It has been around since 2021, and is mature and stable. For a UI/Components option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing keframe
 
-Clone or explore the repository to see setup instructions and examples: [LianjiaTech/keframe](https://github.com/LianjiaTech/keframe).
+Add the package to your `pubspec.yaml`:
 
-## Good to know
+```yaml
+dependencies:
+  keframe: ^latest
+```
 
-Key themes: `flutter`, `optimization`.
+Then fetch it and import it in your Dart code:
 
-## Learn more
+```bash
+flutter pub get
+```
+```dart
+import 'package:keframe/keframe.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/LianjiaTech/keframe) for the exact API — keframe is versioned there with full docs so you always integrate against the current release.
+
+## When should you use keframe?
+
+Reach for keframe when:
+
+- you need a ready-made widget instead of building one from scratch
+- you want a consistent look across screens
+- you're prototyping a mobile app UI quickly
+
+It's especially relevant if your project touches `flutter`, `optimization`.
+
+## keframe vs. the alternatives
+
+If you're weighing options in the **UI/Components** space, these are the other projects developers most often compare keframe against:
+
+- [Build better Flutter UI with rustdesk](/recipes/rustdesk/)
+- [Build better Flutter UI with hiddify-app](/recipes/hiddify-app/)
+- [Build better Flutter UI with Best-Flutter-UI-Templates](/recipes/best-flutter-ui-templates/)
+- [Build better Flutter UI with flet](/recipes/flet/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [UI/Components collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is keframe free to use?
+
+Yes. keframe is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does keframe work on both iOS and Android?
+
+keframe is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is keframe?
+
+As of 2026, keframe has around 1,004 stars and 107 forks on GitHub, which puts it among the more widely used options in the UI/Components space.
+
+### What are good alternatives to keframe?
+
+Popular alternatives in the UI/Components category include rustdesk, hiddify-app, best-flutter-ui-templates. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [LianjiaTech/keframe](https://github.com/LianjiaTech/keframe)
-- **Video walkthroughs:** [search YouTube for keframe](https://www.youtube.com/results?search_query=flutter+keframe)
+- **Video tutorials:** [search YouTube for keframe](https://www.youtube.com/results?search_query=flutter+keframe)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

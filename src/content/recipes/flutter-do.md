@@ -12,30 +12,114 @@ youtube: "https://www.youtube.com/results?search_query=flutter+flutter-do"
 priority: "Medium"
 phase: "P6"
 trendRank: 253
-description: "\u5305\u542b350\u591a\u4e2a\u7ec4\u4ef6\u7528\u6cd5\u3001\u7ec4\u4ef6\u7ee7\u627f\u5173\u7cfb\u56fe\u300140\u591a\u4e2a loading \u7ec4\u4ef6\uff0cApp\u5347\u7ea7\u3001\u9a8c\u8bc1\u7801\u3001\u5f39\u5e55\u3001\u97f3\u4e50\u5b57\u5e55 4\u4e2a\u63d2\u4ef6\uff0c\u4e00\u4e2a\u5c0f\u800c\u5168\u5b8c\u6574\u7684App\u9879\u76ee\u3002"
-topics: []
+description: "包含350多个组件用法、组件继承关系图、40多个 loading 组件，App升级、验证码、弹幕、音乐字幕 4个插件，一个小而全完整的App项目。."
+seoDescription: "flutter-do: App/Template for Flutter with 2,742★ on GitHub. 包含350多个组件用法、组件继承关系图、40多个 loading 组件，App升级、验证码、弹幕、音乐字幕 4个插件，一个小而全完整的App项目。. Install, usage,…"
+keywords:
+  - flutter flutter-do
+  - flutter-do flutter
+  - flutter app/template
+  - flutter app
+  - flutter template
+  - flutter example app
+  - flutter mobile app
+  - flutter-do example
+  - flutter-do tutorial
+topics:
+  []
+related:
+  - slug: immich
+    title: 'Inside immich: an open-source Flutter app worth studying'
+  - slug: localsend
+    title: 'Inside localsend: an open-source Flutter app worth studying'
+  - slug: open-source-ios-apps
+    title: 'Inside open-source-ios-apps: an open-source Flutter app worth studying'
+  - slug: spotube
+    title: 'Inside spotube: an open-source Flutter app worth studying'
+faq:
+  - q: Is flutter-do free to use?
+    a: Yes. flutter-do is open source and free to use in your Flutter projects. You
+      can view the source, report issues, and contribute on GitHub.
+  - q: Does flutter-do work on both iOS and Android?
+    a: flutter-do is built for Flutter, so it targets iOS and Android from a single
+      codebase, and typically web and desktop too depending on the project's platform
+      support.
+  - q: How popular is flutter-do?
+    a: As of 2026, flutter-do has around 2,742 stars and 547 forks on GitHub, which
+      puts it among the more widely used options in the App/Template space.
+  - q: What are good alternatives to flutter-do?
+    a: Popular alternatives in the App/Template category include immich, localsend,
+      open-source-ios-apps. The best choice depends on your app's size, team, and performance
+      needs.
+datePublished: "2020-04-02"
+dateModified: "2023-03-31"
 draft: false
 ---
 
-[`flutter-do`](https://github.com/LaoMengFlutter/flutter-do) is one of the Flutter ecosystem's most-watched **app/template** projects, with **2,742★** on GitHub and its last update on **2023-03-31**. Here's what it is, why it's on the radar, and how to start using it.
+[`flutter-do`](https://github.com/LaoMengFlutter/flutter-do) is an open-source **open-source app / starter template** for Flutter mobile app development, with **2,742★** on GitHub and last updated on **2023-03-31**. This guide covers what flutter-do does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What flutter-do is
+## What is flutter-do?
 
-包含350多个组件用法、组件继承关系图、40多个 loading 组件，App升级、验证码、弹幕、音乐字幕 4个插件，一个小而全完整的App项目。 It lives at [LaoMengFlutter/flutter-do](https://github.com/LaoMengFlutter/flutter-do) and is maintained by the `LaoMengFlutter` project.
+包含350多个组件用法、组件继承关系图、40多个 loading 组件，App升级、验证码、弹幕、音乐字幕 4个插件，一个小而全完整的App项目。. It focuses on learning from a complete, real-world Flutter codebase. The project lives at [LaoMengFlutter/flutter-do](https://github.com/LaoMengFlutter/flutter-do) and is maintained by `LaoMengFlutter`.
 
-## Why it's trending
+## Why flutter-do is worth knowing in 2026
 
-With 2,742 stars and 547 forks, flutter-do is well-established and sits in the top of our App/Template rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+flutter-do carries **2,742 GitHub stars**, **547 forks**, 54 open issues. It has been around since 2020, and is mature and stable. For a App/Template option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## What to learn from it
+## Running flutter-do
 
-flutter-do is a great codebase to read: clone it, run it, and study how a real, popular Flutter project structures its widgets, state, and navigation. Browse the source at [LaoMengFlutter/flutter-do](https://github.com/LaoMengFlutter/flutter-do).
+flutter-do is a complete project you can clone and run. Make sure you have the Flutter SDK installed, then:
 
-## Learn more
+```bash
+git clone https://github.com/LaoMengFlutter/flutter-do.git
+cd flutter-do
+flutter pub get
+flutter run
+```
+
+From there, read through the project structure to see how a real Flutter app is organised — routing, state, data access, and UI — and fork it as a starting point for your own build.
+
+## When should you use flutter-do?
+
+Reach for flutter-do when:
+
+- you want a production-grade example to study or fork
+- you're bootstrapping a new app from a proven starter
+- you learn best by reading complete projects
+
+## flutter-do vs. the alternatives
+
+If you're weighing options in the **App/Template** space, these are the other projects developers most often compare flutter-do against:
+
+- [Inside immich: an open-source Flutter app worth studying](/recipes/immich/)
+- [Inside localsend: an open-source Flutter app worth studying](/recipes/localsend/)
+- [Inside open-source-ios-apps: an open-source Flutter app worth studying](/recipes/open-source-ios-apps/)
+- [Inside spotube: an open-source Flutter app worth studying](/recipes/spotube/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [App/Template collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is flutter-do free to use?
+
+Yes. flutter-do is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does flutter-do work on both iOS and Android?
+
+flutter-do is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is flutter-do?
+
+As of 2026, flutter-do has around 2,742 stars and 547 forks on GitHub, which puts it among the more widely used options in the App/Template space.
+
+### What are good alternatives to flutter-do?
+
+Popular alternatives in the App/Template category include immich, localsend, open-source-ios-apps. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [LaoMengFlutter/flutter-do](https://github.com/LaoMengFlutter/flutter-do)
-- **Video walkthroughs:** [search YouTube for flutter-do](https://www.youtube.com/results?search_query=flutter+flutter-do)
+- **Video tutorials:** [search YouTube for flutter-do](https://www.youtube.com/results?search_query=flutter+flutter-do)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*

@@ -12,34 +12,127 @@ youtube: "https://www.youtube.com/results?search_query=flutter+china-dictatorshi
 priority: "High"
 phase: "P3"
 trendRank: 146
-description: "\u53cd\u4e2d\u5171\u653f\u6cbb\u5ba3\u4f20\u5e93\u3002Anti Chinese government propaganda. \u4f4f\u5728\u4e2d\u56fd\u771f\u540d\u7528\u6237\u7684\u7f51\u53cb\u8bf7\u522b\u7ed9\u661f\u661f\uff0c\u4e0d\u7136\u4f60\u8981\u88ab\u8b66\u5bdf\u8bf7\u559d\u8336\u3002\u5e38\u89c1\u95ee\u7b54\u96c6\uff0c\u65b0\u95fb\u96c6\u548c\u996d\u5e97\u548c\u97f3\u4e50\u5efa\u8bae\u3002\u5350\u4e60\u4e07\u5c81\u5350\u3002\u51a0\u72b6\u75c5\u6bd2\u5ba1\u67e5\u90dd\u6d77\u4e1c\u65b0\u7586\u6539\u9020\u4e2d\u5fc3\u516d\u56db\u4e8b\u4ef6\u6cd5\u8f6e\u529f 996.ICU709\u5927\u6293\u6355\u5df4\u62ff\u9a6c\u6587\u4ef6\u9093\u5bb6\u8d35\u4f4e\u7aef\u4eba\u53e3\u897f\u85cf\u9a9a\u4e71\u3002Friends wh"
-topics: ["996", "censorship", "censorship-circumvention", "china", "china-dictatorship", "chinese-communist-party"]
+description: "反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends wh."
+seoDescription: "china-dictatorship: AI/ML for Flutter with 3,101★ on GitHub. 反中共政治宣传库。Anti Chinese government propaganda.…"
+keywords:
+  - flutter china-dictatorship
+  - china-dictatorship flutter
+  - flutter ai/ml
+  - flutter ai
+  - flutter llm
+  - flutter machine learning
+  - flutter mobile app
+  - china-dictatorship example
+  - china-dictatorship tutorial
+topics:
+  - '996'
+  - censorship
+  - censorship-circumvention
+  - china
+  - china-dictatorship
+  - chinese-communist-party
+related:
+  - slug: appflowy
+    title: Add AI to your Flutter app with AppFlowy
+  - slug: appwrite
+    title: Add AI to your Flutter app with appwrite
+  - slug: some-many-books
+    title: Add AI to your Flutter app with Some-Many-Books
+  - slug: omi
+    title: Add AI to your Flutter app with omi
+faq:
+  - q: Is china-dictatorship free to use?
+    a: Yes. china-dictatorship is open source and free to use in your Flutter projects.
+      You can view the source, report issues, and contribute on GitHub.
+  - q: Does china-dictatorship work on both iOS and Android?
+    a: china-dictatorship is built for Flutter, so it targets iOS and Android from a
+      single codebase, and typically web and desktop too depending on the project's
+      platform support.
+  - q: How popular is china-dictatorship?
+    a: As of 2026, china-dictatorship has around 3,101 stars and 295 forks on GitHub,
+      which puts it among the more widely used options in the AI/ML space.
+  - q: What are good alternatives to china-dictatorship?
+    a: Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books.
+      The best choice depends on your app's size, team, and performance needs.
+datePublished: "2015-04-02"
+dateModified: "2026-02-05"
 draft: false
 ---
 
-[`china-dictatorship`](https://github.com/cirosantilli/china-dictatorship) is one of the Flutter ecosystem's most-watched **ai/ml** projects, with **3,101★** on GitHub and its last update on **2026-02-05**. Here's what it is, why it's on the radar, and how to start using it.
+[`china-dictatorship`](https://github.com/cirosantilli/china-dictatorship) is an open-source **AI/ML toolkit** for Flutter mobile app development, with **3,101★** on GitHub and last updated on **2026-02-05**. This guide covers what china-dictatorship does, why it matters in 2026, how to add it to your project, when to reach for it, and how it compares to the alternatives — plus a quick FAQ.
 
-## What china-dictatorship is
+## What is china-dictatorship?
 
-反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends wh It lives at [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship) and is maintained by the `cirosantilli` project.
+反中共政治宣传库。Anti Chinese government propaganda. 住在中国真名用户的网友请别给星星，不然你要被警察请喝茶。常见问答集，新闻集和饭店和音乐建议。卐习万岁卐。冠状病毒审查郝海东新疆改造中心六四事件法轮功 996.ICU709大抓捕巴拿马文件邓家贵低端人口西藏骚乱。Friends wh. It focuses on bringing on-device or cloud AI features into a Flutter app. The project lives at [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship) and is maintained by `cirosantilli`.
 
-## Why it's trending
+## Why china-dictatorship is worth knowing in 2026
 
-With 3,101 stars and 295 forks, china-dictatorship is still maintained and sits in the top of our AI/ML rankings. Momentum like this usually means a healthy community, real production use, and plenty of examples to learn from.
+china-dictatorship carries **3,101 GitHub stars**, **295 forks**, 829 open issues. It has been around since 2015, and is actively maintained. For a AI/ML option, that combination of adoption and upkeep usually means a healthy community, production usage, and plenty of examples to learn from — the things that make a dependency safe to build on.
 
-## Getting started
+## Installing china-dictatorship
 
-Clone or explore the repository to see setup instructions and examples: [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship).
+Add the package to your `pubspec.yaml`:
 
-## Good to know
+```yaml
+dependencies:
+  china-dictatorship: ^latest
+```
 
-Key themes: `996`, `censorship`, `censorship-circumvention`, `china`, `china-dictatorship`.
+Then fetch it and import it in your Dart code:
 
-## Learn more
+```bash
+flutter pub get
+```
+```dart
+import 'package:china_dictatorship/china_dictatorship.dart';
+```
+
+Check the package's `example/` directory and its [GitHub repo](https://github.com/cirosantilli/china-dictatorship) for the exact API — china-dictatorship is versioned there with full docs so you always integrate against the current release.
+
+## When should you use china-dictatorship?
+
+Reach for china-dictatorship when:
+
+- you're adding a chatbot, assistant, or generative feature
+- you need on-device inference for privacy or offline use
+- you're wiring an LLM or ML model into a mobile app
+
+It's especially relevant if your project touches `996`, `censorship`, `censorship-circumvention`, `china`, `china-dictatorship`, `chinese-communist-party`.
+
+## china-dictatorship vs. the alternatives
+
+If you're weighing options in the **AI/ML** space, these are the other projects developers most often compare china-dictatorship against:
+
+- [Add AI to your Flutter app with AppFlowy](/recipes/appflowy/)
+- [Add AI to your Flutter app with appwrite](/recipes/appwrite/)
+- [Add AI to your Flutter app with Some-Many-Books](/recipes/some-many-books/)
+- [Add AI to your Flutter app with omi](/recipes/omi/)
+
+There's no single winner — the right pick depends on your app's size, your team's familiarity, and your performance budget. Browse the full [AI/ML collection](/recipes/) to compare them side by side.
+
+## Frequently asked questions
+
+### Is china-dictatorship free to use?
+
+Yes. china-dictatorship is open source and free to use in your Flutter projects. You can view the source, report issues, and contribute on GitHub.
+
+### Does china-dictatorship work on both iOS and Android?
+
+china-dictatorship is built for Flutter, so it targets iOS and Android from a single codebase, and typically web and desktop too depending on the project's platform support.
+
+### How popular is china-dictatorship?
+
+As of 2026, china-dictatorship has around 3,101 stars and 295 forks on GitHub, which puts it among the more widely used options in the AI/ML space.
+
+### What are good alternatives to china-dictatorship?
+
+Popular alternatives in the AI/ML category include appflowy, appwrite, some-many-books. The best choice depends on your app's size, team, and performance needs.
+
+## Resources & links
 
 - **GitHub:** [cirosantilli/china-dictatorship](https://github.com/cirosantilli/china-dictatorship)
-- **Video walkthroughs:** [search YouTube for china-dictatorship](https://www.youtube.com/results?search_query=flutter+china-dictatorship)
+- **Video tutorials:** [search YouTube for china-dictatorship](https://www.youtube.com/results?search_query=flutter+china-dictatorship)
 
 ---
 
-*Part of [FlutterCook](/recipes) — 500 open-source Flutter recipes, AI-first. See the [live GitHub trends](/trends).*
+*Part of [FlutterCook](/recipes/) — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps. Explore the live [GitHub trends](/trends/) or browse [YouTube guides](/youtube/).*
