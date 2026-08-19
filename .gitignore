@@ -14,3 +14,6 @@ dist/
 .env
 client_secret.json
 token.json
+
+# Local Claude Code config (launch.json for dev preview)
+.claude/

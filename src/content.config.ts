@@ -113,4 +113,34 @@ const newsVi = defineCollection({
   }),
 });
 
-export const collections = { recipes, guides, news, recipesVi, newsVi };
+const blogSchema = z.object({
+  title: z.string(),
+  description: z.string().default(''),
+  seoDescription: z.string().default(''),
+  keywords: z.array(z.string()).default([]),
+  category: z.string().default('Tutorial'),
+  topic: z.string().default('Flutter'),
+  level: z.string().default('Intermediate'),
+  author: z.string().default('Trung Hieu'),
+  publishDate: z.string(),
+  updatedDate: z.string().default(''),
+  emoji: z.string().default('📝'),
+  tags: z.array(z.string()).default([]),
+  // Original publication this post was first written for, if any.
+  canonicalSource: z.object({ name: z.string(), url: z.string() }).optional(),
+  sources: z.array(z.object({ name: z.string(), url: z.string() })).default([]),
+  related: z.array(z.object({ slug: z.string(), title: z.string() })).default([]),
+  draft: z.boolean().default(false),
+});
+
+const blog = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog' }),
+  schema: blogSchema,
+});
+
+const blogVi = defineCollection({
+  loader: glob({ pattern: '**/*.md', base: './src/content/blog-vi' }),
+  schema: blogSchema,
+});
+
+export const collections = { recipes, guides, news, recipesVi, newsVi, blog, blogVi };

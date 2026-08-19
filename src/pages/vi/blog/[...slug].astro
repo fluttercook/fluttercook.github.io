@@ -1,0 +1,90 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import Toc from '../../../components/Toc.astro';
+import Summary from '../../../components/Summary.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const all = (await getCollection('blogVi')).filter((p) => !p.data.draft);
+  return all.map((entry) => {
+    const related = all
+      .filter((p) => p.id !== entry.id && p.data.topic === entry.data.topic)
+      .slice(0, 3)
+      .map((p) => ({ slug: p.id, title: p.data.title }));
+    return { params: { slug: entry.id }, props: { entry, related } };
+  });
+}
+const { entry, related } = Astro.props;
+const { Content, headings } = await render(entry);
+const d = entry.data;
+const site = 'https://fluttercook.github.io';
+const url = `${site}/vi/blog/${entry.id}/`;
+const metaDesc = d.seoDescription || d.description;
+const fmtDate = (s) => (s ? new Date(s).toLocaleDateString('vi-VN', { year: 'numeric', month: 'long', day: 'numeric' }) : '');
+
+const article = {
+  '@context': 'https://schema.org', '@type': 'BlogPosting', inLanguage: 'vi',
+  headline: d.title, description: metaDesc, url,
+  datePublished: d.publishDate, dateModified: d.updatedDate || d.publishDate,
+  author: { '@type': 'Person', name: d.author },
+  publisher: { '@type': 'Organization', name: 'FlutterCook', url: site, logo: { '@type': 'ImageObject', url: `${site}/og-default.svg` } },
+  mainEntityOfPage: url, articleSection: d.category, keywords: (d.keywords || []).join(', '),
+};
+const breadcrumb = {
+  '@context': 'https://schema.org', '@type': 'BreadcrumbList',
+  itemListElement: [
+    { '@type': 'ListItem', position: 1, name: 'FlutterCook', item: `${site}/vi/` },
+    { '@type': 'ListItem', position: 2, name: 'Blog', item: `${site}/vi/blog/` },
+    { '@type': 'ListItem', position: 3, name: d.title, item: url },
+  ],
+};
+const jsonLd = [article, breadcrumb];
+---
+<BaseLayout
+  lang="vi"
+  title={`${d.title} · Blog FlutterCook`}
+  description={metaDesc}
+  keywords={d.keywords}
+  ogType="article"
+  datePublished={d.publishDate}
+  dateModified={d.updatedDate || d.publishDate}
+  jsonLd={jsonLd}
+>
+  <main class="wrap">
+    <article class="article">
+      <nav class="crumb" aria-label="Breadcrumb">
+        <a href="/vi/">FlutterCook</a> / <a href="/vi/blog/">blog</a> / {d.category}
+      </nav>
+      <span class="cat" style="display:inline-block;margin:6px 0">{d.emoji} {d.category} · {d.level}</span>
+      <h1 class="serif">{d.title}</h1>
+      <p class="byline">Bởi <b>{d.author}</b> · <time datetime={d.publishDate}>{fmtDate(d.publishDate)}</time></p>
+      <Summary text={d.description} lang="vi" />
+      <Toc headings={headings} lang="vi" />
+      <div class="prose"><Content /></div>
+      {d.canonicalSource && (
+        <aside class="sources">
+          <h2>Đăng lần đầu tại</h2>
+          <ul>
+            <li>
+              Phiên bản đầu tiên của bài này được đăng trên{' '}
+              <a href={d.canonicalSource.url} target="_blank" rel="noopener">{d.canonicalSource.name}</a>.
+            </li>
+          </ul>
+        </aside>
+      )}
+      {d.sources && d.sources.length > 0 && (
+        <aside class="sources">
+          <h2>Tham khảo</h2>
+          <ul>{d.sources.map((s) => (<li><a href={s.url} target="_blank" rel="noopener nofollow">{s.name}</a></li>))}</ul>
+        </aside>
+      )}
+      {related && related.length > 0 && (
+        <aside class="related">
+          <h2>Bài {d.topic} khác</h2>
+          <ul>{related.map((r) => (<li><a href={`/vi/blog/${r.slug}/`}>{r.title}</a></li>))}</ul>
+        </aside>
+      )}
+      {d.tags && d.tags.length > 0 && (<div class="tags">{d.tags.map((t) => <span>#{t}</span>)}</div>)}
+    </article>
+  </main>
+</BaseLayout>

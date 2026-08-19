@@ -1,0 +1,53 @@
+---
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('blogVi'))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => (a.data.publishDate < b.data.publishDate ? 1 : -1));
+const cats = [...new Set(all.map((p) => p.data.category))].sort();
+const fmtDate = (s) => new Date(s).toLocaleDateString('vi-VN', { year: 'numeric', month: 'short', day: 'numeric' });
+---
+<BaseLayout
+  lang="vi"
+  title="Hướng dẫn Flutter chuyên sâu · Blog FlutterCook"
+  description="Hướng dẫn Flutter thực chiến từ FlutterCook: CustomPaint, animation, layout và những kỹ thuật nhỏ giúp app trông hoàn thiện."
+  keywords={['hướng dẫn flutter', 'flutter custompaint', 'blog flutter', 'học flutter', 'tự học flutter']}
+>
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Hướng dẫn &amp; chuyên sâu</div>
+      <h1 class="serif">Blog <i>FlutterCook</i></h1>
+      <p>Bài viết dài, thiên về code — dựng widget, hiểu phần toán, rồi hoàn thiện giao diện.</p>
+    </section>
+    {all.length > 1 && (
+      <div class="filterbar" id="filters">
+        <button class="active" data-cat="all">Tất cả ({all.length})</button>
+        {cats.map((c) => <button data-cat={c}>{c}</button>)}
+      </div>
+    )}
+    <section class="sec" style="padding-top:0">
+      <div class="grid" id="grid">
+        {all.map((p) => (
+          <a class="card newscard" href={`/vi/blog/${p.id}/`} data-cat={p.data.category}>
+            <span class="cat">{p.data.emoji} {p.data.category}</span>
+            <h3>{p.data.title}</h3>
+            <p>{p.data.description}</p>
+            <div class="meta"><span>{p.data.author}</span><span>{fmtDate(p.data.publishDate)}</span></div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+  <script is:inline>
+    (function () {
+      const btns = [...document.querySelectorAll('#filters button')];
+      const cards = [...document.querySelectorAll('#grid .card')];
+      btns.forEach((b) => b.addEventListener('click', () => {
+        btns.forEach((x) => x.classList.remove('active'));
+        b.classList.add('active');
+        const cat = b.dataset.cat;
+        cards.forEach((c) => { c.style.display = cat === 'all' || c.dataset.cat === cat ? '' : 'none'; });
+      }));
+    })();
+  </script>
+</BaseLayout>

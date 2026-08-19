@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+const all = (await getCollection('blog'))
+  .filter((p) => !p.data.draft)
+  .sort((a, b) => (a.data.publishDate < b.data.publishDate ? 1 : -1));
+const cats = [...new Set(all.map((p) => p.data.category))].sort();
+const site = 'https://fluttercook.github.io';
+const fmtDate = (s) =>
+  new Date(s).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Blog',
+  name: 'FlutterCook Blog — Flutter tutorials and deep dives',
+  url: `${site}/blog/`,
+  description:
+    'Hands-on Flutter tutorials: CustomPaint, animation, layout, state management and the small techniques that make an app feel finished.',
+  blogPost: all.slice(0, 20).map((p) => ({
+    '@type': 'BlogPosting',
+    headline: p.data.title,
+    datePublished: p.data.publishDate,
+    url: `${site}/blog/${p.id}/`,
+  })),
+};
+---
+<BaseLayout
+  title="Flutter Tutorials & Deep Dives · FlutterCook Blog"
+  description="Hands-on Flutter tutorials from the FlutterCook workshop: CustomPaint, animation, layout, and the small techniques that make an app feel finished."
+  keywords={['flutter tutorial', 'flutter custompaint', 'flutter blog', 'flutter how to', 'flutter widgets tutorial']}
+  jsonLd={jsonLd}
+>
+  <main class="wrap">
+    <section class="hero" style="padding:5vh 0 1vh">
+      <div class="kicker">Tutorials &amp; deep dives</div>
+      <h1 class="serif">The FlutterCook <i>Blog</i></h1>
+      <p>Long-form, code-first walkthroughs — build the widget, understand the maths, ship the polish.</p>
+    </section>
+    {all.length > 1 && (
+      <div class="filterbar" id="filters">
+        <button class="active" data-cat="all">All ({all.length})</button>
+        {cats.map((c) => <button data-cat={c}>{c}</button>)}
+      </div>
+    )}
+    <section class="sec" style="padding-top:0">
+      <div class="grid" id="grid">
+        {all.map((p) => (
+          <a class="card newscard" href={`/blog/${p.id}/`} data-cat={p.data.category}>
+            <span class="cat">{p.data.emoji} {p.data.category}</span>
+            <h3>{p.data.title}</h3>
+            <p>{p.data.description}</p>
+            <div class="meta">
+              <span>{p.data.author}</span><span>{fmtDate(p.data.publishDate)}</span>
+            </div>
+          </a>
+        ))}
+      </div>
+    </section>
+  </main>
+  <script is:inline>
+    (function () {
+      const btns = [...document.querySelectorAll('#filters button')];
+      const cards = [...document.querySelectorAll('#grid .card')];
+      btns.forEach((b) =>
+        b.addEventListener('click', () => {
+          btns.forEach((x) => x.classList.remove('active'));
+          b.classList.add('active');
+          const cat = b.dataset.cat;
+          cards.forEach((c) => {
+            c.style.display = cat === 'all' || c.dataset.cat === cat ? '' : 'none';
+          });
+        })
+      );
+    })();
+  </script>
+</BaseLayout>
