@@ -44,6 +44,7 @@ BLOGS = [
         "url": "https://trunghieu-it.blogspot.com/",
         "token_file": ".app_dist/trunghieu-it/token.json",
         "client_secret": ".app_dist/trunghieu-it/client_secret.json",
+        "api_key_file": ".app_dist/trunghieu-it/api_key.txt",
         "priority": 1,
     },
     {
@@ -58,8 +59,10 @@ BLOGS = [
         "id": "954315885651943515",
         "name": "flutter9.blogspot.com",
         "url": "https://flutter9.blogspot.com/",
-        "token_file": ".app_dist/token.json",
-        "client_secret": ".app_dist/client_secret.json",
+        # Same Google account as trunghieu-it (ADMIN on both); the old token.json here
+        # has a dead refresh token, so point at the one authorize.py minted.
+        "token_file": ".app_dist/trunghieu-it/token.json",
+        "client_secret": ".app_dist/trunghieu-it/client_secret.json",
         "priority": 3,
     },
 ]
@@ -89,7 +92,8 @@ def inventory(collections: tuple[str, ...]) -> list[dict]:
 
 def get(url: str, token: str) -> tuple[int, dict]:
     req = urllib.request.Request(url)
-    req.add_header("Authorization", f"Bearer {token}")
+    if token:
+        req.add_header("Authorization", f"Bearer {token}")
     try:
         with urllib.request.urlopen(req, timeout=60) as resp:
             return resp.status, json.loads(resp.read() or b"{}")
@@ -100,10 +104,40 @@ def get(url: str, token: str) -> tuple[int, dict]:
         return 0, {}
 
 
+def list_posts_with_key(blog: dict) -> dict:
+    """Read a public blog with an API key. Keys can never write — reads only."""
+    key = (ROOT / blog["api_key_file"]).read_text("utf-8").strip()
+    titles, page = {}, None
+    while True:
+        params = {"key": key, "maxResults": "100", "fetchBodies": "false"}
+        if page:
+            params["pageToken"] = page
+        code, data = get(
+            f"https://blogger.googleapis.com/v3/blogs/{blog['id']}/posts?" + urllib.parse.urlencode(params),
+            token="",
+        )
+        if code != 200:
+            break
+        for post in data.get("items", []):
+            titles[post.get("title", "").strip()] = {"id": post.get("id", ""), "url": post.get("url", "")}
+        page = data.get("nextPageToken")
+        if not page:
+            break
+    return titles
+
+
 def probe(blog: dict) -> dict:
     """Can we write to this blog, and what of ours is already on it?"""
     token_file = ROOT / blog["token_file"]
     if not token_file.exists():
+        if blog.get("api_key_file") and (ROOT / blog["api_key_file"]).exists():
+            titles = list_posts_with_key(blog)
+            return {
+                "access": "read-only-key",
+                "detail": f"API key reads {len(titles)} public post(s); keys cannot write — "
+                          f"needs an Admin OAuth token",
+                "titles": titles,
+            }
         return {"access": "no-credentials", "detail": f"missing {blog['token_file']}", "titles": {}}
     try:
         token = refresh_token(token_file, ROOT / blog["client_secret"])
@@ -189,7 +223,7 @@ def main() -> int:
                         "legacy": True,
                     }
                     status, adopted = "LIVE", adopted + 1
-            elif info["access"] in ("forbidden", "token-dead", "no-credentials", "author-cannot-create"):
+            elif info["access"] in ("forbidden", "token-dead", "no-credentials", "author-cannot-create", "read-only-key"):
                 status, url = "BLOCKED", ""
             else:
                 status, url = "PENDING", ""
@@ -211,7 +245,7 @@ def main() -> int:
     REPORT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", "utf-8")
 
     icon = {"ok": "🟢", "forbidden": "🔴", "token-dead": "🔴", "no-credentials": "⚪",
-            "author-cannot-create": "🟠", "unknown": "🟡", "not-probed": "⚪"}
+            "author-cannot-create": "🟠", "read-only-key": "🟠", "unknown": "🟡", "not-probed": "⚪"}
     md = [
         "# Blogger publish status",
         "",

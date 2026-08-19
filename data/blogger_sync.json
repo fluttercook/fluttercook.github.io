@@ -65,6 +65,560 @@
           "legacy": true
         }
       }
+    },
+    "8621533667729504576": {
+      "posts": {
+        "news/vi/macos-26-tahoe-liquid-glass-last-intel-mac": {
+          "postId": "16268846276733240",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-en-voi-mac.html",
+          "title": "macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel",
+          "status": "LIVE",
+          "published": "2026-08-20T00:46:37+07:00"
+        },
+        "news/vi/android-17-bubbles-gemini-intelligence-foldables": {
+          "postId": "4242039250772266078",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/android-17-ra-mat-bubbles-gemini.html",
+          "title": "Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập",
+          "status": "LIVE",
+          "published": "2026-08-20T00:46:53+07:00"
+        },
+        "news/vi/apple-intelligence-vs-gemini-intelligence-on-device-ai": {
+          "postId": "360936114727247045",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/apple-intelligence-va-gemini.html",
+          "title": "Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động",
+          "status": "LIVE",
+          "published": "2026-08-20T00:46:56+07:00"
+        },
+        "news/vi/dart-3-13-primary-constructors-guide": {
+          "postId": "147059704090784853",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/primary-constructor-trong-dart-313-bot.html",
+          "title": "Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự",
+          "status": "LIVE",
+          "published": "2026-08-20T00:46:58+07:00"
+        },
+        "news/vi/flutter-2026-roadmap-webassembly-platform-parity": {
+          "postId": "577403174142502497",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/lo-trinh-flutter-2026-webassembly-mac.html",
+          "title": "Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa",
+          "status": "LIVE",
+          "published": "2026-08-20T00:47:00+07:00"
+        },
+        "news/vi/flutter-3-44-ios-26-macos-support-web-hot-reload": {
+          "postId": "965192634234780801",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/anh-gia-flutter-344-ho-tro-ios-26-hot.html",
+          "title": "Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:03+07:00"
+        },
+        "news/vi/flutter-3-47-standalone-material-cupertino-impeller-desktop": {
+          "postId": "7328633590506221030",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-347-material-va-cupertino-roi.html",
+          "title": "Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:11+07:00"
+        },
+        "news/vi/flutter-ai-agent-skills-guide": {
+          "postId": "8273468323528302869",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/agent-skills-cho-dart-va-flutter-day-ai.html",
+          "title": "Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:19+07:00"
+        },
+        "news/vi/flutter-gpu-3d-rendering-flutter-scene": {
+          "postId": "5866383578120236624",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-gpu-va-3d-impeller-mo-khoa-gi.html",
+          "title": "Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:27+07:00"
+        },
+        "news/vi/flutter-impeller-desktop-default-renderer": {
+          "postId": "6118218568969418328",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/impeller-gio-la-mac-inh-tren-macos.html",
+          "title": "Impeller giờ là mặc định trên macOS, Windows và Linux",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:35+07:00"
+        },
+        "news/vi/flutter-material-ui-cupertino-ui-migration-guide": {
+          "postId": "5860384241242285032",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/migrate-sang-materialui-va-cupertinoui.html",
+          "title": "Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:43+07:00"
+        },
+        "news/vi/flutter-multi-window-desktop-guide": {
+          "postId": "5065769009569152057",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/a-cua-so-tren-flutter-desktop-347-co-gi.html",
+          "title": "Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:51+07:00"
+        },
+        "news/vi/flutter-swift-package-manager-migration": {
+          "postId": "8116425142350003848",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/swift-package-manager-gio-la-mac-inh-va.html",
+          "title": "Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót",
+          "status": "LIVE",
+          "published": "2026-08-20T00:48:59+07:00"
+        },
+        "news/vi/flutter-uiscene-migration-ios-15-minimum": {
+          "postId": "3910192334464767811",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/migrate-uiscene-thay-oi-ios-se-lam-app.html",
+          "title": "Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash",
+          "status": "LIVE",
+          "published": "2026-08-20T00:49:07+07:00"
+        },
+        "news/vi/flutter-webassembly-wasm-deferred-loading": {
+          "postId": "4641395738565824499",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ship-flutter-web-tren-webassembly-cuoc.html",
+          "title": "Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header",
+          "status": "LIVE",
+          "published": "2026-08-20T00:49:14+07:00"
+        },
+        "news/vi/flutter-widget-previews-stable-guide": {
+          "postId": "8875591124278189685",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-widget-previews-stable-huong.html",
+          "title": "Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview",
+          "status": "LIVE",
+          "published": "2026-08-20T00:49:43+07:00"
+        },
+        "news/vi/ios-26-liquid-glass-what-it-means-for-mobile-developers": {
+          "postId": "9028816015288618551",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ios-26-va-liquid-glass-cuoc-thiet-ke.html",
+          "title": "iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động",
+          "status": "LIVE",
+          "published": "2026-08-20T00:49:51+07:00"
+        },
+        "news/vi/iphone-17-pro-review-a19-pro-cameras-aluminum": {
+          "postId": "2061788771985657125",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/anh-gia-iphone-17-pro-chip-a19-pro-nhom.html",
+          "title": "Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x",
+          "status": "LIVE",
+          "published": "2026-08-20T00:49:58+07:00"
+        },
+        "news/vi/iphone-18-pro-foldable-iphone-fall-2026-preview": {
+          "postId": "5726718597783056951",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/iphone-mua-thu-2026-mot-chiec-gap-gia.html",
+          "title": "iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt",
+          "status": "LIVE",
+          "published": "2026-08-20T00:50:05+07:00"
+        },
+        "news/en/android-17-bubbles-gemini-intelligence-foldables": {
+          "postId": "3697039513606551663",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/android-17-is-here-bubbles-gemini.html",
+          "title": "Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables",
+          "status": "LIVE",
+          "published": "2026-08-20T00:50:16+07:00"
+        },
+        "news/en/apple-intelligence-vs-gemini-intelligence-on-device-ai": {
+          "postId": "8964132168687852175",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/apple-intelligence-vs-gemini.html",
+          "title": "Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps",
+          "status": "LIVE",
+          "published": "2026-08-20T00:50:45+07:00"
+        },
+        "news/en/dart-3-13-primary-constructors-guide": {
+          "postId": "5733910503671183592",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/dart-313-primary-constructors-less.html",
+          "title": "Dart 3.13 primary constructors: less boilerplate, one real breaking change",
+          "status": "LIVE",
+          "published": "2026-08-20T00:50:53+07:00"
+        },
+        "news/en/flutter-2026-roadmap-webassembly-platform-parity": {
+          "postId": "8739069586534285661",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutters-2026-roadmap-webassembly-by.html",
+          "title": "Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity",
+          "status": "LIVE",
+          "published": "2026-08-20T00:51:01+07:00"
+        },
+        "news/en/flutter-3-44-ios-26-macos-support-web-hot-reload": {
+          "postId": "5534241228050819356",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-344-review-ios-26-support.html",
+          "title": "Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles",
+          "status": "LIVE",
+          "published": "2026-08-20T00:51:10+07:00"
+        },
+        "news/en/flutter-3-47-standalone-material-cupertino-impeller-desktop": {
+          "postId": "2979032435978299471",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-347-material-and-cupertino.html",
+          "title": "Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop",
+          "status": "LIVE",
+          "published": "2026-08-20T00:51:18+07:00"
+        },
+        "news/en/flutter-ai-agent-skills-guide": {
+          "postId": "3994366037316497659",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/agent-skills-for-dart-and-flutter.html",
+          "title": "Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong",
+          "status": "LIVE",
+          "published": "2026-08-20T00:51:47+07:00"
+        },
+        "news/en/flutter-gpu-3d-rendering-flutter-scene": {
+          "postId": "2353656924005423193",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-gpu-and-3d-what-impeller.html",
+          "title": "Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes",
+          "status": "LIVE",
+          "published": "2026-08-20T00:51:55+07:00"
+        },
+        "news/en/flutter-impeller-desktop-default-renderer": {
+          "postId": "5193753818657932794",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/impeller-is-now-default-on-macos.html",
+          "title": "Impeller is now the default on macOS, Windows and Linux",
+          "status": "LIVE",
+          "published": "2026-08-20T00:52:02+07:00"
+        },
+        "news/en/flutter-material-ui-cupertino-ui-migration-guide": {
+          "postId": "2074268954410401374",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/migrating-to-materialui-and-cupertinoui.html",
+          "title": "Migrating to material_ui and cupertino_ui: the design system leaves the SDK",
+          "status": "LIVE",
+          "published": "2026-08-20T00:52:10+07:00"
+        },
+        "news/en/flutter-multi-window-desktop-guide": {
+          "postId": "4506075667138946658",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/multi-window-on-flutter-desktop-what.html",
+          "title": "Multi-window on Flutter desktop: what shipped in 3.47, and what to use today",
+          "status": "LIVE",
+          "published": "2026-08-20T00:52:19+07:00"
+        },
+        "news/en/flutter-swift-package-manager-migration": {
+          "postId": "6866786317657351262",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/swift-package-manager-is-default-now.html",
+          "title": "Swift Package Manager is the default now — and CocoaPods has a deadline",
+          "status": "LIVE",
+          "published": "2026-08-20T00:52:48+07:00"
+        },
+        "news/en/flutter-uiscene-migration-ios-15-minimum": {
+          "postId": "5745529874591100253",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/the-uiscene-migration-ios-change-that.html",
+          "title": "The UIScene migration: the iOS change that will crash unmigrated Flutter apps",
+          "status": "LIVE",
+          "published": "2026-08-20T00:52:57+07:00"
+        },
+        "news/en/flutter-webassembly-wasm-deferred-loading": {
+          "postId": "1757733892947897270",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/shipping-flutter-web-on-webassembly.html",
+          "title": "Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers",
+          "status": "LIVE",
+          "published": "2026-08-20T00:53:06+07:00"
+        },
+        "news/en/flutter-widget-previews-stable-guide": {
+          "postId": "5911049878287116829",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-widget-previews-are-stable.html",
+          "title": "Flutter Widget Previews are stable: a practical guide to @Preview",
+          "status": "LIVE",
+          "published": "2026-08-20T00:53:14+07:00"
+        },
+        "news/en/ios-26-liquid-glass-what-it-means-for-mobile-developers": {
+          "postId": "3046937760611726162",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ios-26-and-liquid-glass-what-apples.html",
+          "title": "iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers",
+          "status": "LIVE",
+          "published": "2026-08-20T00:53:22+07:00"
+        },
+        "news/en/iphone-17-pro-review-a19-pro-cameras-aluminum": {
+          "postId": "3804154181394736266",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/iphone-17-pro-review-a19-pro-aluminum.html",
+          "title": "iPhone 17 Pro review: the A19 Pro, an aluminum comeback, and an 8x telephoto",
+          "status": "LIVE",
+          "published": "2026-08-20T00:53:51+07:00"
+        },
+        "news/en/iphone-18-pro-foldable-iphone-fall-2026-preview": {
+          "postId": "6841580713396781963",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/the-fall-2026-iphone-foldable-joins.html",
+          "title": "The fall 2026 iPhone: a foldable joins the iPhone 18 Pro, and Apple splits its launch calendar",
+          "status": "LIVE",
+          "published": "2026-08-20T00:54:00+07:00"
+        },
+        "news/en/macos-26-tahoe-liquid-glass-last-intel-mac": {
+          "postId": "5108476215039660020",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-comes-to.html",
+          "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
+          "status": "LIVE",
+          "published": "2026-08-20T00:54:08+07:00"
+        }
+      }
+    },
+    "954315885651943515": {
+      "posts": {
+        "blog/vi/creating-a-custom-progress-indicator": {
+          "postId": "3112947491132984140",
+          "url": "https://flutter9.blogspot.com/2026/08/tao-progress-indicator-tuy-chinh-trong.html",
+          "title": "Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint",
+          "status": "LIVE",
+          "published": "2026-08-19T10:55:07-07:00"
+        },
+        "blog/en/creating-a-custom-progress-indicator": {
+          "postId": "569945854656025071",
+          "url": "https://flutter9.blogspot.com/2026/08/creating-custom-progress-indicator-in.html",
+          "title": "Creating a custom progress indicator in Flutter with CustomPaint",
+          "status": "LIVE",
+          "published": "2026-08-19T10:55:19-07:00"
+        },
+        "news/vi/android-17-bubbles-gemini-intelligence-foldables": {
+          "postId": "1822038835824729314",
+          "url": "https://flutter9.blogspot.com/2026/08/android-17-ra-mat-bubbles-gemini.html",
+          "title": "Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập",
+          "status": "LIVE",
+          "published": "2026-08-19T10:55:30-07:00"
+        },
+        "news/vi/apple-intelligence-vs-gemini-intelligence-on-device-ai": {
+          "postId": "92924790104901435",
+          "url": "https://flutter9.blogspot.com/2026/08/apple-intelligence-va-gemini.html",
+          "title": "Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động",
+          "status": "LIVE",
+          "published": "2026-08-19T10:55:38-07:00"
+        },
+        "news/vi/dart-3-13-primary-constructors-guide": {
+          "postId": "8325216242232082954",
+          "url": "https://flutter9.blogspot.com/2026/08/primary-constructor-trong-dart-313-bot.html",
+          "title": "Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự",
+          "status": "LIVE",
+          "published": "2026-08-19T10:55:46-07:00"
+        },
+        "news/vi/flutter-2026-roadmap-webassembly-platform-parity": {
+          "postId": "89276290914801100",
+          "url": "https://flutter9.blogspot.com/2026/08/lo-trinh-flutter-2026-webassembly-mac.html",
+          "title": "Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa",
+          "status": "LIVE",
+          "published": "2026-08-19T10:55:54-07:00"
+        },
+        "news/vi/flutter-3-44-ios-26-macos-support-web-hot-reload": {
+          "postId": "8130849559708457094",
+          "url": "https://flutter9.blogspot.com/2026/08/anh-gia-flutter-344-ho-tro-ios-26-hot.html",
+          "title": "Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles",
+          "status": "LIVE",
+          "published": "2026-08-19T10:56:02-07:00"
+        },
+        "news/vi/flutter-3-47-standalone-material-cupertino-impeller-desktop": {
+          "postId": "1896614091814507704",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-347-material-va-cupertino-roi.html",
+          "title": "Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop",
+          "status": "LIVE",
+          "published": "2026-08-19T10:56:10-07:00"
+        },
+        "news/vi/flutter-ai-agent-skills-guide": {
+          "postId": "4716718955386442988",
+          "url": "https://flutter9.blogspot.com/2026/08/agent-skills-cho-dart-va-flutter-day-ai.html",
+          "title": "Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai",
+          "status": "LIVE",
+          "published": "2026-08-19T10:56:40-07:00"
+        },
+        "news/vi/flutter-gpu-3d-rendering-flutter-scene": {
+          "postId": "8023590437380607516",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-gpu-va-3d-impeller-mo-khoa-gi.html",
+          "title": "Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu",
+          "status": "LIVE",
+          "published": "2026-08-19T10:56:48-07:00"
+        },
+        "news/vi/flutter-impeller-desktop-default-renderer": {
+          "postId": "2730333728584326837",
+          "url": "https://flutter9.blogspot.com/2026/08/impeller-gio-la-mac-inh-tren-macos.html",
+          "title": "Impeller giờ là mặc định trên macOS, Windows và Linux",
+          "status": "LIVE",
+          "published": "2026-08-19T10:56:56-07:00"
+        },
+        "news/vi/flutter-material-ui-cupertino-ui-migration-guide": {
+          "postId": "2729400482501095500",
+          "url": "https://flutter9.blogspot.com/2026/08/migrate-sang-materialui-va-cupertinoui.html",
+          "title": "Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK",
+          "status": "LIVE",
+          "published": "2026-08-19T10:57:04-07:00"
+        },
+        "news/vi/flutter-multi-window-desktop-guide": {
+          "postId": "1150945136559534485",
+          "url": "https://flutter9.blogspot.com/2026/08/a-cua-so-tren-flutter-desktop-347-co-gi.html",
+          "title": "Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì",
+          "status": "LIVE",
+          "published": "2026-08-19T10:57:12-07:00"
+        },
+        "news/vi/flutter-swift-package-manager-migration": {
+          "postId": "9106067028824148153",
+          "url": "https://flutter9.blogspot.com/2026/08/swift-package-manager-gio-la-mac-inh-va.html",
+          "title": "Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót",
+          "status": "LIVE",
+          "published": "2026-08-19T10:57:41-07:00"
+        },
+        "news/vi/flutter-uiscene-migration-ios-15-minimum": {
+          "postId": "6954063567621398805",
+          "url": "https://flutter9.blogspot.com/2026/08/migrate-uiscene-thay-oi-ios-se-lam-app.html",
+          "title": "Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash",
+          "status": "LIVE",
+          "published": "2026-08-19T10:57:50-07:00"
+        },
+        "news/vi/flutter-webassembly-wasm-deferred-loading": {
+          "postId": "2870780173244405389",
+          "url": "https://flutter9.blogspot.com/2026/08/ship-flutter-web-tren-webassembly-cuoc.html",
+          "title": "Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header",
+          "status": "LIVE",
+          "published": "2026-08-19T10:57:58-07:00"
+        },
+        "news/vi/flutter-widget-previews-stable-guide": {
+          "postId": "2344110639309095998",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-widget-previews-stable-huong.html",
+          "title": "Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview",
+          "status": "LIVE",
+          "published": "2026-08-19T10:58:06-07:00"
+        },
+        "news/vi/ios-26-liquid-glass-what-it-means-for-mobile-developers": {
+          "postId": "1150242877652190533",
+          "url": "https://flutter9.blogspot.com/2026/08/ios-26-va-liquid-glass-cuoc-thiet-ke.html",
+          "title": "iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động",
+          "status": "LIVE",
+          "published": "2026-08-19T10:58:14-07:00"
+        },
+        "news/vi/iphone-17-pro-review-a19-pro-cameras-aluminum": {
+          "postId": "4030540181527141094",
+          "url": "https://flutter9.blogspot.com/2026/08/anh-gia-iphone-17-pro-chip-a19-pro-nhom.html",
+          "title": "Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x",
+          "status": "LIVE",
+          "published": "2026-08-19T10:58:44-07:00"
+        },
+        "news/vi/iphone-18-pro-foldable-iphone-fall-2026-preview": {
+          "postId": "8084305553135529986",
+          "url": "https://flutter9.blogspot.com/2026/08/iphone-mua-thu-2026-mot-chiec-gap-gia.html",
+          "title": "iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt",
+          "status": "LIVE",
+          "published": "2026-08-19T10:58:52-07:00"
+        },
+        "news/vi/macos-26-tahoe-liquid-glass-last-intel-mac": {
+          "postId": "6416688515328237751",
+          "url": "https://flutter9.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-en-voi-mac.html",
+          "title": "macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel",
+          "status": "LIVE",
+          "published": "2026-08-19T10:59:00-07:00"
+        },
+        "news/en/android-17-bubbles-gemini-intelligence-foldables": {
+          "postId": "3690920132885596093",
+          "url": "https://flutter9.blogspot.com/2026/08/android-17-is-here-bubbles-gemini.html",
+          "title": "Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables",
+          "status": "LIVE",
+          "published": "2026-08-19T10:59:11-07:00"
+        },
+        "news/en/apple-intelligence-vs-gemini-intelligence-on-device-ai": {
+          "postId": "4081791367725757424",
+          "url": "https://flutter9.blogspot.com/2026/08/apple-intelligence-vs-gemini.html",
+          "title": "Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps",
+          "status": "LIVE",
+          "published": "2026-08-19T10:59:18-07:00"
+        },
+        "news/en/dart-3-13-primary-constructors-guide": {
+          "postId": "2503305838689768267",
+          "url": "https://flutter9.blogspot.com/2026/08/dart-313-primary-constructors-less.html",
+          "title": "Dart 3.13 primary constructors: less boilerplate, one real breaking change",
+          "status": "LIVE",
+          "published": "2026-08-19T10:59:47-07:00"
+        },
+        "news/en/flutter-2026-roadmap-webassembly-platform-parity": {
+          "postId": "8469666120108817837",
+          "url": "https://flutter9.blogspot.com/2026/08/flutters-2026-roadmap-webassembly-by.html",
+          "title": "Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity",
+          "status": "LIVE",
+          "published": "2026-08-19T10:59:55-07:00"
+        },
+        "news/en/flutter-3-44-ios-26-macos-support-web-hot-reload": {
+          "postId": "3622535992121047128",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-344-review-ios-26-support.html",
+          "title": "Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles",
+          "status": "LIVE",
+          "published": "2026-08-19T11:00:03-07:00"
+        },
+        "news/en/flutter-3-47-standalone-material-cupertino-impeller-desktop": {
+          "postId": "3314251968746032259",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-347-material-and-cupertino.html",
+          "title": "Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop",
+          "status": "LIVE",
+          "published": "2026-08-19T11:00:11-07:00"
+        },
+        "news/en/flutter-ai-agent-skills-guide": {
+          "postId": "3820312634446740577",
+          "url": "https://flutter9.blogspot.com/2026/08/agent-skills-for-dart-and-flutter.html",
+          "title": "Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong",
+          "status": "LIVE",
+          "published": "2026-08-19T11:00:19-07:00"
+        },
+        "news/en/flutter-gpu-3d-rendering-flutter-scene": {
+          "postId": "5641424742319075680",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-gpu-and-3d-what-impeller.html",
+          "title": "Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes",
+          "status": "LIVE",
+          "published": "2026-08-19T11:00:48-07:00"
+        },
+        "news/en/flutter-impeller-desktop-default-renderer": {
+          "postId": "4161705156329570085",
+          "url": "https://flutter9.blogspot.com/2026/08/impeller-is-now-default-on-macos.html",
+          "title": "Impeller is now the default on macOS, Windows and Linux",
+          "status": "LIVE",
+          "published": "2026-08-19T11:00:56-07:00"
+        },
+        "news/en/flutter-material-ui-cupertino-ui-migration-guide": {
+          "postId": "1172257832133350985",
+          "url": "https://flutter9.blogspot.com/2026/08/migrating-to-materialui-and-cupertinoui.html",
+          "title": "Migrating to material_ui and cupertino_ui: the design system leaves the SDK",
+          "status": "LIVE",
+          "published": "2026-08-19T11:01:04-07:00"
+        },
+        "news/en/flutter-multi-window-desktop-guide": {
+          "postId": "3385410361760105518",
+          "url": "https://flutter9.blogspot.com/2026/08/multi-window-on-flutter-desktop-what.html",
+          "title": "Multi-window on Flutter desktop: what shipped in 3.47, and what to use today",
+          "status": "LIVE",
+          "published": "2026-08-19T11:01:12-07:00"
+        },
+        "news/en/flutter-swift-package-manager-migration": {
+          "postId": "4653042785000156786",
+          "url": "https://flutter9.blogspot.com/2026/08/swift-package-manager-is-default-now.html",
+          "title": "Swift Package Manager is the default now — and CocoaPods has a deadline",
+          "status": "LIVE",
+          "published": "2026-08-19T11:01:20-07:00"
+        },
+        "news/en/flutter-uiscene-migration-ios-15-minimum": {
+          "postId": "875600637984281469",
+          "url": "https://flutter9.blogspot.com/2026/08/the-uiscene-migration-ios-change-that.html",
+          "title": "The UIScene migration: the iOS change that will crash unmigrated Flutter apps",
+          "status": "LIVE",
+          "published": "2026-08-19T11:01:49-07:00"
+        },
+        "news/en/flutter-webassembly-wasm-deferred-loading": {
+          "postId": "2132436912173138644",
+          "url": "https://flutter9.blogspot.com/2026/08/shipping-flutter-web-on-webassembly.html",
+          "title": "Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers",
+          "status": "LIVE",
+          "published": "2026-08-19T11:01:57-07:00"
+        },
+        "news/en/flutter-widget-previews-stable-guide": {
+          "postId": "776390842794847969",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-widget-previews-are-stable.html",
+          "title": "Flutter Widget Previews are stable: a practical guide to @Preview",
+          "status": "LIVE",
+          "published": "2026-08-19T11:02:05-07:00"
+        },
+        "news/en/ios-26-liquid-glass-what-it-means-for-mobile-developers": {
+          "postId": "1476730438085755846",
+          "url": "https://flutter9.blogspot.com/2026/08/ios-26-and-liquid-glass-what-apples.html",
+          "title": "iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers",
+          "status": "LIVE",
+          "published": "2026-08-19T11:02:13-07:00"
+        },
+        "news/en/iphone-17-pro-review-a19-pro-cameras-aluminum": {
+          "postId": "2963167069000036456",
+          "url": "https://flutter9.blogspot.com/2026/08/iphone-17-pro-review-a19-pro-aluminum.html",
+          "title": "iPhone 17 Pro review: the A19 Pro, an aluminum comeback, and an 8x telephoto",
+          "status": "LIVE",
+          "published": "2026-08-19T11:02:21-07:00"
+        },
+        "news/en/iphone-18-pro-foldable-iphone-fall-2026-preview": {
+          "postId": "1299144221651912607",
+          "url": "https://flutter9.blogspot.com/2026/08/the-fall-2026-iphone-foldable-joins.html",
+          "title": "The fall 2026 iPhone: a foldable joins the iPhone 18 Pro, and Apple splits its launch calendar",
+          "status": "LIVE",
+          "published": "2026-08-19T11:02:50-07:00"
+        },
+        "news/en/macos-26-tahoe-liquid-glass-last-intel-mac": {
+          "postId": "8763796872543620940",
+          "url": "https://flutter9.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-comes-to.html",
+          "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
+          "status": "LIVE",
+          "published": "2026-08-19T11:02:58-07:00"
+        }
+      }
     }
   }
 }

@@ -34,6 +34,7 @@ import os
 import re
 import subprocess
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -99,6 +100,13 @@ def absolutize(html: str) -> str:
     html = re.sub(r'href="/(?!/)', f'href="{SITE}/', html)
     html = re.sub(r'src="/(?!/)', f'src="{SITE}/', html)
     return html
+
+
+def canonical_host(collection: str, lang: str, slug: str) -> str:
+    """Host this article was first published on, if it came from somewhere else."""
+    fm = read_frontmatter(ROOT / LAYOUT[(collection, lang)][0] / f"{slug}.md")
+    src = fm.get("canonicalSource") or {}
+    return urllib.parse.urlparse(src.get("url", "")).netloc.removeprefix("www.")
 
 
 def build_post(collection: str, lang: str, slug: str) -> dict:
@@ -195,7 +203,7 @@ def assert_can_write(blog_id: str, token: str) -> None:
         raise SystemExit(f"permission probe failed: HTTP {exc.code}\n{exc.read().decode('utf-8','replace')}")
 
 
-def api(method: str, url: str, token: str, payload: dict | None = None) -> dict:
+def api(method: str, url: str, token: str, payload: dict | None = None, retries: int = 5) -> dict:
     data = json.dumps(payload).encode() if payload is not None else None
     req = urllib.request.Request(url, data=data, method=method)
     req.add_header("Authorization", f"Bearer {token}")
@@ -206,6 +214,17 @@ def api(method: str, url: str, token: str, payload: dict | None = None) -> dict:
             return json.loads(resp.read() or b"{}")
     except urllib.error.HTTPError as exc:
         detail = exc.read().decode("utf-8", "replace")
+        # Blogger throttles bursts long before the ~100/day cap; back off and retry.
+        if exc.code == 429 and retries > 0:
+            wait = 2 ** (6 - retries) * 10
+            print(f"  rate limited — waiting {wait}s ({retries} retries left)")
+            time.sleep(wait)
+            return api(method, url, token, payload, retries - 1)
+        if exc.code == 429:
+            raise SystemExit(
+                "Blogger keeps rate limiting us. The daily quota is ~100 posts per account;\n"
+                "re-run this same command later and it will pick up where it stopped."
+            )
         if exc.code == 403 and "insufficient authentication scopes" in detail:
             raise SystemExit(
                 "403: the token lacks the Blogger scope. Re-authenticate with:\n"
@@ -252,6 +271,10 @@ def main() -> int:
     mode.add_argument("--draft", action="store_true", help="create/update as an unpublished draft")
     mode.add_argument("--publish", action="store_true", help="create/update as a live post")
     ap.add_argument("--out", default="/tmp/blogger-dry-run", help="where --dry-run writes previews")
+    ap.add_argument("--skip-existing", action="store_true",
+                    help="leave posts we already synced to this blog untouched (saves quota)")
+    ap.add_argument("--sleep", type=float, default=6.0,
+                    help="seconds between posts; Blogger throttles fast bursts (default 6)")
     ap.add_argument("--force-update", action="store_true",
                     help="also overwrite posts written by an older toolchain (they are often "
                          "bilingual in a single post; Blogger keeps no revision history)")
@@ -284,6 +307,9 @@ def main() -> int:
 
     token = access_token(Path(args.token_file), Path(args.client_secret))
     assert_can_write(args.blog_id, token)
+    target_host = urllib.parse.urlparse(
+        api("GET", f"https://www.googleapis.com/blogger/v3/blogs/{args.blog_id}", token).get("url", "")
+    ).netloc.removeprefix("www.")
     state = load_state()
     entry = blog_state(state, args.blog_id)
     key_prefix = f"{args.collection}/{args.lang}/"
@@ -291,8 +317,15 @@ def main() -> int:
 
     for slug, post in posts:
         key = key_prefix + slug
+        if target_host and canonical_host(args.collection, args.lang, slug) == target_host:
+            # This article was first published on the very blog we are pushing to.
+            print(f"skipped (originated on {target_host}): {post['title']}")
+            continue
         record = entry["posts"].get(key, {})
         existing = record.get("postId")
+        if existing and args.skip_existing:
+            print(f"skipped (already on this blog): {post['title']}")
+            continue
         if record.get("legacy") and not args.force_update:
             # A PUT replaces the whole post and Blogger keeps no revision history.
             print(f"skipped (legacy post, pass --force-update to overwrite): {post['title']}\n"
@@ -315,6 +348,7 @@ def main() -> int:
         }
         save_state(state)
         print(f"{action}: {post['title']}\n  -> {result.get('url') or '(draft)'}  [id {result['id']}]")
+        time.sleep(args.sleep)
 
     print(f"\n{len(posts)} post(s) {'published' if args.publish else 'saved as draft'} on blog {args.blog_id}.")
     print(f"sync map: {STATE_FILE.relative_to(ROOT)}")
