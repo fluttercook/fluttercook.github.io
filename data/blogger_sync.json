@@ -1,0 +1,70 @@
+{
+  "blogs": {
+    "2374794397032110467": {
+      "posts": {
+        "news/en/apple-intelligence-vs-gemini-intelligence-on-device-ai": {
+          "postId": "8490143947093323408",
+          "url": "https://fluttercook.blogspot.com/2026/07/apple-intelligence-vs-gemini.html",
+          "title": "Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps",
+          "status": "LIVE",
+          "published": "2026-07-17T10:42:22-07:00"
+        },
+        "news/en/flutter-2026-roadmap-webassembly-platform-parity": {
+          "postId": "2486854951936595060",
+          "url": "https://fluttercook.blogspot.com/2026/07/flutters-2026-roadmap-webassembly-by.html",
+          "title": "Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity",
+          "status": "LIVE",
+          "adopted": "2026-08-20",
+          "legacy": true
+        },
+        "news/en/macos-26-tahoe-liquid-glass-last-intel-mac": {
+          "postId": "6247947522840865951",
+          "url": "https://fluttercook.blogspot.com/2026/07/macos-26-tahoe-liquid-glass-comes-to.html",
+          "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
+          "status": "LIVE",
+          "adopted": "2026-08-20",
+          "legacy": true
+        },
+        "news/en/iphone-18-pro-foldable-iphone-fall-2026-preview": {
+          "postId": "6827167919953955210",
+          "url": "https://fluttercook.blogspot.com/2026/07/the-fall-2026-iphone-foldable-joins.html",
+          "title": "The fall 2026 iPhone: a foldable joins the iPhone 18 Pro, and Apple splits its launch calendar",
+          "status": "LIVE",
+          "adopted": "2026-08-20",
+          "legacy": true
+        },
+        "news/en/iphone-17-pro-review-a19-pro-cameras-aluminum": {
+          "postId": "4881795594506526243",
+          "url": "https://fluttercook.blogspot.com/2026/07/iphone-17-pro-review-a19-pro-aluminum.html",
+          "title": "iPhone 17 Pro review: the A19 Pro, an aluminum comeback, and an 8x telephoto",
+          "status": "LIVE",
+          "adopted": "2026-08-20",
+          "legacy": true
+        },
+        "news/en/flutter-3-44-ios-26-macos-support-web-hot-reload": {
+          "postId": "865097513515824625",
+          "url": "https://fluttercook.blogspot.com/2026/07/flutter-344-review-ios-26-support.html",
+          "title": "Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles",
+          "status": "LIVE",
+          "adopted": "2026-08-20",
+          "legacy": true
+        },
+        "news/en/android-17-bubbles-gemini-intelligence-foldables": {
+          "postId": "3466457704620589265",
+          "url": "https://fluttercook.blogspot.com/2026/07/android-17-is-here-bubbles-gemini.html",
+          "title": "Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables",
+          "status": "LIVE",
+          "published": "2026-07-17T10:42:20-07:00"
+        },
+        "news/en/ios-26-liquid-glass-what-it-means-for-mobile-developers": {
+          "postId": "3479377120473029549",
+          "url": "https://fluttercook.blogspot.com/2026/07/ios-26-and-liquid-glass-what-apples.html",
+          "title": "iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers",
+          "status": "LIVE",
+          "adopted": "2026-08-20",
+          "legacy": true
+        }
+      }
+    }
+  }
+}

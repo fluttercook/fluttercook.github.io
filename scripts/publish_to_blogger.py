@@ -53,6 +53,8 @@ LAYOUT = {
     ("news", "vi"): ("src/content/news-vi", "vi/news", "/vi/news"),
     ("blog", "en"): ("src/content/blog", "blog", "/blog"),
     ("blog", "vi"): ("src/content/blog-vi", "vi/blog", "/vi/blog"),
+    ("recipes", "en"): ("src/content/recipes", "recipes", "/recipes"),
+    ("recipes", "vi"): ("src/content/recipes-vi", "vi/recipes", "/vi/recipes"),
 }
 
 FOOTER = {
@@ -218,7 +220,7 @@ def api(method: str, url: str, token: str, payload: dict | None = None) -> dict:
 def load_state() -> dict:
     if STATE_FILE.exists():
         return json.loads(STATE_FILE.read_text("utf-8"))
-    return {}
+    return {"blogs": {}}
 
 
 def save_state(state: dict) -> None:
@@ -226,9 +228,17 @@ def save_state(state: dict) -> None:
     STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", "utf-8")
 
 
+def blog_state(state: dict, blog_id: str) -> dict:
+    """Posts are tracked per blog — the same article lives under a different id on each."""
+    blogs = state.setdefault("blogs", {})
+    entry = blogs.setdefault(blog_id, {"posts": {}})
+    entry.setdefault("posts", {})
+    return entry
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--collection", choices=["news", "blog"], required=True)
+    ap.add_argument("--collection", choices=["news", "blog", "recipes"], required=True)
     ap.add_argument("--lang", choices=["en", "vi"], required=True)
     ap.add_argument("--slug", action="append", default=[], help="repeatable; omit with --all")
     ap.add_argument("--all", action="store_true", help="every non-draft entry in the collection")
@@ -242,6 +252,9 @@ def main() -> int:
     mode.add_argument("--draft", action="store_true", help="create/update as an unpublished draft")
     mode.add_argument("--publish", action="store_true", help="create/update as a live post")
     ap.add_argument("--out", default="/tmp/blogger-dry-run", help="where --dry-run writes previews")
+    ap.add_argument("--force-update", action="store_true",
+                    help="also overwrite posts written by an older toolchain (they are often "
+                         "bilingual in a single post; Blogger keeps no revision history)")
     args = ap.parse_args()
 
     content_dir = ROOT / LAYOUT[(args.collection, args.lang)][0]
@@ -272,12 +285,19 @@ def main() -> int:
     token = access_token(Path(args.token_file), Path(args.client_secret))
     assert_can_write(args.blog_id, token)
     state = load_state()
+    entry = blog_state(state, args.blog_id)
     key_prefix = f"{args.collection}/{args.lang}/"
     base = f"https://www.googleapis.com/blogger/v3/blogs/{args.blog_id}/posts"
 
     for slug, post in posts:
         key = key_prefix + slug
-        existing = state.get(key, {}).get("postId")
+        record = entry["posts"].get(key, {})
+        existing = record.get("postId")
+        if record.get("legacy") and not args.force_update:
+            # A PUT replaces the whole post and Blogger keeps no revision history.
+            print(f"skipped (legacy post, pass --force-update to overwrite): {post['title']}\n"
+                  f"  -> {record.get('url', '')}")
+            continue
         if existing:
             url = f"{base}/{existing}?" + urllib.parse.urlencode({"publish": str(bool(args.publish)).lower()})
             result = api("PUT", url, token, post)
@@ -286,7 +306,13 @@ def main() -> int:
             url = f"{base}?" + urllib.parse.urlencode({"isDraft": str(bool(args.draft)).lower()})
             result = api("POST", url, token, post)
             action = "created"
-        state[key] = {"postId": result["id"], "url": result.get("url", ""), "title": post["title"]}
+        entry["posts"][key] = {
+            "postId": result["id"],
+            "url": result.get("url", ""),
+            "title": post["title"],
+            "status": "LIVE" if args.publish else "DRAFT",
+            "published": result.get("published", ""),
+        }
         save_state(state)
         print(f"{action}: {post['title']}\n  -> {result.get('url') or '(draft)'}  [id {result['id']}]")
 
