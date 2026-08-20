@@ -1,0 +1,53 @@
+<!-- Vietnamese wrapper copy for the Blogger mirror. See blogger-en.html. -->
+<p style="font-size:16px;line-height:1.6">
+  Chọn mẫu, thả ảnh app vào, viết caption, rồi xuất PNG đúng kích thước mà App Store Connect và
+  Google Play Console yêu cầu. Mọi thứ render ngay trong trình duyệt — ảnh của bạn không bao giờ được
+  tải lên đâu cả, và ảnh xuất ra không có watermark.
+</p>
+
+<!--STUDIO-->
+
+<h2 style="margin-top:32px">Dùng thế nào</h2>
+<ol style="line-height:1.7">
+  <li><b>Chọn mẫu.</b> Năm preset chỉnh sẵn nền, màu nhấn và kiểu chữ đi cùng nhau. Nền xen kẽ (Tím, Bạc hà) cho ra dải ảnh giống cách store trưng bày; gradient hợp hơn khi từng ảnh đứng riêng lẻ.</li>
+  <li><b>Chọn kích thước xuất trước.</b> Bố cục tính theo tỉ lệ, nên đổi từ iPhone 19.5:9 sang iPad 4:3 sau khi đã căn caption sẽ làm mọi thứ xê dịch.</li>
+  <li><b>Thêm ảnh màn hình.</b> Bấm vào một thẻ để chọn, rồi <i>Tải ảnh lên…</i> — hoặc kéo thẳng file PNG vào thẻ đó. Ảnh được cover-fit vào màn hình máy, không bao giờ bị kéo méo.</li>
+  <li><b>Viết caption như viết quảng cáo.</b> Mỗi ảnh một lợi ích, 5–7 từ, đừng nhét tên tính năng mà chưa ai từng nghe.</li>
+  <li><b>Xuất ảnh.</b> Nút ⬇ dưới mỗi thẻ lưu riêng ảnh đó; <i>Tải tất cả PNG</i> chạy hết cả bộ, có nghỉ giữa các file để trình duyệt không bỏ sót.</li>
+</ol>
+
+<h2 style="margin-top:32px">Bảng tra kích thước</h2>
+<table style="border-collapse:collapse;width:100%;font-size:15px">
+  <tr><th style="text-align:left;padding:8px;border-bottom:2px solid #ddd">Store</th><th style="text-align:left;padding:8px;border-bottom:2px solid #ddd">Bộ</th><th style="text-align:left;padding:8px;border-bottom:2px solid #ddd">Pixel</th></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">App Store</td><td style="padding:8px;border-bottom:1px solid #eee">iPhone 6.9"</td><td style="padding:8px;border-bottom:1px solid #eee">1320 × 2868</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">App Store</td><td style="padding:8px;border-bottom:1px solid #eee">iPhone 6.5"</td><td style="padding:8px;border-bottom:1px solid #eee">1242 × 2688</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">App Store</td><td style="padding:8px;border-bottom:1px solid #eee">iPad 13"</td><td style="padding:8px;border-bottom:1px solid #eee">2064 × 2752</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">Google Play</td><td style="padding:8px;border-bottom:1px solid #eee">Điện thoại</td><td style="padding:8px;border-bottom:1px solid #eee">1080 × 1920 (tối thiểu)</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">Google Play</td><td style="padding:8px;border-bottom:1px solid #eee">Điện thoại 16:9 độ phân giải cao</td><td style="padding:8px;border-bottom:1px solid #eee">2160 × 3840</td></tr>
+</table>
+<p style="font-size:14px;opacity:.75;margin-top:10px">
+  Apple tự thu nhỏ bộ 6.9" xuống các màn hình iPhone nhỏ hơn, nên thường một bộ là đủ trừ khi bạn
+  muốn art riêng cho từng cỡ máy. Google Play bắt buộc tối thiểu hai ảnh mới cho phát hành.
+</p>
+
+<h2 style="margin-top:32px">Câu hỏi thường gặp</h2>
+<p><b>App Store yêu cầu ảnh screenshot kích thước bao nhiêu?</b><br />
+App Store Connect nhận bộ iPhone 6.9" ở 1320×2868 (hoặc 1290×2796); nếu phát hành cho iPad thì cần
+thêm bộ 13" ở 2064×2752. Google Play yêu cầu tối thiểu 1080×1920, tỉ lệ 16:9 hoặc 9:16, mỗi ảnh dưới
+8 MB.</p>
+
+<p><b>Ảnh app của tôi có bị tải lên server nào không?</b><br />
+Không. Ảnh được đọc bằng FileReader của trình duyệt rồi vẽ thẳng lên canvas. Không có request nào gửi
+đi — bạn ngắt mạng thì công cụ vẫn chạy bình thường.</p>
+
+<p><b>Nên đăng bao nhiêu ảnh lên store?</b><br />
+App Store cho tối đa 10 ảnh mỗi bộ thiết bị, Google Play cho 8. Nhưng phần lớn người dùng chỉ nhìn
+thấy 2–3 ảnh đầu trong kết quả tìm kiếm — hãy đặt lợi ích mạnh nhất ở ảnh số một.</p>
+
+<p><b>Ảnh xuất ra có dùng thương mại được không?</b><br />
+Được. Kết quả là tác phẩm của chính bạn — ảnh app của bạn, caption của bạn, các hình khối do trình
+duyệt vẽ. Không watermark, không ràng buộc giấy phép.</p>
+
+<p><b>Vì sao tiêu đề tự nhỏ lại khi tôi gõ dài hơn?</b><br />
+Tiêu đề tự thu nhỏ khi sắp tràn quá ba dòng, vì caption bốn dòng gần như không đọc nổi ở cỡ thumbnail
+trên store. Nếu thấy chữ co lại, đó là dấu hiệu caption đang quá dài — hãy nhắm 5–7 từ.</p>

@@ -1,0 +1,151 @@
+---
+import fs from 'node:fs';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+// Same fragment as the English page; only the data-lang switch differs.
+const studio = fs
+  .readFileSync(new URL('../../../../tools/screenshot-studio/studio.html', import.meta.url), 'utf8')
+  .replace('data-lang="en"', 'data-lang="vi"');
+
+const site = 'https://fluttercook.github.io';
+const url = `${site}/vi/tools/screenshot-studio/`;
+const title = 'Tạo ảnh chụp màn hình App Store — miễn phí, chạy ngay trên trình duyệt | FlutterCook';
+const description =
+  'Công cụ tạo ảnh screenshot App Store và Google Play miễn phí. Thả ảnh app vào, viết caption, chọn mẫu, xuất PNG đúng chuẩn 1320×2868, 1080×1920… Không cần tài khoản, không upload, không watermark.';
+
+const faqs = [
+  {
+    q: 'App Store yêu cầu ảnh screenshot kích thước bao nhiêu?',
+    a: 'App Store Connect nhận bộ iPhone 6.9" ở 1320×2868 (hoặc 1290×2796); nếu bạn phát hành cho iPad thì cần thêm bộ 13" ở 2064×2752. Google Play yêu cầu tối thiểu 1080×1920, tỉ lệ 16:9 hoặc 9:16, mỗi ảnh dưới 8 MB. Công cụ này xuất được tất cả, cộng thêm kích thước tuỳ chỉnh bạn tự nhập.',
+  },
+  {
+    q: 'Ảnh app của tôi có bị tải lên server nào không?',
+    a: 'Không. Ảnh được đọc bằng FileReader của trình duyệt rồi vẽ thẳng lên canvas. Không có request nào gửi đi — bạn ngắt mạng thì công cụ vẫn chạy bình thường.',
+  },
+  {
+    q: 'Nên đăng bao nhiêu ảnh lên store?',
+    a: 'App Store cho tối đa 10 ảnh mỗi bộ thiết bị, Google Play cho 8. Nhưng phần lớn người dùng chỉ nhìn thấy 2–3 ảnh đầu trong kết quả tìm kiếm. Hãy đặt lợi ích mạnh nhất ở ảnh số một, phần còn lại chỉ là dẫn chứng bổ sung.',
+  },
+  {
+    q: 'Ảnh xuất ra có dùng thương mại được không?',
+    a: 'Được. Kết quả là tác phẩm của chính bạn — ảnh app của bạn, caption của bạn, các hình khối do trình duyệt vẽ. Không watermark, không ràng buộc giấy phép.',
+  },
+  {
+    q: 'Vì sao tiêu đề tự nhỏ lại khi tôi gõ dài hơn?',
+    a: 'Tiêu đề tự thu nhỏ khi sắp tràn quá ba dòng, vì caption bốn dòng gần như không đọc nổi ở cỡ thumbnail trên store. Nếu thấy chữ co lại, đó là dấu hiệu caption đang quá dài — hãy nhắm 5–7 từ.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Xưởng ảnh chụp màn hình App Store',
+    applicationCategory: 'DesignApplication',
+    operatingSystem: 'Mọi trình duyệt hiện đại',
+    url,
+    description,
+    inLanguage: 'vi',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    publisher: { '@type': 'Organization', name: 'FlutterCook', url: site },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    inLanguage: 'vi',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FlutterCook', item: `${site}/vi/` },
+      { '@type': 'ListItem', position: 2, name: 'Xưởng ảnh App Store', item: url },
+    ],
+  },
+];
+---
+<BaseLayout
+  lang="vi"
+  title={title}
+  description={description}
+  keywords={[
+    'tạo ảnh app store',
+    'công cụ làm screenshot app',
+    'mẫu ảnh chụp màn hình app',
+    'kích thước ảnh app store',
+    'aso screenshot',
+    'làm ảnh google play miễn phí',
+  ]}
+  jsonLd={jsonLd}
+>
+  <main class="wrap">
+    <section class="hero">
+      <div class="kicker">Công cụ miễn phí · không cần tài khoản</div>
+      <h1 class="serif">Ảnh App Store đẹp, <i>không cần file thiết kế</i>.</h1>
+      <p>
+        Chọn mẫu, thả ảnh app vào, viết caption, rồi xuất PNG đúng kích thước mà App Store Connect và
+        Google Play Console yêu cầu. Mọi thứ render ngay trong trình duyệt — ảnh của bạn không bao giờ
+        được tải lên đâu cả.
+      </p>
+    </section>
+
+    <Fragment set:html={studio} />
+
+    <section class="doc">
+      <h2>Dùng thế nào</h2>
+      <ol>
+        <li><b>Chọn mẫu.</b> Năm preset chỉnh sẵn nền, màu nhấn và kiểu chữ đi cùng nhau. Nền xen kẽ (Tím, Bạc hà) cho ra dải ảnh giống cách store trưng bày; gradient hợp hơn khi từng ảnh đứng riêng lẻ.</li>
+        <li><b>Chọn kích thước xuất trước.</b> Bố cục tính theo tỉ lệ, nên đổi từ iPhone 19.5:9 sang iPad 4:3 sau khi đã căn caption sẽ làm mọi thứ xê dịch.</li>
+        <li><b>Thêm ảnh màn hình.</b> Bấm vào một thẻ để chọn, rồi <i>Tải ảnh lên…</i> — hoặc kéo thẳng file PNG vào thẻ đó. Ảnh được cover-fit vào màn hình máy, không bao giờ bị kéo méo.</li>
+        <li><b>Viết caption như viết quảng cáo.</b> Mỗi ảnh một lợi ích, 5–7 từ, đừng nhét tên tính năng mà chưa ai từng nghe.</li>
+        <li><b>Xuất ảnh.</b> Nút ⬇ dưới mỗi thẻ lưu riêng ảnh đó; <i>Tải tất cả PNG</i> chạy hết cả bộ, có nghỉ giữa các file để trình duyệt không bỏ sót.</li>
+      </ol>
+
+      <h2>Bảng tra kích thước</h2>
+      <div class="tablewrap">
+        <table>
+          <thead><tr><th>Store</th><th>Bộ</th><th>Pixel</th></tr></thead>
+          <tbody>
+            <tr><td>App Store</td><td>iPhone 6.9"</td><td>1320 × 2868</td></tr>
+            <tr><td>App Store</td><td>iPhone 6.5"</td><td>1242 × 2688</td></tr>
+            <tr><td>App Store</td><td>iPad 13"</td><td>2064 × 2752</td></tr>
+            <tr><td>Google Play</td><td>Điện thoại</td><td>1080 × 1920 (tối thiểu)</td></tr>
+            <tr><td>Google Play</td><td>Điện thoại 16:9 độ phân giải cao</td><td>2160 × 3840</td></tr>
+          </tbody>
+        </table>
+      </div>
+      <p class="note">
+        Apple tự thu nhỏ bộ 6.9" xuống các màn hình iPhone nhỏ hơn, nên thường một bộ là đủ trừ khi
+        bạn muốn art riêng cho từng cỡ máy. Google Play bắt buộc tối thiểu hai ảnh mới cho phát hành.
+      </p>
+
+      <h2>Câu hỏi thường gặp</h2>
+      {faqs.map((f) => (
+        <details>
+          <summary>{f.q}</summary>
+          <p>{f.a}</p>
+        </details>
+      ))}
+    </section>
+  </main>
+
+  <style>
+    .doc { max-width: 780px; margin: 40px auto 0; }
+    .doc h2 { font-size: 22px; margin: 34px 0 12px; }
+    .doc ol { padding-left: 20px; display: grid; gap: 10px; color: var(--muted); }
+    .doc ol b { color: var(--ink); }
+    .tablewrap { overflow-x: auto; }
+    .doc table { width: 100%; border-collapse: collapse; border: 1px solid var(--line); border-radius: 12px; overflow: hidden; background: var(--panel); font-size: 14px; }
+    .doc th { text-align: left; background: #101012; color: var(--muted); font-size: 11px; letter-spacing: .1em; text-transform: uppercase; padding: 11px 14px; }
+    .doc td { padding: 11px 14px; border-top: 1px solid var(--line); }
+    .doc .note { color: var(--muted); font-size: 13.5px; margin-top: 12px; }
+    .doc details { border: 1px solid var(--line); border-radius: 10px; padding: 12px 14px; margin-bottom: 8px; background: var(--panel); }
+    .doc summary { cursor: pointer; font-weight: 600; }
+    .doc details p { color: var(--muted); margin: 10px 0 0; font-size: 14.5px; }
+  </style>
+</BaseLayout>

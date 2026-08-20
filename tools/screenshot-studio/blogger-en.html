@@ -1,0 +1,57 @@
+<!--
+  Copy that wraps studio.html when it is mirrored to Blogger. Blogger themes
+  bring their own CSS, so everything here is inline-styled and uses no classes
+  that could collide.
+-->
+<p style="font-size:16px;line-height:1.6">
+  Pick a template, drop in your app screens, write the captions, and export PNGs at the exact sizes
+  App Store Connect and Google Play Console ask for. Everything renders in your browser — your
+  screens are never uploaded anywhere, and there is no watermark on the output.
+</p>
+
+<!--STUDIO-->
+
+<h2 style="margin-top:32px">How to use it</h2>
+<ol style="line-height:1.7">
+  <li><b>Pick a template.</b> The five presets set background, accent and typeface together. Alternating backgrounds (Violet, Mint) give you the strip look stores show off; gradients read better when every screen stands alone.</li>
+  <li><b>Choose the export size first.</b> Layout is proportional, so switching from a 19.5:9 iPhone to a 4:3 iPad after you have tuned the caption band will move things around.</li>
+  <li><b>Add your screens.</b> Click a card to select it, then <i>Upload screen…</i> — or drag a PNG straight onto the card. Images are cover-fitted into the device screen, never stretched.</li>
+  <li><b>Write captions like ad copy.</b> One benefit per screen, five to seven words, no feature names nobody has heard of yet.</li>
+  <li><b>Export.</b> The ⬇ button under a card saves that one; <i>Download all PNG</i> walks the whole set with a short pause between files so the browser does not drop them.</li>
+</ol>
+
+<h2 style="margin-top:32px">Store sizes cheat sheet</h2>
+<table style="border-collapse:collapse;width:100%;font-size:15px">
+  <tr><th style="text-align:left;padding:8px;border-bottom:2px solid #ddd">Store</th><th style="text-align:left;padding:8px;border-bottom:2px solid #ddd">Set</th><th style="text-align:left;padding:8px;border-bottom:2px solid #ddd">Pixels</th></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">App Store</td><td style="padding:8px;border-bottom:1px solid #eee">iPhone 6.9"</td><td style="padding:8px;border-bottom:1px solid #eee">1320 × 2868</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">App Store</td><td style="padding:8px;border-bottom:1px solid #eee">iPhone 6.5"</td><td style="padding:8px;border-bottom:1px solid #eee">1242 × 2688</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">App Store</td><td style="padding:8px;border-bottom:1px solid #eee">iPad 13"</td><td style="padding:8px;border-bottom:1px solid #eee">2064 × 2752</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">Google Play</td><td style="padding:8px;border-bottom:1px solid #eee">Phone</td><td style="padding:8px;border-bottom:1px solid #eee">1080 × 1920 (min)</td></tr>
+  <tr><td style="padding:8px;border-bottom:1px solid #eee">Google Play</td><td style="padding:8px;border-bottom:1px solid #eee">Phone, 16:9 high-res</td><td style="padding:8px;border-bottom:1px solid #eee">2160 × 3840</td></tr>
+</table>
+<p style="font-size:14px;opacity:.75;margin-top:10px">
+  Apple scales one 6.9" set down to the smaller iPhone displays, so a single set is usually enough
+  unless you want display-specific art. Google Play requires at least two screenshots before you can
+  publish.
+</p>
+
+<h2 style="margin-top:32px">Questions</h2>
+<p><b>What screenshot sizes does the App Store actually require?</b><br />
+App Store Connect accepts a 6.9" iPhone set at 1320×2868 (or 1290×2796) and, if you ship for iPad, a
+13" set at 2064×2752. Google Play wants 1080×1920 or larger, 16:9 or 9:16, under 8 MB per image.</p>
+
+<p><b>Are my app screenshots uploaded anywhere?</b><br />
+No. The images are read with the browser FileReader API and drawn straight onto a canvas. Nothing is
+sent to a server — you can disconnect from the network and the tool still works.</p>
+
+<p><b>How many screenshots should I upload to the store?</b><br />
+Up to 10 per device set on the App Store and 8 on Google Play, but the first two or three are what
+most people see in search results. Put your strongest benefit on screen one.</p>
+
+<p><b>Can I use the exported PNGs commercially?</b><br />
+Yes. The output is your own artwork — your app screens, your captions, plain shapes drawn by the
+browser. No watermark, no licence attached.</p>
+
+<p><b>Why does my headline get smaller when I type more?</b><br />
+It auto-shrinks once it would wrap past three lines, because four-line captions stop being readable
+at store thumbnail size. If it is shrinking, the caption is too long — aim for five to seven words.</p>

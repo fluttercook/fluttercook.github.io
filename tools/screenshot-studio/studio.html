@@ -1,0 +1,834 @@
+<!--
+  App Store Screenshot Studio — a self-contained editor fragment.
+
+  One file, no dependencies, no network calls: everything (device frames,
+  gradients, decorative shapes) is drawn with the Canvas 2D API, so the same
+  markup runs inside Astro, inside a Blogger page, or opened straight from
+  disk. Uploaded images never leave the browser.
+
+  Root element carries data-lang="en|vi"; every user-facing string lives in T.
+  All CSS is scoped under #assw so it cannot fight a host theme.
+-->
+<div id="assw" data-lang="en">
+  <style>
+    #assw {
+      --a: #6c4cf1;
+      --bg: #0f1117;
+      --panel: #171a23;
+      --line: #2a2f3d;
+      --fg: #e8eaf2;
+      --muted: #9aa3b8;
+      color: var(--fg);
+      background: var(--bg);
+      border-radius: 14px;
+      padding: 16px;
+      font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      box-sizing: border-box;
+    }
+    #assw *, #assw *::before, #assw *::after { box-sizing: border-box; }
+    #assw h2, #assw h3 { margin: 0; font-weight: 700; letter-spacing: -.01em; }
+    #assw h2 { font-size: 20px; }
+    #assw h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    #assw .ass-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
+    #assw .ass-head p { margin: 0; color: var(--muted); font-size: 13px; }
+    #assw .ass-main { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 16px; align-items: start; }
+    @media (max-width: 860px) { #assw .ass-main { grid-template-columns: 1fr; } }
+
+    #assw .ass-side { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: grid; gap: 16px; max-height: 78vh; overflow: auto; }
+    #assw .ass-group { display: grid; gap: 8px; }
+    #assw label { display: grid; gap: 4px; font-size: 12px; color: var(--muted); }
+    #assw input[type=text], #assw textarea, #assw select, #assw input[type=number] {
+      width: 100%; background: #0c0e14; color: var(--fg); border: 1px solid var(--line);
+      border-radius: 8px; padding: 7px 9px; font: inherit; font-size: 13px;
+    }
+    #assw textarea { resize: vertical; min-height: 54px; }
+    #assw input[type=color] { width: 100%; height: 32px; padding: 2px; background: #0c0e14; border: 1px solid var(--line); border-radius: 8px; }
+    #assw input[type=range] { width: 100%; accent-color: var(--a); }
+    #assw .ass-row { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+    #assw .ass-row3 { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 8px; }
+
+    #assw button {
+      font: inherit; font-size: 13px; cursor: pointer; border-radius: 8px;
+      border: 1px solid var(--line); background: #1e2230; color: var(--fg);
+      padding: 7px 11px; transition: background .12s, border-color .12s;
+    }
+    #assw button:hover { background: #262b3b; border-color: #3a4055; }
+    #assw button.ass-primary { background: var(--a); border-color: transparent; color: #fff; font-weight: 600; }
+    #assw button.ass-primary:hover { filter: brightness(1.08); }
+    #assw .ass-btns { display: flex; flex-wrap: wrap; gap: 8px; }
+
+    #assw .ass-presets { display: flex; flex-wrap: wrap; gap: 6px; }
+    #assw .ass-preset { padding: 5px 9px; font-size: 12px; display: flex; align-items: center; gap: 6px; }
+    #assw .ass-preset i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
+    #assw .ass-preset[aria-pressed=true] { border-color: var(--a); background: #232741; }
+
+    #assw .ass-stage { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; min-width: 0; }
+    #assw .ass-strip { display: flex; gap: 14px; overflow-x: auto; padding: 4px 2px 12px; scroll-snap-type: x proximity; }
+    #assw .ass-card { flex: 0 0 auto; display: grid; gap: 6px; scroll-snap-align: start; }
+    #assw .ass-card canvas {
+      display: block; width: 210px; height: auto; border-radius: 10px; cursor: pointer;
+      border: 2px solid transparent; background: #000;
+    }
+    #assw .ass-card[aria-selected=true] canvas { border-color: var(--a); }
+    #assw .ass-card .ass-tools { display: flex; gap: 4px; justify-content: center; }
+    #assw .ass-card .ass-tools button { padding: 3px 7px; font-size: 11px; }
+    #assw .ass-card .ass-n { text-align: center; font-size: 11px; color: var(--muted); }
+    #assw .ass-drop { outline: 2px dashed var(--a); outline-offset: 3px; }
+
+    #assw .ass-note { font-size: 12px; color: var(--muted); margin: 10px 0 0; }
+    #assw .ass-note code { background: #0c0e14; padding: 1px 5px; border-radius: 4px; font-size: 11px; }
+    #assw .ass-hidden { display: none; }
+    #assw .ass-status { font-size: 12px; color: var(--muted); min-height: 18px; }
+  </style>
+
+  <div class="ass-head">
+    <div>
+      <h2 data-t="title">App Store Screenshot Studio</h2>
+      <p data-t="tagline">Drop in your app screens, write the captions, export store-ready PNGs. Nothing is uploaded — every pixel is rendered in your browser.</p>
+    </div>
+    <div class="ass-btns">
+      <button type="button" data-act="add" data-t="add">+ Add screen</button>
+      <button type="button" class="ass-primary" data-act="export-all" data-t="exportAll">Download all PNG</button>
+    </div>
+  </div>
+
+  <div class="ass-main">
+    <aside class="ass-side">
+      <div class="ass-group">
+        <h3 data-t="hTemplate">Template</h3>
+        <div class="ass-presets" data-el="presets"></div>
+      </div>
+
+      <div class="ass-group">
+        <h3 data-t="hSize">Export size</h3>
+        <label>
+          <span data-t="device">Device</span>
+          <select data-el="size"></select>
+        </label>
+        <div class="ass-row ass-hidden" data-el="customWrap">
+          <label><span data-t="width">Width</span><input type="number" data-el="cw" min="200" max="6000" step="1" /></label>
+          <label><span data-t="height">Height</span><input type="number" data-el="ch" min="200" max="6000" step="1" /></label>
+        </div>
+      </div>
+
+      <div class="ass-group">
+        <h3 data-t="hPanel">Selected screen</h3>
+        <label><span data-t="headline">Headline</span><textarea data-el="headline" rows="2"></textarea></label>
+        <label><span data-t="sub">Subtitle</span><textarea data-el="sub" rows="2"></textarea></label>
+        <div class="ass-btns">
+          <button type="button" data-act="pick" data-t="upload">Upload screen…</button>
+          <button type="button" data-act="clear-img" data-t="removeImg">Remove image</button>
+        </div>
+        <p class="ass-note" data-t="dropHint">Tip: you can also drag a PNG straight onto a card.</p>
+      </div>
+
+      <div class="ass-group">
+        <h3 data-t="hLayout">Layout</h3>
+        <label>
+          <span data-t="textPos">Caption position</span>
+          <select data-el="layout">
+            <option value="top" data-t="posTop">Above the phone</option>
+            <option value="bottom" data-t="posBottom">Below the phone</option>
+            <option value="none" data-t="posNone">No caption (full bleed)</option>
+          </select>
+        </label>
+        <label>
+          <span data-t="frame">Device frame</span>
+          <select data-el="frame">
+            <option value="iphone" data-t="frIphone">iPhone (Dynamic Island)</option>
+            <option value="android" data-t="frAndroid">Android (punch hole)</option>
+            <option value="flat" data-t="frFlat">Rounded, no bezel</option>
+            <option value="none" data-t="frNone">No frame</option>
+          </select>
+        </label>
+        <label>
+          <span data-t="scale">Phone size</span>
+          <input type="range" data-el="scale" min="60" max="125" step="1" />
+        </label>
+        <label>
+          <span data-t="fontScale">Headline size</span>
+          <input type="range" data-el="fontScale" min="60" max="150" step="1" />
+        </label>
+        <label>
+          <span data-t="font">Typeface</span>
+          <select data-el="font">
+            <option value="sans">Sans (system)</option>
+            <option value="rounded">Rounded</option>
+            <option value="serif">Serif</option>
+            <option value="mono">Mono</option>
+          </select>
+        </label>
+      </div>
+
+      <div class="ass-group">
+        <h3 data-t="hColor">Colours</h3>
+        <label>
+          <span data-t="bgMode">Background</span>
+          <select data-el="bgMode">
+            <option value="gradient" data-t="bgGradient">Gradient</option>
+            <option value="solid" data-t="bgSolid">Solid</option>
+            <option value="alt" data-t="bgAlt">Alternating (light / accent)</option>
+          </select>
+        </label>
+        <div class="ass-row3">
+          <label><span data-t="c1">From</span><input type="color" data-el="bg1" /></label>
+          <label><span data-t="c2">To</span><input type="color" data-el="bg2" /></label>
+          <label><span data-t="cText">Text</span><input type="color" data-el="fg" /></label>
+        </div>
+        <label><span data-t="accent">Accent</span><input type="color" data-el="accent" /></label>
+        <label style="display:flex;flex-direction:row;align-items:center;gap:8px">
+          <input type="checkbox" data-el="blobs" style="width:auto" />
+          <span data-t="decor">Decorative shapes</span>
+        </label>
+      </div>
+
+      <div class="ass-group">
+        <h3 data-t="hProject">Project</h3>
+        <div class="ass-btns">
+          <button type="button" data-act="sample" data-t="sample">Load sample text</button>
+          <button type="button" data-act="reset" data-t="reset">Reset</button>
+        </div>
+        <div class="ass-status" data-el="status"></div>
+      </div>
+    </aside>
+
+    <section class="ass-stage">
+      <div class="ass-strip" data-el="strip"></div>
+      <p class="ass-note" data-t="footNote">
+        Captions, colours and layout are saved in this browser only. Images are never stored or sent anywhere.
+      </p>
+    </section>
+  </div>
+
+  <input type="file" accept="image/*" data-el="file" class="ass-hidden" />
+</div>
+
+<script>
+(function () {
+  var root = document.getElementById('assw');
+  if (!root || root.dataset.ready) return;
+  root.dataset.ready = '1';
+  var LANG = root.dataset.lang === 'vi' ? 'vi' : 'en';
+
+  /* ---------------------------------------------------------------- strings */
+  var STR = {
+    en: {},                       // the markup is already English
+    vi: {
+      title: 'Xưởng ảnh chụp màn hình App Store',
+      tagline: 'Thả ảnh màn hình app vào, viết caption, xuất PNG đúng chuẩn store. Không có gì được tải lên — mọi thứ render ngay trong trình duyệt.',
+      add: '+ Thêm màn hình', exportAll: 'Tải tất cả PNG',
+      hTemplate: 'Mẫu', hSize: 'Kích thước xuất', device: 'Thiết bị',
+      width: 'Rộng', height: 'Cao',
+      hPanel: 'Màn hình đang chọn', headline: 'Tiêu đề', sub: 'Mô tả phụ',
+      upload: 'Tải ảnh lên…', removeImg: 'Xoá ảnh',
+      dropHint: 'Mẹo: bạn cũng có thể kéo thẳng file PNG vào một thẻ.',
+      hLayout: 'Bố cục', textPos: 'Vị trí caption',
+      posTop: 'Trên điện thoại', posBottom: 'Dưới điện thoại', posNone: 'Không caption (tràn viền)',
+      frame: 'Khung máy', frIphone: 'iPhone (Dynamic Island)', frAndroid: 'Android (nốt ruồi)',
+      frFlat: 'Bo góc, không viền', frNone: 'Không khung',
+      scale: 'Cỡ điện thoại', fontScale: 'Cỡ tiêu đề', font: 'Kiểu chữ',
+      hColor: 'Màu sắc', bgMode: 'Nền', bgGradient: 'Gradient', bgSolid: 'Màu đặc',
+      bgAlt: 'Xen kẽ (sáng / màu nhấn)',
+      c1: 'Từ', c2: 'Đến', cText: 'Chữ', accent: 'Màu nhấn', decor: 'Hình trang trí',
+      hProject: 'Dự án', sample: 'Điền nội dung mẫu', reset: 'Đặt lại',
+      footNote: 'Caption, màu và bố cục chỉ lưu trong trình duyệt này. Ảnh không bao giờ được lưu hay gửi đi đâu cả.'
+    }
+  };
+  var T = STR[LANG];
+  function t(key, fallback) { return (T && T[key]) || fallback || key; }
+  if (LANG === 'vi') {
+    root.querySelectorAll('[data-t]').forEach(function (el) {
+      var v = T[el.dataset.t];
+      if (v) el.textContent = v;
+    });
+  }
+
+  /* ------------------------------------------------------------- constants */
+  var SIZES = [
+    { id: 'ip69',  label: 'iPhone 6.9" — 1320×2868', w: 1320, h: 2868 },
+    { id: 'ip65',  label: 'iPhone 6.5" — 1242×2688', w: 1242, h: 2688 },
+    { id: 'ipad',  label: 'iPad 13" — 2064×2752',    w: 2064, h: 2752 },
+    { id: 'play',  label: 'Google Play phone — 1080×1920', w: 1080, h: 1920 },
+    { id: 'play4k',label: 'Google Play 16:9 — 2160×3840', w: 2160, h: 3840 },
+    { id: 'custom',label: LANG === 'vi' ? 'Tuỳ chỉnh…' : 'Custom…', w: 1320, h: 2868 }
+  ];
+
+  var PRESETS = {
+    violet:  { label: LANG === 'vi' ? 'Tím' : 'Violet',   bg1: '#efeaff', bg2: '#6c4cf1', fg: '#1b1338', accent: '#6c4cf1', bgMode: 'alt',      blobs: true,  font: 'sans' },
+    midnight:{ label: LANG === 'vi' ? 'Đêm' : 'Midnight', bg1: '#161b2e', bg2: '#0a0d18', fg: '#f2f4ff', accent: '#7c8cff', bgMode: 'gradient', blobs: true,  font: 'sans' },
+    coral:   { label: LANG === 'vi' ? 'San hô' : 'Coral', bg1: '#ffd9c7', bg2: '#ff6b4a', fg: '#40160c', accent: '#ff6b4a', bgMode: 'gradient', blobs: true,  font: 'rounded' },
+    mint:    { label: LANG === 'vi' ? 'Bạc hà' : 'Mint',  bg1: '#e6fff4', bg2: '#12b981', fg: '#04322a', accent: '#12b981', bgMode: 'alt',      blobs: true,  font: 'rounded' },
+    mono:    { label: LANG === 'vi' ? 'Tối giản' : 'Mono',bg1: '#f4f4f5', bg2: '#e4e4e7', fg: '#18181b', accent: '#18181b', bgMode: 'solid',    blobs: false, font: 'serif' }
+  };
+
+  var FONTS = {
+    sans:    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
+    rounded: '"SF Pro Rounded", "Nunito", "Segoe UI", system-ui, sans-serif',
+    serif:   'Georgia, "Iowan Old Style", "Times New Roman", serif',
+    mono:    '"SF Mono", "JetBrains Mono", Menlo, Consolas, monospace'
+  };
+
+  var SAMPLE = LANG === 'vi'
+    ? [['Học một ngôn ngữ mới mỗi ngày', 'Bài học 5 phút, luyện nói thật'],
+       ['Giữ chuỗi ngày học của bạn', 'Nhắc nhở nhẹ nhàng, không gây áp lực'],
+       ['Chọn trong 24 ngôn ngữ', 'Từ tiếng Nhật tới tiếng Bồ Đào Nha'],
+       ['Phát âm được chấm điểm tức thì', 'Nghe lại chính giọng của bạn']]
+    : [['Learn a new language every day', 'Five-minute lessons, real speaking practice'],
+       ['Keep your streak alive', 'Gentle reminders, zero guilt trips'],
+       ['Pick from 24 languages', 'From Japanese to Portuguese'],
+       ['Pronunciation scored instantly', 'Hear yourself, then hear it right']];
+
+  var KEY = 'assw.project.v1';
+
+  /* ----------------------------------------------------------------- state */
+  var state = {
+    preset: 'violet', size: 'ip69', cw: 1320, ch: 2868,
+    layout: 'top', frame: 'iphone', scale: 96, fontScale: 100, font: 'sans',
+    bgMode: 'alt', bg1: '#efeaff', bg2: '#6c4cf1', fg: '#1b1338', accent: '#6c4cf1',
+    blobs: true, sel: 0,
+    panels: [blank(0), blank(1), blank(2), blank(3)]
+  };
+  function blank(i) {
+    return { headline: SAMPLE[i % SAMPLE.length][0], sub: SAMPLE[i % SAMPLE.length][1], img: null };
+  }
+
+  var images = {};                     // panel index -> HTMLImageElement (never persisted)
+
+  function save() {
+    try {
+      var copy = JSON.parse(JSON.stringify(state));
+      copy.panels = copy.panels.map(function (p) { return { headline: p.headline, sub: p.sub }; });
+      localStorage.setItem(KEY, JSON.stringify(copy));
+    } catch (e) { /* private mode / quota — the editor still works, just not sticky */ }
+  }
+  function load() {
+    try {
+      var raw = localStorage.getItem(KEY);
+      if (!raw) return;
+      var saved = JSON.parse(raw);
+      if (saved && Array.isArray(saved.panels) && saved.panels.length) {
+        saved.panels = saved.panels.map(function (p) { return { headline: p.headline || '', sub: p.sub || '', img: null }; });
+        Object.keys(saved).forEach(function (k) { state[k] = saved[k]; });
+      }
+    } catch (e) { /* ignore corrupt state rather than break the page */ }
+  }
+
+  /* ------------------------------------------------------------- utilities */
+  var $ = function (name) { return root.querySelector('[data-el="' + name + '"]'); };
+
+  function size() {
+    var s = SIZES.filter(function (x) { return x.id === state.size; })[0] || SIZES[0];
+    return s.id === 'custom'
+      ? { w: clamp(state.cw, 200, 6000), h: clamp(state.ch, 200, 6000) }
+      : { w: s.w, h: s.h };
+  }
+  function clamp(n, lo, hi) { n = +n || lo; return Math.min(hi, Math.max(lo, n)); }
+
+  function rr(ctx, x, y, w, h, r) {
+    r = Math.min(r, w / 2, h / 2);
+    ctx.beginPath();
+    ctx.moveTo(x + r, y);
+    ctx.arcTo(x + w, y, x + w, y + h, r);
+    ctx.arcTo(x + w, y + h, x, y + h, r);
+    ctx.arcTo(x, y + h, x, y, r);
+    ctx.arcTo(x, y, x + w, y, r);
+    ctx.closePath();
+  }
+
+  // Deterministic per-panel jitter so decorations never flicker between redraws.
+  function rng(seed) {
+    var s = seed * 9301 + 49297;
+    return function () { s = (s * 9301 + 49297) % 233280; return s / 233280; };
+  }
+
+  function mix(a, b, k) {
+    var pa = hex(a), pb = hex(b);
+    return 'rgb(' + Math.round(pa[0] + (pb[0] - pa[0]) * k) + ',' +
+                    Math.round(pa[1] + (pb[1] - pa[1]) * k) + ',' +
+                    Math.round(pa[2] + (pb[2] - pa[2]) * k) + ')';
+  }
+  function hex(h) {
+    h = h.replace('#', '');
+    if (h.length === 3) h = h[0] + h[0] + h[1] + h[1] + h[2] + h[2];
+    return [parseInt(h.slice(0, 2), 16), parseInt(h.slice(2, 4), 16), parseInt(h.slice(4, 6), 16)];
+  }
+  function luma(h) { var p = hex(h); return (0.299 * p[0] + 0.587 * p[1] + 0.114 * p[2]) / 255; }
+  function rgba(h, a) { var p = hex(h); return 'rgba(' + p[0] + ',' + p[1] + ',' + p[2] + ',' + a + ')'; }
+
+  function wrap(ctx, text, maxW) {
+    var out = [];
+    String(text || '').split('\n').forEach(function (para) {
+      var words = para.split(/\s+/).filter(Boolean), line = '';
+      if (!words.length) { out.push(''); return; }
+      words.forEach(function (w) {
+        var next = line ? line + ' ' + w : w;
+        if (ctx.measureText(next).width > maxW && line) { out.push(line); line = w; }
+        else line = next;
+      });
+      out.push(line);
+    });
+    return out;
+  }
+
+  /* ------------------------------------------------------------- rendering */
+  function drawBackground(ctx, W, H, i) {
+    var alt = state.bgMode === 'alt' && i % 2 === 1;
+    if (state.bgMode === 'solid') {
+      ctx.fillStyle = state.bg1;
+    } else if (state.bgMode === 'alt') {
+      ctx.fillStyle = alt ? state.bg2 : state.bg1;
+    } else {
+      var g = ctx.createLinearGradient(0, 0, W, H);
+      g.addColorStop(0, state.bg1);
+      g.addColorStop(1, state.bg2);
+      ctx.fillStyle = g;
+    }
+    ctx.fillRect(0, 0, W, H);
+    return alt;
+  }
+
+  function drawDecor(ctx, W, H, i, onDark) {
+    if (!state.blobs) return;
+    var r = rng(i + 3), tint = onDark ? '#ffffff' : state.accent;
+    ctx.save();
+    for (var b = 0; b < 3; b++) {
+      var cx = (0.1 + r() * 0.85) * W;
+      var cy = (0.05 + r() * 0.9) * H;
+      var rad = (0.18 + r() * 0.3) * W;
+      var g = ctx.createRadialGradient(cx, cy, 0, cx, cy, rad);
+      g.addColorStop(0, rgba(tint, onDark ? 0.16 : 0.22));
+      g.addColorStop(1, rgba(tint, 0));
+      ctx.fillStyle = g;
+      ctx.beginPath();
+      ctx.arc(cx, cy, rad, 0, Math.PI * 2);
+      ctx.fill();
+    }
+    // A single hand-drawn-looking squiggle, the way editorial templates use one.
+    ctx.strokeStyle = rgba(tint, onDark ? 0.5 : 0.55);
+    ctx.lineWidth = W * 0.008;
+    ctx.lineCap = 'round';
+    ctx.beginPath();
+    var sx = W * (0.06 + r() * 0.1), sy = H * (0.05 + r() * 0.06), len = W * 0.22;
+    for (var x = 0; x <= len; x += len / 40) {
+      var y = sy + Math.sin((x / len) * Math.PI * 4) * W * 0.018;
+      if (x === 0) ctx.moveTo(sx + x, y); else ctx.lineTo(sx + x, y);
+    }
+    ctx.stroke();
+    ctx.restore();
+  }
+
+  function drawText(ctx, p, W, H, box, color) {
+    if (state.layout === 'none') return;
+    var fam = FONTS[state.font] || FONTS.sans;
+    var hs = W * 0.075 * (state.fontScale / 100);
+    var lines, guard = 0;
+    do {
+      ctx.font = '700 ' + hs + 'px ' + fam;
+      lines = wrap(ctx, p.headline, W * 0.84);
+      if (lines.length <= 3) break;
+      hs *= 0.92;
+    } while (guard++ < 12);
+
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'top';
+    ctx.fillStyle = color;
+    var lh = hs * 1.18;
+    var subSize = W * 0.036 * (state.fontScale / 100);
+    ctx.font = '400 ' + subSize + 'px ' + fam;
+    var subLines = p.sub ? wrap(ctx, p.sub, W * 0.78) : [];
+    var total = lines.length * lh + (subLines.length ? subLines.length * subSize * 1.35 + hs * 0.4 : 0);
+    var y = box.y + (box.h - total) / 2;
+
+    ctx.font = '700 ' + hs + 'px ' + fam;
+    lines.forEach(function (ln) { ctx.fillText(ln, W / 2, y); y += lh; });
+    if (subLines.length) {
+      y += hs * 0.4 - lh * 0.1;
+      ctx.font = '400 ' + subSize + 'px ' + fam;
+      ctx.globalAlpha = 0.72;
+      subLines.forEach(function (ln) { ctx.fillText(ln, W / 2, y); y += subSize * 1.35; });
+      ctx.globalAlpha = 1;
+    }
+  }
+
+  function drawPhone(ctx, img, W, H, box) {
+    var pw = box.w, ph = box.h, px = box.x, py = box.y;
+    var frame = state.frame;
+    var bezel = frame === 'none' || frame === 'flat' ? 0 : pw * 0.022;
+    var radius = frame === 'android' ? pw * 0.09 : pw * 0.125;
+
+    if (frame !== 'none') {
+      ctx.save();
+      ctx.shadowColor = 'rgba(0,0,0,.32)';
+      ctx.shadowBlur = pw * 0.09;
+      ctx.shadowOffsetY = pw * 0.035;
+      ctx.fillStyle = frame === 'flat' ? '#000' : '#0b0b0f';
+      rr(ctx, px, py, pw, ph, radius);
+      ctx.fill();
+      ctx.restore();
+    }
+
+    var sx = px + bezel, sy = py + bezel;
+    var sw = pw - bezel * 2, sh = ph - bezel * 2;
+    var sr = Math.max(2, radius - bezel);
+
+    ctx.save();
+    rr(ctx, sx, sy, sw, sh, sr);
+    ctx.clip();
+    if (img) {
+      // cover-fit: fill the screen, crop the overflow, never distort
+      var s = Math.max(sw / img.width, sh / img.height);
+      var dw = img.width * s, dh = img.height * s;
+      ctx.drawImage(img, sx + (sw - dw) / 2, sy + (sh - dh) / 2, dw, dh);
+    } else {
+      ctx.fillStyle = '#ffffff';
+      ctx.fillRect(sx, sy, sw, sh);
+      ctx.fillStyle = 'rgba(0,0,0,.06)';
+      for (var gy = sy + sh * 0.16; gy < sy + sh * 0.9; gy += sh * 0.075) {
+        ctx.fillRect(sx + sw * 0.1, gy, sw * (0.45 + ((gy | 0) % 7) / 20), sh * 0.028);
+      }
+      ctx.fillStyle = 'rgba(0,0,0,.28)';
+      ctx.textAlign = 'center';
+      ctx.textBaseline = 'middle';
+      ctx.font = '600 ' + sw * 0.055 + 'px ' + FONTS.sans;
+      ctx.fillText(LANG === 'vi' ? 'Ảnh app của bạn' : 'Your app screen', sx + sw / 2, sy + sh * 0.075);
+    }
+    ctx.restore();
+
+    if (frame === 'iphone') {
+      ctx.fillStyle = '#0b0b0f';
+      var iw = sw * 0.3, ih = sw * 0.082;
+      rr(ctx, sx + (sw - iw) / 2, sy + sw * 0.035, iw, ih, ih / 2);
+      ctx.fill();
+    } else if (frame === 'android') {
+      ctx.fillStyle = '#0b0b0f';
+      ctx.beginPath();
+      ctx.arc(sx + sw / 2, sy + sw * 0.06, sw * 0.026, 0, Math.PI * 2);
+      ctx.fill();
+    }
+
+    if (frame === 'iphone' || frame === 'android') {
+      ctx.strokeStyle = 'rgba(255,255,255,.14)';
+      ctx.lineWidth = Math.max(1, pw * 0.004);
+      rr(ctx, px + ctx.lineWidth / 2, py + ctx.lineWidth / 2, pw - ctx.lineWidth, ph - ctx.lineWidth, radius);
+      ctx.stroke();
+    }
+  }
+
+  function drawPanel(ctx, i, W, H) {
+    var p = state.panels[i];
+    ctx.save();
+    ctx.clearRect(0, 0, W, H);
+    var alt = drawBackground(ctx, W, H, i);
+
+    // Text colour has to survive whichever half of an alternating pair we're on.
+    var bgHere = state.bgMode === 'solid' ? state.bg1
+               : state.bgMode === 'alt' ? (alt ? state.bg2 : state.bg1)
+               : mix(state.bg1, state.bg2, 0.35);
+    var onDark = luma(bgHere) < 0.5;
+    var textColor = state.bgMode === 'alt' ? (onDark ? '#ffffff' : state.fg) : state.fg;
+
+    drawDecor(ctx, W, H, i, onDark);
+
+    // The phone keeps a real handset aspect ratio; the caption gets a fixed band
+    // and the phone fills whatever is left, bleeding off the edge when it can't.
+    var aspect = state.frame === 'android' ? 2.22 : 2.165;
+    var region, textBox;
+    if (state.layout === 'top') {
+      textBox = { x: 0, y: H * 0.055, w: W, h: H * 0.2 };
+      region = { top: H * 0.30, h: H * 0.78, align: 'start' };
+    } else if (state.layout === 'bottom') {
+      textBox = { x: 0, y: H * 0.755, w: W, h: H * 0.2 };
+      region = { top: -H * 0.04, h: H * 0.78, align: 'start' };
+    } else {
+      textBox = null;
+      region = { top: H * 0.06, h: H * 0.88, align: 'center' };
+    }
+
+    var ph = region.h * (state.scale / 100);
+    var pw = ph / aspect;
+    if (pw > W * 0.92) { pw = W * 0.92; ph = pw * aspect; }
+    var px = (W - pw) / 2;
+    var py = region.align === 'center' ? region.top + (region.h - ph) / 2 : region.top;
+
+    drawPhone(ctx, images[i] || null, W, H, { x: px, y: py, w: pw, h: ph });
+    if (textBox) drawText(ctx, p, W, H, textBox, textColor);
+    ctx.restore();
+  }
+
+  /* ------------------------------------------------------------------- DOM */
+  function buildPresets() {
+    var box = $('presets');
+    box.innerHTML = '';
+    Object.keys(PRESETS).forEach(function (k) {
+      var pr = PRESETS[k];
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'ass-preset';
+      b.setAttribute('aria-pressed', String(state.preset === k));
+      b.innerHTML = '<i style="background:' + pr.accent + '"></i>';
+      b.appendChild(document.createTextNode(pr.label));
+      b.addEventListener('click', function () {
+        state.preset = k;
+        ['bg1', 'bg2', 'fg', 'accent', 'bgMode', 'blobs', 'font'].forEach(function (f) { state[f] = pr[f]; });
+        syncInputs(); renderAll(); save();
+        box.querySelectorAll('.ass-preset').forEach(function (o) { o.setAttribute('aria-pressed', 'false'); });
+        b.setAttribute('aria-pressed', 'true');
+      });
+      box.appendChild(b);
+    });
+  }
+
+  function buildSizes() {
+    var sel = $('size');
+    sel.innerHTML = '';
+    SIZES.forEach(function (s) {
+      var o = document.createElement('option');
+      o.value = s.id; o.textContent = s.label;
+      sel.appendChild(o);
+    });
+  }
+
+  function buildStrip() {
+    var strip = $('strip');
+    strip.innerHTML = '';
+    state.panels.forEach(function (p, i) {
+      var card = document.createElement('div');
+      card.className = 'ass-card';
+      card.setAttribute('aria-selected', String(i === state.sel));
+
+      var cv = document.createElement('canvas');
+      cv.addEventListener('click', function () { state.sel = i; syncInputs(); markSel(); });
+      card.appendChild(cv);
+
+      var n = document.createElement('div');
+      n.className = 'ass-n';
+      n.textContent = (LANG === 'vi' ? 'Màn ' : 'Screen ') + (i + 1);
+      card.appendChild(n);
+
+      var tools = document.createElement('div');
+      tools.className = 'ass-tools';
+      [['◀', 'left'], ['▶', 'right'], ['⧉', 'dup'], ['⬇', 'one'], ['✕', 'del']].forEach(function (pair) {
+        var b = document.createElement('button');
+        b.type = 'button';
+        b.textContent = pair[0];
+        b.title = pair[1];
+        b.addEventListener('click', function (ev) { ev.stopPropagation(); cardAction(pair[1], i); });
+        tools.appendChild(b);
+      });
+      card.appendChild(tools);
+
+      // Drag a PNG straight onto the card it belongs to.
+      card.addEventListener('dragover', function (e) { e.preventDefault(); card.classList.add('ass-drop'); });
+      card.addEventListener('dragleave', function () { card.classList.remove('ass-drop'); });
+      card.addEventListener('drop', function (e) {
+        e.preventDefault();
+        card.classList.remove('ass-drop');
+        var f = e.dataTransfer && e.dataTransfer.files && e.dataTransfer.files[0];
+        if (f) loadImage(f, i);
+      });
+
+      strip.appendChild(card);
+    });
+    renderAll();
+  }
+
+  function markSel() {
+    root.querySelectorAll('.ass-card').forEach(function (c, i) {
+      c.setAttribute('aria-selected', String(i === state.sel));
+    });
+  }
+
+  function cardAction(kind, i) {
+    if (kind === 'del') {
+      if (state.panels.length <= 1) return;
+      state.panels.splice(i, 1);
+      shiftImages(i);
+      state.sel = Math.max(0, Math.min(state.sel, state.panels.length - 1));
+    } else if (kind === 'dup') {
+      state.panels.splice(i + 1, 0, JSON.parse(JSON.stringify(state.panels[i])));
+      insertImage(i);
+      state.sel = i + 1;
+    } else if (kind === 'left' && i > 0) {
+      swap(i, i - 1); state.sel = i - 1;
+    } else if (kind === 'right' && i < state.panels.length - 1) {
+      swap(i, i + 1); state.sel = i + 1;
+    } else if (kind === 'one') {
+      exportOne(i);
+      return;
+    } else return;
+    buildStrip(); syncInputs(); save();
+  }
+
+  function swap(a, b) {
+    var tmp = state.panels[a]; state.panels[a] = state.panels[b]; state.panels[b] = tmp;
+    var ia = images[a]; images[a] = images[b]; images[b] = ia;
+    if (!images[a]) delete images[a];
+    if (!images[b]) delete images[b];
+  }
+  function shiftImages(from) {
+    delete images[from];
+    for (var i = from; i < state.panels.length + 1; i++) {
+      if (images[i + 1]) { images[i] = images[i + 1]; delete images[i + 1]; }
+    }
+  }
+  function insertImage(at) {
+    for (var i = state.panels.length; i > at + 1; i--) {
+      if (images[i - 1]) images[i] = images[i - 1]; else delete images[i];
+    }
+    if (images[at]) images[at + 1] = images[at];
+  }
+
+  function renderAll() {
+    var s = size();
+    var cards = root.querySelectorAll('.ass-card canvas');
+    var previewW = 210, dpr = Math.min(2, window.devicePixelRatio || 1);
+    cards.forEach(function (cv, i) {
+      var w = Math.round(previewW * dpr), h = Math.round(previewW * (s.h / s.w) * dpr);
+      if (cv.width !== w || cv.height !== h) { cv.width = w; cv.height = h; }
+      cv.style.height = Math.round(previewW * (s.h / s.w)) + 'px';
+      drawPanel(cv.getContext('2d'), i, w, h);
+    });
+  }
+
+  /* ---------------------------------------------------------------- export */
+  function slug(s) {
+    return String(s || 'screen').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '')
+      .replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '').slice(0, 40) || 'screen';
+  }
+
+  function exportOne(i) {
+    var s = size();
+    var cv = document.createElement('canvas');
+    cv.width = s.w; cv.height = s.h;
+    drawPanel(cv.getContext('2d'), i, s.w, s.h);
+    cv.toBlob(function (blob) {
+      var a = document.createElement('a');
+      a.href = URL.createObjectURL(blob);
+      a.download = String(i + 1).padStart(2, '0') + '-' + slug(state.panels[i].headline) + '-' + s.w + 'x' + s.h + '.png';
+      document.body.appendChild(a); a.click(); a.remove();
+      setTimeout(function () { URL.revokeObjectURL(a.href); }, 4000);
+    }, 'image/png');
+  }
+
+  function exportAll() {
+    var st = $('status');
+    state.panels.forEach(function (_, i) {
+      // Browsers drop rapid-fire downloads, so space them out.
+      setTimeout(function () {
+        exportOne(i);
+        st.textContent = (LANG === 'vi' ? 'Đã xuất ' : 'Exported ') + (i + 1) + '/' + state.panels.length;
+        if (i === state.panels.length - 1) setTimeout(function () { st.textContent = ''; }, 2500);
+      }, i * 450);
+    });
+  }
+
+  /* ------------------------------------------------------------ image load */
+  function loadImage(file, idx) {
+    if (!file || !/^image\//.test(file.type)) return;
+    var fr = new FileReader();
+    fr.onload = function () {
+      var img = new Image();
+      img.onload = function () { images[idx] = img; renderAll(); };
+      img.src = fr.result;
+    };
+    fr.readAsDataURL(file);
+  }
+
+  /* ----------------------------------------------------------------- wiring */
+  function syncInputs() {
+    var p = state.panels[state.sel] || state.panels[0];
+    $('size').value = state.size;
+    $('customWrap').classList.toggle('ass-hidden', state.size !== 'custom');
+    $('cw').value = state.cw; $('ch').value = state.ch;
+    $('headline').value = p.headline;
+    $('sub').value = p.sub;
+    $('layout').value = state.layout;
+    $('frame').value = state.frame;
+    $('scale').value = state.scale;
+    $('fontScale').value = state.fontScale;
+    $('font').value = state.font;
+    $('bgMode').value = state.bgMode;
+    $('bg1').value = state.bg1;
+    $('bg2').value = state.bg2;
+    $('fg').value = state.fg;
+    $('accent').value = state.accent;
+    $('blobs').checked = !!state.blobs;
+    markSel();
+  }
+
+  function bind(name, field, ev, cast) {
+    $(name).addEventListener(ev || 'input', function () {
+      var el = $(name);
+      state[field] = cast ? cast(el.type === 'checkbox' ? el.checked : el.value)
+                          : (el.type === 'checkbox' ? el.checked : el.value);
+      if (field === 'size' || field === 'cw' || field === 'ch') {
+        $('customWrap').classList.toggle('ass-hidden', state.size !== 'custom');
+      }
+      renderAll(); save();
+    });
+  }
+
+  bind('size', 'size', 'change');
+  bind('cw', 'cw', 'input', Number);
+  bind('ch', 'ch', 'input', Number);
+  bind('layout', 'layout', 'change');
+  bind('frame', 'frame', 'change');
+  bind('scale', 'scale', 'input', Number);
+  bind('fontScale', 'fontScale', 'input', Number);
+  bind('font', 'font', 'change');
+  bind('bgMode', 'bgMode', 'change');
+  bind('bg1', 'bg1');
+  bind('bg2', 'bg2');
+  bind('fg', 'fg');
+  bind('accent', 'accent');
+  bind('blobs', 'blobs', 'change', Boolean);
+
+  ['headline', 'sub'].forEach(function (f) {
+    $(f).addEventListener('input', function () {
+      state.panels[state.sel][f] = $(f).value;
+      renderAll(); save();
+    });
+  });
+
+  root.querySelector('[data-act=add]').addEventListener('click', function () {
+    state.panels.push({ headline: '', sub: '', img: null });
+    state.sel = state.panels.length - 1;
+    buildStrip(); syncInputs(); save();
+  });
+  root.querySelector('[data-act=export-all]').addEventListener('click', exportAll);
+  root.querySelector('[data-act=pick]').addEventListener('click', function () { $('file').click(); });
+  root.querySelector('[data-act=clear-img]').addEventListener('click', function () {
+    delete images[state.sel]; renderAll();
+  });
+  root.querySelector('[data-act=sample]').addEventListener('click', function () {
+    state.panels.forEach(function (p, i) {
+      p.headline = SAMPLE[i % SAMPLE.length][0];
+      p.sub = SAMPLE[i % SAMPLE.length][1];
+    });
+    syncInputs(); renderAll(); save();
+  });
+  root.querySelector('[data-act=reset]').addEventListener('click', function () {
+    images = {};
+    try { localStorage.removeItem(KEY); } catch (e) {}
+    state.panels = [blank(0), blank(1), blank(2), blank(3)];
+    state.sel = 0;
+    var pr = PRESETS[state.preset];
+    ['bg1', 'bg2', 'fg', 'accent', 'bgMode', 'blobs', 'font'].forEach(function (f) { state[f] = pr[f]; });
+    buildStrip(); syncInputs(); save();
+  });
+  $('file').addEventListener('change', function (e) {
+    var f = e.target.files && e.target.files[0];
+    if (f) loadImage(f, state.sel);
+    e.target.value = '';
+  });
+
+  window.addEventListener('resize', function () { renderAll(); });
+
+  load();
+  buildPresets();
+  buildSizes();
+  buildStrip();
+  syncInputs();
+  renderAll();
+})();
+</script>
