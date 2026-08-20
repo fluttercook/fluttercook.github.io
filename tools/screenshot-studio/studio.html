@@ -67,8 +67,11 @@
     #assw .ass-chip { padding: 4px 10px; font-size: 12px; border-radius: 999px; }
     #assw .ass-chip[aria-pressed=true] { border-color: var(--a); background: #232741; color: #fff; }
 
+    /* auto-fill, not repeat(3): stacked on a narrow host the sidebar is as wide
+       as the page, and three fixed columns would blow each thumbnail up to
+       200px+ of canvas for a picker. This keeps cells ~80px and shows more. */
     #assw .ass-gallery {
-      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+      display: grid; grid-template-columns: repeat(auto-fill, minmax(72px, 1fr)); gap: 8px;
       max-height: 340px; overflow-y: auto; padding: 2px 4px 2px 2px;
     }
     /* No overflow:hidden here — on a <button> it collapses the height of an
@@ -671,7 +674,7 @@
     // display size and the export aspect ratio carries over untouched. Size it
     // from the measured cell: a fixed 104 was 1.34x oversampled in a 77px cell,
     // and 24 thumbs at that scale cost several MB of canvas memory for nothing.
-    var w = Math.max(48, Math.round(cellW || 104)),
+    var w = Math.min(160, Math.max(48, Math.round(cellW || 104))),
         dpr = Math.min(2, window.devicePixelRatio || 1);
     cv.width = Math.round(w * dpr);
     cv.height = Math.round(w * (s.h / s.w) * dpr);

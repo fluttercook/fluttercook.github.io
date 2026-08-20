@@ -202,7 +202,7 @@ def cross_link(lang: str, other_url: str) -> str:
         return ""
     meta = META[lang]
     return (
-        '<p style="font-size:14px;opacity:.8;margin:0 0 12px">'
+        '<p style="font-size:14px;opacity:.8;margin:14px 0 0">'
         f'{meta["crossLead"]}: '
         f'<a href="{other_url}" hreflang="{META[OTHER[lang]]["locale"]}" '
         f'lang="{META[OTHER[lang]]["locale"]}" rel="alternate">{meta["crossLabel"]}</a>'
@@ -234,8 +234,16 @@ def build_body(lang: str, blog_id: str = DEFAULT_BLOG_ID) -> str:
         raise SystemExit(f"blogger-{lang}.html is missing its <!--STUDIO--> marker")
     body = wrapper.replace("<!--STUDIO-->", studio)
 
-    meta = META[lang]
+    # The theme drop-caps the first letter of the whole post body, so the
+    # language link goes *after* the intro paragraph — in front of it, "Also"
+    # turns into a 80px "A" floating beside the page.
     this_url, other_url, home = page_urls(lang, blog_id)
+    link = cross_link(lang, other_url)
+    if link:
+        cut = body.find("</p>")
+        body = body[:cut + 4] + link + body[cut + 4:] if cut >= 0 else link + body
+
+    meta = META[lang]
     footer = (
         '<hr style="margin:32px 0 16px;border:0;border-top:1px solid #ddd" />'
         '<p style="font-size:14px;opacity:.75">'
@@ -243,7 +251,7 @@ def build_body(lang: str, blog_id: str = DEFAULT_BLOG_ID) -> str:
         + "</p>"
         + structured_data(lang, wrapper, this_url, home)
     )
-    return escape_script_unicode(cross_link(lang, other_url) + body + footer)
+    return escape_script_unicode(body + footer)
 
 
 def main() -> int:
