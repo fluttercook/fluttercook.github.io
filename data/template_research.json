@@ -1,0 +1,1541 @@
+{
+  "source": "https://appscreens.com/sitemap.xml",
+  "note": "Metadata only — names, URLs and surface classification derived from the public sitemap. No artwork or design data is copied. Templates marked brandDerived reproduce a named app's look and are excluded from anything we ship.",
+  "counts": {
+    "total": 165,
+    "brandDerived": 75,
+    "original": 90,
+    "bySurface": {
+      "macos": 3,
+      "phone-landscape": 9,
+      "phone-portrait": 133,
+      "play-feature-graphic": 11,
+      "vision": 3,
+      "watch": 6
+    }
+  },
+  "taxonomy": {
+    "orientation": [
+      "portrait",
+      "landscape"
+    ],
+    "tone": [
+      "light",
+      "dark",
+      "colourful"
+    ],
+    "style": [
+      "simple",
+      "advanced",
+      "multi layered",
+      "gradient",
+      "graphics"
+    ],
+    "appStoreCategories": [
+      "books",
+      "business",
+      "education",
+      "entertainment",
+      "developer tools",
+      "finance",
+      "food & drink",
+      "games",
+      "graphics & design",
+      "health & fitness",
+      "lifestyle",
+      "music",
+      "photo & video",
+      "productivity",
+      "reference",
+      "social networking",
+      "utilities"
+    ]
+  },
+  "templates": [
+    {
+      "slug": "macos",
+      "name": "Macos",
+      "url": "https://appscreens.com/template/app-store-screenshots/macos/7SOsf",
+      "storeType": "app-store-screenshots",
+      "surface": "macos",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "macos-inspired-by-slack",
+      "name": "Macos inspired by slack",
+      "url": "https://appscreens.com/template/app-store-screenshots/macos-inspired-by-slack/CnXae",
+      "storeType": "app-store-screenshots",
+      "surface": "macos",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "macos-inspired-by-trello",
+      "name": "Macos inspired by trello",
+      "url": "https://appscreens.com/template/app-store-screenshots/macos-inspired-by-trello/DVhNo",
+      "storeType": "app-store-screenshots",
+      "surface": "macos",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "landscape-aven",
+      "name": "Aven",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-aven/8oKJ4",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "landscape-cielo",
+      "name": "Cielo",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-cielo/V3Nr5",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "landscape-eira",
+      "name": "Eira",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-eira/LWDY8",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "landscape-inspired-by-calm",
+      "name": "Inspired by calm",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-inspired-by-calm/zngEs",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "landscape-inspired-by-clash-of-clans",
+      "name": "Inspired by clash of clans",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-inspired-by-clash-of-clans/N7G8I",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "landscape-inspired-by-gmail",
+      "name": "Inspired by gmail",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-inspired-by-gmail/AoUiO",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "landscape-nilo",
+      "name": "Nilo",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-nilo/To3yT",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "landscape-solis",
+      "name": "Solis",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-solis/2F1e7",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "landscape-zevi",
+      "name": "Zevi",
+      "url": "https://appscreens.com/template/app-store-screenshots/landscape-zevi/O9sex",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-landscape",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "aeris",
+      "name": "Aeris",
+      "url": "https://appscreens.com/template/app-store-screenshots/aeris/SyN8P",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "arden",
+      "name": "Arden",
+      "url": "https://appscreens.com/template/app-store-screenshots/arden/9bUtm",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "astra",
+      "name": "Astra",
+      "url": "https://appscreens.com/template/app-store-screenshots/astra/EirC3",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "axiom",
+      "name": "Axiom",
+      "url": "https://appscreens.com/template/app-store-screenshots/axiom/Lggo1",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "beauty",
+      "name": "Beauty",
+      "url": "https://appscreens.com/template/app-store-screenshots/beauty/EzB4j",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "bubbles",
+      "name": "Bubbles",
+      "url": "https://appscreens.com/template/app-store-screenshots/bubbles/YogMs",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "cityscape",
+      "name": "Cityscape",
+      "url": "https://appscreens.com/template/app-store-screenshots/cityscape/qvB5W",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "cove",
+      "name": "Cove",
+      "url": "https://appscreens.com/template/app-store-screenshots/cove/1tQDz",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "eira",
+      "name": "Eira",
+      "url": "https://appscreens.com/template/app-store-screenshots/eira/PZ92p",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "elio",
+      "name": "Elio",
+      "url": "https://appscreens.com/template/app-store-screenshots/elio/U395V",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "ember",
+      "name": "Ember",
+      "url": "https://appscreens.com/template/app-store-screenshots/ember/5sQWb",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "finance",
+      "name": "Finance",
+      "url": "https://appscreens.com/template/app-store-screenshots/finance/gKKu0",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "foodie",
+      "name": "Foodie",
+      "url": "https://appscreens.com/template/app-store-screenshots/foodie/MnSA7",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "free-inspired-by-calm",
+      "name": "Inspired by calm",
+      "url": "https://appscreens.com/template/app-store-screenshots/free-inspired-by-calm/xVfKL",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": true
+    },
+    {
+      "slug": "free-mono",
+      "name": "Mono",
+      "url": "https://appscreens.com/template/app-store-screenshots/free-mono/rO0a9",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": true
+    },
+    {
+      "slug": "free-solis",
+      "name": "Solis",
+      "url": "https://appscreens.com/template/app-store-screenshots/free-solis/5WVl2",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": true
+    },
+    {
+      "slug": "free-white",
+      "name": "White",
+      "url": "https://appscreens.com/template/app-store-screenshots/free-white/02boG",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": true
+    },
+    {
+      "slug": "glowfit",
+      "name": "Glowfit",
+      "url": "https://appscreens.com/template/app-store-screenshots/glowfit/k9fhH",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "halo",
+      "name": "Halo",
+      "url": "https://appscreens.com/template/app-store-screenshots/halo/crFkE",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "icy",
+      "name": "Icy",
+      "url": "https://appscreens.com/template/app-store-screenshots/icy/Ne3jI",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "inner-glow",
+      "name": "Inner glow",
+      "url": "https://appscreens.com/template/app-store-screenshots/inner-glow/jKWTI",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-adhd",
+      "name": "Inspired by adhd",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-adhd/1vVVg",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-adhd-app",
+      "name": "Inspired by adhd app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-adhd-app/7hU91",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-afk-arena",
+      "name": "Inspired by afk arena",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-afk-arena/PY6LS",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-airhelp",
+      "name": "Inspired by airhelp",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-airhelp/kSk7H",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-awake",
+      "name": "Inspired by awake",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-awake/8eW9o",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-bettersleep",
+      "name": "Inspired by bettersleep",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-bettersleep/VQV69",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-bevel",
+      "name": "Inspired by bevel",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-bevel/V1QHc",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-brain-training",
+      "name": "Inspired by brain training",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-brain-training/0nlOQ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-bumble",
+      "name": "Inspired by bumble",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-bumble/eb8Eg",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-calm",
+      "name": "Inspired by calm",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-calm/4sA7y",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-candy-crush",
+      "name": "Inspired by candy crush",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-candy-crush/zZXSW",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-carb-manager",
+      "name": "Inspired by carb manager",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-carb-manager/GRErb",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-chatgpt",
+      "name": "Inspired by chatgpt",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-chatgpt/kymPF",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-claude-by-anthropic",
+      "name": "Inspired by claude by anthropic",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-claude-by-anthropic/6qJST",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-commbank",
+      "name": "Inspired by commbank",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-commbank/tdGP6",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-current-banking-app",
+      "name": "Inspired by current banking app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-current-banking-app/1RjcJ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-diet-doctor",
+      "name": "Inspired by diet doctor",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-diet-doctor/CVsWl",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-discord",
+      "name": "Inspired by discord",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-discord/0FwdD",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-dogo",
+      "name": "Inspired by dogo",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-dogo/RkECq",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-duodo",
+      "name": "Inspired by duodo",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-duodo/aCHKH",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-duolingo",
+      "name": "Inspired by duolingo",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-duolingo/8GSfl",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-earkick",
+      "name": "Inspired by earkick",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-earkick/eAk3B",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-eventbrite",
+      "name": "Inspired by eventbrite",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-eventbrite/3avrJ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-fishing-app",
+      "name": "Inspired by fishing app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-fishing-app/6gqTI",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-fitmencook",
+      "name": "Inspired by fitmencook",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-fitmencook/6NjyA",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-flirtfame",
+      "name": "Inspired by flirtfame",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-flirtfame/4lZuC",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-flo",
+      "name": "Inspired by flo",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-flo/Kx5NU",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-gemini",
+      "name": "Inspired by gemini",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-gemini/OjMrW",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-givelify",
+      "name": "Inspired by givelify",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-givelify/SoFlQ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-gmail",
+      "name": "Inspired by gmail",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-gmail/QHkbh",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-google",
+      "name": "Inspired by google",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-google/KFLBU",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-habit-tracking",
+      "name": "Inspired by habit tracking",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-habit-tracking/kYV3p",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-headway",
+      "name": "Inspired by headway",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-headway/daBsM",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-invoice-app",
+      "name": "Inspired by invoice app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-invoice-app/sTuNg",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-jshealth",
+      "name": "Inspired by jshealth",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-jshealth/qxI2W",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-kic",
+      "name": "Inspired by kic",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-kic/6sEHP",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-kmart",
+      "name": "Inspired by kmart",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-kmart/XOxnm",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-max-stream",
+      "name": "Inspired by max stream",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-max-stream/JPu2u",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-messenger",
+      "name": "Inspired by messenger",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-messenger/e6cVk",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-microsoft-copilot",
+      "name": "Inspired by microsoft copilot",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-microsoft-copilot/qWyiL",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-microsoft-onedrive",
+      "name": "Inspired by microsoft onedrive",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-microsoft-onedrive/3cIEY",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-musixmatch",
+      "name": "Inspired by musixmatch",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-musixmatch/hgJwH",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-nordvpn",
+      "name": "Inspired by nordvpn",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-nordvpn/111Jj",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-organic-meals",
+      "name": "Inspired by organic meals",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-organic-meals/SPCld",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-paramount",
+      "name": "Inspired by paramount",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-paramount/GejQd",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-photo-editor-app",
+      "name": "Inspired by photo editor app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-photo-editor-app/WOuHN",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-pinterest",
+      "name": "Inspired by pinterest",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-pinterest/7IaTG",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-revenuecat",
+      "name": "Inspired by revenuecat",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-revenuecat/gPc27",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-roy-story",
+      "name": "Inspired by roy story",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-roy-story/czntF",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-royal-match",
+      "name": "Inspired by royal match",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-royal-match/O7naq",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-seed",
+      "name": "Inspired by seed",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-seed/g6KRH",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-snapchat",
+      "name": "Inspired by snapchat",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-snapchat/7NAMb",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-spotify",
+      "name": "Inspired by spotify",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-spotify/JKQv7",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-starbucks",
+      "name": "Inspired by starbucks",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-starbucks/FoHs3",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-streaming-app",
+      "name": "Inspired by streaming app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-streaming-app/wmo3G",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-stripe",
+      "name": "Inspired by stripe",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-stripe/Iwd3K",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-subway-surfers",
+      "name": "Inspired by subway surfers",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-subway-surfers/eOM6X",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-superlist",
+      "name": "Inspired by superlist",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-superlist/iQJV0",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-tiktok",
+      "name": "Inspired by tiktok",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-tiktok/ANBiD",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-time-tracking",
+      "name": "Inspired by time tracking",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-time-tracking/d9iq9",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-tinder",
+      "name": "Inspired by tinder",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-tinder/OP5N5",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-uber",
+      "name": "Inspired by uber",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-uber/KFZ05",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-univerbal-ai-language-learning",
+      "name": "Inspired by univerbal ai language learning",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-univerbal-ai-language-learning/lx7D8",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-vpn-app",
+      "name": "Inspired by vpn app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-vpn-app/0JgDc",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-walmart",
+      "name": "Inspired by walmart",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-walmart/x9eM8",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-by-zumba",
+      "name": "Inspired by zumba",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-by-zumba/zOjDE",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-from-dysperse",
+      "name": "Inspired from dysperse",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-from-dysperse/kzvt1",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-from-fitness-app",
+      "name": "Inspired from fitness app",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-from-fitness-app/grkhW",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "inspired-from-myfitnesspal",
+      "name": "Inspired from myfitnesspal",
+      "url": "https://appscreens.com/template/app-store-screenshots/inspired-from-myfitnesspal/3q2od",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": true,
+      "free": false
+    },
+    {
+      "slug": "kairo",
+      "name": "Kairo",
+      "url": "https://appscreens.com/template/app-store-screenshots/kairo/JamnX",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "kova",
+      "name": "Kova",
+      "url": "https://appscreens.com/template/app-store-screenshots/kova/tRiGP",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "luma",
+      "name": "Luma",
+      "url": "https://appscreens.com/template/app-store-screenshots/luma/a1Wz5",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "lumi",
+      "name": "Lumi",
+      "url": "https://appscreens.com/template/app-store-screenshots/lumi/89AFC",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "lyra",
+      "name": "Lyra",
+      "url": "https://appscreens.com/template/app-store-screenshots/lyra/aIYa8",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "midnight",
+      "name": "Midnight",
+      "url": "https://appscreens.com/template/app-store-screenshots/midnight/JR3PJ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "mira",
+      "name": "Mira",
+      "url": "https://appscreens.com/template/app-store-screenshots/mira/ogosZ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "mono",
+      "name": "Mono",
+      "url": "https://appscreens.com/template/app-store-screenshots/mono/RrxMw",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "nexa",
+      "name": "Nexa",
+      "url": "https://appscreens.com/template/app-store-screenshots/nexa/h2Kmm",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "nori",
+      "name": "Nori",
+      "url": "https://appscreens.com/template/app-store-screenshots/nori/Am6x1",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "nova",
+      "name": "Nova",
+      "url": "https://appscreens.com/template/app-store-screenshots/nova/ROSej",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "ori",
+      "name": "Ori",
+      "url": "https://appscreens.com/template/app-store-screenshots/ori/pAXA8",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "orin",
+      "name": "Orin",
+      "url": "https://appscreens.com/template/app-store-screenshots/orin/ZMGpr",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "oryn",
+      "name": "Oryn",
+      "url": "https://appscreens.com/template/app-store-screenshots/oryn/ZXaXZ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "planner",
+      "name": "Planner",
+      "url": "https://appscreens.com/template/app-store-screenshots/planner/YSzXM",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "pluto",
+      "name": "Pluto",
+      "url": "https://appscreens.com/template/app-store-screenshots/pluto/wTw4e",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "postpartum",
+      "name": "Postpartum",
+      "url": "https://appscreens.com/template/app-store-screenshots/postpartum/4jZaj",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "power",
+      "name": "Power",
+      "url": "https://appscreens.com/template/app-store-screenshots/power/a2gLu",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "rove",
+      "name": "Rove",
+      "url": "https://appscreens.com/template/app-store-screenshots/rove/EYfwJ",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "runa",
+      "name": "Runa",
+      "url": "https://appscreens.com/template/app-store-screenshots/runa/0JbGu",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "senna",
+      "name": "Senna",
+      "url": "https://appscreens.com/template/app-store-screenshots/senna/XzVS3",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "shop",
+      "name": "Shop",
+      "url": "https://appscreens.com/template/app-store-screenshots/shop/KqRsN",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "soft",
+      "name": "Soft",
+      "url": "https://appscreens.com/template/app-store-screenshots/soft/bSvmS",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "solis",
+      "name": "Solis",
+      "url": "https://appscreens.com/template/app-store-screenshots/solis/g9OdC",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "sora",
+      "name": "Sora",
+      "url": "https://appscreens.com/template/app-store-screenshots/sora/SP6K8",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "spy-game",
+      "name": "Spy game",
+      "url": "https://appscreens.com/template/app-store-screenshots/spy-game/T0fNC",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe",
+      "url": "https://appscreens.com/template/app-store-screenshots/stripe/RIT4p",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "tali",
+      "name": "Tali",
+      "url": "https://appscreens.com/template/app-store-screenshots/tali/uDeOY",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "tavo",
+      "name": "Tavo",
+      "url": "https://appscreens.com/template/app-store-screenshots/tavo/MyJ9r",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "tech",
+      "name": "Tech",
+      "url": "https://appscreens.com/template/app-store-screenshots/tech/iWa1v",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "translate",
+      "name": "Translate",
+      "url": "https://appscreens.com/template/app-store-screenshots/translate/E6Ax5",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "travel",
+      "name": "Travel",
+      "url": "https://appscreens.com/template/app-store-screenshots/travel/vhLxu",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "triton",
+      "name": "Triton",
+      "url": "https://appscreens.com/template/app-store-screenshots/triton/qdMPC",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "underlines",
+      "name": "Underlines",
+      "url": "https://appscreens.com/template/app-store-screenshots/underlines/2drXR",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "vale",
+      "name": "Vale",
+      "url": "https://appscreens.com/template/app-store-screenshots/vale/vPKFC",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "vals",
+      "name": "Vals",
+      "url": "https://appscreens.com/template/app-store-screenshots/vals/Q7RCz",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "vanta",
+      "name": "Vanta",
+      "url": "https://appscreens.com/template/app-store-screenshots/vanta/M1FIx",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "vela",
+      "name": "Vela",
+      "url": "https://appscreens.com/template/app-store-screenshots/vela/AHWMw",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "vero",
+      "name": "Vero",
+      "url": "https://appscreens.com/template/app-store-screenshots/vero/0mcEs",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "veya",
+      "name": "Veya",
+      "url": "https://appscreens.com/template/app-store-screenshots/veya/oejNg",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "waves",
+      "name": "Waves",
+      "url": "https://appscreens.com/template/app-store-screenshots/waves/zxHlH",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "zeus",
+      "name": "Zeus",
+      "url": "https://appscreens.com/template/app-store-screenshots/zeus/yTBMq",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "zuri",
+      "name": "Zuri",
+      "url": "https://appscreens.com/template/app-store-screenshots/zuri/X01c3",
+      "storeType": "app-store-screenshots",
+      "surface": "phone-portrait",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-alert",
+      "name": "Google feature graphic alert",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-alert/iRldB",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-example-1",
+      "name": "Google feature graphic example 1",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-example-1/SbfT1",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-example-2",
+      "name": "Google feature graphic example 2",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-example-2/zKfwO",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-example-3",
+      "name": "Google feature graphic example 3",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-example-3/8sm03",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-example-4",
+      "name": "Google feature graphic example 4",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-example-4/Itj7y",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-finance",
+      "name": "Google feature graphic finance",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-finance/NbpvT",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-fitness-1",
+      "name": "Google feature graphic fitness 1",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-fitness-1/iBcwi",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-fitness-2",
+      "name": "Google feature graphic fitness 2",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-fitness-2/pGFfw",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-pets",
+      "name": "Google feature graphic pets",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-pets/Wf7Ze",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-sleep",
+      "name": "Google feature graphic sleep",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-sleep/BVBRW",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "google-feature-graphic-trading",
+      "name": "Google feature graphic trading",
+      "url": "https://appscreens.com/template/app-store-screenshots/google-feature-graphic-trading/DQbLq",
+      "storeType": "app-store-screenshots",
+      "surface": "play-feature-graphic",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "apple-vision-pro-1",
+      "name": "Apple vision pro 1",
+      "url": "https://appscreens.com/template/app-store-screenshots/apple-vision-pro-1/Mw2Ln",
+      "storeType": "app-store-screenshots",
+      "surface": "vision",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "apple-vision-pro-2",
+      "name": "Apple vision pro 2",
+      "url": "https://appscreens.com/template/app-store-screenshots/apple-vision-pro-2/dmIKV",
+      "storeType": "app-store-screenshots",
+      "surface": "vision",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "apple-vision-pro-3",
+      "name": "Apple vision pro 3",
+      "url": "https://appscreens.com/template/app-store-screenshots/apple-vision-pro-3/tzJ7f",
+      "storeType": "app-store-screenshots",
+      "surface": "vision",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "watch-1",
+      "name": "Watch 1",
+      "url": "https://appscreens.com/template/app-store-screenshots/watch-1/oWWzp",
+      "storeType": "app-store-screenshots",
+      "surface": "watch",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "watch-2",
+      "name": "Watch 2",
+      "url": "https://appscreens.com/template/app-store-screenshots/watch-2/Kt41m",
+      "storeType": "app-store-screenshots",
+      "surface": "watch",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "watch-3",
+      "name": "Watch 3",
+      "url": "https://appscreens.com/template/app-store-screenshots/watch-3/tV41N",
+      "storeType": "app-store-screenshots",
+      "surface": "watch",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "watch-4",
+      "name": "Watch 4",
+      "url": "https://appscreens.com/template/app-store-screenshots/watch-4/BCCRL",
+      "storeType": "app-store-screenshots",
+      "surface": "watch",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "watch-5",
+      "name": "Watch 5",
+      "url": "https://appscreens.com/template/app-store-screenshots/watch-5/F4BTL",
+      "storeType": "app-store-screenshots",
+      "surface": "watch",
+      "brandDerived": false,
+      "free": false
+    },
+    {
+      "slug": "watch-6",
+      "name": "Watch 6",
+      "url": "https://appscreens.com/template/app-store-screenshots/watch-6/cSgyf",
+      "storeType": "app-store-screenshots",
+      "surface": "watch",
+      "brandDerived": false,
+      "free": false
+    }
+  ]
+}

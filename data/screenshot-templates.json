@@ -1,0 +1,151 @@
+{
+  "$comment": "Template library for tools/screenshot-studio. Source of truth: run scripts/build_studio_templates.py after editing to regenerate the inlined copy in studio.html. Every design here is original — see data/template_research.json for why none of the brand-derived gallery entries were copied.",
+  "version": 1,
+  "tones": ["light", "dark", "colourful"],
+  "templates": [
+    {
+      "id": "violet", "name": { "en": "Violet Play", "vi": "Tím" }, "tone": "colourful",
+      "tags": ["education", "lifestyle", "gradient"],
+      "bgMode": "alt", "bg1": "#efeaff", "bg2": "#6c4cf1", "fg": "#1b1338", "accent": "#6c4cf1",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "midnight", "name": { "en": "Midnight", "vi": "Đêm" }, "tone": "dark",
+      "tags": ["developer tools", "utilities", "gradient"],
+      "bgMode": "gradient", "bg1": "#161b2e", "bg2": "#0a0d18", "fg": "#f2f4ff", "accent": "#7c8cff",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "coral", "name": { "en": "Coral Sunrise", "vi": "San hô" }, "tone": "colourful",
+      "tags": ["food & drink", "lifestyle", "gradient"],
+      "bgMode": "gradient", "bg1": "#ffd9c7", "bg2": "#ff6b4a", "fg": "#40160c", "accent": "#ff6b4a",
+      "font": "rounded", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "mint", "name": { "en": "Mint", "vi": "Bạc hà" }, "tone": "light",
+      "tags": ["health & fitness", "productivity"],
+      "bgMode": "alt", "bg1": "#e6fff4", "bg2": "#12b981", "fg": "#04322a", "accent": "#12b981",
+      "font": "rounded", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "mono", "name": { "en": "Mono", "vi": "Tối giản" }, "tone": "light",
+      "tags": ["business", "simple"],
+      "bgMode": "solid", "bg1": "#f4f4f5", "bg2": "#e4e4e7", "fg": "#18181b", "accent": "#18181b",
+      "font": "serif", "layout": "top", "frame": "iphone", "blobs": false
+    },
+    {
+      "id": "ocean", "name": { "en": "Deep Ocean", "vi": "Đại dương" }, "tone": "dark",
+      "tags": ["travel", "navigation", "gradient"],
+      "bgMode": "gradient", "bg1": "#0b2545", "bg2": "#134074", "fg": "#eaf4ff", "accent": "#4cc9f0",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "sunburst", "name": { "en": "Sunburst", "vi": "Nắng" }, "tone": "colourful",
+      "tags": ["games", "entertainment", "gradient"],
+      "bgMode": "gradient", "bg1": "#ffe66d", "bg2": "#ff8c42", "fg": "#3d2200", "accent": "#ff5714",
+      "font": "rounded", "layout": "bottom", "frame": "android", "blobs": true
+    },
+    {
+      "id": "rose", "name": { "en": "Rose Quartz", "vi": "Thạch anh hồng" }, "tone": "light",
+      "tags": ["lifestyle", "social networking", "gradient"],
+      "bgMode": "gradient", "bg1": "#ffe3ec", "bg2": "#ff8fab", "fg": "#4a1226", "accent": "#e05780",
+      "font": "rounded", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "slate", "name": { "en": "Slate", "vi": "Đá phiến" }, "tone": "dark",
+      "tags": ["finance", "business", "simple"],
+      "bgMode": "solid", "bg1": "#12151c", "bg2": "#0b0d12", "fg": "#e7ecf5", "accent": "#4ade80",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": false
+    },
+    {
+      "id": "lime", "name": { "en": "Lime Pop", "vi": "Chanh" }, "tone": "colourful",
+      "tags": ["social networking", "education"],
+      "bgMode": "alt", "bg1": "#f2ffd6", "bg2": "#84cc16", "fg": "#1a2e05", "accent": "#65a30d",
+      "font": "rounded", "layout": "top", "frame": "android", "blobs": true
+    },
+    {
+      "id": "ink", "name": { "en": "Ink & Paper", "vi": "Mực và giấy" }, "tone": "light",
+      "tags": ["books", "reference", "simple"],
+      "bgMode": "solid", "bg1": "#faf6ef", "bg2": "#efe7d8", "fg": "#1c1917", "accent": "#b45309",
+      "font": "serif", "layout": "top", "frame": "flat", "blobs": false
+    },
+    {
+      "id": "neon", "name": { "en": "Neon Grid", "vi": "Neon" }, "tone": "dark",
+      "tags": ["music", "entertainment", "gradient"],
+      "bgMode": "gradient", "bg1": "#1a0033", "bg2": "#3d0066", "fg": "#f5e6ff", "accent": "#d946ef",
+      "font": "sans", "layout": "bottom", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "sky", "name": { "en": "Clear Sky", "vi": "Trời trong" }, "tone": "light",
+      "tags": ["productivity", "utilities", "gradient"],
+      "bgMode": "gradient", "bg1": "#e0f2fe", "bg2": "#38bdf8", "fg": "#082f49", "accent": "#0284c7",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "sand", "name": { "en": "Desert Sand", "vi": "Cát" }, "tone": "light",
+      "tags": ["photo & video", "travel"],
+      "bgMode": "alt", "bg1": "#fdf6e3", "bg2": "#d97706", "fg": "#3f2d0b", "accent": "#b45309",
+      "font": "serif", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "forest", "name": { "en": "Forest", "vi": "Rừng" }, "tone": "dark",
+      "tags": ["health & fitness", "lifestyle", "gradient"],
+      "bgMode": "gradient", "bg1": "#052e16", "bg2": "#14532d", "fg": "#ecfdf5", "accent": "#4ade80",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "berry", "name": { "en": "Berry", "vi": "Mọng" }, "tone": "colourful",
+      "tags": ["entertainment", "social networking", "gradient"],
+      "bgMode": "gradient", "bg1": "#fce7f3", "bg2": "#a21caf", "fg": "#3b0764", "accent": "#c026d3",
+      "font": "rounded", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "steel", "name": { "en": "Steel", "vi": "Thép" }, "tone": "light",
+      "tags": ["utilities", "developer tools", "simple"],
+      "bgMode": "solid", "bg1": "#e5e7eb", "bg2": "#d1d5db", "fg": "#111827", "accent": "#374151",
+      "font": "mono", "layout": "top", "frame": "flat", "blobs": false
+    },
+    {
+      "id": "amber", "name": { "en": "Amber Focus", "vi": "Hổ phách" }, "tone": "colourful",
+      "tags": ["education", "productivity"],
+      "bgMode": "alt", "bg1": "#fff7ed", "bg2": "#f59e0b", "fg": "#451a03", "accent": "#d97706",
+      "font": "rounded", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "cobalt", "name": { "en": "Cobalt", "vi": "Cobalt" }, "tone": "dark",
+      "tags": ["business", "finance", "simple"],
+      "bgMode": "solid", "bg1": "#0f172a", "bg2": "#020617", "fg": "#f1f5f9", "accent": "#3b82f6",
+      "font": "sans", "layout": "bottom", "frame": "iphone", "blobs": false
+    },
+    {
+      "id": "blush", "name": { "en": "Blush Minimal", "vi": "Phấn hồng" }, "tone": "light",
+      "tags": ["lifestyle", "health & fitness", "simple"],
+      "bgMode": "solid", "bg1": "#fff1f2", "bg2": "#ffe4e6", "fg": "#4c0519", "accent": "#fb7185",
+      "font": "serif", "layout": "top", "frame": "flat", "blobs": false
+    },
+    {
+      "id": "carbon", "name": { "en": "Carbon", "vi": "Carbon" }, "tone": "dark",
+      "tags": ["developer tools", "utilities", "gradient"],
+      "bgMode": "gradient", "bg1": "#18181b", "bg2": "#000000", "fg": "#fafafa", "accent": "#22d3ee",
+      "font": "mono", "layout": "top", "frame": "android", "blobs": false
+    },
+    {
+      "id": "teal", "name": { "en": "Teal Tide", "vi": "Thuỷ triều" }, "tone": "colourful",
+      "tags": ["finance", "productivity", "gradient"],
+      "bgMode": "gradient", "bg1": "#ccfbf1", "bg2": "#0d9488", "fg": "#042f2e", "accent": "#14b8a6",
+      "font": "sans", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "plum", "name": { "en": "Plum Night", "vi": "Mận đêm" }, "tone": "dark",
+      "tags": ["health & fitness", "music", "gradient"],
+      "bgMode": "gradient", "bg1": "#2e1065", "bg2": "#1e1b4b", "fg": "#ede9fe", "accent": "#a78bfa",
+      "font": "rounded", "layout": "top", "frame": "iphone", "blobs": true
+    },
+    {
+      "id": "paper", "name": { "en": "Paper White", "vi": "Giấy trắng" }, "tone": "light",
+      "tags": ["photo & video", "graphics & design", "simple"],
+      "bgMode": "solid", "bg1": "#ffffff", "bg2": "#f4f4f5", "fg": "#0a0a0a", "accent": "#0a0a0a",
+      "font": "serif", "layout": "none", "frame": "flat", "blobs": false
+    }
+  ]
+}

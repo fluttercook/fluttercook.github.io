@@ -57,10 +57,25 @@
     #assw button.ass-primary:hover { filter: brightness(1.08); }
     #assw .ass-btns { display: flex; flex-wrap: wrap; gap: 8px; }
 
-    #assw .ass-presets { display: flex; flex-wrap: wrap; gap: 6px; }
-    #assw .ass-preset { padding: 5px 9px; font-size: 12px; display: flex; align-items: center; gap: 6px; }
-    #assw .ass-preset i { width: 11px; height: 11px; border-radius: 50%; display: inline-block; }
-    #assw .ass-preset[aria-pressed=true] { border-color: var(--a); background: #232741; }
+    #assw .ass-chips { display: flex; flex-wrap: wrap; gap: 6px; margin: 2px 0 2px; }
+    #assw .ass-chip { padding: 4px 10px; font-size: 12px; border-radius: 999px; }
+    #assw .ass-chip[aria-pressed=true] { border-color: var(--a); background: #232741; color: #fff; }
+
+    #assw .ass-gallery {
+      display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px;
+      max-height: 340px; overflow-y: auto; padding: 2px 4px 2px 2px;
+    }
+    /* No overflow:hidden here — on a <button> it collapses the height of an
+       auto-sized child, so the canvas rounds its own top corners instead. */
+    #assw .ass-tpl { padding: 0; background: #0c0e14; border-radius: 10px; }
+    #assw .ass-tpl canvas { display: block; width: 100%; height: auto; border-radius: 9px 9px 0 0; }
+    #assw .ass-tpl span {
+      display: block; font-size: 10px; padding: 4px 3px; color: var(--muted);
+      text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    #assw .ass-tpl[aria-pressed=true] { border-color: var(--a); box-shadow: 0 0 0 1px var(--a); }
+    #assw .ass-tpl[aria-pressed=true] span { color: var(--fg); }
+    #assw .ass-empty { grid-column: 1 / -1; font-size: 12px; color: var(--muted); padding: 8px 2px; }
 
     #assw .ass-stage { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; min-width: 0; }
     #assw .ass-strip { display: flex; gap: 14px; overflow-x: auto; padding: 4px 2px 12px; scroll-snap-type: x proximity; }
@@ -96,7 +111,10 @@
     <aside class="ass-side">
       <div class="ass-group">
         <h3 data-t="hTemplate">Template</h3>
-        <div class="ass-presets" data-el="presets"></div>
+        <input type="search" data-el="tplQ" data-t-ph="tplSearch" placeholder="Search name or category…" />
+        <div class="ass-chips" data-el="tplTones"></div>
+        <div class="ass-gallery" data-el="gallery"></div>
+        <p class="ass-note" data-el="tplCount"></p>
       </div>
 
       <div class="ass-group">
@@ -217,7 +235,8 @@
       title: 'Xưởng ảnh chụp màn hình App Store',
       tagline: 'Thả ảnh màn hình app vào, viết caption, xuất PNG đúng chuẩn store. Không có gì được tải lên — mọi thứ render ngay trong trình duyệt.',
       add: '+ Thêm màn hình', exportAll: 'Tải tất cả PNG',
-      hTemplate: 'Mẫu', hSize: 'Kích thước xuất', device: 'Thiết bị',
+      hTemplate: 'Mẫu', tplSearch: 'Tìm theo tên hoặc danh mục…',
+      hSize: 'Kích thước xuất', device: 'Thiết bị',
       width: 'Rộng', height: 'Cao',
       hPanel: 'Màn hình đang chọn', headline: 'Tiêu đề', sub: 'Mô tả phụ',
       upload: 'Tải ảnh lên…', removeImg: 'Xoá ảnh',
@@ -241,6 +260,10 @@
       var v = T[el.dataset.t];
       if (v) el.textContent = v;
     });
+    root.querySelectorAll('[data-t-ph]').forEach(function (el) {
+      var v = T[el.dataset.tPh];
+      if (v) el.placeholder = v;
+    });
   }
 
   /* ------------------------------------------------------------- constants */
@@ -253,13 +276,46 @@
     { id: 'custom',label: LANG === 'vi' ? 'Tuỳ chỉnh…' : 'Custom…', w: 1320, h: 2868 }
   ];
 
-  var PRESETS = {
-    violet:  { label: LANG === 'vi' ? 'Tím' : 'Violet',   bg1: '#efeaff', bg2: '#6c4cf1', fg: '#1b1338', accent: '#6c4cf1', bgMode: 'alt',      blobs: true,  font: 'sans' },
-    midnight:{ label: LANG === 'vi' ? 'Đêm' : 'Midnight', bg1: '#161b2e', bg2: '#0a0d18', fg: '#f2f4ff', accent: '#7c8cff', bgMode: 'gradient', blobs: true,  font: 'sans' },
-    coral:   { label: LANG === 'vi' ? 'San hô' : 'Coral', bg1: '#ffd9c7', bg2: '#ff6b4a', fg: '#40160c', accent: '#ff6b4a', bgMode: 'gradient', blobs: true,  font: 'rounded' },
-    mint:    { label: LANG === 'vi' ? 'Bạc hà' : 'Mint',  bg1: '#e6fff4', bg2: '#12b981', fg: '#04322a', accent: '#12b981', bgMode: 'alt',      blobs: true,  font: 'rounded' },
-    mono:    { label: LANG === 'vi' ? 'Tối giản' : 'Mono',bg1: '#f4f4f5', bg2: '#e4e4e7', fg: '#18181b', accent: '#18181b', bgMode: 'solid',    blobs: false, font: 'serif' }
-  };
+  /* TEMPLATES:BEGIN — generated from data/screenshot-templates.json
+     by scripts/build_studio_templates.py. Do not edit by hand. */
+  var TEMPLATES = [
+    {"id":"violet","name":{"en":"Violet Play","vi":"T\u00edm"},"tone":"colourful","tags":["education","lifestyle","gradient"],"bgMode":"alt","bg1":"#efeaff","bg2":"#6c4cf1","fg":"#1b1338","accent":"#6c4cf1","font":"sans","layout":"top","frame":"iphone","blobs":true},
+    {"id":"midnight","name":{"en":"Midnight","vi":"\u0110\u00eam"},"tone":"dark","tags":["developer tools","utilities","gradient"],"bgMode":"gradient","bg1":"#161b2e","bg2":"#0a0d18","fg":"#f2f4ff","accent":"#7c8cff","font":"sans","layout":"top","frame":"iphone","blobs":true},
+    {"id":"coral","name":{"en":"Coral Sunrise","vi":"San h\u00f4"},"tone":"colourful","tags":["food & drink","lifestyle","gradient"],"bgMode":"gradient","bg1":"#ffd9c7","bg2":"#ff6b4a","fg":"#40160c","accent":"#ff6b4a","font":"rounded","layout":"top","frame":"iphone","blobs":true},
+    {"id":"mint","name":{"en":"Mint","vi":"B\u1ea1c h\u00e0"},"tone":"light","tags":["health & fitness","productivity"],"bgMode":"alt","bg1":"#e6fff4","bg2":"#12b981","fg":"#04322a","accent":"#12b981","font":"rounded","layout":"top","frame":"iphone","blobs":true},
+    {"id":"mono","name":{"en":"Mono","vi":"T\u1ed1i gi\u1ea3n"},"tone":"light","tags":["business","simple"],"bgMode":"solid","bg1":"#f4f4f5","bg2":"#e4e4e7","fg":"#18181b","accent":"#18181b","font":"serif","layout":"top","frame":"iphone","blobs":false},
+    {"id":"ocean","name":{"en":"Deep Ocean","vi":"\u0110\u1ea1i d\u01b0\u01a1ng"},"tone":"dark","tags":["travel","navigation","gradient"],"bgMode":"gradient","bg1":"#0b2545","bg2":"#134074","fg":"#eaf4ff","accent":"#4cc9f0","font":"sans","layout":"top","frame":"iphone","blobs":true},
+    {"id":"sunburst","name":{"en":"Sunburst","vi":"N\u1eafng"},"tone":"colourful","tags":["games","entertainment","gradient"],"bgMode":"gradient","bg1":"#ffe66d","bg2":"#ff8c42","fg":"#3d2200","accent":"#ff5714","font":"rounded","layout":"bottom","frame":"android","blobs":true},
+    {"id":"rose","name":{"en":"Rose Quartz","vi":"Th\u1ea1ch anh h\u1ed3ng"},"tone":"light","tags":["lifestyle","social networking","gradient"],"bgMode":"gradient","bg1":"#ffe3ec","bg2":"#ff8fab","fg":"#4a1226","accent":"#e05780","font":"rounded","layout":"top","frame":"iphone","blobs":true},
+    {"id":"slate","name":{"en":"Slate","vi":"\u0110\u00e1 phi\u1ebfn"},"tone":"dark","tags":["finance","business","simple"],"bgMode":"solid","bg1":"#12151c","bg2":"#0b0d12","fg":"#e7ecf5","accent":"#4ade80","font":"sans","layout":"top","frame":"iphone","blobs":false},
+    {"id":"lime","name":{"en":"Lime Pop","vi":"Chanh"},"tone":"colourful","tags":["social networking","education"],"bgMode":"alt","bg1":"#f2ffd6","bg2":"#84cc16","fg":"#1a2e05","accent":"#65a30d","font":"rounded","layout":"top","frame":"android","blobs":true},
+    {"id":"ink","name":{"en":"Ink & Paper","vi":"M\u1ef1c v\u00e0 gi\u1ea5y"},"tone":"light","tags":["books","reference","simple"],"bgMode":"solid","bg1":"#faf6ef","bg2":"#efe7d8","fg":"#1c1917","accent":"#b45309","font":"serif","layout":"top","frame":"flat","blobs":false},
+    {"id":"neon","name":{"en":"Neon Grid","vi":"Neon"},"tone":"dark","tags":["music","entertainment","gradient"],"bgMode":"gradient","bg1":"#1a0033","bg2":"#3d0066","fg":"#f5e6ff","accent":"#d946ef","font":"sans","layout":"bottom","frame":"iphone","blobs":true},
+    {"id":"sky","name":{"en":"Clear Sky","vi":"Tr\u1eddi trong"},"tone":"light","tags":["productivity","utilities","gradient"],"bgMode":"gradient","bg1":"#e0f2fe","bg2":"#38bdf8","fg":"#082f49","accent":"#0284c7","font":"sans","layout":"top","frame":"iphone","blobs":true},
+    {"id":"sand","name":{"en":"Desert Sand","vi":"C\u00e1t"},"tone":"light","tags":["photo & video","travel"],"bgMode":"alt","bg1":"#fdf6e3","bg2":"#d97706","fg":"#3f2d0b","accent":"#b45309","font":"serif","layout":"top","frame":"iphone","blobs":true},
+    {"id":"forest","name":{"en":"Forest","vi":"R\u1eebng"},"tone":"dark","tags":["health & fitness","lifestyle","gradient"],"bgMode":"gradient","bg1":"#052e16","bg2":"#14532d","fg":"#ecfdf5","accent":"#4ade80","font":"sans","layout":"top","frame":"iphone","blobs":true},
+    {"id":"berry","name":{"en":"Berry","vi":"M\u1ecdng"},"tone":"colourful","tags":["entertainment","social networking","gradient"],"bgMode":"gradient","bg1":"#fce7f3","bg2":"#a21caf","fg":"#3b0764","accent":"#c026d3","font":"rounded","layout":"top","frame":"iphone","blobs":true},
+    {"id":"steel","name":{"en":"Steel","vi":"Th\u00e9p"},"tone":"light","tags":["utilities","developer tools","simple"],"bgMode":"solid","bg1":"#e5e7eb","bg2":"#d1d5db","fg":"#111827","accent":"#374151","font":"mono","layout":"top","frame":"flat","blobs":false},
+    {"id":"amber","name":{"en":"Amber Focus","vi":"H\u1ed5 ph\u00e1ch"},"tone":"colourful","tags":["education","productivity"],"bgMode":"alt","bg1":"#fff7ed","bg2":"#f59e0b","fg":"#451a03","accent":"#d97706","font":"rounded","layout":"top","frame":"iphone","blobs":true},
+    {"id":"cobalt","name":{"en":"Cobalt","vi":"Cobalt"},"tone":"dark","tags":["business","finance","simple"],"bgMode":"solid","bg1":"#0f172a","bg2":"#020617","fg":"#f1f5f9","accent":"#3b82f6","font":"sans","layout":"bottom","frame":"iphone","blobs":false},
+    {"id":"blush","name":{"en":"Blush Minimal","vi":"Ph\u1ea5n h\u1ed3ng"},"tone":"light","tags":["lifestyle","health & fitness","simple"],"bgMode":"solid","bg1":"#fff1f2","bg2":"#ffe4e6","fg":"#4c0519","accent":"#fb7185","font":"serif","layout":"top","frame":"flat","blobs":false},
+    {"id":"carbon","name":{"en":"Carbon","vi":"Carbon"},"tone":"dark","tags":["developer tools","utilities","gradient"],"bgMode":"gradient","bg1":"#18181b","bg2":"#000000","fg":"#fafafa","accent":"#22d3ee","font":"mono","layout":"top","frame":"android","blobs":false},
+    {"id":"teal","name":{"en":"Teal Tide","vi":"Thu\u1ef7 tri\u1ec1u"},"tone":"colourful","tags":["finance","productivity","gradient"],"bgMode":"gradient","bg1":"#ccfbf1","bg2":"#0d9488","fg":"#042f2e","accent":"#14b8a6","font":"sans","layout":"top","frame":"iphone","blobs":true},
+    {"id":"plum","name":{"en":"Plum Night","vi":"M\u1eadn \u0111\u00eam"},"tone":"dark","tags":["health & fitness","music","gradient"],"bgMode":"gradient","bg1":"#2e1065","bg2":"#1e1b4b","fg":"#ede9fe","accent":"#a78bfa","font":"rounded","layout":"top","frame":"iphone","blobs":true},
+    {"id":"paper","name":{"en":"Paper White","vi":"Gi\u1ea5y tr\u1eafng"},"tone":"light","tags":["photo & video","graphics & design","simple"],"bgMode":"solid","bg1":"#ffffff","bg2":"#f4f4f5","fg":"#0a0a0a","accent":"#0a0a0a","font":"serif","layout":"none","frame":"flat","blobs":false}
+  ];
+  /* TEMPLATES:END */
+
+  var TONES = [
+    { id: 'all',       label: LANG === 'vi' ? 'Tất cả'   : 'All' },
+    { id: 'light',     label: LANG === 'vi' ? 'Sáng'     : 'Light' },
+    { id: 'dark',      label: LANG === 'vi' ? 'Tối'      : 'Dark' },
+    { id: 'colourful', label: LANG === 'vi' ? 'Nhiều màu': 'Colourful' }
+  ];
+
+  // Everything a template is allowed to set. Panel text and export size are the
+  // user's, so switching template never touches them.
+  var TPL_FIELDS = ['bg1', 'bg2', 'fg', 'accent', 'bgMode', 'blobs', 'font', 'layout', 'frame'];
 
   var FONTS = {
     sans:    '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif',
@@ -556,26 +612,98 @@
   }
 
   /* ------------------------------------------------------------------- DOM */
-  function buildPresets() {
-    var box = $('presets');
+  function tplName(tpl) { return (tpl.name && (tpl.name[LANG] || tpl.name.en)) || tpl.id; }
+
+  function tplById(id) {
+    for (var i = 0; i < TEMPLATES.length; i++) if (TEMPLATES[i].id === id) return TEMPLATES[i];
+    return TEMPLATES[0];
+  }
+
+  function applyTemplate(tpl) {
+    state.preset = tpl.id;
+    TPL_FIELDS.forEach(function (f) { if (tpl[f] !== undefined) state[f] = tpl[f]; });
+    syncInputs(); renderAll(); save();
+    buildGallery();
+  }
+
+  var tplFilter = { q: '', tone: 'all' };
+
+  function buildTones() {
+    var box = $('tplTones');
     box.innerHTML = '';
-    Object.keys(PRESETS).forEach(function (k) {
-      var pr = PRESETS[k];
+    TONES.forEach(function (tn) {
       var b = document.createElement('button');
       b.type = 'button';
-      b.className = 'ass-preset';
-      b.setAttribute('aria-pressed', String(state.preset === k));
-      b.innerHTML = '<i style="background:' + pr.accent + '"></i>';
-      b.appendChild(document.createTextNode(pr.label));
+      b.className = 'ass-chip';
+      b.textContent = tn.label;
+      b.setAttribute('aria-pressed', String(tplFilter.tone === tn.id));
       b.addEventListener('click', function () {
-        state.preset = k;
-        ['bg1', 'bg2', 'fg', 'accent', 'bgMode', 'blobs', 'font'].forEach(function (f) { state[f] = pr[f]; });
-        syncInputs(); renderAll(); save();
-        box.querySelectorAll('.ass-preset').forEach(function (o) { o.setAttribute('aria-pressed', 'false'); });
+        tplFilter.tone = tn.id;
+        box.querySelectorAll('.ass-chip').forEach(function (o) { o.setAttribute('aria-pressed', 'false'); });
         b.setAttribute('aria-pressed', 'true');
+        buildGallery();
       });
       box.appendChild(b);
     });
+  }
+
+  function tplMatches(tpl) {
+    if (tplFilter.tone !== 'all' && tpl.tone !== tplFilter.tone) return false;
+    var q = tplFilter.q.trim().toLowerCase();
+    if (!q) return true;
+    // Search the English name too, so "finance" finds the right set in either language.
+    var hay = [tpl.id, tplName(tpl), tpl.name && tpl.name.en, tpl.tone, (tpl.tags || []).join(' ')]
+      .join(' ').toLowerCase();
+    return hay.indexOf(q) >= 0;
+  }
+
+  // Thumbnails go through the same drawPanel as the export, so the gallery shows
+  // exactly what a template does — including your own screen once you upload one.
+  function drawThumb(cv, tpl) {
+    var s = size();
+    // Bitmap only — the CSS keeps width:100%/height:auto so the cell decides the
+    // display size and the export aspect ratio carries over untouched.
+    var w = 104, dpr = Math.min(2, window.devicePixelRatio || 1);
+    cv.width = Math.round(w * dpr);
+    cv.height = Math.round(w * (s.h / s.w) * dpr);
+    var keep = {};
+    TPL_FIELDS.forEach(function (f) {
+      keep[f] = state[f];
+      if (tpl[f] !== undefined) state[f] = tpl[f];
+    });
+    try { drawPanel(cv.getContext('2d'), 0, cv.width, cv.height); }
+    finally { TPL_FIELDS.forEach(function (f) { state[f] = keep[f]; }); }
+  }
+
+  function buildGallery() {
+    var box = $('gallery');
+    var keepScroll = box.scrollTop;
+    box.innerHTML = '';
+    var list = TEMPLATES.filter(tplMatches);
+    list.forEach(function (tpl) {
+      var b = document.createElement('button');
+      b.type = 'button';
+      b.className = 'ass-tpl';
+      b.title = tplName(tpl) + ' — ' + (tpl.tags || []).join(', ');
+      b.setAttribute('aria-pressed', String(state.preset === tpl.id));
+      var cv = document.createElement('canvas');
+      b.appendChild(cv);
+      var lab = document.createElement('span');
+      lab.textContent = tplName(tpl);
+      b.appendChild(lab);
+      b.addEventListener('click', function () { applyTemplate(tpl); });
+      box.appendChild(b);
+      drawThumb(cv, tpl);
+    });
+    if (!list.length) {
+      var e = document.createElement('p');
+      e.className = 'ass-empty';
+      e.textContent = LANG === 'vi' ? 'Không có mẫu nào khớp.' : 'No template matches that.';
+      box.appendChild(e);
+    }
+    $('tplCount').textContent = list.length + ' / ' + TEMPLATES.length +
+      (LANG === 'vi' ? ' mẫu' : list.length === 1 ? ' template' : ' templates');
+    box.scrollTop = keepScroll;
   }
 
   function buildSizes() {
@@ -763,6 +891,7 @@
                           : (el.type === 'checkbox' ? el.checked : el.value);
       if (field === 'size' || field === 'cw' || field === 'ch') {
         $('customWrap').classList.toggle('ass-hidden', state.size !== 'custom');
+        buildGallery();      // thumbnails follow the export aspect ratio
       }
       renderAll(); save();
     });
@@ -782,6 +911,11 @@
   bind('fg', 'fg');
   bind('accent', 'accent');
   bind('blobs', 'blobs', 'change', Boolean);
+
+  $('tplQ').addEventListener('input', function () {
+    tplFilter.q = $('tplQ').value;
+    buildGallery();
+  });
 
   ['headline', 'sub'].forEach(function (f) {
     $(f).addEventListener('input', function () {
@@ -812,9 +946,9 @@
     try { localStorage.removeItem(KEY); } catch (e) {}
     state.panels = [blank(0), blank(1), blank(2), blank(3)];
     state.sel = 0;
-    var pr = PRESETS[state.preset];
-    ['bg1', 'bg2', 'fg', 'accent', 'bgMode', 'blobs', 'font'].forEach(function (f) { state[f] = pr[f]; });
-    buildStrip(); syncInputs(); save();
+    var tpl = tplById(state.preset);
+    TPL_FIELDS.forEach(function (f) { if (tpl[f] !== undefined) state[f] = tpl[f]; });
+    buildStrip(); syncInputs(); buildGallery(); save();
   });
   $('file').addEventListener('change', function (e) {
     var f = e.target.files && e.target.files[0];
@@ -825,9 +959,10 @@
   window.addEventListener('resize', function () { renderAll(); });
 
   load();
-  buildPresets();
   buildSizes();
   buildStrip();
+  buildTones();
+  buildGallery();
   syncInputs();
   renderAll();
 })();
