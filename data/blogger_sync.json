@@ -333,6 +333,62 @@
           "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
           "status": "LIVE",
           "published": "2026-08-20T00:54:08+07:00"
+        },
+        "blog/en/what-the-research-says-about-prompt-engineering": {
+          "postId": "6667666073143624668",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/what-research-actually-says-about.html",
+          "title": "What the research actually says about prompt engineering — five claims, fact-checked",
+          "status": "LIVE",
+          "published": "2026-08-20T11:50:31+07:00"
+        },
+        "blog/en/building-an-ai-agent-team-chief-of-staff-pattern": {
+          "postId": "2500141655829939636",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/the-chief-of-staff-pattern-turning.html",
+          "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
+          "status": "LIVE",
+          "published": "2026-08-20T11:50:41+07:00"
+        },
+        "blog/en/ai-poster-prompts-split-level-and-minimalist-editorial": {
+          "postId": "7110482277607323458",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/two-layout-systems-that-make-ai-posters.html",
+          "title": "Two layout systems that make AI posters look designed, not generated",
+          "status": "LIVE",
+          "published": "2026-08-20T11:50:51+07:00"
+        },
+        "blog/en/free-ai-coding-agents-opencode-safely": {
+          "postId": "3473268362064388318",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/free-ai-coding-agents-how-to-use.html",
+          "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
+          "status": "LIVE",
+          "published": "2026-08-20T11:51:02+07:00"
+        },
+        "blog/vi/what-the-research-says-about-prompt-engineering": {
+          "postId": "7198512516915487991",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html",
+          "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
+          "status": "LIVE",
+          "published": "2026-08-20T11:51:15+07:00"
+        },
+        "blog/vi/building-an-ai-agent-team-chief-of-staff-pattern": {
+          "postId": "3955320889468746162",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html",
+          "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
+          "status": "LIVE",
+          "published": "2026-08-20T11:51:45+07:00"
+        },
+        "blog/vi/ai-poster-prompts-split-level-and-minimalist-editorial": {
+          "postId": "8913527325683704620",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html",
+          "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
+          "status": "LIVE",
+          "published": "2026-08-20T11:51:55+07:00"
+        },
+        "blog/vi/free-ai-coding-agents-opencode-safely": {
+          "postId": "8786517289863146239",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html",
+          "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
+          "status": "LIVE",
+          "published": "2026-08-20T11:52:05+07:00"
         }
       }
     },
@@ -617,6 +673,62 @@
           "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
           "status": "LIVE",
           "published": "2026-08-19T11:02:58-07:00"
+        },
+        "blog/en/what-the-research-says-about-prompt-engineering": {
+          "postId": "7497164806034652097",
+          "url": "https://flutter9.blogspot.com/2026/08/what-research-actually-says-about.html",
+          "title": "What the research actually says about prompt engineering — five claims, fact-checked",
+          "status": "LIVE",
+          "published": "2026-08-19T21:52:18-07:00"
+        },
+        "blog/en/building-an-ai-agent-team-chief-of-staff-pattern": {
+          "postId": "2741027489664386369",
+          "url": "https://flutter9.blogspot.com/2026/08/the-chief-of-staff-pattern-turning.html",
+          "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
+          "status": "LIVE",
+          "published": "2026-08-19T21:52:28-07:00"
+        },
+        "blog/en/ai-poster-prompts-split-level-and-minimalist-editorial": {
+          "postId": "4074059578567478913",
+          "url": "https://flutter9.blogspot.com/2026/08/two-layout-systems-that-make-ai-posters.html",
+          "title": "Two layout systems that make AI posters look designed, not generated",
+          "status": "LIVE",
+          "published": "2026-08-19T21:52:38-07:00"
+        },
+        "blog/en/free-ai-coding-agents-opencode-safely": {
+          "postId": "5925507516718540536",
+          "url": "https://flutter9.blogspot.com/2026/08/free-ai-coding-agents-how-to-use.html",
+          "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
+          "status": "LIVE",
+          "published": "2026-08-19T21:52:48-07:00"
+        },
+        "blog/vi/what-the-research-says-about-prompt-engineering": {
+          "postId": "6064431638829323305",
+          "url": "https://flutter9.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html",
+          "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
+          "status": "LIVE",
+          "published": "2026-08-19T21:53:01-07:00"
+        },
+        "blog/vi/building-an-ai-agent-team-chief-of-staff-pattern": {
+          "postId": "1086406550187083164",
+          "url": "https://flutter9.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html",
+          "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
+          "status": "LIVE",
+          "published": "2026-08-19T21:53:10-07:00"
+        },
+        "blog/vi/ai-poster-prompts-split-level-and-minimalist-editorial": {
+          "postId": "6709712057951578108",
+          "url": "https://flutter9.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html",
+          "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
+          "status": "LIVE",
+          "published": "2026-08-19T21:53:19-07:00"
+        },
+        "blog/vi/free-ai-coding-agents-opencode-safely": {
+          "postId": "888139022248725977",
+          "url": "https://flutter9.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html",
+          "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
+          "status": "LIVE",
+          "published": "2026-08-19T21:53:51-07:00"
         }
       }
     }
