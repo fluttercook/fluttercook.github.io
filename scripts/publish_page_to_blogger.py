@@ -12,6 +12,13 @@ Auth, retry/backoff and the sync map are shared with publish_to_blogger.py;
 page ids are recorded under blogs.<id>.pages so re-runs UPDATE in place instead
 of creating a second copy.
 
+SEO note: the Blogger API exposes only title and content for a page. A search
+description (customMetaData / metaDescription) is silently dropped — probed and
+confirmed — and canonical, hreflang and OG tags live in the theme, which has no
+API at all. So everything we can control is emitted into the body: JSON-LD
+(SoftwareApplication + FAQPage + BreadcrumbList), a cross-language link, and a
+footer pointing at the canonical copy on fluttercook.github.io.
+
 Examples:
     python3 scripts/publish_page_to_blogger.py --lang en --dry-run
     python3 scripts/publish_page_to_blogger.py --lang vi --blog-id 8621533667729504576 \
@@ -21,6 +28,8 @@ Examples:
 from __future__ import annotations
 
 import argparse
+import html
+import json
 import re
 import sys
 from pathlib import Path
@@ -41,22 +50,42 @@ from publish_to_blogger import (  # noqa: E402  (path shim has to come first)
 
 TOOL_DIR = ROOT / "tools" / "screenshot-studio"
 
+OTHER = {"en": "vi", "vi": "en"}
+
 META = {
     "en": {
         "title": "App Store Screenshot Generator — free, in your browser",
         "canonical": f"{SITE}/tools/screenshot-studio/",
+        "locale": "en",
+        "description": (
+            "Free browser-based App Store and Google Play screenshot generator: pick one of 24 "
+            "templates, drop in your app screens, write captions and export PNGs at the exact "
+            "store sizes. Nothing is uploaded."
+        ),
         "attribution": (
             'This tool is maintained at <a href="{url}">{url}</a> — '
             "the version there is always the newest."
         ),
+        "crossLabel": "Tiếng Việt",
+        "crossLead": "Also available in",
+        "home": "Home",
     },
     "vi": {
         "title": "Tạo ảnh chụp màn hình App Store — miễn phí, ngay trên trình duyệt",
         "canonical": f"{SITE}/vi/tools/screenshot-studio/",
+        "locale": "vi",
+        "description": (
+            "Công cụ tạo ảnh chụp màn hình App Store và Google Play miễn phí, chạy ngay trong "
+            "trình duyệt: chọn 1 trong 24 mẫu, thả ảnh màn hình ứng dụng, viết caption và xuất "
+            "PNG đúng kích thước store. Không tải ảnh lên máy chủ."
+        ),
         "attribution": (
             'Công cụ này được duy trì tại <a href="{url}">{url}</a> — '
             "bản ở đó luôn là bản mới nhất."
         ),
+        "crossLabel": "English",
+        "crossLead": "Bản khác",
+        "home": "Trang chủ",
     },
 }
 
@@ -85,7 +114,117 @@ def escape_script_unicode(html: str) -> str:
     return re.sub(r"(<script\b[^>]*>)(.*?)(</script>)", esc, html, flags=re.S)
 
 
-def build_body(lang: str) -> str:
+FAQ_RE = re.compile(r"<p><b>(.+?)</b><br />\s*(.+?)</p>", re.S)
+
+
+def strip_tags(s: str) -> str:
+    return html.unescape(re.sub(r"<[^>]+>", "", s)).strip()
+
+
+def faq_pairs(wrapper: str) -> list[tuple[str, str]]:
+    """Read the FAQ straight out of the visible copy.
+
+    The alternative — a hand-written list of questions next to the markup — goes
+    stale the first time somebody edits one and not the other, and a FAQPage
+    that does not match the page is exactly what structured-data spam looks like.
+    """
+    return [(strip_tags(q), strip_tags(a)) for q, a in FAQ_RE.findall(wrapper)]
+
+
+def structured_data(lang: str, wrapper: str, page_url: str, blog_home: str) -> str:
+    """A JSON-LD block for the Blogger mirror.
+
+    Blogger gives us no head control: no meta description, no canonical, no
+    hreflang (see --help). The body is the only surface we own, and JSON-LD is
+    the one head-level signal that is valid inside it.
+    """
+    meta = META[lang]
+    graph = [
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareApplication",
+            "name": meta["title"].split(" — ")[0],
+            "description": meta["description"],
+            "url": page_url or meta["canonical"],
+            "sameAs": [meta["canonical"]],
+            "applicationCategory": "DesignApplication",
+            "operatingSystem": "Any (web browser)",
+            "browserRequirements": "Requires JavaScript and HTML5 canvas",
+            "inLanguage": meta["locale"],
+            "isAccessibleForFree": True,
+            "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
+            "creator": {"@type": "Organization", "name": "FlutterCook", "url": SITE},
+        }
+    ]
+
+    pairs = faq_pairs(wrapper)
+    if pairs:
+        graph.append({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            "inLanguage": meta["locale"],
+            "mainEntity": [
+                {
+                    "@type": "Question",
+                    "name": q,
+                    "acceptedAnswer": {"@type": "Answer", "text": a},
+                }
+                for q, a in pairs
+            ],
+        })
+
+    if page_url:
+        graph.append({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+                {"@type": "ListItem", "position": 1, "name": meta["home"], "item": blog_home},
+                {"@type": "ListItem", "position": 2, "name": meta["title"], "item": page_url},
+            ],
+        })
+
+    out = []
+    for node in graph:
+        out.append('<script type="application/ld+json">'
+                   + json.dumps(node, ensure_ascii=False, separators=(",", ":"))
+                   + "</script>")
+    return "".join(out)
+
+
+def cross_link(lang: str, other_url: str) -> str:
+    """One visible link to the other language's mirror.
+
+    Blogger cannot emit <link rel="alternate" hreflang>, so this carries the
+    hreflang on the <a> instead — a weaker signal, but a real one, and readers
+    who land on the wrong language get out in one click.
+    """
+    if not other_url:
+        return ""
+    meta = META[lang]
+    return (
+        '<p style="font-size:14px;opacity:.8;margin:0 0 12px">'
+        f'{meta["crossLead"]}: '
+        f'<a href="{other_url}" hreflang="{META[OTHER[lang]]["locale"]}" '
+        f'lang="{META[OTHER[lang]]["locale"]}" rel="alternate">{meta["crossLabel"]}</a>'
+        "</p>"
+    )
+
+
+def page_urls(lang: str, blog_id: str) -> tuple[str, str, str]:
+    """(this page's url, the other language's url, blog home) from the sync map."""
+    pages = blog_state(load_state(), blog_id).get("pages", {})
+
+    def url_of(key: str) -> str:
+        v = pages.get(key)
+        return v.get("url", "") if isinstance(v, dict) else ""
+
+    this_url = url_of(f"screenshot-studio-{lang}")
+    other_url = url_of(f"screenshot-studio-{OTHER[lang]}")
+    home = re.sub(r"^(https?://[^/]+)/.*$", r"\1/", this_url or other_url or "")
+    return this_url, other_url, home
+
+
+def build_body(lang: str, blog_id: str = DEFAULT_BLOG_ID) -> str:
     studio = (TOOL_DIR / "studio.html").read_text("utf-8")
     if lang == "vi":
         studio = studio.replace('data-lang="en"', 'data-lang="vi"')
@@ -96,13 +235,15 @@ def build_body(lang: str) -> str:
     body = wrapper.replace("<!--STUDIO-->", studio)
 
     meta = META[lang]
+    this_url, other_url, home = page_urls(lang, blog_id)
     footer = (
         '<hr style="margin:32px 0 16px;border:0;border-top:1px solid #ddd" />'
         '<p style="font-size:14px;opacity:.75">'
         + meta["attribution"].format(url=meta["canonical"])
         + "</p>"
+        + structured_data(lang, wrapper, this_url, home)
     )
-    return escape_script_unicode(body + footer)
+    return escape_script_unicode(cross_link(lang, other_url) + body + footer)
 
 
 def main() -> int:
@@ -119,7 +260,7 @@ def main() -> int:
     ap.add_argument("--out", default="/tmp/blogger-page-dry-run")
     args = ap.parse_args()
 
-    body = build_body(args.lang)
+    body = build_body(args.lang, args.blog_id)
     title = META[args.lang]["title"]
     key = f"screenshot-studio-{args.lang}"
 

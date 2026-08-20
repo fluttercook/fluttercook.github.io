@@ -24,15 +24,21 @@
       padding: 16px;
       font: 15px/1.5 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
       box-sizing: border-box;
+      container-type: inline-size;
     }
     #assw *, #assw *::before, #assw *::after { box-sizing: border-box; }
-    #assw h2, #assw h3 { margin: 0; font-weight: 700; letter-spacing: -.01em; }
-    #assw h2 { font-size: 20px; }
-    #assw h3 { font-size: 12px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+    #assw h2 { margin: 0; font-weight: 700; letter-spacing: -.01em; font-size: 20px; }
+    /* Panel labels are widget chrome, not document structure — they used to be
+       <h3> and polluted the page outline on hosts whose own title is lower. */
+    #assw .ass-h { font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
     #assw .ass-head { display: flex; flex-wrap: wrap; gap: 10px; align-items: baseline; justify-content: space-between; margin-bottom: 14px; }
     #assw .ass-head p { margin: 0; color: var(--muted); font-size: 13px; }
     #assw .ass-main { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 16px; align-items: start; }
+    /* Stack on the width we actually get, not the viewport's: a Blogger post
+       column is ~740px inside a 1280px window, which would otherwise squeeze
+       the stage to 402px while the media query still thinks we are wide. */
     @media (max-width: 860px) { #assw .ass-main { grid-template-columns: 1fr; } }
+    @container (max-width: 820px) { #assw .ass-main { grid-template-columns: 1fr; } }
 
     #assw .ass-side { background: var(--panel); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: grid; gap: 16px; max-height: 78vh; overflow: auto; }
     #assw .ass-group { display: grid; gap: 8px; }
@@ -110,7 +116,7 @@
   <div class="ass-main">
     <aside class="ass-side">
       <div class="ass-group">
-        <h3 data-t="hTemplate">Template</h3>
+        <div class="ass-h" data-t="hTemplate">Template</div>
         <input type="search" data-el="tplQ" data-t-ph="tplSearch" placeholder="Search name or category…" />
         <div class="ass-chips" data-el="tplTones"></div>
         <div class="ass-gallery" data-el="gallery"></div>
@@ -118,7 +124,7 @@
       </div>
 
       <div class="ass-group">
-        <h3 data-t="hSize">Export size</h3>
+        <div class="ass-h" data-t="hSize">Export size</div>
         <label>
           <span data-t="device">Device</span>
           <select data-el="size"></select>
@@ -130,7 +136,7 @@
       </div>
 
       <div class="ass-group">
-        <h3 data-t="hPanel">Selected screen</h3>
+        <div class="ass-h" data-t="hPanel">Selected screen</div>
         <label><span data-t="headline">Headline</span><textarea data-el="headline" rows="2"></textarea></label>
         <label><span data-t="sub">Subtitle</span><textarea data-el="sub" rows="2"></textarea></label>
         <div class="ass-btns">
@@ -141,7 +147,7 @@
       </div>
 
       <div class="ass-group">
-        <h3 data-t="hLayout">Layout</h3>
+        <div class="ass-h" data-t="hLayout">Layout</div>
         <label>
           <span data-t="textPos">Caption position</span>
           <select data-el="layout">
@@ -179,7 +185,7 @@
       </div>
 
       <div class="ass-group">
-        <h3 data-t="hColor">Colours</h3>
+        <div class="ass-h" data-t="hColor">Colours</div>
         <label>
           <span data-t="bgMode">Background</span>
           <select data-el="bgMode">
@@ -201,7 +207,7 @@
       </div>
 
       <div class="ass-group">
-        <h3 data-t="hProject">Project</h3>
+        <div class="ass-h" data-t="hProject">Project</div>
         <div class="ass-btns">
           <button type="button" data-act="sample" data-t="sample">Load sample text</button>
           <button type="button" data-act="reset" data-t="reset">Reset</button>
@@ -659,11 +665,14 @@
 
   // Thumbnails go through the same drawPanel as the export, so the gallery shows
   // exactly what a template does — including your own screen once you upload one.
-  function drawThumb(cv, tpl) {
+  function drawThumb(cv, tpl, cellW) {
     var s = size();
     // Bitmap only — the CSS keeps width:100%/height:auto so the cell decides the
-    // display size and the export aspect ratio carries over untouched.
-    var w = 104, dpr = Math.min(2, window.devicePixelRatio || 1);
+    // display size and the export aspect ratio carries over untouched. Size it
+    // from the measured cell: a fixed 104 was 1.34x oversampled in a 77px cell,
+    // and 24 thumbs at that scale cost several MB of canvas memory for nothing.
+    var w = Math.max(48, Math.round(cellW || 104)),
+        dpr = Math.min(2, window.devicePixelRatio || 1);
     cv.width = Math.round(w * dpr);
     cv.height = Math.round(w * (s.h / s.w) * dpr);
     var keep = {};
@@ -675,11 +684,25 @@
     finally { TPL_FIELDS.forEach(function (f) { state[f] = keep[f]; }); }
   }
 
+  // One observer at a time; a rebuild drops the previous one with its cells.
+  var thumbWatch = null;
+
+  // A rebuild is ~10ms of canvas work — fine on a click, wasteful on every
+  // keystroke in the search box or the custom width/height fields.
+  var galleryTimer = null;
+  function galleryLater() {
+    clearTimeout(galleryTimer);
+    galleryTimer = setTimeout(buildGallery, 140);
+  }
+
   function buildGallery() {
     var box = $('gallery');
     var keepScroll = box.scrollTop;
+    if (thumbWatch) { thumbWatch.disconnect(); thumbWatch = null; }
     box.innerHTML = '';
     var list = TEMPLATES.filter(tplMatches);
+    var s = size();
+    var pending = [];
     list.forEach(function (tpl) {
       var b = document.createElement('button');
       b.type = 'button';
@@ -687,14 +710,42 @@
       b.title = tplName(tpl) + ' — ' + (tpl.tags || []).join(', ');
       b.setAttribute('aria-pressed', String(state.preset === tpl.id));
       var cv = document.createElement('canvas');
+      // Reserve the right box before any pixels exist, so painting a thumb late
+      // never shifts the grid under the pointer.
+      cv.style.aspectRatio = s.w + ' / ' + s.h;
       b.appendChild(cv);
       var lab = document.createElement('span');
       lab.textContent = tplName(tpl);
       b.appendChild(lab);
       b.addEventListener('click', function () { applyTemplate(tpl); });
       box.appendChild(b);
-      drawThumb(cv, tpl);
+      pending.push({ cell: b, cv: cv, tpl: tpl });
     });
+
+    if (pending.length) {
+      // Measure at paint time, not build time: on first load the host's fonts
+      // and column widths are still settling, and a stale width would bake a
+      // blurry bitmap into every thumb.
+      var paint = function (item) { drawThumb(item.cv, item.tpl, item.cv.clientWidth); };
+      if (typeof IntersectionObserver === 'function') {
+        // The gallery scrolls ~340px of a 24-template grid; painting only what
+        // is near the viewport keeps the first render to a couple of rows.
+        thumbWatch = new IntersectionObserver(function (entries, obs) {
+          entries.forEach(function (en) {
+            if (!en.isIntersecting) return;
+            obs.unobserve(en.target);
+            var item = en.target.__assTpl;
+            if (item) paint(item);
+          });
+        }, { root: box, rootMargin: '200px 0px' });
+        pending.forEach(function (item) {
+          item.cell.__assTpl = item;
+          thumbWatch.observe(item.cell);
+        });
+      } else {
+        pending.forEach(paint);
+      }
+    }
     if (!list.length) {
       var e = document.createElement('p');
       e.className = 'ass-empty';
@@ -891,7 +942,7 @@
                           : (el.type === 'checkbox' ? el.checked : el.value);
       if (field === 'size' || field === 'cw' || field === 'ch') {
         $('customWrap').classList.toggle('ass-hidden', state.size !== 'custom');
-        buildGallery();      // thumbnails follow the export aspect ratio
+        galleryLater();      // thumbnails follow the export aspect ratio
       }
       renderAll(); save();
     });
@@ -914,7 +965,7 @@
 
   $('tplQ').addEventListener('input', function () {
     tplFilter.q = $('tplQ').value;
-    buildGallery();
+    galleryLater();
   });
 
   ['headline', 'sub'].forEach(function (f) {
