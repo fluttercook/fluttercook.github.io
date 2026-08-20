@@ -7,10 +7,20 @@ import { getCollection, render } from 'astro:content';
 export async function getStaticPaths() {
   const all = (await getCollection('blogVi')).filter((p) => !p.data.draft);
   return all.map((entry) => {
+    // Same topic first, then whatever shares the most tags — otherwise posts on
+    // adjacent subjects never link to each other.
+    const tags = new Set(entry.data.tags);
     const related = all
-      .filter((p) => p.id !== entry.id && p.data.topic === entry.data.topic)
+      .filter((p) => p.id !== entry.id)
+      .map((p) => ({
+        p,
+        score: (p.data.topic === entry.data.topic ? 100 : 0)
+          + p.data.tags.filter((t) => tags.has(t)).length,
+      }))
+      .filter((r) => r.score > 0)
+      .sort((a, b) => b.score - a.score)
       .slice(0, 3)
-      .map((p) => ({ slug: p.id, title: p.data.title }));
+      .map(({ p }) => ({ slug: p.id, title: p.data.title }));
     return { params: { slug: entry.id }, props: { entry, related } };
   });
 }
@@ -80,7 +90,7 @@ const jsonLd = [article, breadcrumb];
       )}
       {related && related.length > 0 && (
         <aside class="related">
-          <h2>Bài {d.topic} khác</h2>
+          <h2>Bài liên quan</h2>
           <ul>{related.map((r) => (<li><a href={`/vi/blog/${r.slug}/`}>{r.title}</a></li>))}</ul>
         </aside>
       )}
