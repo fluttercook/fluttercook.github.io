@@ -133,3 +133,14 @@ footer.site a{color:var(--accent)}
 }
 /* Smooth-scrolled headings should not land flush against the viewport edge. */
 .prose h2,.prose h3{scroll-margin-top:24px}
+
+/* Embedded social posts (X/Twitter). The platform script swaps the blockquote
+   for its own iframe and sets an inline width, so the centering has to come
+   from the figure, not from the blockquote we author. The <noscript> image is
+   the fallback when the script is blocked — the video file itself refuses
+   hotlinking, so a poster plus a link out is the most we can show without
+   re-hosting someone else's video. */
+.prose figure.tweet-embed{margin:28px 0;display:flex;flex-direction:column;align-items:center}
+.prose figure.tweet-embed blockquote{max-width:100%;margin:0}
+.prose figure.tweet-embed img{max-width:100%;height:auto;border-radius:10px;border:1px solid var(--line)}
+.prose figure.tweet-embed figcaption{margin-top:10px;font-size:14px;line-height:1.5;color:var(--muted);text-align:center;max-width:620px}
