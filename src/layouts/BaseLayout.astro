@@ -12,7 +12,14 @@ const {
   dateModified,
   jsonLd = [],
   lang = 'en',
+  // Ads are served only on hand-written pages. The generated /recipes/ pages
+  // pass ads={false}: Google Publisher Policies forbid monetising pages built
+  // from someone else's content without added value, and those are templated
+  // from GitHub metadata.
+  ads = true,
+  robots = 'index, follow, max-image-preview:large',
 } = Astro.props;
+const ADSENSE_CLIENT = 'ca-pub-5091408807979195';
 const canonical = new URL(Astro.url.pathname, Astro.site).href;
 const ogImage = new URL(image, Astro.site).href;
 const kw = Array.isArray(keywords) ? keywords.join(', ') : keywords;
@@ -33,7 +40,7 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
   <title>{title}</title>
   <meta name="description" content={description} />
   {kw && <meta name="keywords" content={kw} />}
-  <meta name="robots" content="index, follow, max-image-preview:large" />
+  <meta name="robots" content={robots} />
   <meta name="author" content="FlutterCook" />
   <link rel="canonical" href={canonical} />
   <link rel="alternate" hreflang="en" href={enHref} />
@@ -67,6 +74,16 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
     gtag('config', 'G-B299VQ6G9N');
     gtag('config', 'G-25H7QLJYDE');
   </script>
+  {ads && (
+    <>
+      <link rel="preconnect" href="https://pagead2.googlesyndication.com" />
+      <script
+        async
+        src={`https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${ADSENSE_CLIENT}`}
+        crossorigin="anonymous"
+      ></script>
+    </>
+  )}
 </head>
 <body>
   <div class="wrap"><Header lang={lang} /></div>

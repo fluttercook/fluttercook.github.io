@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+const CONTACT_EMAIL = 'trunghieu4121993@gmail.com';
+---
+<BaseLayout
+  lang="en"
+  title="Contact — FlutterCook"
+  description="How to reach FlutterCook: corrections to an article, licensing and permissions, privacy requests, or advertising questions."
+  robots="index, follow"
+>
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/">FlutterCook</a> / contact</div>
+      <h1 class="serif">Get in <i>touch</i></h1>
+      <div class="prose">
+        <p>FlutterCook is written and maintained by <strong>Trung Hieu</strong>, a mobile developer working with Flutter, iOS and Android. Every article here is written by a person, and mistakes are fixed when someone points them out.</p>
+
+        <h2 class="serif">Email</h2>
+        <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> — the fastest way to reach us. Expect a reply within a few working days.</p>
+
+        <h2 class="serif">What to write <i>about</i></h2>
+        <ul>
+          <li><strong>A correction.</strong> If a number, benchmark or API in an article is wrong or out of date, send the article URL and what should change. Corrections are made in the open and the edit history is public.</li>
+          <li><strong>Licensing and permissions.</strong> Ask before republishing an article in full. Quoting a paragraph with a link back needs no permission.</li>
+          <li><strong>Privacy requests.</strong> Questions about data, cookies, or advertising — see the <a href="/privacy/">privacy policy</a> first; it explains what we do and do not hold.</li>
+          <li><strong>Advertising.</strong> Questions about the ads shown on this site, or about advertising with us.</li>
+          <li><strong>Suggestions.</strong> A library worth covering, or a topic you want written up.</li>
+        </ul>
+
+        <h2 class="serif">Code, issues and <i>source</i></h2>
+        <p>The site's source and its demos live at <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. For anything about the site itself — a broken page, a bad link, a build problem — a GitHub issue is better than email, because it stays visible to everyone who hits the same thing.</p>
+
+        <h2 class="serif">Elsewhere</h2>
+        <p>A Vietnamese-language edition of much of this writing is published at <a href="https://trunghieu-it.blogspot.com" target="_blank" rel="noopener">trunghieu-it.blogspot.com</a>.</p>
+
+        <p><em>We do not accept paid guest posts, sponsored links, or link-exchange requests. Emails offering them will not get a reply.</em></p>
+      </div>
+    </article>
+  </main>
+</BaseLayout>

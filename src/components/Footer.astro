@@ -8,6 +8,9 @@ const year = new Date().getFullYear();
   <div class="wrap">
     {tr('footer.tagline')} · {year} ·
     <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a> ·
-    <a href={localizePath('/trends', lang)}>{tr('home.trends')}</a>
+    <a href={localizePath('/trends', lang)}>{tr('home.trends')}</a> ·
+    <a href={localizePath('/about', lang)}>{tr('nav.about')}</a> ·
+    <a href={localizePath('/contact', lang)}>{tr('nav.contact')}</a> ·
+    <a href={localizePath('/privacy', lang)}>{tr('nav.privacy')}</a>
   </div>
 </footer>

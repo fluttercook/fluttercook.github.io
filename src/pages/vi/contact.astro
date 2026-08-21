@@ -1,0 +1,40 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const CONTACT_EMAIL = 'trunghieu4121993@gmail.com';
+---
+<BaseLayout
+  lang="vi"
+  title="Liên hệ — FlutterCook"
+  description="Cách liên hệ FlutterCook: đính chính bài viết, xin phép đăng lại, yêu cầu về quyền riêng tư, hoặc thắc mắc về quảng cáo."
+  robots="index, follow"
+>
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/vi/">FlutterCook</a> / liên hệ</div>
+      <h1 class="serif">Liên <i>hệ</i></h1>
+      <div class="prose">
+        <p>FlutterCook do <strong>Trung Hiếu</strong> viết và duy trì — một lập trình viên mobile làm việc với Flutter, iOS và Android. Mọi bài ở đây đều do người viết, và sai sót sẽ được sửa khi có người chỉ ra.</p>
+
+        <h2 class="serif">Email</h2>
+        <p><a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a> — cách nhanh nhất để liên hệ. Thường phản hồi trong vài ngày làm việc.</p>
+
+        <h2 class="serif">Nên viết về <i>chuyện gì</i></h2>
+        <ul>
+          <li><strong>Đính chính.</strong> Nếu một con số, một kết quả đo hay một API trong bài bị sai hoặc đã lỗi thời, gửi kèm link bài và chỗ cần sửa. Việc sửa được làm công khai và lịch sử chỉnh sửa ai cũng xem được.</li>
+          <li><strong>Bản quyền và xin phép.</strong> Hãy hỏi trước khi đăng lại nguyên bài. Trích một đoạn kèm link nguồn thì không cần xin phép.</li>
+          <li><strong>Yêu cầu về quyền riêng tư.</strong> Thắc mắc về dữ liệu, cookie hay quảng cáo — hãy đọc <a href="/vi/privacy/">chính sách quyền riêng tư</a> trước; trang đó nói rõ chúng tôi giữ gì và không giữ gì.</li>
+          <li><strong>Quảng cáo.</strong> Thắc mắc về quảng cáo hiển thị trên trang, hoặc về việc đặt quảng cáo.</li>
+          <li><strong>Góp ý.</strong> Một thư viện đáng được viết, hoặc một chủ đề bạn muốn đọc.</li>
+        </ul>
+
+        <h2 class="serif">Mã nguồn và <i>báo lỗi</i></h2>
+        <p>Mã nguồn của trang cùng các bản demo nằm tại <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. Với những gì thuộc về bản thân trang web — trang lỗi, link hỏng, build sai — mở một issue trên GitHub tốt hơn gửi email, vì nó hiển thị cho mọi người khác gặp cùng vấn đề.</p>
+
+        <h2 class="serif">Nơi khác</h2>
+        <p>Phần lớn nội dung này còn có bản tiếng Việt tại <a href="https://trunghieu-it.blogspot.com" target="_blank" rel="noopener">trunghieu-it.blogspot.com</a>.</p>
+
+        <p><em>Chúng tôi không nhận bài guest post trả phí, link tài trợ, hay đề nghị trao đổi link. Những email chào mời loại này sẽ không được trả lời.</em></p>
+      </div>
+    </article>
+  </main>
+</BaseLayout>

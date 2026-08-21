@@ -1,0 +1,76 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const CONTACT_EMAIL = 'trunghieu4121993@gmail.com';
+const updated = '21/08/2026';
+---
+<BaseLayout
+  lang="vi"
+  title="Chính sách quyền riêng tư — FlutterCook"
+  description="FlutterCook xử lý dữ liệu thế nào: cookie, Google Analytics, Google AdSense và quảng cáo bên thứ ba, cùng các lựa chọn của bạn theo GDPR và CCPA."
+  robots="index, follow"
+>
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/vi/">FlutterCook</a> / quyền riêng tư</div>
+      <h1 class="serif">Chính sách <i>quyền riêng tư</i></h1>
+      <div class="prose">
+        <p><em>Cập nhật lần cuối: {updated}</em></p>
+
+        <p>FlutterCook (“chúng tôi”, “trang này”) đăng các bài hướng dẫn về những dự án Flutter và Dart mã nguồn mở tại <a href="https://fluttercook.github.io/vi/">fluttercook.github.io</a>. Trang này giải thích dữ liệu nào được thu thập khi bạn ghé thăm, ai khác nhận được dữ liệu đó, và bạn có thể làm gì với nó.</p>
+
+        <p>Trang không có tài khoản, không có đăng nhập, không có hệ thống bình luận. Chúng tôi không hỏi tên, email hay bất kỳ thông tin cá nhân nào của bạn, và cũng không có máy chủ nào của chúng tôi để lưu chúng — toàn bộ trang là các file tĩnh chạy trên GitHub Pages.</p>
+
+        <h2 class="serif">Ai thu thập <i>cái gì</i></h2>
+
+        <h3>1. Hosting (GitHub Pages)</h3>
+        <p>Trang được phục vụ bởi GitHub Pages. Như mọi nhà cung cấp hosting, GitHub nhận địa chỉ IP và chuỗi user-agent của trình duyệt bạn trong quá trình trả trang về, và có thể ghi log để bảo mật và chống lạm dụng. Xem <a href="https://docs.github.com/site-policy/privacy-policies/github-privacy-statement" target="_blank" rel="noopener">Tuyên bố quyền riêng tư của GitHub</a>.</p>
+
+        <h3>2. Phân tích truy cập (Google Analytics 4)</h3>
+        <p>Chúng tôi dùng Google Analytics để biết bài nào được đọc và người đọc đến từ đâu. Công cụ này đặt cookie và báo cáo dữ liệu tổng hợp: trang đã xem, vị trí gần đúng (mức thành phố, suy ra từ IP), loại thiết bị, và nguồn giới thiệu. Chúng tôi không dùng nó để nhận dạng cá nhân và không tải lên bất kỳ định danh nào do người dùng cung cấp.</p>
+        <p>Bạn có thể từ chối bằng <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">tiện ích chặn Google Analytics</a>.</p>
+
+        <h3>3. Quảng cáo (Google AdSense)</h3>
+        <p>Chúng tôi hiển thị quảng cáo do Google AdSense phân phối trên các bài viết và trang công cụ. Kèm theo đó:</p>
+        <ul>
+          <li>Các nhà cung cấp bên thứ ba, bao gồm Google, dùng cookie để phân phối quảng cáo dựa trên những lần bạn đã truy cập trang này hoặc các trang khác.</li>
+          <li>Việc Google dùng cookie quảng cáo cho phép Google và các đối tác phân phối quảng cáo tới bạn dựa trên lượt truy cập của bạn vào trang này và/hoặc các trang khác trên Internet.</li>
+          <li>Bạn có thể tắt quảng cáo cá nhân hoá tại <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Cài đặt quảng cáo của Google</a>.</li>
+          <li>Bạn có thể từ chối việc bên thứ ba dùng cookie cho quảng cáo cá nhân hoá tại <a href="https://www.aboutads.info/choices/" target="_blank" rel="noopener">aboutads.info/choices</a> hoặc <a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener">optout.networkadvertising.org</a>.</li>
+        </ul>
+        <p>Quảng cáo không được hiển thị trên các <a href="/vi/recipes/">trang công thức được sinh tự động</a>. Cách Google xử lý dữ liệu họ thu thập được mô tả trong <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">Cách Google sử dụng thông tin từ các trang dùng dịch vụ của Google</a>.</p>
+
+        <h3>4. Nội dung nhúng và liên kết ra ngoài</h3>
+        <p>Các bài viết liên kết tới GitHub, pub.dev, YouTube và tài liệu của các nhà cung cấp. Khi bạn bấm vào đó, bạn đang ở trên trang của người khác, theo chính sách của người khác. Ngoài phần phân tích và quảng cáo nêu trên, chúng tôi không nhúng thêm bất kỳ trình theo dõi bên thứ ba nào.</p>
+
+        <h2 class="serif">Cookie, nói cho <i>dễ hiểu</i></h2>
+        <table>
+          <thead><tr><th>Do ai đặt</th><th>Mục đích</th><th>Cách từ chối</th></tr></thead>
+          <tbody>
+            <tr><td>Google Analytics</td><td>Đo lường lượng truy cập ở dạng tổng hợp</td><td>Tiện ích chặn, hoặc chặn cookie trong trình duyệt</td></tr>
+            <tr><td>Google AdSense và đối tác</td><td>Phân phối quảng cáo, giới hạn tần suất, cá nhân hoá</td><td>Cài đặt quảng cáo của Google, hoặc các link từ chối phía trên</td></tr>
+          </tbody>
+        </table>
+        <p>Bản thân trang này không đặt cookie riêng nào. Chặn toàn bộ cookie bên thứ ba trong trình duyệt vẫn đọc được trang bình thường — không có nội dung nào ở đây phụ thuộc vào chúng.</p>
+
+        <h2 class="serif">Nếu bạn ở <i>EEA, Anh hoặc Thụy Sĩ</i></h2>
+        <p>Ở những nơi luật yêu cầu, một thông báo xin đồng ý sẽ hiện ra trước khi cookie quảng cáo cá nhân hoá được đặt, theo chính sách đồng ý của người dùng EU do Google quy định. Bạn có thể rút lại hoặc đổi lựa chọn đó bất cứ lúc nào qua nút điều khiển trên quảng cáo, hoặc bằng cách xoá cookie của trang này trong trình duyệt.</p>
+        <p>Cơ sở pháp lý của chúng tôi là sự đồng ý của bạn với cookie quảng cáo và phân tích, và lợi ích hợp pháp với các log bảo mật do nhà cung cấp hosting giữ. Bạn có quyền truy cập, sửa, xoá hoặc phản đối việc xử lý dữ liệu cá nhân của mình, và có quyền khiếu nại với cơ quan giám sát tại nơi bạn ở. Vì chúng tôi không giữ cơ sở dữ liệu người dùng nào, các yêu cầu liên quan tới dữ liệu quảng cáo hoặc phân tích nên gửi trực tiếp tới Google — bên kiểm soát dữ liệu đó; chúng tôi sẽ hỗ trợ trong phạm vi có thể.</p>
+
+        <h2 class="serif">Nếu bạn ở <i>California</i></h2>
+        <p>Chúng tôi không bán thông tin cá nhân để lấy tiền. Việc dùng cookie quảng cáo có thể được xem là “chia sẻ” cho mục đích quảng cáo hành vi xuyên ngữ cảnh theo CCPA/CPRA. Bạn có thể từ chối qua link Cài đặt quảng cáo của Google ở trên, hoặc gửi tín hiệu Global Privacy Control từ trình duyệt — chúng tôi tôn trọng tín hiệu đó ở những chỗ nó được chuyển tiếp.</p>
+
+        <h2 class="serif">Trẻ em</h2>
+        <p>Trang này viết cho lập trình viên và không nhắm tới trẻ em dưới 13 tuổi. Chúng tôi không cố ý thu thập dữ liệu từ trẻ em.</p>
+
+        <h2 class="serif">Lưu trữ và <i>chuyển dữ liệu</i></h2>
+        <p>Chúng tôi không tự giữ dữ liệu cá nhân nào, nên không có gì để lưu hay để xoá thay bạn. Google và GitHub xử lý dữ liệu theo lịch lưu trữ riêng của họ và có thể chuyển dữ liệu ra ngoài quốc gia của bạn, bao gồm sang Hoa Kỳ, theo các biện pháp bảo vệ mà họ công bố.</p>
+
+        <h2 class="serif">Thay đổi</h2>
+        <p>Nếu chính sách này thay đổi đáng kể, ngày ở đầu trang sẽ đổi theo. Toàn bộ lịch sử chỉnh sửa là công khai trong <a href="https://github.com/fluttercook" target="_blank" rel="noopener">repository GitHub</a> của trang.</p>
+
+        <h2 class="serif">Liên hệ</h2>
+        <p>Thắc mắc về chính sách này, hoặc yêu cầu liên quan tới quyền riêng tư: <a href={`mailto:${CONTACT_EMAIL}`}>{CONTACT_EMAIL}</a>. Các cách liên hệ khác nằm ở <a href="/vi/contact/">trang liên hệ</a>.</p>
+      </div>
+    </article>
+  </main>
+</BaseLayout>
