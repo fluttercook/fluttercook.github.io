@@ -53,10 +53,21 @@ Privacy policy `https://fluttercook.github.io/privacy/`, logo `public/logo.png`.
 a reject as prominent as accept. English only; the additional-language list is
 EEA languages, so Vietnamese is not on offer.
 
-Not attached to the message: trunghieu-it.blogspot.com and flutter9.blogspot.com.
-Neither has a privacy policy URL, and a half-configured message is worse than a
-missing one. **trunghieu-it serves ads to EEA visitors with no consent message
-today** — that is an open gap, not a decision.
+A second message, **"trunghieu-it — EEA/UK consent"**, covers
+`trunghieu-it.blogspot.com` and is **Published** (2026-08-21). Same "Do not
+consent" On for every EEA country, privacy policy
+`https://trunghieu-it.blogspot.com/p/privacy-policy.html` (the English one — the
+message only ever shows to EEA/UK/CH readers), logo
+`blogger/assets/trunghieu-it-logo.png`. AdSense *requires* a logo per site, and
+the blog ships no wordmark, so that PNG is generated from
+`trunghieu-it-logo.svg` using the blog theme's own colours (`#25a186` on
+`#292929`); regenerate it with the `rsvg-convert` line in the SVG's comment.
+This one carries English plus **23 EEA languages** — a consent has to be
+understood to be valid, and the default-language-only setup leaves a French or
+Polish reader with an English dialog.
+
+Still not attached to any message: flutter9.blogspot.com. It has no privacy
+policy URL, and it is also the site flagged for low value content.
 
 Still unset: the US state regulations (CCPA) message.
 

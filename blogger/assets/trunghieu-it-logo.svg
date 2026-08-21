@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <!-- Logo for the AdSense EEA/UK consent message on trunghieu-it.blogspot.com.
+       AdSense requires a logo per site; the blog itself has no wordmark asset,
+       so this is built from the theme's own colours: teal #25a186 accent on
+       #292929 text. Render to PNG with:
+         rsvg-convert -w 600 -h 120 -f png -o blogger/assets/trunghieu-it-logo.png \
+           blogger/assets/trunghieu-it-logo.svg -->
+  <rect x="0" y="28" width="8" height="64" rx="4" fill="#25a186"/>
+  <text x="34" y="76" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="bold" fill="#292929">TRUNG HIẾU</text>
+  <text x="352" y="76" font-family="Helvetica, Arial, sans-serif" font-size="46" font-weight="bold" fill="#25a186">IT</text>
+</svg>
