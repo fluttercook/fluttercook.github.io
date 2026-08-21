@@ -389,6 +389,20 @@
           "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
           "status": "LIVE",
           "published": "2026-08-20T11:52:05+07:00"
+        },
+        "blog/vi/lovable-migration-nextjs-to-tanstack-start": {
+          "postId": "9074302822146552793",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/lovable-roi-nextjs-sau-6-thang-nhung.html",
+          "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
+          "status": "LIVE",
+          "published": "2026-08-21T12:51:23+07:00"
+        },
+        "blog/en/lovable-migration-nextjs-to-tanstack-start": {
+          "postId": "3142856237944628202",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/lovable-left-nextjs-in-6-months-numbers.html",
+          "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
+          "status": "LIVE",
+          "published": "2026-08-21T12:51:35+07:00"
         }
       },
       "pages": {
