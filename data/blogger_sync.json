@@ -403,6 +403,20 @@
           "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
           "status": "LIVE",
           "published": "2026-08-21T12:51:35+07:00"
+        },
+        "blog/vi/web-tech-to-mobile-app-2026": {
+          "postId": "4311726360251013914",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/dung-cong-nghe-web-e-lam-app-mobile-ban.html",
+          "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
+          "status": "LIVE",
+          "published": "2026-08-21T16:26:15+07:00"
+        },
+        "blog/en/web-tech-to-mobile-app-2026": {
+          "postId": "8674940040317523469",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/using-web-technology-to-build-mobile.html",
+          "title": "Using web technology to build mobile apps: the 2026 technical map",
+          "status": "LIVE",
+          "published": "2026-08-21T16:26:31+07:00"
         }
       },
       "pages": {

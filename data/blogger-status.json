@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-20",
-  "articles": 40,
+  "generated": "2026-08-21",
+  "articles": 54,
   "blogs": [
     {
       "id": "8621533667729504576",
@@ -8,9 +8,9 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 107 post(s) live",
-      "done": 38,
-      "total": 40,
+      "detail": "role ADMIN, 120 post(s) live",
+      "done": 50,
+      "total": 54,
       "posts": [
         {
           "key": "blog/en/creating-a-custom-progress-indicator",
@@ -24,6 +24,83 @@
           "blogUrl": ""
         },
         {
+          "key": "blog/en/ai-poster-prompts-split-level-and-minimalist-editorial",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
+          "title": "Two layout systems that make AI posters look designed, not generated",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/two-layout-systems-that-make-ai-posters.html"
+        },
+        {
+          "key": "blog/en/building-an-ai-agent-team-chief-of-staff-pattern",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
+          "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/the-chief-of-staff-pattern-turning.html"
+        },
+        {
+          "key": "blog/en/cutting-ai-costs-free-tiers-caching-and-routing",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
+          "title": "Using AI without burning cash: free tiers, caching, and routing",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/free-ai-coding-agents-opencode-safely",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "free-ai-coding-agents-opencode-safely",
+          "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/free-ai-coding-agents-how-to-use.html"
+        },
+        {
+          "key": "blog/en/what-the-research-says-about-prompt-engineering",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "what-the-research-says-about-prompt-engineering",
+          "title": "What the research actually says about prompt engineering — five claims, fact-checked",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/what-research-actually-says-about.html"
+        },
+        {
+          "key": "blog/en/lovable-migration-nextjs-to-tanstack-start",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "lovable-migration-nextjs-to-tanstack-start",
+          "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/lovable-left-nextjs-in-6-months-numbers.html"
+        },
+        {
+          "key": "blog/en/web-tech-to-mobile-app-2026",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "web-tech-to-mobile-app-2026",
+          "title": "Using web technology to build mobile apps: the 2026 technical map",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/using-web-technology-to-build-mobile.html"
+        },
+        {
           "key": "blog/vi/creating-a-custom-progress-indicator",
           "collection": "blog",
           "lang": "vi",
@@ -33,6 +110,83 @@
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
           "status": "PENDING",
           "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/ai-poster-prompts-split-level-and-minimalist-editorial",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
+          "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html"
+        },
+        {
+          "key": "blog/vi/building-an-ai-agent-team-chief-of-staff-pattern",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
+          "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html"
+        },
+        {
+          "key": "blog/vi/cutting-ai-costs-free-tiers-caching-and-routing",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
+          "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/free-ai-coding-agents-opencode-safely",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "free-ai-coding-agents-opencode-safely",
+          "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html"
+        },
+        {
+          "key": "blog/vi/what-the-research-says-about-prompt-engineering",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "what-the-research-says-about-prompt-engineering",
+          "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html"
+        },
+        {
+          "key": "blog/vi/lovable-migration-nextjs-to-tanstack-start",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "lovable-migration-nextjs-to-tanstack-start",
+          "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/lovable-roi-nextjs-sau-6-thang-nhung.html"
+        },
+        {
+          "key": "blog/vi/web-tech-to-mobile-app-2026",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "web-tech-to-mobile-app-2026",
+          "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/dung-cong-nghe-web-e-lam-app-mobile-ban.html"
         },
         {
           "key": "news/en/apple-intelligence-vs-gemini-intelligence-on-device-ai",
@@ -462,7 +616,7 @@
       "access": "author-cannot-create",
       "detail": "role AUTHOR, 14 post(s) live — needs Admin to create new posts",
       "done": 8,
-      "total": 40,
+      "total": 54,
       "posts": [
         {
           "key": "blog/en/creating-a-custom-progress-indicator",
@@ -476,6 +630,83 @@
           "blogUrl": ""
         },
         {
+          "key": "blog/en/ai-poster-prompts-split-level-and-minimalist-editorial",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
+          "title": "Two layout systems that make AI posters look designed, not generated",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/building-an-ai-agent-team-chief-of-staff-pattern",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
+          "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/cutting-ai-costs-free-tiers-caching-and-routing",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
+          "title": "Using AI without burning cash: free tiers, caching, and routing",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/free-ai-coding-agents-opencode-safely",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "free-ai-coding-agents-opencode-safely",
+          "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/what-the-research-says-about-prompt-engineering",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "what-the-research-says-about-prompt-engineering",
+          "title": "What the research actually says about prompt engineering — five claims, fact-checked",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/lovable-migration-nextjs-to-tanstack-start",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "lovable-migration-nextjs-to-tanstack-start",
+          "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/web-tech-to-mobile-app-2026",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "web-tech-to-mobile-app-2026",
+          "title": "Using web technology to build mobile apps: the 2026 technical map",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
           "key": "blog/vi/creating-a-custom-progress-indicator",
           "collection": "blog",
           "lang": "vi",
@@ -483,6 +714,83 @@
           "title": "Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint",
           "publishDate": "2021-08-23",
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/ai-poster-prompts-split-level-and-minimalist-editorial",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
+          "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/building-an-ai-agent-team-chief-of-staff-pattern",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
+          "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/cutting-ai-costs-free-tiers-caching-and-routing",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
+          "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/free-ai-coding-agents-opencode-safely",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "free-ai-coding-agents-opencode-safely",
+          "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/what-the-research-says-about-prompt-engineering",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "what-the-research-says-about-prompt-engineering",
+          "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/lovable-migration-nextjs-to-tanstack-start",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "lovable-migration-nextjs-to-tanstack-start",
+          "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/web-tech-to-mobile-app-2026",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "web-tech-to-mobile-app-2026",
+          "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
           "status": "BLOCKED",
           "blogUrl": ""
         },
@@ -912,9 +1220,9 @@
       "url": "https://flutter9.blogspot.com/",
       "priority": 3,
       "access": "ok",
-      "detail": "role ADMIN, 150 post(s) live",
-      "done": 40,
-      "total": 40,
+      "detail": "role ADMIN, 158 post(s) live",
+      "done": 48,
+      "total": 54,
       "posts": [
         {
           "key": "blog/en/creating-a-custom-progress-indicator",
@@ -928,6 +1236,83 @@
           "blogUrl": "https://flutter9.blogspot.com/2026/08/creating-custom-progress-indicator-in.html"
         },
         {
+          "key": "blog/en/ai-poster-prompts-split-level-and-minimalist-editorial",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
+          "title": "Two layout systems that make AI posters look designed, not generated",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/two-layout-systems-that-make-ai-posters.html"
+        },
+        {
+          "key": "blog/en/building-an-ai-agent-team-chief-of-staff-pattern",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
+          "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/the-chief-of-staff-pattern-turning.html"
+        },
+        {
+          "key": "blog/en/cutting-ai-costs-free-tiers-caching-and-routing",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
+          "title": "Using AI without burning cash: free tiers, caching, and routing",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/free-ai-coding-agents-opencode-safely",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "free-ai-coding-agents-opencode-safely",
+          "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/free-ai-coding-agents-how-to-use.html"
+        },
+        {
+          "key": "blog/en/what-the-research-says-about-prompt-engineering",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "what-the-research-says-about-prompt-engineering",
+          "title": "What the research actually says about prompt engineering — five claims, fact-checked",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/what-research-actually-says-about.html"
+        },
+        {
+          "key": "blog/en/lovable-migration-nextjs-to-tanstack-start",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "lovable-migration-nextjs-to-tanstack-start",
+          "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/web-tech-to-mobile-app-2026",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "web-tech-to-mobile-app-2026",
+          "title": "Using web technology to build mobile apps: the 2026 technical map",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
           "key": "blog/vi/creating-a-custom-progress-indicator",
           "collection": "blog",
           "lang": "vi",
@@ -937,6 +1322,83 @@
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/tao-progress-indicator-tuy-chinh-trong.html"
+        },
+        {
+          "key": "blog/vi/ai-poster-prompts-split-level-and-minimalist-editorial",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
+          "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html"
+        },
+        {
+          "key": "blog/vi/building-an-ai-agent-team-chief-of-staff-pattern",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
+          "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html"
+        },
+        {
+          "key": "blog/vi/cutting-ai-costs-free-tiers-caching-and-routing",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
+          "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/free-ai-coding-agents-opencode-safely",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "free-ai-coding-agents-opencode-safely",
+          "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html"
+        },
+        {
+          "key": "blog/vi/what-the-research-says-about-prompt-engineering",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "what-the-research-says-about-prompt-engineering",
+          "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
+          "publishDate": "2026-08-20",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "LIVE",
+          "blogUrl": "https://flutter9.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html"
+        },
+        {
+          "key": "blog/vi/lovable-migration-nextjs-to-tanstack-start",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "lovable-migration-nextjs-to-tanstack-start",
+          "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
+          "status": "PENDING",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/web-tech-to-mobile-app-2026",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "web-tech-to-mobile-app-2026",
+          "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
+          "status": "PENDING",
+          "blogUrl": ""
         },
         {
           "key": "news/en/apple-intelligence-vs-gemini-intelligence-on-device-ai",
