@@ -1,19 +1,39 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-const all = (await getCollection('recipes')).filter(r => !r.data.draft);
+const recipes = (await getCollection('recipes')).filter((r) => !r.data.draft);
+const posts = (await getCollection('blog')).filter((p) => !p.data.draft);
+const news = (await getCollection('news')).filter((n) => !n.data.draft);
 ---
-<BaseLayout title="About — FlutterCook">
+<BaseLayout
+  title="About — FlutterCook"
+  description="Who runs FlutterCook, how the recipes are compiled from GitHub and pub.dev, and which pages are written by hand."
+  robots="index, follow"
+>
   <main class="wrap">
     <article class="article">
       <div class="crumb"><a href="/">FlutterCook</a> / about</div>
       <h1 class="serif">A cookbook for <i>open-source</i> Flutter.</h1>
       <div class="prose">
-        <p>FlutterCook is a growing library of {all.length} hands-on recipes for the best open-source Flutter and Dart projects — libraries, UI components, state management, animation, backend, and AI. Every recipe is chosen from live GitHub trend data and pub.dev, so the list reflects what the community is actually building with right now.</p>
-        <h2 class="serif">How recipes are <i>chosen</i></h2>
-        <p>We scan hundreds of Flutter/Dart repositories, rank them by stars weighted for recent activity, layer in editorial "must-know" picks and YouTube demand signals, then write a focused guide for each. The <a href="/trends">live trends page</a> shows the raw leaderboard, refreshed on every visit.</p>
+        <p>FlutterCook indexes the open-source Flutter and Dart ecosystem — libraries, UI components, state management, animation, backend, and AI — and pairs that index with hand-written articles and free browser tools for app developers.</p>
+
+        <h2 class="serif">Who <i>writes</i> this</h2>
+        <p>FlutterCook is run by <b>Trung Hieu</b>, a mobile developer working with Flutter, iOS and Android. It is a personal project, not a company: there is no editorial team behind the byline, and no one pays to appear on it. The same notes are published in Vietnamese on <a href="https://trunghieu-it.blogspot.com" target="_blank" rel="noopener">trunghieu-it.blogspot.com</a>.</p>
+        <p>Corrections, licensing questions and privacy requests all go to the same place — see <a href="/contact/">contact</a>. Paid guest posts and link exchanges are declined.</p>
+
+        <h2 class="serif">What is written, what is <i>compiled</i></h2>
+        <p>Being straight about this matters, because the two kinds of page are not the same thing:</p>
+        <ul>
+          <li><b>Written by hand</b> — the {posts.length} <a href="/blog/">blog</a> posts, the {news.length} <a href="/news/">news</a> digests, the <a href="/guides/">guides</a>, the <a href="/tools/screenshot-studio/">Screenshot Studio</a> tool, and these standing pages. This is the part of the site worth your time.</li>
+          <li><b>Compiled from public metadata</b> — the {recipes.length} <a href="/recipes/">recipe</a> pages. Each one is assembled from the GitHub API (stars, forks, last commit, topics, the repository's own description) and pub.dev, laid into a shared template. They are a searchable directory of the ecosystem, not original writing.</li>
+        </ul>
+        <p>Because the recipe pages are compiled rather than written, they carry <code>noindex</code> and they carry no advertising. They exist so you can find a package and get to its real documentation quickly, and they link straight out to the source repository on every entry. Star counts and commit dates are snapshots from the last build, so treat them as approximate — the <a href="/trends/">trends page</a> pulls live numbers instead.</p>
+
         <h2 class="serif">Built in the <i>open</i></h2>
-        <p>Source and demos live at <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. This site is built with <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> and deployed to GitHub Pages; a companion edition is published at <a href="https://flutter9.blogspot.com" target="_blank" rel="noopener">flutter9.blogspot.com</a>.</p>
+        <p>Source and demos live at <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. The site is built with <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>, is fully static, and is deployed to GitHub Pages. There is no account system and no server of our own — what that means for your data is set out in the <a href="/privacy/">privacy policy</a>.</p>
+
+        <h2 class="serif">How the ecosystem is <i>ranked</i></h2>
+        <p>Repositories are ranked by stars weighted for recent activity, then adjusted by hand: long-standing "must-know" packages are kept even when their star growth has flattened, and abandoned projects drop off regardless of historical popularity. Nothing in the ranking is sponsored.</p>
       </div>
     </article>
   </main>

@@ -42,6 +42,13 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
   {kw && <meta name="keywords" content={kw} />}
   <meta name="robots" content={robots} />
   <meta name="author" content="FlutterCook" />
+  {/* Google Search Console. fluttercook.github.io is a github.io subdomain, so
+      the DNS TXT method is not available to us — this is the same token in its
+      HTML-tag form. Verification tokens are public by design. */}
+  <meta name="google-site-verification" content="w5g-9sSXg6DtSzY-vaOTeyVWu7BK4pDM2NPVFzMSyL0" />
+  {/* Keeps AdSense site ownership verified even on pages that do not load the
+      ad script (all of /recipes/, and 404). */}
+  <meta name="google-adsense-account" content={ADSENSE_CLIENT} />
   <link rel="canonical" href={canonical} />
   <link rel="alternate" hreflang="en" href={enHref} />
   <link rel="alternate" hreflang="vi" href={viHref} />

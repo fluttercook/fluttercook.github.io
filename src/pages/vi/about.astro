@@ -1,19 +1,40 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-const all = (await getCollection('recipesVi')).filter((r) => !r.data.draft);
+const recipes = (await getCollection('recipesVi')).filter((r) => !r.data.draft);
+const posts = (await getCollection('blogVi')).filter((p) => !p.data.draft);
+const news = (await getCollection('newsVi')).filter((n) => !n.data.draft);
 ---
-<BaseLayout lang="vi" title="Giới thiệu — FlutterCook">
+<BaseLayout
+  lang="vi"
+  title="Giới thiệu — FlutterCook"
+  description="Ai đứng sau FlutterCook, các trang công thức được tổng hợp từ GitHub và pub.dev ra sao, và trang nào được viết tay."
+  robots="index, follow"
+>
   <main class="wrap">
     <article class="article">
       <div class="crumb"><a href="/vi/">FlutterCook</a> / giới thiệu</div>
       <h1 class="serif">Sổ tay cho Flutter <i>mã nguồn mở</i>.</h1>
       <div class="prose">
-        <p>FlutterCook là thư viện đang lớn dần gồm {all.length} hướng dẫn thực hành về các dự án Flutter và Dart mã nguồn mở tốt nhất — thư viện, thành phần UI, quản lý trạng thái, hoạt ảnh, backend và AI. Mỗi công thức được chọn từ dữ liệu xu hướng GitHub trực tiếp và pub.dev, nên danh sách phản ánh đúng những gì cộng đồng đang thực sự dùng.</p>
-        <h2 class="serif">Công thức được <i>chọn</i> thế nào</h2>
-        <p>Chúng tôi quét hàng trăm repo Flutter/Dart, xếp hạng theo số sao có tính đến hoạt động gần đây, thêm các lựa chọn "must-know" của biên tập và tín hiệu nhu cầu từ YouTube, rồi viết một hướng dẫn tập trung cho mỗi mục. <a href="/vi/trends/">Trang xu hướng trực tiếp</a> hiển thị bảng xếp hạng thô, làm mới mỗi lần truy cập.</p>
+        <p>FlutterCook lập chỉ mục hệ sinh thái Flutter và Dart mã nguồn mở — thư viện, thành phần UI, quản lý trạng thái, hoạt ảnh, backend và AI — rồi ghép chỉ mục đó với các bài viết tay và công cụ miễn phí chạy ngay trên trình duyệt cho lập trình viên di động.</p>
+
+        <h2 class="serif">Ai <i>viết</i> trang này</h2>
+        <p>FlutterCook do <b>Trung Hiếu</b> vận hành, một lập trình viên di động làm việc với Flutter, iOS và Android. Đây là dự án cá nhân, không phải công ty: không có ban biên tập nào đứng sau, và không ai trả tiền để được xuất hiện ở đây. Cùng loạt ghi chép đó được đăng bằng tiếng Việt tại <a href="https://trunghieu-it.blogspot.com" target="_blank" rel="noopener">trunghieu-it.blogspot.com</a>.</p>
+        <p>Đính chính, câu hỏi về bản quyền và yêu cầu liên quan tới quyền riêng tư đều gửi về cùng một chỗ — xem trang <a href="/vi/contact/">liên hệ</a>. Bài viết trả phí và trao đổi backlink thì xin từ chối.</p>
+
+        <h2 class="serif">Trang nào viết tay, trang nào <i>tổng hợp</i></h2>
+        <p>Nói thẳng chuyện này là cần thiết, vì hai loại trang không giống nhau:</p>
+        <ul>
+          <li><b>Viết tay</b> — {posts.length} bài <a href="/vi/blog/">blog</a>, {news.length} bản tin <a href="/vi/news/">tin tức</a>, các <a href="/vi/guides/">hướng dẫn</a>, công cụ <a href="/vi/tools/screenshot-studio/">Screenshot Studio</a>, và các trang cố định như trang này. Đây mới là phần đáng để bạn bỏ thời gian đọc.</li>
+          <li><b>Tổng hợp từ dữ liệu công khai</b> — {recipes.length} trang <a href="/vi/recipes/">công thức</a>. Mỗi trang được ghép từ GitHub API (số sao, fork, lần commit cuối, chủ đề, mô tả do chính repo viết) và pub.dev, đổ vào một mẫu chung. Đó là một thư mục tra cứu hệ sinh thái, không phải bài viết gốc.</li>
+        </ul>
+        <p>Vì các trang công thức là tổng hợp chứ không phải viết tay, chúng mang thẻ <code>noindex</code> và không chạy quảng cáo. Chúng tồn tại để bạn tìm ra một package rồi đi thẳng tới tài liệu gốc của nó — mỗi mục đều có link ra repo nguồn. Số sao và ngày commit là ảnh chụp tại lần build gần nhất nên chỉ mang tính tương đối; <a href="/vi/trends/">trang xu hướng</a> mới lấy số liệu trực tiếp.</p>
+
         <h2 class="serif">Xây dựng <i>công khai</i></h2>
-        <p>Mã nguồn và demo có tại <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. Trang này dựng bằng <a href="https://astro.build" target="_blank" rel="noopener">Astro</a> và deploy lên GitHub Pages; một phiên bản đồng hành được đăng tại <a href="https://flutter9.blogspot.com" target="_blank" rel="noopener">flutter9.blogspot.com</a>.</p>
+        <p>Mã nguồn và demo có tại <a href="https://github.com/fluttercook" target="_blank" rel="noopener">github.com/fluttercook</a>. Trang được dựng bằng <a href="https://astro.build" target="_blank" rel="noopener">Astro</a>, hoàn toàn tĩnh, và deploy lên GitHub Pages. Không có hệ thống tài khoản và cũng không có máy chủ riêng — điều đó có ý nghĩa gì với dữ liệu của bạn thì <a href="/vi/privacy/">chính sách quyền riêng tư</a> nói rõ.</p>
+
+        <h2 class="serif">Hệ sinh thái được <i>xếp hạng</i> ra sao</h2>
+        <p>Các repo được xếp theo số sao có tính trọng số cho hoạt động gần đây, rồi chỉnh tay: những package "must-know" lâu năm vẫn được giữ dù tốc độ tăng sao đã chững, còn dự án bỏ hoang thì loại bỏ bất kể từng nổi tiếng đến đâu. Không có mục nào trong bảng xếp hạng là trả tiền.</p>
       </div>
     </article>
   </main>

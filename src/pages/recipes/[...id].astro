@@ -61,8 +61,16 @@ const jsonLd = [article, breadcrumb, faqLd].filter(Boolean);
   description={metaDesc}
   keywords={d.keywords}
   ogType="article"
-  {/* Generated from GitHub metadata — kept out of ad serving on purpose. */}
+  {/* Generated from GitHub + pub.dev metadata, so this page is deliberately
+      kept out of both ad serving and the search index. Google Publisher
+      Policies forbid monetising pages built from someone else's content
+      without added value, and "low value content" is the most common AdSense
+      rejection for templated pages. `follow` still passes link equity to the
+      repos and to our own hand-written pages. To put them back: delete these
+      two props from both recipe routes (en + vi) and drop the `filter` in
+      astro.config.mjs. */}
   ads={false}
+  robots="noindex, follow"
   datePublished={d.datePublished}
   dateModified={d.dateModified}
   jsonLd={jsonLd}

@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+// GitHub Pages serves this single file for every unmatched path in both
+// language trees, so it has to read in English and Vietnamese at once and it
+// cannot know which language the visitor wanted. It is also the one page on
+// the site with no content of its own: no ads, no index entry.
+---
+<BaseLayout
+  title="Page not found · FlutterCook"
+  description="That page does not exist on FlutterCook. Browse the recipes, the blog, or the news archive instead."
+  ads={false}
+  robots="noindex, follow"
+>
+  <main class="wrap">
+    <article class="article">
+      <div class="crumb"><a href="/">FlutterCook</a> / 404</div>
+      <h1 class="serif">That page isn't <i>here</i>.</h1>
+      <p class="sub">Trang bạn tìm không tồn tại hoặc đã được đổi địa chỉ.</p>
+      <div class="prose">
+        <p>The link may be out of date, or the address may have a typo in it. Nothing is broken on your end.</p>
+        <h2 class="serif">English</h2>
+        <ul>
+          <li><a href="/">Home</a> — what's new across the site</li>
+          <li><a href="/recipes/">Recipes</a> — 500 open-source Flutter packages, indexed by category</li>
+          <li><a href="/blog/">Blog</a> — long-form write-ups</li>
+          <li><a href="/news/">News</a> — release digests</li>
+          <li><a href="/tools/screenshot-studio/">Screenshot Studio</a> — free App Store &amp; Play screenshots in your browser</li>
+          <li><a href="/contact/">Contact</a> — tell us which link sent you here</li>
+        </ul>
+        <h2 class="serif">Tiếng Việt</h2>
+        <ul>
+          <li><a href="/vi/">Trang chủ</a></li>
+          <li><a href="/vi/recipes/">Công thức</a> — 500 thư viện Flutter mã nguồn mở</li>
+          <li><a href="/vi/blog/">Blog</a></li>
+          <li><a href="/vi/news/">Tin tức</a></li>
+          <li><a href="/vi/tools/screenshot-studio/">Screenshot Studio</a></li>
+          <li><a href="/vi/contact/">Liên hệ</a></li>
+        </ul>
+      </div>
+    </article>
+  </main>
+</BaseLayout>
