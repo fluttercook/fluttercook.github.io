@@ -21,9 +21,7 @@ footer pointing at the canonical copy on fluttercook.github.io.
 
 Examples:
     python3 scripts/publish_page_to_blogger.py --lang en --dry-run
-    python3 scripts/publish_page_to_blogger.py --lang vi --blog-id 8621533667729504576 \
-        --token-file .app_dist/trunghieu-it/token.json \
-        --client-secret .app_dist/trunghieu-it/client_secret.json --publish
+    python3 scripts/publish_page_to_blogger.py --lang vi --blog trunghieu-it --publish
 """
 from __future__ import annotations
 
@@ -37,6 +35,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from publish_to_blogger import (  # noqa: E402  (path shim has to come first)
+    BLOG_ID_BY_NAME,
+    BLOGS,
     DEFAULT_BLOG_ID,
     ROOT,
     SITE,
@@ -45,6 +45,7 @@ from publish_to_blogger import (  # noqa: E402  (path shim has to come first)
     assert_can_write,
     blog_state,
     load_state,
+    resolve_blog,
     save_state,
 )
 
@@ -258,9 +259,13 @@ def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__,
                                  formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--lang", choices=["en", "vi"], required=True)
-    ap.add_argument("--blog-id", default=DEFAULT_BLOG_ID)
-    ap.add_argument("--token-file", default=str(ROOT / ".app_dist" / "token_fluttercook.json"))
-    ap.add_argument("--client-secret", default=str(ROOT / ".app_dist" / "client_secret.json"))
+    ap.add_argument("--blog", "--blog-id", dest="blog", default=DEFAULT_BLOG_ID,
+                    help="blog id or short name: " + ", ".join(BLOG_ID_BY_NAME) +
+                         f" (default: {BLOGS[DEFAULT_BLOG_ID]['name']})")
+    ap.add_argument("--token-file", default=None,
+                    help="(default: whichever token --blog needs)")
+    ap.add_argument("--client-secret", default=None,
+                    help="(default: whichever client --blog needs)")
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true", help="write the payload to disk, send nothing")
     mode.add_argument("--draft", action="store_true")
@@ -268,7 +273,11 @@ def main() -> int:
     ap.add_argument("--out", default="/tmp/blogger-page-dry-run")
     args = ap.parse_args()
 
-    body = build_body(args.lang, args.blog_id)
+    blog_id, creds = resolve_blog(args.blog)
+    token_file = Path(args.token_file) if args.token_file else ROOT / creds["token_file"]
+    client_secret = Path(args.client_secret) if args.client_secret else ROOT / creds["client_secret"]
+
+    body = build_body(args.lang, blog_id)
     title = META[args.lang]["title"]
     key = f"screenshot-studio-{args.lang}"
 
@@ -280,15 +289,14 @@ def main() -> int:
         print(f"dry run -> {dest}  ({len(body):,} bytes of body)")
         return 0
 
-    token_file = Path(args.token_file)
-    token = access_token(token_file if token_file.exists() else None, Path(args.client_secret))
-    assert_can_write(args.blog_id, token)
+    token = access_token(token_file, client_secret)
+    assert_can_write(blog_id, token)
 
     state = load_state()
-    entry = blog_state(state, args.blog_id)
+    entry = blog_state(state, blog_id)
     pages = entry.setdefault("pages", {})
 
-    base = f"https://www.googleapis.com/blogger/v3/blogs/{args.blog_id}/pages"
+    base = f"https://www.googleapis.com/blogger/v3/blogs/{blog_id}/pages"
     payload = {"kind": "blogger#page", "title": title, "content": body}
     page_id = pages.get(key, {}).get("id") if isinstance(pages.get(key), dict) else pages.get(key)
 

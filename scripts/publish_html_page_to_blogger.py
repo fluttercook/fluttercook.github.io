@@ -24,9 +24,7 @@ Examples:
 
     python3 scripts/publish_html_page_to_blogger.py --key privacy/vi \
         --title "Chính sách quyền riêng tư" --file blogger/pages/privacy-vi.html \
-        --cross-key privacy/en \
-        --token-file .app_dist/trunghieu-it/token.json \
-        --client-secret .app_dist/trunghieu-it/client_secret.json --publish
+        --cross-key privacy/en --blog trunghieu-it --publish
 """
 from __future__ import annotations
 
@@ -37,6 +35,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from publish_to_blogger import (  # noqa: E402  (path shim has to come first)
+    BLOG_ID_BY_NAME,
+    BLOGS,
     DEFAULT_BLOG_ID,
     ROOT,
     access_token,
@@ -44,6 +44,7 @@ from publish_to_blogger import (  # noqa: E402  (path shim has to come first)
     assert_can_write,
     blog_state,
     load_state,
+    resolve_blog,
     save_state,
 )
 
@@ -66,14 +67,22 @@ def main() -> int:
     ap.add_argument("--title", required=True)
     ap.add_argument("--file", required=True, help="HTML fragment, relative to the repo root")
     ap.add_argument("--cross-key", help="sync-map key whose URL replaces __CROSS_URL__")
-    ap.add_argument("--blog-id", default=DEFAULT_BLOG_ID)
-    ap.add_argument("--token-file", default=".app_dist/trunghieu-it/token.json")
-    ap.add_argument("--client-secret", default=".app_dist/trunghieu-it/client_secret.json")
+    ap.add_argument("--blog", "--blog-id", dest="blog", default=DEFAULT_BLOG_ID,
+                    help="blog id or short name: " + ", ".join(BLOG_ID_BY_NAME) +
+                         f" (default: {BLOGS[DEFAULT_BLOG_ID]['name']})")
+    ap.add_argument("--token-file", default=None,
+                    help="(default: whichever token --blog needs)")
+    ap.add_argument("--client-secret", default=None,
+                    help="(default: whichever client --blog needs)")
     ap.add_argument("--draft", action="store_true", help="create as a draft (new pages only)")
     group = ap.add_mutually_exclusive_group(required=True)
     group.add_argument("--publish", action="store_true")
     group.add_argument("--dry-run", action="store_true")
     args = ap.parse_args()
+
+    blog_id, creds = resolve_blog(args.blog)
+    token_file = Path(args.token_file) if args.token_file else ROOT / creds["token_file"]
+    client_secret = Path(args.client_secret) if args.client_secret else ROOT / creds["client_secret"]
 
     src = Path(args.file)
     if not src.is_absolute():
@@ -81,7 +90,7 @@ def main() -> int:
     body = src.read_text("utf-8").strip()
 
     if CROSS_MARKER in body:
-        cross = page_url(args.blog_id, args.cross_key) if args.cross_key else ""
+        cross = page_url(blog_id, args.cross_key) if args.cross_key else ""
         if cross:
             body = body.replace(CROSS_MARKER, cross)
         else:
@@ -92,25 +101,18 @@ def main() -> int:
 
     if args.dry_run:
         print(f"dry run: {args.title}")
-        print(f"  key {args.key}  blog {args.blog_id}  {len(body):,} bytes of body")
-        print(f"  existing: {page_url(args.blog_id, args.key) or '(new page)'}")
+        print(f"  key {args.key}  blog {blog_id}  {len(body):,} bytes of body")
+        print(f"  existing: {page_url(blog_id, args.key) or '(new page)'}")
         return 0
 
-    token_file = Path(args.token_file)
-    if not token_file.is_absolute():
-        token_file = ROOT / token_file
-    client_secret = Path(args.client_secret)
-    if not client_secret.is_absolute():
-        client_secret = ROOT / client_secret
-
-    token = access_token(token_file if token_file.exists() else None, client_secret)
-    assert_can_write(args.blog_id, token)
+    token = access_token(token_file, client_secret)
+    assert_can_write(blog_id, token)
 
     state = load_state()
-    entry = blog_state(state, args.blog_id)
+    entry = blog_state(state, blog_id)
     pages = entry.setdefault("pages", {})
 
-    base = f"https://www.googleapis.com/blogger/v3/blogs/{args.blog_id}/pages"
+    base = f"https://www.googleapis.com/blogger/v3/blogs/{blog_id}/pages"
     payload = {"kind": "blogger#page", "title": args.title, "content": body}
     rec = pages.get(args.key)
     page_id = rec.get("id") if isinstance(rec, dict) else rec

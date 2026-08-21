@@ -12,8 +12,11 @@ and we do not want the mirror outranking the original.
 A slug -> postId map is kept in data/blogger_sync.json so re-runs UPDATE the
 existing Blogger post instead of creating a duplicate.
 
-Auth: needs a token with scope https://www.googleapis.com/auth/blogger,
-supplied via $BLOGGER_ACCESS_TOKEN or `gcloud auth print-access-token`.
+Auth: needs a token with scope https://www.googleapis.com/auth/blogger. Each
+blog in BLOGS below names its own token file, because the blogs do not all live
+on the same Google account — pass `--blog <name>` and the right credentials are
+picked up automatically. $BLOGGER_ACCESS_TOKEN still wins if it is set, and
+--token-file / --client-secret override the map for a blog it does not list.
 The Blogger API must be enabled on the quota project.
 
 Examples:
@@ -23,8 +26,9 @@ Examples:
     # Create drafts (safe: nothing goes public until you hit Publish in Blogger)
     python3 scripts/publish_to_blogger.py --collection blog --lang vi --all --draft
 
-    # Go live
-    python3 scripts/publish_to_blogger.py --collection news --lang vi --all --publish
+    # Go live, on the blog you name (default: trunghieu-it)
+    python3 scripts/publish_to_blogger.py --blog fluttercook \
+        --collection news --lang vi --all --publish
 """
 from __future__ import annotations
 
@@ -47,6 +51,47 @@ DIST = ROOT / "dist"
 STATE_FILE = ROOT / "data" / "blogger_sync.json"
 SITE = "https://fluttercook.github.io"
 DEFAULT_BLOG_ID = "8621533667729504576"  # trunghieu-it.blogspot.com
+
+# Which credentials each blog needs. The three blogs are split across two Google
+# accounts, so a single default token cannot serve all of them — publishing to
+# trunghieu-it with fluttercook's token fails with "no author rights on blog ...",
+# which reads like a permissions problem but is really the wrong account. Pick the
+# token from --blog instead of making the caller remember. Kept in step with
+# scripts/blogger_status.py, which reports the same three.
+BLOGS = {
+    "8621533667729504576": {
+        "name": "trunghieu-it",
+        "token_file": ".app_dist/trunghieu-it/token.json",
+        "client_secret": ".app_dist/trunghieu-it/client_secret.json",
+    },
+    "2374794397032110467": {
+        "name": "fluttercook",
+        "token_file": ".app_dist/token_fluttercook.json",
+        "client_secret": ".app_dist/client_secret.json",
+    },
+    "954315885651943515": {
+        # Same Google account as trunghieu-it (ADMIN on both). The older
+        # .app_dist/token.json has a dead refresh token — use the one authorize.py
+        # minted, not that one.
+        "name": "flutter9",
+        "token_file": ".app_dist/trunghieu-it/token.json",
+        "client_secret": ".app_dist/trunghieu-it/client_secret.json",
+    },
+}
+BLOG_ID_BY_NAME = {b["name"]: bid for bid, b in BLOGS.items()}
+
+
+def resolve_blog(ref: str) -> tuple[str, dict]:
+    """Accept either a blog id or a short name, and return (id, credentials)."""
+    blog_id = BLOG_ID_BY_NAME.get(ref, ref)
+    creds = BLOGS.get(blog_id)
+    if creds is None:
+        known = ", ".join(f"{b['name']} ({bid})" for bid, b in BLOGS.items())
+        raise SystemExit(
+            f"unknown blog {ref!r}. Known: {known}.\n"
+            "For a blog that is not listed, pass --token-file (and --client-secret) yourself."
+        )
+    return blog_id, creds
 
 # collection -> (content dir, dist path prefix, site path prefix)
 LAYOUT = {
@@ -261,11 +306,15 @@ def main() -> int:
     ap.add_argument("--lang", choices=["en", "vi"], required=True)
     ap.add_argument("--slug", action="append", default=[], help="repeatable; omit with --all")
     ap.add_argument("--all", action="store_true", help="every non-draft entry in the collection")
-    ap.add_argument("--blog-id", default=DEFAULT_BLOG_ID)
-    ap.add_argument("--token-file", default=str(ROOT / ".app_dist" / "token_fluttercook.json"),
-                    help="OAuth token JSON with a refresh_token and the blogger scope")
-    ap.add_argument("--client-secret", default=str(ROOT / ".app_dist" / "client_secret.json"),
-                    help="OAuth desktop client JSON, used to refresh the token")
+    ap.add_argument("--blog", "--blog-id", dest="blog", default=DEFAULT_BLOG_ID,
+                    help="blog id or short name: " + ", ".join(BLOG_ID_BY_NAME) +
+                         f" (default: {BLOGS[DEFAULT_BLOG_ID]['name']})")
+    ap.add_argument("--token-file", default=None,
+                    help="OAuth token JSON with a refresh_token and the blogger scope "
+                         "(default: whichever token --blog needs)")
+    ap.add_argument("--client-secret", default=None,
+                    help="OAuth desktop client JSON, used to refresh the token "
+                         "(default: whichever client --blog needs)")
     mode = ap.add_mutually_exclusive_group(required=True)
     mode.add_argument("--dry-run", action="store_true", help="write the payloads to disk, send nothing")
     mode.add_argument("--draft", action="store_true", help="create/update as an unpublished draft")
@@ -279,6 +328,10 @@ def main() -> int:
                     help="also overwrite posts written by an older toolchain (they are often "
                          "bilingual in a single post; Blogger keeps no revision history)")
     args = ap.parse_args()
+
+    blog_id, creds = resolve_blog(args.blog)
+    token_file = Path(args.token_file) if args.token_file else ROOT / creds["token_file"]
+    client_secret = Path(args.client_secret) if args.client_secret else ROOT / creds["client_secret"]
 
     content_dir = ROOT / LAYOUT[(args.collection, args.lang)][0]
     if args.all:
@@ -305,15 +358,15 @@ def main() -> int:
         print(f"\n{len(posts)} post(s) written to {out}/ — nothing was sent to Blogger.")
         return 0
 
-    token = access_token(Path(args.token_file), Path(args.client_secret))
-    assert_can_write(args.blog_id, token)
+    token = access_token(token_file, client_secret)
+    assert_can_write(blog_id, token)
     target_host = urllib.parse.urlparse(
-        api("GET", f"https://www.googleapis.com/blogger/v3/blogs/{args.blog_id}", token).get("url", "")
+        api("GET", f"https://www.googleapis.com/blogger/v3/blogs/{blog_id}", token).get("url", "")
     ).netloc.removeprefix("www.")
     state = load_state()
-    entry = blog_state(state, args.blog_id)
+    entry = blog_state(state, blog_id)
     key_prefix = f"{args.collection}/{args.lang}/"
-    base = f"https://www.googleapis.com/blogger/v3/blogs/{args.blog_id}/posts"
+    base = f"https://www.googleapis.com/blogger/v3/blogs/{blog_id}/posts"
 
     for slug, post in posts:
         key = key_prefix + slug
@@ -350,7 +403,7 @@ def main() -> int:
         print(f"{action}: {post['title']}\n  -> {result.get('url') or '(draft)'}  [id {result['id']}]")
         time.sleep(args.sleep)
 
-    print(f"\n{len(posts)} post(s) {'published' if args.publish else 'saved as draft'} on blog {args.blog_id}.")
+    print(f"\n{len(posts)} post(s) {'published' if args.publish else 'saved as draft'} on blog {blog_id}.")
     print(f"sync map: {STATE_FILE.relative_to(ROOT)}")
     return 0
 

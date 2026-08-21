@@ -25,6 +25,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from publish_to_blogger import (  # noqa: E402
+    BLOGS as BLOG_CREDENTIALS,
     LAYOUT,
     ROOT,
     STATE_FILE,
@@ -36,35 +37,25 @@ from publish_to_blogger import (  # noqa: E402
 REPORT_JSON = ROOT / "data" / "blogger-status.json"
 REPORT_MD = ROOT / "docs" / "blogger-status.md"
 
-# The blogs we mirror to, in priority order. token_file is relative to ROOT.
+# The blogs we mirror to, in priority order. Credentials live in the single table
+# in publish_to_blogger.py — the two scripts kept their own copies and drifted, so
+# only the reporting extras stay here. Everything else is derived from the short
+# name, which is also the blogspot subdomain.
+EXTRAS = {
+    "8621533667729504576": {"priority": 1, "api_key_file": ".app_dist/trunghieu-it/api_key.txt"},
+    "2374794397032110467": {"priority": 2},
+    "954315885651943515": {"priority": 3},
+}
 BLOGS = [
     {
-        "id": "8621533667729504576",
-        "name": "trunghieu-it.blogspot.com",
-        "url": "https://trunghieu-it.blogspot.com/",
-        "token_file": ".app_dist/trunghieu-it/token.json",
-        "client_secret": ".app_dist/trunghieu-it/client_secret.json",
-        "api_key_file": ".app_dist/trunghieu-it/api_key.txt",
-        "priority": 1,
-    },
-    {
-        "id": "2374794397032110467",
-        "name": "fluttercook.blogspot.com",
-        "url": "https://fluttercook.blogspot.com/",
-        "token_file": ".app_dist/token_fluttercook.json",
-        "client_secret": ".app_dist/client_secret.json",
-        "priority": 2,
-    },
-    {
-        "id": "954315885651943515",
-        "name": "flutter9.blogspot.com",
-        "url": "https://flutter9.blogspot.com/",
-        # Same Google account as trunghieu-it (ADMIN on both); the old token.json here
-        # has a dead refresh token, so point at the one authorize.py minted.
-        "token_file": ".app_dist/trunghieu-it/token.json",
-        "client_secret": ".app_dist/trunghieu-it/client_secret.json",
-        "priority": 3,
-    },
+        "id": blog_id,
+        "name": f"{BLOG_CREDENTIALS[blog_id]['name']}.blogspot.com",
+        "url": f"https://{BLOG_CREDENTIALS[blog_id]['name']}.blogspot.com/",
+        "token_file": BLOG_CREDENTIALS[blog_id]["token_file"],
+        "client_secret": BLOG_CREDENTIALS[blog_id]["client_secret"],
+        **extras,
+    }
+    for blog_id, extras in sorted(EXTRAS.items(), key=lambda kv: kv[1]["priority"])
 ]
 
 
