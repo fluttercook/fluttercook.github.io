@@ -417,6 +417,20 @@
           "title": "Using web technology to build mobile apps: the 2026 technical map",
           "status": "LIVE",
           "published": "2026-08-21T16:26:31+07:00"
+        },
+        "blog/vi/flutter-introduction-2026": {
+          "postId": "8018363840712171045",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html",
+          "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
+          "status": "LIVE",
+          "published": "2026-08-21T22:58:06+07:00"
+        },
+        "blog/en/flutter-introduction-2026": {
+          "postId": "279266952103316220",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/what-flutter-is-reading-3d-game-built.html",
+          "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
+          "status": "LIVE",
+          "published": "2026-08-21T22:58:19+07:00"
         }
       },
       "pages": {
