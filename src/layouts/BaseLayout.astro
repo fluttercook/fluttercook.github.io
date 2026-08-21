@@ -48,10 +48,13 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
   {kw && <meta name="keywords" content={kw} />}
   <meta name="robots" content={robots} />
   <meta name="author" content="FlutterCook" />
-  {/* Google Search Console. fluttercook.github.io is a github.io subdomain, so
-      the DNS TXT method is not available to us — this is the same token in its
-      HTML-tag form. Verification tokens are public by design. */}
-  <meta name="google-site-verification" content="w5g-9sSXg6DtSzY-vaOTeyVWu7BK4pDM2NPVFzMSyL0" />
+  {/* Google Search Console, URL-prefix property for https://fluttercook.github.io/.
+      A Domain property was started first but only DNS TXT can verify one, and we
+      do not own github.io's zone — so this is the URL-prefix property's own
+      HTML-tag token instead (a different string; tokens are per property and per
+      method). Verification tokens are public by design. Do not remove it: Search
+      Console re-checks periodically and unverifies the property if it vanishes. */}
+  <meta name="google-site-verification" content="2ycDQu9CCJcyTnUgZKBB4cpkxzJhzrunqfj8AHcmYi8" />
   {/* Keeps AdSense site ownership verified even on pages that do not load the
       ad script (all of /recipes/, and 404). */}
   <meta name="google-adsense-account" content={ADSENSE_CLIENT} />
