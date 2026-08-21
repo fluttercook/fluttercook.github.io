@@ -71,6 +71,32 @@ policy URL, and it is also the site flagged for low value content.
 
 Still unset: the US state regulations (CCPA) message.
 
+## Site approval and ads.txt
+
+`fluttercook.github.io` is **Getting ready** in AdSense → Sites, not yet Ready.
+Ownership is verified and the review was requested **21 Aug 2026 13:48**; Google
+says a few days, up to 2-4 weeks. Until it flips to Ready, ads do not serve: the
+Auto ads script loads, injects an `<ins class="adsbygoogle">` and calls
+doubleclick, and the slot comes back `data-ad-status="unfilled"` at 0x0. That is
+the expected pre-approval state, not a bug — nothing needs redeploying when the
+review passes.
+
+Auto ads and Auto optimize are **On** for the site. There are no hand-placed
+`<ins>` units anywhere in `src/`; every placement comes from Auto ads, which only
+runs where `BaseLayout` loads the script — so the 1000 `/recipes/` detail pages
+and 404 stay ad-free by construction.
+
+`public/ads.txt` carries the one DIRECT line for `pub-5091408807979195` plus
+`OWNERDOMAIN` and `CONTACT` variable records (IAB Tech Lab v1.1). Two things to
+know:
+
+- Crawlers fetch **lowercase** `/ads.txt` only. GitHub Pages is case-sensitive,
+  so `/Ads.txt` returns 404. That is correct; do not add a second copy.
+- The Sites list read _ads.txt: Not found_ on 2026-08-21 because the crawl ran at
+  13:48 and the file first went live at 14:37 (commit `0f03734`). Stale, not
+  broken — `trunghieu-it.blogspot.com` already reads _Authorized_, which proves
+  the crawler reads these fine.
+
 ## Search Console
 
 The property is a **URL prefix** property for `https://fluttercook.github.io/`,

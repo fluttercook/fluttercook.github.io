@@ -1,1 +1,19 @@
+# ads.txt — Authorized Digital Sellers for fluttercook.github.io
+# IAB Tech Lab spec v1.1: https://iabtechlab.com/ads-txt/
+#
+# Crawlers fetch this at the root over plain lowercase /ads.txt only.
+# GitHub Pages is case-sensitive, so /Ads.txt 404s — that is expected and
+# harmless; do not add a second copy under another name.
+#
+# One publisher, one seller: every ad on this site is sold directly by
+# Google AdSense under pub-5091408807979195. Any other line appearing here
+# would be an error or a compromise.
+
 google.com, pub-5091408807979195, DIRECT, f08c47fec0942fa0
+
+# Variable records. OWNERDOMAIN names the business that owns the inventory;
+# it is the site itself, since this is a personal project with no company
+# domain behind it. CONTACT is the same address the privacy policy and
+# /about/ already publish.
+OWNERDOMAIN=fluttercook.github.io
+CONTACT=trunghieu4121993@gmail.com
