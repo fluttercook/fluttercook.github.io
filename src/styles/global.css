@@ -103,3 +103,33 @@ footer.site a{color:var(--accent)}
 .toc li.sub{margin-left:14px;list-style:circle;font-size:13px}
 .toc a{color:var(--accent)}
 .toc a:hover{text-decoration:underline}
+/* wide article layout + sticky table-of-contents rail
+   Long-form pages (blog, news, recipes) opt in with .wrap-article on <main> and
+   .article-toc on <article>. Below the breakpoint nothing changes at all: the
+   TOC stays the inline panel it has always been, right under the summary.
+
+   The rail spans every row so position:sticky has the whole article to travel
+   through. `grid-row:1/-1` cannot express that here — with no explicit rows, -1
+   resolves back to the first line — hence the big span. For the same reason the
+   gap is column-gap only: a plain `gap` would be multiplied by those spanned
+   rows and blow the layout apart. */
+@media (min-width:1200px){
+  .wrap-article{max-width:1240px}
+  /* :has() so a post too short to earn a TOC (Toc.astro renders nothing
+     under three headings) does not get a grid with an empty 260px gutter
+     pushing its text off-centre. Browsers without :has() simply keep the
+     narrow single-column article, which is the old behaviour. */
+  .article-toc:has(>.toc){max-width:none;display:grid;grid-template-columns:minmax(0,1fr) 260px;column-gap:60px;align-items:start}
+  .article-toc>*{grid-column:1;min-width:0}
+  .article-toc>.toc{grid-column:2;grid-row:1/span 100;position:sticky;top:24px;margin:0;padding:2px 0;background:none;border:0;border-radius:0;max-height:calc(100vh - 48px);overflow-y:auto;scrollbar-width:thin}
+  .article-toc>.toc ol{padding-left:0;list-style:none;gap:0}
+  .article-toc>.toc li,.article-toc>.toc li.sub{list-style:none;margin:0;font-size:13.5px}
+  .article-toc>.toc li.sub{margin-left:14px;font-size:13px}
+  .article-toc>.toc a{display:block;padding:5px 0 5px 14px;border-left:2px solid var(--line);color:var(--muted);line-height:1.45}
+  .article-toc>.toc a:hover{color:var(--ink);border-left-color:var(--muted);text-decoration:none}
+  .article-toc>.toc a.active{color:var(--accent);border-left-color:var(--accent);font-weight:600}
+  /* A wider column without bigger type just makes the line harder to track. */
+  .article-toc .prose{font-size:18px}
+}
+/* Smooth-scrolled headings should not land flush against the viewport edge. */
+.prose h2,.prose h3{scroll-margin-top:24px}

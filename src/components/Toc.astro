@@ -1,5 +1,8 @@
 ---
 // Table of contents built from a rendered entry's headings (H2/H3).
+// Stays inline under the summary on narrow screens; on wide ones the article
+// grid in global.css lifts it into a sticky right-hand rail. The markup is the
+// same either way — only CSS moves it.
 const { headings = [], lang = 'en' } = Astro.props;
 const items = headings.filter((h) => h.depth === 2 || h.depth === 3);
 const label = lang === 'vi' ? 'Mục lục' : 'On this page';
@@ -16,3 +19,74 @@ const label = lang === 'vi' ? 'Mục lục' : 'On this page';
     </ol>
   </nav>
 )}
+
+<script>
+  // Scroll-spy: mark the section you are currently reading.
+  //
+  // A plain scroll listener rather than IntersectionObserver — what we want is
+  // "the last heading whose top has passed the threshold", and an observer only
+  // reports crossings, which gets ambiguous the moment several short sections
+  // share a viewport or a section is taller than one.
+  const nav = document.querySelector('.toc');
+  if (nav) {
+    const links = new Map();
+    for (const a of nav.querySelectorAll('a[href^="#"]')) {
+      links.set(decodeURIComponent(a.getAttribute('href').slice(1)), a);
+    }
+    const heads = [...document.querySelectorAll('.prose h2[id], .prose h3[id]')]
+      .filter((h) => links.has(h.id));
+
+    if (heads.length) {
+      let active = null;
+      let queued = false;
+
+      const sync = () => {
+        const y = window.scrollY + 120;
+        let current = heads[0];
+        for (const h of heads) {
+          if (h.getBoundingClientRect().top + window.scrollY <= y) current = h;
+          else break;
+        }
+        // The final section is often shorter than the threshold, so it would
+        // never light up without this: at the page bottom, it is the one.
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 2) {
+          current = heads[heads.length - 1];
+        }
+        if (current === active) return;
+        active = current;
+
+        for (const a of links.values()) {
+          a.classList.remove('active');
+          a.removeAttribute('aria-current');
+        }
+        const a = links.get(current.id);
+        a.classList.add('active');
+        a.setAttribute('aria-current', 'true');
+
+        // Long contents lists scroll inside the rail; keep the mark in view.
+        if (nav.scrollHeight > nav.clientHeight + 4) {
+          nav.scrollTop = Math.max(0, a.offsetTop - nav.clientHeight / 2);
+        }
+      };
+
+      // rAF coalesces the work to paint frames, which is what we want while the
+      // page is on screen. It is suspended in a hidden or backgrounded tab
+      // though, and scroll events keep arriving there — so a timer races it and
+      // whichever wins clears the flag, leaving the other a no-op.
+      const run = () => {
+        if (!queued) return;
+        queued = false;
+        sync();
+      };
+      const onScroll = () => {
+        if (queued) return;
+        queued = true;
+        requestAnimationFrame(run);
+        setTimeout(run, 120);
+      };
+      addEventListener('scroll', onScroll, { passive: true });
+      addEventListener('resize', onScroll, { passive: true });
+      sync();
+    }
+  }
+</script>
