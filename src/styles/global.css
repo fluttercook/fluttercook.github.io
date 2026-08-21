@@ -172,3 +172,23 @@ footer.site a{color:var(--accent)}
 .rail::-webkit-scrollbar-thumb{background:var(--line);border-radius:100px}
 .rail::-webkit-scrollbar-track{background:transparent}
 @media (max-width:560px){.rail>.card{flex-basis:min(82vw,288px)}}
+
+/* header on narrow screens
+   Eight nav links plus the logo do not fit one line on a phone, and because
+   body has overflow-x:hidden the overflow was not even scrollable — the links
+   past the fold were simply unreachable. Wrapping is the fix that keeps every
+   link tappable without hiding any of them behind a menu button. */
+@media (max-width:900px){
+  header.site{flex-wrap:wrap;gap:10px 18px;padding:18px 0}
+  header.site nav{flex-wrap:wrap;gap:10px 16px}
+}
+@media (max-width:560px){
+  header.site{justify-content:flex-start}
+  header.site .logo{flex-basis:100%}
+  /* 44px is the minimum comfortable touch target and these are 12px links, so
+     vertical padding makes up the difference. The row gap shrinks to 6px to pay
+     for it — enough that two stacked links never share an edge, which is what
+     turns a slightly-off tap into the wrong page. */
+  header.site nav{gap:6px 16px}
+  header.site nav a{font-size:12px;letter-spacing:.06em;padding:11px 0}
+}
