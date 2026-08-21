@@ -1,10 +1,29 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import CardRail from '../components/CardRail.astro';
 import { getCollection } from 'astro:content';
 const all = (await getCollection('recipes')).filter(r => !r.data.draft);
 const featured = all.sort((a,b) => (a.data.trendRank||9999) - (b.data.trendRank||9999)).slice(0, 9);
 const cats = [...new Set(all.map(r => r.data.category))];
 const total = all.length;
+
+// Newest first, then the handful the rails have room for. The rails link out
+// to the full index rather than growing, so the home page stays one screen of
+// scrolling per section no matter how many posts pile up.
+const byDate = (a, b) => (a.data.publishDate < b.data.publishDate ? 1 : -1);
+const latestPosts = (await getCollection('blog')).filter(p => !p.data.draft).sort(byDate).slice(0, 6);
+const latestNews = (await getCollection('news')).filter(n => !n.data.draft).sort(byDate).slice(0, 6);
+const fmtDate = (s) =>
+  new Date(s).toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' });
+const toCard = (e, base) => ({
+  href: `${base}/${e.id}/`,
+  cat: `${e.data.emoji} ${e.data.category}`,
+  title: e.data.title,
+  description: e.data.description,
+  author: e.data.author,
+  date: fmtDate(e.data.publishDate),
+});
+
 const site = 'https://fluttercook.github.io';
 const jsonLd = [
   {
@@ -51,6 +70,30 @@ const jsonLd = [
         ))}
       </div>
     </section>
+
+    <CardRail
+      id="rail-blog"
+      title="Latest from the"
+      accent="blog"
+      lead="Long-form, code-first walkthroughs — build the widget, understand the maths, ship the polish."
+      href="/blog/"
+      moreLabel="See all posts"
+      prevLabel="Scroll to earlier posts"
+      nextLabel="Scroll to more posts"
+      items={latestPosts.map((p) => toCard(p, '/blog'))}
+    />
+
+    <CardRail
+      id="rail-news"
+      title="Fresh from the"
+      accent="newsroom"
+      lead="Apple, Android and Flutter developments, read for what they change in your app."
+      href="/news/"
+      moreLabel="See all news"
+      prevLabel="Scroll to earlier news"
+      nextLabel="Scroll to more news"
+      items={latestNews.map((n) => toCard(n, '/news'))}
+    />
 
     <section class="sec">
       <h2 class="serif">By <i>category</i></h2>

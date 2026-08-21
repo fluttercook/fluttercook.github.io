@@ -1,0 +1,80 @@
+---
+/**
+ * A horizontal, scroll-snapping row of cards with a "see more" link — used on
+ * the home page to surface the newest blog posts and news without turning the
+ * page into an endless grid.
+ *
+ * The cards are the same `.card` markup the index pages use, so anything that
+ * changes there carries over. Only the layout differs: one scrolling row
+ * instead of a wrapping grid.
+ *
+ * Props:
+ *   id        unique DOM id for the scroller (the arrows target it)
+ *   title     heading text, with `accent` rendered after it in italic accent
+ *   lead      one-line description under the heading
+ *   href      where "see more" goes
+ *   moreLabel / prevLabel / nextLabel  all user-visible strings, so the
+ *             Vietnamese home page can pass its own without a second component
+ *   items     [{ href, cat, title, description, author, date }]
+ */
+const { id, title, accent, lead, href, moreLabel, prevLabel, nextLabel, items } = Astro.props;
+---
+<section class="sec railsec">
+  <div class="railhead">
+    <div class="railtitle">
+      <h2 class="serif">{title} <i>{accent}</i></h2>
+      <p class="lead">{lead}</p>
+    </div>
+    <div class="railctl" data-rail={id}>
+      <button class="rail-nav" type="button" data-dir="-1" aria-label={prevLabel} aria-controls={id}>‹</button>
+      <button class="rail-nav" type="button" data-dir="1" aria-label={nextLabel} aria-controls={id}>›</button>
+      <a class="more" href={href}>{moreLabel} →</a>
+    </div>
+  </div>
+  <div class="rail" id={id}>
+    {items.map((it) => (
+      <a class="card newscard" href={it.href}>
+        <span class="cat">{it.cat}</span>
+        <h3>{it.title}</h3>
+        <p>{it.description}</p>
+        <div class="meta"><span>{it.author}</span><span>{it.date}</span></div>
+      </a>
+    ))}
+  </div>
+</section>
+
+<script>
+  /* Arrow controls for the card rails. Touch and trackpad already scroll a rail
+     horizontally, and tabbing to a card scrolls it into view on its own — the
+     arrows exist for mouse users, who otherwise have no way to reach card 4.
+     They hide themselves when the rail has nothing to scroll to (a narrow
+     screen shows fewer cards, but a wide one may show them all). */
+  function setupRails() {
+    document.querySelectorAll('.railctl').forEach((ctl) => {
+      const rail = document.getElementById(ctl.dataset.rail);
+      if (!rail || ctl.dataset.wired) return;
+      ctl.dataset.wired = '1';
+      const btns = [...ctl.querySelectorAll('.rail-nav')];
+      const sync = () => {
+        // 1px of slack: fractional layout widths mean scrollLeft rarely lands
+        // exactly on the maximum, which would leave the right arrow enabled
+        // forever at the end of the rail.
+        const max = rail.scrollWidth - rail.clientWidth - 1;
+        ctl.classList.toggle('no-overflow', max <= 0);
+        btns[0].disabled = rail.scrollLeft <= 0;
+        btns[1].disabled = rail.scrollLeft >= max;
+      };
+      btns.forEach((b) =>
+        b.addEventListener('click', () => {
+          const card = rail.querySelector('.card');
+          const step = card ? card.getBoundingClientRect().width + 16 : rail.clientWidth * 0.8;
+          rail.scrollBy({ left: step * Number(b.dataset.dir), behavior: 'smooth' });
+        })
+      );
+      rail.addEventListener('scroll', sync, { passive: true });
+      window.addEventListener('resize', sync);
+      sync();
+    });
+  }
+  setupRails();
+</script>

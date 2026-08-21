@@ -1,10 +1,27 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import CardRail from '../../components/CardRail.astro';
 import { getCollection } from 'astro:content';
 const all = (await getCollection('recipesVi')).filter((r) => !r.data.draft);
 const featured = all.sort((a, b) => (a.data.trendRank || 9999) - (b.data.trendRank || 9999)).slice(0, 9);
 const cats = [...new Set(all.map((r) => r.data.category))];
 const total = all.length;
+
+// Mới nhất trước, rồi cắt còn đủ cho một hàng. Rail dẫn sang trang danh sách
+// đầy đủ thay vì dài thêm, nên trang chủ không phình ra theo số bài.
+const byDate = (a, b) => (a.data.publishDate < b.data.publishDate ? 1 : -1);
+const latestPosts = (await getCollection('blogVi')).filter((p) => !p.data.draft).sort(byDate).slice(0, 6);
+const latestNews = (await getCollection('newsVi')).filter((n) => !n.data.draft).sort(byDate).slice(0, 6);
+const fmtDate = (s) => new Date(s).toLocaleDateString('vi-VN', { year: 'numeric', month: 'short', day: 'numeric' });
+const toCard = (e, base) => ({
+  href: `${base}/${e.id}/`,
+  cat: `${e.data.emoji} ${e.data.category}`,
+  title: e.data.title,
+  description: e.data.description,
+  author: e.data.author,
+  date: fmtDate(e.data.publishDate),
+});
+
 const site = 'https://fluttercook.github.io';
 const jsonLd = [
   {
@@ -50,6 +67,30 @@ const jsonLd = [
         ))}
       </div>
     </section>
+    <CardRail
+      id="rail-blog"
+      title="Bài mới trên"
+      accent="blog"
+      lead="Hướng dẫn dài, ưu tiên code — dựng widget, hiểu phần toán, rồi hoàn thiện."
+      href="/vi/blog/"
+      moreLabel="Xem tất cả bài"
+      prevLabel="Xem các bài trước"
+      nextLabel="Xem thêm bài"
+      items={latestPosts.map((p) => toCard(p, '/vi/blog'))}
+    />
+
+    <CardRail
+      id="rail-news"
+      title="Tin mới từ"
+      accent="toà soạn"
+      lead="Chuyện Apple, Android và Flutter, đọc theo hướng nó đổi gì trong app của bạn."
+      href="/vi/news/"
+      moreLabel="Xem tất cả tin"
+      prevLabel="Xem tin trước đó"
+      nextLabel="Xem thêm tin"
+      items={latestNews.map((n) => toCard(n, '/vi/news'))}
+    />
+
     <section class="sec">
       <h2 class="serif">Theo <i>danh mục</i></h2>
       <p class="lead">{cats.length} danh mục trên {total} công thức.</p>
