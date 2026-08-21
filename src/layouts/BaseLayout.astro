@@ -7,7 +7,13 @@ const {
   description = 'FlutterCook — 500 hands-on guides to the best open-source Flutter libraries, UI kits, and apps for mobile app development. Every recipe ships with real GitHub trend data, install steps, alternatives, and an FAQ.',
   keywords = [],
   ogType = 'website',
-  image = '/og-default.svg',
+  // Social cards: PNG, not SVG — Facebook, LinkedIn, Slack and X all refuse to
+  // render an SVG og:image and fall back to a bare link. Override `image`
+  // together with imageWidth/imageHeight if a page ships its own card.
+  image = '/og-default.png',
+  imageWidth = 1200,
+  imageHeight = 630,
+  imageAlt = 'FlutterCook — 500 open-source Flutter recipes',
   datePublished,
   dateModified,
   jsonLd = [],
@@ -61,12 +67,16 @@ const viHref = new URL(basePath === '/' ? '/vi/' : `/vi${basePath}`, Astro.site)
   <meta property="og:locale" content={lang === 'vi' ? 'vi_VN' : 'en_US'} />
   <meta property="og:locale:alternate" content={lang === 'vi' ? 'en_US' : 'vi_VN'} />
   <meta property="og:image" content={ogImage} />
+  <meta property="og:image:width" content={String(imageWidth)} />
+  <meta property="og:image:height" content={String(imageHeight)} />
+  <meta property="og:image:alt" content={imageAlt} />
   {datePublished && <meta property="article:published_time" content={datePublished} />}
   {dateModified && <meta property="article:modified_time" content={dateModified} />}
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
   <meta name="twitter:image" content={ogImage} />
+  <meta name="twitter:image:alt" content={imageAlt} />
   <link rel="sitemap" href="/sitemap-index.xml" />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%F0%9F%8D%B3%3C/text%3E%3C/svg%3E" />
   {graphs.map((g) => (

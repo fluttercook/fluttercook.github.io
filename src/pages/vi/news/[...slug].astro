@@ -27,7 +27,7 @@ const article = {
   headline: d.title, description: metaDesc, url,
   datePublished: d.publishDate, dateModified: d.updatedDate || d.publishDate,
   author: { '@type': 'Organization', name: d.author, url: site },
-  publisher: { '@type': 'Organization', name: 'FlutterCook', url: site, logo: { '@type': 'ImageObject', url: `${site}/og-default.svg` } },
+  publisher: { '@type': 'Organization', name: 'FlutterCook', url: site, logo: { '@type': 'ImageObject', url: `${site}/logo.png` } },
   mainEntityOfPage: url, articleSection: d.category, keywords: (d.keywords || []).join(', '),
 };
 const breadcrumb = {
