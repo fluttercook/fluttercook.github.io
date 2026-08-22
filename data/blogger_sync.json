@@ -445,6 +445,286 @@
           "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
           "status": "LIVE",
           "published": "2026-08-22T18:06:14+07:00"
+        },
+        "blog/en/agent-memory-files-vectors-context": {
+          "postId": "6833874908042858657",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/agent-memory-files-vector-store-or-just.html",
+          "title": "Agent memory: files, a vector store, or just a bigger context window",
+          "status": "LIVE",
+          "published": "2026-08-23T00:36:38+07:00"
+        },
+        "blog/en/ai-code-review-that-gets-read": {
+          "postId": "8220137872733649526",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ai-code-review-nobody-mutes-problem-is.html",
+          "title": "AI code review nobody mutes: the problem is precision, not capability",
+          "status": "LIVE",
+          "published": "2026-08-23T00:36:41+07:00"
+        },
+        "blog/en/ai-feature-unit-economics": {
+          "postId": "6815376323597374213",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/cost-per-request-number-most-ai.html",
+          "title": "Cost per request: the number most AI features never compute",
+          "status": "LIVE",
+          "published": "2026-08-23T00:36:45+07:00"
+        },
+        "blog/en/context-engineering-what-fits-in-the-window": {
+          "postId": "4661606644877420921",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/context-engineering-big-window-is-not.html",
+          "title": "Context engineering: a big window is not permission to fill it",
+          "status": "LIVE",
+          "published": "2026-08-23T00:36:50+07:00"
+        },
+        "blog/en/finetune-vs-rag-vs-prompt": {
+          "postId": "4188151241401384867",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/fine-tune-retrieve-or-write-better.html",
+          "title": "Fine-tune, retrieve, or write a better prompt: a decision you can defend",
+          "status": "LIVE",
+          "published": "2026-08-23T00:36:53+07:00"
+        },
+        "blog/en/flutter-animation-implicit-explicit-physics": {
+          "postId": "8798486494058931754",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/three-kinds-of-flutter-animation-and.html",
+          "title": "Three kinds of Flutter animation, and how to pick the right one",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:00+07:00"
+        },
+        "blog/en/flutter-custom-renderobject": {
+          "postId": "8011635250756180874",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/when-widget-composition-runs-out.html",
+          "title": "When widget composition runs out: writing your own RenderObject",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:04+07:00"
+        },
+        "blog/en/flutter-impeller-jank-profiling": {
+          "postId": "1604465196213486220",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/impeller-and-janky-frame-how-to-find.html",
+          "title": "Impeller and a janky frame: how to find where the 16ms actually went",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:09+07:00"
+        },
+        "blog/en/flutter-isolates-off-main-thread": {
+          "postId": "7988531697119011731",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-isolates-what-actually-goes-off.html",
+          "title": "Flutter isolates: what actually goes off the UI thread, and what doesn't",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:13+07:00"
+        },
+        "blog/en/flutter-offline-first-drift-sync": {
+          "postId": "2402577800045793317",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/offline-first-flutter-local-database-is.html",
+          "title": "Offline-first Flutter: the local database is the source of truth, not the API",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:17+07:00"
+        },
+        "blog/en/flutter-performance-budget-16ms": {
+          "postId": "8683185058578734672",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/a-flutter-frame-budget-you-can-hold.html",
+          "title": "A Flutter frame budget you can hold yourself to, instead of \"optimise later\"",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:43+07:00"
+        },
+        "blog/en/flutter-platform-channels-vs-ffi": {
+          "postId": "6938447892559979654",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/calling-native-code-from-dart-platform.html",
+          "title": "Calling native code from Dart: platform channels, Pigeon, or FFI",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:48+07:00"
+        },
+        "blog/en/flutter-state-management-decision-guide": {
+          "postId": "8711841238079884958",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/riverpod-bloc-signals-or-setstate.html",
+          "title": "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:52+07:00"
+        },
+        "blog/en/flutter-testing-widget-golden-integration": {
+          "postId": "5718819952473101084",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-tests-that-fail-for-reason.html",
+          "title": "Flutter tests that fail for a reason: widget, golden and integration",
+          "status": "LIVE",
+          "published": "2026-08-23T00:38:56+07:00"
+        },
+        "blog/en/flutter-web-wasm-2026": {
+          "postId": "7016977809924244288",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-on-web-compiled-to-webassembly.html",
+          "title": "Flutter on the web compiled to WebAssembly: what you get, what you give up",
+          "status": "LIVE",
+          "published": "2026-08-23T00:39:00+07:00"
+        },
+        "blog/en/local-llms-when-they-beat-the-api": {
+          "postId": "3534471919431984018",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/running-model-on-your-own-machine-four.html",
+          "title": "Running a model on your own machine: the four cases where it actually wins",
+          "status": "LIVE",
+          "published": "2026-08-23T00:40:07+07:00"
+        },
+        "blog/en/prompt-caching-in-practice": {
+          "postId": "2835785847587555967",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/prompt-caching-in-practice-win-is-in.html",
+          "title": "Prompt caching in practice: the win is in the ordering, not the flag",
+          "status": "LIVE",
+          "published": "2026-08-23T00:40:11+07:00"
+        },
+        "blog/en/rag-evaluation-before-you-ship": {
+          "postId": "2262977590286008766",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/retrieval-that-doesnt-lie-build-eval.html",
+          "title": "Retrieval that doesn't lie: build the eval before you build the RAG",
+          "status": "LIVE",
+          "published": "2026-08-23T00:40:15+07:00"
+        },
+        "blog/en/shipping-an-llm-feature-evals-guardrails": {
+          "postId": "8359571450308032846",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/shipping-llm-feature-demo-is-20-of-work.html",
+          "title": "Shipping an LLM feature: the demo is 20% of the work",
+          "status": "LIVE",
+          "published": "2026-08-23T00:40:18+07:00"
+        },
+        "blog/en/structured-output-json-schema-tool-calling": {
+          "postId": "4032059580549927591",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/stop-parsing-prose-schemas-tool-calling.html",
+          "title": "Stop parsing prose: schemas, tool calling, and output you can type-check",
+          "status": "LIVE",
+          "published": "2026-08-23T00:40:22+07:00"
+        },
+        "blog/vi/agent-memory-files-vectors-context": {
+          "postId": "6249512880956795073",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/bo-nho-cho-ai-agent-file-phang-vector.html",
+          "title": "Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn",
+          "status": "LIVE",
+          "published": "2026-08-23T00:40:58+07:00"
+        },
+        "blog/vi/ai-code-review-that-gets-read": {
+          "postId": "8893578953665253354",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ai-code-review-khong-ai-muon-tat-van-e.html",
+          "title": "AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:02+07:00"
+        },
+        "blog/vi/ai-feature-unit-economics": {
+          "postId": "7359258778684460789",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/chi-phi-moi-request-con-so-ma-hau-het.html",
+          "title": "Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:06+07:00"
+        },
+        "blog/vi/context-engineering-what-fits-in-the-window": {
+          "postId": "5609041437210992121",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/context-engineering-window-to-khong-co.html",
+          "title": "Context engineering: window to không có nghĩa là được phép nhét đầy",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:10+07:00"
+        },
+        "blog/vi/finetune-vs-rag-vs-prompt": {
+          "postId": "6016481271520332207",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/fine-tune-rag-hay-chi-can-prompt-tot.html",
+          "title": "Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:14+07:00"
+        },
+        "blog/vi/flutter-animation-implicit-explicit-physics": {
+          "postId": "7718358784030461941",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ba-kieu-animation-trong-flutter-va-cach.html",
+          "title": "Ba kiểu animation trong Flutter và cách chọn đúng kiểu",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:40+07:00"
+        },
+        "blog/vi/flutter-custom-renderobject": {
+          "postId": "4180574235091762106",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/khi-ghep-widget-khong-con-u-tu-viet.html",
+          "title": "Khi ghép widget không còn đủ: tự viết RenderObject",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:45+07:00"
+        },
+        "blog/vi/flutter-impeller-jank-profiling": {
+          "postId": "1144966900566134764",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/impeller-va-mot-frame-bi-giat-tim-xem.html",
+          "title": "Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:49+07:00"
+        },
+        "blog/vi/flutter-isolates-off-main-thread": {
+          "postId": "4207756140569497592",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/isolate-trong-flutter-cai-gi-that-su.html",
+          "title": "Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:53+07:00"
+        },
+        "blog/vi/flutter-offline-first-drift-sync": {
+          "postId": "150480191495770205",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-offline-first-database-duoi-may.html",
+          "title": "Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API",
+          "status": "LIVE",
+          "published": "2026-08-23T00:41:57+07:00"
+        },
+        "blog/vi/flutter-performance-budget-16ms": {
+          "postId": "2479592578725857377",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ngan-sach-166-ms-cho-moi-frame-flutter.html",
+          "title": "Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu \"để sau tối ưu\"",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:05+07:00"
+        },
+        "blog/vi/flutter-platform-channels-vs-ffi": {
+          "postId": "6207283157675590190",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/goi-code-native-tu-dart-platform.html",
+          "title": "Gọi code native từ Dart: platform channel, Pigeon hay FFI",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:09+07:00"
+        },
+        "blog/vi/flutter-state-management-decision-guide": {
+          "postId": "5304716590644422632",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/riverpod-bloc-signals-hay-setstate-chon.html",
+          "title": "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:14+07:00"
+        },
+        "blog/vi/flutter-testing-widget-golden-integration": {
+          "postId": "9170185426412961056",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/test-flutter-o-vi-ung-ly-do-widget.html",
+          "title": "Test Flutter đỏ vì đúng lý do: widget, golden và integration",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:18+07:00"
+        },
+        "blog/vi/flutter-web-wasm-2026": {
+          "postId": "8571628348659515998",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/flutter-web-bien-dich-sang-webassembly.html",
+          "title": "Flutter web biên dịch sang WebAssembly: được gì, mất gì",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:22+07:00"
+        },
+        "blog/vi/local-llms-when-they-beat-the-api": {
+          "postId": "1911022166017635898",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/chay-model-ngay-tren-may-minh-bon.html",
+          "title": "Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:49+07:00"
+        },
+        "blog/vi/prompt-caching-in-practice": {
+          "postId": "5729074515881936690",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/prompt-caching-thuc-chien-thang-thua.html",
+          "title": "Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:53+07:00"
+        },
+        "blog/vi/rag-evaluation-before-you-ship": {
+          "postId": "820159371232598944",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/retrieval-khong-noi-doi-dung-eval-truoc.html",
+          "title": "Retrieval không nói dối: dựng eval trước khi dựng RAG",
+          "status": "LIVE",
+          "published": "2026-08-23T00:43:57+07:00"
+        },
+        "blog/vi/shipping-an-llm-feature-evals-guardrails": {
+          "postId": "6439773230101265953",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ua-mot-tinh-nang-llm-len-production-ban.html",
+          "title": "Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc",
+          "status": "LIVE",
+          "published": "2026-08-23T00:44:03+07:00"
+        },
+        "blog/vi/structured-output-json-schema-tool-calling": {
+          "postId": "8626718146521340363",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/ung-parse-van-xuoi-nua-schema-tool.html",
+          "title": "Đừng parse văn xuôi nữa: schema, tool calling và output type-check được",
+          "status": "LIVE",
+          "published": "2026-08-23T00:44:08+07:00"
         }
       },
       "pages": {
