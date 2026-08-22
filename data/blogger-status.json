@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-21",
-  "articles": 54,
+  "generated": "2026-08-22",
+  "articles": 56,
   "blogs": [
     {
       "id": "8621533667729504576",
@@ -8,9 +8,9 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 120 post(s) live",
-      "done": 50,
-      "total": 54,
+      "detail": "role ADMIN, 124 post(s) live",
+      "done": 54,
+      "total": 56,
       "posts": [
         {
           "key": "blog/en/creating-a-custom-progress-indicator",
@@ -53,8 +53,8 @@
           "title": "Using AI without burning cash: free tiers, caching, and routing",
           "publishDate": "2026-08-20",
           "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/using-ai-without-burning-cash-free.html"
         },
         {
           "key": "blog/en/free-ai-coding-agents-opencode-safely",
@@ -77,6 +77,17 @@
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/what-research-actually-says-about.html"
+        },
+        {
+          "key": "blog/en/flutter-introduction-2026",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "flutter-introduction-2026",
+          "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/what-flutter-is-reading-3d-game-built.html"
         },
         {
           "key": "blog/en/lovable-migration-nextjs-to-tanstack-start",
@@ -141,8 +152,8 @@
           "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
           "publishDate": "2026-08-20",
           "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/dung-ai-ma-khong-ot-tien-free-tier.html"
         },
         {
           "key": "blog/vi/free-ai-coding-agents-opencode-safely",
@@ -165,6 +176,17 @@
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html"
+        },
+        {
+          "key": "blog/vi/flutter-introduction-2026",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "flutter-introduction-2026",
+          "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html"
         },
         {
           "key": "blog/vi/lovable-migration-nextjs-to-tanstack-start",
@@ -616,7 +638,7 @@
       "access": "author-cannot-create",
       "detail": "role AUTHOR, 14 post(s) live — needs Admin to create new posts",
       "done": 8,
-      "total": 54,
+      "total": 56,
       "posts": [
         {
           "key": "blog/en/creating-a-custom-progress-indicator",
@@ -681,6 +703,17 @@
           "title": "What the research actually says about prompt engineering — five claims, fact-checked",
           "publishDate": "2026-08-20",
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/en/flutter-introduction-2026",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "flutter-introduction-2026",
+          "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
           "status": "BLOCKED",
           "blogUrl": ""
         },
@@ -769,6 +802,17 @@
           "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
           "publishDate": "2026-08-20",
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
+          "status": "BLOCKED",
+          "blogUrl": ""
+        },
+        {
+          "key": "blog/vi/flutter-introduction-2026",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "flutter-introduction-2026",
+          "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
           "status": "BLOCKED",
           "blogUrl": ""
         },
@@ -1222,7 +1266,7 @@
       "access": "ok",
       "detail": "role ADMIN, 158 post(s) live",
       "done": 48,
-      "total": 54,
+      "total": 56,
       "posts": [
         {
           "key": "blog/en/creating-a-custom-progress-indicator",
@@ -1289,6 +1333,17 @@
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/what-research-actually-says-about.html"
+        },
+        {
+          "key": "blog/en/flutter-introduction-2026",
+          "collection": "blog",
+          "lang": "en",
+          "slug": "flutter-introduction-2026",
+          "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
+          "status": "PENDING",
+          "blogUrl": ""
         },
         {
           "key": "blog/en/lovable-migration-nextjs-to-tanstack-start",
@@ -1377,6 +1432,17 @@
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html"
+        },
+        {
+          "key": "blog/vi/flutter-introduction-2026",
+          "collection": "blog",
+          "lang": "vi",
+          "slug": "flutter-introduction-2026",
+          "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
+          "publishDate": "2026-08-21",
+          "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
+          "status": "PENDING",
+          "blogUrl": ""
         },
         {
           "key": "blog/vi/lovable-migration-nextjs-to-tanstack-start",

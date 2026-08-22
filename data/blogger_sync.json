@@ -431,6 +431,20 @@
           "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
           "status": "LIVE",
           "published": "2026-08-21T22:58:19+07:00"
+        },
+        "blog/en/cutting-ai-costs-free-tiers-caching-and-routing": {
+          "postId": "6763680139887934616",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/using-ai-without-burning-cash-free.html",
+          "title": "Using AI without burning cash: free tiers, caching, and routing",
+          "status": "LIVE",
+          "published": "2026-08-22T18:05:59+07:00"
+        },
+        "blog/vi/cutting-ai-costs-free-tiers-caching-and-routing": {
+          "postId": "3285821109405626081",
+          "url": "https://trunghieu-it.blogspot.com/2026/08/dung-ai-ma-khong-ot-tien-free-tier.html",
+          "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
+          "status": "LIVE",
+          "published": "2026-08-22T18:06:14+07:00"
         }
       },
       "pages": {
