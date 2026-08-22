@@ -144,7 +144,7 @@ Test kiểu này chạy dưới một mili giây, trong khi với timer thật t
 
 `testWidgets` chạy thân test bên trong một zone `FakeAsync`. Đồng hồ là giả — nó bắt đầu từ 1 tháng 1 năm 2015 UTC — màn hình là một bề mặt ảo 800×600, và `Timer` cùng `Future.delayed` chỉ tiến khi bạn cho phép. Đó là thứ làm widget test tất định, và cũng là lý do người ta rối về chuyện phải pump bao nhiêu lần.
 
-Đây là cơ chế, và đáng để nhớ vì nó giải thích gần hết các bug kiểu "test của tôi nhìn thấy state cũ". `tester.pump()` làm hai việc: **nó chỉ vẽ một frame nếu thật sự có frame được lên lịch**, và nó flush các microtask đang chờ. Nên khi một `Future` bạn đang đợi hoàn tất, lần pump đầu tiên không có frame nào để vẽ — nó chỉ chạy callback `.then`, callback này gọi `setState`, và `setState` mới lên lịch một frame. Lần pump *thứ hai* mới vẽ frame đó.
+Đây là cơ chế, và đáng để nhớ vì nó giải thích gần hết các bug kiểu "test của tôi nhìn thấy state cũ". `tester.pump()` flush các microtask đang chờ và vẽ một frame — nhưng **chỉ vẽ nếu thật sự có frame được lên lịch**. Nên số lần pump phụ thuộc vào cái gì đang ở trên màn hình. Nếu có thứ gì đó đang chạy animation thì luôn có frame đang chờ, và một lần pump vừa chạy callback `.then` vừa vẽ kết quả. Nếu cây widget đang đứng yên thì lần pump đầu không có gì để vẽ: nó chạy callback, callback gọi `setState`, và chính lời gọi đó mới lên lịch cái frame mà lần pump *thứ hai* vẽ ra. Đừng học thuộc một con số — khi một assertion lệch đúng một trạng thái, hãy thêm một lần pump.
 
 ```dart
 // test/promo_field_test.dart
@@ -186,8 +186,9 @@ void main() {
     expect(find.byType(CircularProgressIndicator), findsOneWidget);
 
     completer.complete(const Quote(discountCents: 1000, totalCents: 9500));
-    await tester.pump(); // runs the .then callback, which schedules a frame
-    await tester.pump(); // draws that frame
+    // The spinner keeps a frame scheduled, so this single pump both runs the
+    // .then callback and draws the result. On an idle tree it would take two.
+    await tester.pump();
 
     expect(find.byType(CircularProgressIndicator), findsNothing);
     expect(find.text(r'-$10.00'), findsOneWidget);
@@ -446,8 +447,8 @@ Về mock, `mocktail` không cần sinh code và đọc mượt với closure; `
 **Cứ dùng `pumpAndSettle` khắp nơi có được không?**
 Không, và tài liệu API nói thẳng điều đó: thực hành tốt hơn là hiểu chính xác vì sao cần từng frame rồi pump đúng bấy nhiêu lần. `pumpAndSettle` che mất các regression kiểu animation khởi động trễ một frame, và biến mọi animation vô hạn thành mười phút chờ rồi đỏ. Hãy dùng nó ở đầu một integration test, nơi thời gian thật là không tránh được, và dùng pump tường minh trong widget test.
 
-**Vì sao widget test của tôi cần pump hai lần sau khi future hoàn tất?**
-Vì `pump` chỉ vẽ frame nếu đã có frame được lên lịch, và nó flush microtask ở cuối. Khi future hoàn tất, lần pump đầu không có gì để vẽ; nó chạy `.then`/`setState` của bạn, và chính lệnh đó mới lên lịch một frame. Lần pump thứ hai vẽ frame ấy. Biết được điều này thì số lần pump thôi là chuyện đoán mò.
+**Vì sao widget test của tôi đôi khi cần pump hai lần sau khi future hoàn tất?**
+Vì `pump` flush microtask nhưng chỉ vẽ frame nếu đã có frame được lên lịch. Trên một cây widget đang đứng yên, lần pump đầu chạy `.then`/`setState` của bạn — và chính lời gọi đó mới lên lịch frame — nên lần pump thứ hai mới là lần vẽ. Nếu trên màn hình đang có animation thì luôn có frame chờ sẵn và một lần pump làm cả hai việc. Đừng học thuộc con số; khi assertion lệch một trạng thái, hãy thêm một lần pump.
 
 **Chạy golden test trên macOS và Linux có ra cùng byte không?**
 Không đáng tin cậy. Khử răng cưa cho chữ và cơ chế fallback font khác nhau theo host, nên câu trả lời thực dụng là chọn ra một nền tảng — thường là một container Linux đã ghim phiên bản, vì phần lớn CI cũng chạy ở đó — sinh ở đó, kiểm ở đó, và bỏ qua golden ở nơi khác bằng tag. Sai số trong một `LocalFileComparator` tùy chỉnh hấp thụ phần nhiễu còn lại; nó không thay được việc ghim nền tảng.

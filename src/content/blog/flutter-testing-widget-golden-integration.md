@@ -144,7 +144,7 @@ A test like this runs in under a millisecond and would take half a minute with r
 
 `testWidgets` runs your test body inside a `FakeAsync` zone. The clock is fake — it starts at 1 January 2015 UTC — the screen is a virtual 800×600 surface, and `Timer` and `Future.delayed` only advance when you say so. That is what makes widget tests deterministic, and it is also why people get confused about how many times to pump.
 
-Here is the mechanism, and it is worth internalising because it explains most "my test sees the old state" bugs. `tester.pump()` does two things: **it draws a frame only if a frame has actually been scheduled**, and it flushes pending microtasks. So when a `Future` you are waiting on completes, the first pump has no frame to draw — it just runs the `.then` callback, which calls `setState`, which schedules a frame. The *second* pump draws it.
+Here is the mechanism, and it is worth internalising because it explains most "my test sees the old state" bugs. `tester.pump()` flushes pending microtasks and draws a frame — but **only if a frame has actually been scheduled**. So the number of pumps depends on what is on screen. If something is animating, a frame is always pending, and one pump both runs your `.then` callback and draws the result. If the tree is idle, the first pump has nothing to draw: it runs the callback, the callback calls `setState`, and *that* is what schedules the frame the second pump draws. Do not memorise a number — when an assertion is exactly one state behind, add a pump.
 
 ```dart
 // test/promo_field_test.dart
@@ -186,8 +186,9 @@ void main() {
     expect(find.byType(CircularProgressIndicator), findsOneWidget);
 
     completer.complete(const Quote(discountCents: 1000, totalCents: 9500));
-    await tester.pump(); // runs the .then callback, which schedules a frame
-    await tester.pump(); // draws that frame
+    // The spinner keeps a frame scheduled, so this single pump both runs the
+    // .then callback and draws the result. On an idle tree it would take two.
+    await tester.pump();
 
     expect(find.byType(CircularProgressIndicator), findsNothing);
     expect(find.text(r'-$10.00'), findsOneWidget);
@@ -446,8 +447,8 @@ For mocks, `mocktail` needs no code generation and reads well with closures; `mo
 **Should I just use `pumpAndSettle` everywhere?**
 No, and the API docs say so directly: it is better practice to work out exactly why each frame is needed and pump exactly that many. `pumpAndSettle` hides regressions where an animation starts a frame later than it should, and it turns any infinite animation into a ten-minute timeout. Use it at the top of an integration test, where real time is unavoidable, and use explicit pumps in widget tests.
 
-**Why does my widget test need two pumps after a future completes?**
-Because `pump` only draws a frame if one has been scheduled, and it flushes microtasks at the end. When the future completes, the first pump has nothing to draw; it runs your `.then`/`setState`, which schedules a frame. The second pump draws it. Once you know that, the number of pumps stops being guesswork.
+**Why does my widget test sometimes need two pumps after a future completes?**
+Because `pump` flushes microtasks but only draws a frame if one has been scheduled. On an idle tree the first pump runs your `.then`/`setState` — and that call is what schedules the frame — so the second pump is the one that draws it. If something is already animating on screen, a frame is always pending and one pump does both. Don't memorise a number; when an assertion is one state behind, add a pump.
 
 **Can I run golden tests on macOS and Linux and expect the same bytes?**
 Not reliably. Text antialiasing and font fallback differ by host, so the practical answer is to nominate one platform — usually a pinned Linux container, since that is also what most CI runs — generate there, verify there, and skip goldens elsewhere with a tag. A tolerance in a custom `LocalFileComparator` absorbs the remaining noise; it does not replace pinning.
