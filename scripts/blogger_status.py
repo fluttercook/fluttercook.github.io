@@ -28,6 +28,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from publish_to_blogger import (  # noqa: E402
     BLOGS as BLOG_CREDENTIALS,
     LAYOUT,
+    canonical_host,
     ROOT,
     STATE_FILE,
     load_state,
@@ -80,6 +81,10 @@ def inventory(collections: tuple[str, ...]) -> list[dict]:
                 "slug": md.stem,
                 "title": fm.get("title", md.stem),
                 "publishDate": str(fm.get("publishDate", "")),
+                # Imported articles must never be pushed back to the blog they
+                # came from; the publisher refuses, so the report must not keep
+                # listing them as work outstanding.
+                "canonicalHost": canonical_host(collection, lang, md.stem),
                 "siteUrl": f"https://fluttercook.github.io{site_prefix}/{md.stem}/",
             })
     return sorted(items, key=lambda i: (i["collection"], i["lang"], i["publishDate"]))
@@ -211,8 +216,14 @@ def main() -> int:
         for art in articles:
             rec = synced.get(art["key"])
             live = info["titles"].get(art["title"].strip())
+            blog_host = urllib.parse.urlparse(blog["url"]).netloc.removeprefix("www.")
             if rec:
                 status, url = rec.get("status", "LIVE"), rec.get("url", "")
+            elif art["canonicalHost"] and art["canonicalHost"] == blog_host:
+                # publish_to_blogger.py: "skipped (originated on ...)". Nothing to
+                # do here, ever — counting it as pending made this blog read 94/96
+                # forever and look like a stalled sync.
+                status, url = "SOURCE", (live or {}).get("url", "")
             elif live:
                 status, url = "LIVE-UNTRACKED", live["url"]
                 if args.adopt:
@@ -228,7 +239,7 @@ def main() -> int:
                 status, url = "BLOCKED", ""
             else:
                 status, url = "PENDING", ""
-            if status.startswith("LIVE"):
+            if status.startswith("LIVE") or status == "SOURCE":
                 done += 1
             rows.append({**art, "status": status, "blogUrl": url})
         report["blogs"].append({
@@ -264,7 +275,8 @@ def main() -> int:
         md.append(f"| [{b['name']}]({b['url']}) | {icon.get(b['access'], '?')} {b['access']} | "
                   f"{b['done']}/{b['total']} | {b['detail']} |")
     md += ["", "Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog but not in our "
-           "sync map · **PENDING** ready to publish · **BLOCKED** no write access yet.", ""]
+           "sync map · **SOURCE** this blog is where the article came from · "
+           "**PENDING** ready to publish · **BLOCKED** no write access yet.", ""]
 
     for b in report["blogs"]:
         md += [f"## {b['name']}", "",

@@ -7,9 +7,9 @@
       "name": "trunghieu-it.blogspot.com",
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
-      "access": "ok",
-      "detail": "role ADMIN, 164 post(s) live",
-      "done": 94,
+      "access": "not-probed",
+      "detail": "--offline",
+      "done": 96,
       "total": 96,
       "posts": [
         {
@@ -19,8 +19,9 @@
           "slug": "creating-a-custom-progress-indicator",
           "title": "Creating a custom progress indicator in Flutter with CustomPaint",
           "publishDate": "2021-08-23",
+          "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/blog/creating-a-custom-progress-indicator/",
-          "status": "PENDING",
+          "status": "SOURCE",
           "blogUrl": ""
         },
         {
@@ -30,6 +31,7 @@
           "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
           "title": "Two layout systems that make AI posters look designed, not generated",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/two-layout-systems-that-make-ai-posters.html"
@@ -41,6 +43,7 @@
           "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
           "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/the-chief-of-staff-pattern-turning.html"
@@ -52,6 +55,7 @@
           "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
           "title": "Using AI without burning cash: free tiers, caching, and routing",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/using-ai-without-burning-cash-free.html"
@@ -63,6 +67,7 @@
           "slug": "free-ai-coding-agents-opencode-safely",
           "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/free-ai-coding-agents-how-to-use.html"
@@ -74,6 +79,7 @@
           "slug": "what-the-research-says-about-prompt-engineering",
           "title": "What the research actually says about prompt engineering — five claims, fact-checked",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/what-research-actually-says-about.html"
@@ -85,6 +91,7 @@
           "slug": "flutter-introduction-2026",
           "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/what-flutter-is-reading-3d-game-built.html"
@@ -96,6 +103,7 @@
           "slug": "lovable-migration-nextjs-to-tanstack-start",
           "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/lovable-left-nextjs-in-6-months-numbers.html"
@@ -107,6 +115,7 @@
           "slug": "web-tech-to-mobile-app-2026",
           "title": "Using web technology to build mobile apps: the 2026 technical map",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/using-web-technology-to-build-mobile.html"
@@ -118,6 +127,7 @@
           "slug": "agent-memory-files-vectors-context",
           "title": "Agent memory: files, a vector store, or just a bigger context window",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/agent-memory-files-vectors-context/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/agent-memory-files-vector-store-or-just.html"
@@ -129,6 +139,7 @@
           "slug": "ai-code-review-that-gets-read",
           "title": "AI code review nobody mutes: the problem is precision, not capability",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-code-review-that-gets-read/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ai-code-review-nobody-mutes-problem-is.html"
@@ -140,6 +151,7 @@
           "slug": "ai-feature-unit-economics",
           "title": "Cost per request: the number most AI features never compute",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-feature-unit-economics/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/cost-per-request-number-most-ai.html"
@@ -151,6 +163,7 @@
           "slug": "context-engineering-what-fits-in-the-window",
           "title": "Context engineering: a big window is not permission to fill it",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/context-engineering-what-fits-in-the-window/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/context-engineering-big-window-is-not.html"
@@ -162,6 +175,7 @@
           "slug": "finetune-vs-rag-vs-prompt",
           "title": "Fine-tune, retrieve, or write a better prompt: a decision you can defend",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/finetune-vs-rag-vs-prompt/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/fine-tune-retrieve-or-write-better.html"
@@ -173,6 +187,7 @@
           "slug": "flutter-animation-implicit-explicit-physics",
           "title": "Three kinds of Flutter animation, and how to pick the right one",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-animation-implicit-explicit-physics/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/three-kinds-of-flutter-animation-and.html"
@@ -184,6 +199,7 @@
           "slug": "flutter-custom-renderobject",
           "title": "When widget composition runs out: writing your own RenderObject",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-custom-renderobject/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/when-widget-composition-runs-out.html"
@@ -195,6 +211,7 @@
           "slug": "flutter-impeller-jank-profiling",
           "title": "Impeller and a janky frame: how to find where the 16ms actually went",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-impeller-jank-profiling/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/impeller-and-janky-frame-how-to-find.html"
@@ -206,6 +223,7 @@
           "slug": "flutter-isolates-off-main-thread",
           "title": "Flutter isolates: what actually goes off the UI thread, and what doesn't",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-isolates-off-main-thread/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-isolates-what-actually-goes-off.html"
@@ -217,6 +235,7 @@
           "slug": "flutter-offline-first-drift-sync",
           "title": "Offline-first Flutter: the local database is the source of truth, not the API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-offline-first-drift-sync/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/offline-first-flutter-local-database-is.html"
@@ -228,6 +247,7 @@
           "slug": "flutter-performance-budget-16ms",
           "title": "A Flutter frame budget you can hold yourself to, instead of \"optimise later\"",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-performance-budget-16ms/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/a-flutter-frame-budget-you-can-hold.html"
@@ -239,6 +259,7 @@
           "slug": "flutter-platform-channels-vs-ffi",
           "title": "Calling native code from Dart: platform channels, Pigeon, or FFI",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/calling-native-code-from-dart-platform.html"
@@ -250,6 +271,7 @@
           "slug": "flutter-state-management-decision-guide",
           "title": "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-state-management-decision-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/riverpod-bloc-signals-or-setstate.html"
@@ -261,6 +283,7 @@
           "slug": "flutter-testing-widget-golden-integration",
           "title": "Flutter tests that fail for a reason: widget, golden and integration",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-testing-widget-golden-integration/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-tests-that-fail-for-reason.html"
@@ -272,6 +295,7 @@
           "slug": "flutter-web-wasm-2026",
           "title": "Flutter on the web compiled to WebAssembly: what you get, what you give up",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-web-wasm-2026/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-on-web-compiled-to-webassembly.html"
@@ -283,6 +307,7 @@
           "slug": "local-llms-when-they-beat-the-api",
           "title": "Running a model on your own machine: the four cases where it actually wins",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/local-llms-when-they-beat-the-api/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/running-model-on-your-own-machine-four.html"
@@ -294,6 +319,7 @@
           "slug": "prompt-caching-in-practice",
           "title": "Prompt caching in practice: the win is in the ordering, not the flag",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/prompt-caching-in-practice/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/prompt-caching-in-practice-win-is-in.html"
@@ -305,6 +331,7 @@
           "slug": "rag-evaluation-before-you-ship",
           "title": "Retrieval that doesn't lie: build the eval before you build the RAG",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/rag-evaluation-before-you-ship/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/retrieval-that-doesnt-lie-build-eval.html"
@@ -316,6 +343,7 @@
           "slug": "shipping-an-llm-feature-evals-guardrails",
           "title": "Shipping an LLM feature: the demo is 20% of the work",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/shipping-an-llm-feature-evals-guardrails/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/shipping-llm-feature-demo-is-20-of-work.html"
@@ -327,6 +355,7 @@
           "slug": "structured-output-json-schema-tool-calling",
           "title": "Stop parsing prose: schemas, tool calling, and output you can type-check",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/structured-output-json-schema-tool-calling/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/stop-parsing-prose-schemas-tool-calling.html"
@@ -338,8 +367,9 @@
           "slug": "creating-a-custom-progress-indicator",
           "title": "Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint",
           "publishDate": "2021-08-23",
+          "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
-          "status": "PENDING",
+          "status": "SOURCE",
           "blogUrl": ""
         },
         {
@@ -349,6 +379,7 @@
           "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
           "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html"
@@ -360,6 +391,7 @@
           "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
           "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html"
@@ -371,6 +403,7 @@
           "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
           "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/dung-ai-ma-khong-ot-tien-free-tier.html"
@@ -382,6 +415,7 @@
           "slug": "free-ai-coding-agents-opencode-safely",
           "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html"
@@ -393,6 +427,7 @@
           "slug": "what-the-research-says-about-prompt-engineering",
           "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html"
@@ -404,6 +439,7 @@
           "slug": "flutter-introduction-2026",
           "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html"
@@ -415,6 +451,7 @@
           "slug": "lovable-migration-nextjs-to-tanstack-start",
           "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/lovable-roi-nextjs-sau-6-thang-nhung.html"
@@ -426,6 +463,7 @@
           "slug": "web-tech-to-mobile-app-2026",
           "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/dung-cong-nghe-web-e-lam-app-mobile-ban.html"
@@ -437,6 +475,7 @@
           "slug": "agent-memory-files-vectors-context",
           "title": "Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/bo-nho-cho-ai-agent-file-phang-vector.html"
@@ -448,6 +487,7 @@
           "slug": "ai-code-review-that-gets-read",
           "title": "AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-code-review-that-gets-read/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ai-code-review-khong-ai-muon-tat-van-e.html"
@@ -459,6 +499,7 @@
           "slug": "ai-feature-unit-economics",
           "title": "Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-feature-unit-economics/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/chi-phi-moi-request-con-so-ma-hau-het.html"
@@ -470,6 +511,7 @@
           "slug": "context-engineering-what-fits-in-the-window",
           "title": "Context engineering: window to không có nghĩa là được phép nhét đầy",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/context-engineering-what-fits-in-the-window/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/context-engineering-window-to-khong-co.html"
@@ -481,6 +523,7 @@
           "slug": "finetune-vs-rag-vs-prompt",
           "title": "Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/finetune-vs-rag-vs-prompt/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/fine-tune-rag-hay-chi-can-prompt-tot.html"
@@ -492,6 +535,7 @@
           "slug": "flutter-animation-implicit-explicit-physics",
           "title": "Ba kiểu animation trong Flutter và cách chọn đúng kiểu",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-animation-implicit-explicit-physics/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ba-kieu-animation-trong-flutter-va-cach.html"
@@ -503,6 +547,7 @@
           "slug": "flutter-custom-renderobject",
           "title": "Khi ghép widget không còn đủ: tự viết RenderObject",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-custom-renderobject/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/khi-ghep-widget-khong-con-u-tu-viet.html"
@@ -514,6 +559,7 @@
           "slug": "flutter-impeller-jank-profiling",
           "title": "Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-impeller-jank-profiling/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/impeller-va-mot-frame-bi-giat-tim-xem.html"
@@ -525,6 +571,7 @@
           "slug": "flutter-isolates-off-main-thread",
           "title": "Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-isolates-off-main-thread/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/isolate-trong-flutter-cai-gi-that-su.html"
@@ -536,6 +583,7 @@
           "slug": "flutter-offline-first-drift-sync",
           "title": "Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-offline-first-database-duoi-may.html"
@@ -547,6 +595,7 @@
           "slug": "flutter-performance-budget-16ms",
           "title": "Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu \"để sau tối ưu\"",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ngan-sach-166-ms-cho-moi-frame-flutter.html"
@@ -558,6 +607,7 @@
           "slug": "flutter-platform-channels-vs-ffi",
           "title": "Gọi code native từ Dart: platform channel, Pigeon hay FFI",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/goi-code-native-tu-dart-platform.html"
@@ -569,6 +619,7 @@
           "slug": "flutter-state-management-decision-guide",
           "title": "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/riverpod-bloc-signals-hay-setstate-chon.html"
@@ -580,6 +631,7 @@
           "slug": "flutter-testing-widget-golden-integration",
           "title": "Test Flutter đỏ vì đúng lý do: widget, golden và integration",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/test-flutter-o-vi-ung-ly-do-widget.html"
@@ -591,6 +643,7 @@
           "slug": "flutter-web-wasm-2026",
           "title": "Flutter web biên dịch sang WebAssembly: được gì, mất gì",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-web-bien-dich-sang-webassembly.html"
@@ -602,6 +655,7 @@
           "slug": "local-llms-when-they-beat-the-api",
           "title": "Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/local-llms-when-they-beat-the-api/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/chay-model-ngay-tren-may-minh-bon.html"
@@ -613,6 +667,7 @@
           "slug": "prompt-caching-in-practice",
           "title": "Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/prompt-caching-in-practice/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/prompt-caching-thuc-chien-thang-thua.html"
@@ -624,6 +679,7 @@
           "slug": "rag-evaluation-before-you-ship",
           "title": "Retrieval không nói dối: dựng eval trước khi dựng RAG",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/retrieval-khong-noi-doi-dung-eval-truoc.html"
@@ -635,6 +691,7 @@
           "slug": "shipping-an-llm-feature-evals-guardrails",
           "title": "Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ua-mot-tinh-nang-llm-len-production-ban.html"
@@ -646,6 +703,7 @@
           "slug": "structured-output-json-schema-tool-calling",
           "title": "Đừng parse văn xuôi nữa: schema, tool calling và output type-check được",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ung-parse-van-xuoi-nua-schema-tool.html"
@@ -657,6 +715,7 @@
           "slug": "apple-intelligence-vs-gemini-intelligence-on-device-ai",
           "title": "Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps",
           "publishDate": "2026-07-07",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/apple-intelligence-vs-gemini.html"
@@ -668,6 +727,7 @@
           "slug": "flutter-2026-roadmap-webassembly-platform-parity",
           "title": "Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity",
           "publishDate": "2026-07-08",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-2026-roadmap-webassembly-platform-parity/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutters-2026-roadmap-webassembly-by.html"
@@ -679,6 +739,7 @@
           "slug": "macos-26-tahoe-liquid-glass-last-intel-mac",
           "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
           "publishDate": "2026-07-09",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-comes-to.html"
@@ -690,6 +751,7 @@
           "slug": "iphone-18-pro-foldable-iphone-fall-2026-preview",
           "title": "The fall 2026 iPhone: a foldable joins the iPhone 18 Pro, and Apple splits its launch calendar",
           "publishDate": "2026-07-10",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/the-fall-2026-iphone-foldable-joins.html"
@@ -701,6 +763,7 @@
           "slug": "iphone-17-pro-review-a19-pro-cameras-aluminum",
           "title": "iPhone 17 Pro review: the A19 Pro, an aluminum comeback, and an 8x telephoto",
           "publishDate": "2026-07-12",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/iphone-17-pro-review-a19-pro-aluminum.html"
@@ -712,6 +775,7 @@
           "slug": "flutter-3-44-ios-26-macos-support-web-hot-reload",
           "title": "Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles",
           "publishDate": "2026-07-14",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-344-review-ios-26-support.html"
@@ -723,6 +787,7 @@
           "slug": "android-17-bubbles-gemini-intelligence-foldables",
           "title": "Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables",
           "publishDate": "2026-07-15",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/android-17-bubbles-gemini-intelligence-foldables/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/android-17-is-here-bubbles-gemini.html"
@@ -734,6 +799,7 @@
           "slug": "ios-26-liquid-glass-what-it-means-for-mobile-developers",
           "title": "iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers",
           "publishDate": "2026-07-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ios-26-and-liquid-glass-what-apples.html"
@@ -745,6 +811,7 @@
           "slug": "dart-3-13-primary-constructors-guide",
           "title": "Dart 3.13 primary constructors: less boilerplate, one real breaking change",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/dart-3-13-primary-constructors-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/dart-313-primary-constructors-less.html"
@@ -756,6 +823,7 @@
           "slug": "flutter-3-47-standalone-material-cupertino-impeller-desktop",
           "title": "Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-347-material-and-cupertino.html"
@@ -767,6 +835,7 @@
           "slug": "flutter-ai-agent-skills-guide",
           "title": "Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-ai-agent-skills-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/agent-skills-for-dart-and-flutter.html"
@@ -778,6 +847,7 @@
           "slug": "flutter-gpu-3d-rendering-flutter-scene",
           "title": "Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-gpu-3d-rendering-flutter-scene/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-gpu-and-3d-what-impeller.html"
@@ -789,6 +859,7 @@
           "slug": "flutter-impeller-desktop-default-renderer",
           "title": "Impeller is now the default on macOS, Windows and Linux",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-impeller-desktop-default-renderer/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/impeller-is-now-default-on-macos.html"
@@ -800,6 +871,7 @@
           "slug": "flutter-material-ui-cupertino-ui-migration-guide",
           "title": "Migrating to material_ui and cupertino_ui: the design system leaves the SDK",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-material-ui-cupertino-ui-migration-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/migrating-to-materialui-and-cupertinoui.html"
@@ -811,6 +883,7 @@
           "slug": "flutter-multi-window-desktop-guide",
           "title": "Multi-window on Flutter desktop: what shipped in 3.47, and what to use today",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-multi-window-desktop-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/multi-window-on-flutter-desktop-what.html"
@@ -822,6 +895,7 @@
           "slug": "flutter-swift-package-manager-migration",
           "title": "Swift Package Manager is the default now — and CocoaPods has a deadline",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-swift-package-manager-migration/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/swift-package-manager-is-default-now.html"
@@ -833,6 +907,7 @@
           "slug": "flutter-uiscene-migration-ios-15-minimum",
           "title": "The UIScene migration: the iOS change that will crash unmigrated Flutter apps",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-uiscene-migration-ios-15-minimum/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/the-uiscene-migration-ios-change-that.html"
@@ -844,6 +919,7 @@
           "slug": "flutter-webassembly-wasm-deferred-loading",
           "title": "Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-webassembly-wasm-deferred-loading/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/shipping-flutter-web-on-webassembly.html"
@@ -855,6 +931,7 @@
           "slug": "flutter-widget-previews-stable-guide",
           "title": "Flutter Widget Previews are stable: a practical guide to @Preview",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-widget-previews-stable-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-widget-previews-are-stable.html"
@@ -866,6 +943,7 @@
           "slug": "apple-intelligence-vs-gemini-intelligence-on-device-ai",
           "title": "Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động",
           "publishDate": "2026-07-07",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/apple-intelligence-va-gemini.html"
@@ -877,6 +955,7 @@
           "slug": "flutter-2026-roadmap-webassembly-platform-parity",
           "title": "Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa",
           "publishDate": "2026-07-08",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-2026-roadmap-webassembly-platform-parity/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/lo-trinh-flutter-2026-webassembly-mac.html"
@@ -888,6 +967,7 @@
           "slug": "macos-26-tahoe-liquid-glass-last-intel-mac",
           "title": "macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel",
           "publishDate": "2026-07-09",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-en-voi-mac.html"
@@ -899,6 +979,7 @@
           "slug": "iphone-18-pro-foldable-iphone-fall-2026-preview",
           "title": "iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt",
           "publishDate": "2026-07-10",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/iphone-mua-thu-2026-mot-chiec-gap-gia.html"
@@ -910,6 +991,7 @@
           "slug": "iphone-17-pro-review-a19-pro-cameras-aluminum",
           "title": "Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x",
           "publishDate": "2026-07-12",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/anh-gia-iphone-17-pro-chip-a19-pro-nhom.html"
@@ -921,6 +1003,7 @@
           "slug": "flutter-3-44-ios-26-macos-support-web-hot-reload",
           "title": "Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles",
           "publishDate": "2026-07-14",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/anh-gia-flutter-344-ho-tro-ios-26-hot.html"
@@ -932,6 +1015,7 @@
           "slug": "android-17-bubbles-gemini-intelligence-foldables",
           "title": "Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập",
           "publishDate": "2026-07-15",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/android-17-bubbles-gemini-intelligence-foldables/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/android-17-ra-mat-bubbles-gemini.html"
@@ -943,6 +1027,7 @@
           "slug": "ios-26-liquid-glass-what-it-means-for-mobile-developers",
           "title": "iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động",
           "publishDate": "2026-07-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ios-26-va-liquid-glass-cuoc-thiet-ke.html"
@@ -954,6 +1039,7 @@
           "slug": "dart-3-13-primary-constructors-guide",
           "title": "Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/dart-3-13-primary-constructors-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/primary-constructor-trong-dart-313-bot.html"
@@ -965,6 +1051,7 @@
           "slug": "flutter-3-47-standalone-material-cupertino-impeller-desktop",
           "title": "Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-347-material-va-cupertino-roi.html"
@@ -976,6 +1063,7 @@
           "slug": "flutter-ai-agent-skills-guide",
           "title": "Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-ai-agent-skills-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/agent-skills-cho-dart-va-flutter-day-ai.html"
@@ -987,6 +1075,7 @@
           "slug": "flutter-gpu-3d-rendering-flutter-scene",
           "title": "Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-gpu-3d-rendering-flutter-scene/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-gpu-va-3d-impeller-mo-khoa-gi.html"
@@ -998,6 +1087,7 @@
           "slug": "flutter-impeller-desktop-default-renderer",
           "title": "Impeller giờ là mặc định trên macOS, Windows và Linux",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-impeller-desktop-default-renderer/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/impeller-gio-la-mac-inh-tren-macos.html"
@@ -1009,6 +1099,7 @@
           "slug": "flutter-material-ui-cupertino-ui-migration-guide",
           "title": "Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-material-ui-cupertino-ui-migration-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/migrate-sang-materialui-va-cupertinoui.html"
@@ -1020,6 +1111,7 @@
           "slug": "flutter-multi-window-desktop-guide",
           "title": "Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-multi-window-desktop-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/a-cua-so-tren-flutter-desktop-347-co-gi.html"
@@ -1031,6 +1123,7 @@
           "slug": "flutter-swift-package-manager-migration",
           "title": "Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-swift-package-manager-migration/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/swift-package-manager-gio-la-mac-inh-va.html"
@@ -1042,6 +1135,7 @@
           "slug": "flutter-uiscene-migration-ios-15-minimum",
           "title": "Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-uiscene-migration-ios-15-minimum/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/migrate-uiscene-thay-oi-ios-se-lam-app.html"
@@ -1053,6 +1147,7 @@
           "slug": "flutter-webassembly-wasm-deferred-loading",
           "title": "Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-webassembly-wasm-deferred-loading/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/ship-flutter-web-tren-webassembly-cuoc.html"
@@ -1064,6 +1159,7 @@
           "slug": "flutter-widget-previews-stable-guide",
           "title": "Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-widget-previews-stable-guide/",
           "status": "LIVE",
           "blogUrl": "https://trunghieu-it.blogspot.com/2026/08/flutter-widget-previews-stable-huong.html"
@@ -1075,8 +1171,8 @@
       "name": "fluttercook.blogspot.com",
       "url": "https://fluttercook.blogspot.com/",
       "priority": 2,
-      "access": "author-cannot-create",
-      "detail": "role AUTHOR, 14 post(s) live — needs Admin to create new posts",
+      "access": "not-probed",
+      "detail": "--offline",
       "done": 8,
       "total": 96,
       "posts": [
@@ -1087,8 +1183,9 @@
           "slug": "creating-a-custom-progress-indicator",
           "title": "Creating a custom progress indicator in Flutter with CustomPaint",
           "publishDate": "2021-08-23",
+          "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/blog/creating-a-custom-progress-indicator/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1098,8 +1195,9 @@
           "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
           "title": "Two layout systems that make AI posters look designed, not generated",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1109,8 +1207,9 @@
           "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
           "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1120,8 +1219,9 @@
           "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
           "title": "Using AI without burning cash: free tiers, caching, and routing",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1131,8 +1231,9 @@
           "slug": "free-ai-coding-agents-opencode-safely",
           "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1142,8 +1243,9 @@
           "slug": "what-the-research-says-about-prompt-engineering",
           "title": "What the research actually says about prompt engineering — five claims, fact-checked",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1153,8 +1255,9 @@
           "slug": "flutter-introduction-2026",
           "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1164,8 +1267,9 @@
           "slug": "lovable-migration-nextjs-to-tanstack-start",
           "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1175,8 +1279,9 @@
           "slug": "web-tech-to-mobile-app-2026",
           "title": "Using web technology to build mobile apps: the 2026 technical map",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1186,8 +1291,9 @@
           "slug": "agent-memory-files-vectors-context",
           "title": "Agent memory: files, a vector store, or just a bigger context window",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/agent-memory-files-vectors-context/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1197,8 +1303,9 @@
           "slug": "ai-code-review-that-gets-read",
           "title": "AI code review nobody mutes: the problem is precision, not capability",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-code-review-that-gets-read/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1208,8 +1315,9 @@
           "slug": "ai-feature-unit-economics",
           "title": "Cost per request: the number most AI features never compute",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-feature-unit-economics/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1219,8 +1327,9 @@
           "slug": "context-engineering-what-fits-in-the-window",
           "title": "Context engineering: a big window is not permission to fill it",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/context-engineering-what-fits-in-the-window/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1230,8 +1339,9 @@
           "slug": "finetune-vs-rag-vs-prompt",
           "title": "Fine-tune, retrieve, or write a better prompt: a decision you can defend",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/finetune-vs-rag-vs-prompt/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1241,8 +1351,9 @@
           "slug": "flutter-animation-implicit-explicit-physics",
           "title": "Three kinds of Flutter animation, and how to pick the right one",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-animation-implicit-explicit-physics/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1252,8 +1363,9 @@
           "slug": "flutter-custom-renderobject",
           "title": "When widget composition runs out: writing your own RenderObject",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-custom-renderobject/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1263,8 +1375,9 @@
           "slug": "flutter-impeller-jank-profiling",
           "title": "Impeller and a janky frame: how to find where the 16ms actually went",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-impeller-jank-profiling/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1274,8 +1387,9 @@
           "slug": "flutter-isolates-off-main-thread",
           "title": "Flutter isolates: what actually goes off the UI thread, and what doesn't",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-isolates-off-main-thread/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1285,8 +1399,9 @@
           "slug": "flutter-offline-first-drift-sync",
           "title": "Offline-first Flutter: the local database is the source of truth, not the API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-offline-first-drift-sync/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1296,8 +1411,9 @@
           "slug": "flutter-performance-budget-16ms",
           "title": "A Flutter frame budget you can hold yourself to, instead of \"optimise later\"",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-performance-budget-16ms/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1307,8 +1423,9 @@
           "slug": "flutter-platform-channels-vs-ffi",
           "title": "Calling native code from Dart: platform channels, Pigeon, or FFI",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1318,8 +1435,9 @@
           "slug": "flutter-state-management-decision-guide",
           "title": "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-state-management-decision-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1329,8 +1447,9 @@
           "slug": "flutter-testing-widget-golden-integration",
           "title": "Flutter tests that fail for a reason: widget, golden and integration",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-testing-widget-golden-integration/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1340,8 +1459,9 @@
           "slug": "flutter-web-wasm-2026",
           "title": "Flutter on the web compiled to WebAssembly: what you get, what you give up",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-web-wasm-2026/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1351,8 +1471,9 @@
           "slug": "local-llms-when-they-beat-the-api",
           "title": "Running a model on your own machine: the four cases where it actually wins",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/local-llms-when-they-beat-the-api/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1362,8 +1483,9 @@
           "slug": "prompt-caching-in-practice",
           "title": "Prompt caching in practice: the win is in the ordering, not the flag",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/prompt-caching-in-practice/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1373,8 +1495,9 @@
           "slug": "rag-evaluation-before-you-ship",
           "title": "Retrieval that doesn't lie: build the eval before you build the RAG",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/rag-evaluation-before-you-ship/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1384,8 +1507,9 @@
           "slug": "shipping-an-llm-feature-evals-guardrails",
           "title": "Shipping an LLM feature: the demo is 20% of the work",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/shipping-an-llm-feature-evals-guardrails/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1395,8 +1519,9 @@
           "slug": "structured-output-json-schema-tool-calling",
           "title": "Stop parsing prose: schemas, tool calling, and output you can type-check",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/structured-output-json-schema-tool-calling/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1406,8 +1531,9 @@
           "slug": "creating-a-custom-progress-indicator",
           "title": "Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint",
           "publishDate": "2021-08-23",
+          "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1417,8 +1543,9 @@
           "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
           "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1428,8 +1555,9 @@
           "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
           "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1439,8 +1567,9 @@
           "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
           "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1450,8 +1579,9 @@
           "slug": "free-ai-coding-agents-opencode-safely",
           "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1461,8 +1591,9 @@
           "slug": "what-the-research-says-about-prompt-engineering",
           "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1472,8 +1603,9 @@
           "slug": "flutter-introduction-2026",
           "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1483,8 +1615,9 @@
           "slug": "lovable-migration-nextjs-to-tanstack-start",
           "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1494,8 +1627,9 @@
           "slug": "web-tech-to-mobile-app-2026",
           "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1505,8 +1639,9 @@
           "slug": "agent-memory-files-vectors-context",
           "title": "Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1516,8 +1651,9 @@
           "slug": "ai-code-review-that-gets-read",
           "title": "AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-code-review-that-gets-read/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1527,8 +1663,9 @@
           "slug": "ai-feature-unit-economics",
           "title": "Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-feature-unit-economics/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1538,8 +1675,9 @@
           "slug": "context-engineering-what-fits-in-the-window",
           "title": "Context engineering: window to không có nghĩa là được phép nhét đầy",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/context-engineering-what-fits-in-the-window/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1549,8 +1687,9 @@
           "slug": "finetune-vs-rag-vs-prompt",
           "title": "Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/finetune-vs-rag-vs-prompt/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1560,8 +1699,9 @@
           "slug": "flutter-animation-implicit-explicit-physics",
           "title": "Ba kiểu animation trong Flutter và cách chọn đúng kiểu",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-animation-implicit-explicit-physics/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1571,8 +1711,9 @@
           "slug": "flutter-custom-renderobject",
           "title": "Khi ghép widget không còn đủ: tự viết RenderObject",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-custom-renderobject/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1582,8 +1723,9 @@
           "slug": "flutter-impeller-jank-profiling",
           "title": "Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-impeller-jank-profiling/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1593,8 +1735,9 @@
           "slug": "flutter-isolates-off-main-thread",
           "title": "Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-isolates-off-main-thread/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1604,8 +1747,9 @@
           "slug": "flutter-offline-first-drift-sync",
           "title": "Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1615,8 +1759,9 @@
           "slug": "flutter-performance-budget-16ms",
           "title": "Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu \"để sau tối ưu\"",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1626,8 +1771,9 @@
           "slug": "flutter-platform-channels-vs-ffi",
           "title": "Gọi code native từ Dart: platform channel, Pigeon hay FFI",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1637,8 +1783,9 @@
           "slug": "flutter-state-management-decision-guide",
           "title": "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1648,8 +1795,9 @@
           "slug": "flutter-testing-widget-golden-integration",
           "title": "Test Flutter đỏ vì đúng lý do: widget, golden và integration",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1659,8 +1807,9 @@
           "slug": "flutter-web-wasm-2026",
           "title": "Flutter web biên dịch sang WebAssembly: được gì, mất gì",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1670,8 +1819,9 @@
           "slug": "local-llms-when-they-beat-the-api",
           "title": "Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/local-llms-when-they-beat-the-api/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1681,8 +1831,9 @@
           "slug": "prompt-caching-in-practice",
           "title": "Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/prompt-caching-in-practice/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1692,8 +1843,9 @@
           "slug": "rag-evaluation-before-you-ship",
           "title": "Retrieval không nói dối: dựng eval trước khi dựng RAG",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1703,8 +1855,9 @@
           "slug": "shipping-an-llm-feature-evals-guardrails",
           "title": "Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1714,8 +1867,9 @@
           "slug": "structured-output-json-schema-tool-calling",
           "title": "Đừng parse văn xuôi nữa: schema, tool calling và output type-check được",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1725,6 +1879,7 @@
           "slug": "apple-intelligence-vs-gemini-intelligence-on-device-ai",
           "title": "Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps",
           "publishDate": "2026-07-07",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/apple-intelligence-vs-gemini.html"
@@ -1736,6 +1891,7 @@
           "slug": "flutter-2026-roadmap-webassembly-platform-parity",
           "title": "Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity",
           "publishDate": "2026-07-08",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-2026-roadmap-webassembly-platform-parity/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/flutters-2026-roadmap-webassembly-by.html"
@@ -1747,6 +1903,7 @@
           "slug": "macos-26-tahoe-liquid-glass-last-intel-mac",
           "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
           "publishDate": "2026-07-09",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/macos-26-tahoe-liquid-glass-comes-to.html"
@@ -1758,6 +1915,7 @@
           "slug": "iphone-18-pro-foldable-iphone-fall-2026-preview",
           "title": "The fall 2026 iPhone: a foldable joins the iPhone 18 Pro, and Apple splits its launch calendar",
           "publishDate": "2026-07-10",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/the-fall-2026-iphone-foldable-joins.html"
@@ -1769,6 +1927,7 @@
           "slug": "iphone-17-pro-review-a19-pro-cameras-aluminum",
           "title": "iPhone 17 Pro review: the A19 Pro, an aluminum comeback, and an 8x telephoto",
           "publishDate": "2026-07-12",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/iphone-17-pro-review-a19-pro-aluminum.html"
@@ -1780,6 +1939,7 @@
           "slug": "flutter-3-44-ios-26-macos-support-web-hot-reload",
           "title": "Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles",
           "publishDate": "2026-07-14",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/flutter-344-review-ios-26-support.html"
@@ -1791,6 +1951,7 @@
           "slug": "android-17-bubbles-gemini-intelligence-foldables",
           "title": "Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables",
           "publishDate": "2026-07-15",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/android-17-bubbles-gemini-intelligence-foldables/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/android-17-is-here-bubbles-gemini.html"
@@ -1802,6 +1963,7 @@
           "slug": "ios-26-liquid-glass-what-it-means-for-mobile-developers",
           "title": "iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers",
           "publishDate": "2026-07-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
           "status": "LIVE",
           "blogUrl": "https://fluttercook.blogspot.com/2026/07/ios-26-and-liquid-glass-what-apples.html"
@@ -1813,8 +1975,9 @@
           "slug": "dart-3-13-primary-constructors-guide",
           "title": "Dart 3.13 primary constructors: less boilerplate, one real breaking change",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/dart-3-13-primary-constructors-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1824,8 +1987,9 @@
           "slug": "flutter-3-47-standalone-material-cupertino-impeller-desktop",
           "title": "Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1835,8 +1999,9 @@
           "slug": "flutter-ai-agent-skills-guide",
           "title": "Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-ai-agent-skills-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1846,8 +2011,9 @@
           "slug": "flutter-gpu-3d-rendering-flutter-scene",
           "title": "Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-gpu-3d-rendering-flutter-scene/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1857,8 +2023,9 @@
           "slug": "flutter-impeller-desktop-default-renderer",
           "title": "Impeller is now the default on macOS, Windows and Linux",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-impeller-desktop-default-renderer/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1868,8 +2035,9 @@
           "slug": "flutter-material-ui-cupertino-ui-migration-guide",
           "title": "Migrating to material_ui and cupertino_ui: the design system leaves the SDK",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-material-ui-cupertino-ui-migration-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1879,8 +2047,9 @@
           "slug": "flutter-multi-window-desktop-guide",
           "title": "Multi-window on Flutter desktop: what shipped in 3.47, and what to use today",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-multi-window-desktop-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1890,8 +2059,9 @@
           "slug": "flutter-swift-package-manager-migration",
           "title": "Swift Package Manager is the default now — and CocoaPods has a deadline",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-swift-package-manager-migration/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1901,8 +2071,9 @@
           "slug": "flutter-uiscene-migration-ios-15-minimum",
           "title": "The UIScene migration: the iOS change that will crash unmigrated Flutter apps",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-uiscene-migration-ios-15-minimum/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1912,8 +2083,9 @@
           "slug": "flutter-webassembly-wasm-deferred-loading",
           "title": "Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-webassembly-wasm-deferred-loading/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1923,8 +2095,9 @@
           "slug": "flutter-widget-previews-stable-guide",
           "title": "Flutter Widget Previews are stable: a practical guide to @Preview",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-widget-previews-stable-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1934,8 +2107,9 @@
           "slug": "apple-intelligence-vs-gemini-intelligence-on-device-ai",
           "title": "Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động",
           "publishDate": "2026-07-07",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1945,8 +2119,9 @@
           "slug": "flutter-2026-roadmap-webassembly-platform-parity",
           "title": "Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa",
           "publishDate": "2026-07-08",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-2026-roadmap-webassembly-platform-parity/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1956,8 +2131,9 @@
           "slug": "macos-26-tahoe-liquid-glass-last-intel-mac",
           "title": "macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel",
           "publishDate": "2026-07-09",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1967,8 +2143,9 @@
           "slug": "iphone-18-pro-foldable-iphone-fall-2026-preview",
           "title": "iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt",
           "publishDate": "2026-07-10",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1978,8 +2155,9 @@
           "slug": "iphone-17-pro-review-a19-pro-cameras-aluminum",
           "title": "Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x",
           "publishDate": "2026-07-12",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -1989,8 +2167,9 @@
           "slug": "flutter-3-44-ios-26-macos-support-web-hot-reload",
           "title": "Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles",
           "publishDate": "2026-07-14",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2000,8 +2179,9 @@
           "slug": "android-17-bubbles-gemini-intelligence-foldables",
           "title": "Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập",
           "publishDate": "2026-07-15",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/android-17-bubbles-gemini-intelligence-foldables/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2011,8 +2191,9 @@
           "slug": "ios-26-liquid-glass-what-it-means-for-mobile-developers",
           "title": "iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động",
           "publishDate": "2026-07-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2022,8 +2203,9 @@
           "slug": "dart-3-13-primary-constructors-guide",
           "title": "Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/dart-3-13-primary-constructors-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2033,8 +2215,9 @@
           "slug": "flutter-3-47-standalone-material-cupertino-impeller-desktop",
           "title": "Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2044,8 +2227,9 @@
           "slug": "flutter-ai-agent-skills-guide",
           "title": "Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-ai-agent-skills-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2055,8 +2239,9 @@
           "slug": "flutter-gpu-3d-rendering-flutter-scene",
           "title": "Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-gpu-3d-rendering-flutter-scene/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2066,8 +2251,9 @@
           "slug": "flutter-impeller-desktop-default-renderer",
           "title": "Impeller giờ là mặc định trên macOS, Windows và Linux",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-impeller-desktop-default-renderer/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2077,8 +2263,9 @@
           "slug": "flutter-material-ui-cupertino-ui-migration-guide",
           "title": "Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-material-ui-cupertino-ui-migration-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2088,8 +2275,9 @@
           "slug": "flutter-multi-window-desktop-guide",
           "title": "Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-multi-window-desktop-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2099,8 +2287,9 @@
           "slug": "flutter-swift-package-manager-migration",
           "title": "Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-swift-package-manager-migration/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2110,8 +2299,9 @@
           "slug": "flutter-uiscene-migration-ios-15-minimum",
           "title": "Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-uiscene-migration-ios-15-minimum/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2121,8 +2311,9 @@
           "slug": "flutter-webassembly-wasm-deferred-loading",
           "title": "Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-webassembly-wasm-deferred-loading/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         },
         {
@@ -2132,8 +2323,9 @@
           "slug": "flutter-widget-previews-stable-guide",
           "title": "Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-widget-previews-stable-guide/",
-          "status": "BLOCKED",
+          "status": "PENDING",
           "blogUrl": ""
         }
       ]
@@ -2143,8 +2335,8 @@
       "name": "flutter9.blogspot.com",
       "url": "https://flutter9.blogspot.com/",
       "priority": 3,
-      "access": "ok",
-      "detail": "role ADMIN, 206 post(s) live",
+      "access": "not-probed",
+      "detail": "--offline",
       "done": 96,
       "total": 96,
       "posts": [
@@ -2155,6 +2347,7 @@
           "slug": "creating-a-custom-progress-indicator",
           "title": "Creating a custom progress indicator in Flutter with CustomPaint",
           "publishDate": "2021-08-23",
+          "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/blog/creating-a-custom-progress-indicator/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/creating-custom-progress-indicator-in.html"
@@ -2166,6 +2359,7 @@
           "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
           "title": "Two layout systems that make AI posters look designed, not generated",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/two-layout-systems-that-make-ai-posters.html"
@@ -2177,6 +2371,7 @@
           "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
           "title": "The chief-of-staff pattern: turning scattered AI chats into an agent team",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/the-chief-of-staff-pattern-turning.html"
@@ -2188,6 +2383,7 @@
           "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
           "title": "Using AI without burning cash: free tiers, caching, and routing",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/using-ai-without-burning-cash-free.html"
@@ -2199,6 +2395,7 @@
           "slug": "free-ai-coding-agents-opencode-safely",
           "title": "Free AI coding agents: how to use OpenCode's free models without regretting it",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/free-ai-coding-agents-how-to-use.html"
@@ -2210,6 +2407,7 @@
           "slug": "what-the-research-says-about-prompt-engineering",
           "title": "What the research actually says about prompt engineering — five claims, fact-checked",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/what-research-actually-says-about.html"
@@ -2221,6 +2419,7 @@
           "slug": "flutter-introduction-2026",
           "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/what-flutter-is-reading-3d-game-built.html"
@@ -2232,6 +2431,7 @@
           "slug": "lovable-migration-nextjs-to-tanstack-start",
           "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/lovable-left-nextjs-in-6-months-numbers.html"
@@ -2243,6 +2443,7 @@
           "slug": "web-tech-to-mobile-app-2026",
           "title": "Using web technology to build mobile apps: the 2026 technical map",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/using-web-technology-to-build-mobile.html"
@@ -2254,6 +2455,7 @@
           "slug": "agent-memory-files-vectors-context",
           "title": "Agent memory: files, a vector store, or just a bigger context window",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/agent-memory-files-vectors-context/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/agent-memory-files-vector-store-or-just.html"
@@ -2265,6 +2467,7 @@
           "slug": "ai-code-review-that-gets-read",
           "title": "AI code review nobody mutes: the problem is precision, not capability",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-code-review-that-gets-read/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ai-code-review-nobody-mutes-problem-is.html"
@@ -2276,6 +2479,7 @@
           "slug": "ai-feature-unit-economics",
           "title": "Cost per request: the number most AI features never compute",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-feature-unit-economics/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/cost-per-request-number-most-ai.html"
@@ -2287,6 +2491,7 @@
           "slug": "context-engineering-what-fits-in-the-window",
           "title": "Context engineering: a big window is not permission to fill it",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/context-engineering-what-fits-in-the-window/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/context-engineering-big-window-is-not.html"
@@ -2298,6 +2503,7 @@
           "slug": "finetune-vs-rag-vs-prompt",
           "title": "Fine-tune, retrieve, or write a better prompt: a decision you can defend",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/finetune-vs-rag-vs-prompt/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/fine-tune-retrieve-or-write-better.html"
@@ -2309,6 +2515,7 @@
           "slug": "flutter-animation-implicit-explicit-physics",
           "title": "Three kinds of Flutter animation, and how to pick the right one",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-animation-implicit-explicit-physics/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/three-kinds-of-flutter-animation-and.html"
@@ -2320,6 +2527,7 @@
           "slug": "flutter-custom-renderobject",
           "title": "When widget composition runs out: writing your own RenderObject",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-custom-renderobject/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/when-widget-composition-runs-out.html"
@@ -2331,6 +2539,7 @@
           "slug": "flutter-impeller-jank-profiling",
           "title": "Impeller and a janky frame: how to find where the 16ms actually went",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-impeller-jank-profiling/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/impeller-and-janky-frame-how-to-find.html"
@@ -2342,6 +2551,7 @@
           "slug": "flutter-isolates-off-main-thread",
           "title": "Flutter isolates: what actually goes off the UI thread, and what doesn't",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-isolates-off-main-thread/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-isolates-what-actually-goes-off.html"
@@ -2353,6 +2563,7 @@
           "slug": "flutter-offline-first-drift-sync",
           "title": "Offline-first Flutter: the local database is the source of truth, not the API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-offline-first-drift-sync/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/offline-first-flutter-local-database-is.html"
@@ -2364,6 +2575,7 @@
           "slug": "flutter-performance-budget-16ms",
           "title": "A Flutter frame budget you can hold yourself to, instead of \"optimise later\"",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-performance-budget-16ms/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/a-flutter-frame-budget-you-can-hold.html"
@@ -2375,6 +2587,7 @@
           "slug": "flutter-platform-channels-vs-ffi",
           "title": "Calling native code from Dart: platform channels, Pigeon, or FFI",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/calling-native-code-from-dart-platform.html"
@@ -2386,6 +2599,7 @@
           "slug": "flutter-state-management-decision-guide",
           "title": "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-state-management-decision-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/riverpod-bloc-signals-or-setstate.html"
@@ -2397,6 +2611,7 @@
           "slug": "flutter-testing-widget-golden-integration",
           "title": "Flutter tests that fail for a reason: widget, golden and integration",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-testing-widget-golden-integration/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-tests-that-fail-for-reason.html"
@@ -2408,6 +2623,7 @@
           "slug": "flutter-web-wasm-2026",
           "title": "Flutter on the web compiled to WebAssembly: what you get, what you give up",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-web-wasm-2026/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-on-web-compiled-to-webassembly.html"
@@ -2419,6 +2635,7 @@
           "slug": "local-llms-when-they-beat-the-api",
           "title": "Running a model on your own machine: the four cases where it actually wins",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/local-llms-when-they-beat-the-api/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/running-model-on-your-own-machine-four.html"
@@ -2430,6 +2647,7 @@
           "slug": "prompt-caching-in-practice",
           "title": "Prompt caching in practice: the win is in the ordering, not the flag",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/prompt-caching-in-practice/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/prompt-caching-in-practice-win-is-in.html"
@@ -2441,6 +2659,7 @@
           "slug": "rag-evaluation-before-you-ship",
           "title": "Retrieval that doesn't lie: build the eval before you build the RAG",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/rag-evaluation-before-you-ship/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/retrieval-that-doesnt-lie-build-eval.html"
@@ -2452,6 +2671,7 @@
           "slug": "shipping-an-llm-feature-evals-guardrails",
           "title": "Shipping an LLM feature: the demo is 20% of the work",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/shipping-an-llm-feature-evals-guardrails/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/shipping-llm-feature-demo-is-20-of-work.html"
@@ -2463,6 +2683,7 @@
           "slug": "structured-output-json-schema-tool-calling",
           "title": "Stop parsing prose: schemas, tool calling, and output you can type-check",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/structured-output-json-schema-tool-calling/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/stop-parsing-prose-schemas-tool-calling.html"
@@ -2474,6 +2695,7 @@
           "slug": "creating-a-custom-progress-indicator",
           "title": "Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint",
           "publishDate": "2021-08-23",
+          "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/tao-progress-indicator-tuy-chinh-trong.html"
@@ -2485,6 +2707,7 @@
           "slug": "ai-poster-prompts-split-level-and-minimalist-editorial",
           "title": "Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html"
@@ -2496,6 +2719,7 @@
           "slug": "building-an-ai-agent-team-chief-of-staff-pattern",
           "title": "Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html"
@@ -2507,6 +2731,7 @@
           "slug": "cutting-ai-costs-free-tiers-caching-and-routing",
           "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/dung-ai-ma-khong-ot-tien-free-tier.html"
@@ -2518,6 +2743,7 @@
           "slug": "free-ai-coding-agents-opencode-safely",
           "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html"
@@ -2529,6 +2755,7 @@
           "slug": "what-the-research-says-about-prompt-engineering",
           "title": "Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền",
           "publishDate": "2026-08-20",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html"
@@ -2540,6 +2767,7 @@
           "slug": "flutter-introduction-2026",
           "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html"
@@ -2551,6 +2779,7 @@
           "slug": "lovable-migration-nextjs-to-tanstack-start",
           "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/lovable-roi-nextjs-sau-6-thang-nhung.html"
@@ -2562,6 +2791,7 @@
           "slug": "web-tech-to-mobile-app-2026",
           "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
           "publishDate": "2026-08-21",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/dung-cong-nghe-web-e-lam-app-mobile-ban.html"
@@ -2573,6 +2803,7 @@
           "slug": "agent-memory-files-vectors-context",
           "title": "Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/bo-nho-cho-ai-agent-file-phang-vector.html"
@@ -2584,6 +2815,7 @@
           "slug": "ai-code-review-that-gets-read",
           "title": "AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-code-review-that-gets-read/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ai-code-review-khong-ai-muon-tat-van-e.html"
@@ -2595,6 +2827,7 @@
           "slug": "ai-feature-unit-economics",
           "title": "Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-feature-unit-economics/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/chi-phi-moi-request-con-so-ma-hau-het.html"
@@ -2606,6 +2839,7 @@
           "slug": "context-engineering-what-fits-in-the-window",
           "title": "Context engineering: window to không có nghĩa là được phép nhét đầy",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/context-engineering-what-fits-in-the-window/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/context-engineering-window-to-khong-co.html"
@@ -2617,6 +2851,7 @@
           "slug": "finetune-vs-rag-vs-prompt",
           "title": "Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/finetune-vs-rag-vs-prompt/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/fine-tune-rag-hay-chi-can-prompt-tot.html"
@@ -2628,6 +2863,7 @@
           "slug": "flutter-animation-implicit-explicit-physics",
           "title": "Ba kiểu animation trong Flutter và cách chọn đúng kiểu",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-animation-implicit-explicit-physics/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ba-kieu-animation-trong-flutter-va-cach.html"
@@ -2639,6 +2875,7 @@
           "slug": "flutter-custom-renderobject",
           "title": "Khi ghép widget không còn đủ: tự viết RenderObject",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-custom-renderobject/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/khi-ghep-widget-khong-con-u-tu-viet.html"
@@ -2650,6 +2887,7 @@
           "slug": "flutter-impeller-jank-profiling",
           "title": "Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-impeller-jank-profiling/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/impeller-va-mot-frame-bi-giat-tim-xem.html"
@@ -2661,6 +2899,7 @@
           "slug": "flutter-isolates-off-main-thread",
           "title": "Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-isolates-off-main-thread/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/isolate-trong-flutter-cai-gi-that-su.html"
@@ -2672,6 +2911,7 @@
           "slug": "flutter-offline-first-drift-sync",
           "title": "Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-offline-first-database-duoi-may.html"
@@ -2683,6 +2923,7 @@
           "slug": "flutter-performance-budget-16ms",
           "title": "Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu \"để sau tối ưu\"",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ngan-sach-166-ms-cho-moi-frame-flutter.html"
@@ -2694,6 +2935,7 @@
           "slug": "flutter-platform-channels-vs-ffi",
           "title": "Gọi code native từ Dart: platform channel, Pigeon hay FFI",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/goi-code-native-tu-dart-platform.html"
@@ -2705,6 +2947,7 @@
           "slug": "flutter-state-management-decision-guide",
           "title": "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/riverpod-bloc-signals-hay-setstate-chon.html"
@@ -2716,6 +2959,7 @@
           "slug": "flutter-testing-widget-golden-integration",
           "title": "Test Flutter đỏ vì đúng lý do: widget, golden và integration",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/test-flutter-o-vi-ung-ly-do-widget.html"
@@ -2727,6 +2971,7 @@
           "slug": "flutter-web-wasm-2026",
           "title": "Flutter web biên dịch sang WebAssembly: được gì, mất gì",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-web-bien-dich-sang-webassembly.html"
@@ -2738,6 +2983,7 @@
           "slug": "local-llms-when-they-beat-the-api",
           "title": "Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/local-llms-when-they-beat-the-api/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/chay-model-ngay-tren-may-minh-bon.html"
@@ -2749,6 +2995,7 @@
           "slug": "prompt-caching-in-practice",
           "title": "Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/prompt-caching-in-practice/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/prompt-caching-thuc-chien-thang-thua.html"
@@ -2760,6 +3007,7 @@
           "slug": "rag-evaluation-before-you-ship",
           "title": "Retrieval không nói dối: dựng eval trước khi dựng RAG",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/retrieval-khong-noi-doi-dung-eval-truoc.html"
@@ -2771,6 +3019,7 @@
           "slug": "shipping-an-llm-feature-evals-guardrails",
           "title": "Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ua-mot-tinh-nang-llm-len-production-ban.html"
@@ -2782,6 +3031,7 @@
           "slug": "structured-output-json-schema-tool-calling",
           "title": "Đừng parse văn xuôi nữa: schema, tool calling và output type-check được",
           "publishDate": "2026-08-22",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ung-parse-van-xuoi-nua-schema-tool.html"
@@ -2793,6 +3043,7 @@
           "slug": "apple-intelligence-vs-gemini-intelligence-on-device-ai",
           "title": "Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps",
           "publishDate": "2026-07-07",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/apple-intelligence-vs-gemini.html"
@@ -2804,6 +3055,7 @@
           "slug": "flutter-2026-roadmap-webassembly-platform-parity",
           "title": "Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity",
           "publishDate": "2026-07-08",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-2026-roadmap-webassembly-platform-parity/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutters-2026-roadmap-webassembly-by.html"
@@ -2815,6 +3067,7 @@
           "slug": "macos-26-tahoe-liquid-glass-last-intel-mac",
           "title": "macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel",
           "publishDate": "2026-07-09",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-comes-to.html"
@@ -2826,6 +3079,7 @@
           "slug": "iphone-18-pro-foldable-iphone-fall-2026-preview",
           "title": "The fall 2026 iPhone: a foldable joins the iPhone 18 Pro, and Apple splits its launch calendar",
           "publishDate": "2026-07-10",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/the-fall-2026-iphone-foldable-joins.html"
@@ -2837,6 +3091,7 @@
           "slug": "iphone-17-pro-review-a19-pro-cameras-aluminum",
           "title": "iPhone 17 Pro review: the A19 Pro, an aluminum comeback, and an 8x telephoto",
           "publishDate": "2026-07-12",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/iphone-17-pro-review-a19-pro-aluminum.html"
@@ -2848,6 +3103,7 @@
           "slug": "flutter-3-44-ios-26-macos-support-web-hot-reload",
           "title": "Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles",
           "publishDate": "2026-07-14",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-344-review-ios-26-support.html"
@@ -2859,6 +3115,7 @@
           "slug": "android-17-bubbles-gemini-intelligence-foldables",
           "title": "Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables",
           "publishDate": "2026-07-15",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/android-17-bubbles-gemini-intelligence-foldables/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/android-17-is-here-bubbles-gemini.html"
@@ -2870,6 +3127,7 @@
           "slug": "ios-26-liquid-glass-what-it-means-for-mobile-developers",
           "title": "iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers",
           "publishDate": "2026-07-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ios-26-and-liquid-glass-what-apples.html"
@@ -2881,6 +3139,7 @@
           "slug": "dart-3-13-primary-constructors-guide",
           "title": "Dart 3.13 primary constructors: less boilerplate, one real breaking change",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/dart-3-13-primary-constructors-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/dart-313-primary-constructors-less.html"
@@ -2892,6 +3151,7 @@
           "slug": "flutter-3-47-standalone-material-cupertino-impeller-desktop",
           "title": "Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-347-material-and-cupertino.html"
@@ -2903,6 +3163,7 @@
           "slug": "flutter-ai-agent-skills-guide",
           "title": "Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-ai-agent-skills-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/agent-skills-for-dart-and-flutter.html"
@@ -2914,6 +3175,7 @@
           "slug": "flutter-gpu-3d-rendering-flutter-scene",
           "title": "Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-gpu-3d-rendering-flutter-scene/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-gpu-and-3d-what-impeller.html"
@@ -2925,6 +3187,7 @@
           "slug": "flutter-impeller-desktop-default-renderer",
           "title": "Impeller is now the default on macOS, Windows and Linux",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-impeller-desktop-default-renderer/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/impeller-is-now-default-on-macos.html"
@@ -2936,6 +3199,7 @@
           "slug": "flutter-material-ui-cupertino-ui-migration-guide",
           "title": "Migrating to material_ui and cupertino_ui: the design system leaves the SDK",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-material-ui-cupertino-ui-migration-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/migrating-to-materialui-and-cupertinoui.html"
@@ -2947,6 +3211,7 @@
           "slug": "flutter-multi-window-desktop-guide",
           "title": "Multi-window on Flutter desktop: what shipped in 3.47, and what to use today",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-multi-window-desktop-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/multi-window-on-flutter-desktop-what.html"
@@ -2958,6 +3223,7 @@
           "slug": "flutter-swift-package-manager-migration",
           "title": "Swift Package Manager is the default now — and CocoaPods has a deadline",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-swift-package-manager-migration/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/swift-package-manager-is-default-now.html"
@@ -2969,6 +3235,7 @@
           "slug": "flutter-uiscene-migration-ios-15-minimum",
           "title": "The UIScene migration: the iOS change that will crash unmigrated Flutter apps",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-uiscene-migration-ios-15-minimum/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/the-uiscene-migration-ios-change-that.html"
@@ -2980,6 +3247,7 @@
           "slug": "flutter-webassembly-wasm-deferred-loading",
           "title": "Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-webassembly-wasm-deferred-loading/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/shipping-flutter-web-on-webassembly.html"
@@ -2991,6 +3259,7 @@
           "slug": "flutter-widget-previews-stable-guide",
           "title": "Flutter Widget Previews are stable: a practical guide to @Preview",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-widget-previews-stable-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-widget-previews-are-stable.html"
@@ -3002,6 +3271,7 @@
           "slug": "apple-intelligence-vs-gemini-intelligence-on-device-ai",
           "title": "Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động",
           "publishDate": "2026-07-07",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/apple-intelligence-va-gemini.html"
@@ -3013,6 +3283,7 @@
           "slug": "flutter-2026-roadmap-webassembly-platform-parity",
           "title": "Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa",
           "publishDate": "2026-07-08",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-2026-roadmap-webassembly-platform-parity/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/lo-trinh-flutter-2026-webassembly-mac.html"
@@ -3024,6 +3295,7 @@
           "slug": "macos-26-tahoe-liquid-glass-last-intel-mac",
           "title": "macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel",
           "publishDate": "2026-07-09",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-en-voi-mac.html"
@@ -3035,6 +3307,7 @@
           "slug": "iphone-18-pro-foldable-iphone-fall-2026-preview",
           "title": "iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt",
           "publishDate": "2026-07-10",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/iphone-mua-thu-2026-mot-chiec-gap-gia.html"
@@ -3046,6 +3319,7 @@
           "slug": "iphone-17-pro-review-a19-pro-cameras-aluminum",
           "title": "Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x",
           "publishDate": "2026-07-12",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/anh-gia-iphone-17-pro-chip-a19-pro-nhom.html"
@@ -3057,6 +3331,7 @@
           "slug": "flutter-3-44-ios-26-macos-support-web-hot-reload",
           "title": "Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles",
           "publishDate": "2026-07-14",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/anh-gia-flutter-344-ho-tro-ios-26-hot.html"
@@ -3068,6 +3343,7 @@
           "slug": "android-17-bubbles-gemini-intelligence-foldables",
           "title": "Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập",
           "publishDate": "2026-07-15",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/android-17-bubbles-gemini-intelligence-foldables/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/android-17-ra-mat-bubbles-gemini.html"
@@ -3079,6 +3355,7 @@
           "slug": "ios-26-liquid-glass-what-it-means-for-mobile-developers",
           "title": "iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động",
           "publishDate": "2026-07-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ios-26-va-liquid-glass-cuoc-thiet-ke.html"
@@ -3090,6 +3367,7 @@
           "slug": "dart-3-13-primary-constructors-guide",
           "title": "Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/dart-3-13-primary-constructors-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/primary-constructor-trong-dart-313-bot.html"
@@ -3101,6 +3379,7 @@
           "slug": "flutter-3-47-standalone-material-cupertino-impeller-desktop",
           "title": "Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-347-material-va-cupertino-roi.html"
@@ -3112,6 +3391,7 @@
           "slug": "flutter-ai-agent-skills-guide",
           "title": "Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-ai-agent-skills-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/agent-skills-cho-dart-va-flutter-day-ai.html"
@@ -3123,6 +3403,7 @@
           "slug": "flutter-gpu-3d-rendering-flutter-scene",
           "title": "Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-gpu-3d-rendering-flutter-scene/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-gpu-va-3d-impeller-mo-khoa-gi.html"
@@ -3134,6 +3415,7 @@
           "slug": "flutter-impeller-desktop-default-renderer",
           "title": "Impeller giờ là mặc định trên macOS, Windows và Linux",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-impeller-desktop-default-renderer/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/impeller-gio-la-mac-inh-tren-macos.html"
@@ -3145,6 +3427,7 @@
           "slug": "flutter-material-ui-cupertino-ui-migration-guide",
           "title": "Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-material-ui-cupertino-ui-migration-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/migrate-sang-materialui-va-cupertinoui.html"
@@ -3156,6 +3439,7 @@
           "slug": "flutter-multi-window-desktop-guide",
           "title": "Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-multi-window-desktop-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/a-cua-so-tren-flutter-desktop-347-co-gi.html"
@@ -3167,6 +3451,7 @@
           "slug": "flutter-swift-package-manager-migration",
           "title": "Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-swift-package-manager-migration/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/swift-package-manager-gio-la-mac-inh-va.html"
@@ -3178,6 +3463,7 @@
           "slug": "flutter-uiscene-migration-ios-15-minimum",
           "title": "Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-uiscene-migration-ios-15-minimum/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/migrate-uiscene-thay-oi-ios-se-lam-app.html"
@@ -3189,6 +3475,7 @@
           "slug": "flutter-webassembly-wasm-deferred-loading",
           "title": "Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-webassembly-wasm-deferred-loading/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/ship-flutter-web-tren-webassembly-cuoc.html"
@@ -3200,6 +3487,7 @@
           "slug": "flutter-widget-previews-stable-guide",
           "title": "Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview",
           "publishDate": "2026-08-16",
+          "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-widget-previews-stable-guide/",
           "status": "LIVE",
           "blogUrl": "https://flutter9.blogspot.com/2026/08/flutter-widget-previews-stable-huong.html"
