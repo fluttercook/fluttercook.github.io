@@ -158,7 +158,7 @@ def probe(blog: dict) -> dict:
     access = "ok" if role == "ADMIN" else "author-cannot-create"
 
     # Index live posts by title so we can spot posts made outside our sync map.
-    titles, page = {}, None
+    titles, page, partial = {}, None, False
     while True:
         params = {"maxResults": "100", "fetchBodies": "false"}
         if page:
@@ -168,13 +168,19 @@ def probe(blog: dict) -> dict:
             token,
         )
         if code != 200:
+            # One throttled page used to end the loop quietly, and a count that
+            # stopped at a round 100 read like a real total — enough to look
+            # like posts had appeared out of nowhere on the next run. Say so.
+            partial = True
             break
         for post in data.get("items", []):
             titles[post.get("title", "").strip()] = {"id": post.get("id", ""), "url": post.get("url", "")}
         page = data.get("nextPageToken")
         if not page:
             break
-    detail = f"role {role}, {len(titles)} post(s) live"
+    detail = f"role {role}, {'at least ' if partial else ''}{len(titles)} post(s) live"
+    if partial:
+        detail += " (listing was cut short)"
     if access != "ok":
         detail += " — needs Admin to create new posts"
     return {"access": access, "detail": detail, "titles": titles}
