@@ -1083,6 +1083,342 @@
           "title": "AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận",
           "status": "LIVE",
           "published": "2026-08-19T21:53:51-07:00"
+        },
+        "blog/en/agent-memory-files-vectors-context": {
+          "postId": "7348761548230290836",
+          "url": "https://flutter9.blogspot.com/2026/08/agent-memory-files-vector-store-or-just.html",
+          "title": "Agent memory: files, a vector store, or just a bigger context window",
+          "status": "LIVE",
+          "published": "2026-08-22T20:35:25-07:00"
+        },
+        "blog/en/ai-code-review-that-gets-read": {
+          "postId": "3519914897077298057",
+          "url": "https://flutter9.blogspot.com/2026/08/ai-code-review-nobody-mutes-problem-is.html",
+          "title": "AI code review nobody mutes: the problem is precision, not capability",
+          "status": "LIVE",
+          "published": "2026-08-22T20:35:30-07:00"
+        },
+        "blog/en/ai-feature-unit-economics": {
+          "postId": "8890150300217234139",
+          "url": "https://flutter9.blogspot.com/2026/08/cost-per-request-number-most-ai.html",
+          "title": "Cost per request: the number most AI features never compute",
+          "status": "LIVE",
+          "published": "2026-08-22T20:35:33-07:00"
+        },
+        "blog/en/context-engineering-what-fits-in-the-window": {
+          "postId": "4786422727884615812",
+          "url": "https://flutter9.blogspot.com/2026/08/context-engineering-big-window-is-not.html",
+          "title": "Context engineering: a big window is not permission to fill it",
+          "status": "LIVE",
+          "published": "2026-08-22T20:35:37-07:00"
+        },
+        "blog/en/cutting-ai-costs-free-tiers-caching-and-routing": {
+          "postId": "8056317482710910260",
+          "url": "https://flutter9.blogspot.com/2026/08/using-ai-without-burning-cash-free.html",
+          "title": "Using AI without burning cash: free tiers, caching, and routing",
+          "status": "LIVE",
+          "published": "2026-08-22T20:35:42-07:00"
+        },
+        "blog/en/finetune-vs-rag-vs-prompt": {
+          "postId": "8713155539187062132",
+          "url": "https://flutter9.blogspot.com/2026/08/fine-tune-retrieve-or-write-better.html",
+          "title": "Fine-tune, retrieve, or write a better prompt: a decision you can defend",
+          "status": "LIVE",
+          "published": "2026-08-22T20:36:48-07:00"
+        },
+        "blog/en/flutter-animation-implicit-explicit-physics": {
+          "postId": "9195759502631642527",
+          "url": "https://flutter9.blogspot.com/2026/08/three-kinds-of-flutter-animation-and.html",
+          "title": "Three kinds of Flutter animation, and how to pick the right one",
+          "status": "LIVE",
+          "published": "2026-08-22T20:36:51-07:00"
+        },
+        "blog/en/flutter-custom-renderobject": {
+          "postId": "8926691162189840385",
+          "url": "https://flutter9.blogspot.com/2026/08/when-widget-composition-runs-out.html",
+          "title": "When widget composition runs out: writing your own RenderObject",
+          "status": "LIVE",
+          "published": "2026-08-22T20:36:56-07:00"
+        },
+        "blog/en/flutter-impeller-jank-profiling": {
+          "postId": "660931503937816188",
+          "url": "https://flutter9.blogspot.com/2026/08/impeller-and-janky-frame-how-to-find.html",
+          "title": "Impeller and a janky frame: how to find where the 16ms actually went",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:00-07:00"
+        },
+        "blog/en/flutter-introduction-2026": {
+          "postId": "3385504187578010919",
+          "url": "https://flutter9.blogspot.com/2026/08/what-flutter-is-reading-3d-game-built.html",
+          "title": "What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:04-07:00"
+        },
+        "blog/en/flutter-isolates-off-main-thread": {
+          "postId": "6650759639044486434",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-isolates-what-actually-goes-off.html",
+          "title": "Flutter isolates: what actually goes off the UI thread, and what doesn't",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:28-07:00"
+        },
+        "blog/en/flutter-offline-first-drift-sync": {
+          "postId": "1304446026835724361",
+          "url": "https://flutter9.blogspot.com/2026/08/offline-first-flutter-local-database-is.html",
+          "title": "Offline-first Flutter: the local database is the source of truth, not the API",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:33-07:00"
+        },
+        "blog/en/flutter-performance-budget-16ms": {
+          "postId": "8829535062010169168",
+          "url": "https://flutter9.blogspot.com/2026/08/a-flutter-frame-budget-you-can-hold.html",
+          "title": "A Flutter frame budget you can hold yourself to, instead of \"optimise later\"",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:37-07:00"
+        },
+        "blog/en/flutter-platform-channels-vs-ffi": {
+          "postId": "6823021345582686323",
+          "url": "https://flutter9.blogspot.com/2026/08/calling-native-code-from-dart-platform.html",
+          "title": "Calling native code from Dart: platform channels, Pigeon, or FFI",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:41-07:00"
+        },
+        "blog/en/flutter-state-management-decision-guide": {
+          "postId": "2024162048800320930",
+          "url": "https://flutter9.blogspot.com/2026/08/riverpod-bloc-signals-or-setstate.html",
+          "title": "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it",
+          "status": "LIVE",
+          "published": "2026-08-22T20:37:46-07:00"
+        },
+        "blog/en/flutter-testing-widget-golden-integration": {
+          "postId": "4266990045198176228",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-tests-that-fail-for-reason.html",
+          "title": "Flutter tests that fail for a reason: widget, golden and integration",
+          "status": "LIVE",
+          "published": "2026-08-22T20:38:54-07:00"
+        },
+        "blog/en/flutter-web-wasm-2026": {
+          "postId": "1720117039369753646",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-on-web-compiled-to-webassembly.html",
+          "title": "Flutter on the web compiled to WebAssembly: what you get, what you give up",
+          "status": "LIVE",
+          "published": "2026-08-22T20:38:58-07:00"
+        },
+        "blog/en/local-llms-when-they-beat-the-api": {
+          "postId": "8117037227150638834",
+          "url": "https://flutter9.blogspot.com/2026/08/running-model-on-your-own-machine-four.html",
+          "title": "Running a model on your own machine: the four cases where it actually wins",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:02-07:00"
+        },
+        "blog/en/lovable-migration-nextjs-to-tanstack-start": {
+          "postId": "6201501342271563309",
+          "url": "https://flutter9.blogspot.com/2026/08/lovable-left-nextjs-in-6-months-numbers.html",
+          "title": "Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:06-07:00"
+        },
+        "blog/en/prompt-caching-in-practice": {
+          "postId": "3205353146590156031",
+          "url": "https://flutter9.blogspot.com/2026/08/prompt-caching-in-practice-win-is-in.html",
+          "title": "Prompt caching in practice: the win is in the ordering, not the flag",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:10-07:00"
+        },
+        "blog/en/rag-evaluation-before-you-ship": {
+          "postId": "7338018992680468591",
+          "url": "https://flutter9.blogspot.com/2026/08/retrieval-that-doesnt-lie-build-eval.html",
+          "title": "Retrieval that doesn't lie: build the eval before you build the RAG",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:35-07:00"
+        },
+        "blog/en/shipping-an-llm-feature-evals-guardrails": {
+          "postId": "4302950587855938167",
+          "url": "https://flutter9.blogspot.com/2026/08/shipping-llm-feature-demo-is-20-of-work.html",
+          "title": "Shipping an LLM feature: the demo is 20% of the work",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:39-07:00"
+        },
+        "blog/en/structured-output-json-schema-tool-calling": {
+          "postId": "7567808688624869103",
+          "url": "https://flutter9.blogspot.com/2026/08/stop-parsing-prose-schemas-tool-calling.html",
+          "title": "Stop parsing prose: schemas, tool calling, and output you can type-check",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:43-07:00"
+        },
+        "blog/en/web-tech-to-mobile-app-2026": {
+          "postId": "4705728537117420207",
+          "url": "https://flutter9.blogspot.com/2026/08/using-web-technology-to-build-mobile.html",
+          "title": "Using web technology to build mobile apps: the 2026 technical map",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:47-07:00"
+        },
+        "blog/vi/agent-memory-files-vectors-context": {
+          "postId": "4350138119101148519",
+          "url": "https://flutter9.blogspot.com/2026/08/bo-nho-cho-ai-agent-file-phang-vector.html",
+          "title": "Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn",
+          "status": "LIVE",
+          "published": "2026-08-22T20:39:58-07:00"
+        },
+        "blog/vi/ai-code-review-that-gets-read": {
+          "postId": "4898743967185479187",
+          "url": "https://flutter9.blogspot.com/2026/08/ai-code-review-khong-ai-muon-tat-van-e.html",
+          "title": "AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:05-07:00"
+        },
+        "blog/vi/ai-feature-unit-economics": {
+          "postId": "8180136833604260445",
+          "url": "https://flutter9.blogspot.com/2026/08/chi-phi-moi-request-con-so-ma-hau-het.html",
+          "title": "Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:09-07:00"
+        },
+        "blog/vi/context-engineering-what-fits-in-the-window": {
+          "postId": "3438568525974348525",
+          "url": "https://flutter9.blogspot.com/2026/08/context-engineering-window-to-khong-co.html",
+          "title": "Context engineering: window to không có nghĩa là được phép nhét đầy",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:13-07:00"
+        },
+        "blog/vi/cutting-ai-costs-free-tiers-caching-and-routing": {
+          "postId": "7152536871492162573",
+          "url": "https://flutter9.blogspot.com/2026/08/dung-ai-ma-khong-ot-tien-free-tier.html",
+          "title": "Dùng AI mà không đốt tiền: free tier, caching và định tuyến model",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:17-07:00"
+        },
+        "blog/vi/finetune-vs-rag-vs-prompt": {
+          "postId": "2272754225226639814",
+          "url": "https://flutter9.blogspot.com/2026/08/fine-tune-rag-hay-chi-can-prompt-tot.html",
+          "title": "Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:21-07:00"
+        },
+        "blog/vi/flutter-animation-implicit-explicit-physics": {
+          "postId": "6562746740608549171",
+          "url": "https://flutter9.blogspot.com/2026/08/ba-kieu-animation-trong-flutter-va-cach.html",
+          "title": "Ba kiểu animation trong Flutter và cách chọn đúng kiểu",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:26-07:00"
+        },
+        "blog/vi/flutter-custom-renderobject": {
+          "postId": "5963506298272334741",
+          "url": "https://flutter9.blogspot.com/2026/08/khi-ghep-widget-khong-con-u-tu-viet.html",
+          "title": "Khi ghép widget không còn đủ: tự viết RenderObject",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:30-07:00"
+        },
+        "blog/vi/flutter-impeller-jank-profiling": {
+          "postId": "948226712434904283",
+          "url": "https://flutter9.blogspot.com/2026/08/impeller-va-mot-frame-bi-giat-tim-xem.html",
+          "title": "Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:34-07:00"
+        },
+        "blog/vi/flutter-introduction-2026": {
+          "postId": "7155575463415806945",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html",
+          "title": "Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:38-07:00"
+        },
+        "blog/vi/flutter-isolates-off-main-thread": {
+          "postId": "5555577023610249288",
+          "url": "https://flutter9.blogspot.com/2026/08/isolate-trong-flutter-cai-gi-that-su.html",
+          "title": "Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không",
+          "status": "LIVE",
+          "published": "2026-08-22T20:41:43-07:00"
+        },
+        "blog/vi/flutter-offline-first-drift-sync": {
+          "postId": "6898100906550976007",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-offline-first-database-duoi-may.html",
+          "title": "Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API",
+          "status": "LIVE",
+          "published": "2026-08-22T20:42:50-07:00"
+        },
+        "blog/vi/flutter-performance-budget-16ms": {
+          "postId": "3265131667844877054",
+          "url": "https://flutter9.blogspot.com/2026/08/ngan-sach-166-ms-cho-moi-frame-flutter.html",
+          "title": "Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu \"để sau tối ưu\"",
+          "status": "LIVE",
+          "published": "2026-08-22T20:42:54-07:00"
+        },
+        "blog/vi/flutter-platform-channels-vs-ffi": {
+          "postId": "7159719747769469834",
+          "url": "https://flutter9.blogspot.com/2026/08/goi-code-native-tu-dart-platform.html",
+          "title": "Gọi code native từ Dart: platform channel, Pigeon hay FFI",
+          "status": "LIVE",
+          "published": "2026-08-22T20:42:59-07:00"
+        },
+        "blog/vi/flutter-state-management-decision-guide": {
+          "postId": "8930955529566844501",
+          "url": "https://flutter9.blogspot.com/2026/08/riverpod-bloc-signals-hay-setstate-chon.html",
+          "title": "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:03-07:00"
+        },
+        "blog/vi/flutter-testing-widget-golden-integration": {
+          "postId": "679401037673147355",
+          "url": "https://flutter9.blogspot.com/2026/08/test-flutter-o-vi-ung-ly-do-widget.html",
+          "title": "Test Flutter đỏ vì đúng lý do: widget, golden và integration",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:07-07:00"
+        },
+        "blog/vi/flutter-web-wasm-2026": {
+          "postId": "861034239926788073",
+          "url": "https://flutter9.blogspot.com/2026/08/flutter-web-bien-dich-sang-webassembly.html",
+          "title": "Flutter web biên dịch sang WebAssembly: được gì, mất gì",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:33-07:00"
+        },
+        "blog/vi/local-llms-when-they-beat-the-api": {
+          "postId": "2488088621626138100",
+          "url": "https://flutter9.blogspot.com/2026/08/chay-model-ngay-tren-may-minh-bon.html",
+          "title": "Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:37-07:00"
+        },
+        "blog/vi/lovable-migration-nextjs-to-tanstack-start": {
+          "postId": "2847238567490073469",
+          "url": "https://flutter9.blogspot.com/2026/08/lovable-roi-nextjs-sau-6-thang-nhung.html",
+          "title": "Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:41-07:00"
+        },
+        "blog/vi/prompt-caching-in-practice": {
+          "postId": "2330951133972223306",
+          "url": "https://flutter9.blogspot.com/2026/08/prompt-caching-thuc-chien-thang-thua.html",
+          "title": "Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:44-07:00"
+        },
+        "blog/vi/rag-evaluation-before-you-ship": {
+          "postId": "5605735690654232353",
+          "url": "https://flutter9.blogspot.com/2026/08/retrieval-khong-noi-doi-dung-eval-truoc.html",
+          "title": "Retrieval không nói dối: dựng eval trước khi dựng RAG",
+          "status": "LIVE",
+          "published": "2026-08-22T20:43:48-07:00"
+        },
+        "blog/vi/shipping-an-llm-feature-evals-guardrails": {
+          "postId": "3163696252650668120",
+          "url": "https://flutter9.blogspot.com/2026/08/ua-mot-tinh-nang-llm-len-production-ban.html",
+          "title": "Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc",
+          "status": "LIVE",
+          "published": "2026-08-22T20:44:54-07:00"
+        },
+        "blog/vi/structured-output-json-schema-tool-calling": {
+          "postId": "8076632716822329483",
+          "url": "https://flutter9.blogspot.com/2026/08/ung-parse-van-xuoi-nua-schema-tool.html",
+          "title": "Đừng parse văn xuôi nữa: schema, tool calling và output type-check được",
+          "status": "LIVE",
+          "published": "2026-08-22T20:44:58-07:00"
+        },
+        "blog/vi/web-tech-to-mobile-app-2026": {
+          "postId": "5429647894790333637",
+          "url": "https://flutter9.blogspot.com/2026/08/dung-cong-nghe-web-e-lam-app-mobile-ban.html",
+          "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
+          "status": "LIVE",
+          "published": "2026-08-22T20:45:02-07:00"
         }
       }
     }
