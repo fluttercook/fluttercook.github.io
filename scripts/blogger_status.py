@@ -17,6 +17,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import os
 import sys
 import urllib.error
 import urllib.parse
@@ -32,10 +33,13 @@ from publish_to_blogger import (  # noqa: E402
     load_state,
     read_frontmatter,
     refresh_token,
+    rel,
 )
 
-REPORT_JSON = ROOT / "data" / "blogger-status.json"
-REPORT_MD = ROOT / "docs" / "blogger-status.md"
+# Overridable for the same reason STATE_FILE is: the deployment writes its
+# reports outside the checkout, which it resets to origin/main on every run.
+REPORT_JSON = Path(os.environ.get("BLOGGER_STATUS_JSON") or ROOT / "data" / "blogger-status.json")
+REPORT_MD = Path(os.environ.get("BLOGGER_STATUS_MD") or ROOT / "docs" / "blogger-status.md")
 
 # The blogs we mirror to, in priority order. Credentials live in the single table
 # in publish_to_blogger.py — the two scripts kept their own copies and drifted, so
@@ -230,7 +234,7 @@ def main() -> int:
     if adopted:
         STATE_FILE.parent.mkdir(parents=True, exist_ok=True)
         STATE_FILE.write_text(json.dumps(state, indent=2, ensure_ascii=False) + "\n", "utf-8")
-        print(f"adopted {adopted} existing post(s) into {STATE_FILE.relative_to(ROOT)}\n")
+        print(f"adopted {adopted} existing post(s) into {rel(STATE_FILE)}\n")
 
     REPORT_JSON.parent.mkdir(parents=True, exist_ok=True)
     REPORT_JSON.write_text(json.dumps(report, indent=2, ensure_ascii=False) + "\n", "utf-8")
@@ -241,7 +245,7 @@ def main() -> int:
         "# Blogger publish status",
         "",
         f"_Generated {today} by `scripts/blogger_status.py`. Source of truth for post ids: "
-        f"`{STATE_FILE.relative_to(ROOT)}`._",
+        f"`{rel(STATE_FILE)}`._",
         "",
         f"**{len(articles)} publishable articles** on the site "
         f"({sum(1 for a in articles if a['collection'] == 'news')} news, "
@@ -273,7 +277,7 @@ def main() -> int:
     for b in report["blogs"]:
         print(f"  {icon.get(b['access'], '?')} {b['name']:<28} {b['done']:>3}/{b['total']:<3} "
               f"{b['access']} — {b['detail']}")
-    print(f"\nwrote {REPORT_MD.relative_to(ROOT)} and {REPORT_JSON.relative_to(ROOT)}")
+    print(f"\nwrote {rel(REPORT_MD)} and {rel(REPORT_JSON)}")
     return 0
 
 

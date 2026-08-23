@@ -48,7 +48,10 @@ import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
 DIST = ROOT / "dist"
-STATE_FILE = ROOT / "data" / "blogger_sync.json"
+# Overridable so a deployment can keep the sync map outside the checkout — the
+# server resets to origin/main on every run, which would otherwise discard the
+# slug -> postId map and start creating duplicate posts.
+STATE_FILE = Path(os.environ.get("BLOGGER_SYNC_STATE") or ROOT / "data" / "blogger_sync.json")
 SITE = "https://fluttercook.github.io"
 DEFAULT_BLOG_ID = "8621533667729504576"  # trunghieu-it.blogspot.com
 
@@ -79,6 +82,14 @@ BLOGS = {
     },
 }
 BLOG_ID_BY_NAME = {b["name"]: bid for bid, b in BLOGS.items()}
+
+
+def rel(path: Path) -> str:
+    """Path relative to the repo when it is inside it, absolute when it is not."""
+    try:
+        return str(path.relative_to(ROOT))
+    except ValueError:
+        return str(path)
 
 
 def resolve_blog(ref: str) -> tuple[str, dict]:
@@ -324,6 +335,10 @@ def main() -> int:
                     help="leave posts we already synced to this blog untouched (saves quota)")
     ap.add_argument("--sleep", type=float, default=6.0,
                     help="seconds between posts; Blogger throttles fast bursts (default 6)")
+    ap.add_argument("--limit", type=int, default=0,
+                    help="stop after N posts are actually created or updated; skips do not "
+                         "count (default 0 = no limit). Used by the scheduled sync to publish "
+                         "a few a day rather than in one burst")
     ap.add_argument("--force-update", action="store_true",
                     help="also overwrite posts written by an older toolchain (they are often "
                          "bilingual in a single post; Blogger keeps no revision history)")
@@ -368,7 +383,11 @@ def main() -> int:
     key_prefix = f"{args.collection}/{args.lang}/"
     base = f"https://www.googleapis.com/blogger/v3/blogs/{blog_id}/posts"
 
+    written = 0
     for slug, post in posts:
+        if args.limit and written >= args.limit:
+            print(f"stopping at --limit {args.limit}; {len(posts) - written} post(s) left for the next run")
+            break
         key = key_prefix + slug
         if target_host and canonical_host(args.collection, args.lang, slug) == target_host:
             # This article was first published on the very blog we are pushing to.
@@ -400,11 +419,13 @@ def main() -> int:
             "published": result.get("published", ""),
         }
         save_state(state)
+        written += 1
         print(f"{action}: {post['title']}\n  -> {result.get('url') or '(draft)'}  [id {result['id']}]")
         time.sleep(args.sleep)
 
-    print(f"\n{len(posts)} post(s) {'published' if args.publish else 'saved as draft'} on blog {blog_id}.")
-    print(f"sync map: {STATE_FILE.relative_to(ROOT)}")
+    print(f"\n{written} post(s) {'published' if args.publish else 'saved as draft'} on blog {blog_id} "
+          f"({len(posts)} considered).")
+    print(f"sync map: {rel(STATE_FILE)}")
     return 0
 
 

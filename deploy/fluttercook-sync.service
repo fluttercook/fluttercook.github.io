@@ -1,0 +1,29 @@
+# Runs one sync pass. Triggered by fluttercook-sync.timer, not enabled itself.
+[Unit]
+Description=FlutterCook — mirror new articles to Blogger
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=fluttercook
+Group=fluttercook
+WorkingDirectory=/opt/fluttercook
+EnvironmentFile=-/etc/fluttercook/sync.env
+ExecStart=/opt/fluttercook/deploy/sync.sh
+# A build plus up to a dozen publish passes, each sleeping between posts.
+TimeoutStartSec=45min
+
+# The unit needs the checkout, its own state directory, and the network. It has
+# no business anywhere else on the box.
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+ProtectKernelTunables=true
+ProtectControlGroups=true
+RestrictSUIDSGID=true
+ReadWritePaths=/opt/fluttercook /var/lib/fluttercook
+
+[Install]
+WantedBy=multi-user.target

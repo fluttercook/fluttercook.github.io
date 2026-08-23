@@ -1,0 +1,24 @@
+# The admin dashboard. Localhost only — nginx terminates TLS and proxies to it.
+[Unit]
+Description=FlutterCook sync admin dashboard
+After=network.target
+
+[Service]
+Type=simple
+User=fluttercook
+Group=fluttercook
+WorkingDirectory=/opt/fluttercook
+EnvironmentFile=-/etc/fluttercook/sync.env
+ExecStart=/usr/bin/python3 /opt/fluttercook/deploy/admin_server.py --host 127.0.0.1 --port 8787
+Restart=on-failure
+RestartSec=5s
+
+NoNewPrivileges=true
+PrivateTmp=true
+ProtectSystem=strict
+ProtectHome=true
+RestrictSUIDSGID=true
+ReadWritePaths=/opt/fluttercook /var/lib/fluttercook
+
+[Install]
+WantedBy=multi-user.target

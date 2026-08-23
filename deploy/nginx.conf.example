@@ -1,0 +1,72 @@
+# /etc/nginx/sites-available/jo.fighttech.vn
+#
+# TLS terminates here; the admin server itself listens on 127.0.0.1 only and
+# never sees a raw internet connection.
+#
+# Install:
+#   sudo cp deploy/nginx.conf.example /etc/nginx/sites-available/jo.fighttech.vn
+#   sudo ln -sf /etc/nginx/sites-available/jo.fighttech.vn /etc/nginx/sites-enabled/
+#   sudo nginx -t && sudo systemctl reload nginx
+#   sudo certbot --nginx -d jo.fighttech.vn      # fills in the TLS block below
+#
+# Point jo.fighttech.vn at this box (A record) before running certbot.
+
+# The token is the real gate, but a guessing loop should not get thousands of
+# tries a second. 30 requests/minute per IP is far above what the dashboard's
+# 3-second poll needs.
+limit_req_zone $binary_remote_addr zone=fcadmin:10m rate=30r/m;
+
+server {
+    listen 80;
+    listen [::]:80;
+    server_name jo.fighttech.vn;
+
+    # certbot rewrites this to a 301 once a certificate exists. Until then the
+    # dashboard is reachable over plain HTTP — do not paste the token before
+    # TLS is in place.
+    location /.well-known/acme-challenge/ { root /var/www/html; }
+    location / { return 301 https://$host$request_uri; }
+}
+
+server {
+    listen 443 ssl;
+    listen [::]:443 ssl;
+    http2 on;
+    server_name jo.fighttech.vn;
+
+    # certbot --nginx writes these three lines.
+    # ssl_certificate     /etc/letsencrypt/live/jo.fighttech.vn/fullchain.pem;
+    # ssl_certificate_key /etc/letsencrypt/live/jo.fighttech.vn/privkey.pem;
+    # include /etc/letsencrypt/options-ssl-nginx.conf;
+
+    add_header X-Frame-Options DENY always;
+    add_header X-Content-Type-Options nosniff always;
+    add_header Referrer-Policy no-referrer always;
+    add_header Strict-Transport-Security "max-age=31536000" always;
+
+    # This is an internal tool with a single operator.
+    add_header X-Robots-Tag "noindex, nofollow" always;
+
+    access_log /var/log/nginx/jo.fighttech.vn.access.log;
+    error_log  /var/log/nginx/jo.fighttech.vn.error.log;
+
+    location / {
+        limit_req zone=fcadmin burst=20 nodelay;
+        proxy_pass http://127.0.0.1:8787;
+        proxy_set_header Host              $host;
+        proxy_set_header X-Real-IP         $remote_addr;
+        proxy_set_header X-Forwarded-For   $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+
+        # A sync run streams its log for a long time and the dashboard polls
+        # while it does; do not cut it off mid-run.
+        proxy_read_timeout 300s;
+        proxy_buffering off;
+    }
+
+    # Unauthenticated liveness check, for whatever monitors the box.
+    location = /api/health {
+        proxy_pass http://127.0.0.1:8787;
+        access_log off;
+    }
+}
