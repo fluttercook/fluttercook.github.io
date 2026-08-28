@@ -1,5 +1,5 @@
 {
-  "generated": "2026-08-23",
+  "generated": "2026-08-29",
   "articles": 96,
   "blogs": [
     {
@@ -7,8 +7,8 @@
       "name": "trunghieu-it.blogspot.com",
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
-      "access": "not-probed",
-      "detail": "--offline",
+      "access": "ok",
+      "detail": "role ADMIN, 164 post(s) live",
       "done": 96,
       "total": 96,
       "posts": [
@@ -1171,8 +1171,8 @@
       "name": "fluttercook.blogspot.com",
       "url": "https://fluttercook.blogspot.com/",
       "priority": 2,
-      "access": "not-probed",
-      "detail": "--offline",
+      "access": "author-cannot-create",
+      "detail": "role AUTHOR, 14 post(s) live — needs Admin to create new posts",
       "done": 8,
       "total": 96,
       "posts": [
@@ -1185,7 +1185,7 @@
           "publishDate": "2021-08-23",
           "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/blog/creating-a-custom-progress-indicator/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1197,7 +1197,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1209,7 +1209,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1221,7 +1221,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1233,7 +1233,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1245,7 +1245,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1257,7 +1257,7 @@
           "publishDate": "2026-08-21",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-introduction-2026/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1269,7 +1269,7 @@
           "publishDate": "2026-08-21",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1281,7 +1281,7 @@
           "publishDate": "2026-08-21",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1293,7 +1293,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/agent-memory-files-vectors-context/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1305,7 +1305,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-code-review-that-gets-read/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1317,7 +1317,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/ai-feature-unit-economics/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1329,7 +1329,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/context-engineering-what-fits-in-the-window/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1341,7 +1341,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/finetune-vs-rag-vs-prompt/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1353,7 +1353,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-animation-implicit-explicit-physics/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1365,7 +1365,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-custom-renderobject/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1377,7 +1377,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-impeller-jank-profiling/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1389,7 +1389,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-isolates-off-main-thread/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1401,7 +1401,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-offline-first-drift-sync/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1413,7 +1413,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-performance-budget-16ms/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1425,7 +1425,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1437,7 +1437,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-state-management-decision-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1449,7 +1449,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-testing-widget-golden-integration/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1461,7 +1461,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-web-wasm-2026/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1473,7 +1473,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/local-llms-when-they-beat-the-api/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1485,7 +1485,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/prompt-caching-in-practice/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1497,7 +1497,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/rag-evaluation-before-you-ship/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1509,7 +1509,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/shipping-an-llm-feature-evals-guardrails/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1521,7 +1521,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/structured-output-json-schema-tool-calling/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1533,7 +1533,7 @@
           "publishDate": "2021-08-23",
           "canonicalHost": "trunghieu-it.blogspot.com",
           "siteUrl": "https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1545,7 +1545,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1557,7 +1557,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1569,7 +1569,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1581,7 +1581,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1593,7 +1593,7 @@
           "publishDate": "2026-08-20",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1605,7 +1605,7 @@
           "publishDate": "2026-08-21",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-introduction-2026/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1617,7 +1617,7 @@
           "publishDate": "2026-08-21",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1629,7 +1629,7 @@
           "publishDate": "2026-08-21",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1641,7 +1641,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1653,7 +1653,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-code-review-that-gets-read/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1665,7 +1665,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-feature-unit-economics/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1677,7 +1677,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/context-engineering-what-fits-in-the-window/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1689,7 +1689,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/finetune-vs-rag-vs-prompt/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1701,7 +1701,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-animation-implicit-explicit-physics/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1713,7 +1713,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-custom-renderobject/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1725,7 +1725,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-impeller-jank-profiling/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1737,7 +1737,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-isolates-off-main-thread/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1749,7 +1749,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1761,7 +1761,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1773,7 +1773,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1785,7 +1785,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1797,7 +1797,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1809,7 +1809,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1821,7 +1821,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/local-llms-when-they-beat-the-api/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1833,7 +1833,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/prompt-caching-in-practice/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1845,7 +1845,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1857,7 +1857,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1869,7 +1869,7 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1977,7 +1977,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/dart-3-13-primary-constructors-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -1989,7 +1989,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2001,7 +2001,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-ai-agent-skills-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2013,7 +2013,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-gpu-3d-rendering-flutter-scene/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2025,7 +2025,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-impeller-desktop-default-renderer/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2037,7 +2037,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-material-ui-cupertino-ui-migration-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2049,7 +2049,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-multi-window-desktop-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2061,7 +2061,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-swift-package-manager-migration/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2073,7 +2073,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-uiscene-migration-ios-15-minimum/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2085,7 +2085,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-webassembly-wasm-deferred-loading/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2097,7 +2097,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/news/flutter-widget-previews-stable-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2109,7 +2109,7 @@
           "publishDate": "2026-07-07",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2121,7 +2121,7 @@
           "publishDate": "2026-07-08",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-2026-roadmap-webassembly-platform-parity/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2133,7 +2133,7 @@
           "publishDate": "2026-07-09",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/macos-26-tahoe-liquid-glass-last-intel-mac/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2145,7 +2145,7 @@
           "publishDate": "2026-07-10",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-18-pro-foldable-iphone-fall-2026-preview/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2157,7 +2157,7 @@
           "publishDate": "2026-07-12",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/iphone-17-pro-review-a19-pro-cameras-aluminum/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2169,7 +2169,7 @@
           "publishDate": "2026-07-14",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-44-ios-26-macos-support-web-hot-reload/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2181,7 +2181,7 @@
           "publishDate": "2026-07-15",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/android-17-bubbles-gemini-intelligence-foldables/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2193,7 +2193,7 @@
           "publishDate": "2026-07-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2205,7 +2205,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/dart-3-13-primary-constructors-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2217,7 +2217,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2229,7 +2229,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-ai-agent-skills-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2241,7 +2241,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-gpu-3d-rendering-flutter-scene/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2253,7 +2253,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-impeller-desktop-default-renderer/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2265,7 +2265,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-material-ui-cupertino-ui-migration-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2277,7 +2277,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-multi-window-desktop-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2289,7 +2289,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-swift-package-manager-migration/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2301,7 +2301,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-uiscene-migration-ios-15-minimum/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2313,7 +2313,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-webassembly-wasm-deferred-loading/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         },
         {
@@ -2325,7 +2325,7 @@
           "publishDate": "2026-08-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/news/flutter-widget-previews-stable-guide/",
-          "status": "PENDING",
+          "status": "BLOCKED",
           "blogUrl": ""
         }
       ]
@@ -2335,8 +2335,8 @@
       "name": "flutter9.blogspot.com",
       "url": "https://flutter9.blogspot.com/",
       "priority": 3,
-      "access": "not-probed",
-      "detail": "--offline",
+      "access": "ok",
+      "detail": "role ADMIN, 206 post(s) live",
       "done": 96,
       "total": 96,
       "posts": [
