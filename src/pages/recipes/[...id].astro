@@ -3,6 +3,7 @@ import BaseLayout from '../../layouts/BaseLayout.astro';
 import Toc from '../../components/Toc.astro';
 import Summary from '../../components/Summary.astro';
 import { getCollection, render } from 'astro:content';
+import { HANDWRITTEN_RECIPES } from '../../data/handwritten-recipes.mjs';
 
 export async function getStaticPaths() {
   const recipes = await getCollection('recipes');
@@ -11,6 +12,7 @@ export async function getStaticPaths() {
 const { entry } = Astro.props;
 const { Content, headings } = await render(entry);
 const d = entry.data;
+const handwritten = HANDWRITTEN_RECIPES.has(entry.id);
 const site = 'https://fluttercook.github.io';
 const url = `${site}/recipes/${entry.id}/`;
 const metaDesc = d.seoDescription || d.description;
@@ -61,16 +63,16 @@ const jsonLd = [article, breadcrumb, faqLd].filter(Boolean);
   description={metaDesc}
   keywords={d.keywords}
   ogType="article"
-  {/* Generated from GitHub + pub.dev metadata, so this page is deliberately
-      kept out of both ad serving and the search index. Google Publisher
+  {/* Most recipes are generated from GitHub + pub.dev metadata, so they are
+      kept out of both ad serving and the search index: Google Publisher
       Policies forbid monetising pages built from someone else's content
       without added value, and "low value content" is the most common AdSense
       rejection for templated pages. `follow` still passes link equity to the
-      repos and to our own hand-written pages. To put them back: delete these
-      two props from both recipe routes (en + vi) and drop the `filter` in
-      astro.config.mjs. */}
-  ads={false}
-  robots="noindex, follow"
+      repos and to our own hand-written pages. The slugs in
+      src/data/handwritten-recipes.mjs are original reviews, so they opt back
+      in to indexing and ads — see that file before adding one. */}
+  ads={handwritten}
+  robots={handwritten ? 'index, follow, max-image-preview:large' : 'noindex, follow'}
   datePublished={d.datePublished}
   dateModified={d.dateModified}
   jsonLd={jsonLd}

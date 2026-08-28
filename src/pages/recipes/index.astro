@@ -7,7 +7,7 @@ const all = (await getCollection('recipes'))
 const cats = [...new Set(all.map(r => r.data.category))].sort();
 const PAGE = 48;
 ---
-<BaseLayout title="All recipes — FlutterCook" description="Browse all 500 FlutterCook recipes: the best open-source Flutter libraries, packages and components, ranked by GitHub trend data.">
+<BaseLayout title="All recipes — FlutterCook" description="Browse all 510 FlutterCook recipes: the best open-source Flutter libraries, packages and components, ranked by GitHub trend data.">
   <main class="wrap">
     <section class="hero" style="padding:5vh 0 1vh">
       <div class="kicker">The catalog</div>
