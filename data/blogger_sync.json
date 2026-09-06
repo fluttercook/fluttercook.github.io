@@ -865,6 +865,258 @@
           "title": "tapflow: stream simulator tự host cho cả nhóm",
           "status": "LIVE",
           "published": "2026-09-06T23:40:46+07:00"
+        },
+        "blog/en/ai-agent-tool-design": {
+          "postId": "4392959511312124033",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/designing-tools-ai-agent-can-actually.html",
+          "title": "Designing tools an AI agent can actually use",
+          "status": "LIVE",
+          "published": "2026-09-07T01:30:48+07:00"
+        },
+        "blog/en/ai-chunking-strategies-that-matter": {
+          "postId": "5807717571541789638",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/chunking-for-retrieval-decision-that.html",
+          "title": "Chunking for retrieval: the decision that quietly caps your RAG quality",
+          "status": "LIVE",
+          "published": "2026-09-07T01:30:55+07:00"
+        },
+        "blog/en/ai-embeddings-choosing-a-model": {
+          "postId": "2545136820389091503",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/choosing-embedding-model-questions-that.html",
+          "title": "Choosing an embedding model: the questions that actually matter",
+          "status": "LIVE",
+          "published": "2026-09-07T01:31:02+07:00"
+        },
+        "blog/en/ai-guardrails-prompt-injection-defense": {
+          "postId": "6458254187246890905",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/prompt-injection-what-actually-defends.html",
+          "title": "Prompt injection: what actually defends against it",
+          "status": "LIVE",
+          "published": "2026-09-07T01:32:11+07:00"
+        },
+        "blog/en/ai-model-routing-cascades": {
+          "postId": "553072488135857060",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/model-routing-and-cascades-paying-for.html",
+          "title": "Model routing and cascades: paying for the intelligence you need",
+          "status": "LIVE",
+          "published": "2026-09-07T01:32:18+07:00"
+        },
+        "blog/en/ai-multimodal-vision-in-production": {
+          "postId": "1196995861873713441",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/vision-models-in-production-parts-demo.html",
+          "title": "Vision models in production: the parts the demo skips",
+          "status": "LIVE",
+          "published": "2026-09-07T01:33:27+07:00"
+        },
+        "blog/en/ai-observability-tracing-llm-apps": {
+          "postId": "1199724418834983203",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/observability-for-llm-apps-tracing-non.html",
+          "title": "Observability for LLM apps: tracing a non-deterministic system",
+          "status": "LIVE",
+          "published": "2026-09-07T01:33:33+07:00"
+        },
+        "blog/en/ai-on-device-flutter-gemma": {
+          "postId": "6816838892887372635",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/on-device-ai-in-flutter-what-fits-on.html",
+          "title": "On-device AI in Flutter: what fits on a phone",
+          "status": "LIVE",
+          "published": "2026-09-07T01:33:40+07:00"
+        },
+        "blog/en/ai-streaming-ux-token-by-token": {
+          "postId": "6477544418233079612",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/streaming-ux-designing-for-tokens.html",
+          "title": "Streaming UX: designing for tokens arriving one at a time",
+          "status": "LIVE",
+          "published": "2026-09-07T01:34:07+07:00"
+        },
+        "blog/en/ai-synthetic-data-for-evals": {
+          "postId": "8936469062193444647",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/synthetic-data-for-evals-building-test.html",
+          "title": "Synthetic data for evals: building a test set you can trust",
+          "status": "LIVE",
+          "published": "2026-09-07T01:34:12+07:00"
+        },
+        "blog/en/dart-build-runner-codegen": {
+          "postId": "6724414667265893612",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/code-generation-in-dart-buildrunner.html",
+          "title": "Code generation in Dart: build_runner without the frustration",
+          "status": "LIVE",
+          "published": "2026-09-07T01:35:22+07:00"
+        },
+        "blog/en/dart-custom-lints-analyzer": {
+          "postId": "2022605417302028713",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/writing-custom-lint-for-your-dart.html",
+          "title": "Writing a custom lint for your Dart codebase",
+          "status": "LIVE",
+          "published": "2026-09-07T01:35:28+07:00"
+        },
+        "blog/en/dart-extension-types-zero-cost": {
+          "postId": "2198918996256151128",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/extension-types-in-dart-new-name-for.html",
+          "title": "Extension types in Dart: a new name for an old value",
+          "status": "LIVE",
+          "published": "2026-09-07T01:35:34+07:00"
+        },
+        "blog/en/dart-records-and-patterns": {
+          "postId": "5195773081984420401",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/records-and-patterns-in-dart-what-they.html",
+          "title": "Records and patterns in Dart: what they replace",
+          "status": "LIVE",
+          "published": "2026-09-07T01:36:02+07:00"
+        },
+        "blog/en/dart-streams-in-depth": {
+          "postId": "7017770238246715914",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dart-streams-in-depth-backpressure.html",
+          "title": "Dart streams in depth: backpressure, broadcast, and the leaks in between",
+          "status": "LIVE",
+          "published": "2026-09-07T01:36:08+07:00"
+        },
+        "blog/en/flutter-accessibility-semantics": {
+          "postId": "7141105453344164338",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-accessibility-what-semantics.html",
+          "title": "Flutter accessibility: what the semantics tree actually reports",
+          "status": "LIVE",
+          "published": "2026-09-07T01:37:18+07:00"
+        },
+        "blog/en/flutter-app-size-reduction": {
+          "postId": "7526348086344602920",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/shrinking-flutter-app-where-megabytes.html",
+          "title": "Shrinking a Flutter app: where the megabytes actually are",
+          "status": "LIVE",
+          "published": "2026-09-07T01:37:24+07:00"
+        },
+        "blog/en/flutter-background-tasks-workmanager": {
+          "postId": "6282645313296754594",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/background-work-in-flutter-what-os-will.html",
+          "title": "Background work in Flutter: what the OS will actually let you run",
+          "status": "LIVE",
+          "published": "2026-09-07T01:37:51+07:00"
+        },
+        "blog/en/flutter-build-context-explained": {
+          "postId": "4216282679053670160",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/buildcontext-is-element-reading-error.html",
+          "title": "BuildContext is an element: reading the error messages that mention it",
+          "status": "LIVE",
+          "published": "2026-09-07T01:37:56+07:00"
+        },
+        "blog/en/flutter-ci-cd-github-actions": {
+          "postId": "1590889543290637048",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-flutter-ci-pipeline-that-catches-real.html",
+          "title": "A Flutter CI pipeline that catches real problems",
+          "status": "LIVE",
+          "published": "2026-09-07T01:38:02+07:00"
+        },
+        "blog/en/flutter-custom-scroll-physics": {
+          "postId": "2395895547827386483",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/custom-scroll-physics-making-list-stop.html",
+          "title": "Custom scroll physics: making a list stop where you want it to",
+          "status": "LIVE",
+          "published": "2026-09-07T01:39:12+07:00"
+        },
+        "blog/en/flutter-dependency-injection-get-it": {
+          "postId": "2431072391804563472",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dependency-injection-in-flutter-without.html",
+          "title": "Dependency injection in Flutter without the ceremony",
+          "status": "LIVE",
+          "published": "2026-09-07T01:39:17+07:00"
+        },
+        "blog/en/flutter-desktop-window-management": {
+          "postId": "727313495467097680",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-on-desktop-window-is-part-of.html",
+          "title": "Flutter on desktop: the window is part of your app now",
+          "status": "LIVE",
+          "published": "2026-09-07T01:41:48+07:00"
+        },
+        "blog/en/flutter-error-handling-crash-reporting": {
+          "postId": "2777709452586984527",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-error-handling-catching-what.html",
+          "title": "Flutter error handling: catching what actually reaches users",
+          "status": "LIVE",
+          "published": "2026-09-07T01:41:55+07:00"
+        },
+        "blog/en/flutter-flavors-build-config": {
+          "postId": "1670860503982159771",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-flavors-one-codebase-three-apps.html",
+          "title": "Flutter flavors: one codebase, three apps, zero copy-pasted config",
+          "status": "LIVE",
+          "published": "2026-09-07T01:43:04+07:00"
+        },
+        "blog/en/flutter-forms-validation-at-scale": {
+          "postId": "5199917159317396562",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-forms-past-toy-example-async.html",
+          "title": "Flutter forms past the toy example: async validation, focus, and autofill",
+          "status": "LIVE",
+          "published": "2026-09-07T01:43:10+07:00"
+        },
+        "blog/en/flutter-gestures-hit-testing": {
+          "postId": "3716280450788230396",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/why-your-tap-doesnt-register-hit.html",
+          "title": "Why your tap doesn't register: hit testing and the gesture arena",
+          "status": "LIVE",
+          "published": "2026-09-07T01:43:16+07:00"
+        },
+        "blog/en/flutter-image-caching-precache": {
+          "postId": "3785543969150548012",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/the-flutter-image-pipeline-from-url-to.html",
+          "title": "The Flutter image pipeline: from a URL to pixels on screen",
+          "status": "LIVE",
+          "published": "2026-09-07T01:44:24+07:00"
+        },
+        "blog/en/flutter-in-app-purchases": {
+          "postId": "4100671445157556175",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/in-app-purchases-in-flutter-parts-that.html",
+          "title": "In-app purchases in Flutter: the parts that are not about the button",
+          "status": "LIVE",
+          "published": "2026-09-07T01:44:29+07:00"
+        },
+        "blog/en/flutter-keys-when-they-matter": {
+          "postId": "3184900652788271446",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/keys-in-flutter-one-rule-that-explains.html",
+          "title": "Keys in Flutter: the one rule that explains every case",
+          "status": "LIVE",
+          "published": "2026-09-07T01:44:36+07:00"
+        },
+        "blog/en/flutter-lists-performance-builder": {
+          "postId": "9156340429253859079",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/why-your-listview-is-slow-and-four.html",
+          "title": "Why your ListView is slow, and the four fixes that actually work",
+          "status": "LIVE",
+          "published": "2026-09-07T01:45:04+07:00"
+        },
+        "blog/en/flutter-localization-intl-arb": {
+          "postId": "8810074203337516800",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-localization-with-arb-files.html",
+          "title": "Flutter localization with ARB files: plurals, genders, and the parts that bite",
+          "status": "LIVE",
+          "published": "2026-09-07T01:45:10+07:00"
+        },
+        "blog/en/flutter-memory-leaks-devtools": {
+          "postId": "8009756329133323945",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/finding-flutter-memory-leak-five.html",
+          "title": "Finding a Flutter memory leak: the five objects that never get disposed",
+          "status": "LIVE",
+          "published": "2026-09-07T01:46:19+07:00"
+        },
+        "blog/en/flutter-navigation-go-router-deep-links": {
+          "postId": "6973070181792680293",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/gorouter-and-deep-links-parts.html",
+          "title": "go_router and deep links: the parts the quickstart leaves out",
+          "status": "LIVE",
+          "published": "2026-09-07T01:46:25+07:00"
+        },
+        "blog/en/flutter-push-notifications-fcm": {
+          "postId": "4617195482965392635",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/push-notifications-in-flutter-four.html",
+          "title": "Push notifications in Flutter: the four states your app can be in",
+          "status": "LIVE",
+          "published": "2026-09-07T01:46:31+07:00"
+        },
+        "blog/en/flutter-secure-storage-secrets": {
+          "postId": "8598501849429113142",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/secrets-in-flutter-app-what-you-can.html",
+          "title": "Secrets in a Flutter app: what you can store, and what you cannot",
+          "status": "LIVE",
+          "published": "2026-09-07T01:46:59+07:00"
         }
       },
       "pages": {
@@ -1559,6 +1811,321 @@
           "title": "Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026",
           "status": "LIVE",
           "published": "2026-08-22T20:45:02-07:00"
+        },
+        "blog/en/ai-agent-tool-design": {
+          "postId": "669930551850352051",
+          "url": "https://flutter9.blogspot.com/2026/09/designing-tools-ai-agent-can-actually.html",
+          "title": "Designing tools an AI agent can actually use",
+          "status": "LIVE",
+          "published": "2026-09-06T11:30:51-07:00"
+        },
+        "blog/en/ai-chunking-strategies-that-matter": {
+          "postId": "214305421882866872",
+          "url": "https://flutter9.blogspot.com/2026/09/chunking-for-retrieval-decision-that.html",
+          "title": "Chunking for retrieval: the decision that quietly caps your RAG quality",
+          "status": "LIVE",
+          "published": "2026-09-06T11:30:57-07:00"
+        },
+        "blog/en/ai-embeddings-choosing-a-model": {
+          "postId": "5132448271690475170",
+          "url": "https://flutter9.blogspot.com/2026/09/choosing-embedding-model-questions-that.html",
+          "title": "Choosing an embedding model: the questions that actually matter",
+          "status": "LIVE",
+          "published": "2026-09-06T11:32:06-07:00"
+        },
+        "blog/en/ai-guardrails-prompt-injection-defense": {
+          "postId": "5530292887804268887",
+          "url": "https://flutter9.blogspot.com/2026/09/prompt-injection-what-actually-defends.html",
+          "title": "Prompt injection: what actually defends against it",
+          "status": "LIVE",
+          "published": "2026-09-06T11:32:13-07:00"
+        },
+        "blog/en/ai-model-routing-cascades": {
+          "postId": "6350868138125835291",
+          "url": "https://flutter9.blogspot.com/2026/09/model-routing-and-cascades-paying-for.html",
+          "title": "Model routing and cascades: paying for the intelligence you need",
+          "status": "LIVE",
+          "published": "2026-09-06T11:32:19-07:00"
+        },
+        "blog/en/ai-multimodal-vision-in-production": {
+          "postId": "7706637145659011350",
+          "url": "https://flutter9.blogspot.com/2026/09/vision-models-in-production-parts-demo.html",
+          "title": "Vision models in production: the parts the demo skips",
+          "status": "LIVE",
+          "published": "2026-09-06T11:33:29-07:00"
+        },
+        "blog/en/ai-observability-tracing-llm-apps": {
+          "postId": "1558722054414629574",
+          "url": "https://flutter9.blogspot.com/2026/09/observability-for-llm-apps-tracing-non.html",
+          "title": "Observability for LLM apps: tracing a non-deterministic system",
+          "status": "LIVE",
+          "published": "2026-09-06T11:33:35-07:00"
+        },
+        "blog/en/ai-on-device-flutter-gemma": {
+          "postId": "2729365504769029402",
+          "url": "https://flutter9.blogspot.com/2026/09/on-device-ai-in-flutter-what-fits-on.html",
+          "title": "On-device AI in Flutter: what fits on a phone",
+          "status": "LIVE",
+          "published": "2026-09-06T11:34:03-07:00"
+        },
+        "blog/en/ai-streaming-ux-token-by-token": {
+          "postId": "7803591187418373172",
+          "url": "https://flutter9.blogspot.com/2026/09/streaming-ux-designing-for-tokens.html",
+          "title": "Streaming UX: designing for tokens arriving one at a time",
+          "status": "LIVE",
+          "published": "2026-09-06T11:34:09-07:00"
+        },
+        "blog/en/ai-synthetic-data-for-evals": {
+          "postId": "2544745495334491119",
+          "url": "https://flutter9.blogspot.com/2026/09/synthetic-data-for-evals-building-test.html",
+          "title": "Synthetic data for evals: building a test set you can trust",
+          "status": "LIVE",
+          "published": "2026-09-06T11:34:15-07:00"
+        },
+        "blog/en/dart-build-runner-codegen": {
+          "postId": "7738757563488354359",
+          "url": "https://flutter9.blogspot.com/2026/09/code-generation-in-dart-buildrunner.html",
+          "title": "Code generation in Dart: build_runner without the frustration",
+          "status": "LIVE",
+          "published": "2026-09-06T11:35:23-07:00"
+        },
+        "blog/en/dart-custom-lints-analyzer": {
+          "postId": "6389286264562323322",
+          "url": "https://flutter9.blogspot.com/2026/09/writing-custom-lint-for-your-dart.html",
+          "title": "Writing a custom lint for your Dart codebase",
+          "status": "LIVE",
+          "published": "2026-09-06T11:35:29-07:00"
+        },
+        "blog/en/dart-extension-types-zero-cost": {
+          "postId": "134689712492794046",
+          "url": "https://flutter9.blogspot.com/2026/09/extension-types-in-dart-new-name-for.html",
+          "title": "Extension types in Dart: a new name for an old value",
+          "status": "LIVE",
+          "published": "2026-09-06T11:35:57-07:00"
+        },
+        "blog/en/dart-records-and-patterns": {
+          "postId": "1105275911894529789",
+          "url": "https://flutter9.blogspot.com/2026/09/records-and-patterns-in-dart-what-they.html",
+          "title": "Records and patterns in Dart: what they replace",
+          "status": "LIVE",
+          "published": "2026-09-06T11:36:03-07:00"
+        },
+        "blog/en/dart-streams-in-depth": {
+          "postId": "2433436740029445854",
+          "url": "https://flutter9.blogspot.com/2026/09/dart-streams-in-depth-backpressure.html",
+          "title": "Dart streams in depth: backpressure, broadcast, and the leaks in between",
+          "status": "LIVE",
+          "published": "2026-09-06T11:36:08-07:00"
+        },
+        "blog/en/flutter-accessibility-semantics": {
+          "postId": "4248045302193628740",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-accessibility-what-semantics.html",
+          "title": "Flutter accessibility: what the semantics tree actually reports",
+          "status": "LIVE",
+          "published": "2026-09-06T11:37:17-07:00"
+        },
+        "blog/en/flutter-app-size-reduction": {
+          "postId": "7500671597160465862",
+          "url": "https://flutter9.blogspot.com/2026/09/shrinking-flutter-app-where-megabytes.html",
+          "title": "Shrinking a Flutter app: where the megabytes actually are",
+          "status": "LIVE",
+          "published": "2026-09-06T11:37:23-07:00"
+        },
+        "blog/en/flutter-background-tasks-workmanager": {
+          "postId": "7306997898513935003",
+          "url": "https://flutter9.blogspot.com/2026/09/background-work-in-flutter-what-os-will.html",
+          "title": "Background work in Flutter: what the OS will actually let you run",
+          "status": "LIVE",
+          "published": "2026-09-06T11:37:29-07:00"
+        },
+        "blog/en/flutter-build-context-explained": {
+          "postId": "1587695897275036228",
+          "url": "https://flutter9.blogspot.com/2026/09/buildcontext-is-element-reading-error.html",
+          "title": "BuildContext is an element: reading the error messages that mention it",
+          "status": "LIVE",
+          "published": "2026-09-06T11:37:56-07:00"
+        },
+        "blog/en/flutter-ci-cd-github-actions": {
+          "postId": "3316175231545185247",
+          "url": "https://flutter9.blogspot.com/2026/09/a-flutter-ci-pipeline-that-catches-real.html",
+          "title": "A Flutter CI pipeline that catches real problems",
+          "status": "LIVE",
+          "published": "2026-09-06T11:38:02-07:00"
+        },
+        "blog/en/flutter-custom-scroll-physics": {
+          "postId": "2625461530654700003",
+          "url": "https://flutter9.blogspot.com/2026/09/custom-scroll-physics-making-list-stop.html",
+          "title": "Custom scroll physics: making a list stop where you want it to",
+          "status": "LIVE",
+          "published": "2026-09-06T11:39:12-07:00"
+        },
+        "blog/en/flutter-dependency-injection-get-it": {
+          "postId": "4187779887923452397",
+          "url": "https://flutter9.blogspot.com/2026/09/dependency-injection-in-flutter-without.html",
+          "title": "Dependency injection in Flutter without the ceremony",
+          "status": "LIVE",
+          "published": "2026-09-06T11:39:17-07:00"
+        },
+        "blog/en/flutter-desktop-window-management": {
+          "postId": "258920184582335943",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-on-desktop-window-is-part-of.html",
+          "title": "Flutter on desktop: the window is part of your app now",
+          "status": "LIVE",
+          "published": "2026-09-06T11:39:23-07:00"
+        },
+        "blog/en/flutter-error-handling-crash-reporting": {
+          "postId": "5244168810083049777",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-error-handling-catching-what.html",
+          "title": "Flutter error handling: catching what actually reaches users",
+          "status": "LIVE",
+          "published": "2026-09-06T11:39:50-07:00"
+        },
+        "blog/en/flutter-flavors-build-config": {
+          "postId": "2062957201679426338",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-flavors-one-codebase-three-apps.html",
+          "title": "Flutter flavors: one codebase, three apps, zero copy-pasted config",
+          "status": "LIVE",
+          "published": "2026-09-06T11:39:57-07:00"
+        },
+        "blog/en/flutter-forms-validation-at-scale": {
+          "postId": "1941810768432745289",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-forms-past-toy-example-async.html",
+          "title": "Flutter forms past the toy example: async validation, focus, and autofill",
+          "status": "LIVE",
+          "published": "2026-09-06T11:40:03-07:00"
+        },
+        "blog/en/flutter-gestures-hit-testing": {
+          "postId": "5814096071006402736",
+          "url": "https://flutter9.blogspot.com/2026/09/why-your-tap-doesnt-register-hit.html",
+          "title": "Why your tap doesn't register: hit testing and the gesture arena",
+          "status": "LIVE",
+          "published": "2026-09-06T11:40:09-07:00"
+        },
+        "blog/en/flutter-image-caching-precache": {
+          "postId": "8382625113825930382",
+          "url": "https://flutter9.blogspot.com/2026/09/the-flutter-image-pipeline-from-url-to.html",
+          "title": "The Flutter image pipeline: from a URL to pixels on screen",
+          "status": "LIVE",
+          "published": "2026-09-06T11:40:15-07:00"
+        },
+        "blog/en/flutter-in-app-purchases": {
+          "postId": "4729990928977828841",
+          "url": "https://flutter9.blogspot.com/2026/09/in-app-purchases-in-flutter-parts-that.html",
+          "title": "In-app purchases in Flutter: the parts that are not about the button",
+          "status": "LIVE",
+          "published": "2026-09-06T11:41:24-07:00"
+        },
+        "blog/en/flutter-keys-when-they-matter": {
+          "postId": "3108950651417648419",
+          "url": "https://flutter9.blogspot.com/2026/09/keys-in-flutter-one-rule-that-explains.html",
+          "title": "Keys in Flutter: the one rule that explains every case",
+          "status": "LIVE",
+          "published": "2026-09-06T11:41:30-07:00"
+        },
+        "blog/en/flutter-lists-performance-builder": {
+          "postId": "480120650253027011",
+          "url": "https://flutter9.blogspot.com/2026/09/why-your-listview-is-slow-and-four.html",
+          "title": "Why your ListView is slow, and the four fixes that actually work",
+          "status": "LIVE",
+          "published": "2026-09-06T11:41:36-07:00"
+        },
+        "blog/en/flutter-localization-intl-arb": {
+          "postId": "2708671921307296190",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-localization-with-arb-files.html",
+          "title": "Flutter localization with ARB files: plurals, genders, and the parts that bite",
+          "status": "LIVE",
+          "published": "2026-09-06T11:41:42-07:00"
+        },
+        "blog/en/flutter-memory-leaks-devtools": {
+          "postId": "5059038940787038801",
+          "url": "https://flutter9.blogspot.com/2026/09/finding-flutter-memory-leak-five.html",
+          "title": "Finding a Flutter memory leak: the five objects that never get disposed",
+          "status": "LIVE",
+          "published": "2026-09-06T11:41:48-07:00"
+        },
+        "blog/en/flutter-navigation-go-router-deep-links": {
+          "postId": "539236668517904747",
+          "url": "https://flutter9.blogspot.com/2026/09/gorouter-and-deep-links-parts.html",
+          "title": "go_router and deep links: the parts the quickstart leaves out",
+          "status": "LIVE",
+          "published": "2026-09-06T11:41:54-07:00"
+        },
+        "blog/en/flutter-push-notifications-fcm": {
+          "postId": "7003905025224139770",
+          "url": "https://flutter9.blogspot.com/2026/09/push-notifications-in-flutter-four.html",
+          "title": "Push notifications in Flutter: the four states your app can be in",
+          "status": "LIVE",
+          "published": "2026-09-06T11:42:00-07:00"
+        },
+        "blog/en/flutter-secure-storage-secrets": {
+          "postId": "7239577480723867014",
+          "url": "https://flutter9.blogspot.com/2026/09/secrets-in-flutter-app-what-you-can.html",
+          "title": "Secrets in a Flutter app: what you can store, and what you cannot",
+          "status": "LIVE",
+          "published": "2026-09-06T11:43:09-07:00"
+        },
+        "blog/en/flutter-shaders-fragment-glsl": {
+          "postId": "4629946836224145958",
+          "url": "https://flutter9.blogspot.com/2026/09/fragment-shaders-in-flutter-gpu-escape.html",
+          "title": "Fragment shaders in Flutter: the GPU escape hatch, and its costs",
+          "status": "LIVE",
+          "published": "2026-09-06T11:43:15-07:00"
+        },
+        "blog/en/flutter-slivers-custom-scroll": {
+          "postId": "9056975371326557076",
+          "url": "https://flutter9.blogspot.com/2026/09/slivers-properly-protocol-behind-every.html",
+          "title": "Slivers, properly: the protocol behind every Flutter scroll effect",
+          "status": "LIVE",
+          "published": "2026-09-06T11:44:24-07:00"
+        },
+        "blog/en/flutter-startup-time-cold-start": {
+          "postId": "505627575072835575",
+          "url": "https://flutter9.blogspot.com/2026/09/flutter-cold-start-measuring-time.html",
+          "title": "Flutter cold start: measuring the time before your first frame",
+          "status": "LIVE",
+          "published": "2026-09-06T11:44:30-07:00"
+        },
+        "blog/en/flutter-theming-material3-design-tokens": {
+          "postId": "5470138275457739448",
+          "url": "https://flutter9.blogspot.com/2026/09/material-3-theming-in-flutter-colour.html",
+          "title": "Material 3 theming in Flutter: colour roles, not colour values",
+          "status": "LIVE",
+          "published": "2026-09-06T11:44:58-07:00"
+        },
+        "blog/vi/ai-agent-tool-design": {
+          "postId": "7801915813781030196",
+          "url": "https://flutter9.blogspot.com/2026/09/thiet-ke-cong-cu-ma-ai-agent-that-su.html",
+          "title": "Thiết kế công cụ mà AI agent thật sự dùng được",
+          "status": "LIVE",
+          "published": "2026-09-06T11:45:08-07:00"
+        },
+        "blog/vi/ai-chunking-strategies-that-matter": {
+          "postId": "4075921575433986804",
+          "url": "https://flutter9.blogspot.com/2026/09/chia-nho-tai-lieu-cho-truy-hoi-quyet.html",
+          "title": "Chia nhỏ tài liệu cho truy hồi: quyết định âm thầm chặn trần chất lượng RAG",
+          "status": "LIVE",
+          "published": "2026-09-06T11:45:13-07:00"
+        },
+        "blog/vi/ai-embeddings-choosing-a-model": {
+          "postId": "821013061487296641",
+          "url": "https://flutter9.blogspot.com/2026/09/chon-mo-hinh-embedding-nhung-cau-hoi.html",
+          "title": "Chọn mô hình embedding: những câu hỏi thật sự quan trọng",
+          "status": "LIVE",
+          "published": "2026-09-06T11:46:23-07:00"
+        },
+        "blog/vi/ai-guardrails-prompt-injection-defense": {
+          "postId": "8734085825360713122",
+          "url": "https://flutter9.blogspot.com/2026/09/prompt-injection-cai-gi-that-su-phong.html",
+          "title": "Prompt injection: cái gì thật sự phòng thủ được",
+          "status": "LIVE",
+          "published": "2026-09-06T11:46:29-07:00"
+        },
+        "blog/vi/ai-model-routing-cascades": {
+          "postId": "6941016991541374568",
+          "url": "https://flutter9.blogspot.com/2026/09/inh-tuyen-mo-hinh-va-thac-bac-chi-tra.html",
+          "title": "Định tuyến mô hình và thác bậc: chỉ trả tiền cho mức thông minh bạn cần",
+          "status": "LIVE",
+          "published": "2026-09-06T11:46:56-07:00"
         }
       }
     }
