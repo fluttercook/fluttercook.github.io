@@ -31,7 +31,7 @@ sources:
     url: "https://pub.dev/packages/injectable"
 related:
   - slug: "flutter-state-management-decision-guide"
-    title: "Choosing Flutter state management without the holy war"
+    title: "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it"
   - slug: "flutter-build-context-explained"
     title: "BuildContext is an element: reading the error messages that mention it"
 draft: false

@@ -33,7 +33,7 @@ related:
   - slug: "flutter-keys-when-they-matter"
     title: "Keys in Flutter: the one rule that explains every case"
   - slug: "flutter-state-management-decision-guide"
-    title: "Choosing Flutter state management without the holy war"
+    title: "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it"
 draft: false
 ---
 

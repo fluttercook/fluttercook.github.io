@@ -31,7 +31,7 @@ sources:
     url: "https://pub.dev/packages/injectable"
 related:
   - slug: "flutter-state-management-decision-guide"
-    title: "Chọn cách quản lý trạng thái Flutter mà không cần thánh chiến"
+    title: "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó"
   - slug: "flutter-build-context-explained"
     title: "BuildContext chính là element: đọc hiểu những thông báo lỗi có nhắc tới nó"
 draft: false

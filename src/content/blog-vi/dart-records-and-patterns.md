@@ -33,7 +33,7 @@ related:
   - slug: "dart-extension-types-zero-cost"
     title: "Extension type trong Dart: một cái tên mới cho giá trị cũ"
   - slug: "flutter-state-management-decision-guide"
-    title: "Chọn cách quản lý trạng thái Flutter mà không cần thánh chiến"
+    title: "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó"
 draft: false
 ---
 

@@ -33,7 +33,7 @@ related:
   - slug: "flutter-keys-when-they-matter"
     title: "Key trong Flutter: một quy tắc duy nhất giải thích mọi trường hợp"
   - slug: "flutter-state-management-decision-guide"
-    title: "Chọn cách quản lý trạng thái Flutter mà không cần thánh chiến"
+    title: "Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó"
 draft: false
 ---
 

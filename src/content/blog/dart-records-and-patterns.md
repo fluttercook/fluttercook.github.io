@@ -33,7 +33,7 @@ related:
   - slug: "dart-extension-types-zero-cost"
     title: "Extension types in Dart: a new name for an old value"
   - slug: "flutter-state-management-decision-guide"
-    title: "Choosing Flutter state management without the holy war"
+    title: "Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it"
 draft: false
 ---
 
