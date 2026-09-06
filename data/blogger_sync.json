@@ -725,6 +725,146 @@
           "title": "Đừng parse văn xuôi nữa: schema, tool calling và output type-check được",
           "status": "LIVE",
           "published": "2026-08-23T00:44:08+07:00"
+        },
+        "recipes/en/adaptive-platform-ui": {
+          "postId": "2388590907797027257",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/adaptiveplatformui-one-widget-tree.html",
+          "title": "adaptive_platform_ui: one widget tree, native iOS 26 and Material",
+          "status": "LIVE",
+          "published": "2026-09-06T23:37:09+07:00"
+        },
+        "recipes/en/dart-mcp": {
+          "postId": "1915931096756108561",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dart-langai-darts-official-mcp-packages.html",
+          "title": "dart-lang/ai: Dart's official MCP packages",
+          "status": "LIVE",
+          "published": "2026-09-06T23:37:17+07:00"
+        },
+        "recipes/en/denial": {
+          "postId": "1022855624414727791",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/denial-wayland-compositor-with-flutter.html",
+          "title": "Denial: a Wayland compositor with Flutter at the foundation",
+          "status": "LIVE",
+          "published": "2026-09-06T23:37:25+07:00"
+        },
+        "recipes/en/flutter-init": {
+          "postId": "6524426581379496022",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutterinit-scaffold-production-flutter.html",
+          "title": "FlutterInit: scaffold a production Flutter project from the browser",
+          "status": "LIVE",
+          "published": "2026-09-06T23:37:33+07:00"
+        },
+        "recipes/en/flutter-skill": {
+          "postId": "4975758242761733641",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-skill-let-ai-agent-drive-your.html",
+          "title": "flutter-skill: let an AI agent drive your running app",
+          "status": "LIVE",
+          "published": "2026-09-06T23:37:40+07:00"
+        },
+        "recipes/en/flutter-zero": {
+          "postId": "6185968706326015556",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-zero-flutter-with-dartui-taken.html",
+          "title": "Flutter Zero: Flutter with dart:ui taken out",
+          "status": "LIVE",
+          "published": "2026-09-06T23:38:09+07:00"
+        },
+        "recipes/en/maidkit": {
+          "postId": "6344362415260788659",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/maidkit-flutter-ssh-toolkit-for.html",
+          "title": "MaidKit: a Flutter SSH toolkit for managing servers",
+          "status": "LIVE",
+          "published": "2026-09-06T23:38:17+07:00"
+        },
+        "recipes/en/rejourney": {
+          "postId": "2505335977872635040",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rejourney-open-source-session-replay.html",
+          "title": "Rejourney: open-source session replay and crash reporting for Flutter",
+          "status": "LIVE",
+          "published": "2026-09-06T23:38:26+07:00"
+        },
+        "recipes/en/simvyn": {
+          "postId": "4433344765127929517",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/simvyn-one-dashboard-for-every.html",
+          "title": "simvyn: one dashboard for every simulator, emulator and device",
+          "status": "LIVE",
+          "published": "2026-09-06T23:38:34+07:00"
+        },
+        "recipes/en/tapflow": {
+          "postId": "4821828671931983134",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/tapflow-self-hosted-simulator-streaming.html",
+          "title": "tapflow: self-hosted simulator streaming for your whole team",
+          "status": "LIVE",
+          "published": "2026-09-06T23:38:42+07:00"
+        },
+        "recipes/vi/adaptive-platform-ui": {
+          "postId": "9194951842080057476",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/adaptiveplatformui-mot-cay-widget-ios.html",
+          "title": "adaptive_platform_ui: một cây widget, iOS 26 native và Material",
+          "status": "LIVE",
+          "published": "2026-09-06T23:39:14+07:00"
+        },
+        "recipes/vi/dart-mcp": {
+          "postId": "1540620964400055576",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dart-langai-bo-goi-mcp-chinh-thuc-cua.html",
+          "title": "dart-lang/ai: bộ gói MCP chính thức của Dart",
+          "status": "LIVE",
+          "published": "2026-09-06T23:39:22+07:00"
+        },
+        "recipes/vi/denial": {
+          "postId": "7767933469365804258",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/denial-trinh-quan-ly-cua-so-wayland-at.html",
+          "title": "Denial: trình quản lý cửa sổ Wayland đặt Flutter làm nền móng",
+          "status": "LIVE",
+          "published": "2026-09-06T23:39:30+07:00"
+        },
+        "recipes/vi/flutter-init": {
+          "postId": "7690879288602729740",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutterinit-dung-du-flutter-production.html",
+          "title": "FlutterInit: dựng dự án Flutter production ngay trên trình duyệt",
+          "status": "LIVE",
+          "published": "2026-09-06T23:39:38+07:00"
+        },
+        "recipes/vi/flutter-skill": {
+          "postId": "3653445055277309041",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-skill-cho-ai-agent-ieu-khien.html",
+          "title": "flutter-skill: cho AI agent điều khiển ứng dụng đang chạy",
+          "status": "LIVE",
+          "published": "2026-09-06T23:39:46+07:00"
+        },
+        "recipes/vi/flutter-zero": {
+          "postId": "5338821368855083998",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-zero-flutter-khi-bo-i-dartui.html",
+          "title": "Flutter Zero: Flutter khi bỏ đi dart:ui",
+          "status": "LIVE",
+          "published": "2026-09-06T23:40:15+07:00"
+        },
+        "recipes/vi/maidkit": {
+          "postId": "996961297863990207",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/maidkit-bo-cong-cu-ssh-viet-bang.html",
+          "title": "MaidKit: bộ công cụ SSH viết bằng Flutter để quản trị server",
+          "status": "LIVE",
+          "published": "2026-09-06T23:40:23+07:00"
+        },
+        "recipes/vi/rejourney": {
+          "postId": "5151898225956361007",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rejourney-session-replay-va-bao-cao.html",
+          "title": "Rejourney: session replay và báo cáo crash mã nguồn mở cho Flutter",
+          "status": "LIVE",
+          "published": "2026-09-06T23:40:31+07:00"
+        },
+        "recipes/vi/simvyn": {
+          "postId": "3869720677453376200",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/simvyn-mot-bang-ieu-khien-cho-moi.html",
+          "title": "simvyn: một bảng điều khiển cho mọi simulator, emulator và thiết bị",
+          "status": "LIVE",
+          "published": "2026-09-06T23:40:38+07:00"
+        },
+        "recipes/vi/tapflow": {
+          "postId": "7965019424968424070",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/tapflow-stream-simulator-tu-host-cho-ca.html",
+          "title": "tapflow: stream simulator tự host cho cả nhóm",
+          "status": "LIVE",
+          "published": "2026-09-06T23:40:46+07:00"
         }
       },
       "pages": {

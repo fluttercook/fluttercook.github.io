@@ -1,12 +1,12 @@
 # Blogger publish status
 
-_Generated 2026-08-29 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
+_Generated 2026-09-06 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
 
 **96 publishable articles** on the site (38 news, 58 blog).
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 96/96 | role ADMIN, 164 post(s) live |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 96/96 | role ADMIN, 184 post(s) live |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/96 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
 | [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 96/96 | role ADMIN, 206 post(s) live |
 
@@ -14,7 +14,7 @@ Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog bu
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **ok** (role ADMIN, 164 post(s) live) · 96/96 published.
+Blog id `8621533667729504576` · access **ok** (role ADMIN, 184 post(s) live) · 96/96 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
