@@ -1,0 +1,119 @@
+---
+import fs from 'node:fs';
+import BaseLayout from '../../../layouts/BaseLayout.astro';
+
+const gallery = fs.readFileSync(
+  new URL('../../../../tools/widget-preview/gallery.html', import.meta.url),
+  'utf8'
+);
+// Flip the gallery into Vietnamese chrome (search / copy labels).
+const galleryVi = gallery.replace('data-i18n="en"', 'data-i18n="vi"')
+  .replace('placeholder="Search widgets…"', 'placeholder="Tìm widget…"')
+  .replace('>Copy code</button>', '>Sao chép code</button>')
+  .replace('>Live preview</div>', '>Xem trước trực tiếp</div>');
+
+const site = 'https://fluttercook.github.io';
+const url = `${site}/vi/tools/widget-preview/`;
+const title = 'Xem trước Widget Flutter — demo Material + code Dart | FlutterCook';
+const description =
+  'Duyệt widget Material Flutter theo nhóm, xem trước trực tiếp có thể bấm được, tìm kiếm và sao chép snippet Dart. Nút, input, điều hướng, bề mặt, phản hồi — miễn phí trên trình duyệt.';
+
+const faqs = [
+  {
+    q: 'Đây có phải widget Flutter thật đang chạy trên trình duyệt không?',
+    a: 'Preview được dựng lại đúng phong cách Material 3 với tương tác thật (switch, chip, tab, chọn). Cột Dart bên phải là API production bạn paste vào app Flutter. Preview đầy đủ engine hãy dùng Widget Previewer chính thức trong IDE — trang này là lớp tra cứu và copy nhanh.',
+  },
+  {
+    q: 'Snippet Dart dùng thương mại được không?',
+    a: 'Được. Đây là API framework Flutter tiêu chuẩn (widget Material). Copy vào dự án nào cũng không cần ghi nguồn.',
+  },
+  {
+    q: 'Tìm widget nhanh bằng cách nào?',
+    a: 'Dùng ô search ở rail trái. Nó khớp tên widget, nhóm, mô tả và code. Trên mobile catalog thu gọn phía trên preview.',
+  },
+];
+
+const jsonLd = [
+  {
+    '@context': 'https://schema.org',
+    '@type': 'SoftwareApplication',
+    name: 'Flutter Widget Preview',
+    applicationCategory: 'DeveloperApplication',
+    operatingSystem: 'Any modern browser',
+    url,
+    description,
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD' },
+    publisher: { '@type': 'Organization', name: 'FlutterCook', url: site },
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: faqs.map((f) => ({
+      '@type': 'Question',
+      name: f.q,
+      acceptedAnswer: { '@type': 'Answer', text: f.a },
+    })),
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'FlutterCook', item: `${site}/` },
+      { '@type': 'ListItem', position: 2, name: 'Widget Preview', item: url },
+    ],
+  },
+];
+---
+<BaseLayout
+  lang="vi"
+  title={title}
+  description={description}
+  keywords={[
+    'flutter widget preview',
+    'demo material 3',
+    'ví dụ elevated button flutter',
+    'catalog widget flutter',
+    'copy code dart widget',
+  ]}
+  ogType="website"
+  jsonLd={jsonLd}
+>
+  <main class="wrap" style="padding:2vh 24px 6vh">
+    <nav class="crumb" aria-label="Breadcrumb">
+      <a href="/vi/">FlutterCook</a> / Công cụ / Widget Preview
+    </nav>
+    <header style="margin:12px 0 18px;max-width:720px">
+      <p class="wp-kicker" style="margin:0 0 6px">Công cụ miễn phí · Không cần đăng ký</p>
+      <h1 style="font-size:clamp(28px,4vw,42px);font-weight:400;line-height:1.1;margin:0 0 10px">
+        Xem trước <i style="font-style:italic;color:var(--accent)">widget Flutter</i>
+      </h1>
+      <p style="color:var(--muted);margin:0;font-size:16px">
+        Rail trái liệt kê widget Material theo nhóm. Giữa là preview trực tiếp bấm được.
+        Copy Dart phía dưới vào app. Search khớp tên, nhóm và code.
+      </p>
+    </header>
+
+    <Fragment set:html={galleryVi} />
+
+    <section class="prose" style="margin-top:36px;max-width:760px">
+      <h2>Cách dùng gallery này</h2>
+      <p>
+        Chọn widget từ list theo nhóm (Buttons, Inputs, Navigation, Surfaces, Layout, Feedback).
+        Bấm preview để cảm nhận thay đổi state, rồi nhấn <strong>Sao chép code</strong> và paste snippet vào dự án Flutter.
+        Search tức thì — thử <code>chip</code>, <code>dialog</code> hoặc <code>AppBar</code>.
+      </p>
+      <h2>Khi nào nên dùng previewer trong IDE</h2>
+      <p>
+        Với hàm <code>@Preview</code> trên widget của bạn, dùng Widget Previewer chính thức của Flutter
+        (stable từ 3.47). Trang này để duyệt pattern Material của framework mà không cần mở IDE.
+      </p>
+      <h2>Câu hỏi thường gặp</h2>
+      {faqs.map((f) => (
+        <Fragment>
+          <h3>{f.q}</h3>
+          <p>{f.a}</p>
+        </Fragment>
+      ))}
+    </section>
+  </main>
+</BaseLayout>

@@ -21,6 +21,7 @@ type Dict = Record<string, string>;
 export const ui: Record<Locale, Dict> = {
   en: {
     'nav.recipes': 'Recipes',
+    'nav.widgets': 'Widgets',
     'nav.blog': 'Blog',
     'nav.news': 'News',
     'nav.github': 'GitHub',
@@ -50,6 +51,7 @@ export const ui: Record<Locale, Dict> = {
   },
   vi: {
     'nav.recipes': 'Công thức',
+    'nav.widgets': 'Widget',
     'nav.blog': 'Blog',
     'nav.news': 'Tin tức',
     'nav.github': 'GitHub',
