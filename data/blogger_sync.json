@@ -2686,6 +2686,69 @@
           "title": "Định tuyến mô hình và thác bậc: chỉ trả tiền cho mức thông minh bạn cần",
           "status": "LIVE",
           "published": "2026-09-06T11:46:56-07:00"
+        },
+        "blog/en/flutter-agent-skills-mcp": {
+          "postId": "309807474979675914",
+          "url": "https://flutter9.blogspot.com/2026/09/dart-and-flutter-agent-skills-cheaper.html",
+          "title": "Dart and Flutter Agent Skills: cheaper, better agent workflows",
+          "status": "LIVE",
+          "published": "2026-09-10T02:33:52-07:00"
+        },
+        "blog/en/flutter-agentic-hot-reload": {
+          "postId": "7948886997799641857",
+          "url": "https://flutter9.blogspot.com/2026/09/agentic-hot-reload-when-your-coding.html",
+          "title": "Agentic Hot Reload: when your coding agent reloads the running app",
+          "status": "LIVE",
+          "published": "2026-09-10T02:33:58-07:00"
+        },
+        "blog/en/flutter-content-sized-views": {
+          "postId": "6423531680878340980",
+          "url": "https://flutter9.blogspot.com/2026/09/content-sized-flutter-views-in-native.html",
+          "title": "Content-sized Flutter views in native parents",
+          "status": "LIVE",
+          "published": "2026-09-10T02:34:03-07:00"
+        },
+        "blog/en/flutter-cupertino-menu-anchor": {
+          "postId": "4934891069151434388",
+          "url": "https://flutter9.blogspot.com/2026/09/cupertinomenuanchor-and-modern-flutter.html",
+          "title": "CupertinoMenuAnchor and modern Flutter menus",
+          "status": "LIVE",
+          "published": "2026-09-10T02:34:08-07:00"
+        },
+        "blog/en/flutter-desktop-flavors": {
+          "postId": "7811096091717532982",
+          "url": "https://flutter9.blogspot.com/2026/09/product-flavors-on-windows-and-linux-in.html",
+          "title": "Product flavors on Windows and Linux in Flutter 3.47",
+          "status": "LIVE",
+          "published": "2026-09-10T02:34:13-07:00"
+        },
+        "blog/en/flutter-firebase-ai-logic": {
+          "postId": "8289314273372326249",
+          "url": "https://flutter9.blogspot.com/2026/09/firebase-ai-logic-in-flutter-gemini.html",
+          "title": "Firebase AI Logic in Flutter: Gemini without a custom backend",
+          "status": "LIVE",
+          "published": "2026-09-10T02:35:22-07:00"
+        },
+        "blog/en/flutter-fragment-shader-api": {
+          "postId": "5556096991252968198",
+          "url": "https://flutter9.blogspot.com/2026/09/fragment-shaders-in-flutter-uniforms-by.html",
+          "title": "Fragment shaders in Flutter: uniforms by name and sync textures",
+          "status": "LIVE",
+          "published": "2026-09-10T02:35:27-07:00"
+        },
+        "blog/en/flutter-gemma-litert-ondevice": {
+          "postId": "1120280337515801677",
+          "url": "https://flutter9.blogspot.com/2026/09/on-device-gemma-in-flutter-fluttergemma.html",
+          "title": "On-device Gemma in Flutter: flutter_gemma and LiteRT-LM",
+          "status": "LIVE",
+          "published": "2026-09-10T02:35:32-07:00"
+        },
+        "blog/en/flutter-genkit-dart": {
+          "postId": "1435723912730450451",
+          "url": "https://flutter9.blogspot.com/2026/09/genkit-dart-full-stack-ai-apps-without.html",
+          "title": "Genkit Dart: full-stack AI apps without leaving Dart",
+          "status": "LIVE",
+          "published": "2026-09-10T02:35:37-07:00"
         }
       }
     }
