@@ -10,6 +10,7 @@ const gallery = fs.readFileSync(
 const galleryVi = gallery.replace('data-i18n="en"', 'data-i18n="vi"')
   .replace('placeholder="Search widgets…"', 'placeholder="Tìm widget…"')
   .replace('>Copy code</button>', '>Sao chép code</button>')
+  .replace('>Copy link</button>', '>Sao chép link</button>')
   .replace('>Live preview</div>', '>Xem trước trực tiếp</div>');
 
 const site = 'https://fluttercook.github.io';

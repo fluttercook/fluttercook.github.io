@@ -32,7 +32,10 @@
     <div class="wp-code-wrap">
       <div class="wp-code-bar">
         <span class="wp-stage-label">Dart</span>
-        <button type="button" id="wp-copy" class="wp-copy">Sao chép code</button>
+        <div class="wp-code-actions">
+          <button type="button" id="wp-copy-link" class="wp-copy ghost" title="Copy shareable link">Sao chép link</button>
+          <button type="button" id="wp-copy" class="wp-copy">Sao chép code</button>
+        </div>
       </div>
       <pre class="wp-code"><code id="wp-code"></code></pre>
     </div>
@@ -71,6 +74,9 @@
 .wp-code-bar{display:flex;justify-content:space-between;align-items:center;padding-right:10px}
 .wp-copy{background:var(--accent);color:#08201c;border:0;border-radius:100px;padding:6px 12px;font-size:12px;font-weight:700;cursor:pointer}
 .wp-copy:hover{filter:brightness(1.05)}
+.wp-copy.ghost{background:transparent;color:var(--muted);border:1px solid var(--line)}
+.wp-copy.ghost:hover{color:var(--accent);border-color:var(--accent);filter:none}
+.wp-code-actions{display:flex;gap:8px;align-items:center}
 .wp-code{margin:0;padding:12px 16px 16px;overflow:auto;background:var(--code)}
 .wp-code code{font-family:"SF Mono",ui-monospace,Menlo,monospace;font-size:12.5px;line-height:1.55;color:var(--prose);white-space:pre}
 .wp-hint{color:var(--muted);font-size:14px;padding:20px}
@@ -349,6 +355,7 @@
   const emptyEl = document.getElementById('wp-empty');
   const searchEl = document.getElementById('wp-search');
   const copyBtn = document.getElementById('wp-copy');
+  const copyLinkBtn = document.getElementById('wp-copy-link');
   let activeId = WIDGETS[0].id;
   let filter = '';
 
@@ -381,16 +388,50 @@
     return shown;
   }
 
-  function select(id){
+  function idFromUrl(){
+    try{
+      const u = new URL(window.location.href);
+      const w = (u.searchParams.get('w') || '').trim().toLowerCase();
+      if(w && WIDGETS.some(x=>x.id===w)) return w;
+      const hash = (u.hash || '').replace(/^#/, '').trim().toLowerCase();
+      if(hash && WIDGETS.some(x=>x.id===hash)) return hash;
+    }catch(e){}
+    return null;
+  }
+
+  function syncUrl(id){
+    try{
+      const url = new URL(window.location.href);
+      url.searchParams.set('w', id);
+      url.hash = '';
+      history.replaceState(null, '', url.toString());
+    }catch(e){}
+  }
+
+  function shareUrl(id){
+    try{
+      const url = new URL(window.location.href);
+      url.searchParams.set('w', id);
+      url.hash = '';
+      return url.toString();
+    }catch(e){
+      return window.location.href;
+    }
+  }
+
+  function select(id, opts){
+    const push = !opts || opts.push !== false;
     activeId=id;
     const w = WIDGETS.find(x=>x.id===id) || WIDGETS[0];
+    activeId=w.id;
     titleEl.textContent = w.label;
     descEl.textContent = w.desc;
     groupEl.textContent = w.group;
     stage.innerHTML='';
     stage.appendChild(w.render());
     codeEl.textContent = w.code;
-    nav.querySelectorAll('.wp-item').forEach(b=>b.classList.toggle('active', b.dataset.id===id));
+    nav.querySelectorAll('.wp-item').forEach(b=>b.classList.toggle('active', b.dataset.id===w.id));
+    if(push) syncUrl(w.id);
   }
 
   searchEl.addEventListener('input', ()=>{
@@ -417,15 +458,30 @@
     setTimeout(()=>{ copyBtn.textContent=prev; }, 1200);
   });
 
+  copyLinkBtn.addEventListener('click', async ()=>{
+    const link = shareUrl(activeId);
+    try{
+      await navigator.clipboard.writeText(link);
+    }catch(e){
+      const ta=document.createElement('textarea'); ta.value=link; document.body.appendChild(ta); ta.select(); document.execCommand('copy'); ta.remove();
+    }
+    const prev = copyLinkBtn.textContent;
+    copyLinkBtn.textContent='Copied';
+    setTimeout(()=>{ copyLinkBtn.textContent=prev; }, 1200);
+  });
+
   // VI labels if present
   if(document.getElementById('wp-app')?.dataset.i18n==='vi'){
     searchEl.placeholder='Tìm widget…';
     copyBtn.textContent='Sao chép code';
+    copyLinkBtn.textContent='Sao chép link';
     document.querySelector('.wp-stage-wrap .wp-stage-label').textContent='Xem trước trực tiếp';
   }
 
   renderNav();
-  select(activeId);
+  select(idFromUrl() || activeId, { push: !!idFromUrl() });
+  // Always normalize URL on first paint so a bare page is still shareable after first click.
+  if(!idFromUrl()) syncUrl(activeId);
 })();
 </script>
 
