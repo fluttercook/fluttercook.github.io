@@ -1117,6 +1117,566 @@
           "title": "Secrets in a Flutter app: what you can store, and what you cannot",
           "status": "LIVE",
           "published": "2026-09-07T01:46:59+07:00"
+        },
+        "blog/en/flutter-agent-skills-mcp": {
+          "postId": "1489167316473035984",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dart-and-flutter-agent-skills-cheaper.html",
+          "title": "Dart and Flutter Agent Skills: cheaper, better agent workflows",
+          "status": "LIVE",
+          "published": "2026-09-10T15:37:48+07:00"
+        },
+        "blog/en/flutter-agentic-hot-reload": {
+          "postId": "1553905969495141393",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/agentic-hot-reload-when-your-coding.html",
+          "title": "Agentic Hot Reload: when your coding agent reloads the running app",
+          "status": "LIVE",
+          "published": "2026-09-10T15:37:53+07:00"
+        },
+        "blog/en/flutter-content-sized-views": {
+          "postId": "2814985031273564852",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/content-sized-flutter-views-in-native.html",
+          "title": "Content-sized Flutter views in native parents",
+          "status": "LIVE",
+          "published": "2026-09-10T15:37:58+07:00"
+        },
+        "blog/en/flutter-cupertino-menu-anchor": {
+          "postId": "1228483977468817684",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/cupertinomenuanchor-and-modern-flutter.html",
+          "title": "CupertinoMenuAnchor and modern Flutter menus",
+          "status": "LIVE",
+          "published": "2026-09-10T15:38:04+07:00"
+        },
+        "blog/en/flutter-desktop-flavors": {
+          "postId": "4998124993673363065",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/product-flavors-on-windows-and-linux-in.html",
+          "title": "Product flavors on Windows and Linux in Flutter 3.47",
+          "status": "LIVE",
+          "published": "2026-09-10T15:38:26+07:00"
+        },
+        "blog/en/flutter-firebase-ai-logic": {
+          "postId": "2614152404394481482",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/firebase-ai-logic-in-flutter-gemini.html",
+          "title": "Firebase AI Logic in Flutter: Gemini without a custom backend",
+          "status": "LIVE",
+          "published": "2026-09-10T15:38:54+07:00"
+        },
+        "blog/en/flutter-fragment-shader-api": {
+          "postId": "1941223388732988715",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fragment-shaders-in-flutter-uniforms-by.html",
+          "title": "Fragment shaders in Flutter: uniforms by name and sync textures",
+          "status": "LIVE",
+          "published": "2026-09-10T15:38:59+07:00"
+        },
+        "blog/en/flutter-gemma-litert-ondevice": {
+          "postId": "3655881316005355295",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/on-device-gemma-in-flutter-fluttergemma.html",
+          "title": "On-device Gemma in Flutter: flutter_gemma and LiteRT-LM",
+          "status": "LIVE",
+          "published": "2026-09-10T15:39:06+07:00"
+        },
+        "blog/en/flutter-genkit-dart": {
+          "postId": "9002701302708530434",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/genkit-dart-full-stack-ai-apps-without.html",
+          "title": "Genkit Dart: full-stack AI apps without leaving Dart",
+          "status": "LIVE",
+          "published": "2026-09-10T15:39:12+07:00"
+        },
+        "blog/en/flutter-genui-a2ui": {
+          "postId": "7430296358928193632",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/genui-and-a2ui-agents-that-compose.html",
+          "title": "GenUI and A2UI: agents that compose widgets, not markdown",
+          "status": "LIVE",
+          "published": "2026-09-10T15:39:17+07:00"
+        },
+        "blog/en/flutter-hybrid-composition-plus-plus": {
+          "postId": "4071812481747883702",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/hybrid-composition-fixing-android.html",
+          "title": "Hybrid Composition++: fixing Android platform views without the jank",
+          "status": "LIVE",
+          "published": "2026-09-10T15:40:28+07:00"
+        },
+        "blog/en/flutter-impeller-default-desktop": {
+          "postId": "4551728145463175390",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/impeller-is-now-default-desktop.html",
+          "title": "Impeller is now the default desktop renderer — what actually changes",
+          "status": "LIVE",
+          "published": "2026-09-10T15:40:34+07:00"
+        },
+        "blog/en/flutter-multi-window-desktop": {
+          "postId": "5013143634948669980",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/desktop-multi-window-apis-popups.html",
+          "title": "Desktop multi-window APIs: popups, dialogs, and windowHandle",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:00+07:00"
+        },
+        "blog/en/flutter-platform-specific-assets": {
+          "postId": "8701812318313164635",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ship-only-assets-each-platform-needs.html",
+          "title": "Ship only the assets each platform needs",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:06+07:00"
+        },
+        "blog/en/flutter-public-release-windows": {
+          "postId": "2327019118351211736",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/public-release-windows-when-your.html",
+          "title": "Public release windows: when your Flutter PR ships to stable",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:12+07:00"
+        },
+        "blog/en/flutter-standalone-material-ui-cupertino-ui": {
+          "postId": "8199453059725999063",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/standalone-materialui-and-cupertinoui.html",
+          "title": "Standalone material_ui and cupertino_ui: what the 1.0 split changes",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:18+07:00"
+        },
+        "blog/en/flutter-swift-package-manager-default": {
+          "postId": "5675574137243038760",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/swift-package-manager-is-iosmacos.html",
+          "title": "Swift Package Manager is the iOS/macOS default — leave CocoaPods behind",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:24+07:00"
+        },
+        "blog/en/flutter-uiscene-ios-lifecycle": {
+          "postId": "8707333501785853593",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/uiscene-lifecycle-ios-27-launch.html",
+          "title": "UIScene lifecycle: the iOS 27 launch requirement Flutter apps must meet",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:51+07:00"
+        },
+        "blog/en/flutter-wasm-deferred-loading": {
+          "postId": "5774618318900871112",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-web-wasm-deferred-loading-for.html",
+          "title": "Flutter web Wasm: deferred loading for smaller first paint",
+          "status": "LIVE",
+          "published": "2026-09-10T15:41:58+07:00"
+        },
+        "blog/en/flutter-widget-previews-stable": {
+          "postId": "190910081947854648",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/widget-previews-are-stable-iterate-on.html",
+          "title": "Widget Previews are stable: iterate on UI without booting the whole app",
+          "status": "LIVE",
+          "published": "2026-09-10T15:42:04+07:00"
+        },
+        "blog/en/oss-aegis-authenticator": {
+          "postId": "2521662208965037490",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/what-secure-flutter-authenticator-must.html",
+          "title": "What a secure Flutter authenticator must get right",
+          "status": "LIVE",
+          "published": "2026-09-10T15:42:29+07:00"
+        },
+        "blog/en/oss-bloc-architecture": {
+          "postId": "2863983462043237449",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/bloc-boring-architecture-that-scales.html",
+          "title": "Bloc: the boring architecture that scales",
+          "status": "LIVE",
+          "published": "2026-09-10T15:42:36+07:00"
+        },
+        "blog/en/oss-cashew-budget": {
+          "postId": "165655977538956920",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/cashew-finance-ui-that-stays-local.html",
+          "title": "Cashew: finance UI that stays local",
+          "status": "LIVE",
+          "published": "2026-09-10T15:43:03+07:00"
+        },
+        "blog/en/oss-ente-photos": {
+          "postId": "4687568053339112600",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ente-end-to-end-encrypted-photos-in.html",
+          "title": "Ente: end-to-end encrypted photos in Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:43:10+07:00"
+        },
+        "blog/en/oss-flame-engine": {
+          "postId": "4391818392934050641",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flame-game-loops-inside-flutter.html",
+          "title": "Flame: game loops inside Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:43:16+07:00"
+        },
+        "blog/en/oss-fluffychat-architecture": {
+          "postId": "3416822170235791982",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fluffychat-matrix-chat-in-flutter-with.html",
+          "title": "FluffyChat: Matrix chat in Flutter with real E2EE",
+          "status": "LIVE",
+          "published": "2026-09-10T15:43:21+07:00"
+        },
+        "blog/en/oss-flutter-deer": {
+          "postId": "2422897500103871122",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-deer-production-shaped-practice.html",
+          "title": "Flutter Deer: a production-shaped practice project",
+          "status": "LIVE",
+          "published": "2026-09-10T15:43:27+07:00"
+        },
+        "blog/en/oss-forui": {
+          "postId": "3362502697420377964",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/forui-opinionated-flutter-ui-system.html",
+          "title": "Forui: an opinionated Flutter UI system",
+          "status": "LIVE",
+          "published": "2026-09-10T15:43:55+07:00"
+        },
+        "blog/en/oss-harmony-music": {
+          "postId": "9097979789021274723",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/harmony-music-offline-first-player.html",
+          "title": "Harmony Music: offline-first player patterns",
+          "status": "LIVE",
+          "published": "2026-09-10T15:44:20+07:00"
+        },
+        "blog/en/oss-hiddify-next": {
+          "postId": "4220193971691635770",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/hiddify-next-flutter-ui-over-tunnel-core.html",
+          "title": "Hiddify Next: Flutter UI over a tunnel core",
+          "status": "LIVE",
+          "published": "2026-09-10T15:44:27+07:00"
+        },
+        "blog/en/oss-immich-architecture": {
+          "postId": "3604004852158848662",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/immich-architecture-lessons-from-100k.html",
+          "title": "Immich: architecture lessons from a 100k-star Flutter photo stack",
+          "status": "LIVE",
+          "published": "2026-09-10T15:44:33+07:00"
+        },
+        "blog/en/oss-jaspr-dart-web": {
+          "postId": "787581547314947285",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/jaspr-server-driven-dart-for-web.html",
+          "title": "Jaspr: server-driven Dart for the web",
+          "status": "LIVE",
+          "published": "2026-09-10T15:44:39+07:00"
+        },
+        "blog/en/oss-localsend-architecture": {
+          "postId": "5772850638996649864",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/localsend-airdrop-style-transfer-with.html",
+          "title": "LocalSend: AirDrop-style transfer with zero cloud",
+          "status": "LIVE",
+          "published": "2026-09-10T15:45:07+07:00"
+        },
+        "blog/en/oss-lotti-journal": {
+          "postId": "7273207543145534521",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/lotti-journaling-with-audio-habits-and.html",
+          "title": "Lotti: journaling with audio, habits, and a serious local DB",
+          "status": "LIVE",
+          "published": "2026-09-10T15:45:13+07:00"
+        },
+        "blog/en/oss-rustdesk-flutter": {
+          "postId": "3976730841992194199",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rustdesk-rust-core-flutter-shell.html",
+          "title": "RustDesk: Rust core, Flutter shell",
+          "status": "LIVE",
+          "published": "2026-09-10T15:45:19+07:00"
+        },
+        "blog/en/oss-saber-notes": {
+          "postId": "8235930454429427580",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/saber-handwriting-notes-and-local-first.html",
+          "title": "Saber: handwriting notes and local-first files",
+          "status": "LIVE",
+          "published": "2026-09-10T15:45:25+07:00"
+        },
+        "blog/en/oss-serverpod": {
+          "postId": "5321559062588103481",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/serverpod-full-stack-dart-behind-flutter.html",
+          "title": "Serverpod: full-stack Dart behind Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:45:51+07:00"
+        },
+        "blog/en/oss-shadcn-flutter": {
+          "postId": "3494164970497484872",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/shadcn-flutter-porting-design-system.html",
+          "title": "shadcn-flutter: porting a design system, not a theme",
+          "status": "LIVE",
+          "published": "2026-09-10T15:45:57+07:00"
+        },
+        "blog/en/oss-spotube-architecture": {
+          "postId": "8369259434124450227",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/spotube-privacy-minded-flutter-music.html",
+          "title": "Spotube: a privacy-minded Flutter music client",
+          "status": "LIVE",
+          "published": "2026-09-10T15:46:03+07:00"
+        },
+        "blog/en/oss-venera-reader": {
+          "postId": "2777835929840234849",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/venera-custom-reader-layouts-in-flutter.html",
+          "title": "Venera: custom reader layouts in Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:46:49+07:00"
+        },
+        "blog/vi/flutter-agent-skills-mcp": {
+          "postId": "6110778141950406427",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/agent-skills-cho-dart-va-flutter.html",
+          "title": "Agent Skills cho Dart và Flutter: workflow agent rẻ và chuẩn hơn",
+          "status": "LIVE",
+          "published": "2026-09-10T15:47:10+07:00"
+        },
+        "blog/vi/flutter-agentic-hot-reload": {
+          "postId": "7549989937282920114",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/agentic-hot-reload-khi-coding-agent-tu.html",
+          "title": "Agentic Hot Reload: khi coding agent tự reload app đang chạy",
+          "status": "LIVE",
+          "published": "2026-09-10T15:47:15+07:00"
+        },
+        "blog/vi/flutter-content-sized-views": {
+          "postId": "379356306912834904",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-view-co-theo-noi-dung-trong.html",
+          "title": "Flutter view co theo nội dung trong native parent",
+          "status": "LIVE",
+          "published": "2026-09-10T15:47:20+07:00"
+        },
+        "blog/vi/flutter-cupertino-menu-anchor": {
+          "postId": "2178471343091762759",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/cupertinomenuanchor-va-menu-flutter.html",
+          "title": "CupertinoMenuAnchor và menu Flutter hiện đại",
+          "status": "LIVE",
+          "published": "2026-09-10T15:47:26+07:00"
+        },
+        "blog/vi/flutter-desktop-flavors": {
+          "postId": "5863843812973620022",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/product-flavor-tren-windows-va-linux.html",
+          "title": "Product flavor trên Windows và Linux trong Flutter 3.47",
+          "status": "LIVE",
+          "published": "2026-09-10T15:47:53+07:00"
+        },
+        "blog/vi/flutter-firebase-ai-logic": {
+          "postId": "473357753803615157",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/firebase-ai-logic-trong-flutter-gemini.html",
+          "title": "Firebase AI Logic trong Flutter: Gemini không cần backend riêng",
+          "status": "LIVE",
+          "published": "2026-09-10T15:47:59+07:00"
+        },
+        "blog/vi/flutter-fragment-shader-api": {
+          "postId": "4811803006177127576",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fragment-shader-trong-flutter-uniform.html",
+          "title": "Fragment shader trong Flutter: uniform theo tên và texture đồng bộ",
+          "status": "LIVE",
+          "published": "2026-09-10T15:48:08+07:00"
+        },
+        "blog/vi/flutter-gemma-litert-ondevice": {
+          "postId": "2633417528798655076",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/gemma-on-device-trong-flutter.html",
+          "title": "Gemma on-device trong Flutter: flutter_gemma và LiteRT-LM",
+          "status": "LIVE",
+          "published": "2026-09-10T15:48:14+07:00"
+        },
+        "blog/vi/flutter-genkit-dart": {
+          "postId": "7019589367849237915",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/genkit-dart-app-ai-full-stack-khong-roi.html",
+          "title": "Genkit Dart: app AI full-stack không rời Dart",
+          "status": "LIVE",
+          "published": "2026-09-10T15:48:35+07:00"
+        },
+        "blog/vi/flutter-genui-a2ui": {
+          "postId": "2088511856772313695",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/genui-va-a2ui-agent-ghep-widget-khong.html",
+          "title": "GenUI và A2UI: agent ghép widget, không chỉ markdown",
+          "status": "LIVE",
+          "published": "2026-09-10T15:49:03+07:00"
+        },
+        "blog/vi/flutter-hybrid-composition-plus-plus": {
+          "postId": "2322128405212673413",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/hybrid-composition-sua-platform-view.html",
+          "title": "Hybrid Composition++: sửa platform view Android hết jank",
+          "status": "LIVE",
+          "published": "2026-09-10T15:49:09+07:00"
+        },
+        "blog/vi/flutter-impeller-default-desktop": {
+          "postId": "8555357956814032354",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/impeller-thanh-renderer-desktop-mac-inh.html",
+          "title": "Impeller thành renderer desktop mặc định — thực sự đổi gì",
+          "status": "LIVE",
+          "published": "2026-09-10T15:49:15+07:00"
+        },
+        "blog/vi/flutter-multi-window-desktop": {
+          "postId": "5359975865883182930",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/api-multi-window-desktop-popup-dialog.html",
+          "title": "API multi-window desktop: popup, dialog và windowHandle",
+          "status": "LIVE",
+          "published": "2026-09-10T15:49:21+07:00"
+        },
+        "blog/vi/flutter-platform-specific-assets": {
+          "postId": "5143875306284858650",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/chi-ship-asset-ma-tung-nen-tang-can.html",
+          "title": "Chỉ ship asset mà từng nền tảng cần",
+          "status": "LIVE",
+          "published": "2026-09-10T15:49:27+07:00"
+        },
+        "blog/vi/flutter-public-release-windows": {
+          "postId": "3862306277605679742",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/public-release-windows-pr-flutter-cua.html",
+          "title": "Public release windows: PR Flutter của bạn lên stable khi nào",
+          "status": "LIVE",
+          "published": "2026-09-10T15:49:54+07:00"
+        },
+        "blog/vi/flutter-standalone-material-ui-cupertino-ui": {
+          "postId": "9105245867865186516",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/materialui-va-cupertinoui-oc-lap-thay.html",
+          "title": "material_ui và cupertino_ui độc lập: thay đổi gì ở bản 1.0",
+          "status": "LIVE",
+          "published": "2026-09-10T15:50:00+07:00"
+        },
+        "blog/vi/flutter-swift-package-manager-default": {
+          "postId": "8220525498058771837",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/swift-package-manager-la-mac-inh.html",
+          "title": "Swift Package Manager là mặc định iOS/macOS — rời CocoaPods",
+          "status": "LIVE",
+          "published": "2026-09-10T15:50:21+07:00"
+        },
+        "blog/vi/flutter-uiscene-ios-lifecycle": {
+          "postId": "4181833998411057212",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/uiscene-lifecycle-yeu-cau-khoi-ong-ios.html",
+          "title": "UIScene lifecycle: yêu cầu khởi động iOS 27 mà app Flutter phải đạt",
+          "status": "LIVE",
+          "published": "2026-09-10T15:50:27+07:00"
+        },
+        "blog/vi/flutter-wasm-deferred-loading": {
+          "postId": "4738440562242294295",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-web-wasm-deferred-loading-e.html",
+          "title": "Flutter web Wasm: deferred loading để first paint nhẹ hơn",
+          "status": "LIVE",
+          "published": "2026-09-10T15:50:33+07:00"
+        },
+        "blog/vi/flutter-widget-previews-stable": {
+          "postId": "2274340359983454790",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/widget-previews-stable-sua-ui-khong-can.html",
+          "title": "Widget Previews đã stable: sửa UI không cần chạy cả app",
+          "status": "LIVE",
+          "published": "2026-09-10T15:51:01+07:00"
+        },
+        "blog/vi/oss-aegis-authenticator": {
+          "postId": "8887382332914641408",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/app-authenticator-flutter-toan-can-ung.html",
+          "title": "App authenticator Flutter an toàn cần đúng gì",
+          "status": "LIVE",
+          "published": "2026-09-10T15:51:06+07:00"
+        },
+        "blog/vi/oss-bloc-architecture": {
+          "postId": "4315146992589505043",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/bloc-kien-truc-nham-chan-nhung-scale-uoc.html",
+          "title": "Bloc: kiến trúc nhàm chán nhưng scale được",
+          "status": "LIVE",
+          "published": "2026-09-10T15:51:12+07:00"
+        },
+        "blog/vi/oss-cashew-budget": {
+          "postId": "4619338714404437770",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/cashew-ui-tai-chinh-giu-du-lieu-local.html",
+          "title": "Cashew: UI tài chính giữ dữ liệu local",
+          "status": "LIVE",
+          "published": "2026-09-10T15:51:18+07:00"
+        },
+        "blog/vi/oss-ente-photos": {
+          "postId": "6414835138784579876",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ente-anh-ma-hoa-au-cuoi-tren-flutter.html",
+          "title": "Ente: ảnh mã hóa đầu-cuối trên Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:51:23+07:00"
+        },
+        "blog/vi/oss-flame-engine": {
+          "postId": "5906408917617069639",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flame-vong-lap-game-ben-trong-flutter.html",
+          "title": "Flame: vòng lặp game bên trong Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:52:06+07:00"
+        },
+        "blog/vi/oss-fluffychat-architecture": {
+          "postId": "3447505882725737424",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fluffychat-chat-matrix-tren-flutter-voi.html",
+          "title": "FluffyChat: chat Matrix trên Flutter với E2EE thật",
+          "status": "LIVE",
+          "published": "2026-09-10T15:52:12+07:00"
+        },
+        "blog/vi/oss-flutter-deer": {
+          "postId": "6206538221757310886",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-deer-du-luyen-tap-dang.html",
+          "title": "Flutter Deer: dự án luyện tập dáng production",
+          "status": "LIVE",
+          "published": "2026-09-10T15:52:18+07:00"
+        },
+        "blog/vi/oss-forui": {
+          "postId": "682337502217291833",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/forui-he-thong-ui-flutter-co-chu-kien.html",
+          "title": "Forui: hệ thống UI Flutter có chủ kiến",
+          "status": "LIVE",
+          "published": "2026-09-10T15:52:24+07:00"
+        },
+        "blog/vi/oss-harmony-music": {
+          "postId": "737324320201549484",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/harmony-music-pattern-player-offline.html",
+          "title": "Harmony Music: pattern player offline-first",
+          "status": "LIVE",
+          "published": "2026-09-10T15:52:29+07:00"
+        },
+        "blog/vi/oss-hiddify-next": {
+          "postId": "4218003826204850149",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/hiddify-next-ui-flutter-tren-loi-tunnel.html",
+          "title": "Hiddify Next: UI Flutter trên lõi tunnel",
+          "status": "LIVE",
+          "published": "2026-09-10T15:52:56+07:00"
+        },
+        "blog/vi/oss-immich-architecture": {
+          "postId": "5614512612569838428",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/immich-bai-hoc-kien-truc-tu-stack-anh.html",
+          "title": "Immich: bài học kiến trúc từ stack ảnh Flutter 100k sao",
+          "status": "LIVE",
+          "published": "2026-09-10T15:53:02+07:00"
+        },
+        "blog/vi/oss-jaspr-dart-web": {
+          "postId": "6789710230367783475",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/jaspr-dart-server-driven-cho-web.html",
+          "title": "Jaspr: Dart server-driven cho web",
+          "status": "LIVE",
+          "published": "2026-09-10T15:53:08+07:00"
+        },
+        "blog/vi/oss-localsend-architecture": {
+          "postId": "6600834696371978145",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/localsend-truyen-file-kieu-airdrop.html",
+          "title": "LocalSend: truyền file kiểu AirDrop không cần cloud",
+          "status": "LIVE",
+          "published": "2026-09-10T15:53:29+07:00"
+        },
+        "blog/vi/oss-lotti-journal": {
+          "postId": "3498264864457430337",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/lotti-journal-voi-audio-habit-va-local.html",
+          "title": "Lotti: journal với audio, habit và local DB nghiêm túc",
+          "status": "LIVE",
+          "published": "2026-09-10T15:53:34+07:00"
+        },
+        "blog/vi/oss-rustdesk-flutter": {
+          "postId": "9110283021474511029",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rustdesk-loi-rust-vo-flutter.html",
+          "title": "RustDesk: lõi Rust, vỏ Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:54:02+07:00"
+        },
+        "blog/vi/oss-saber-notes": {
+          "postId": "2832097244787456637",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/saber-ghi-chu-viet-tay-va-file-local.html",
+          "title": "Saber: ghi chú viết tay và file local-first",
+          "status": "LIVE",
+          "published": "2026-09-10T15:54:08+07:00"
+        },
+        "blog/vi/oss-serverpod": {
+          "postId": "5684738552579261027",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/serverpod-full-stack-dart-phia-sau.html",
+          "title": "Serverpod: full-stack Dart phía sau Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:54:14+07:00"
+        },
+        "blog/vi/oss-shadcn-flutter": {
+          "postId": "6788504525977699953",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/shadcn-flutter-port-design-system-khong.html",
+          "title": "shadcn-flutter: port design system, không chỉ theme",
+          "status": "LIVE",
+          "published": "2026-09-10T15:54:20+07:00"
+        },
+        "blog/vi/oss-spotube-architecture": {
+          "postId": "4381479103028710170",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/spotube-client-nhac-flutter-uu-tien.html",
+          "title": "Spotube: client nhạc Flutter ưu tiên privacy",
+          "status": "LIVE",
+          "published": "2026-09-10T15:54:26+07:00"
+        },
+        "blog/vi/oss-venera-reader": {
+          "postId": "718315619897275768",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/venera-layout-reader-tuy-chinh-trong.html",
+          "title": "Venera: layout reader tùy chỉnh trong Flutter",
+          "status": "LIVE",
+          "published": "2026-09-10T15:55:04+07:00"
         }
       },
       "pages": {
