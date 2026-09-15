@@ -1,12 +1,12 @@
 # Blogger publish status
 
-_Generated 2026-09-15 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
+_Generated 2026-09-16 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
 
 **658 publishable articles** on the site (38 news, 620 blog).
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 266/658 | role ADMIN, 353 post(s) live |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 274/658 | role ADMIN, 361 post(s) live |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/658 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
 | [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 193/658 | role ADMIN, 303 post(s) live |
 
@@ -14,7 +14,7 @@ Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog bu
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **ok** (role ADMIN, 353 post(s) live) · 266/658 published.
+Blog id `8621533667729504576` · access **ok** (role ADMIN, 361 post(s) live) · 274/658 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -146,15 +146,15 @@ Blog id `8621533667729504576` · access **ok** (role ADMIN, 353 post(s) live) ·
 | 126 | [Flutter and iOS app extensions without a second UI stack](https://fluttercook.github.io/blog/flutter-app-extensions-ios/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutter-and-ios-app-extensions-without.html) |
 | 127 | [App icon design that survives 2026 store grids](https://fluttercook.github.io/blog/flutter-app-icon-2026-guidelines/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/app-icon-design-that-survives-2026.html) |
 | 128 | [The April 2027 SDK deadline for App Store uploads](https://fluttercook.github.io/blog/flutter-app-store-2027-sdk-deadline/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app.html) |
-| 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | LIVE-UNTRACKED | [open](https://trunghieu-it.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile.html) |
-| 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | PENDING | — |
-| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | PENDING | — |
-| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | PENDING | — |
-| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | PENDING | — |
-| 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | PENDING | — |
-| 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | PENDING | — |
-| 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | PENDING | — |
-| 137 | [Step-up authentication with biometrics for sensitive actions](https://fluttercook.github.io/blog/flutter-biometric-step-up/) | en | blog | PENDING | — |
+| 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile_0494884692.html) |
+| 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions.html) |
+| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/certificate-pinning-and-network.html) |
+| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/carplay-and-android-auto-with-mobile.html) |
+| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear.html) |
+| 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/field-service-apps-offline-first-b2b.html) |
+| 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/sso-for-enterprise-mobile-oidc-and-saml.html) |
+| 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/background-work-limits-on-ios-and.html) |
+| 137 | [Step-up authentication with biometrics for sensitive actions](https://fluttercook.github.io/blog/flutter-biometric-step-up/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/step-up-authentication-with-biometrics.html) |
 | 138 | [User safety features: block, mute, and restrict](https://fluttercook.github.io/blog/flutter-block-report-safety/) | en | blog | PENDING | — |
 | 139 | [Brand refreshes without breaking mobile users](https://fluttercook.github.io/blog/flutter-brand-refresh-risk/) | en | blog | PENDING | — |
 | 140 | [Alternative marketplaces: EU DMA and Brazil CADE rules](https://fluttercook.github.io/blog/flutter-brazil-eu-marketplace-rules/) | en | blog | PENDING | — |

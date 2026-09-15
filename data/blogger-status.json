@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-15",
+  "generated": "2026-09-16",
   "articles": 658,
   "blogs": [
     {
@@ -8,8 +8,8 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 353 post(s) live",
-      "done": 266,
+      "detail": "role ADMIN, 361 post(s) live",
+      "done": 274,
       "total": 658,
       "posts": [
         {
@@ -1557,8 +1557,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-ar-visionos-companion/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile_0494884692.html"
         },
         {
           "key": "blog/en/flutter-architecture-decision-records",
@@ -1569,8 +1569,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-architecture-decision-records/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions.html"
         },
         {
           "key": "blog/en/flutter-attestation-network-security",
@@ -1581,8 +1581,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-attestation-network-security/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/certificate-pinning-and-network.html"
         },
         {
           "key": "blog/en/flutter-automotive-carplay-androidauto",
@@ -1593,8 +1593,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/carplay-and-android-auto-with-mobile.html"
         },
         {
           "key": "blog/en/flutter-avoid-setstate-spaghetti",
@@ -1605,8 +1605,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear.html"
         },
         {
           "key": "blog/en/flutter-b2b-offline-field-apps",
@@ -1617,8 +1617,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/field-service-apps-offline-first-b2b.html"
         },
         {
           "key": "blog/en/flutter-b2b-sso-saml-oidc",
@@ -1629,8 +1629,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/sso-for-enterprise-mobile-oidc-and-saml.html"
         },
         {
           "key": "blog/en/flutter-background-fetch-limits",
@@ -1641,8 +1641,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-background-fetch-limits/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/background-work-limits-on-ios-and.html"
         },
         {
           "key": "blog/en/flutter-biometric-step-up",
@@ -1653,8 +1653,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-biometric-step-up/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/step-up-authentication-with-biometrics.html"
         },
         {
           "key": "blog/en/flutter-block-report-safety",
