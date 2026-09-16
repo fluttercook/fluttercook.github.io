@@ -1929,6 +1929,573 @@
           "title": "Step-up authentication with biometrics for sensitive actions",
           "status": "LIVE",
           "published": "2026-09-16T00:01:04+07:00"
+        },
+        "blog/en/flutter-block-report-safety": {
+          "postId": "3832715708414619721",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/user-safety-features-block-mute-and.html",
+          "title": "User safety features: block, mute, and restrict",
+          "status": "LIVE",
+          "published": "2026-09-16T09:54:20+07:00"
+        },
+        "blog/en/flutter-brand-refresh-risk": {
+          "postId": "2278145257728105550",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/brand-refreshes-without-breaking-mobile.html",
+          "title": "Brand refreshes without breaking mobile users",
+          "status": "LIVE",
+          "published": "2026-09-16T09:54:50+07:00"
+        },
+        "blog/en/flutter-brazil-eu-marketplace-rules": {
+          "postId": "4630657301284045761",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/alternative-marketplaces-eu-dma-and.html",
+          "title": "Alternative marketplaces: EU DMA and Brazil CADE rules",
+          "status": "LIVE",
+          "published": "2026-09-16T09:55:07+07:00"
+        },
+        "blog/en/flutter-bug-report-template-mobile": {
+          "postId": "1854603304039799929",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-bug-report-template-that-gets-mobile.html",
+          "title": "A bug report template that gets mobile issues fixed",
+          "status": "LIVE",
+          "published": "2026-09-16T09:55:24+07:00"
+        },
+        "blog/en/flutter-build-modes-debug-profile": {
+          "postId": "7425609487241459982",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/debug-profile-and-release-stop.html",
+          "title": "Debug, profile, and release: stop optimizing the wrong mode",
+          "status": "LIVE",
+          "published": "2026-09-16T09:55:40+07:00"
+        },
+        "blog/en/flutter-camera-mlkit-vision": {
+          "postId": "3183935173085531978",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/on-device-vision-with-camera-and-ml-kit.html",
+          "title": "On-device vision with Camera and ML Kit in Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T09:55:57+07:00"
+        },
+        "blog/en/flutter-capacity-planning-mobile": {
+          "postId": "7443958297123483266",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/capacity-planning-for-mobile-platform.html",
+          "title": "Capacity planning for mobile platform teams",
+          "status": "LIVE",
+          "published": "2026-09-16T09:56:14+07:00"
+        },
+        "blog/en/flutter-certificate-transparency": {
+          "postId": "4810234838433992917",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/certificate-transparency-and-mobile.html",
+          "title": "Certificate Transparency and mobile network trust",
+          "status": "LIVE",
+          "published": "2026-09-16T09:56:31+07:00"
+        },
+        "blog/en/flutter-changelog-release-notes": {
+          "postId": "6465588246709153840",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/release-notes-users-actually-read.html",
+          "title": "Release notes users actually read",
+          "status": "LIVE",
+          "published": "2026-09-16T09:56:49+07:00"
+        },
+        "blog/en/flutter-childrens-privacy-coppa": {
+          "postId": "6158388122546562298",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/kids-apps-coppa-age-gates-and-store.html",
+          "title": "Kids apps: COPPA, age gates, and store questionnaires",
+          "status": "LIVE",
+          "published": "2026-09-16T09:57:06+07:00"
+        },
+        "blog/en/flutter-ci-github-actions-cache": {
+          "postId": "5698419112576503804",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/github-actions-for-flutter-with-sane.html",
+          "title": "GitHub Actions for Flutter with sane caches",
+          "status": "LIVE",
+          "published": "2026-09-16T09:57:23+07:00"
+        },
+        "blog/en/flutter-clean-architecture-not-religion": {
+          "postId": "1234410217731946088",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/clean-architecture-in-flutter-without.html",
+          "title": "Clean architecture in Flutter without ceremony",
+          "status": "LIVE",
+          "published": "2026-09-16T09:57:40+07:00"
+        },
+        "blog/en/flutter-code-push-alternatives": {
+          "postId": "8631748620308874789",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/code-push-hotfix-and-what-applegoogle.html",
+          "title": "Code push, hotfix, and what Apple/Google actually allow",
+          "status": "LIVE",
+          "published": "2026-09-16T09:57:57+07:00"
+        },
+        "blog/en/flutter-codegen-freezed-json": {
+          "postId": "9002074270021414806",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/codegen-that-pays-for-itself-freezed.html",
+          "title": "Codegen that pays for itself: freezed and json_serializable",
+          "status": "LIVE",
+          "published": "2026-09-16T09:58:14+07:00"
+        },
+        "blog/en/flutter-community-discord-github": {
+          "postId": "6552531954293457383",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/running-healthy-app-community-on.html",
+          "title": "Running a healthy app community on Discord/GitHub",
+          "status": "LIVE",
+          "published": "2026-09-16T09:58:31+07:00"
+        },
+        "blog/en/flutter-component-library-maturity": {
+          "postId": "8697504074277618984",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/what-mature-flutter-component-library.html",
+          "title": "What a mature Flutter component library includes",
+          "status": "LIVE",
+          "published": "2026-09-16T09:58:48+07:00"
+        },
+        "blog/en/flutter-compose-interop-android": {
+          "postId": "1209006992868331350",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/hosting-jetpack-compose-inside-flutter.html",
+          "title": "Hosting Jetpack Compose inside Flutter (and the reverse)",
+          "status": "LIVE",
+          "published": "2026-09-16T09:59:05+07:00"
+        },
+        "blog/en/flutter-const-constructor-perf": {
+          "postId": "5262077886407907103",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/const-constructors-cheapest-flutter.html",
+          "title": "const constructors: the cheapest Flutter performance win",
+          "status": "LIVE",
+          "published": "2026-09-16T09:59:22+07:00"
+        },
+        "blog/en/flutter-content-moderation-ugc": {
+          "postId": "7421088073963994096",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ugc-moderation-stacks-for-mobile-apps.html",
+          "title": "UGC moderation stacks for mobile apps",
+          "status": "LIVE",
+          "published": "2026-09-16T09:59:39+07:00"
+        },
+        "blog/en/flutter-content-sized-add-to-app": {
+          "postId": "1693420583902061071",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/content-sized-flutter-views-inside.html",
+          "title": "Content-sized Flutter views inside native scrollables",
+          "status": "LIVE",
+          "published": "2026-09-16T09:59:56+07:00"
+        },
+        "blog/en/flutter-cost-of-crossplatform": {
+          "postId": "3902481875298240154",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/true-cost-of-cross-platform-in-2026.html",
+          "title": "True cost of cross-platform in 2026",
+          "status": "LIVE",
+          "published": "2026-09-16T10:00:13+07:00"
+        },
+        "blog/en/flutter-crash-free-rate-slo": {
+          "postId": "3582099014523777092",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/crash-free-session-slos-for-mobile-teams.html",
+          "title": "Crash-free session SLOs for mobile teams",
+          "status": "LIVE",
+          "published": "2026-09-16T10:00:31+07:00"
+        },
+        "blog/en/flutter-crash-symbolication-symbols": {
+          "postId": "3288223940618091301",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/symbolication-done-right-for-ios-and.html",
+          "title": "Symbolication done right for iOS and Android crashes",
+          "status": "LIVE",
+          "published": "2026-09-16T10:00:47+07:00"
+        },
+        "blog/en/flutter-crashlytics-error-boundaries": {
+          "postId": "4801555208385954070",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/error-boundaries-and-crashlytics-for.html",
+          "title": "Error boundaries and Crashlytics for Flutter production apps",
+          "status": "LIVE",
+          "published": "2026-09-16T10:01:04+07:00"
+        },
+        "blog/en/flutter-cupertino-menu-anchor-ios": {
+          "postId": "7558873491800979274",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/cupertinomenuanchor-and-rawmenuanchor.html",
+          "title": "CupertinoMenuAnchor and RawMenuAnchor menus",
+          "status": "LIVE",
+          "published": "2026-09-16T10:01:21+07:00"
+        },
+        "blog/en/flutter-dark-mode-contrast": {
+          "postId": "810345348065494242",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dark-mode-that-does-not-look-inverted.html",
+          "title": "Dark mode that does not look inverted",
+          "status": "LIVE",
+          "published": "2026-09-16T10:01:37+07:00"
+        },
+        "blog/en/flutter-dart-3-13-primary-constructors": {
+          "postId": "6547345339754962606",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dart-primary-constructors-in-flutter.html",
+          "title": "Dart primary constructors in Flutter model code",
+          "status": "LIVE",
+          "published": "2026-09-16T10:01:54+07:00"
+        },
+        "blog/en/flutter-data-cleanup-gdpr": {
+          "postId": "8982910246854726422",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/gdprccpa-data-deletion-flows-in-mobile.html",
+          "title": "GDPR/CCPA data deletion flows in mobile apps",
+          "status": "LIVE",
+          "published": "2026-09-16T10:02:11+07:00"
+        },
+        "blog/en/flutter-deep-link-universal-links": {
+          "postId": "2080906332112316494",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/universal-links-and-app-links-that-open.html",
+          "title": "Universal Links and App Links that open the right screen",
+          "status": "LIVE",
+          "published": "2026-09-16T10:02:28+07:00"
+        },
+        "blog/en/flutter-dependency-update-rhythm": {
+          "postId": "7961889806774242614",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-dependency-update-rhythm-that-avoids.html",
+          "title": "A dependency update rhythm that avoids upgrade hell",
+          "status": "LIVE",
+          "published": "2026-09-16T10:02:45+07:00"
+        },
+        "blog/en/flutter-design-review-mobile": {
+          "postId": "6618714793878804938",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/design-reviews-that-catch-mobile.html",
+          "title": "Design reviews that catch mobile-specific failures",
+          "status": "LIVE",
+          "published": "2026-09-16T10:03:02+07:00"
+        },
+        "blog/en/flutter-design-system-governance": {
+          "postId": "3908667449484759288",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/governing-multi-platform-design-system.html",
+          "title": "Governing a multi-platform design system",
+          "status": "LIVE",
+          "published": "2026-09-16T10:03:18+07:00"
+        },
+        "blog/en/flutter-design-tokens-crossplatform": {
+          "postId": "7257534822761696953",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/design-tokens-across-flutter-ios-and.html",
+          "title": "Design tokens across Flutter, iOS, and Android",
+          "status": "LIVE",
+          "published": "2026-09-16T10:03:35+07:00"
+        },
+        "blog/en/flutter-desktop-flavors-ci": {
+          "postId": "2653137476198884333",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/product-flavors-on-windows-and-linux.html",
+          "title": "Product flavors on Windows and Linux for CI matrices",
+          "status": "LIVE",
+          "published": "2026-09-16T10:03:52+07:00"
+        },
+        "blog/en/flutter-desktop-window-management-api": {
+          "postId": "4512686030466108671",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/window-management-apis-for-flutter.html",
+          "title": "Window management APIs for Flutter desktop apps",
+          "status": "LIVE",
+          "published": "2026-09-16T10:04:09+07:00"
+        },
+        "blog/en/flutter-devtools-network-memory": {
+          "postId": "3416651747511254334",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/devtools-network-and-memory-views-you.html",
+          "title": "DevTools Network and Memory views you should actually use",
+          "status": "LIVE",
+          "published": "2026-09-16T10:04:26+07:00"
+        },
+        "blog/en/flutter-documentation-that-lives": {
+          "postId": "486061649016270727",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-docs-that-stay-accurate-after.html",
+          "title": "Mobile docs that stay accurate after ship",
+          "status": "LIVE",
+          "published": "2026-09-16T10:04:43+07:00"
+        },
+        "blog/en/flutter-dot-shorthands": {
+          "postId": "2364892859269766827",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dot-shorthands-in-flutter-cleaner-enum.html",
+          "title": "Dot shorthands in Flutter: cleaner enum and const syntax",
+          "status": "LIVE",
+          "published": "2026-09-16T10:05:00+07:00"
+        },
+        "blog/en/flutter-drift-offline-first": {
+          "postId": "8083735006777839693",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/offline-first-flutter-with-drift-and.html",
+          "title": "Offline-first Flutter with Drift and background sync",
+          "status": "LIVE",
+          "published": "2026-09-16T10:05:18+07:00"
+        },
+        "blog/en/flutter-dual-platform-native-strategy": {
+          "postId": "7074806234760829163",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/when-flutter-is-wrong-choosing-native.html",
+          "title": "When Flutter is wrong: choosing native iOS or Android",
+          "status": "LIVE",
+          "published": "2026-09-16T10:05:34+07:00"
+        },
+        "blog/en/flutter-education-k12-privacy": {
+          "postId": "4120087628898422041",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/k-12-education-apps-and-student-privacy.html",
+          "title": "K-12 education apps and student privacy",
+          "status": "LIVE",
+          "published": "2026-09-16T10:05:51+07:00"
+        },
+        "blog/vi/ai-streaming-ux-token-by-token": {
+          "postId": "5724496196476027315",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/trai-nghiem-streaming-thiet-ke-cho_01493773672.html",
+          "title": "Trải nghiệm streaming: thiết kế cho token đến từng cái một",
+          "status": "LIVE",
+          "published": "2026-09-16T10:06:16+07:00"
+        },
+        "blog/vi/ai-synthetic-data-for-evals": {
+          "postId": "4894124605581730620",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/du-lieu-tong-hop-cho-eval-xay-bo-kiem_01326400013.html",
+          "title": "Dữ liệu tổng hợp cho eval: xây bộ kiểm thử mà bạn tin được",
+          "status": "LIVE",
+          "published": "2026-09-16T10:06:34+07:00"
+        },
+        "blog/vi/dart-build-runner-codegen": {
+          "postId": "8535565003801611992",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/sinh-ma-trong-dart-buildrunner-ma-khong_0924742184.html",
+          "title": "Sinh mã trong Dart: build_runner mà không bực mình",
+          "status": "LIVE",
+          "published": "2026-09-16T10:06:51+07:00"
+        },
+        "blog/vi/dart-custom-lints-analyzer": {
+          "postId": "2846931917225354615",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/viet-mot-lint-tuy-chinh-cho-codebase_01978078155.html",
+          "title": "Viết một lint tuỳ chỉnh cho codebase Dart của bạn",
+          "status": "LIVE",
+          "published": "2026-09-16T10:07:08+07:00"
+        },
+        "blog/vi/dart-extension-types-zero-cost": {
+          "postId": "81848035155595366",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/extension-type-trong-dart-mot-cai-ten_01499896899.html",
+          "title": "Extension type trong Dart: một cái tên mới cho giá trị cũ",
+          "status": "LIVE",
+          "published": "2026-09-16T10:07:25+07:00"
+        },
+        "blog/vi/dart-records-and-patterns": {
+          "postId": "3256308677475092766",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/record-va-pattern-trong-dart-chung-thay_0509796874.html",
+          "title": "Record và pattern trong Dart: chúng thay thế những gì",
+          "status": "LIVE",
+          "published": "2026-09-16T10:07:42+07:00"
+        },
+        "blog/vi/dart-streams-in-depth": {
+          "postId": "8066743186219156687",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/stream-trong-dart-chuyen-sau_0366288729.html",
+          "title": "Stream trong Dart chuyên sâu: backpressure, broadcast và những rò rỉ ở giữa",
+          "status": "LIVE",
+          "published": "2026-09-16T10:07:59+07:00"
+        },
+        "blog/vi/flutter-ab-testing-mobile": {
+          "postId": "6608050736159199314",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ab-testing-mobile-ui-without-wrecking_01821917600.html",
+          "title": "A/B testing mobile UI without wrecking performance — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:08:16+07:00"
+        },
+        "blog/vi/flutter-accessibility-audit-steps": {
+          "postId": "3202153840402680110",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-practical-mobile-accessibility-audit_01926410743.html",
+          "title": "A practical mobile accessibility audit in one day — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:08:33+07:00"
+        },
+        "blog/vi/flutter-accessibility-semantics": {
+          "postId": "8422471166279270260",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/tro-nang-trong-flutter-cay-semantics_0439656752.html",
+          "title": "Trợ năng trong Flutter: cây semantics thật sự báo cáo những gì",
+          "status": "LIVE",
+          "published": "2026-09-16T10:08:51+07:00"
+        },
+        "blog/vi/flutter-accessibility-semantics-checklist": {
+          "postId": "114855147130392403",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/accessibility-semantics-checklist-for_01220416038.html",
+          "title": "Accessibility semantics checklist for Flutter forms — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:09:08+07:00"
+        },
+        "blog/vi/flutter-account-recovery-ux": {
+          "postId": "4430584881141102622",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/account-recovery-ux-that-reduces_01881585914.html",
+          "title": "Account recovery UX that reduces support tickets — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:09:25+07:00"
+        },
+        "blog/vi/flutter-age-assurance-2026": {
+          "postId": "2397394734250816536",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/age-assurance-requirements-affecting_02117341484.html",
+          "title": "Age assurance requirements affecting mobile apps in 2026 — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:09:42+07:00"
+        },
+        "blog/vi/flutter-agent-skills-package-skills": {
+          "postId": "5224827845874122069",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/package-skills-and-agent-skills-for_02052055884.html",
+          "title": "Package skills and Agent Skills for Flutter teams — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:09:59+07:00"
+        },
+        "blog/vi/flutter-agentic-hot-reload-workflow": {
+          "postId": "8929551805443595476",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/agentic-hot-reload-closing-prompt-to_0854136673.html",
+          "title": "Agentic Hot Reload: closing the prompt-to-pixels loop — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:10:16+07:00"
+        },
+        "blog/vi/flutter-ai-feature-unit-economics": {
+          "postId": "8469605180512688883",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/unit-economics-of-ai-features-in-mobile_0213322041.html",
+          "title": "Unit economics of AI features in mobile apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:10:33+07:00"
+        },
+        "blog/vi/flutter-ai-observability-tracing": {
+          "postId": "3237630397346740522",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/tracing-llm-calls-inside-mobile-apps_0651223355.html",
+          "title": "Tracing LLM calls inside mobile apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:10:49+07:00"
+        },
+        "blog/vi/flutter-ai-toolkit-chat-ux": {
+          "postId": "2033146897883522564",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-ai-toolkit-production-chat-ux_0381065183.html",
+          "title": "Flutter AI Toolkit: production chat UX patterns — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:11:06+07:00"
+        },
+        "blog/vi/flutter-analytics-events-schema": {
+          "postId": "3381537640932628893",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-mobile-analytics-event-schema-that_01861505803.html",
+          "title": "A mobile analytics event schema that survives redesigns — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:11:23+07:00"
+        },
+        "blog/vi/flutter-android-17-prep": {
+          "postId": "4747576964343356858",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/preparing-flutter-apps-for-android-17_0124750505.html",
+          "title": "Preparing Flutter apps for Android 17 — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:11:40+07:00"
+        },
+        "blog/vi/flutter-android-splits-aab": {
+          "postId": "1449669160763420620",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/android-app-bundles-abi-splits-and_01778599026.html",
+          "title": "Android App Bundles, ABI splits, and download size — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:11:58+07:00"
+        },
+        "blog/vi/flutter-api-versioning-mobile": {
+          "postId": "5724812015926241850",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/api-versioning-strategies-for-mobile_012105049.html",
+          "title": "API versioning strategies for mobile clients — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:12:15+07:00"
+        },
+        "blog/vi/flutter-app-attest-play-integrity": {
+          "postId": "1268908052879764829",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/device-integrity-checks-without-ruining_01434920541.html",
+          "title": "Device integrity checks without ruining UX — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:12:32+07:00"
+        },
+        "blog/vi/flutter-app-clips-instant": {
+          "postId": "2889675642636266862",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/app-clips-and-instant-apps-with-flutter_01447201539.html",
+          "title": "App Clips and Instant Apps with Flutter modules — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:12:49+07:00"
+        },
+        "blog/vi/flutter-app-extensions-ios": {
+          "postId": "3130802668347117217",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-and-ios-app-extensions-without_0175263466.html",
+          "title": "Flutter and iOS app extensions without a second UI stack — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:13:06+07:00"
+        },
+        "blog/vi/flutter-app-icon-2026-guidelines": {
+          "postId": "1473742405707368161",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/app-icon-design-that-survives-2026_01458553707.html",
+          "title": "App icon design that survives 2026 store grids — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:13:24+07:00"
+        },
+        "blog/vi/flutter-app-size-reduction": {
+          "postId": "5505840351844190461",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/thu-nho-ung-dung-flutter-megabyte-that_01409666224.html",
+          "title": "Thu nhỏ ứng dụng Flutter: megabyte thật sự nằm ở đâu",
+          "status": "LIVE",
+          "published": "2026-09-16T10:13:41+07:00"
+        },
+        "blog/vi/flutter-app-store-2027-sdk-deadline": {
+          "postId": "2779729650681755937",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app_01483536480.html",
+          "title": "The April 2027 SDK deadline for App Store uploads — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:13:58+07:00"
+        },
+        "blog/vi/flutter-ar-visionos-companion": {
+          "postId": "2860234981645407257",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile_0509075589.html",
+          "title": "AR and visionOS companions for mobile products — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:14:15+07:00"
+        },
+        "blog/vi/flutter-architecture-decision-records": {
+          "postId": "533535873259376089",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions_047958785.html",
+          "title": "ADRs for mobile architecture decisions — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:14:32+07:00"
+        },
+        "blog/vi/flutter-attestation-network-security": {
+          "postId": "1861165917385165890",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/certificate-pinning-and-network_01197095466.html",
+          "title": "Certificate pinning and network security on mobile — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:14:48+07:00"
+        },
+        "blog/vi/flutter-automotive-carplay-androidauto": {
+          "postId": "2266609757047707622",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/carplay-and-android-auto-with-mobile_0411797553.html",
+          "title": "CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:15:04+07:00"
+        },
+        "blog/vi/flutter-avoid-setstate-spaghetti": {
+          "postId": "6247408750968366526",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear_059779720.html",
+          "title": "Escaping setState spaghetti with clear ownership — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:15:21+07:00"
+        },
+        "blog/vi/flutter-b2b-offline-field-apps": {
+          "postId": "4770139390795249271",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/field-service-apps-offline-first-b2b_01671395378.html",
+          "title": "Field-service apps: offline-first B2B patterns — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:15:38+07:00"
+        },
+        "blog/vi/flutter-b2b-sso-saml-oidc": {
+          "postId": "4361239599075910538",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/sso-for-enterprise-mobile-oidc-and-saml_0546652605.html",
+          "title": "SSO for enterprise mobile: OIDC and SAML realities — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:15:55+07:00"
+        },
+        "blog/vi/flutter-background-fetch-limits": {
+          "postId": "3465027060689564497",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/background-work-limits-on-ios-and_0901427755.html",
+          "title": "Background work limits on iOS and Android in 2026 — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:16:12+07:00"
+        },
+        "blog/vi/flutter-background-tasks-workmanager": {
+          "postId": "917936158583770736",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/chay-nen-trong-flutter-he-ieu-hanh-that_01307782193.html",
+          "title": "Chạy nền trong Flutter: hệ điều hành thật sự cho phép bạn chạy gì",
+          "status": "LIVE",
+          "published": "2026-09-16T10:16:29+07:00"
+        },
+        "blog/vi/flutter-biometric-step-up": {
+          "postId": "695524048649761037",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/step-up-authentication-with-biometrics_01477488361.html",
+          "title": "Step-up authentication with biometrics for sensitive actions — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:16:46+07:00"
+        },
+        "blog/vi/flutter-block-report-safety": {
+          "postId": "3075486111328358613",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/user-safety-features-block-mute-and_01312581849.html",
+          "title": "User safety features: block, mute, and restrict — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:17:03+07:00"
+        },
+        "blog/vi/flutter-brand-refresh-risk": {
+          "postId": "632893726626138760",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/brand-refreshes-without-breaking-mobile_01213843927.html",
+          "title": "Brand refreshes without breaking mobile users — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-16T10:17:20+07:00"
         }
       },
       "pages": {

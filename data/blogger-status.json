@@ -8,8 +8,8 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 361 post(s) live",
-      "done": 274,
+      "detail": "role ADMIN, 432 post(s) live",
+      "done": 345,
       "total": 658,
       "posts": [
         {
@@ -1665,8 +1665,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-block-report-safety/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/user-safety-features-block-mute-and.html"
         },
         {
           "key": "blog/en/flutter-brand-refresh-risk",
@@ -1677,8 +1677,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-brand-refresh-risk/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/brand-refreshes-without-breaking-mobile.html"
         },
         {
           "key": "blog/en/flutter-brazil-eu-marketplace-rules",
@@ -1689,8 +1689,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-brazil-eu-marketplace-rules/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/alternative-marketplaces-eu-dma-and.html"
         },
         {
           "key": "blog/en/flutter-bug-report-template-mobile",
@@ -1701,8 +1701,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-bug-report-template-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/a-bug-report-template-that-gets-mobile.html"
         },
         {
           "key": "blog/en/flutter-build-modes-debug-profile",
@@ -1713,8 +1713,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-build-modes-debug-profile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/debug-profile-and-release-stop.html"
         },
         {
           "key": "blog/en/flutter-camera-mlkit-vision",
@@ -1725,8 +1725,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-camera-mlkit-vision/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/on-device-vision-with-camera-and-ml-kit.html"
         },
         {
           "key": "blog/en/flutter-capacity-planning-mobile",
@@ -1737,8 +1737,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-capacity-planning-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/capacity-planning-for-mobile-platform.html"
         },
         {
           "key": "blog/en/flutter-certificate-transparency",
@@ -1749,8 +1749,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-certificate-transparency/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/certificate-transparency-and-mobile.html"
         },
         {
           "key": "blog/en/flutter-changelog-release-notes",
@@ -1761,8 +1761,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-changelog-release-notes/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/release-notes-users-actually-read.html"
         },
         {
           "key": "blog/en/flutter-childrens-privacy-coppa",
@@ -1773,8 +1773,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-childrens-privacy-coppa/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/kids-apps-coppa-age-gates-and-store.html"
         },
         {
           "key": "blog/en/flutter-ci-github-actions-cache",
@@ -1785,8 +1785,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-ci-github-actions-cache/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/github-actions-for-flutter-with-sane.html"
         },
         {
           "key": "blog/en/flutter-clean-architecture-not-religion",
@@ -1797,8 +1797,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-clean-architecture-not-religion/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/clean-architecture-in-flutter-without.html"
         },
         {
           "key": "blog/en/flutter-code-push-alternatives",
@@ -1809,8 +1809,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-code-push-alternatives/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/code-push-hotfix-and-what-applegoogle.html"
         },
         {
           "key": "blog/en/flutter-codegen-freezed-json",
@@ -1821,8 +1821,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-codegen-freezed-json/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/codegen-that-pays-for-itself-freezed.html"
         },
         {
           "key": "blog/en/flutter-community-discord-github",
@@ -1833,8 +1833,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-community-discord-github/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/running-healthy-app-community-on.html"
         },
         {
           "key": "blog/en/flutter-component-library-maturity",
@@ -1845,8 +1845,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-component-library-maturity/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/what-mature-flutter-component-library.html"
         },
         {
           "key": "blog/en/flutter-compose-interop-android",
@@ -1857,8 +1857,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-compose-interop-android/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/hosting-jetpack-compose-inside-flutter.html"
         },
         {
           "key": "blog/en/flutter-const-constructor-perf",
@@ -1869,8 +1869,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-const-constructor-perf/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/const-constructors-cheapest-flutter.html"
         },
         {
           "key": "blog/en/flutter-content-moderation-ugc",
@@ -1881,8 +1881,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-content-moderation-ugc/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/ugc-moderation-stacks-for-mobile-apps.html"
         },
         {
           "key": "blog/en/flutter-content-sized-add-to-app",
@@ -1893,8 +1893,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/content-sized-flutter-views-inside.html"
         },
         {
           "key": "blog/en/flutter-cost-of-crossplatform",
@@ -1905,8 +1905,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-cost-of-crossplatform/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/true-cost-of-cross-platform-in-2026.html"
         },
         {
           "key": "blog/en/flutter-crash-free-rate-slo",
@@ -1917,8 +1917,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-crash-free-rate-slo/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/crash-free-session-slos-for-mobile-teams.html"
         },
         {
           "key": "blog/en/flutter-crash-symbolication-symbols",
@@ -1929,8 +1929,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-crash-symbolication-symbols/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/symbolication-done-right-for-ios-and.html"
         },
         {
           "key": "blog/en/flutter-crashlytics-error-boundaries",
@@ -1941,8 +1941,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-crashlytics-error-boundaries/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/error-boundaries-and-crashlytics-for.html"
         },
         {
           "key": "blog/en/flutter-cupertino-menu-anchor-ios",
@@ -1953,8 +1953,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor-ios/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/cupertinomenuanchor-and-rawmenuanchor.html"
         },
         {
           "key": "blog/en/flutter-dark-mode-contrast",
@@ -1965,8 +1965,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-dark-mode-contrast/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/dark-mode-that-does-not-look-inverted.html"
         },
         {
           "key": "blog/en/flutter-dart-3-13-primary-constructors",
@@ -1977,8 +1977,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-dart-3-13-primary-constructors/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/dart-primary-constructors-in-flutter.html"
         },
         {
           "key": "blog/en/flutter-data-cleanup-gdpr",
@@ -1989,8 +1989,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-data-cleanup-gdpr/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/gdprccpa-data-deletion-flows-in-mobile.html"
         },
         {
           "key": "blog/en/flutter-deep-link-universal-links",
@@ -2001,8 +2001,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-deep-link-universal-links/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/universal-links-and-app-links-that-open.html"
         },
         {
           "key": "blog/en/flutter-dependency-update-rhythm",
@@ -2013,8 +2013,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-dependency-update-rhythm/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/a-dependency-update-rhythm-that-avoids.html"
         },
         {
           "key": "blog/en/flutter-design-review-mobile",
@@ -2025,8 +2025,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-design-review-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/design-reviews-that-catch-mobile.html"
         },
         {
           "key": "blog/en/flutter-design-system-governance",
@@ -2037,8 +2037,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-design-system-governance/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/governing-multi-platform-design-system.html"
         },
         {
           "key": "blog/en/flutter-design-tokens-crossplatform",
@@ -2049,8 +2049,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-design-tokens-crossplatform/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/design-tokens-across-flutter-ios-and.html"
         },
         {
           "key": "blog/en/flutter-desktop-flavors-ci",
@@ -2061,8 +2061,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-desktop-flavors-ci/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/product-flavors-on-windows-and-linux.html"
         },
         {
           "key": "blog/en/flutter-desktop-window-management-api",
@@ -2073,8 +2073,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-desktop-window-management-api/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/window-management-apis-for-flutter.html"
         },
         {
           "key": "blog/en/flutter-devtools-network-memory",
@@ -2085,8 +2085,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-devtools-network-memory/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/devtools-network-and-memory-views-you.html"
         },
         {
           "key": "blog/en/flutter-documentation-that-lives",
@@ -2097,8 +2097,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-documentation-that-lives/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/mobile-docs-that-stay-accurate-after.html"
         },
         {
           "key": "blog/en/flutter-dot-shorthands",
@@ -2109,8 +2109,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-dot-shorthands/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/dot-shorthands-in-flutter-cleaner-enum.html"
         },
         {
           "key": "blog/en/flutter-drift-offline-first",
@@ -2121,8 +2121,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-drift-offline-first/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/offline-first-flutter-with-drift-and.html"
         },
         {
           "key": "blog/en/flutter-dual-platform-native-strategy",
@@ -2133,8 +2133,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-dual-platform-native-strategy/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/when-flutter-is-wrong-choosing-native.html"
         },
         {
           "key": "blog/en/flutter-education-k12-privacy",
@@ -2145,8 +2145,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-education-k12-privacy/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/k-12-education-apps-and-student-privacy.html"
         },
         {
           "key": "blog/en/flutter-emerging-device-profiles",
@@ -3777,8 +3777,8 @@
           "publishDate": "2026-08-03",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-streaming-ux-token-by-token/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/trai-nghiem-streaming-thiet-ke-cho.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/trai-nghiem-streaming-thiet-ke-cho_01493773672.html"
         },
         {
           "key": "blog/vi/ai-synthetic-data-for-evals",
@@ -3789,8 +3789,8 @@
           "publishDate": "2026-08-04",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/ai-synthetic-data-for-evals/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/du-lieu-tong-hop-cho-eval-xay-bo-kiem.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/du-lieu-tong-hop-cho-eval-xay-bo-kiem_01326400013.html"
         },
         {
           "key": "blog/vi/ai-multimodal-vision-in-production",
@@ -3873,8 +3873,8 @@
           "publishDate": "2026-08-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/dart-custom-lints-analyzer/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/viet-mot-lint-tuy-chinh-cho-codebase.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/viet-mot-lint-tuy-chinh-cho-codebase_01978078155.html"
         },
         {
           "key": "blog/vi/dart-build-runner-codegen",
@@ -3885,8 +3885,8 @@
           "publishDate": "2026-08-12",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/dart-build-runner-codegen/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/sinh-ma-trong-dart-buildrunner-ma-khong.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/sinh-ma-trong-dart-buildrunner-ma-khong_0924742184.html"
         },
         {
           "key": "blog/vi/dart-streams-in-depth",
@@ -3897,8 +3897,8 @@
           "publishDate": "2026-08-13",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/dart-streams-in-depth/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/stream-trong-dart-chuyen-sau.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/stream-trong-dart-chuyen-sau_0366288729.html"
         },
         {
           "key": "blog/vi/dart-extension-types-zero-cost",
@@ -3909,8 +3909,8 @@
           "publishDate": "2026-08-14",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/dart-extension-types-zero-cost/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/extension-type-trong-dart-mot-cai-ten.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/extension-type-trong-dart-mot-cai-ten_01499896899.html"
         },
         {
           "key": "blog/vi/dart-records-and-patterns",
@@ -3921,8 +3921,8 @@
           "publishDate": "2026-08-15",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/dart-records-and-patterns/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/record-va-pattern-trong-dart-chung-thay.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/record-va-pattern-trong-dart-chung-thay_0509796874.html"
         },
         {
           "key": "blog/vi/flutter-error-handling-crash-reporting",
@@ -3969,8 +3969,8 @@
           "publishDate": "2026-08-19",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-background-tasks-workmanager/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/chay-nen-trong-flutter-he-ieu-hanh-that.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/chay-nen-trong-flutter-he-ieu-hanh-that_01307782193.html"
         },
         {
           "key": "blog/vi/ai-poster-prompts-split-level-and-minimalist-editorial",
@@ -4461,8 +4461,8 @@
           "publishDate": "2026-09-01",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-app-size-reduction/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/thu-nho-ung-dung-flutter-megabyte-that.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/thu-nho-ung-dung-flutter-megabyte-that_01409666224.html"
         },
         {
           "key": "blog/vi/flutter-localization-intl-arb",
@@ -4485,8 +4485,8 @@
           "publishDate": "2026-09-03",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics/",
-          "status": "LIVE-UNTRACKED",
-          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/tro-nang-trong-flutter-cay-semantics.html"
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/tro-nang-trong-flutter-cay-semantics_0439656752.html"
         },
         {
           "key": "blog/vi/flutter-forms-validation-at-scale",
@@ -5049,8 +5049,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-ab-testing-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/ab-testing-mobile-ui-without-wrecking_01821917600.html"
         },
         {
           "key": "blog/vi/flutter-accessibility-audit-steps",
@@ -5061,8 +5061,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-accessibility-audit-steps/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/a-practical-mobile-accessibility-audit_01926410743.html"
         },
         {
           "key": "blog/vi/flutter-accessibility-semantics-checklist",
@@ -5073,8 +5073,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics-checklist/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/accessibility-semantics-checklist-for_01220416038.html"
         },
         {
           "key": "blog/vi/flutter-account-recovery-ux",
@@ -5085,8 +5085,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-account-recovery-ux/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/account-recovery-ux-that-reduces_01881585914.html"
         },
         {
           "key": "blog/vi/flutter-age-assurance-2026",
@@ -5097,8 +5097,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-age-assurance-2026/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/age-assurance-requirements-affecting_02117341484.html"
         },
         {
           "key": "blog/vi/flutter-agent-skills-package-skills",
@@ -5109,8 +5109,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-agent-skills-package-skills/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/package-skills-and-agent-skills-for_02052055884.html"
         },
         {
           "key": "blog/vi/flutter-agentic-hot-reload-workflow",
@@ -5121,8 +5121,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload-workflow/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/agentic-hot-reload-closing-prompt-to_0854136673.html"
         },
         {
           "key": "blog/vi/flutter-ai-feature-unit-economics",
@@ -5133,8 +5133,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-ai-feature-unit-economics/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/unit-economics-of-ai-features-in-mobile_0213322041.html"
         },
         {
           "key": "blog/vi/flutter-ai-observability-tracing",
@@ -5145,8 +5145,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-ai-observability-tracing/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/tracing-llm-calls-inside-mobile-apps_0651223355.html"
         },
         {
           "key": "blog/vi/flutter-ai-toolkit-chat-ux",
@@ -5157,8 +5157,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-ai-toolkit-chat-ux/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/flutter-ai-toolkit-production-chat-ux_0381065183.html"
         },
         {
           "key": "blog/vi/flutter-analytics-events-schema",
@@ -5169,8 +5169,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-analytics-events-schema/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/a-mobile-analytics-event-schema-that_01861505803.html"
         },
         {
           "key": "blog/vi/flutter-android-17-prep",
@@ -5181,8 +5181,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-android-17-prep/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/preparing-flutter-apps-for-android-17_0124750505.html"
         },
         {
           "key": "blog/vi/flutter-android-splits-aab",
@@ -5193,8 +5193,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-android-splits-aab/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/android-app-bundles-abi-splits-and_01778599026.html"
         },
         {
           "key": "blog/vi/flutter-api-versioning-mobile",
@@ -5205,8 +5205,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-api-versioning-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/api-versioning-strategies-for-mobile_012105049.html"
         },
         {
           "key": "blog/vi/flutter-app-attest-play-integrity",
@@ -5217,8 +5217,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-app-attest-play-integrity/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/device-integrity-checks-without-ruining_01434920541.html"
         },
         {
           "key": "blog/vi/flutter-app-clips-instant",
@@ -5229,8 +5229,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-app-clips-instant/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/app-clips-and-instant-apps-with-flutter_01447201539.html"
         },
         {
           "key": "blog/vi/flutter-app-extensions-ios",
@@ -5241,8 +5241,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-app-extensions-ios/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/flutter-and-ios-app-extensions-without_0175263466.html"
         },
         {
           "key": "blog/vi/flutter-app-icon-2026-guidelines",
@@ -5253,8 +5253,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-app-icon-2026-guidelines/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/app-icon-design-that-survives-2026_01458553707.html"
         },
         {
           "key": "blog/vi/flutter-app-store-2027-sdk-deadline",
@@ -5265,8 +5265,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-app-store-2027-sdk-deadline/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app_01483536480.html"
         },
         {
           "key": "blog/vi/flutter-ar-visionos-companion",
@@ -5277,8 +5277,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-ar-visionos-companion/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile_0509075589.html"
         },
         {
           "key": "blog/vi/flutter-architecture-decision-records",
@@ -5289,8 +5289,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-architecture-decision-records/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions_047958785.html"
         },
         {
           "key": "blog/vi/flutter-attestation-network-security",
@@ -5301,8 +5301,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/certificate-pinning-and-network_01197095466.html"
         },
         {
           "key": "blog/vi/flutter-automotive-carplay-androidauto",
@@ -5313,8 +5313,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/carplay-and-android-auto-with-mobile_0411797553.html"
         },
         {
           "key": "blog/vi/flutter-avoid-setstate-spaghetti",
@@ -5325,8 +5325,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear_059779720.html"
         },
         {
           "key": "blog/vi/flutter-b2b-offline-field-apps",
@@ -5337,8 +5337,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-b2b-offline-field-apps/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/field-service-apps-offline-first-b2b_01671395378.html"
         },
         {
           "key": "blog/vi/flutter-b2b-sso-saml-oidc",
@@ -5349,8 +5349,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-b2b-sso-saml-oidc/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/sso-for-enterprise-mobile-oidc-and-saml_0546652605.html"
         },
         {
           "key": "blog/vi/flutter-background-fetch-limits",
@@ -5361,8 +5361,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-background-fetch-limits/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/background-work-limits-on-ios-and_0901427755.html"
         },
         {
           "key": "blog/vi/flutter-biometric-step-up",
@@ -5373,8 +5373,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-biometric-step-up/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/step-up-authentication-with-biometrics_01477488361.html"
         },
         {
           "key": "blog/vi/flutter-block-report-safety",
@@ -5385,8 +5385,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-block-report-safety/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/user-safety-features-block-mute-and_01312581849.html"
         },
         {
           "key": "blog/vi/flutter-brand-refresh-risk",
@@ -5397,8 +5397,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-brand-refresh-risk/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/brand-refreshes-without-breaking-mobile_01213843927.html"
         },
         {
           "key": "blog/vi/flutter-brazil-eu-marketplace-rules",
@@ -15824,8 +15824,8 @@
       "url": "https://flutter9.blogspot.com/",
       "priority": 3,
       "access": "ok",
-      "detail": "role ADMIN, 303 post(s) live",
-      "done": 193,
+      "detail": "role ADMIN, 309 post(s) live",
+      "done": 199,
       "total": 658,
       "posts": [
         {
@@ -17145,8 +17145,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-ab-testing-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/ab-testing-mobile-ui-without-wrecking.html"
         },
         {
           "key": "blog/en/flutter-accessibility-audit-steps",
@@ -17157,8 +17157,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-accessibility-audit-steps/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/a-practical-mobile-accessibility-audit.html"
         },
         {
           "key": "blog/en/flutter-accessibility-semantics-checklist",
@@ -17169,8 +17169,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-accessibility-semantics-checklist/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/accessibility-semantics-checklist-for.html"
         },
         {
           "key": "blog/en/flutter-account-recovery-ux",
@@ -20865,8 +20865,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-ab-testing-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/ab-testing-mobile-ui-without-wrecking_01921497079.html"
         },
         {
           "key": "blog/vi/flutter-accessibility-audit-steps",
@@ -20877,8 +20877,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-accessibility-audit-steps/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/a-practical-mobile-accessibility-audit_01718012820.html"
         },
         {
           "key": "blog/vi/flutter-accessibility-semantics-checklist",
@@ -20889,8 +20889,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics-checklist/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/accessibility-semantics-checklist-for_0828840026.html"
         },
         {
           "key": "blog/vi/flutter-account-recovery-ux",
