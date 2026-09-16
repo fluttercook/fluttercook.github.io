@@ -6,7 +6,7 @@ _Generated 2026-09-16 by `scripts/blogger_status.py`. Source of truth for post i
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 345/658 | role ADMIN, 432 post(s) live |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 354/658 | role ADMIN, 441 post(s) live |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/658 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
 | [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 199/658 | role ADMIN, 309 post(s) live |
 
@@ -14,7 +14,7 @@ Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog bu
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **ok** (role ADMIN, 432 post(s) live) · 345/658 published.
+Blog id `8621533667729504576` · access **ok** (role ADMIN, 441 post(s) live) · 354/658 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -196,15 +196,15 @@ Blog id `8621533667729504576` · access **ok** (role ADMIN, 432 post(s) live) ·
 | 176 | [Offline-first Flutter with Drift and background sync](https://fluttercook.github.io/blog/flutter-drift-offline-first/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/offline-first-flutter-with-drift-and.html) |
 | 177 | [When Flutter is wrong: choosing native iOS or Android](https://fluttercook.github.io/blog/flutter-dual-platform-native-strategy/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/when-flutter-is-wrong-choosing-native.html) |
 | 178 | [K-12 education apps and student privacy](https://fluttercook.github.io/blog/flutter-education-k12-privacy/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/k-12-education-apps-and-student-privacy.html) |
-| 179 | [Device profiles that define 2026 mobile UX](https://fluttercook.github.io/blog/flutter-emerging-device-profiles/) | en | blog | PENDING | — |
-| 180 | [MDM, managed configuration, and enterprise Flutter apps](https://fluttercook.github.io/blog/flutter-enterprise-mdm/) | en | blog | PENDING | — |
-| 181 | [EU alternative payments and what Flutter teams must change](https://fluttercook.github.io/blog/flutter-eu-alternative-payments/) | en | blog | PENDING | — |
-| 182 | [Eval harnesses for mobile AI features](https://fluttercook.github.io/blog/flutter-evals-before-ship-ai/) | en | blog | PENDING | — |
-| 183 | [Reading mobile experiment results without fooling yourself](https://fluttercook.github.io/blog/flutter-experiment-readouts/) | en | blog | PENDING | — |
-| 184 | [Feature flag cleanup sprints that actually happen](https://fluttercook.github.io/blog/flutter-feature-flag-cleanup/) | en | blog | PENDING | — |
-| 185 | [Feature flags and remote config without a mess](https://fluttercook.github.io/blog/flutter-feature-flags-config/) | en | blog | PENDING | — |
-| 186 | [Fintech mobile compliance realities](https://fluttercook.github.io/blog/flutter-fintech-compliance-mobile/) | en | blog | PENDING | — |
-| 187 | [Firebase AI Logic: Gemini from Flutter without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic-security/) | en | blog | PENDING | — |
+| 179 | [Device profiles that define 2026 mobile UX](https://fluttercook.github.io/blog/flutter-emerging-device-profiles/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/device-profiles-that-define-2026-mobile.html) |
+| 180 | [MDM, managed configuration, and enterprise Flutter apps](https://fluttercook.github.io/blog/flutter-enterprise-mdm/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/mdm-managed-configuration-and.html) |
+| 181 | [EU alternative payments and what Flutter teams must change](https://fluttercook.github.io/blog/flutter-eu-alternative-payments/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/eu-alternative-payments-and-what.html) |
+| 182 | [Eval harnesses for mobile AI features](https://fluttercook.github.io/blog/flutter-evals-before-ship-ai/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/eval-harnesses-for-mobile-ai-features.html) |
+| 183 | [Reading mobile experiment results without fooling yourself](https://fluttercook.github.io/blog/flutter-experiment-readouts/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/reading-mobile-experiment-results.html) |
+| 184 | [Feature flag cleanup sprints that actually happen](https://fluttercook.github.io/blog/flutter-feature-flag-cleanup/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/feature-flag-cleanup-sprints-that.html) |
+| 185 | [Feature flags and remote config without a mess](https://fluttercook.github.io/blog/flutter-feature-flags-config/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/feature-flags-and-remote-config-without.html) |
+| 186 | [Fintech mobile compliance realities](https://fluttercook.github.io/blog/flutter-fintech-compliance-mobile/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/fintech-mobile-compliance-realities.html) |
+| 187 | [Firebase AI Logic: Gemini from Flutter without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic-security/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/firebase-ai-logic-gemini-from-flutter.html) |
 | 188 | [Firebase App Distribution for Android/iOS betas](https://fluttercook.github.io/blog/flutter-firebase-app-distribution/) | en | blog | PENDING | — |
 | 189 | [Parallax backgrounds and camera work in Flame](https://fluttercook.github.io/blog/flutter-flame-parallax-backgrounds/) | en | blog | PENDING | — |
 | 190 | [Flutter on foldables and large screens in 2026](https://fluttercook.github.io/blog/flutter-foldable-large-screens/) | en | blog | PENDING | — |

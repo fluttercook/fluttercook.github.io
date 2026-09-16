@@ -8,8 +8,8 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 432 post(s) live",
-      "done": 345,
+      "detail": "role ADMIN, 441 post(s) live",
+      "done": 354,
       "total": 658,
       "posts": [
         {
@@ -2157,8 +2157,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-emerging-device-profiles/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/device-profiles-that-define-2026-mobile.html"
         },
         {
           "key": "blog/en/flutter-enterprise-mdm",
@@ -2169,8 +2169,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-enterprise-mdm/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/mdm-managed-configuration-and.html"
         },
         {
           "key": "blog/en/flutter-eu-alternative-payments",
@@ -2181,8 +2181,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-eu-alternative-payments/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/eu-alternative-payments-and-what.html"
         },
         {
           "key": "blog/en/flutter-evals-before-ship-ai",
@@ -2193,8 +2193,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-evals-before-ship-ai/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/eval-harnesses-for-mobile-ai-features.html"
         },
         {
           "key": "blog/en/flutter-experiment-readouts",
@@ -2205,8 +2205,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-experiment-readouts/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/reading-mobile-experiment-results.html"
         },
         {
           "key": "blog/en/flutter-feature-flag-cleanup",
@@ -2217,8 +2217,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-feature-flag-cleanup/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/feature-flag-cleanup-sprints-that.html"
         },
         {
           "key": "blog/en/flutter-feature-flags-config",
@@ -2229,8 +2229,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-feature-flags-config/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/feature-flags-and-remote-config-without.html"
         },
         {
           "key": "blog/en/flutter-fintech-compliance-mobile",
@@ -2241,8 +2241,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-fintech-compliance-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/fintech-mobile-compliance-realities.html"
         },
         {
           "key": "blog/en/flutter-firebase-ai-logic-security",
@@ -2253,8 +2253,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-firebase-ai-logic-security/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/firebase-ai-logic-gemini-from-flutter.html"
         },
         {
           "key": "blog/en/flutter-firebase-app-distribution",

@@ -2496,6 +2496,69 @@
           "title": "Brand refreshes without breaking mobile users — hướng dẫn Flutter",
           "status": "LIVE",
           "published": "2026-09-16T10:17:20+07:00"
+        },
+        "blog/en/flutter-emerging-device-profiles": {
+          "postId": "2588741800006290747",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/device-profiles-that-define-2026-mobile.html",
+          "title": "Device profiles that define 2026 mobile UX",
+          "status": "LIVE",
+          "published": "2026-09-16T10:18:51+07:00"
+        },
+        "blog/en/flutter-enterprise-mdm": {
+          "postId": "8610291710369956529",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mdm-managed-configuration-and.html",
+          "title": "MDM, managed configuration, and enterprise Flutter apps",
+          "status": "LIVE",
+          "published": "2026-09-16T10:19:08+07:00"
+        },
+        "blog/en/flutter-eu-alternative-payments": {
+          "postId": "3488830537071286343",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/eu-alternative-payments-and-what.html",
+          "title": "EU alternative payments and what Flutter teams must change",
+          "status": "LIVE",
+          "published": "2026-09-16T10:19:25+07:00"
+        },
+        "blog/en/flutter-evals-before-ship-ai": {
+          "postId": "975257175770247395",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/eval-harnesses-for-mobile-ai-features.html",
+          "title": "Eval harnesses for mobile AI features",
+          "status": "LIVE",
+          "published": "2026-09-16T10:19:42+07:00"
+        },
+        "blog/en/flutter-experiment-readouts": {
+          "postId": "3326886866128621454",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/reading-mobile-experiment-results.html",
+          "title": "Reading mobile experiment results without fooling yourself",
+          "status": "LIVE",
+          "published": "2026-09-16T10:19:59+07:00"
+        },
+        "blog/en/flutter-feature-flag-cleanup": {
+          "postId": "1743900267976909760",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/feature-flag-cleanup-sprints-that.html",
+          "title": "Feature flag cleanup sprints that actually happen",
+          "status": "LIVE",
+          "published": "2026-09-16T10:20:16+07:00"
+        },
+        "blog/en/flutter-feature-flags-config": {
+          "postId": "8129242920917499795",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/feature-flags-and-remote-config-without.html",
+          "title": "Feature flags and remote config without a mess",
+          "status": "LIVE",
+          "published": "2026-09-16T10:20:33+07:00"
+        },
+        "blog/en/flutter-fintech-compliance-mobile": {
+          "postId": "8906819182417030289",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fintech-mobile-compliance-realities.html",
+          "title": "Fintech mobile compliance realities",
+          "status": "LIVE",
+          "published": "2026-09-16T10:20:50+07:00"
+        },
+        "blog/en/flutter-firebase-ai-logic-security": {
+          "postId": "4250996833020626170",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/firebase-ai-logic-gemini-from-flutter.html",
+          "title": "Firebase AI Logic: Gemini from Flutter without a custom backend",
+          "status": "LIVE",
+          "published": "2026-09-16T10:21:29+07:00"
         }
       },
       "pages": {
