@@ -8,8 +8,8 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 521 post(s) live",
-      "done": 434,
+      "detail": "role ADMIN, 530 post(s) live",
+      "done": 443,
       "total": 738,
       "posts": [
         {
@@ -2745,8 +2745,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-microphone-camera-permission/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/camera-and-microphone-permissions-with.html"
         },
         {
           "key": "blog/en/flutter-mid-tier-device-lab",
@@ -2757,8 +2757,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-mid-tier-device-lab/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/why-your-device-lab-needs-mid-tier.html"
         },
         {
           "key": "blog/en/flutter-migrate-material3-expressive",
@@ -2769,8 +2769,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-migrate-material3-expressive/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/migrating-large-apps-to-material-3.html"
         },
         {
           "key": "blog/en/flutter-migration-from-rn-2026",
@@ -2781,8 +2781,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-migration-from-rn-2026/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/migrating-from-react-native-to-flutter.html"
         },
         {
           "key": "blog/en/flutter-migration-from-xml-uikit",
@@ -2793,8 +2793,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-migration-from-xml-uikit/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/moving-android-xml-uikit-apps-to.html"
         },
         {
           "key": "blog/en/flutter-mobile-qa-smoke-checklist",
@@ -2805,8 +2805,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-mobile-qa-smoke-checklist/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/a-20-minute-mobile-smoke-checklist.html"
         },
         {
           "key": "blog/en/flutter-model-routing-cascades",
@@ -2817,8 +2817,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-model-routing-cascades/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/model-routing-and-cascades-for-mobile-ai.html"
         },
         {
           "key": "blog/en/flutter-multi-account-mobile",
@@ -2829,8 +2829,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-multi-account-mobile/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/multi-account-apps-without-token-soup.html"
         },
         {
           "key": "blog/en/flutter-multi-window-popup-apis",
@@ -2841,8 +2841,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-multi-window-popup-apis/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/desktop-multi-window-popups-dialogs-and.html"
         },
         {
           "key": "blog/en/flutter-multimodal-camera-ai",

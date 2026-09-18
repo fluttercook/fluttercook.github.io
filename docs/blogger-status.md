@@ -6,7 +6,7 @@ _Generated 2026-09-18 by `scripts/blogger_status.py`. Source of truth for post i
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 434/738 | role ADMIN, 521 post(s) live |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 443/738 | role ADMIN, 530 post(s) live |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/738 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
 | [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 217/738 | role ADMIN, 327 post(s) live |
 
@@ -14,7 +14,7 @@ Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog bu
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **ok** (role ADMIN, 521 post(s) live) · 434/738 published.
+Blog id `8621533667729504576` · access **ok** (role ADMIN, 530 post(s) live) · 443/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -245,15 +245,15 @@ Blog id `8621533667729504576` · access **ok** (role ADMIN, 521 post(s) live) ·
 | 225 | [Background audio with media_kit and platform media sessions](https://fluttercook.github.io/blog/flutter-mediakit-audio-background/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/background-audio-with-mediakit-and.html) |
 | 226 | [Melos monorepos for Flutter apps and packages](https://fluttercook.github.io/blog/flutter-melos-monorepo/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/melos-monorepos-for-flutter-apps-and.html) |
 | 227 | [Haptics and microinteractions that feel native](https://fluttercook.github.io/blog/flutter-microinteractions-haptics/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/haptics-and-microinteractions-that-feel.html) |
-| 228 | [Camera and microphone permissions with honest UX](https://fluttercook.github.io/blog/flutter-microphone-camera-permission/) | en | blog | PENDING | — |
-| 229 | [Why your device lab needs a mid-tier Android](https://fluttercook.github.io/blog/flutter-mid-tier-device-lab/) | en | blog | PENDING | — |
-| 230 | [Migrating large apps to Material 3 Expressive](https://fluttercook.github.io/blog/flutter-migrate-material3-expressive/) | en | blog | PENDING | — |
-| 231 | [Migrating from React Native to Flutter in 2026](https://fluttercook.github.io/blog/flutter-migration-from-rn-2026/) | en | blog | PENDING | — |
-| 232 | [Moving Android XML / UIKit apps to Flutter gradually](https://fluttercook.github.io/blog/flutter-migration-from-xml-uikit/) | en | blog | PENDING | — |
-| 233 | [A 20-minute mobile smoke checklist before every release](https://fluttercook.github.io/blog/flutter-mobile-qa-smoke-checklist/) | en | blog | PENDING | — |
-| 234 | [Model routing and cascades for mobile AI](https://fluttercook.github.io/blog/flutter-model-routing-cascades/) | en | blog | PENDING | — |
-| 235 | [Multi-account apps without token soup](https://fluttercook.github.io/blog/flutter-multi-account-mobile/) | en | blog | PENDING | — |
-| 236 | [Desktop multi-window: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-popup-apis/) | en | blog | PENDING | — |
+| 228 | [Camera and microphone permissions with honest UX](https://fluttercook.github.io/blog/flutter-microphone-camera-permission/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/camera-and-microphone-permissions-with.html) |
+| 229 | [Why your device lab needs a mid-tier Android](https://fluttercook.github.io/blog/flutter-mid-tier-device-lab/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/why-your-device-lab-needs-mid-tier.html) |
+| 230 | [Migrating large apps to Material 3 Expressive](https://fluttercook.github.io/blog/flutter-migrate-material3-expressive/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/migrating-large-apps-to-material-3.html) |
+| 231 | [Migrating from React Native to Flutter in 2026](https://fluttercook.github.io/blog/flutter-migration-from-rn-2026/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/migrating-from-react-native-to-flutter.html) |
+| 232 | [Moving Android XML / UIKit apps to Flutter gradually](https://fluttercook.github.io/blog/flutter-migration-from-xml-uikit/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/moving-android-xml-uikit-apps-to.html) |
+| 233 | [A 20-minute mobile smoke checklist before every release](https://fluttercook.github.io/blog/flutter-mobile-qa-smoke-checklist/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/a-20-minute-mobile-smoke-checklist.html) |
+| 234 | [Model routing and cascades for mobile AI](https://fluttercook.github.io/blog/flutter-model-routing-cascades/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/model-routing-and-cascades-for-mobile-ai.html) |
+| 235 | [Multi-account apps without token soup](https://fluttercook.github.io/blog/flutter-multi-account-mobile/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/multi-account-apps-without-token-soup.html) |
+| 236 | [Desktop multi-window: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-popup-apis/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/desktop-multi-window-popups-dialogs-and.html) |
 | 237 | [Multimodal AI: camera to structured data in Flutter](https://fluttercook.github.io/blog/flutter-multimodal-camera-ai/) | en | blog | PENDING | — |
 | 238 | [Multiple Flutter instances in one host app](https://fluttercook.github.io/blog/flutter-multiple-flutter-instances/) | en | blog | PENDING | — |
 | 239 | [State restoration across process death](https://fluttercook.github.io/blog/flutter-navigation-restoration/) | en | blog | PENDING | — |

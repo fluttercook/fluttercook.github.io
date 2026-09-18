@@ -3119,6 +3119,69 @@
           "title": "Device profiles that define 2026 mobile UX — hướng dẫn Flutter",
           "status": "LIVE",
           "published": "2026-09-18T16:57:11+07:00"
+        },
+        "blog/en/flutter-microphone-camera-permission": {
+          "postId": "2852303772149021014",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/camera-and-microphone-permissions-with.html",
+          "title": "Camera and microphone permissions with honest UX",
+          "status": "LIVE",
+          "published": "2026-09-18T16:58:51+07:00"
+        },
+        "blog/en/flutter-mid-tier-device-lab": {
+          "postId": "4215184461879747977",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/why-your-device-lab-needs-mid-tier.html",
+          "title": "Why your device lab needs a mid-tier Android",
+          "status": "LIVE",
+          "published": "2026-09-18T16:59:07+07:00"
+        },
+        "blog/en/flutter-migrate-material3-expressive": {
+          "postId": "8865562955285874354",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/migrating-large-apps-to-material-3.html",
+          "title": "Migrating large apps to Material 3 Expressive",
+          "status": "LIVE",
+          "published": "2026-09-18T16:59:24+07:00"
+        },
+        "blog/en/flutter-migration-from-rn-2026": {
+          "postId": "6692065695230980387",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/migrating-from-react-native-to-flutter.html",
+          "title": "Migrating from React Native to Flutter in 2026",
+          "status": "LIVE",
+          "published": "2026-09-18T16:59:41+07:00"
+        },
+        "blog/en/flutter-migration-from-xml-uikit": {
+          "postId": "2915476290427434257",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/moving-android-xml-uikit-apps-to.html",
+          "title": "Moving Android XML / UIKit apps to Flutter gradually",
+          "status": "LIVE",
+          "published": "2026-09-18T16:59:58+07:00"
+        },
+        "blog/en/flutter-mobile-qa-smoke-checklist": {
+          "postId": "720105649298927990",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-20-minute-mobile-smoke-checklist.html",
+          "title": "A 20-minute mobile smoke checklist before every release",
+          "status": "LIVE",
+          "published": "2026-09-18T17:00:15+07:00"
+        },
+        "blog/en/flutter-model-routing-cascades": {
+          "postId": "3455087536838109272",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/model-routing-and-cascades-for-mobile-ai.html",
+          "title": "Model routing and cascades for mobile AI",
+          "status": "LIVE",
+          "published": "2026-09-18T17:00:33+07:00"
+        },
+        "blog/en/flutter-multi-account-mobile": {
+          "postId": "2846774400650499575",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/multi-account-apps-without-token-soup.html",
+          "title": "Multi-account apps without token soup",
+          "status": "LIVE",
+          "published": "2026-09-18T17:00:50+07:00"
+        },
+        "blog/en/flutter-multi-window-popup-apis": {
+          "postId": "8097219331984968197",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/desktop-multi-window-popups-dialogs-and.html",
+          "title": "Desktop multi-window: popups, dialogs, and windowHandle",
+          "status": "LIVE",
+          "published": "2026-09-18T17:01:07+07:00"
         }
       },
       "pages": {
