@@ -4148,6 +4148,118 @@
           "title": "Maps, location, and permission UX in Flutter apps — hướng dẫn Flutter",
           "status": "LIVE",
           "published": "2026-09-20T15:54:31+07:00"
+        },
+        "blog/en/oss-camera-plugin": {
+          "postId": "7478873784593410479",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/camera-real-capture-pipeline-not-just.html",
+          "title": "camera: a real capture pipeline, not just a preview",
+          "status": "LIVE",
+          "published": "2026-09-21T02:01:50+07:00"
+        },
+        "blog/en/oss-connectivity-plus": {
+          "postId": "755876295478136980",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/connectivityplus-network-type-is-not.html",
+          "title": "connectivity_plus: network type is not internet reachability",
+          "status": "LIVE",
+          "published": "2026-09-21T02:02:07+07:00"
+        },
+        "blog/en/oss-desktop-multi-window": {
+          "postId": "6411380193054950080",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/desktopmultiwindow-isolate-desktop.html",
+          "title": "desktop_multi_window: isolate desktop surfaces intentionally",
+          "status": "LIVE",
+          "published": "2026-09-21T02:02:25+07:00"
+        },
+        "blog/en/oss-dio-networking": {
+          "postId": "4967730590349477638",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/dio-composeable-networking-with.html",
+          "title": "Dio: composeable networking with interceptors",
+          "status": "LIVE",
+          "published": "2026-09-21T02:02:42+07:00"
+        },
+        "blog/en/oss-drift-database": {
+          "postId": "4568734929870679633",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/drift-typed-sql-for-offline-first.html",
+          "title": "Drift: typed SQL for an offline-first Flutter app",
+          "status": "LIVE",
+          "published": "2026-09-21T02:02:59+07:00"
+        },
+        "blog/en/oss-equatable": {
+          "postId": "4652365996182998452",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/equatable-value-semantics-for-dart.html",
+          "title": "Equatable: value semantics for Dart state objects",
+          "status": "LIVE",
+          "published": "2026-09-21T02:03:16+07:00"
+        },
+        "blog/en/oss-file-picker": {
+          "postId": "84581702385179401",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/filepicker-one-user-intent-across-six.html",
+          "title": "file_picker: one user intent across six platforms",
+          "status": "LIVE",
+          "published": "2026-09-21T02:03:34+07:00"
+        },
+        "blog/en/oss-flex-color-scheme": {
+          "postId": "7341698476172984874",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flexcolorscheme-design-system-themes.html",
+          "title": "FlexColorScheme: design-system themes without boilerplate",
+          "status": "LIVE",
+          "published": "2026-09-21T02:03:51+07:00"
+        },
+        "blog/en/oss-flutter-animations": {
+          "postId": "1237565516417019802",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/animations-reusable-material-motion.html",
+          "title": "animations: reusable Material motion patterns",
+          "status": "LIVE",
+          "published": "2026-09-21T02:04:08+07:00"
+        },
+        "blog/en/oss-flutter-bloc": {
+          "postId": "2114804237138582392",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutterbloc-explicit-events-and-states.html",
+          "title": "flutter_bloc: explicit events and states at scale",
+          "status": "LIVE",
+          "published": "2026-09-21T02:04:25+07:00"
+        },
+        "blog/en/oss-flutter-hooks": {
+          "postId": "6570221934507580247",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutterhooks-reusable-stateful-behavior.html",
+          "title": "flutter_hooks: reusable stateful behavior as tiny hooks",
+          "status": "LIVE",
+          "published": "2026-09-21T02:04:42+07:00"
+        },
+        "blog/en/oss-flutter-rust-bridge": {
+          "postId": "6018806787926878434",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutterrustbridge-typed-rust-without.html",
+          "title": "flutter_rust_bridge: typed Rust without hand-written FFI glue",
+          "status": "LIVE",
+          "published": "2026-09-21T02:04:59+07:00"
+        },
+        "blog/en/oss-flutter-secure-storage": {
+          "postId": "1698457571792142286",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fluttersecurestorage-secrets-behind.html",
+          "title": "flutter_secure_storage: secrets behind platform keychains",
+          "status": "LIVE",
+          "published": "2026-09-21T02:05:16+07:00"
+        },
+        "blog/en/oss-forui-components": {
+          "postId": "3951743540711929529",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/forui-accessible-headless-components.html",
+          "title": "ForUI: accessible headless components for Flutter",
+          "status": "LIVE",
+          "published": "2026-09-21T02:05:33+07:00"
+        },
+        "blog/en/oss-freezed": {
+          "postId": "1396004694391086736",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/freezed-safer-immutable-models-and.html",
+          "title": "Freezed: safer immutable models and unions",
+          "status": "LIVE",
+          "published": "2026-09-21T02:05:50+07:00"
+        },
+        "blog/en/oss-fvm-flutter-version-manager": {
+          "postId": "1258292105198837006",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/fvm-pin-flutter-versions-per-repository.html",
+          "title": "FVM: pin Flutter versions per repository",
+          "status": "LIVE",
+          "published": "2026-09-21T02:06:06+07:00"
         }
       },
       "pages": {

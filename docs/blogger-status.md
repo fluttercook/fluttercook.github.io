@@ -1,20 +1,20 @@
 # Blogger publish status
 
-_Generated 2026-09-20 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
+_Generated 2026-09-21 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
 
 **738 publishable articles** on the site (38 news, 700 blog).
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 566/738 | role ADMIN, 653 post(s) live |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 582/738 | role ADMIN, 669 post(s) live |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/738 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
-| [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 235/738 | role ADMIN, 345 post(s) live |
+| [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 241/738 | role ADMIN, 351 post(s) live |
 
 Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog but not in our sync map · **SOURCE** this blog is where the article came from · **PENDING** ready to publish · **BLOCKED** no write access yet.
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **ok** (role ADMIN, 653 post(s) live) · 566/738 published.
+Blog id `8621533667729504576` · access **ok** (role ADMIN, 669 post(s) live) · 582/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -330,22 +330,22 @@ Blog id `8621533667729504576` · access **ok** (role ADMIN, 653 post(s) live) ·
 | 310 | [Widget Previewer is stable: isolate UI without booting the app](https://fluttercook.github.io/blog/flutter-widget-previewer-stable/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/widget-previewer-is-stable-isolate-ui.html) |
 | 311 | [Appwrite Flutter: backend services with explicit clients](https://fluttercook.github.io/blog/oss-appwrite-flutter/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/appwrite-flutter-backend-services-with.html) |
 | 312 | [build_runner: make code generation a deterministic build step](https://fluttercook.github.io/blog/oss-build-runner/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/buildrunner-make-code-generation.html) |
-| 313 | [camera: a real capture pipeline, not just a preview](https://fluttercook.github.io/blog/oss-camera-plugin/) | en | blog | PENDING | — |
-| 314 | [connectivity_plus: network type is not internet reachability](https://fluttercook.github.io/blog/oss-connectivity-plus/) | en | blog | PENDING | — |
-| 315 | [desktop_multi_window: isolate desktop surfaces intentionally](https://fluttercook.github.io/blog/oss-desktop-multi-window/) | en | blog | PENDING | — |
-| 316 | [Dio: composeable networking with interceptors](https://fluttercook.github.io/blog/oss-dio-networking/) | en | blog | PENDING | — |
-| 317 | [Drift: typed SQL for an offline-first Flutter app](https://fluttercook.github.io/blog/oss-drift-database/) | en | blog | PENDING | — |
-| 318 | [Equatable: value semantics for Dart state objects](https://fluttercook.github.io/blog/oss-equatable/) | en | blog | PENDING | — |
-| 319 | [file_picker: one user intent across six platforms](https://fluttercook.github.io/blog/oss-file-picker/) | en | blog | PENDING | — |
-| 320 | [FlexColorScheme: design-system themes without boilerplate](https://fluttercook.github.io/blog/oss-flex-color-scheme/) | en | blog | PENDING | — |
-| 321 | [animations: reusable Material motion patterns](https://fluttercook.github.io/blog/oss-flutter-animations/) | en | blog | PENDING | — |
-| 322 | [flutter_bloc: explicit events and states at scale](https://fluttercook.github.io/blog/oss-flutter-bloc/) | en | blog | PENDING | — |
-| 323 | [flutter_hooks: reusable stateful behavior as tiny hooks](https://fluttercook.github.io/blog/oss-flutter-hooks/) | en | blog | PENDING | — |
-| 324 | [flutter_rust_bridge: typed Rust without hand-written FFI glue](https://fluttercook.github.io/blog/oss-flutter-rust-bridge/) | en | blog | PENDING | — |
-| 325 | [flutter_secure_storage: secrets behind platform keychains](https://fluttercook.github.io/blog/oss-flutter-secure-storage/) | en | blog | PENDING | — |
-| 326 | [ForUI: accessible headless components for Flutter](https://fluttercook.github.io/blog/oss-forui-components/) | en | blog | PENDING | — |
-| 327 | [Freezed: safer immutable models and unions](https://fluttercook.github.io/blog/oss-freezed/) | en | blog | PENDING | — |
-| 328 | [FVM: pin Flutter versions per repository](https://fluttercook.github.io/blog/oss-fvm-flutter-version-manager/) | en | blog | PENDING | — |
+| 313 | [camera: a real capture pipeline, not just a preview](https://fluttercook.github.io/blog/oss-camera-plugin/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/camera-real-capture-pipeline-not-just.html) |
+| 314 | [connectivity_plus: network type is not internet reachability](https://fluttercook.github.io/blog/oss-connectivity-plus/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/connectivityplus-network-type-is-not.html) |
+| 315 | [desktop_multi_window: isolate desktop surfaces intentionally](https://fluttercook.github.io/blog/oss-desktop-multi-window/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/desktopmultiwindow-isolate-desktop.html) |
+| 316 | [Dio: composeable networking with interceptors](https://fluttercook.github.io/blog/oss-dio-networking/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/dio-composeable-networking-with.html) |
+| 317 | [Drift: typed SQL for an offline-first Flutter app](https://fluttercook.github.io/blog/oss-drift-database/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/drift-typed-sql-for-offline-first.html) |
+| 318 | [Equatable: value semantics for Dart state objects](https://fluttercook.github.io/blog/oss-equatable/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/equatable-value-semantics-for-dart.html) |
+| 319 | [file_picker: one user intent across six platforms](https://fluttercook.github.io/blog/oss-file-picker/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/filepicker-one-user-intent-across-six.html) |
+| 320 | [FlexColorScheme: design-system themes without boilerplate](https://fluttercook.github.io/blog/oss-flex-color-scheme/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flexcolorscheme-design-system-themes.html) |
+| 321 | [animations: reusable Material motion patterns](https://fluttercook.github.io/blog/oss-flutter-animations/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/animations-reusable-material-motion.html) |
+| 322 | [flutter_bloc: explicit events and states at scale](https://fluttercook.github.io/blog/oss-flutter-bloc/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutterbloc-explicit-events-and-states.html) |
+| 323 | [flutter_hooks: reusable stateful behavior as tiny hooks](https://fluttercook.github.io/blog/oss-flutter-hooks/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutterhooks-reusable-stateful-behavior.html) |
+| 324 | [flutter_rust_bridge: typed Rust without hand-written FFI glue](https://fluttercook.github.io/blog/oss-flutter-rust-bridge/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutterrustbridge-typed-rust-without.html) |
+| 325 | [flutter_secure_storage: secrets behind platform keychains](https://fluttercook.github.io/blog/oss-flutter-secure-storage/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/fluttersecurestorage-secrets-behind.html) |
+| 326 | [ForUI: accessible headless components for Flutter](https://fluttercook.github.io/blog/oss-forui-components/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/forui-accessible-headless-components.html) |
+| 327 | [Freezed: safer immutable models and unions](https://fluttercook.github.io/blog/oss-freezed/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/freezed-safer-immutable-models-and.html) |
+| 328 | [FVM: pin Flutter versions per repository](https://fluttercook.github.io/blog/oss-fvm-flutter-version-manager/) | en | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/fvm-pin-flutter-versions-per-repository.html) |
 | 329 | [go_router: URL-first navigation for Flutter](https://fluttercook.github.io/blog/oss-go-router/) | en | blog | PENDING | — |
 | 330 | [Golden Toolkit: visual regression with intent](https://fluttercook.github.io/blog/oss-golden-toolkit/) | en | blog | PENDING | — |
 | 331 | [image_picker: a small API over messy media sources](https://fluttercook.github.io/blog/oss-image-picker/) | en | blog | PENDING | — |
@@ -1504,7 +1504,7 @@ Blog id `2374794397032110467` · access **author-cannot-create** (role AUTHOR, 1
 
 ## flutter9.blogspot.com
 
-Blog id `954315885651943515` · access **ok** (role ADMIN, 345 post(s) live) · 235/738 published.
+Blog id `954315885651943515` · access **ok** (role ADMIN, 351 post(s) live) · 241/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -1638,9 +1638,9 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 345 post(s) live) · 
 | 128 | [The April 2027 SDK deadline for App Store uploads](https://fluttercook.github.io/blog/flutter-app-store-2027-sdk-deadline/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app.html) |
 | 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile.html) |
 | 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions.html) |
-| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | PENDING | — |
-| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | PENDING | — |
-| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | PENDING | — |
+| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/certificate-pinning-and-network.html) |
+| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/carplay-and-android-auto-with-mobile.html) |
+| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear.html) |
 | 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | PENDING | — |
 | 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | PENDING | — |
 | 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | PENDING | — |
@@ -1988,9 +1988,9 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 345 post(s) live) · 
 | 478 | [The April 2027 SDK deadline for App Store uploads — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-store-2027-sdk-deadline/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app_0549717227.html) |
 | 479 | [AR and visionOS companions for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ar-visionos-companion/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile_02103936149.html) |
 | 480 | [ADRs for mobile architecture decisions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-architecture-decision-records/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions_01503755551.html) |
-| 481 | [Certificate pinning and network security on mobile — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/) | vi | blog | PENDING | — |
-| 482 | [CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/) | vi | blog | PENDING | — |
-| 483 | [Escaping setState spaghetti with clear ownership — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/) | vi | blog | PENDING | — |
+| 481 | [Certificate pinning and network security on mobile — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/certificate-pinning-and-network_01989404614.html) |
+| 482 | [CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/carplay-and-android-auto-with-mobile_01523254165.html) |
+| 483 | [Escaping setState spaghetti with clear ownership — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear_01409186941.html) |
 | 484 | [Field-service apps: offline-first B2B patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-offline-field-apps/) | vi | blog | PENDING | — |
 | 485 | [SSO for enterprise mobile: OIDC and SAML realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-sso-saml-oidc/) | vi | blog | PENDING | — |
 | 486 | [Background work limits on iOS and Android in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-background-fetch-limits/) | vi | blog | PENDING | — |

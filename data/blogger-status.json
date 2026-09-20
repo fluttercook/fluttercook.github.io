@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-20",
+  "generated": "2026-09-21",
   "articles": 738,
   "blogs": [
     {
@@ -8,8 +8,8 @@
       "url": "https://trunghieu-it.blogspot.com/",
       "priority": 1,
       "access": "ok",
-      "detail": "role ADMIN, 653 post(s) live",
-      "done": 566,
+      "detail": "role ADMIN, 669 post(s) live",
+      "done": 582,
       "total": 738,
       "posts": [
         {
@@ -3765,8 +3765,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-camera-plugin/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/camera-real-capture-pipeline-not-just.html"
         },
         {
           "key": "blog/en/oss-connectivity-plus",
@@ -3777,8 +3777,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-connectivity-plus/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/connectivityplus-network-type-is-not.html"
         },
         {
           "key": "blog/en/oss-desktop-multi-window",
@@ -3789,8 +3789,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-desktop-multi-window/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/desktopmultiwindow-isolate-desktop.html"
         },
         {
           "key": "blog/en/oss-dio-networking",
@@ -3801,8 +3801,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-dio-networking/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/dio-composeable-networking-with.html"
         },
         {
           "key": "blog/en/oss-drift-database",
@@ -3813,8 +3813,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-drift-database/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/drift-typed-sql-for-offline-first.html"
         },
         {
           "key": "blog/en/oss-equatable",
@@ -3825,8 +3825,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-equatable/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/equatable-value-semantics-for-dart.html"
         },
         {
           "key": "blog/en/oss-file-picker",
@@ -3837,8 +3837,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-file-picker/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/filepicker-one-user-intent-across-six.html"
         },
         {
           "key": "blog/en/oss-flex-color-scheme",
@@ -3849,8 +3849,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-flex-color-scheme/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/flexcolorscheme-design-system-themes.html"
         },
         {
           "key": "blog/en/oss-flutter-animations",
@@ -3861,8 +3861,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-flutter-animations/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/animations-reusable-material-motion.html"
         },
         {
           "key": "blog/en/oss-flutter-bloc",
@@ -3873,8 +3873,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-flutter-bloc/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/flutterbloc-explicit-events-and-states.html"
         },
         {
           "key": "blog/en/oss-flutter-hooks",
@@ -3885,8 +3885,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-flutter-hooks/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/flutterhooks-reusable-stateful-behavior.html"
         },
         {
           "key": "blog/en/oss-flutter-rust-bridge",
@@ -3897,8 +3897,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-flutter-rust-bridge/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/flutterrustbridge-typed-rust-without.html"
         },
         {
           "key": "blog/en/oss-flutter-secure-storage",
@@ -3909,8 +3909,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-flutter-secure-storage/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/fluttersecurestorage-secrets-behind.html"
         },
         {
           "key": "blog/en/oss-forui-components",
@@ -3921,8 +3921,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-forui-components/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/forui-accessible-headless-components.html"
         },
         {
           "key": "blog/en/oss-freezed",
@@ -3933,8 +3933,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-freezed/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/freezed-safer-immutable-models-and.html"
         },
         {
           "key": "blog/en/oss-fvm-flutter-version-manager",
@@ -3945,8 +3945,8 @@
           "publishDate": "2026-09-16",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/oss-fvm-flutter-version-manager/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/fvm-pin-flutter-versions-per-repository.html"
         },
         {
           "key": "blog/en/oss-go-router",
@@ -17744,8 +17744,8 @@
       "url": "https://flutter9.blogspot.com/",
       "priority": 3,
       "access": "ok",
-      "detail": "role ADMIN, 345 post(s) live",
-      "done": 235,
+      "detail": "role ADMIN, 351 post(s) live",
+      "done": 241,
       "total": 738,
       "posts": [
         {
@@ -19317,8 +19317,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-attestation-network-security/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/certificate-pinning-and-network.html"
         },
         {
           "key": "blog/en/flutter-automotive-carplay-androidauto",
@@ -19329,8 +19329,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/carplay-and-android-auto-with-mobile.html"
         },
         {
           "key": "blog/en/flutter-avoid-setstate-spaghetti",
@@ -19341,8 +19341,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear.html"
         },
         {
           "key": "blog/en/flutter-b2b-offline-field-apps",
@@ -23517,8 +23517,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/certificate-pinning-and-network_01989404614.html"
         },
         {
           "key": "blog/vi/flutter-automotive-carplay-androidauto",
@@ -23529,8 +23529,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/carplay-and-android-auto-with-mobile_01523254165.html"
         },
         {
           "key": "blog/vi/flutter-avoid-setstate-spaghetti",
@@ -23541,8 +23541,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE-UNTRACKED",
+          "blogUrl": "https://flutter9.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear_01409186941.html"
         },
         {
           "key": "blog/vi/flutter-b2b-offline-field-apps",
