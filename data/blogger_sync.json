@@ -4260,6 +4260,104 @@
           "title": "FVM: pin Flutter versions per repository",
           "status": "LIVE",
           "published": "2026-09-21T02:06:06+07:00"
+        },
+        "blog/en/oss-go-router": {
+          "postId": "6719802850741445873",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/gorouter-url-first-navigation-for.html",
+          "title": "go_router: URL-first navigation for Flutter",
+          "status": "LIVE",
+          "published": "2026-09-22T03:18:20+07:00"
+        },
+        "blog/en/oss-golden-toolkit": {
+          "postId": "3584786215380729906",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/golden-toolkit-visual-regression-with.html",
+          "title": "Golden Toolkit: visual regression with intent",
+          "status": "LIVE",
+          "published": "2026-09-22T03:34:14+07:00"
+        },
+        "blog/en/oss-image-picker": {
+          "postId": "4569008076497705408",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/imagepicker-small-api-over-messy-media.html",
+          "title": "image_picker: a small API over messy media sources",
+          "status": "LIVE",
+          "published": "2026-09-22T03:50:15+07:00"
+        },
+        "blog/en/oss-intl-localization": {
+          "postId": "8246743686655941584",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/intl-format-locale-sensitive-data.html",
+          "title": "intl: format locale-sensitive data deliberately",
+          "status": "LIVE",
+          "published": "2026-09-22T03:50:32+07:00"
+        },
+        "blog/en/oss-isar-database": {
+          "postId": "4515412862211026858",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/isar-fast-local-objects-with-queryable.html",
+          "title": "Isar: fast local objects with queryable indexes",
+          "status": "LIVE",
+          "published": "2026-09-22T03:50:49+07:00"
+        },
+        "blog/en/oss-json-serializable": {
+          "postId": "1728183487045843180",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/jsonserializable-boring-json-that.html",
+          "title": "json_serializable: boring JSON that survives refactors",
+          "status": "LIVE",
+          "published": "2026-09-22T03:51:05+07:00"
+        },
+        "blog/en/oss-just-audio": {
+          "postId": "717929488501134066",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/justaudio-controllable-audio-with.html",
+          "title": "just_audio: controllable audio with streams",
+          "status": "LIVE",
+          "published": "2026-09-22T03:51:22+07:00"
+        },
+        "blog/en/oss-local-auth": {
+          "postId": "8564002932352347502",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/localauth-biometrics-as-step-up-not.html",
+          "title": "local_auth: biometrics as a step-up, not a password store",
+          "status": "LIVE",
+          "published": "2026-09-22T03:51:39+07:00"
+        },
+        "blog/en/oss-melos-monorepo": {
+          "postId": "4649304471523838522",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/melos-make-flutter-monorepo-product.html",
+          "title": "Melos: make a Flutter monorepo a product boundary",
+          "status": "LIVE",
+          "published": "2026-09-22T03:51:56+07:00"
+        },
+        "blog/en/oss-mocktail": {
+          "postId": "6043158272477950890",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mocktail-readable-dart-mocks-without.html",
+          "title": "Mocktail: readable Dart mocks without generated files",
+          "status": "LIVE",
+          "published": "2026-09-22T03:52:13+07:00"
+        },
+        "blog/en/oss-patrol-testing": {
+          "postId": "5449481411109649770",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/patrol-integration-tests-that-can-leave.html",
+          "title": "Patrol: integration tests that can leave the Flutter sandbox",
+          "status": "LIVE",
+          "published": "2026-09-22T03:52:30+07:00"
+        },
+        "blog/en/oss-permission-handler": {
+          "postId": "8910891769965735459",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/permissionhandler-runtime-permission.html",
+          "title": "permission_handler: runtime permission flows you can explain",
+          "status": "LIVE",
+          "published": "2026-09-22T03:52:47+07:00"
+        },
+        "blog/en/oss-pigeon-typed-platform-channels": {
+          "postId": "4527720322271888263",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/pigeon-typed-platform-channels.html",
+          "title": "Pigeon: typed platform channels generated from one schema",
+          "status": "LIVE",
+          "published": "2026-09-22T04:05:15+07:00"
+        },
+        "blog/en/oss-rive-runtime": {
+          "postId": "8730390535754368830",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rive-interactive-vector-animation-as.html",
+          "title": "Rive: interactive vector animation as a state machine",
+          "status": "LIVE",
+          "published": "2026-09-22T04:05:31+07:00"
         }
       },
       "pages": {
