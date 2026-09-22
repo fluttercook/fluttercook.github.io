@@ -4358,6 +4358,202 @@
           "title": "Rive: interactive vector animation as a state machine",
           "status": "LIVE",
           "published": "2026-09-22T04:05:31+07:00"
+        },
+        "blog/en/oss-riverpod": {
+          "postId": "8821413054059190162",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/riverpod-testable-async-state-without.html",
+          "title": "Riverpod: testable async state without widget coupling",
+          "status": "LIVE",
+          "published": "2026-09-23T02:02:30+07:00"
+        },
+        "blog/en/oss-sentry-flutter": {
+          "postId": "7977854615282731783",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/sentry-flutter-errors-with-release.html",
+          "title": "Sentry Flutter: errors with release context",
+          "status": "LIVE",
+          "published": "2026-09-23T02:02:47+07:00"
+        },
+        "blog/en/oss-shadcn-flutter-components": {
+          "postId": "2718923495279837820",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/shadcnflutter-composable-ui-primitives.html",
+          "title": "shadcn_flutter: composable UI primitives for Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:03:05+07:00"
+        },
+        "blog/en/oss-skeletonizer": {
+          "postId": "203317035082540099",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/skeletonizer-loading-ui-from-real.html",
+          "title": "skeletonizer: loading UI from the real widget tree",
+          "status": "LIVE",
+          "published": "2026-09-23T02:03:21+07:00"
+        },
+        "blog/en/oss-supabase-flutter": {
+          "postId": "3800806865216502144",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/supabaseflutter-auth-postgres-realtime.html",
+          "title": "supabase_flutter: auth, Postgres, realtime, and storage",
+          "status": "LIVE",
+          "published": "2026-09-23T02:03:38+07:00"
+        },
+        "blog/en/oss-url-launcher": {
+          "postId": "6599265827968124761",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/urllauncher-platform-intent-with.html",
+          "title": "url_launcher: platform intent with a fallback contract",
+          "status": "LIVE",
+          "published": "2026-09-23T02:03:55+07:00"
+        },
+        "blog/en/oss-very-good-cli": {
+          "postId": "2071715293474449789",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/very-good-cli-opinionated-flutter.html",
+          "title": "Very Good CLI: opinionated Flutter scaffolding",
+          "status": "LIVE",
+          "published": "2026-09-23T02:04:13+07:00"
+        },
+        "blog/en/oss-video-player": {
+          "postId": "8177781534311487882",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/videoplayer-platform-backed-flutter.html",
+          "title": "video_player: the platform-backed Flutter video primitive",
+          "status": "LIVE",
+          "published": "2026-09-23T02:04:30+07:00"
+        },
+        "blog/vi/flutter-material3-expressive-theming": {
+          "postId": "9064835266770313698",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/material-3-expressive-theming-without_0605802717.html",
+          "title": "Material 3 Expressive theming without fighting Flutter — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:04:57+07:00"
+        },
+        "blog/vi/flutter-mediakit-audio-background": {
+          "postId": "4441381168699432736",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/background-audio-with-mediakit-and_01819009789.html",
+          "title": "Background audio with media_kit and platform media sessions — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:05:15+07:00"
+        },
+        "blog/vi/flutter-melos-monorepo": {
+          "postId": "7736379571467540337",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/melos-monorepos-for-flutter-apps-and_01209677145.html",
+          "title": "Melos monorepos for Flutter apps and packages — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:05:32+07:00"
+        },
+        "blog/vi/flutter-memory-leaks-devtools": {
+          "postId": "615643197801488631",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/tim-ro-ri-bo-nho-trong-flutter-nam-loai_01860186343.html",
+          "title": "Tìm rò rỉ bộ nhớ trong Flutter: năm loại đối tượng không bao giờ được dispose",
+          "status": "LIVE",
+          "published": "2026-09-23T02:05:49+07:00"
+        },
+        "blog/vi/flutter-microinteractions-haptics": {
+          "postId": "2243770008392408471",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/haptics-and-microinteractions-that-feel_0652983419.html",
+          "title": "Haptics and microinteractions that feel native — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:06:06+07:00"
+        },
+        "blog/vi/flutter-microphone-camera-permission": {
+          "postId": "5336839211280255254",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/camera-and-microphone-permissions-with_0643203335.html",
+          "title": "Camera and microphone permissions with honest UX — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:06:22+07:00"
+        },
+        "blog/vi/flutter-mid-tier-device-lab": {
+          "postId": "3484597970606307044",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/why-your-device-lab-needs-mid-tier_014507667.html",
+          "title": "Why your device lab needs a mid-tier Android — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:06:38+07:00"
+        },
+        "blog/vi/flutter-migrate-material3-expressive": {
+          "postId": "7621075490999575566",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/migrating-large-apps-to-material-3_02113118206.html",
+          "title": "Migrating large apps to Material 3 Expressive — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:06:55+07:00"
+        },
+        "blog/vi/flutter-migration-from-rn-2026": {
+          "postId": "1618489814366208749",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/migrating-from-react-native-to-flutter_0738317856.html",
+          "title": "Migrating from React Native to Flutter in 2026 — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:07:12+07:00"
+        },
+        "blog/vi/flutter-migration-from-xml-uikit": {
+          "postId": "4345104399127942853",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/moving-android-xml-uikit-apps-to_0783646489.html",
+          "title": "Moving Android XML / UIKit apps to Flutter gradually — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:07:29+07:00"
+        },
+        "blog/vi/flutter-mobile-qa-smoke-checklist": {
+          "postId": "925829796013395946",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-20-minute-mobile-smoke-checklist_01970700678.html",
+          "title": "A 20-minute mobile smoke checklist before every release — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:07:46+07:00"
+        },
+        "blog/vi/flutter-model-routing-cascades": {
+          "postId": "8690428654438451683",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/model-routing-and-cascades-for-mobile.html",
+          "title": "Model routing and cascades for mobile AI — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:08:02+07:00"
+        },
+        "blog/vi/flutter-multi-account-mobile": {
+          "postId": "6154074217661829416",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/multi-account-apps-without-token-soup_0309423871.html",
+          "title": "Multi-account apps without token soup — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:08:20+07:00"
+        },
+        "blog/vi/flutter-multi-window-popup-apis": {
+          "postId": "7894768464064989938",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/desktop-multi-window-popups-dialogs-and_0771774385.html",
+          "title": "Desktop multi-window: popups, dialogs, and windowHandle — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:08:37+07:00"
+        },
+        "blog/vi/flutter-multimodal-camera-ai": {
+          "postId": "2376439270773049916",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/multimodal-ai-camera-to-structured-data_01966054890.html",
+          "title": "Multimodal AI: camera to structured data in Flutter — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:08:54+07:00"
+        },
+        "blog/vi/flutter-multiple-flutter-instances": {
+          "postId": "73700482032477460",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/multiple-flutter-instances-in-one-host_0237943788.html",
+          "title": "Multiple Flutter instances in one host app — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:09:11+07:00"
+        },
+        "blog/vi/flutter-navigation-go-router-deep-links": {
+          "postId": "3706687799210819905",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/gorouter-va-deep-link-nhung-phan-ma-bai.html",
+          "title": "go_router và deep link: những phần mà bài quickstart bỏ qua",
+          "status": "LIVE",
+          "published": "2026-09-23T02:09:28+07:00"
+        },
+        "blog/vi/flutter-navigation-restoration": {
+          "postId": "5610759795292332636",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/state-restoration-across-process-death_01332696214.html",
+          "title": "State restoration across process death — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:09:45+07:00"
+        },
+        "blog/vi/flutter-obfuscate-secrets-release": {
+          "postId": "6281547862980481099",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/obfuscation-symbols-and-secrets-in_0779728892.html",
+          "title": "Obfuscation, symbols, and secrets in Flutter release builds — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:10:02+07:00"
+        },
+        "blog/vi/flutter-observability-cost-mobile": {
+          "postId": "3558857811146696676",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-observability-cost-control-huong.html",
+          "title": "Mobile observability cost control — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-23T02:10:19+07:00"
         }
       },
       "pages": {
