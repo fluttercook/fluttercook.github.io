@@ -4554,6 +4554,146 @@
           "title": "Mobile observability cost control — hướng dẫn Flutter",
           "status": "LIVE",
           "published": "2026-09-23T02:10:19+07:00"
+        },
+        "blog/vi/flutter-observability-sentry-firebase": {
+          "postId": "2981230043475814148",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-observability-sentry-crashlytics_01908013895.html",
+          "title": "Mobile observability: Sentry, Crashlytics, and custom traces — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:02:21+07:00"
+        },
+        "blog/vi/flutter-offline-ai-fallback": {
+          "postId": "4931798299331531559",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/graceful-degradation-when-ai-is_0611117448.html",
+          "title": "Graceful degradation when AI is unavailable — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:02:38+07:00"
+        },
+        "blog/vi/flutter-offline-sync-conflict": {
+          "postId": "2755103749283463440",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/sync-conflict-resolution-patterns-for_0778609995.html",
+          "title": "Sync conflict resolution patterns for mobile apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:02:55+07:00"
+        },
+        "blog/vi/flutter-okrs-mobile-product": {
+          "postId": "7961293520493215874",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-okrs-that-engineering-can_0183746894.html",
+          "title": "Mobile OKRs that engineering can influence — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:03:13+07:00"
+        },
+        "blog/vi/flutter-oncall-mobile-runbook": {
+          "postId": "2972501416671169056",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-on-call-runbooks-that-juniors_0494131975.html",
+          "title": "Mobile on-call runbooks that juniors can execute — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:03:30+07:00"
+        },
+        "blog/vi/flutter-ondevice-llm-product": {
+          "postId": "2506564217438058959",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/product-patterns-for-on-device-llms-in_01782843494.html",
+          "title": "Product patterns for on-device LLMs in mobile apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:03:47+07:00"
+        },
+        "blog/vi/flutter-open-source-app-study": {
+          "postId": "2856753326795838304",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/how-to-study-open-source-flutter-apps_01835679624.html",
+          "title": "How to study open-source Flutter apps without drowning — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:04:04+07:00"
+        },
+        "blog/vi/flutter-package-selection-checklist": {
+          "postId": "2238893302749131200",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/how-to-pick-flutter-package-in-2026_0340240301.html",
+          "title": "How to pick a Flutter package in 2026 — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:04:21+07:00"
+        },
+        "blog/vi/flutter-pagination-infinite-scroll": {
+          "postId": "1181769322113335772",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/pagination-and-infinite-scroll-without_02048446161.html",
+          "title": "Pagination and infinite scroll without layout jank — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:04:38+07:00"
+        },
+        "blog/vi/flutter-passkeys-passwordless": {
+          "postId": "4045935807510579406",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/passkeys-and-passwordless-login-in_01560766458.html",
+          "title": "Passkeys and passwordless login in mobile apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:04:55+07:00"
+        },
+        "blog/vi/flutter-payments-fraud-mobile": {
+          "postId": "3965249425121520649",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-payment-fraud-signals-worth_0102913886.html",
+          "title": "Mobile payment fraud signals worth watching — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:05:12+07:00"
+        },
+        "blog/vi/flutter-performance-budget-product": {
+          "postId": "8188888963477026565",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/setting-frame-budget-your-product-team_0751358197.html",
+          "title": "Setting a frame budget your product team understands — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:05:28+07:00"
+        },
+        "blog/vi/flutter-photo-library-permissions": {
+          "postId": "5128542836325243741",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/photo-library-access-limited-libraries_0543877065.html",
+          "title": "Photo library access: limited libraries and privacy labels — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:05:45+07:00"
+        },
+        "blog/vi/flutter-pigeon-typed-channels": {
+          "postId": "523435764781454878",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/pigeon-typed-platform-channels-that_0948118641.html",
+          "title": "Pigeon: typed platform channels that scale — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:06:02+07:00"
+        },
+        "blog/vi/flutter-platform-assets-reduce-apk": {
+          "postId": "8779288761730521459",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/ship-only-assets-each-platform-needs_0798414609.html",
+          "title": "Ship only the assets each platform needs — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:06:19+07:00"
+        },
+        "blog/vi/flutter-platform-channels-vs-ffi-2026": {
+          "postId": "4959195922330389426",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/platform-channels-vs-ffi-in-2026-pick_02134337319.html",
+          "title": "Platform channels vs FFI in 2026: pick the right bridge — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:06:36+07:00"
+        },
+        "blog/vi/flutter-play-policy-2026": {
+          "postId": "5602210525494464422",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/google-play-policy-changes-mobile-teams_01797127910.html",
+          "title": "Google Play policy changes mobile teams should track — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:06:53+07:00"
+        },
+        "blog/vi/flutter-portfolio-projects-2026": {
+          "postId": "5528229438844088640",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/portfolio-flutter-projects-that-get_0447394737.html",
+          "title": "Portfolio Flutter projects that get interviews in 2026 — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:07:09+07:00"
+        },
+        "blog/vi/flutter-postmortem-blameless": {
+          "postId": "1980682153741713922",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/blameless-mobile-incident-postmortems_0737887215.html",
+          "title": "Blameless mobile incident postmortems — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:07:26+07:00"
+        },
+        "blog/vi/flutter-predictive-back": {
+          "postId": "2858104368778905388",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/predictive-back-animations-in-flutter_0222708819.html",
+          "title": "Predictive back animations in Flutter Android apps — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-24T02:07:43+07:00"
         }
       },
       "pages": {
