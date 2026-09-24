@@ -1,6 +1,6 @@
 # Blogger publish status
 
-_Generated 2026-09-24 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
+_Generated 2026-09-25 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
 
 **738 publishable articles** on the site (38 news, 700 blog).
 
@@ -8,7 +8,7 @@ _Generated 2026-09-24 by `scripts/blogger_status.py`. Source of truth for post i
 |---|---|---|---|
 | [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟢 ok | 643/738 | role ADMIN, 730 post(s) live |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/738 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
-| [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 277/738 | role ADMIN, 387 post(s) live |
+| [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 289/738 | role ADMIN, 399 post(s) live |
 
 Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog but not in our sync map · **SOURCE** this blog is where the article came from · **PENDING** ready to publish · **BLOCKED** no write access yet.
 
@@ -1504,7 +1504,7 @@ Blog id `2374794397032110467` · access **author-cannot-create** (role AUTHOR, 1
 
 ## flutter9.blogspot.com
 
-Blog id `954315885651943515` · access **ok** (role ADMIN, 387 post(s) live) · 277/738 published.
+Blog id `954315885651943515` · access **ok** (role ADMIN, 399 post(s) live) · 289/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -1659,12 +1659,12 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 387 post(s) live) · 
 | 149 | [Clean architecture in Flutter without ceremony](https://fluttercook.github.io/blog/flutter-clean-architecture-not-religion/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/clean-architecture-in-flutter-without.html) |
 | 150 | [Code push, hotfix, and what Apple/Google actually allow](https://fluttercook.github.io/blog/flutter-code-push-alternatives/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/code-push-hotfix-and-what-applegoogle.html) |
 | 151 | [Codegen that pays for itself: freezed and json_serializable](https://fluttercook.github.io/blog/flutter-codegen-freezed-json/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/codegen-that-pays-for-itself-freezed.html) |
-| 152 | [Running a healthy app community on Discord/GitHub](https://fluttercook.github.io/blog/flutter-community-discord-github/) | en | blog | PENDING | — |
-| 153 | [What a mature Flutter component library includes](https://fluttercook.github.io/blog/flutter-component-library-maturity/) | en | blog | PENDING | — |
-| 154 | [Hosting Jetpack Compose inside Flutter (and the reverse)](https://fluttercook.github.io/blog/flutter-compose-interop-android/) | en | blog | PENDING | — |
-| 155 | [const constructors: the cheapest Flutter performance win](https://fluttercook.github.io/blog/flutter-const-constructor-perf/) | en | blog | PENDING | — |
-| 156 | [UGC moderation stacks for mobile apps](https://fluttercook.github.io/blog/flutter-content-moderation-ugc/) | en | blog | PENDING | — |
-| 157 | [Content-sized Flutter views inside native scrollables](https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/) | en | blog | PENDING | — |
+| 152 | [Running a healthy app community on Discord/GitHub](https://fluttercook.github.io/blog/flutter-community-discord-github/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/running-healthy-app-community-on.html) |
+| 153 | [What a mature Flutter component library includes](https://fluttercook.github.io/blog/flutter-component-library-maturity/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/what-mature-flutter-component-library.html) |
+| 154 | [Hosting Jetpack Compose inside Flutter (and the reverse)](https://fluttercook.github.io/blog/flutter-compose-interop-android/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/hosting-jetpack-compose-inside-flutter.html) |
+| 155 | [const constructors: the cheapest Flutter performance win](https://fluttercook.github.io/blog/flutter-const-constructor-perf/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/const-constructors-cheapest-flutter.html) |
+| 156 | [UGC moderation stacks for mobile apps](https://fluttercook.github.io/blog/flutter-content-moderation-ugc/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ugc-moderation-stacks-for-mobile-apps.html) |
+| 157 | [Content-sized Flutter views inside native scrollables](https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/content-sized-flutter-views-inside.html) |
 | 158 | [True cost of cross-platform in 2026](https://fluttercook.github.io/blog/flutter-cost-of-crossplatform/) | en | blog | PENDING | — |
 | 159 | [Crash-free session SLOs for mobile teams](https://fluttercook.github.io/blog/flutter-crash-free-rate-slo/) | en | blog | PENDING | — |
 | 160 | [Symbolication done right for iOS and Android crashes](https://fluttercook.github.io/blog/flutter-crash-symbolication-symbols/) | en | blog | PENDING | — |
@@ -2009,12 +2009,12 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 387 post(s) live) · 
 | 499 | [Clean architecture in Flutter without ceremony — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-clean-architecture-not-religion/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/clean-architecture-in-flutter-without_0653630372.html) |
 | 500 | [Code push, hotfix, and what Apple/Google actually allow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-code-push-alternatives/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/code-push-hotfix-and-what-applegoogle_0961092198.html) |
 | 501 | [Codegen that pays for itself: freezed and json_serializable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-codegen-freezed-json/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/codegen-that-pays-for-itself-freezed_01862363230.html) |
-| 502 | [Running a healthy app community on Discord/GitHub — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-community-discord-github/) | vi | blog | PENDING | — |
-| 503 | [What a mature Flutter component library includes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-component-library-maturity/) | vi | blog | PENDING | — |
-| 504 | [Hosting Jetpack Compose inside Flutter (and the reverse) — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-compose-interop-android/) | vi | blog | PENDING | — |
-| 505 | [const constructors: the cheapest Flutter performance win — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-const-constructor-perf/) | vi | blog | PENDING | — |
-| 506 | [UGC moderation stacks for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-moderation-ugc/) | vi | blog | PENDING | — |
-| 507 | [Content-sized Flutter views inside native scrollables — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-sized-add-to-app/) | vi | blog | PENDING | — |
+| 502 | [Running a healthy app community on Discord/GitHub — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-community-discord-github/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/running-healthy-app-community-on_0383280688.html) |
+| 503 | [What a mature Flutter component library includes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-component-library-maturity/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/what-mature-flutter-component-library_0936608473.html) |
+| 504 | [Hosting Jetpack Compose inside Flutter (and the reverse) — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-compose-interop-android/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/hosting-jetpack-compose-inside-flutter_0184158635.html) |
+| 505 | [const constructors: the cheapest Flutter performance win — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-const-constructor-perf/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/const-constructors-cheapest-flutter_01011881697.html) |
+| 506 | [UGC moderation stacks for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-moderation-ugc/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ugc-moderation-stacks-for-mobile-apps_0235572501.html) |
+| 507 | [Content-sized Flutter views inside native scrollables — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-sized-add-to-app/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/content-sized-flutter-views-inside_01901576243.html) |
 | 508 | [True cost of cross-platform in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cost-of-crossplatform/) | vi | blog | PENDING | — |
 | 509 | [Crash-free session SLOs for mobile teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-free-rate-slo/) | vi | blog | PENDING | — |
 | 510 | [Symbolication done right for iOS and Android crashes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-symbolication-symbols/) | vi | blog | PENDING | — |
