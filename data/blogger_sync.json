@@ -4694,6 +4694,27 @@
           "title": "Predictive back animations in Flutter Android apps — hướng dẫn Flutter",
           "status": "LIVE",
           "published": "2026-09-24T02:07:43+07:00"
+        },
+        "blog/vi/flutter-privacy-manifest-ios": {
+          "postId": "7572734367992188791",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/privacy-manifests-and-required-reason_0198240046.html",
+          "title": "Privacy manifests and required reason APIs for Flutter plugins — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-26T04:55:02+07:00"
+        },
+        "blog/vi/flutter-prompt-caching-mobile": {
+          "postId": "7813880978069955686",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/prompt-caching-on-mobile-ai-calls-huong.html",
+          "title": "Prompt caching on mobile AI calls — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-26T04:55:19+07:00"
+        },
+        "blog/vi/flutter-property-editor-devtools": {
+          "postId": "1712175552075617422",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutter-property-editor-inspect-widgets_01632611096.html",
+          "title": "Flutter Property Editor: inspect widgets without print debugging — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-26T04:55:35+07:00"
         }
       },
       "pages": {
