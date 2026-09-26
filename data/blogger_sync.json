@@ -4715,6 +4715,104 @@
           "title": "Flutter Property Editor: inspect widgets without print debugging — hướng dẫn Flutter",
           "status": "LIVE",
           "published": "2026-09-26T04:55:35+07:00"
+        },
+        "blog/vi/flutter-push-notifications-fcm": {
+          "postId": "5646366049014091139",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/push-notification-trong-flutter-bon_01631416324.html",
+          "title": "Push notification trong Flutter: bốn trạng thái ứng dụng có thể đang ở",
+          "status": "LIVE",
+          "published": "2026-09-27T02:01:36+07:00"
+        },
+        "blog/vi/flutter-push-permission-primer": {
+          "postId": "8892190820178395433",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/notification-permission-primers-that_0413436627.html",
+          "title": "Notification permission primers that earn the grant — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:01:54+07:00"
+        },
+        "blog/vi/flutter-rag-on-mobile": {
+          "postId": "1842326354552556393",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rag-on-mobile-what-belongs-on-device-vs_02040688126.html",
+          "title": "RAG on mobile: what belongs on-device vs server — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:02:10+07:00"
+        },
+        "blog/vi/flutter-reduced-motion-a11y": {
+          "postId": "584018774190747053",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/prefers-reduced-motion-and-flutter_0813347221.html",
+          "title": "prefers-reduced-motion and Flutter animations — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:02:28+07:00"
+        },
+        "blog/vi/flutter-refund-handling-playbook": {
+          "postId": "967885091375636961",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/refund-handling-that-protects-ratings_0942461105.html",
+          "title": "Refund handling that protects ratings — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:02:45+07:00"
+        },
+        "blog/vi/flutter-release-checklist-mobile": {
+          "postId": "1024249546974170973",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/a-mobile-release-checklist-that_01293626454.html",
+          "title": "A mobile release checklist that prevents Friday fires — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:03:02+07:00"
+        },
+        "blog/vi/flutter-release-rollback-playbook": {
+          "postId": "4315560584713372334",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/mobile-rollback-playbooks-when-stores_0113477218.html",
+          "title": "Mobile rollback playbooks when stores are slow — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:03:19+07:00"
+        },
+        "blog/vi/flutter-release-windows-2026": {
+          "postId": "2375919800705344067",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/public-release-windows-when-your_01200831153.html",
+          "title": "Public release windows: when your Flutter PR ships — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:03:36+07:00"
+        },
+        "blog/vi/flutter-remote-mobile-team": {
+          "postId": "7933506118694454018",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/running-remote-mobile-team-across_0653748933.html",
+          "title": "Running a remote mobile team across timezones — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:03:53+07:00"
+        },
+        "blog/vi/flutter-retail-pos-companion": {
+          "postId": "6050383893709960915",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/retail-pos-companions-and-handheld_01971011220.html",
+          "title": "Retail POS companions and handheld workflows — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:04:10+07:00"
+        },
+        "blog/vi/flutter-riverpod-3-patterns": {
+          "postId": "1561960940052495106",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/riverpod-patterns-that-survive_01220549238.html",
+          "title": "Riverpod patterns that survive production scale — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:04:27+07:00"
+        },
+        "blog/vi/flutter-roadmap-communication": {
+          "postId": "8571084287189749839",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/communicating-mobile-roadmaps-without_0992621953.html",
+          "title": "Communicating mobile roadmaps without over-promising — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:04:44+07:00"
+        },
+        "blog/vi/flutter-rtl-layout-flutter": {
+          "postId": "7210529434322475147",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/rtl-layouts-that-do-not-look-broken-in_0126640306.html",
+          "title": "RTL layouts that do not look broken in Flutter — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:05:01+07:00"
+        },
+        "blog/vi/flutter-rust-bridge-performance": {
+          "postId": "7943974909206372378",
+          "url": "https://trunghieu-it.blogspot.com/2026/09/flutterrustbridge-for-heavy-compute-in_01402305847.html",
+          "title": "flutter_rust_bridge for heavy compute in Flutter — hướng dẫn Flutter",
+          "status": "LIVE",
+          "published": "2026-09-27T02:05:18+07:00"
         }
       },
       "pages": {

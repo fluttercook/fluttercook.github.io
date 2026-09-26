@@ -1,20 +1,20 @@
 # Blogger publish status
 
-_Generated 2026-09-26 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
+_Generated 2026-09-27 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
 
 **738 publishable articles** on the site (38 news, 700 blog).
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | 🟠 author-cannot-create | 647/738 | role ?, 734 post(s) live — needs Admin to create new posts |
-| [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | 🟠 author-cannot-create | 8/738 | role AUTHOR, 14 post(s) live — needs Admin to create new posts |
-| [flutter9.blogspot.com](https://flutter9.blogspot.com/) | 🟢 ok | 298/738 | role ADMIN, 408 post(s) live |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | ⚪ not-probed | 660/738 | --offline |
+| [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | ⚪ not-probed | 8/738 | --offline |
+| [flutter9.blogspot.com](https://flutter9.blogspot.com/) | ⚪ not-probed | 141/738 | --offline |
 
 Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog but not in our sync map · **SOURCE** this blog is where the article came from · **PENDING** ready to publish · **BLOCKED** no write access yet.
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **author-cannot-create** (role ?, 734 post(s) live — needs Admin to create new posts) · 647/738 published.
+Blog id `8621533667729504576` · access **not-probed** (--offline) · 660/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -395,7 +395,7 @@ Blog id `8621533667729504576` · access **author-cannot-create** (role ?, 734 po
 | 375 | [AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận](https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html) |
 | 376 | [Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền](https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html) |
 | 377 | [Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework](https://fluttercook.github.io/vi/blog/flutter-introduction-2026/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html) |
-| 378 | [Push notification trong Flutter: bốn trạng thái ứng dụng có thể đang ở](https://fluttercook.github.io/vi/blog/flutter-push-notifications-fcm/) | vi | blog | LIVE-UNTRACKED | [open](https://trunghieu-it.blogspot.com/2026/09/push-notification-trong-flutter-bon.html) |
+| 378 | [Push notification trong Flutter: bốn trạng thái ứng dụng có thể đang ở](https://fluttercook.github.io/vi/blog/flutter-push-notifications-fcm/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/push-notification-trong-flutter-bon_01631416324.html) |
 | 379 | [Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được](https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/lovable-roi-nextjs-sau-6-thang-nhung.html) |
 | 380 | [Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026](https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/dung-cong-nghe-web-e-lam-app-mobile-ban.html) |
 | 381 | [Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn](https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/bo-nho-cho-ai-agent-file-phang-vector.html) |
@@ -410,7 +410,7 @@ Blog id `8621533667729504576` · access **author-cannot-create** (role ?, 734 po
 | 390 | [Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API](https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/flutter-offline-first-database-duoi-may.html) |
 | 391 | [Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu "để sau tối ưu"](https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/ngan-sach-166-ms-cho-moi-frame-flutter.html) |
 | 392 | [Gọi code native từ Dart: platform channel, Pigeon hay FFI](https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/goi-code-native-tu-dart-platform.html) |
-| 393 | [Bí mật trong ứng dụng Flutter: cái gì lưu được, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/) | vi | blog | BLOCKED | — |
+| 393 | [Bí mật trong ứng dụng Flutter: cái gì lưu được, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/) | vi | blog | PENDING | — |
 | 394 | [Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó](https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/riverpod-bloc-signals-hay-setstate-chon.html) |
 | 395 | [Test Flutter đỏ vì đúng lý do: widget, golden và integration](https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/test-flutter-o-vi-ung-ly-do-widget.html) |
 | 396 | [Flutter web biên dịch sang WebAssembly: được gì, mất gì](https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/flutter-web-bien-dich-sang-webassembly.html) |
@@ -421,22 +421,22 @@ Blog id `8621533667729504576` · access **author-cannot-create** (role ?, 734 po
 | 401 | [Đừng parse văn xuôi nữa: schema, tool calling và output type-check được](https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/ung-parse-van-xuoi-nua-schema-tool.html) |
 | 402 | [Flavor trong Flutter: một codebase, ba ứng dụng, không copy-paste cấu hình](https://fluttercook.github.io/vi/blog/flutter-flavors-build-config/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flavor-trong-flutter-mot-codebase-ba_01683515674.html) |
 | 403 | [Một pipeline CI cho Flutter thật sự bắt được lỗi](https://fluttercook.github.io/vi/blog/flutter-ci-cd-github-actions/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/mot-pipeline-ci-cho-flutter-that-su-bat_01509757173.html) |
-| 404 | [Fragment shader trong Flutter: cửa thoát xuống GPU và cái giá của nó](https://fluttercook.github.io/vi/blog/flutter-shaders-fragment-glsl/) | vi | blog | BLOCKED | — |
+| 404 | [Fragment shader trong Flutter: cửa thoát xuống GPU và cái giá của nó](https://fluttercook.github.io/vi/blog/flutter-shaders-fragment-glsl/) | vi | blog | PENDING | — |
 | 405 | [Scroll physics tự viết: khiến danh sách dừng đúng chỗ bạn muốn](https://fluttercook.github.io/vi/blog/flutter-custom-scroll-physics/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/scroll-physics-tu-viet-khien-danh-sach_0540749985.html) |
 | 406 | [Vì sao cú chạm của bạn không ăn: hit testing và đấu trường cử chỉ](https://fluttercook.github.io/vi/blog/flutter-gestures-hit-testing/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/vi-sao-cu-cham-cua-ban-khong-hit_01517984320.html) |
 | 407 | [Vì sao ListView của bạn chậm, và bốn cách sửa thật sự có tác dụng](https://fluttercook.github.io/vi/blog/flutter-lists-performance-builder/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/vi-sao-listview-cua-ban-cham-va-bon_02135605940.html) |
 | 408 | [Đường ống ảnh trong Flutter: từ một URL tới pixel trên màn hình](https://fluttercook.github.io/vi/blog/flutter-image-caching-precache/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/uong-ong-anh-trong-flutter-tu-mot-url_0181643279.html) |
 | 409 | [Tìm rò rỉ bộ nhớ trong Flutter: năm loại đối tượng không bao giờ được dispose](https://fluttercook.github.io/vi/blog/flutter-memory-leaks-devtools/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/tim-ro-ri-bo-nho-trong-flutter-nam-loai_01860186343.html) |
-| 410 | [Khởi động nguội trong Flutter: đo khoảng thời gian trước frame đầu tiên](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start/) | vi | blog | BLOCKED | — |
+| 410 | [Khởi động nguội trong Flutter: đo khoảng thời gian trước frame đầu tiên](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start/) | vi | blog | PENDING | — |
 | 411 | [Thu nhỏ ứng dụng Flutter: megabyte thật sự nằm ở đâu](https://fluttercook.github.io/vi/blog/flutter-app-size-reduction/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/thu-nho-ung-dung-flutter-megabyte-that_01409666224.html) |
 | 412 | [Đa ngôn ngữ trong Flutter với file ARB: số nhiều, giống, và những chỗ cắn người](https://fluttercook.github.io/vi/blog/flutter-localization-intl-arb/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/a-ngon-ngu-trong-flutter-voi-file-arb_01753305790.html) |
 | 413 | [Trợ năng trong Flutter: cây semantics thật sự báo cáo những gì](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/tro-nang-trong-flutter-cay-semantics_0439656752.html) |
 | 414 | [Form trong Flutter vượt khỏi ví dụ mẫu: validate bất đồng bộ, focus và autofill](https://fluttercook.github.io/vi/blog/flutter-forms-validation-at-scale/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/form-trong-flutter-vuot-khoi-vi-du-mau_0200334034.html) |
-| 415 | [Theming Material 3 trong Flutter: vai trò màu, không phải giá trị màu](https://fluttercook.github.io/vi/blog/flutter-theming-material3-design-tokens/) | vi | blog | BLOCKED | — |
+| 415 | [Theming Material 3 trong Flutter: vai trò màu, không phải giá trị màu](https://fluttercook.github.io/vi/blog/flutter-theming-material3-design-tokens/) | vi | blog | PENDING | — |
 | 416 | [BuildContext chính là element: đọc hiểu những thông báo lỗi có nhắc tới nó](https://fluttercook.github.io/vi/blog/flutter-build-context-explained/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/buildcontext-chinh-la-element-oc-hieu_01095492252.html) |
 | 417 | [go_router và deep link: những phần mà bài quickstart bỏ qua](https://fluttercook.github.io/vi/blog/flutter-navigation-go-router-deep-links/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/gorouter-va-deep-link-nhung-phan-ma-bai.html) |
 | 418 | [Key trong Flutter: một quy tắc duy nhất giải thích mọi trường hợp](https://fluttercook.github.io/vi/blog/flutter-keys-when-they-matter/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/key-trong-flutter-mot-quy-tac-duy-nhat_0826138286.html) |
-| 419 | [Hiểu đúng về sliver: giao thức đứng sau mọi hiệu ứng cuộn trong Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-custom-scroll/) | vi | blog | BLOCKED | — |
+| 419 | [Hiểu đúng về sliver: giao thức đứng sau mọi hiệu ứng cuộn trong Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-custom-scroll/) | vi | blog | PENDING | — |
 | 420 | [Agent Skills cho Dart và Flutter: workflow agent rẻ và chuẩn hơn](https://fluttercook.github.io/vi/blog/flutter-agent-skills-mcp/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/agent-skills-cho-dart-va-flutter.html) |
 | 421 | [Agentic Hot Reload: khi coding agent tự reload app đang chạy](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/agentic-hot-reload-khi-coding-agent-tu.html) |
 | 422 | [Flutter view co theo nội dung trong native parent](https://fluttercook.github.io/vi/blog/flutter-content-sized-views/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutter-view-co-theo-noi-dung-trong.html) |
@@ -632,92 +632,92 @@ Blog id `8621533667729504576` · access **author-cannot-create** (role ?, 734 po
 | 612 | [Privacy manifests and required reason APIs for Flutter plugins — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-privacy-manifest-ios/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/privacy-manifests-and-required-reason_0198240046.html) |
 | 613 | [Prompt caching on mobile AI calls — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-prompt-caching-mobile/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/prompt-caching-on-mobile-ai-calls-huong.html) |
 | 614 | [Flutter Property Editor: inspect widgets without print debugging — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-property-editor-devtools/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutter-property-editor-inspect-widgets_01632611096.html) |
-| 615 | [Notification permission primers that earn the grant — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-push-permission-primer/) | vi | blog | BLOCKED | — |
-| 616 | [RAG on mobile: what belongs on-device vs server — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rag-on-mobile/) | vi | blog | BLOCKED | — |
-| 617 | [prefers-reduced-motion and Flutter animations — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-reduced-motion-a11y/) | vi | blog | BLOCKED | — |
-| 618 | [Refund handling that protects ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-refund-handling-playbook/) | vi | blog | BLOCKED | — |
-| 619 | [A mobile release checklist that prevents Friday fires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-checklist-mobile/) | vi | blog | BLOCKED | — |
-| 620 | [Mobile rollback playbooks when stores are slow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-rollback-playbook/) | vi | blog | BLOCKED | — |
-| 621 | [Public release windows: when your Flutter PR ships — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-windows-2026/) | vi | blog | BLOCKED | — |
-| 622 | [Running a remote mobile team across timezones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-remote-mobile-team/) | vi | blog | BLOCKED | — |
-| 623 | [Retail POS companions and handheld workflows — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-retail-pos-companion/) | vi | blog | BLOCKED | — |
-| 624 | [Riverpod patterns that survive production scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-riverpod-3-patterns/) | vi | blog | BLOCKED | — |
-| 625 | [Communicating mobile roadmaps without over-promising — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-roadmap-communication/) | vi | blog | BLOCKED | — |
-| 626 | [RTL layouts that do not look broken in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rtl-layout-flutter/) | vi | blog | BLOCKED | — |
-| 627 | [flutter_rust_bridge for heavy compute in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rust-bridge-performance/) | vi | blog | BLOCKED | — |
-| 628 | [Building store screenshots that convert — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/) | vi | blog | BLOCKED | — |
-| 629 | [SEA market expansion checklist for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/) | vi | blog | BLOCKED | — |
-| 630 | [Redacting secrets from mobile logs and crash reports — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/) | vi | blog | BLOCKED | — |
-| 631 | [Storing tokens with Secure Enclave / StrongBox — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/) | vi | blog | BLOCKED | — |
-| 632 | [Secure storage and biometrics for Flutter tokens — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/) | vi | blog | BLOCKED | — |
-| 633 | [Serverpod: one language from SQL to Flutter widgets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-serverpod-backend/) | vi | blog | BLOCKED | — |
-| 634 | [Mobile session management: refresh tokens done right — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-session-management-mobile/) | vi | blog | BLOCKED | — |
-| 635 | [Slivers that scroll without jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-performance/) | vi | blog | BLOCKED | — |
-| 636 | [Migrating to standalone material_ui and cupertino_ui in Flutter 3.47 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-standalone-design-packages-migration/) | vi | blog | BLOCKED | — |
-| 637 | [Cold start budgets for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start-2026/) | vi | blog | BLOCKED | — |
-| 638 | [ASO for Flutter apps: screenshots, keywords, and ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-listing-aso/) | vi | blog | BLOCKED | — |
-| 639 | [Mapping App Store guidelines to common Flutter features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-guidelines-map/) | vi | blog | BLOCKED | — |
-| 640 | [SKStoreReview and in-app review prompts that do not annoy — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-prompts/) | vi | blog | BLOCKED | — |
-| 641 | [Replying to store reviews without sounding like a bot — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-reply-playbook/) | vi | blog | BLOCKED | — |
-| 642 | [Streaming LLM responses into Flutter UIs token by token — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-streaming-ux-tokens/) | vi | blog | BLOCKED | — |
-| 643 | [Structured output and tool calling in Flutter AI apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-structured-output-tool-calling/) | vi | blog | BLOCKED | — |
-| 644 | [Stylus pressure and tilt input in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-stylus-pencil-input/) | vi | blog | BLOCKED | — |
-| 645 | [Swift Package Manager plugin migration checklist for Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-swiftpm-plugin-migration-checklist/) | vi | blog | BLOCKED | — |
-| 646 | [Switch expressions for cleaner Flutter mapping — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-switch-expression-ui/) | vi | blog | BLOCKED | — |
-| 647 | [Keyboard shortcuts and pointer support for tablets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-tablet-keyboard-shortcuts/) | vi | blog | BLOCKED | — |
-| 648 | [A 2026 skills roadmap for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-team-skills-2026-roadmap/) | vi | blog | BLOCKED | — |
-| 649 | [A mobile technical debt inventory that leaders fund — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-technical-debt-inventory/) | vi | blog | BLOCKED | — |
-| 650 | [TestFlight internal vs external testing that finds real bugs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testflight-internal-external/) | vi | blog | BLOCKED | — |
-| 651 | [Golden tests for design systems — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testing-goldens-design-system/) | vi | blog | BLOCKED | — |
-| 652 | [Threat modeling a mobile app in one workshop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-threat-model-mobile/) | vi | blog | BLOCKED | — |
-| 653 | [A weekly mobile crash triage that actually reduces issues — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-triage-crash-weekly/) | vi | blog | BLOCKED | — |
-| 654 | [UIScene lifecycle: the iOS 27 launch gate for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-uiscene-ios-27-checklist/) | vi | blog | BLOCKED | — |
-| 655 | [Shipping mobile apps for the Vietnam market in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-vietnam-mobile-market/) | vi | blog | BLOCKED | — |
-| 656 | [Wasm deferred loading: split Flutter web for first paint — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-wasm-deferred-loading-strategy/) | vi | blog | BLOCKED | — |
-| 657 | [Wear companions: watchOS and Wear OS with Flutter phones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-watch-wear-companion/) | vi | blog | BLOCKED | — |
-| 658 | [Embedding Flutter into an existing marketing site — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-embed-existing-site/) | vi | blog | BLOCKED | — |
-| 659 | [SEO for Flutter web: when to prerender and when not to — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-seo-prerender/) | vi | blog | BLOCKED | — |
-| 660 | [Widget Previewer is stable: isolate UI without booting the app — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-widget-previewer-stable/) | vi | blog | BLOCKED | — |
-| 661 | [Appwrite Flutter: backend service với client rõ ràng](https://fluttercook.github.io/vi/blog/oss-appwrite-flutter/) | vi | blog | BLOCKED | — |
-| 662 | [build_runner: biến code generation thành build step deterministic](https://fluttercook.github.io/vi/blog/oss-build-runner/) | vi | blog | BLOCKED | — |
-| 663 | [camera: pipeline chụp thật, không chỉ là preview](https://fluttercook.github.io/vi/blog/oss-camera-plugin/) | vi | blog | BLOCKED | — |
-| 664 | [connectivity_plus: loại mạng không đồng nghĩa có internet](https://fluttercook.github.io/vi/blog/oss-connectivity-plus/) | vi | blog | BLOCKED | — |
-| 665 | [desktop_multi_window: quản lý nhiều cửa sổ desktop có chủ đích](https://fluttercook.github.io/vi/blog/oss-desktop-multi-window/) | vi | blog | BLOCKED | — |
-| 666 | [Dio: networking có thể ghép bằng interceptor](https://fluttercook.github.io/vi/blog/oss-dio-networking/) | vi | blog | BLOCKED | — |
-| 667 | [Drift: SQL có kiểu cho ứng dụng Flutter offline-first](https://fluttercook.github.io/vi/blog/oss-drift-database/) | vi | blog | BLOCKED | — |
-| 668 | [Equatable: value semantics cho state object Dart](https://fluttercook.github.io/vi/blog/oss-equatable/) | vi | blog | BLOCKED | — |
-| 669 | [file_picker: một user intent trên sáu platform](https://fluttercook.github.io/vi/blog/oss-file-picker/) | vi | blog | BLOCKED | — |
-| 670 | [FlexColorScheme: theme design system ít boilerplate](https://fluttercook.github.io/vi/blog/oss-flex-color-scheme/) | vi | blog | BLOCKED | — |
-| 671 | [animations: pattern motion Material có thể tái sử dụng](https://fluttercook.github.io/vi/blog/oss-flutter-animations/) | vi | blog | BLOCKED | — |
-| 672 | [flutter_bloc: event và state rõ ràng cho ứng dụng lớn](https://fluttercook.github.io/vi/blog/oss-flutter-bloc/) | vi | blog | BLOCKED | — |
-| 673 | [flutter_hooks: tái sử dụng behavior có state bằng hook nhỏ](https://fluttercook.github.io/vi/blog/oss-flutter-hooks/) | vi | blog | BLOCKED | — |
-| 674 | [flutter_rust_bridge: Rust có kiểu mà không phải tự viết FFI glue](https://fluttercook.github.io/vi/blog/oss-flutter-rust-bridge/) | vi | blog | BLOCKED | — |
-| 675 | [flutter_secure_storage: secret nằm sau keychain của platform](https://fluttercook.github.io/vi/blog/oss-flutter-secure-storage/) | vi | blog | BLOCKED | — |
-| 676 | [ForUI: component headless dễ tiếp cận cho Flutter](https://fluttercook.github.io/vi/blog/oss-forui-components/) | vi | blog | BLOCKED | — |
-| 677 | [Freezed: model bất biến và union an toàn hơn](https://fluttercook.github.io/vi/blog/oss-freezed/) | vi | blog | BLOCKED | — |
-| 678 | [FVM: ghim Flutter version theo từng repository](https://fluttercook.github.io/vi/blog/oss-fvm-flutter-version-manager/) | vi | blog | BLOCKED | — |
-| 679 | [go_router: Điều hướng Flutter lấy URL làm trung tâm](https://fluttercook.github.io/vi/blog/oss-go-router/) | vi | blog | BLOCKED | — |
-| 680 | [Golden Toolkit: regression hình ảnh có chủ đích](https://fluttercook.github.io/vi/blog/oss-golden-toolkit/) | vi | blog | BLOCKED | — |
-| 681 | [image_picker: API nhỏ cho các nguồn media phức tạp](https://fluttercook.github.io/vi/blog/oss-image-picker/) | vi | blog | BLOCKED | — |
-| 682 | [intl: format data theo locale một cách có chủ đích](https://fluttercook.github.io/vi/blog/oss-intl-localization/) | vi | blog | BLOCKED | — |
-| 683 | [Isar: object database local nhanh với index có thể query](https://fluttercook.github.io/vi/blog/oss-isar-database/) | vi | blog | BLOCKED | — |
-| 684 | [json_serializable: JSON nhàm chán nhưng bền qua refactor](https://fluttercook.github.io/vi/blog/oss-json-serializable/) | vi | blog | BLOCKED | — |
-| 685 | [just_audio: audio có thể điều khiển bằng stream](https://fluttercook.github.io/vi/blog/oss-just-audio/) | vi | blog | BLOCKED | — |
-| 686 | [local_auth: biometric là step-up, không phải nơi lưu password](https://fluttercook.github.io/vi/blog/oss-local-auth/) | vi | blog | BLOCKED | — |
-| 687 | [Melos: biến Flutter monorepo thành ranh giới sản phẩm](https://fluttercook.github.io/vi/blog/oss-melos-monorepo/) | vi | blog | BLOCKED | — |
-| 688 | [Mocktail: mock Dart dễ đọc mà không cần file generated](https://fluttercook.github.io/vi/blog/oss-mocktail/) | vi | blog | BLOCKED | — |
-| 689 | [Patrol: integration test có thể đi ra ngoài sandbox Flutter](https://fluttercook.github.io/vi/blog/oss-patrol-testing/) | vi | blog | BLOCKED | — |
-| 690 | [permission_handler: luồng xin quyền runtime có thể giải thích](https://fluttercook.github.io/vi/blog/oss-permission-handler/) | vi | blog | BLOCKED | — |
-| 691 | [Pigeon: platform channel có kiểu sinh từ một schema](https://fluttercook.github.io/vi/blog/oss-pigeon-typed-platform-channels/) | vi | blog | BLOCKED | — |
-| 692 | [Rive: animation vector tương tác bằng state machine](https://fluttercook.github.io/vi/blog/oss-rive-runtime/) | vi | blog | BLOCKED | — |
-| 693 | [Riverpod: state bất đồng bộ có thể test mà không dính widget](https://fluttercook.github.io/vi/blog/oss-riverpod/) | vi | blog | BLOCKED | — |
-| 694 | [Sentry Flutter: lỗi đi kèm context của release](https://fluttercook.github.io/vi/blog/oss-sentry-flutter/) | vi | blog | BLOCKED | — |
-| 695 | [shadcn_flutter: UI primitive có thể ghép cho Flutter](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter-components/) | vi | blog | BLOCKED | — |
-| 696 | [skeletonizer: loading UI từ chính widget tree thật](https://fluttercook.github.io/vi/blog/oss-skeletonizer/) | vi | blog | BLOCKED | — |
-| 697 | [supabase_flutter: auth, Postgres, realtime và storage](https://fluttercook.github.io/vi/blog/oss-supabase-flutter/) | vi | blog | BLOCKED | — |
-| 698 | [url_launcher: platform intent với hợp đồng fallback](https://fluttercook.github.io/vi/blog/oss-url-launcher/) | vi | blog | BLOCKED | — |
-| 699 | [Very Good CLI: scaffolding Flutter có opinion](https://fluttercook.github.io/vi/blog/oss-very-good-cli/) | vi | blog | BLOCKED | — |
-| 700 | [video_player: primitive video Flutter dựa trên platform](https://fluttercook.github.io/vi/blog/oss-video-player/) | vi | blog | BLOCKED | — |
+| 615 | [Notification permission primers that earn the grant — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-push-permission-primer/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/notification-permission-primers-that_0413436627.html) |
+| 616 | [RAG on mobile: what belongs on-device vs server — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rag-on-mobile/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/rag-on-mobile-what-belongs-on-device-vs_02040688126.html) |
+| 617 | [prefers-reduced-motion and Flutter animations — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-reduced-motion-a11y/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/prefers-reduced-motion-and-flutter_0813347221.html) |
+| 618 | [Refund handling that protects ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-refund-handling-playbook/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/refund-handling-that-protects-ratings_0942461105.html) |
+| 619 | [A mobile release checklist that prevents Friday fires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-checklist-mobile/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/a-mobile-release-checklist-that_01293626454.html) |
+| 620 | [Mobile rollback playbooks when stores are slow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-rollback-playbook/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/mobile-rollback-playbooks-when-stores_0113477218.html) |
+| 621 | [Public release windows: when your Flutter PR ships — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-windows-2026/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/public-release-windows-when-your_01200831153.html) |
+| 622 | [Running a remote mobile team across timezones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-remote-mobile-team/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/running-remote-mobile-team-across_0653748933.html) |
+| 623 | [Retail POS companions and handheld workflows — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-retail-pos-companion/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/retail-pos-companions-and-handheld_01971011220.html) |
+| 624 | [Riverpod patterns that survive production scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-riverpod-3-patterns/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/riverpod-patterns-that-survive_01220549238.html) |
+| 625 | [Communicating mobile roadmaps without over-promising — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-roadmap-communication/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/communicating-mobile-roadmaps-without_0992621953.html) |
+| 626 | [RTL layouts that do not look broken in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rtl-layout-flutter/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/rtl-layouts-that-do-not-look-broken-in_0126640306.html) |
+| 627 | [flutter_rust_bridge for heavy compute in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rust-bridge-performance/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutterrustbridge-for-heavy-compute-in_01402305847.html) |
+| 628 | [Building store screenshots that convert — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/) | vi | blog | PENDING | — |
+| 629 | [SEA market expansion checklist for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/) | vi | blog | PENDING | — |
+| 630 | [Redacting secrets from mobile logs and crash reports — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/) | vi | blog | PENDING | — |
+| 631 | [Storing tokens with Secure Enclave / StrongBox — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/) | vi | blog | PENDING | — |
+| 632 | [Secure storage and biometrics for Flutter tokens — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/) | vi | blog | PENDING | — |
+| 633 | [Serverpod: one language from SQL to Flutter widgets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-serverpod-backend/) | vi | blog | PENDING | — |
+| 634 | [Mobile session management: refresh tokens done right — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-session-management-mobile/) | vi | blog | PENDING | — |
+| 635 | [Slivers that scroll without jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-performance/) | vi | blog | PENDING | — |
+| 636 | [Migrating to standalone material_ui and cupertino_ui in Flutter 3.47 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-standalone-design-packages-migration/) | vi | blog | PENDING | — |
+| 637 | [Cold start budgets for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start-2026/) | vi | blog | PENDING | — |
+| 638 | [ASO for Flutter apps: screenshots, keywords, and ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-listing-aso/) | vi | blog | PENDING | — |
+| 639 | [Mapping App Store guidelines to common Flutter features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-guidelines-map/) | vi | blog | PENDING | — |
+| 640 | [SKStoreReview and in-app review prompts that do not annoy — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-prompts/) | vi | blog | PENDING | — |
+| 641 | [Replying to store reviews without sounding like a bot — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-reply-playbook/) | vi | blog | PENDING | — |
+| 642 | [Streaming LLM responses into Flutter UIs token by token — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-streaming-ux-tokens/) | vi | blog | PENDING | — |
+| 643 | [Structured output and tool calling in Flutter AI apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-structured-output-tool-calling/) | vi | blog | PENDING | — |
+| 644 | [Stylus pressure and tilt input in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-stylus-pencil-input/) | vi | blog | PENDING | — |
+| 645 | [Swift Package Manager plugin migration checklist for Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-swiftpm-plugin-migration-checklist/) | vi | blog | PENDING | — |
+| 646 | [Switch expressions for cleaner Flutter mapping — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-switch-expression-ui/) | vi | blog | PENDING | — |
+| 647 | [Keyboard shortcuts and pointer support for tablets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-tablet-keyboard-shortcuts/) | vi | blog | PENDING | — |
+| 648 | [A 2026 skills roadmap for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-team-skills-2026-roadmap/) | vi | blog | PENDING | — |
+| 649 | [A mobile technical debt inventory that leaders fund — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-technical-debt-inventory/) | vi | blog | PENDING | — |
+| 650 | [TestFlight internal vs external testing that finds real bugs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testflight-internal-external/) | vi | blog | PENDING | — |
+| 651 | [Golden tests for design systems — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testing-goldens-design-system/) | vi | blog | PENDING | — |
+| 652 | [Threat modeling a mobile app in one workshop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-threat-model-mobile/) | vi | blog | PENDING | — |
+| 653 | [A weekly mobile crash triage that actually reduces issues — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-triage-crash-weekly/) | vi | blog | PENDING | — |
+| 654 | [UIScene lifecycle: the iOS 27 launch gate for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-uiscene-ios-27-checklist/) | vi | blog | PENDING | — |
+| 655 | [Shipping mobile apps for the Vietnam market in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-vietnam-mobile-market/) | vi | blog | PENDING | — |
+| 656 | [Wasm deferred loading: split Flutter web for first paint — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-wasm-deferred-loading-strategy/) | vi | blog | PENDING | — |
+| 657 | [Wear companions: watchOS and Wear OS with Flutter phones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-watch-wear-companion/) | vi | blog | PENDING | — |
+| 658 | [Embedding Flutter into an existing marketing site — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-embed-existing-site/) | vi | blog | PENDING | — |
+| 659 | [SEO for Flutter web: when to prerender and when not to — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-seo-prerender/) | vi | blog | PENDING | — |
+| 660 | [Widget Previewer is stable: isolate UI without booting the app — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-widget-previewer-stable/) | vi | blog | PENDING | — |
+| 661 | [Appwrite Flutter: backend service với client rõ ràng](https://fluttercook.github.io/vi/blog/oss-appwrite-flutter/) | vi | blog | PENDING | — |
+| 662 | [build_runner: biến code generation thành build step deterministic](https://fluttercook.github.io/vi/blog/oss-build-runner/) | vi | blog | PENDING | — |
+| 663 | [camera: pipeline chụp thật, không chỉ là preview](https://fluttercook.github.io/vi/blog/oss-camera-plugin/) | vi | blog | PENDING | — |
+| 664 | [connectivity_plus: loại mạng không đồng nghĩa có internet](https://fluttercook.github.io/vi/blog/oss-connectivity-plus/) | vi | blog | PENDING | — |
+| 665 | [desktop_multi_window: quản lý nhiều cửa sổ desktop có chủ đích](https://fluttercook.github.io/vi/blog/oss-desktop-multi-window/) | vi | blog | PENDING | — |
+| 666 | [Dio: networking có thể ghép bằng interceptor](https://fluttercook.github.io/vi/blog/oss-dio-networking/) | vi | blog | PENDING | — |
+| 667 | [Drift: SQL có kiểu cho ứng dụng Flutter offline-first](https://fluttercook.github.io/vi/blog/oss-drift-database/) | vi | blog | PENDING | — |
+| 668 | [Equatable: value semantics cho state object Dart](https://fluttercook.github.io/vi/blog/oss-equatable/) | vi | blog | PENDING | — |
+| 669 | [file_picker: một user intent trên sáu platform](https://fluttercook.github.io/vi/blog/oss-file-picker/) | vi | blog | PENDING | — |
+| 670 | [FlexColorScheme: theme design system ít boilerplate](https://fluttercook.github.io/vi/blog/oss-flex-color-scheme/) | vi | blog | PENDING | — |
+| 671 | [animations: pattern motion Material có thể tái sử dụng](https://fluttercook.github.io/vi/blog/oss-flutter-animations/) | vi | blog | PENDING | — |
+| 672 | [flutter_bloc: event và state rõ ràng cho ứng dụng lớn](https://fluttercook.github.io/vi/blog/oss-flutter-bloc/) | vi | blog | PENDING | — |
+| 673 | [flutter_hooks: tái sử dụng behavior có state bằng hook nhỏ](https://fluttercook.github.io/vi/blog/oss-flutter-hooks/) | vi | blog | PENDING | — |
+| 674 | [flutter_rust_bridge: Rust có kiểu mà không phải tự viết FFI glue](https://fluttercook.github.io/vi/blog/oss-flutter-rust-bridge/) | vi | blog | PENDING | — |
+| 675 | [flutter_secure_storage: secret nằm sau keychain của platform](https://fluttercook.github.io/vi/blog/oss-flutter-secure-storage/) | vi | blog | PENDING | — |
+| 676 | [ForUI: component headless dễ tiếp cận cho Flutter](https://fluttercook.github.io/vi/blog/oss-forui-components/) | vi | blog | PENDING | — |
+| 677 | [Freezed: model bất biến và union an toàn hơn](https://fluttercook.github.io/vi/blog/oss-freezed/) | vi | blog | PENDING | — |
+| 678 | [FVM: ghim Flutter version theo từng repository](https://fluttercook.github.io/vi/blog/oss-fvm-flutter-version-manager/) | vi | blog | PENDING | — |
+| 679 | [go_router: Điều hướng Flutter lấy URL làm trung tâm](https://fluttercook.github.io/vi/blog/oss-go-router/) | vi | blog | PENDING | — |
+| 680 | [Golden Toolkit: regression hình ảnh có chủ đích](https://fluttercook.github.io/vi/blog/oss-golden-toolkit/) | vi | blog | PENDING | — |
+| 681 | [image_picker: API nhỏ cho các nguồn media phức tạp](https://fluttercook.github.io/vi/blog/oss-image-picker/) | vi | blog | PENDING | — |
+| 682 | [intl: format data theo locale một cách có chủ đích](https://fluttercook.github.io/vi/blog/oss-intl-localization/) | vi | blog | PENDING | — |
+| 683 | [Isar: object database local nhanh với index có thể query](https://fluttercook.github.io/vi/blog/oss-isar-database/) | vi | blog | PENDING | — |
+| 684 | [json_serializable: JSON nhàm chán nhưng bền qua refactor](https://fluttercook.github.io/vi/blog/oss-json-serializable/) | vi | blog | PENDING | — |
+| 685 | [just_audio: audio có thể điều khiển bằng stream](https://fluttercook.github.io/vi/blog/oss-just-audio/) | vi | blog | PENDING | — |
+| 686 | [local_auth: biometric là step-up, không phải nơi lưu password](https://fluttercook.github.io/vi/blog/oss-local-auth/) | vi | blog | PENDING | — |
+| 687 | [Melos: biến Flutter monorepo thành ranh giới sản phẩm](https://fluttercook.github.io/vi/blog/oss-melos-monorepo/) | vi | blog | PENDING | — |
+| 688 | [Mocktail: mock Dart dễ đọc mà không cần file generated](https://fluttercook.github.io/vi/blog/oss-mocktail/) | vi | blog | PENDING | — |
+| 689 | [Patrol: integration test có thể đi ra ngoài sandbox Flutter](https://fluttercook.github.io/vi/blog/oss-patrol-testing/) | vi | blog | PENDING | — |
+| 690 | [permission_handler: luồng xin quyền runtime có thể giải thích](https://fluttercook.github.io/vi/blog/oss-permission-handler/) | vi | blog | PENDING | — |
+| 691 | [Pigeon: platform channel có kiểu sinh từ một schema](https://fluttercook.github.io/vi/blog/oss-pigeon-typed-platform-channels/) | vi | blog | PENDING | — |
+| 692 | [Rive: animation vector tương tác bằng state machine](https://fluttercook.github.io/vi/blog/oss-rive-runtime/) | vi | blog | PENDING | — |
+| 693 | [Riverpod: state bất đồng bộ có thể test mà không dính widget](https://fluttercook.github.io/vi/blog/oss-riverpod/) | vi | blog | PENDING | — |
+| 694 | [Sentry Flutter: lỗi đi kèm context của release](https://fluttercook.github.io/vi/blog/oss-sentry-flutter/) | vi | blog | PENDING | — |
+| 695 | [shadcn_flutter: UI primitive có thể ghép cho Flutter](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter-components/) | vi | blog | PENDING | — |
+| 696 | [skeletonizer: loading UI từ chính widget tree thật](https://fluttercook.github.io/vi/blog/oss-skeletonizer/) | vi | blog | PENDING | — |
+| 697 | [supabase_flutter: auth, Postgres, realtime và storage](https://fluttercook.github.io/vi/blog/oss-supabase-flutter/) | vi | blog | PENDING | — |
+| 698 | [url_launcher: platform intent với hợp đồng fallback](https://fluttercook.github.io/vi/blog/oss-url-launcher/) | vi | blog | PENDING | — |
+| 699 | [Very Good CLI: scaffolding Flutter có opinion](https://fluttercook.github.io/vi/blog/oss-very-good-cli/) | vi | blog | PENDING | — |
+| 700 | [video_player: primitive video Flutter dựa trên platform](https://fluttercook.github.io/vi/blog/oss-video-player/) | vi | blog | PENDING | — |
 | 701 | [Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps](https://fluttercook.github.io/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/) | en | news | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/apple-intelligence-vs-gemini.html) |
 | 702 | [Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity](https://fluttercook.github.io/news/flutter-2026-roadmap-webassembly-platform-parity/) | en | news | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/flutters-2026-roadmap-webassembly-by.html) |
 | 703 | [macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel](https://fluttercook.github.io/news/macos-26-tahoe-liquid-glass-last-intel-mac/) | en | news | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/macos-26-tahoe-liquid-glass-comes-to.html) |
@@ -759,710 +759,710 @@ Blog id `8621533667729504576` · access **author-cannot-create** (role ?, 734 po
 
 ## fluttercook.blogspot.com
 
-Blog id `2374794397032110467` · access **author-cannot-create** (role AUTHOR, 14 post(s) live — needs Admin to create new posts) · 8/738 published.
+Blog id `2374794397032110467` · access **not-probed** (--offline) · 8/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
-| 1 | [Creating a custom progress indicator in Flutter with CustomPaint](https://fluttercook.github.io/blog/creating-a-custom-progress-indicator/) | en | blog | BLOCKED | — |
-| 2 | [On-device AI in Flutter: what fits on a phone](https://fluttercook.github.io/blog/ai-on-device-flutter-gemma/) | en | blog | BLOCKED | — |
-| 3 | [Model routing and cascades: paying for the intelligence you need](https://fluttercook.github.io/blog/ai-model-routing-cascades/) | en | blog | BLOCKED | — |
-| 4 | [Streaming UX: designing for tokens arriving one at a time](https://fluttercook.github.io/blog/ai-streaming-ux-token-by-token/) | en | blog | BLOCKED | — |
-| 5 | [Synthetic data for evals: building a test set you can trust](https://fluttercook.github.io/blog/ai-synthetic-data-for-evals/) | en | blog | BLOCKED | — |
-| 6 | [Vision models in production: the parts the demo skips](https://fluttercook.github.io/blog/ai-multimodal-vision-in-production/) | en | blog | BLOCKED | — |
-| 7 | [Prompt injection: what actually defends against it](https://fluttercook.github.io/blog/ai-guardrails-prompt-injection-defense/) | en | blog | BLOCKED | — |
-| 8 | [Observability for LLM apps: tracing a non-deterministic system](https://fluttercook.github.io/blog/ai-observability-tracing-llm-apps/) | en | blog | BLOCKED | — |
-| 9 | [Chunking for retrieval: the decision that quietly caps your RAG quality](https://fluttercook.github.io/blog/ai-chunking-strategies-that-matter/) | en | blog | BLOCKED | — |
-| 10 | [Choosing an embedding model: the questions that actually matter](https://fluttercook.github.io/blog/ai-embeddings-choosing-a-model/) | en | blog | BLOCKED | — |
-| 11 | [Designing tools an AI agent can actually use](https://fluttercook.github.io/blog/ai-agent-tool-design/) | en | blog | BLOCKED | — |
-| 12 | [Writing a custom lint for your Dart codebase](https://fluttercook.github.io/blog/dart-custom-lints-analyzer/) | en | blog | BLOCKED | — |
-| 13 | [Code generation in Dart: build_runner without the frustration](https://fluttercook.github.io/blog/dart-build-runner-codegen/) | en | blog | BLOCKED | — |
-| 14 | [Dart streams in depth: backpressure, broadcast, and the leaks in between](https://fluttercook.github.io/blog/dart-streams-in-depth/) | en | blog | BLOCKED | — |
-| 15 | [Extension types in Dart: a new name for an old value](https://fluttercook.github.io/blog/dart-extension-types-zero-cost/) | en | blog | BLOCKED | — |
-| 16 | [Records and patterns in Dart: what they replace](https://fluttercook.github.io/blog/dart-records-and-patterns/) | en | blog | BLOCKED | — |
-| 17 | [Flutter error handling: catching what actually reaches users](https://fluttercook.github.io/blog/flutter-error-handling-crash-reporting/) | en | blog | BLOCKED | — |
-| 18 | [Dependency injection in Flutter without the ceremony](https://fluttercook.github.io/blog/flutter-dependency-injection-get-it/) | en | blog | BLOCKED | — |
-| 19 | [Flutter on desktop: the window is part of your app now](https://fluttercook.github.io/blog/flutter-desktop-window-management/) | en | blog | BLOCKED | — |
-| 20 | [Background work in Flutter: what the OS will actually let you run](https://fluttercook.github.io/blog/flutter-background-tasks-workmanager/) | en | blog | BLOCKED | — |
-| 21 | [Two layout systems that make AI posters look designed, not generated](https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/) | en | blog | BLOCKED | — |
-| 22 | [The chief-of-staff pattern: turning scattered AI chats into an agent team](https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/) | en | blog | BLOCKED | — |
-| 23 | [Using AI without burning cash: free tiers, caching, and routing](https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/) | en | blog | BLOCKED | — |
-| 24 | [In-app purchases in Flutter: the parts that are not about the button](https://fluttercook.github.io/blog/flutter-in-app-purchases/) | en | blog | BLOCKED | — |
-| 25 | [Free AI coding agents: how to use OpenCode's free models without regretting it](https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/) | en | blog | BLOCKED | — |
-| 26 | [What the research actually says about prompt engineering — five claims, fact-checked](https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/) | en | blog | BLOCKED | — |
-| 27 | [What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework](https://fluttercook.github.io/blog/flutter-introduction-2026/) | en | blog | BLOCKED | — |
-| 28 | [Push notifications in Flutter: the four states your app can be in](https://fluttercook.github.io/blog/flutter-push-notifications-fcm/) | en | blog | BLOCKED | — |
-| 29 | [Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse](https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/) | en | blog | BLOCKED | — |
-| 30 | [Using web technology to build mobile apps: the 2026 technical map](https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/) | en | blog | BLOCKED | — |
-| 31 | [Agent memory: files, a vector store, or just a bigger context window](https://fluttercook.github.io/blog/agent-memory-files-vectors-context/) | en | blog | BLOCKED | — |
-| 32 | [AI code review nobody mutes: the problem is precision, not capability](https://fluttercook.github.io/blog/ai-code-review-that-gets-read/) | en | blog | BLOCKED | — |
-| 33 | [Cost per request: the number most AI features never compute](https://fluttercook.github.io/blog/ai-feature-unit-economics/) | en | blog | BLOCKED | — |
-| 34 | [Context engineering: a big window is not permission to fill it](https://fluttercook.github.io/blog/context-engineering-what-fits-in-the-window/) | en | blog | BLOCKED | — |
-| 35 | [Fine-tune, retrieve, or write a better prompt: a decision you can defend](https://fluttercook.github.io/blog/finetune-vs-rag-vs-prompt/) | en | blog | BLOCKED | — |
-| 36 | [Three kinds of Flutter animation, and how to pick the right one](https://fluttercook.github.io/blog/flutter-animation-implicit-explicit-physics/) | en | blog | BLOCKED | — |
-| 37 | [When widget composition runs out: writing your own RenderObject](https://fluttercook.github.io/blog/flutter-custom-renderobject/) | en | blog | BLOCKED | — |
-| 38 | [Impeller and a janky frame: how to find where the 16ms actually went](https://fluttercook.github.io/blog/flutter-impeller-jank-profiling/) | en | blog | BLOCKED | — |
-| 39 | [Flutter isolates: what actually goes off the UI thread, and what doesn't](https://fluttercook.github.io/blog/flutter-isolates-off-main-thread/) | en | blog | BLOCKED | — |
-| 40 | [Offline-first Flutter: the local database is the source of truth, not the API](https://fluttercook.github.io/blog/flutter-offline-first-drift-sync/) | en | blog | BLOCKED | — |
-| 41 | [A Flutter frame budget you can hold yourself to, instead of "optimise later"](https://fluttercook.github.io/blog/flutter-performance-budget-16ms/) | en | blog | BLOCKED | — |
-| 42 | [Calling native code from Dart: platform channels, Pigeon, or FFI](https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi/) | en | blog | BLOCKED | — |
-| 43 | [Secrets in a Flutter app: what you can store, and what you cannot](https://fluttercook.github.io/blog/flutter-secure-storage-secrets/) | en | blog | BLOCKED | — |
-| 44 | [Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it](https://fluttercook.github.io/blog/flutter-state-management-decision-guide/) | en | blog | BLOCKED | — |
-| 45 | [Flutter tests that fail for a reason: widget, golden and integration](https://fluttercook.github.io/blog/flutter-testing-widget-golden-integration/) | en | blog | BLOCKED | — |
-| 46 | [Flutter on the web compiled to WebAssembly: what you get, what you give up](https://fluttercook.github.io/blog/flutter-web-wasm-2026/) | en | blog | BLOCKED | — |
-| 47 | [Running a model on your own machine: the four cases where it actually wins](https://fluttercook.github.io/blog/local-llms-when-they-beat-the-api/) | en | blog | BLOCKED | — |
-| 48 | [Prompt caching in practice: the win is in the ordering, not the flag](https://fluttercook.github.io/blog/prompt-caching-in-practice/) | en | blog | BLOCKED | — |
-| 49 | [Retrieval that doesn't lie: build the eval before you build the RAG](https://fluttercook.github.io/blog/rag-evaluation-before-you-ship/) | en | blog | BLOCKED | — |
-| 50 | [Shipping an LLM feature: the demo is 20% of the work](https://fluttercook.github.io/blog/shipping-an-llm-feature-evals-guardrails/) | en | blog | BLOCKED | — |
-| 51 | [Stop parsing prose: schemas, tool calling, and output you can type-check](https://fluttercook.github.io/blog/structured-output-json-schema-tool-calling/) | en | blog | BLOCKED | — |
-| 52 | [Flutter flavors: one codebase, three apps, zero copy-pasted config](https://fluttercook.github.io/blog/flutter-flavors-build-config/) | en | blog | BLOCKED | — |
-| 53 | [A Flutter CI pipeline that catches real problems](https://fluttercook.github.io/blog/flutter-ci-cd-github-actions/) | en | blog | BLOCKED | — |
-| 54 | [Fragment shaders in Flutter: the GPU escape hatch, and its costs](https://fluttercook.github.io/blog/flutter-shaders-fragment-glsl/) | en | blog | BLOCKED | — |
-| 55 | [Custom scroll physics: making a list stop where you want it to](https://fluttercook.github.io/blog/flutter-custom-scroll-physics/) | en | blog | BLOCKED | — |
-| 56 | [Why your tap doesn't register: hit testing and the gesture arena](https://fluttercook.github.io/blog/flutter-gestures-hit-testing/) | en | blog | BLOCKED | — |
-| 57 | [Why your ListView is slow, and the four fixes that actually work](https://fluttercook.github.io/blog/flutter-lists-performance-builder/) | en | blog | BLOCKED | — |
-| 58 | [The Flutter image pipeline: from a URL to pixels on screen](https://fluttercook.github.io/blog/flutter-image-caching-precache/) | en | blog | BLOCKED | — |
-| 59 | [Finding a Flutter memory leak: the five objects that never get disposed](https://fluttercook.github.io/blog/flutter-memory-leaks-devtools/) | en | blog | BLOCKED | — |
-| 60 | [Flutter cold start: measuring the time before your first frame](https://fluttercook.github.io/blog/flutter-startup-time-cold-start/) | en | blog | BLOCKED | — |
-| 61 | [Shrinking a Flutter app: where the megabytes actually are](https://fluttercook.github.io/blog/flutter-app-size-reduction/) | en | blog | BLOCKED | — |
-| 62 | [Flutter localization with ARB files: plurals, genders, and the parts that bite](https://fluttercook.github.io/blog/flutter-localization-intl-arb/) | en | blog | BLOCKED | — |
-| 63 | [Flutter accessibility: what the semantics tree actually reports](https://fluttercook.github.io/blog/flutter-accessibility-semantics/) | en | blog | BLOCKED | — |
-| 64 | [Flutter forms past the toy example: async validation, focus, and autofill](https://fluttercook.github.io/blog/flutter-forms-validation-at-scale/) | en | blog | BLOCKED | — |
-| 65 | [Material 3 theming in Flutter: colour roles, not colour values](https://fluttercook.github.io/blog/flutter-theming-material3-design-tokens/) | en | blog | BLOCKED | — |
-| 66 | [BuildContext is an element: reading the error messages that mention it](https://fluttercook.github.io/blog/flutter-build-context-explained/) | en | blog | BLOCKED | — |
-| 67 | [go_router and deep links: the parts the quickstart leaves out](https://fluttercook.github.io/blog/flutter-navigation-go-router-deep-links/) | en | blog | BLOCKED | — |
-| 68 | [Keys in Flutter: the one rule that explains every case](https://fluttercook.github.io/blog/flutter-keys-when-they-matter/) | en | blog | BLOCKED | — |
-| 69 | [Slivers, properly: the protocol behind every Flutter scroll effect](https://fluttercook.github.io/blog/flutter-slivers-custom-scroll/) | en | blog | BLOCKED | — |
-| 70 | [Dart and Flutter Agent Skills: cheaper, better agent workflows](https://fluttercook.github.io/blog/flutter-agent-skills-mcp/) | en | blog | BLOCKED | — |
-| 71 | [Agentic Hot Reload: when your coding agent reloads the running app](https://fluttercook.github.io/blog/flutter-agentic-hot-reload/) | en | blog | BLOCKED | — |
-| 72 | [Content-sized Flutter views in native parents](https://fluttercook.github.io/blog/flutter-content-sized-views/) | en | blog | BLOCKED | — |
-| 73 | [CupertinoMenuAnchor and modern Flutter menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor/) | en | blog | BLOCKED | — |
-| 74 | [Product flavors on Windows and Linux in Flutter 3.47](https://fluttercook.github.io/blog/flutter-desktop-flavors/) | en | blog | BLOCKED | — |
-| 75 | [Firebase AI Logic in Flutter: Gemini without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic/) | en | blog | BLOCKED | — |
-| 76 | [Fragment shaders in Flutter: uniforms by name and sync textures](https://fluttercook.github.io/blog/flutter-fragment-shader-api/) | en | blog | BLOCKED | — |
-| 77 | [On-device Gemma in Flutter: flutter_gemma and LiteRT-LM](https://fluttercook.github.io/blog/flutter-gemma-litert-ondevice/) | en | blog | BLOCKED | — |
-| 78 | [Genkit Dart: full-stack AI apps without leaving Dart](https://fluttercook.github.io/blog/flutter-genkit-dart/) | en | blog | BLOCKED | — |
-| 79 | [GenUI and A2UI: agents that compose widgets, not markdown](https://fluttercook.github.io/blog/flutter-genui-a2ui/) | en | blog | BLOCKED | — |
-| 80 | [Hybrid Composition++: fixing Android platform views without the jank](https://fluttercook.github.io/blog/flutter-hybrid-composition-plus-plus/) | en | blog | BLOCKED | — |
-| 81 | [Impeller is now the default desktop renderer — what actually changes](https://fluttercook.github.io/blog/flutter-impeller-default-desktop/) | en | blog | BLOCKED | — |
-| 82 | [Desktop multi-window APIs: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-desktop/) | en | blog | BLOCKED | — |
-| 83 | [Ship only the assets each platform needs](https://fluttercook.github.io/blog/flutter-platform-specific-assets/) | en | blog | BLOCKED | — |
-| 84 | [Public release windows: when your Flutter PR ships to stable](https://fluttercook.github.io/blog/flutter-public-release-windows/) | en | blog | BLOCKED | — |
-| 85 | [Standalone material_ui and cupertino_ui: what the 1.0 split changes](https://fluttercook.github.io/blog/flutter-standalone-material-ui-cupertino-ui/) | en | blog | BLOCKED | — |
-| 86 | [Swift Package Manager is the iOS/macOS default — leave CocoaPods behind](https://fluttercook.github.io/blog/flutter-swift-package-manager-default/) | en | blog | BLOCKED | — |
-| 87 | [UIScene lifecycle: the iOS 27 launch requirement Flutter apps must meet](https://fluttercook.github.io/blog/flutter-uiscene-ios-lifecycle/) | en | blog | BLOCKED | — |
-| 88 | [Flutter web Wasm: deferred loading for smaller first paint](https://fluttercook.github.io/blog/flutter-wasm-deferred-loading/) | en | blog | BLOCKED | — |
-| 89 | [Widget Previews are stable: iterate on UI without booting the whole app](https://fluttercook.github.io/blog/flutter-widget-previews-stable/) | en | blog | BLOCKED | — |
-| 90 | [What a secure Flutter authenticator must get right](https://fluttercook.github.io/blog/oss-aegis-authenticator/) | en | blog | BLOCKED | — |
-| 91 | [Bloc: the boring architecture that scales](https://fluttercook.github.io/blog/oss-bloc-architecture/) | en | blog | BLOCKED | — |
-| 92 | [Cashew: finance UI that stays local](https://fluttercook.github.io/blog/oss-cashew-budget/) | en | blog | BLOCKED | — |
-| 93 | [Ente: end-to-end encrypted photos in Flutter](https://fluttercook.github.io/blog/oss-ente-photos/) | en | blog | BLOCKED | — |
-| 94 | [Flame: game loops inside Flutter](https://fluttercook.github.io/blog/oss-flame-engine/) | en | blog | BLOCKED | — |
-| 95 | [FluffyChat: Matrix chat in Flutter with real E2EE](https://fluttercook.github.io/blog/oss-fluffychat-architecture/) | en | blog | BLOCKED | — |
-| 96 | [Flutter Deer: a production-shaped practice project](https://fluttercook.github.io/blog/oss-flutter-deer/) | en | blog | BLOCKED | — |
-| 97 | [Forui: an opinionated Flutter UI system](https://fluttercook.github.io/blog/oss-forui/) | en | blog | BLOCKED | — |
-| 98 | [Harmony Music: offline-first player patterns](https://fluttercook.github.io/blog/oss-harmony-music/) | en | blog | BLOCKED | — |
-| 99 | [Hiddify Next: Flutter UI over a tunnel core](https://fluttercook.github.io/blog/oss-hiddify-next/) | en | blog | BLOCKED | — |
-| 100 | [Immich: architecture lessons from a 100k-star Flutter photo stack](https://fluttercook.github.io/blog/oss-immich-architecture/) | en | blog | BLOCKED | — |
-| 101 | [Jaspr: server-driven Dart for the web](https://fluttercook.github.io/blog/oss-jaspr-dart-web/) | en | blog | BLOCKED | — |
-| 102 | [LocalSend: AirDrop-style transfer with zero cloud](https://fluttercook.github.io/blog/oss-localsend-architecture/) | en | blog | BLOCKED | — |
-| 103 | [Lotti: journaling with audio, habits, and a serious local DB](https://fluttercook.github.io/blog/oss-lotti-journal/) | en | blog | BLOCKED | — |
-| 104 | [RustDesk: Rust core, Flutter shell](https://fluttercook.github.io/blog/oss-rustdesk-flutter/) | en | blog | BLOCKED | — |
-| 105 | [Saber: handwriting notes and local-first files](https://fluttercook.github.io/blog/oss-saber-notes/) | en | blog | BLOCKED | — |
-| 106 | [Serverpod: full-stack Dart behind Flutter](https://fluttercook.github.io/blog/oss-serverpod/) | en | blog | BLOCKED | — |
-| 107 | [shadcn-flutter: porting a design system, not a theme](https://fluttercook.github.io/blog/oss-shadcn-flutter/) | en | blog | BLOCKED | — |
-| 108 | [Spotube: a privacy-minded Flutter music client](https://fluttercook.github.io/blog/oss-spotube-architecture/) | en | blog | BLOCKED | — |
-| 109 | [Venera: custom reader layouts in Flutter](https://fluttercook.github.io/blog/oss-venera-reader/) | en | blog | BLOCKED | — |
-| 110 | [A/B testing mobile UI without wrecking performance](https://fluttercook.github.io/blog/flutter-ab-testing-mobile/) | en | blog | BLOCKED | — |
-| 111 | [A practical mobile accessibility audit in one day](https://fluttercook.github.io/blog/flutter-accessibility-audit-steps/) | en | blog | BLOCKED | — |
-| 112 | [Accessibility semantics checklist for Flutter forms](https://fluttercook.github.io/blog/flutter-accessibility-semantics-checklist/) | en | blog | BLOCKED | — |
-| 113 | [Account recovery UX that reduces support tickets](https://fluttercook.github.io/blog/flutter-account-recovery-ux/) | en | blog | BLOCKED | — |
-| 114 | [Age assurance requirements affecting mobile apps in 2026](https://fluttercook.github.io/blog/flutter-age-assurance-2026/) | en | blog | BLOCKED | — |
-| 115 | [Package skills and Agent Skills for Flutter teams](https://fluttercook.github.io/blog/flutter-agent-skills-package-skills/) | en | blog | BLOCKED | — |
-| 116 | [Agentic Hot Reload: closing the prompt-to-pixels loop](https://fluttercook.github.io/blog/flutter-agentic-hot-reload-workflow/) | en | blog | BLOCKED | — |
-| 117 | [Unit economics of AI features in mobile apps](https://fluttercook.github.io/blog/flutter-ai-feature-unit-economics/) | en | blog | BLOCKED | — |
-| 118 | [Tracing LLM calls inside mobile apps](https://fluttercook.github.io/blog/flutter-ai-observability-tracing/) | en | blog | BLOCKED | — |
-| 119 | [Flutter AI Toolkit: production chat UX patterns](https://fluttercook.github.io/blog/flutter-ai-toolkit-chat-ux/) | en | blog | BLOCKED | — |
-| 120 | [A mobile analytics event schema that survives redesigns](https://fluttercook.github.io/blog/flutter-analytics-events-schema/) | en | blog | BLOCKED | — |
-| 121 | [Preparing Flutter apps for Android 17](https://fluttercook.github.io/blog/flutter-android-17-prep/) | en | blog | BLOCKED | — |
-| 122 | [Android App Bundles, ABI splits, and download size](https://fluttercook.github.io/blog/flutter-android-splits-aab/) | en | blog | BLOCKED | — |
-| 123 | [API versioning strategies for mobile clients](https://fluttercook.github.io/blog/flutter-api-versioning-mobile/) | en | blog | BLOCKED | — |
-| 124 | [Device integrity checks without ruining UX](https://fluttercook.github.io/blog/flutter-app-attest-play-integrity/) | en | blog | BLOCKED | — |
-| 125 | [App Clips and Instant Apps with Flutter modules](https://fluttercook.github.io/blog/flutter-app-clips-instant/) | en | blog | BLOCKED | — |
-| 126 | [Flutter and iOS app extensions without a second UI stack](https://fluttercook.github.io/blog/flutter-app-extensions-ios/) | en | blog | BLOCKED | — |
-| 127 | [App icon design that survives 2026 store grids](https://fluttercook.github.io/blog/flutter-app-icon-2026-guidelines/) | en | blog | BLOCKED | — |
-| 128 | [The April 2027 SDK deadline for App Store uploads](https://fluttercook.github.io/blog/flutter-app-store-2027-sdk-deadline/) | en | blog | BLOCKED | — |
-| 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | BLOCKED | — |
-| 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | BLOCKED | — |
-| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | BLOCKED | — |
-| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | BLOCKED | — |
-| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | BLOCKED | — |
-| 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | BLOCKED | — |
-| 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | BLOCKED | — |
-| 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | BLOCKED | — |
-| 137 | [Step-up authentication with biometrics for sensitive actions](https://fluttercook.github.io/blog/flutter-biometric-step-up/) | en | blog | BLOCKED | — |
-| 138 | [User safety features: block, mute, and restrict](https://fluttercook.github.io/blog/flutter-block-report-safety/) | en | blog | BLOCKED | — |
-| 139 | [Brand refreshes without breaking mobile users](https://fluttercook.github.io/blog/flutter-brand-refresh-risk/) | en | blog | BLOCKED | — |
-| 140 | [Alternative marketplaces: EU DMA and Brazil CADE rules](https://fluttercook.github.io/blog/flutter-brazil-eu-marketplace-rules/) | en | blog | BLOCKED | — |
-| 141 | [A bug report template that gets mobile issues fixed](https://fluttercook.github.io/blog/flutter-bug-report-template-mobile/) | en | blog | BLOCKED | — |
-| 142 | [Debug, profile, and release: stop optimizing the wrong mode](https://fluttercook.github.io/blog/flutter-build-modes-debug-profile/) | en | blog | BLOCKED | — |
-| 143 | [On-device vision with Camera and ML Kit in Flutter](https://fluttercook.github.io/blog/flutter-camera-mlkit-vision/) | en | blog | BLOCKED | — |
-| 144 | [Capacity planning for mobile platform teams](https://fluttercook.github.io/blog/flutter-capacity-planning-mobile/) | en | blog | BLOCKED | — |
-| 145 | [Certificate Transparency and mobile network trust](https://fluttercook.github.io/blog/flutter-certificate-transparency/) | en | blog | BLOCKED | — |
-| 146 | [Release notes users actually read](https://fluttercook.github.io/blog/flutter-changelog-release-notes/) | en | blog | BLOCKED | — |
-| 147 | [Kids apps: COPPA, age gates, and store questionnaires](https://fluttercook.github.io/blog/flutter-childrens-privacy-coppa/) | en | blog | BLOCKED | — |
-| 148 | [GitHub Actions for Flutter with sane caches](https://fluttercook.github.io/blog/flutter-ci-github-actions-cache/) | en | blog | BLOCKED | — |
-| 149 | [Clean architecture in Flutter without ceremony](https://fluttercook.github.io/blog/flutter-clean-architecture-not-religion/) | en | blog | BLOCKED | — |
-| 150 | [Code push, hotfix, and what Apple/Google actually allow](https://fluttercook.github.io/blog/flutter-code-push-alternatives/) | en | blog | BLOCKED | — |
-| 151 | [Codegen that pays for itself: freezed and json_serializable](https://fluttercook.github.io/blog/flutter-codegen-freezed-json/) | en | blog | BLOCKED | — |
-| 152 | [Running a healthy app community on Discord/GitHub](https://fluttercook.github.io/blog/flutter-community-discord-github/) | en | blog | BLOCKED | — |
-| 153 | [What a mature Flutter component library includes](https://fluttercook.github.io/blog/flutter-component-library-maturity/) | en | blog | BLOCKED | — |
-| 154 | [Hosting Jetpack Compose inside Flutter (and the reverse)](https://fluttercook.github.io/blog/flutter-compose-interop-android/) | en | blog | BLOCKED | — |
-| 155 | [const constructors: the cheapest Flutter performance win](https://fluttercook.github.io/blog/flutter-const-constructor-perf/) | en | blog | BLOCKED | — |
-| 156 | [UGC moderation stacks for mobile apps](https://fluttercook.github.io/blog/flutter-content-moderation-ugc/) | en | blog | BLOCKED | — |
-| 157 | [Content-sized Flutter views inside native scrollables](https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/) | en | blog | BLOCKED | — |
-| 158 | [True cost of cross-platform in 2026](https://fluttercook.github.io/blog/flutter-cost-of-crossplatform/) | en | blog | BLOCKED | — |
-| 159 | [Crash-free session SLOs for mobile teams](https://fluttercook.github.io/blog/flutter-crash-free-rate-slo/) | en | blog | BLOCKED | — |
-| 160 | [Symbolication done right for iOS and Android crashes](https://fluttercook.github.io/blog/flutter-crash-symbolication-symbols/) | en | blog | BLOCKED | — |
-| 161 | [Error boundaries and Crashlytics for Flutter production apps](https://fluttercook.github.io/blog/flutter-crashlytics-error-boundaries/) | en | blog | BLOCKED | — |
-| 162 | [CupertinoMenuAnchor and RawMenuAnchor menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor-ios/) | en | blog | BLOCKED | — |
-| 163 | [Dark mode that does not look inverted](https://fluttercook.github.io/blog/flutter-dark-mode-contrast/) | en | blog | BLOCKED | — |
-| 164 | [Dart primary constructors in Flutter model code](https://fluttercook.github.io/blog/flutter-dart-3-13-primary-constructors/) | en | blog | BLOCKED | — |
-| 165 | [GDPR/CCPA data deletion flows in mobile apps](https://fluttercook.github.io/blog/flutter-data-cleanup-gdpr/) | en | blog | BLOCKED | — |
-| 166 | [Universal Links and App Links that open the right screen](https://fluttercook.github.io/blog/flutter-deep-link-universal-links/) | en | blog | BLOCKED | — |
-| 167 | [A dependency update rhythm that avoids upgrade hell](https://fluttercook.github.io/blog/flutter-dependency-update-rhythm/) | en | blog | BLOCKED | — |
-| 168 | [Design reviews that catch mobile-specific failures](https://fluttercook.github.io/blog/flutter-design-review-mobile/) | en | blog | BLOCKED | — |
-| 169 | [Governing a multi-platform design system](https://fluttercook.github.io/blog/flutter-design-system-governance/) | en | blog | BLOCKED | — |
-| 170 | [Design tokens across Flutter, iOS, and Android](https://fluttercook.github.io/blog/flutter-design-tokens-crossplatform/) | en | blog | BLOCKED | — |
-| 171 | [Product flavors on Windows and Linux for CI matrices](https://fluttercook.github.io/blog/flutter-desktop-flavors-ci/) | en | blog | BLOCKED | — |
-| 172 | [Window management APIs for Flutter desktop apps](https://fluttercook.github.io/blog/flutter-desktop-window-management-api/) | en | blog | BLOCKED | — |
-| 173 | [DevTools Network and Memory views you should actually use](https://fluttercook.github.io/blog/flutter-devtools-network-memory/) | en | blog | BLOCKED | — |
-| 174 | [Mobile docs that stay accurate after ship](https://fluttercook.github.io/blog/flutter-documentation-that-lives/) | en | blog | BLOCKED | — |
-| 175 | [Dot shorthands in Flutter: cleaner enum and const syntax](https://fluttercook.github.io/blog/flutter-dot-shorthands/) | en | blog | BLOCKED | — |
-| 176 | [Offline-first Flutter with Drift and background sync](https://fluttercook.github.io/blog/flutter-drift-offline-first/) | en | blog | BLOCKED | — |
-| 177 | [When Flutter is wrong: choosing native iOS or Android](https://fluttercook.github.io/blog/flutter-dual-platform-native-strategy/) | en | blog | BLOCKED | — |
-| 178 | [K-12 education apps and student privacy](https://fluttercook.github.io/blog/flutter-education-k12-privacy/) | en | blog | BLOCKED | — |
-| 179 | [Device profiles that define 2026 mobile UX](https://fluttercook.github.io/blog/flutter-emerging-device-profiles/) | en | blog | BLOCKED | — |
-| 180 | [MDM, managed configuration, and enterprise Flutter apps](https://fluttercook.github.io/blog/flutter-enterprise-mdm/) | en | blog | BLOCKED | — |
-| 181 | [EU alternative payments and what Flutter teams must change](https://fluttercook.github.io/blog/flutter-eu-alternative-payments/) | en | blog | BLOCKED | — |
-| 182 | [Eval harnesses for mobile AI features](https://fluttercook.github.io/blog/flutter-evals-before-ship-ai/) | en | blog | BLOCKED | — |
-| 183 | [Reading mobile experiment results without fooling yourself](https://fluttercook.github.io/blog/flutter-experiment-readouts/) | en | blog | BLOCKED | — |
-| 184 | [Feature flag cleanup sprints that actually happen](https://fluttercook.github.io/blog/flutter-feature-flag-cleanup/) | en | blog | BLOCKED | — |
-| 185 | [Feature flags and remote config without a mess](https://fluttercook.github.io/blog/flutter-feature-flags-config/) | en | blog | BLOCKED | — |
-| 186 | [Fintech mobile compliance realities](https://fluttercook.github.io/blog/flutter-fintech-compliance-mobile/) | en | blog | BLOCKED | — |
-| 187 | [Firebase AI Logic: Gemini from Flutter without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic-security/) | en | blog | BLOCKED | — |
-| 188 | [Firebase App Distribution for Android/iOS betas](https://fluttercook.github.io/blog/flutter-firebase-app-distribution/) | en | blog | BLOCKED | — |
-| 189 | [Parallax backgrounds and camera work in Flame](https://fluttercook.github.io/blog/flutter-flame-parallax-backgrounds/) | en | blog | BLOCKED | — |
-| 190 | [Flutter on foldables and large screens in 2026](https://fluttercook.github.io/blog/flutter-foldable-large-screens/) | en | blog | BLOCKED | — |
-| 191 | [Shipping custom fonts without license landmines](https://fluttercook.github.io/blog/flutter-fonts-licensing-mobile/) | en | blog | BLOCKED | — |
-| 192 | [Form validation that users finish](https://fluttercook.github.io/blog/flutter-forms-validation-scale/) | en | blog | BLOCKED | — |
-| 193 | [Fragment shaders: bind uniforms by name in Flutter](https://fluttercook.github.io/blog/flutter-fragment-shader-uniforms-by-name/) | en | blog | BLOCKED | — |
-| 194 | [Paywall UX that converts without dark patterns](https://fluttercook.github.io/blog/flutter-freemium-paywall-ux/) | en | blog | BLOCKED | — |
-| 195 | [Shipping a 2D mini-game inside a Flutter product](https://fluttercook.github.io/blog/flutter-game-flame-product/) | en | blog | BLOCKED | — |
-| 196 | [On-device Gemma with flutter_gemma and LiteRT-LM](https://fluttercook.github.io/blog/flutter-gemma-litert-lm/) | en | blog | BLOCKED | — |
-| 197 | [Genkit Dart: full-stack AI flows in one language](https://fluttercook.github.io/blog/flutter-genkit-dart-fullstack/) | en | blog | BLOCKED | — |
-| 198 | [GenUI: when agents compose widgets instead of markdown](https://fluttercook.github.io/blog/flutter-genui-beyond-markdown/) | en | blog | BLOCKED | — |
-| 199 | [go_router deep links and URL strategies that scale](https://fluttercook.github.io/blog/flutter-go-router-deep-links-2026/) | en | blog | BLOCKED | — |
-| 200 | [Accessibility procurement for public-sector mobile apps](https://fluttercook.github.io/blog/flutter-government-accessibility/) | en | blog | BLOCKED | — |
-| 201 | [Prompt injection defenses for mobile AI features](https://fluttercook.github.io/blog/flutter-guardrails-prompt-injection/) | en | blog | BLOCKED | — |
-| 202 | [Hybrid Composition++: Vulkan-composited platform views](https://fluttercook.github.io/blog/flutter-hcpp-platform-views-vulkan/) | en | blog | BLOCKED | — |
-| 203 | [Health and wellness apps: regulations that bite](https://fluttercook.github.io/blog/flutter-health-data-regulations/) | en | blog | BLOCKED | — |
-| 204 | [Healthcare mobile basics: beyond the buzzword checklist](https://fluttercook.github.io/blog/flutter-healthcare-hipaa-basics/) | en | blog | BLOCKED | — |
-| 205 | [Hero animations without the glitches](https://fluttercook.github.io/blog/flutter-hero-shared-element/) | en | blog | BLOCKED | — |
-| 206 | [Hiring mobile engineers in a Flutter+native world](https://fluttercook.github.io/blog/flutter-hiring-mobile-engineers/) | en | blog | BLOCKED | — |
-| 207 | [Home screen widgets with Flutter shells](https://fluttercook.github.io/blog/flutter-home-screen-widgets/) | en | blog | BLOCKED | — |
-| 208 | [HTTP in Flutter: timeouts, retries, and cancellation](https://fluttercook.github.io/blog/flutter-http-dio-timeouts/) | en | blog | BLOCKED | — |
-| 209 | [Flutter localization with ARB and gen_l10n that translators like](https://fluttercook.github.io/blog/flutter-i18n-arb-gen-l10n/) | en | blog | BLOCKED | — |
-| 210 | [Image caching and decode budgets in Flutter lists](https://fluttercook.github.io/blog/flutter-image-cache-memory/) | en | blog | BLOCKED | — |
-| 211 | [Impeller on desktop: SDF text and Metal/Vulkan defaults](https://fluttercook.github.io/blog/flutter-impeller-desktop-sdf-text/) | en | blog | BLOCKED | — |
-| 212 | [In-app purchases with StoreKit 2 and Play Billing in Flutter](https://fluttercook.github.io/blog/flutter-in-app-purchase-storekit2/) | en | blog | BLOCKED | — |
-| 213 | [Subscription groups, upgrades, and proration explained](https://fluttercook.github.io/blog/flutter-in-app-purchase-subscription-groups/) | en | blog | BLOCKED | — |
-| 214 | [User communication during mobile incidents](https://fluttercook.github.io/blog/flutter-incident-comms-mobile/) | en | blog | BLOCKED | — |
-| 215 | [Integration tests that survive real devices](https://fluttercook.github.io/blog/flutter-integration-test-patrol/) | en | blog | BLOCKED | — |
-| 216 | [Mobile performance interview questions that matter](https://fluttercook.github.io/blog/flutter-interview-performance-questions/) | en | blog | BLOCKED | — |
-| 217 | [Isolates and compute() without the myths](https://fluttercook.github.io/blog/flutter-isolates-compute/) | en | blog | BLOCKED | — |
-| 218 | [Designing for Liquid Glass and Material without dual UIs](https://fluttercook.github.io/blog/flutter-liquid-glass-adaptive-ui/) | en | blog | BLOCKED | — |
-| 219 | [Marketing on-device AI without lying](https://fluttercook.github.io/blog/flutter-llm-on-device-privacy-marketing/) | en | blog | BLOCKED | — |
-| 220 | [Local notifications that do not spam or break on Android 13+](https://fluttercook.github.io/blog/flutter-local-notifications-2026/) | en | blog | BLOCKED | — |
-| 221 | [Pseudolocales and expansion testing before translators](https://fluttercook.github.io/blog/flutter-localization-pseudolocales/) | en | blog | BLOCKED | — |
-| 222 | [Logistics tracking UX under poor connectivity](https://fluttercook.github.io/blog/flutter-logistics-tracking-ux/) | en | blog | BLOCKED | — |
-| 223 | [Maps, location, and permission UX in Flutter apps](https://fluttercook.github.io/blog/flutter-maps-location-permissions/) | en | blog | BLOCKED | — |
-| 224 | [Material 3 Expressive theming without fighting Flutter](https://fluttercook.github.io/blog/flutter-material3-expressive-theming/) | en | blog | BLOCKED | — |
-| 225 | [Background audio with media_kit and platform media sessions](https://fluttercook.github.io/blog/flutter-mediakit-audio-background/) | en | blog | BLOCKED | — |
-| 226 | [Melos monorepos for Flutter apps and packages](https://fluttercook.github.io/blog/flutter-melos-monorepo/) | en | blog | BLOCKED | — |
-| 227 | [Haptics and microinteractions that feel native](https://fluttercook.github.io/blog/flutter-microinteractions-haptics/) | en | blog | BLOCKED | — |
-| 228 | [Camera and microphone permissions with honest UX](https://fluttercook.github.io/blog/flutter-microphone-camera-permission/) | en | blog | BLOCKED | — |
-| 229 | [Why your device lab needs a mid-tier Android](https://fluttercook.github.io/blog/flutter-mid-tier-device-lab/) | en | blog | BLOCKED | — |
-| 230 | [Migrating large apps to Material 3 Expressive](https://fluttercook.github.io/blog/flutter-migrate-material3-expressive/) | en | blog | BLOCKED | — |
-| 231 | [Migrating from React Native to Flutter in 2026](https://fluttercook.github.io/blog/flutter-migration-from-rn-2026/) | en | blog | BLOCKED | — |
-| 232 | [Moving Android XML / UIKit apps to Flutter gradually](https://fluttercook.github.io/blog/flutter-migration-from-xml-uikit/) | en | blog | BLOCKED | — |
-| 233 | [A 20-minute mobile smoke checklist before every release](https://fluttercook.github.io/blog/flutter-mobile-qa-smoke-checklist/) | en | blog | BLOCKED | — |
-| 234 | [Model routing and cascades for mobile AI](https://fluttercook.github.io/blog/flutter-model-routing-cascades/) | en | blog | BLOCKED | — |
-| 235 | [Multi-account apps without token soup](https://fluttercook.github.io/blog/flutter-multi-account-mobile/) | en | blog | BLOCKED | — |
-| 236 | [Desktop multi-window: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-popup-apis/) | en | blog | BLOCKED | — |
-| 237 | [Multimodal AI: camera to structured data in Flutter](https://fluttercook.github.io/blog/flutter-multimodal-camera-ai/) | en | blog | BLOCKED | — |
-| 238 | [Multiple Flutter instances in one host app](https://fluttercook.github.io/blog/flutter-multiple-flutter-instances/) | en | blog | BLOCKED | — |
-| 239 | [State restoration across process death](https://fluttercook.github.io/blog/flutter-navigation-restoration/) | en | blog | BLOCKED | — |
-| 240 | [Obfuscation, symbols, and secrets in Flutter release builds](https://fluttercook.github.io/blog/flutter-obfuscate-secrets-release/) | en | blog | BLOCKED | — |
-| 241 | [Mobile observability cost control](https://fluttercook.github.io/blog/flutter-observability-cost-mobile/) | en | blog | BLOCKED | — |
-| 242 | [Mobile observability: Sentry, Crashlytics, and custom traces](https://fluttercook.github.io/blog/flutter-observability-sentry-firebase/) | en | blog | BLOCKED | — |
-| 243 | [Graceful degradation when AI is unavailable](https://fluttercook.github.io/blog/flutter-offline-ai-fallback/) | en | blog | BLOCKED | — |
-| 244 | [Sync conflict resolution patterns for mobile apps](https://fluttercook.github.io/blog/flutter-offline-sync-conflict/) | en | blog | BLOCKED | — |
-| 245 | [Mobile OKRs that engineering can influence](https://fluttercook.github.io/blog/flutter-okrs-mobile-product/) | en | blog | BLOCKED | — |
-| 246 | [Mobile on-call runbooks that juniors can execute](https://fluttercook.github.io/blog/flutter-oncall-mobile-runbook/) | en | blog | BLOCKED | — |
-| 247 | [Product patterns for on-device LLMs in mobile apps](https://fluttercook.github.io/blog/flutter-ondevice-llm-product/) | en | blog | BLOCKED | — |
-| 248 | [How to study open-source Flutter apps without drowning](https://fluttercook.github.io/blog/flutter-open-source-app-study/) | en | blog | BLOCKED | — |
-| 249 | [How to pick a Flutter package in 2026](https://fluttercook.github.io/blog/flutter-package-selection-checklist/) | en | blog | BLOCKED | — |
-| 250 | [Pagination and infinite scroll without layout jank](https://fluttercook.github.io/blog/flutter-pagination-infinite-scroll/) | en | blog | BLOCKED | — |
-| 251 | [Passkeys and passwordless login in mobile apps](https://fluttercook.github.io/blog/flutter-passkeys-passwordless/) | en | blog | BLOCKED | — |
-| 252 | [Mobile payment fraud signals worth watching](https://fluttercook.github.io/blog/flutter-payments-fraud-mobile/) | en | blog | BLOCKED | — |
-| 253 | [Setting a frame budget your product team understands](https://fluttercook.github.io/blog/flutter-performance-budget-product/) | en | blog | BLOCKED | — |
-| 254 | [Photo library access: limited libraries and privacy labels](https://fluttercook.github.io/blog/flutter-photo-library-permissions/) | en | blog | BLOCKED | — |
-| 255 | [Pigeon: typed platform channels that scale](https://fluttercook.github.io/blog/flutter-pigeon-typed-channels/) | en | blog | BLOCKED | — |
-| 256 | [Ship only the assets each platform needs](https://fluttercook.github.io/blog/flutter-platform-assets-reduce-apk/) | en | blog | BLOCKED | — |
-| 257 | [Platform channels vs FFI in 2026: pick the right bridge](https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi-2026/) | en | blog | BLOCKED | — |
-| 258 | [Google Play policy changes mobile teams should track](https://fluttercook.github.io/blog/flutter-play-policy-2026/) | en | blog | BLOCKED | — |
-| 259 | [Portfolio Flutter projects that get interviews in 2026](https://fluttercook.github.io/blog/flutter-portfolio-projects-2026/) | en | blog | BLOCKED | — |
-| 260 | [Blameless mobile incident postmortems](https://fluttercook.github.io/blog/flutter-postmortem-blameless/) | en | blog | BLOCKED | — |
-| 261 | [Predictive back animations in Flutter Android apps](https://fluttercook.github.io/blog/flutter-predictive-back/) | en | blog | BLOCKED | — |
-| 262 | [Privacy manifests and required reason APIs for Flutter plugins](https://fluttercook.github.io/blog/flutter-privacy-manifest-ios/) | en | blog | BLOCKED | — |
-| 263 | [Prompt caching on mobile AI calls](https://fluttercook.github.io/blog/flutter-prompt-caching-mobile/) | en | blog | BLOCKED | — |
-| 264 | [Flutter Property Editor: inspect widgets without print debugging](https://fluttercook.github.io/blog/flutter-property-editor-devtools/) | en | blog | BLOCKED | — |
-| 265 | [Notification permission primers that earn the grant](https://fluttercook.github.io/blog/flutter-push-permission-primer/) | en | blog | BLOCKED | — |
-| 266 | [RAG on mobile: what belongs on-device vs server](https://fluttercook.github.io/blog/flutter-rag-on-mobile/) | en | blog | BLOCKED | — |
-| 267 | [prefers-reduced-motion and Flutter animations](https://fluttercook.github.io/blog/flutter-reduced-motion-a11y/) | en | blog | BLOCKED | — |
-| 268 | [Refund handling that protects ratings](https://fluttercook.github.io/blog/flutter-refund-handling-playbook/) | en | blog | BLOCKED | — |
-| 269 | [A mobile release checklist that prevents Friday fires](https://fluttercook.github.io/blog/flutter-release-checklist-mobile/) | en | blog | BLOCKED | — |
-| 270 | [Mobile rollback playbooks when stores are slow](https://fluttercook.github.io/blog/flutter-release-rollback-playbook/) | en | blog | BLOCKED | — |
-| 271 | [Public release windows: when your Flutter PR ships](https://fluttercook.github.io/blog/flutter-release-windows-2026/) | en | blog | BLOCKED | — |
-| 272 | [Running a remote mobile team across timezones](https://fluttercook.github.io/blog/flutter-remote-mobile-team/) | en | blog | BLOCKED | — |
-| 273 | [Retail POS companions and handheld workflows](https://fluttercook.github.io/blog/flutter-retail-pos-companion/) | en | blog | BLOCKED | — |
-| 274 | [Riverpod patterns that survive production scale](https://fluttercook.github.io/blog/flutter-riverpod-3-patterns/) | en | blog | BLOCKED | — |
-| 275 | [Communicating mobile roadmaps without over-promising](https://fluttercook.github.io/blog/flutter-roadmap-communication/) | en | blog | BLOCKED | — |
-| 276 | [RTL layouts that do not look broken in Flutter](https://fluttercook.github.io/blog/flutter-rtl-layout-flutter/) | en | blog | BLOCKED | — |
-| 277 | [flutter_rust_bridge for heavy compute in Flutter](https://fluttercook.github.io/blog/flutter-rust-bridge-performance/) | en | blog | BLOCKED | — |
-| 278 | [Building store screenshots that convert](https://fluttercook.github.io/blog/flutter-screenshot-studio-aso/) | en | blog | BLOCKED | — |
-| 279 | [SEA market expansion checklist for mobile products](https://fluttercook.github.io/blog/flutter-sea-expansion-checklist/) | en | blog | BLOCKED | — |
-| 280 | [Redacting secrets from mobile logs and crash reports](https://fluttercook.github.io/blog/flutter-secret-redaction-logs/) | en | blog | BLOCKED | — |
-| 281 | [Storing tokens with Secure Enclave / StrongBox](https://fluttercook.github.io/blog/flutter-secure-enclave-tokens/) | en | blog | BLOCKED | — |
-| 282 | [Secure storage and biometrics for Flutter tokens](https://fluttercook.github.io/blog/flutter-secure-storage-biometrics/) | en | blog | BLOCKED | — |
-| 283 | [Serverpod: one language from SQL to Flutter widgets](https://fluttercook.github.io/blog/flutter-serverpod-backend/) | en | blog | BLOCKED | — |
-| 284 | [Mobile session management: refresh tokens done right](https://fluttercook.github.io/blog/flutter-session-management-mobile/) | en | blog | BLOCKED | — |
-| 285 | [Slivers that scroll without jank](https://fluttercook.github.io/blog/flutter-slivers-performance/) | en | blog | BLOCKED | — |
-| 286 | [Migrating to standalone material_ui and cupertino_ui in Flutter 3.47](https://fluttercook.github.io/blog/flutter-standalone-design-packages-migration/) | en | blog | BLOCKED | — |
-| 287 | [Cold start budgets for Flutter apps](https://fluttercook.github.io/blog/flutter-startup-time-cold-start-2026/) | en | blog | BLOCKED | — |
-| 288 | [ASO for Flutter apps: screenshots, keywords, and ratings](https://fluttercook.github.io/blog/flutter-store-listing-aso/) | en | blog | BLOCKED | — |
-| 289 | [Mapping App Store guidelines to common Flutter features](https://fluttercook.github.io/blog/flutter-store-review-guidelines-map/) | en | blog | BLOCKED | — |
-| 290 | [SKStoreReview and in-app review prompts that do not annoy](https://fluttercook.github.io/blog/flutter-store-review-prompts/) | en | blog | BLOCKED | — |
-| 291 | [Replying to store reviews without sounding like a bot](https://fluttercook.github.io/blog/flutter-store-review-reply-playbook/) | en | blog | BLOCKED | — |
-| 292 | [Streaming LLM responses into Flutter UIs token by token](https://fluttercook.github.io/blog/flutter-streaming-ux-tokens/) | en | blog | BLOCKED | — |
-| 293 | [Structured output and tool calling in Flutter AI apps](https://fluttercook.github.io/blog/flutter-structured-output-tool-calling/) | en | blog | BLOCKED | — |
-| 294 | [Stylus pressure and tilt input in Flutter](https://fluttercook.github.io/blog/flutter-stylus-pencil-input/) | en | blog | BLOCKED | — |
-| 295 | [Swift Package Manager plugin migration checklist for Flutter](https://fluttercook.github.io/blog/flutter-swiftpm-plugin-migration-checklist/) | en | blog | BLOCKED | — |
-| 296 | [Switch expressions for cleaner Flutter mapping](https://fluttercook.github.io/blog/flutter-switch-expression-ui/) | en | blog | BLOCKED | — |
-| 297 | [Keyboard shortcuts and pointer support for tablets](https://fluttercook.github.io/blog/flutter-tablet-keyboard-shortcuts/) | en | blog | BLOCKED | — |
-| 298 | [A 2026 skills roadmap for Flutter teams](https://fluttercook.github.io/blog/flutter-team-skills-2026-roadmap/) | en | blog | BLOCKED | — |
-| 299 | [A mobile technical debt inventory that leaders fund](https://fluttercook.github.io/blog/flutter-technical-debt-inventory/) | en | blog | BLOCKED | — |
-| 300 | [TestFlight internal vs external testing that finds real bugs](https://fluttercook.github.io/blog/flutter-testflight-internal-external/) | en | blog | BLOCKED | — |
-| 301 | [Golden tests for design systems](https://fluttercook.github.io/blog/flutter-testing-goldens-design-system/) | en | blog | BLOCKED | — |
-| 302 | [Threat modeling a mobile app in one workshop](https://fluttercook.github.io/blog/flutter-threat-model-mobile/) | en | blog | BLOCKED | — |
-| 303 | [A weekly mobile crash triage that actually reduces issues](https://fluttercook.github.io/blog/flutter-triage-crash-weekly/) | en | blog | BLOCKED | — |
-| 304 | [UIScene lifecycle: the iOS 27 launch gate for Flutter apps](https://fluttercook.github.io/blog/flutter-uiscene-ios-27-checklist/) | en | blog | BLOCKED | — |
-| 305 | [Shipping mobile apps for the Vietnam market in 2026](https://fluttercook.github.io/blog/flutter-vietnam-mobile-market/) | en | blog | BLOCKED | — |
-| 306 | [Wasm deferred loading: split Flutter web for first paint](https://fluttercook.github.io/blog/flutter-wasm-deferred-loading-strategy/) | en | blog | BLOCKED | — |
-| 307 | [Wear companions: watchOS and Wear OS with Flutter phones](https://fluttercook.github.io/blog/flutter-watch-wear-companion/) | en | blog | BLOCKED | — |
-| 308 | [Embedding Flutter into an existing marketing site](https://fluttercook.github.io/blog/flutter-web-embed-existing-site/) | en | blog | BLOCKED | — |
-| 309 | [SEO for Flutter web: when to prerender and when not to](https://fluttercook.github.io/blog/flutter-web-seo-prerender/) | en | blog | BLOCKED | — |
-| 310 | [Widget Previewer is stable: isolate UI without booting the app](https://fluttercook.github.io/blog/flutter-widget-previewer-stable/) | en | blog | BLOCKED | — |
-| 311 | [Appwrite Flutter: backend services with explicit clients](https://fluttercook.github.io/blog/oss-appwrite-flutter/) | en | blog | BLOCKED | — |
-| 312 | [build_runner: make code generation a deterministic build step](https://fluttercook.github.io/blog/oss-build-runner/) | en | blog | BLOCKED | — |
-| 313 | [camera: a real capture pipeline, not just a preview](https://fluttercook.github.io/blog/oss-camera-plugin/) | en | blog | BLOCKED | — |
-| 314 | [connectivity_plus: network type is not internet reachability](https://fluttercook.github.io/blog/oss-connectivity-plus/) | en | blog | BLOCKED | — |
-| 315 | [desktop_multi_window: isolate desktop surfaces intentionally](https://fluttercook.github.io/blog/oss-desktop-multi-window/) | en | blog | BLOCKED | — |
-| 316 | [Dio: composeable networking with interceptors](https://fluttercook.github.io/blog/oss-dio-networking/) | en | blog | BLOCKED | — |
-| 317 | [Drift: typed SQL for an offline-first Flutter app](https://fluttercook.github.io/blog/oss-drift-database/) | en | blog | BLOCKED | — |
-| 318 | [Equatable: value semantics for Dart state objects](https://fluttercook.github.io/blog/oss-equatable/) | en | blog | BLOCKED | — |
-| 319 | [file_picker: one user intent across six platforms](https://fluttercook.github.io/blog/oss-file-picker/) | en | blog | BLOCKED | — |
-| 320 | [FlexColorScheme: design-system themes without boilerplate](https://fluttercook.github.io/blog/oss-flex-color-scheme/) | en | blog | BLOCKED | — |
-| 321 | [animations: reusable Material motion patterns](https://fluttercook.github.io/blog/oss-flutter-animations/) | en | blog | BLOCKED | — |
-| 322 | [flutter_bloc: explicit events and states at scale](https://fluttercook.github.io/blog/oss-flutter-bloc/) | en | blog | BLOCKED | — |
-| 323 | [flutter_hooks: reusable stateful behavior as tiny hooks](https://fluttercook.github.io/blog/oss-flutter-hooks/) | en | blog | BLOCKED | — |
-| 324 | [flutter_rust_bridge: typed Rust without hand-written FFI glue](https://fluttercook.github.io/blog/oss-flutter-rust-bridge/) | en | blog | BLOCKED | — |
-| 325 | [flutter_secure_storage: secrets behind platform keychains](https://fluttercook.github.io/blog/oss-flutter-secure-storage/) | en | blog | BLOCKED | — |
-| 326 | [ForUI: accessible headless components for Flutter](https://fluttercook.github.io/blog/oss-forui-components/) | en | blog | BLOCKED | — |
-| 327 | [Freezed: safer immutable models and unions](https://fluttercook.github.io/blog/oss-freezed/) | en | blog | BLOCKED | — |
-| 328 | [FVM: pin Flutter versions per repository](https://fluttercook.github.io/blog/oss-fvm-flutter-version-manager/) | en | blog | BLOCKED | — |
-| 329 | [go_router: URL-first navigation for Flutter](https://fluttercook.github.io/blog/oss-go-router/) | en | blog | BLOCKED | — |
-| 330 | [Golden Toolkit: visual regression with intent](https://fluttercook.github.io/blog/oss-golden-toolkit/) | en | blog | BLOCKED | — |
-| 331 | [image_picker: a small API over messy media sources](https://fluttercook.github.io/blog/oss-image-picker/) | en | blog | BLOCKED | — |
-| 332 | [intl: format locale-sensitive data deliberately](https://fluttercook.github.io/blog/oss-intl-localization/) | en | blog | BLOCKED | — |
-| 333 | [Isar: fast local objects with queryable indexes](https://fluttercook.github.io/blog/oss-isar-database/) | en | blog | BLOCKED | — |
-| 334 | [json_serializable: boring JSON that survives refactors](https://fluttercook.github.io/blog/oss-json-serializable/) | en | blog | BLOCKED | — |
-| 335 | [just_audio: controllable audio with streams](https://fluttercook.github.io/blog/oss-just-audio/) | en | blog | BLOCKED | — |
-| 336 | [local_auth: biometrics as a step-up, not a password store](https://fluttercook.github.io/blog/oss-local-auth/) | en | blog | BLOCKED | — |
-| 337 | [Melos: make a Flutter monorepo a product boundary](https://fluttercook.github.io/blog/oss-melos-monorepo/) | en | blog | BLOCKED | — |
-| 338 | [Mocktail: readable Dart mocks without generated files](https://fluttercook.github.io/blog/oss-mocktail/) | en | blog | BLOCKED | — |
-| 339 | [Patrol: integration tests that can leave the Flutter sandbox](https://fluttercook.github.io/blog/oss-patrol-testing/) | en | blog | BLOCKED | — |
-| 340 | [permission_handler: runtime permission flows you can explain](https://fluttercook.github.io/blog/oss-permission-handler/) | en | blog | BLOCKED | — |
-| 341 | [Pigeon: typed platform channels generated from one schema](https://fluttercook.github.io/blog/oss-pigeon-typed-platform-channels/) | en | blog | BLOCKED | — |
-| 342 | [Rive: interactive vector animation as a state machine](https://fluttercook.github.io/blog/oss-rive-runtime/) | en | blog | BLOCKED | — |
-| 343 | [Riverpod: testable async state without widget coupling](https://fluttercook.github.io/blog/oss-riverpod/) | en | blog | BLOCKED | — |
-| 344 | [Sentry Flutter: errors with release context](https://fluttercook.github.io/blog/oss-sentry-flutter/) | en | blog | BLOCKED | — |
-| 345 | [shadcn_flutter: composable UI primitives for Flutter](https://fluttercook.github.io/blog/oss-shadcn-flutter-components/) | en | blog | BLOCKED | — |
-| 346 | [skeletonizer: loading UI from the real widget tree](https://fluttercook.github.io/blog/oss-skeletonizer/) | en | blog | BLOCKED | — |
-| 347 | [supabase_flutter: auth, Postgres, realtime, and storage](https://fluttercook.github.io/blog/oss-supabase-flutter/) | en | blog | BLOCKED | — |
-| 348 | [url_launcher: platform intent with a fallback contract](https://fluttercook.github.io/blog/oss-url-launcher/) | en | blog | BLOCKED | — |
-| 349 | [Very Good CLI: opinionated Flutter scaffolding](https://fluttercook.github.io/blog/oss-very-good-cli/) | en | blog | BLOCKED | — |
-| 350 | [video_player: the platform-backed Flutter video primitive](https://fluttercook.github.io/blog/oss-video-player/) | en | blog | BLOCKED | — |
-| 351 | [Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint](https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/) | vi | blog | BLOCKED | — |
-| 352 | [AI chạy trên thiết bị trong Flutter: cái gì vừa với một chiếc điện thoại](https://fluttercook.github.io/vi/blog/ai-on-device-flutter-gemma/) | vi | blog | BLOCKED | — |
-| 353 | [Định tuyến mô hình và thác bậc: chỉ trả tiền cho mức thông minh bạn cần](https://fluttercook.github.io/vi/blog/ai-model-routing-cascades/) | vi | blog | BLOCKED | — |
-| 354 | [Trải nghiệm streaming: thiết kế cho token đến từng cái một](https://fluttercook.github.io/vi/blog/ai-streaming-ux-token-by-token/) | vi | blog | BLOCKED | — |
-| 355 | [Dữ liệu tổng hợp cho eval: xây bộ kiểm thử mà bạn tin được](https://fluttercook.github.io/vi/blog/ai-synthetic-data-for-evals/) | vi | blog | BLOCKED | — |
-| 356 | [Mô hình thị giác trong sản phẩm thật: những phần bản demo bỏ qua](https://fluttercook.github.io/vi/blog/ai-multimodal-vision-in-production/) | vi | blog | BLOCKED | — |
-| 357 | [Prompt injection: cái gì thật sự phòng thủ được](https://fluttercook.github.io/vi/blog/ai-guardrails-prompt-injection-defense/) | vi | blog | BLOCKED | — |
-| 358 | [Quan sát ứng dụng LLM: truy vết một hệ thống không tất định](https://fluttercook.github.io/vi/blog/ai-observability-tracing-llm-apps/) | vi | blog | BLOCKED | — |
-| 359 | [Chia nhỏ tài liệu cho truy hồi: quyết định âm thầm chặn trần chất lượng RAG](https://fluttercook.github.io/vi/blog/ai-chunking-strategies-that-matter/) | vi | blog | BLOCKED | — |
-| 360 | [Chọn mô hình embedding: những câu hỏi thật sự quan trọng](https://fluttercook.github.io/vi/blog/ai-embeddings-choosing-a-model/) | vi | blog | BLOCKED | — |
-| 361 | [Thiết kế công cụ mà AI agent thật sự dùng được](https://fluttercook.github.io/vi/blog/ai-agent-tool-design/) | vi | blog | BLOCKED | — |
-| 362 | [Viết một lint tuỳ chỉnh cho codebase Dart của bạn](https://fluttercook.github.io/vi/blog/dart-custom-lints-analyzer/) | vi | blog | BLOCKED | — |
-| 363 | [Sinh mã trong Dart: build_runner mà không bực mình](https://fluttercook.github.io/vi/blog/dart-build-runner-codegen/) | vi | blog | BLOCKED | — |
-| 364 | [Stream trong Dart chuyên sâu: backpressure, broadcast và những rò rỉ ở giữa](https://fluttercook.github.io/vi/blog/dart-streams-in-depth/) | vi | blog | BLOCKED | — |
-| 365 | [Extension type trong Dart: một cái tên mới cho giá trị cũ](https://fluttercook.github.io/vi/blog/dart-extension-types-zero-cost/) | vi | blog | BLOCKED | — |
-| 366 | [Record và pattern trong Dart: chúng thay thế những gì](https://fluttercook.github.io/vi/blog/dart-records-and-patterns/) | vi | blog | BLOCKED | — |
-| 367 | [Xử lý lỗi trong Flutter: bắt được thứ thật sự tới tay người dùng](https://fluttercook.github.io/vi/blog/flutter-error-handling-crash-reporting/) | vi | blog | BLOCKED | — |
-| 368 | [Tiêm phụ thuộc trong Flutter mà không cần nghi thức rườm rà](https://fluttercook.github.io/vi/blog/flutter-dependency-injection-get-it/) | vi | blog | BLOCKED | — |
-| 369 | [Flutter trên desktop: cửa sổ giờ là một phần của ứng dụng bạn](https://fluttercook.github.io/vi/blog/flutter-desktop-window-management/) | vi | blog | BLOCKED | — |
-| 370 | [Chạy nền trong Flutter: hệ điều hành thật sự cho phép bạn chạy gì](https://fluttercook.github.io/vi/blog/flutter-background-tasks-workmanager/) | vi | blog | BLOCKED | — |
-| 371 | [Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra](https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/) | vi | blog | BLOCKED | — |
-| 372 | [Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent](https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/) | vi | blog | BLOCKED | — |
-| 373 | [Dùng AI mà không đốt tiền: free tier, caching và định tuyến model](https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/) | vi | blog | BLOCKED | — |
-| 374 | [Mua hàng trong ứng dụng Flutter: những phần không nằm ở cái nút](https://fluttercook.github.io/vi/blog/flutter-in-app-purchases/) | vi | blog | BLOCKED | — |
-| 375 | [AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận](https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/) | vi | blog | BLOCKED | — |
-| 376 | [Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền](https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/) | vi | blog | BLOCKED | — |
-| 377 | [Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework](https://fluttercook.github.io/vi/blog/flutter-introduction-2026/) | vi | blog | BLOCKED | — |
-| 378 | [Push notification trong Flutter: bốn trạng thái ứng dụng có thể đang ở](https://fluttercook.github.io/vi/blog/flutter-push-notifications-fcm/) | vi | blog | BLOCKED | — |
-| 379 | [Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được](https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/) | vi | blog | BLOCKED | — |
-| 380 | [Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026](https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/) | vi | blog | BLOCKED | — |
-| 381 | [Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn](https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/) | vi | blog | BLOCKED | — |
-| 382 | [AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực](https://fluttercook.github.io/vi/blog/ai-code-review-that-gets-read/) | vi | blog | BLOCKED | — |
-| 383 | [Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính](https://fluttercook.github.io/vi/blog/ai-feature-unit-economics/) | vi | blog | BLOCKED | — |
-| 384 | [Context engineering: window to không có nghĩa là được phép nhét đầy](https://fluttercook.github.io/vi/blog/context-engineering-what-fits-in-the-window/) | vi | blog | BLOCKED | — |
-| 385 | [Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được](https://fluttercook.github.io/vi/blog/finetune-vs-rag-vs-prompt/) | vi | blog | BLOCKED | — |
-| 386 | [Ba kiểu animation trong Flutter và cách chọn đúng kiểu](https://fluttercook.github.io/vi/blog/flutter-animation-implicit-explicit-physics/) | vi | blog | BLOCKED | — |
-| 387 | [Khi ghép widget không còn đủ: tự viết RenderObject](https://fluttercook.github.io/vi/blog/flutter-custom-renderobject/) | vi | blog | BLOCKED | — |
-| 388 | [Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu](https://fluttercook.github.io/vi/blog/flutter-impeller-jank-profiling/) | vi | blog | BLOCKED | — |
-| 389 | [Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-isolates-off-main-thread/) | vi | blog | BLOCKED | — |
-| 390 | [Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API](https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/) | vi | blog | BLOCKED | — |
-| 391 | [Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu "để sau tối ưu"](https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/) | vi | blog | BLOCKED | — |
-| 392 | [Gọi code native từ Dart: platform channel, Pigeon hay FFI](https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/) | vi | blog | BLOCKED | — |
-| 393 | [Bí mật trong ứng dụng Flutter: cái gì lưu được, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/) | vi | blog | BLOCKED | — |
-| 394 | [Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó](https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/) | vi | blog | BLOCKED | — |
-| 395 | [Test Flutter đỏ vì đúng lý do: widget, golden và integration](https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/) | vi | blog | BLOCKED | — |
-| 396 | [Flutter web biên dịch sang WebAssembly: được gì, mất gì](https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/) | vi | blog | BLOCKED | — |
-| 397 | [Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API](https://fluttercook.github.io/vi/blog/local-llms-when-they-beat-the-api/) | vi | blog | BLOCKED | — |
-| 398 | [Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag](https://fluttercook.github.io/vi/blog/prompt-caching-in-practice/) | vi | blog | BLOCKED | — |
-| 399 | [Retrieval không nói dối: dựng eval trước khi dựng RAG](https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/) | vi | blog | BLOCKED | — |
-| 400 | [Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc](https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/) | vi | blog | BLOCKED | — |
-| 401 | [Đừng parse văn xuôi nữa: schema, tool calling và output type-check được](https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/) | vi | blog | BLOCKED | — |
-| 402 | [Flavor trong Flutter: một codebase, ba ứng dụng, không copy-paste cấu hình](https://fluttercook.github.io/vi/blog/flutter-flavors-build-config/) | vi | blog | BLOCKED | — |
-| 403 | [Một pipeline CI cho Flutter thật sự bắt được lỗi](https://fluttercook.github.io/vi/blog/flutter-ci-cd-github-actions/) | vi | blog | BLOCKED | — |
-| 404 | [Fragment shader trong Flutter: cửa thoát xuống GPU và cái giá của nó](https://fluttercook.github.io/vi/blog/flutter-shaders-fragment-glsl/) | vi | blog | BLOCKED | — |
-| 405 | [Scroll physics tự viết: khiến danh sách dừng đúng chỗ bạn muốn](https://fluttercook.github.io/vi/blog/flutter-custom-scroll-physics/) | vi | blog | BLOCKED | — |
-| 406 | [Vì sao cú chạm của bạn không ăn: hit testing và đấu trường cử chỉ](https://fluttercook.github.io/vi/blog/flutter-gestures-hit-testing/) | vi | blog | BLOCKED | — |
-| 407 | [Vì sao ListView của bạn chậm, và bốn cách sửa thật sự có tác dụng](https://fluttercook.github.io/vi/blog/flutter-lists-performance-builder/) | vi | blog | BLOCKED | — |
-| 408 | [Đường ống ảnh trong Flutter: từ một URL tới pixel trên màn hình](https://fluttercook.github.io/vi/blog/flutter-image-caching-precache/) | vi | blog | BLOCKED | — |
-| 409 | [Tìm rò rỉ bộ nhớ trong Flutter: năm loại đối tượng không bao giờ được dispose](https://fluttercook.github.io/vi/blog/flutter-memory-leaks-devtools/) | vi | blog | BLOCKED | — |
-| 410 | [Khởi động nguội trong Flutter: đo khoảng thời gian trước frame đầu tiên](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start/) | vi | blog | BLOCKED | — |
-| 411 | [Thu nhỏ ứng dụng Flutter: megabyte thật sự nằm ở đâu](https://fluttercook.github.io/vi/blog/flutter-app-size-reduction/) | vi | blog | BLOCKED | — |
-| 412 | [Đa ngôn ngữ trong Flutter với file ARB: số nhiều, giống, và những chỗ cắn người](https://fluttercook.github.io/vi/blog/flutter-localization-intl-arb/) | vi | blog | BLOCKED | — |
-| 413 | [Trợ năng trong Flutter: cây semantics thật sự báo cáo những gì](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics/) | vi | blog | BLOCKED | — |
-| 414 | [Form trong Flutter vượt khỏi ví dụ mẫu: validate bất đồng bộ, focus và autofill](https://fluttercook.github.io/vi/blog/flutter-forms-validation-at-scale/) | vi | blog | BLOCKED | — |
-| 415 | [Theming Material 3 trong Flutter: vai trò màu, không phải giá trị màu](https://fluttercook.github.io/vi/blog/flutter-theming-material3-design-tokens/) | vi | blog | BLOCKED | — |
-| 416 | [BuildContext chính là element: đọc hiểu những thông báo lỗi có nhắc tới nó](https://fluttercook.github.io/vi/blog/flutter-build-context-explained/) | vi | blog | BLOCKED | — |
-| 417 | [go_router và deep link: những phần mà bài quickstart bỏ qua](https://fluttercook.github.io/vi/blog/flutter-navigation-go-router-deep-links/) | vi | blog | BLOCKED | — |
-| 418 | [Key trong Flutter: một quy tắc duy nhất giải thích mọi trường hợp](https://fluttercook.github.io/vi/blog/flutter-keys-when-they-matter/) | vi | blog | BLOCKED | — |
-| 419 | [Hiểu đúng về sliver: giao thức đứng sau mọi hiệu ứng cuộn trong Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-custom-scroll/) | vi | blog | BLOCKED | — |
-| 420 | [Agent Skills cho Dart và Flutter: workflow agent rẻ và chuẩn hơn](https://fluttercook.github.io/vi/blog/flutter-agent-skills-mcp/) | vi | blog | BLOCKED | — |
-| 421 | [Agentic Hot Reload: khi coding agent tự reload app đang chạy](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload/) | vi | blog | BLOCKED | — |
-| 422 | [Flutter view co theo nội dung trong native parent](https://fluttercook.github.io/vi/blog/flutter-content-sized-views/) | vi | blog | BLOCKED | — |
-| 423 | [CupertinoMenuAnchor và menu Flutter hiện đại](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor/) | vi | blog | BLOCKED | — |
-| 424 | [Product flavor trên Windows và Linux trong Flutter 3.47](https://fluttercook.github.io/vi/blog/flutter-desktop-flavors/) | vi | blog | BLOCKED | — |
-| 425 | [Firebase AI Logic trong Flutter: Gemini không cần backend riêng](https://fluttercook.github.io/vi/blog/flutter-firebase-ai-logic/) | vi | blog | BLOCKED | — |
-| 426 | [Fragment shader trong Flutter: uniform theo tên và texture đồng bộ](https://fluttercook.github.io/vi/blog/flutter-fragment-shader-api/) | vi | blog | BLOCKED | — |
-| 427 | [Gemma on-device trong Flutter: flutter_gemma và LiteRT-LM](https://fluttercook.github.io/vi/blog/flutter-gemma-litert-ondevice/) | vi | blog | BLOCKED | — |
-| 428 | [Genkit Dart: app AI full-stack không rời Dart](https://fluttercook.github.io/vi/blog/flutter-genkit-dart/) | vi | blog | BLOCKED | — |
-| 429 | [GenUI và A2UI: agent ghép widget, không chỉ markdown](https://fluttercook.github.io/vi/blog/flutter-genui-a2ui/) | vi | blog | BLOCKED | — |
-| 430 | [Hybrid Composition++: sửa platform view Android hết jank](https://fluttercook.github.io/vi/blog/flutter-hybrid-composition-plus-plus/) | vi | blog | BLOCKED | — |
-| 431 | [Impeller thành renderer desktop mặc định — thực sự đổi gì](https://fluttercook.github.io/vi/blog/flutter-impeller-default-desktop/) | vi | blog | BLOCKED | — |
-| 432 | [API multi-window desktop: popup, dialog và windowHandle](https://fluttercook.github.io/vi/blog/flutter-multi-window-desktop/) | vi | blog | BLOCKED | — |
-| 433 | [Chỉ ship asset mà từng nền tảng cần](https://fluttercook.github.io/vi/blog/flutter-platform-specific-assets/) | vi | blog | BLOCKED | — |
-| 434 | [Public release windows: PR Flutter của bạn lên stable khi nào](https://fluttercook.github.io/vi/blog/flutter-public-release-windows/) | vi | blog | BLOCKED | — |
-| 435 | [material_ui và cupertino_ui độc lập: thay đổi gì ở bản 1.0](https://fluttercook.github.io/vi/blog/flutter-standalone-material-ui-cupertino-ui/) | vi | blog | BLOCKED | — |
-| 436 | [Swift Package Manager là mặc định iOS/macOS — rời CocoaPods](https://fluttercook.github.io/vi/blog/flutter-swift-package-manager-default/) | vi | blog | BLOCKED | — |
-| 437 | [UIScene lifecycle: yêu cầu khởi động iOS 27 mà app Flutter phải đạt](https://fluttercook.github.io/vi/blog/flutter-uiscene-ios-lifecycle/) | vi | blog | BLOCKED | — |
-| 438 | [Flutter web Wasm: deferred loading để first paint nhẹ hơn](https://fluttercook.github.io/vi/blog/flutter-wasm-deferred-loading/) | vi | blog | BLOCKED | — |
-| 439 | [Widget Previews đã stable: sửa UI không cần chạy cả app](https://fluttercook.github.io/vi/blog/flutter-widget-previews-stable/) | vi | blog | BLOCKED | — |
-| 440 | [App authenticator Flutter an toàn cần đúng gì](https://fluttercook.github.io/vi/blog/oss-aegis-authenticator/) | vi | blog | BLOCKED | — |
-| 441 | [Bloc: kiến trúc nhàm chán nhưng scale được](https://fluttercook.github.io/vi/blog/oss-bloc-architecture/) | vi | blog | BLOCKED | — |
-| 442 | [Cashew: UI tài chính giữ dữ liệu local](https://fluttercook.github.io/vi/blog/oss-cashew-budget/) | vi | blog | BLOCKED | — |
-| 443 | [Ente: ảnh mã hóa đầu-cuối trên Flutter](https://fluttercook.github.io/vi/blog/oss-ente-photos/) | vi | blog | BLOCKED | — |
-| 444 | [Flame: vòng lặp game bên trong Flutter](https://fluttercook.github.io/vi/blog/oss-flame-engine/) | vi | blog | BLOCKED | — |
-| 445 | [FluffyChat: chat Matrix trên Flutter với E2EE thật](https://fluttercook.github.io/vi/blog/oss-fluffychat-architecture/) | vi | blog | BLOCKED | — |
-| 446 | [Flutter Deer: dự án luyện tập dáng production](https://fluttercook.github.io/vi/blog/oss-flutter-deer/) | vi | blog | BLOCKED | — |
-| 447 | [Forui: hệ thống UI Flutter có chủ kiến](https://fluttercook.github.io/vi/blog/oss-forui/) | vi | blog | BLOCKED | — |
-| 448 | [Harmony Music: pattern player offline-first](https://fluttercook.github.io/vi/blog/oss-harmony-music/) | vi | blog | BLOCKED | — |
-| 449 | [Hiddify Next: UI Flutter trên lõi tunnel](https://fluttercook.github.io/vi/blog/oss-hiddify-next/) | vi | blog | BLOCKED | — |
-| 450 | [Immich: bài học kiến trúc từ stack ảnh Flutter 100k sao](https://fluttercook.github.io/vi/blog/oss-immich-architecture/) | vi | blog | BLOCKED | — |
-| 451 | [Jaspr: Dart server-driven cho web](https://fluttercook.github.io/vi/blog/oss-jaspr-dart-web/) | vi | blog | BLOCKED | — |
-| 452 | [LocalSend: truyền file kiểu AirDrop không cần cloud](https://fluttercook.github.io/vi/blog/oss-localsend-architecture/) | vi | blog | BLOCKED | — |
-| 453 | [Lotti: journal với audio, habit và local DB nghiêm túc](https://fluttercook.github.io/vi/blog/oss-lotti-journal/) | vi | blog | BLOCKED | — |
-| 454 | [RustDesk: lõi Rust, vỏ Flutter](https://fluttercook.github.io/vi/blog/oss-rustdesk-flutter/) | vi | blog | BLOCKED | — |
-| 455 | [Saber: ghi chú viết tay và file local-first](https://fluttercook.github.io/vi/blog/oss-saber-notes/) | vi | blog | BLOCKED | — |
-| 456 | [Serverpod: full-stack Dart phía sau Flutter](https://fluttercook.github.io/vi/blog/oss-serverpod/) | vi | blog | BLOCKED | — |
-| 457 | [shadcn-flutter: port design system, không chỉ theme](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter/) | vi | blog | BLOCKED | — |
-| 458 | [Spotube: client nhạc Flutter ưu tiên privacy](https://fluttercook.github.io/vi/blog/oss-spotube-architecture/) | vi | blog | BLOCKED | — |
-| 459 | [Venera: layout reader tùy chỉnh trong Flutter](https://fluttercook.github.io/vi/blog/oss-venera-reader/) | vi | blog | BLOCKED | — |
-| 460 | [A/B testing mobile UI without wrecking performance — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ab-testing-mobile/) | vi | blog | BLOCKED | — |
-| 461 | [A practical mobile accessibility audit in one day — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-audit-steps/) | vi | blog | BLOCKED | — |
-| 462 | [Accessibility semantics checklist for Flutter forms — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics-checklist/) | vi | blog | BLOCKED | — |
-| 463 | [Account recovery UX that reduces support tickets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-account-recovery-ux/) | vi | blog | BLOCKED | — |
-| 464 | [Age assurance requirements affecting mobile apps in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-age-assurance-2026/) | vi | blog | BLOCKED | — |
-| 465 | [Package skills and Agent Skills for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agent-skills-package-skills/) | vi | blog | BLOCKED | — |
-| 466 | [Agentic Hot Reload: closing the prompt-to-pixels loop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload-workflow/) | vi | blog | BLOCKED | — |
-| 467 | [Unit economics of AI features in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-feature-unit-economics/) | vi | blog | BLOCKED | — |
-| 468 | [Tracing LLM calls inside mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-observability-tracing/) | vi | blog | BLOCKED | — |
-| 469 | [Flutter AI Toolkit: production chat UX patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-toolkit-chat-ux/) | vi | blog | BLOCKED | — |
-| 470 | [A mobile analytics event schema that survives redesigns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-analytics-events-schema/) | vi | blog | BLOCKED | — |
-| 471 | [Preparing Flutter apps for Android 17 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-17-prep/) | vi | blog | BLOCKED | — |
-| 472 | [Android App Bundles, ABI splits, and download size — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-splits-aab/) | vi | blog | BLOCKED | — |
-| 473 | [API versioning strategies for mobile clients — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-api-versioning-mobile/) | vi | blog | BLOCKED | — |
-| 474 | [Device integrity checks without ruining UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-attest-play-integrity/) | vi | blog | BLOCKED | — |
-| 475 | [App Clips and Instant Apps with Flutter modules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-clips-instant/) | vi | blog | BLOCKED | — |
-| 476 | [Flutter and iOS app extensions without a second UI stack — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-extensions-ios/) | vi | blog | BLOCKED | — |
-| 477 | [App icon design that survives 2026 store grids — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-icon-2026-guidelines/) | vi | blog | BLOCKED | — |
-| 478 | [The April 2027 SDK deadline for App Store uploads — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-store-2027-sdk-deadline/) | vi | blog | BLOCKED | — |
-| 479 | [AR and visionOS companions for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ar-visionos-companion/) | vi | blog | BLOCKED | — |
-| 480 | [ADRs for mobile architecture decisions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-architecture-decision-records/) | vi | blog | BLOCKED | — |
-| 481 | [Certificate pinning and network security on mobile — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/) | vi | blog | BLOCKED | — |
-| 482 | [CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/) | vi | blog | BLOCKED | — |
-| 483 | [Escaping setState spaghetti with clear ownership — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/) | vi | blog | BLOCKED | — |
-| 484 | [Field-service apps: offline-first B2B patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-offline-field-apps/) | vi | blog | BLOCKED | — |
-| 485 | [SSO for enterprise mobile: OIDC and SAML realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-sso-saml-oidc/) | vi | blog | BLOCKED | — |
-| 486 | [Background work limits on iOS and Android in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-background-fetch-limits/) | vi | blog | BLOCKED | — |
-| 487 | [Step-up authentication with biometrics for sensitive actions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-biometric-step-up/) | vi | blog | BLOCKED | — |
-| 488 | [User safety features: block, mute, and restrict — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-block-report-safety/) | vi | blog | BLOCKED | — |
-| 489 | [Brand refreshes without breaking mobile users — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brand-refresh-risk/) | vi | blog | BLOCKED | — |
-| 490 | [Alternative marketplaces: EU DMA and Brazil CADE rules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brazil-eu-marketplace-rules/) | vi | blog | BLOCKED | — |
-| 491 | [A bug report template that gets mobile issues fixed — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-bug-report-template-mobile/) | vi | blog | BLOCKED | — |
-| 492 | [Debug, profile, and release: stop optimizing the wrong mode — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-build-modes-debug-profile/) | vi | blog | BLOCKED | — |
-| 493 | [On-device vision with Camera and ML Kit in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-camera-mlkit-vision/) | vi | blog | BLOCKED | — |
-| 494 | [Capacity planning for mobile platform teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-capacity-planning-mobile/) | vi | blog | BLOCKED | — |
-| 495 | [Certificate Transparency and mobile network trust — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-certificate-transparency/) | vi | blog | BLOCKED | — |
-| 496 | [Release notes users actually read — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-changelog-release-notes/) | vi | blog | BLOCKED | — |
-| 497 | [Kids apps: COPPA, age gates, and store questionnaires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-childrens-privacy-coppa/) | vi | blog | BLOCKED | — |
-| 498 | [GitHub Actions for Flutter with sane caches — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ci-github-actions-cache/) | vi | blog | BLOCKED | — |
-| 499 | [Clean architecture in Flutter without ceremony — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-clean-architecture-not-religion/) | vi | blog | BLOCKED | — |
-| 500 | [Code push, hotfix, and what Apple/Google actually allow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-code-push-alternatives/) | vi | blog | BLOCKED | — |
-| 501 | [Codegen that pays for itself: freezed and json_serializable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-codegen-freezed-json/) | vi | blog | BLOCKED | — |
-| 502 | [Running a healthy app community on Discord/GitHub — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-community-discord-github/) | vi | blog | BLOCKED | — |
-| 503 | [What a mature Flutter component library includes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-component-library-maturity/) | vi | blog | BLOCKED | — |
-| 504 | [Hosting Jetpack Compose inside Flutter (and the reverse) — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-compose-interop-android/) | vi | blog | BLOCKED | — |
-| 505 | [const constructors: the cheapest Flutter performance win — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-const-constructor-perf/) | vi | blog | BLOCKED | — |
-| 506 | [UGC moderation stacks for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-moderation-ugc/) | vi | blog | BLOCKED | — |
-| 507 | [Content-sized Flutter views inside native scrollables — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-sized-add-to-app/) | vi | blog | BLOCKED | — |
-| 508 | [True cost of cross-platform in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cost-of-crossplatform/) | vi | blog | BLOCKED | — |
-| 509 | [Crash-free session SLOs for mobile teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-free-rate-slo/) | vi | blog | BLOCKED | — |
-| 510 | [Symbolication done right for iOS and Android crashes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-symbolication-symbols/) | vi | blog | BLOCKED | — |
-| 511 | [Error boundaries and Crashlytics for Flutter production apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crashlytics-error-boundaries/) | vi | blog | BLOCKED | — |
-| 512 | [CupertinoMenuAnchor and RawMenuAnchor menus — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor-ios/) | vi | blog | BLOCKED | — |
-| 513 | [Dark mode that does not look inverted — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dark-mode-contrast/) | vi | blog | BLOCKED | — |
-| 514 | [Dart primary constructors in Flutter model code — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dart-3-13-primary-constructors/) | vi | blog | BLOCKED | — |
-| 515 | [GDPR/CCPA data deletion flows in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-data-cleanup-gdpr/) | vi | blog | BLOCKED | — |
-| 516 | [Universal Links and App Links that open the right screen — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-deep-link-universal-links/) | vi | blog | BLOCKED | — |
-| 517 | [A dependency update rhythm that avoids upgrade hell — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dependency-update-rhythm/) | vi | blog | BLOCKED | — |
-| 518 | [Design reviews that catch mobile-specific failures — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-design-review-mobile/) | vi | blog | BLOCKED | — |
-| 519 | [Governing a multi-platform design system — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-design-system-governance/) | vi | blog | BLOCKED | — |
-| 520 | [Design tokens across Flutter, iOS, and Android — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-design-tokens-crossplatform/) | vi | blog | BLOCKED | — |
-| 521 | [Product flavors on Windows and Linux for CI matrices — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-desktop-flavors-ci/) | vi | blog | BLOCKED | — |
-| 522 | [Window management APIs for Flutter desktop apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-desktop-window-management-api/) | vi | blog | BLOCKED | — |
-| 523 | [DevTools Network and Memory views you should actually use — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-devtools-network-memory/) | vi | blog | BLOCKED | — |
-| 524 | [Mobile docs that stay accurate after ship — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-documentation-that-lives/) | vi | blog | BLOCKED | — |
-| 525 | [Dot shorthands in Flutter: cleaner enum and const syntax — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dot-shorthands/) | vi | blog | BLOCKED | — |
-| 526 | [Offline-first Flutter with Drift and background sync — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-drift-offline-first/) | vi | blog | BLOCKED | — |
-| 527 | [When Flutter is wrong: choosing native iOS or Android — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dual-platform-native-strategy/) | vi | blog | BLOCKED | — |
-| 528 | [K-12 education apps and student privacy — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-education-k12-privacy/) | vi | blog | BLOCKED | — |
-| 529 | [Device profiles that define 2026 mobile UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-emerging-device-profiles/) | vi | blog | BLOCKED | — |
-| 530 | [MDM, managed configuration, and enterprise Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-enterprise-mdm/) | vi | blog | BLOCKED | — |
-| 531 | [EU alternative payments and what Flutter teams must change — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-eu-alternative-payments/) | vi | blog | BLOCKED | — |
-| 532 | [Eval harnesses for mobile AI features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-evals-before-ship-ai/) | vi | blog | BLOCKED | — |
-| 533 | [Reading mobile experiment results without fooling yourself — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-experiment-readouts/) | vi | blog | BLOCKED | — |
-| 534 | [Feature flag cleanup sprints that actually happen — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-feature-flag-cleanup/) | vi | blog | BLOCKED | — |
-| 535 | [Feature flags and remote config without a mess — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-feature-flags-config/) | vi | blog | BLOCKED | — |
-| 536 | [Fintech mobile compliance realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-fintech-compliance-mobile/) | vi | blog | BLOCKED | — |
-| 537 | [Firebase AI Logic: Gemini from Flutter without a custom backend — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-firebase-ai-logic-security/) | vi | blog | BLOCKED | — |
-| 538 | [Firebase App Distribution for Android/iOS betas — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-firebase-app-distribution/) | vi | blog | BLOCKED | — |
-| 539 | [Parallax backgrounds and camera work in Flame — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-flame-parallax-backgrounds/) | vi | blog | BLOCKED | — |
-| 540 | [Flutter on foldables and large screens in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-foldable-large-screens/) | vi | blog | BLOCKED | — |
-| 541 | [Shipping custom fonts without license landmines — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-fonts-licensing-mobile/) | vi | blog | BLOCKED | — |
-| 542 | [Form validation that users finish — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-forms-validation-scale/) | vi | blog | BLOCKED | — |
-| 543 | [Fragment shaders: bind uniforms by name in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-fragment-shader-uniforms-by-name/) | vi | blog | BLOCKED | — |
-| 544 | [Paywall UX that converts without dark patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-freemium-paywall-ux/) | vi | blog | BLOCKED | — |
-| 545 | [Shipping a 2D mini-game inside a Flutter product — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-game-flame-product/) | vi | blog | BLOCKED | — |
-| 546 | [On-device Gemma with flutter_gemma and LiteRT-LM — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-gemma-litert-lm/) | vi | blog | BLOCKED | — |
-| 547 | [Genkit Dart: full-stack AI flows in one language — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-genkit-dart-fullstack/) | vi | blog | BLOCKED | — |
-| 548 | [GenUI: when agents compose widgets instead of markdown — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-genui-beyond-markdown/) | vi | blog | BLOCKED | — |
-| 549 | [go_router deep links and URL strategies that scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-go-router-deep-links-2026/) | vi | blog | BLOCKED | — |
-| 550 | [Accessibility procurement for public-sector mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-government-accessibility/) | vi | blog | BLOCKED | — |
-| 551 | [Prompt injection defenses for mobile AI features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-guardrails-prompt-injection/) | vi | blog | BLOCKED | — |
-| 552 | [Hybrid Composition++: Vulkan-composited platform views — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-hcpp-platform-views-vulkan/) | vi | blog | BLOCKED | — |
-| 553 | [Health and wellness apps: regulations that bite — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-health-data-regulations/) | vi | blog | BLOCKED | — |
-| 554 | [Healthcare mobile basics: beyond the buzzword checklist — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-healthcare-hipaa-basics/) | vi | blog | BLOCKED | — |
-| 555 | [Hero animations without the glitches — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-hero-shared-element/) | vi | blog | BLOCKED | — |
-| 556 | [Hiring mobile engineers in a Flutter+native world — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-hiring-mobile-engineers/) | vi | blog | BLOCKED | — |
-| 557 | [Home screen widgets with Flutter shells — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-home-screen-widgets/) | vi | blog | BLOCKED | — |
-| 558 | [HTTP in Flutter: timeouts, retries, and cancellation — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-http-dio-timeouts/) | vi | blog | BLOCKED | — |
-| 559 | [Flutter localization with ARB and gen_l10n that translators like — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-i18n-arb-gen-l10n/) | vi | blog | BLOCKED | — |
-| 560 | [Image caching and decode budgets in Flutter lists — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-image-cache-memory/) | vi | blog | BLOCKED | — |
-| 561 | [Impeller on desktop: SDF text and Metal/Vulkan defaults — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-impeller-desktop-sdf-text/) | vi | blog | BLOCKED | — |
-| 562 | [In-app purchases with StoreKit 2 and Play Billing in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-in-app-purchase-storekit2/) | vi | blog | BLOCKED | — |
-| 563 | [Subscription groups, upgrades, and proration explained — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-in-app-purchase-subscription-groups/) | vi | blog | BLOCKED | — |
-| 564 | [User communication during mobile incidents — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-incident-comms-mobile/) | vi | blog | BLOCKED | — |
-| 565 | [Integration tests that survive real devices — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-integration-test-patrol/) | vi | blog | BLOCKED | — |
-| 566 | [Mobile performance interview questions that matter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-interview-performance-questions/) | vi | blog | BLOCKED | — |
-| 567 | [Isolates and compute() without the myths — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-isolates-compute/) | vi | blog | BLOCKED | — |
-| 568 | [Designing for Liquid Glass and Material without dual UIs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-liquid-glass-adaptive-ui/) | vi | blog | BLOCKED | — |
-| 569 | [Marketing on-device AI without lying — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-llm-on-device-privacy-marketing/) | vi | blog | BLOCKED | — |
-| 570 | [Local notifications that do not spam or break on Android 13+ — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-local-notifications-2026/) | vi | blog | BLOCKED | — |
-| 571 | [Pseudolocales and expansion testing before translators — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-localization-pseudolocales/) | vi | blog | BLOCKED | — |
-| 572 | [Logistics tracking UX under poor connectivity — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-logistics-tracking-ux/) | vi | blog | BLOCKED | — |
-| 573 | [Maps, location, and permission UX in Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-maps-location-permissions/) | vi | blog | BLOCKED | — |
-| 574 | [Material 3 Expressive theming without fighting Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-material3-expressive-theming/) | vi | blog | BLOCKED | — |
-| 575 | [Background audio with media_kit and platform media sessions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-mediakit-audio-background/) | vi | blog | BLOCKED | — |
-| 576 | [Melos monorepos for Flutter apps and packages — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-melos-monorepo/) | vi | blog | BLOCKED | — |
-| 577 | [Haptics and microinteractions that feel native — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-microinteractions-haptics/) | vi | blog | BLOCKED | — |
-| 578 | [Camera and microphone permissions with honest UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-microphone-camera-permission/) | vi | blog | BLOCKED | — |
-| 579 | [Why your device lab needs a mid-tier Android — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-mid-tier-device-lab/) | vi | blog | BLOCKED | — |
-| 580 | [Migrating large apps to Material 3 Expressive — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-migrate-material3-expressive/) | vi | blog | BLOCKED | — |
-| 581 | [Migrating from React Native to Flutter in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-migration-from-rn-2026/) | vi | blog | BLOCKED | — |
-| 582 | [Moving Android XML / UIKit apps to Flutter gradually — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-migration-from-xml-uikit/) | vi | blog | BLOCKED | — |
-| 583 | [A 20-minute mobile smoke checklist before every release — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-mobile-qa-smoke-checklist/) | vi | blog | BLOCKED | — |
-| 584 | [Model routing and cascades for mobile AI — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-model-routing-cascades/) | vi | blog | BLOCKED | — |
-| 585 | [Multi-account apps without token soup — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multi-account-mobile/) | vi | blog | BLOCKED | — |
-| 586 | [Desktop multi-window: popups, dialogs, and windowHandle — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multi-window-popup-apis/) | vi | blog | BLOCKED | — |
-| 587 | [Multimodal AI: camera to structured data in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multimodal-camera-ai/) | vi | blog | BLOCKED | — |
-| 588 | [Multiple Flutter instances in one host app — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multiple-flutter-instances/) | vi | blog | BLOCKED | — |
-| 589 | [State restoration across process death — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-navigation-restoration/) | vi | blog | BLOCKED | — |
-| 590 | [Obfuscation, symbols, and secrets in Flutter release builds — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-obfuscate-secrets-release/) | vi | blog | BLOCKED | — |
-| 591 | [Mobile observability cost control — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-observability-cost-mobile/) | vi | blog | BLOCKED | — |
-| 592 | [Mobile observability: Sentry, Crashlytics, and custom traces — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-observability-sentry-firebase/) | vi | blog | BLOCKED | — |
-| 593 | [Graceful degradation when AI is unavailable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-offline-ai-fallback/) | vi | blog | BLOCKED | — |
-| 594 | [Sync conflict resolution patterns for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-offline-sync-conflict/) | vi | blog | BLOCKED | — |
-| 595 | [Mobile OKRs that engineering can influence — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-okrs-mobile-product/) | vi | blog | BLOCKED | — |
-| 596 | [Mobile on-call runbooks that juniors can execute — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-oncall-mobile-runbook/) | vi | blog | BLOCKED | — |
-| 597 | [Product patterns for on-device LLMs in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ondevice-llm-product/) | vi | blog | BLOCKED | — |
-| 598 | [How to study open-source Flutter apps without drowning — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-open-source-app-study/) | vi | blog | BLOCKED | — |
-| 599 | [How to pick a Flutter package in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-package-selection-checklist/) | vi | blog | BLOCKED | — |
-| 600 | [Pagination and infinite scroll without layout jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-pagination-infinite-scroll/) | vi | blog | BLOCKED | — |
-| 601 | [Passkeys and passwordless login in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-passkeys-passwordless/) | vi | blog | BLOCKED | — |
-| 602 | [Mobile payment fraud signals worth watching — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-payments-fraud-mobile/) | vi | blog | BLOCKED | — |
-| 603 | [Setting a frame budget your product team understands — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-performance-budget-product/) | vi | blog | BLOCKED | — |
-| 604 | [Photo library access: limited libraries and privacy labels — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-photo-library-permissions/) | vi | blog | BLOCKED | — |
-| 605 | [Pigeon: typed platform channels that scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-pigeon-typed-channels/) | vi | blog | BLOCKED | — |
-| 606 | [Ship only the assets each platform needs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-platform-assets-reduce-apk/) | vi | blog | BLOCKED | — |
-| 607 | [Platform channels vs FFI in 2026: pick the right bridge — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi-2026/) | vi | blog | BLOCKED | — |
-| 608 | [Google Play policy changes mobile teams should track — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-play-policy-2026/) | vi | blog | BLOCKED | — |
-| 609 | [Portfolio Flutter projects that get interviews in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-portfolio-projects-2026/) | vi | blog | BLOCKED | — |
-| 610 | [Blameless mobile incident postmortems — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-postmortem-blameless/) | vi | blog | BLOCKED | — |
-| 611 | [Predictive back animations in Flutter Android apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-predictive-back/) | vi | blog | BLOCKED | — |
-| 612 | [Privacy manifests and required reason APIs for Flutter plugins — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-privacy-manifest-ios/) | vi | blog | BLOCKED | — |
-| 613 | [Prompt caching on mobile AI calls — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-prompt-caching-mobile/) | vi | blog | BLOCKED | — |
-| 614 | [Flutter Property Editor: inspect widgets without print debugging — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-property-editor-devtools/) | vi | blog | BLOCKED | — |
-| 615 | [Notification permission primers that earn the grant — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-push-permission-primer/) | vi | blog | BLOCKED | — |
-| 616 | [RAG on mobile: what belongs on-device vs server — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rag-on-mobile/) | vi | blog | BLOCKED | — |
-| 617 | [prefers-reduced-motion and Flutter animations — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-reduced-motion-a11y/) | vi | blog | BLOCKED | — |
-| 618 | [Refund handling that protects ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-refund-handling-playbook/) | vi | blog | BLOCKED | — |
-| 619 | [A mobile release checklist that prevents Friday fires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-checklist-mobile/) | vi | blog | BLOCKED | — |
-| 620 | [Mobile rollback playbooks when stores are slow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-rollback-playbook/) | vi | blog | BLOCKED | — |
-| 621 | [Public release windows: when your Flutter PR ships — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-windows-2026/) | vi | blog | BLOCKED | — |
-| 622 | [Running a remote mobile team across timezones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-remote-mobile-team/) | vi | blog | BLOCKED | — |
-| 623 | [Retail POS companions and handheld workflows — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-retail-pos-companion/) | vi | blog | BLOCKED | — |
-| 624 | [Riverpod patterns that survive production scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-riverpod-3-patterns/) | vi | blog | BLOCKED | — |
-| 625 | [Communicating mobile roadmaps without over-promising — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-roadmap-communication/) | vi | blog | BLOCKED | — |
-| 626 | [RTL layouts that do not look broken in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rtl-layout-flutter/) | vi | blog | BLOCKED | — |
-| 627 | [flutter_rust_bridge for heavy compute in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rust-bridge-performance/) | vi | blog | BLOCKED | — |
-| 628 | [Building store screenshots that convert — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/) | vi | blog | BLOCKED | — |
-| 629 | [SEA market expansion checklist for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/) | vi | blog | BLOCKED | — |
-| 630 | [Redacting secrets from mobile logs and crash reports — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/) | vi | blog | BLOCKED | — |
-| 631 | [Storing tokens with Secure Enclave / StrongBox — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/) | vi | blog | BLOCKED | — |
-| 632 | [Secure storage and biometrics for Flutter tokens — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/) | vi | blog | BLOCKED | — |
-| 633 | [Serverpod: one language from SQL to Flutter widgets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-serverpod-backend/) | vi | blog | BLOCKED | — |
-| 634 | [Mobile session management: refresh tokens done right — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-session-management-mobile/) | vi | blog | BLOCKED | — |
-| 635 | [Slivers that scroll without jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-performance/) | vi | blog | BLOCKED | — |
-| 636 | [Migrating to standalone material_ui and cupertino_ui in Flutter 3.47 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-standalone-design-packages-migration/) | vi | blog | BLOCKED | — |
-| 637 | [Cold start budgets for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start-2026/) | vi | blog | BLOCKED | — |
-| 638 | [ASO for Flutter apps: screenshots, keywords, and ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-listing-aso/) | vi | blog | BLOCKED | — |
-| 639 | [Mapping App Store guidelines to common Flutter features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-guidelines-map/) | vi | blog | BLOCKED | — |
-| 640 | [SKStoreReview and in-app review prompts that do not annoy — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-prompts/) | vi | blog | BLOCKED | — |
-| 641 | [Replying to store reviews without sounding like a bot — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-reply-playbook/) | vi | blog | BLOCKED | — |
-| 642 | [Streaming LLM responses into Flutter UIs token by token — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-streaming-ux-tokens/) | vi | blog | BLOCKED | — |
-| 643 | [Structured output and tool calling in Flutter AI apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-structured-output-tool-calling/) | vi | blog | BLOCKED | — |
-| 644 | [Stylus pressure and tilt input in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-stylus-pencil-input/) | vi | blog | BLOCKED | — |
-| 645 | [Swift Package Manager plugin migration checklist for Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-swiftpm-plugin-migration-checklist/) | vi | blog | BLOCKED | — |
-| 646 | [Switch expressions for cleaner Flutter mapping — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-switch-expression-ui/) | vi | blog | BLOCKED | — |
-| 647 | [Keyboard shortcuts and pointer support for tablets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-tablet-keyboard-shortcuts/) | vi | blog | BLOCKED | — |
-| 648 | [A 2026 skills roadmap for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-team-skills-2026-roadmap/) | vi | blog | BLOCKED | — |
-| 649 | [A mobile technical debt inventory that leaders fund — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-technical-debt-inventory/) | vi | blog | BLOCKED | — |
-| 650 | [TestFlight internal vs external testing that finds real bugs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testflight-internal-external/) | vi | blog | BLOCKED | — |
-| 651 | [Golden tests for design systems — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testing-goldens-design-system/) | vi | blog | BLOCKED | — |
-| 652 | [Threat modeling a mobile app in one workshop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-threat-model-mobile/) | vi | blog | BLOCKED | — |
-| 653 | [A weekly mobile crash triage that actually reduces issues — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-triage-crash-weekly/) | vi | blog | BLOCKED | — |
-| 654 | [UIScene lifecycle: the iOS 27 launch gate for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-uiscene-ios-27-checklist/) | vi | blog | BLOCKED | — |
-| 655 | [Shipping mobile apps for the Vietnam market in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-vietnam-mobile-market/) | vi | blog | BLOCKED | — |
-| 656 | [Wasm deferred loading: split Flutter web for first paint — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-wasm-deferred-loading-strategy/) | vi | blog | BLOCKED | — |
-| 657 | [Wear companions: watchOS and Wear OS with Flutter phones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-watch-wear-companion/) | vi | blog | BLOCKED | — |
-| 658 | [Embedding Flutter into an existing marketing site — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-embed-existing-site/) | vi | blog | BLOCKED | — |
-| 659 | [SEO for Flutter web: when to prerender and when not to — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-seo-prerender/) | vi | blog | BLOCKED | — |
-| 660 | [Widget Previewer is stable: isolate UI without booting the app — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-widget-previewer-stable/) | vi | blog | BLOCKED | — |
-| 661 | [Appwrite Flutter: backend service với client rõ ràng](https://fluttercook.github.io/vi/blog/oss-appwrite-flutter/) | vi | blog | BLOCKED | — |
-| 662 | [build_runner: biến code generation thành build step deterministic](https://fluttercook.github.io/vi/blog/oss-build-runner/) | vi | blog | BLOCKED | — |
-| 663 | [camera: pipeline chụp thật, không chỉ là preview](https://fluttercook.github.io/vi/blog/oss-camera-plugin/) | vi | blog | BLOCKED | — |
-| 664 | [connectivity_plus: loại mạng không đồng nghĩa có internet](https://fluttercook.github.io/vi/blog/oss-connectivity-plus/) | vi | blog | BLOCKED | — |
-| 665 | [desktop_multi_window: quản lý nhiều cửa sổ desktop có chủ đích](https://fluttercook.github.io/vi/blog/oss-desktop-multi-window/) | vi | blog | BLOCKED | — |
-| 666 | [Dio: networking có thể ghép bằng interceptor](https://fluttercook.github.io/vi/blog/oss-dio-networking/) | vi | blog | BLOCKED | — |
-| 667 | [Drift: SQL có kiểu cho ứng dụng Flutter offline-first](https://fluttercook.github.io/vi/blog/oss-drift-database/) | vi | blog | BLOCKED | — |
-| 668 | [Equatable: value semantics cho state object Dart](https://fluttercook.github.io/vi/blog/oss-equatable/) | vi | blog | BLOCKED | — |
-| 669 | [file_picker: một user intent trên sáu platform](https://fluttercook.github.io/vi/blog/oss-file-picker/) | vi | blog | BLOCKED | — |
-| 670 | [FlexColorScheme: theme design system ít boilerplate](https://fluttercook.github.io/vi/blog/oss-flex-color-scheme/) | vi | blog | BLOCKED | — |
-| 671 | [animations: pattern motion Material có thể tái sử dụng](https://fluttercook.github.io/vi/blog/oss-flutter-animations/) | vi | blog | BLOCKED | — |
-| 672 | [flutter_bloc: event và state rõ ràng cho ứng dụng lớn](https://fluttercook.github.io/vi/blog/oss-flutter-bloc/) | vi | blog | BLOCKED | — |
-| 673 | [flutter_hooks: tái sử dụng behavior có state bằng hook nhỏ](https://fluttercook.github.io/vi/blog/oss-flutter-hooks/) | vi | blog | BLOCKED | — |
-| 674 | [flutter_rust_bridge: Rust có kiểu mà không phải tự viết FFI glue](https://fluttercook.github.io/vi/blog/oss-flutter-rust-bridge/) | vi | blog | BLOCKED | — |
-| 675 | [flutter_secure_storage: secret nằm sau keychain của platform](https://fluttercook.github.io/vi/blog/oss-flutter-secure-storage/) | vi | blog | BLOCKED | — |
-| 676 | [ForUI: component headless dễ tiếp cận cho Flutter](https://fluttercook.github.io/vi/blog/oss-forui-components/) | vi | blog | BLOCKED | — |
-| 677 | [Freezed: model bất biến và union an toàn hơn](https://fluttercook.github.io/vi/blog/oss-freezed/) | vi | blog | BLOCKED | — |
-| 678 | [FVM: ghim Flutter version theo từng repository](https://fluttercook.github.io/vi/blog/oss-fvm-flutter-version-manager/) | vi | blog | BLOCKED | — |
-| 679 | [go_router: Điều hướng Flutter lấy URL làm trung tâm](https://fluttercook.github.io/vi/blog/oss-go-router/) | vi | blog | BLOCKED | — |
-| 680 | [Golden Toolkit: regression hình ảnh có chủ đích](https://fluttercook.github.io/vi/blog/oss-golden-toolkit/) | vi | blog | BLOCKED | — |
-| 681 | [image_picker: API nhỏ cho các nguồn media phức tạp](https://fluttercook.github.io/vi/blog/oss-image-picker/) | vi | blog | BLOCKED | — |
-| 682 | [intl: format data theo locale một cách có chủ đích](https://fluttercook.github.io/vi/blog/oss-intl-localization/) | vi | blog | BLOCKED | — |
-| 683 | [Isar: object database local nhanh với index có thể query](https://fluttercook.github.io/vi/blog/oss-isar-database/) | vi | blog | BLOCKED | — |
-| 684 | [json_serializable: JSON nhàm chán nhưng bền qua refactor](https://fluttercook.github.io/vi/blog/oss-json-serializable/) | vi | blog | BLOCKED | — |
-| 685 | [just_audio: audio có thể điều khiển bằng stream](https://fluttercook.github.io/vi/blog/oss-just-audio/) | vi | blog | BLOCKED | — |
-| 686 | [local_auth: biometric là step-up, không phải nơi lưu password](https://fluttercook.github.io/vi/blog/oss-local-auth/) | vi | blog | BLOCKED | — |
-| 687 | [Melos: biến Flutter monorepo thành ranh giới sản phẩm](https://fluttercook.github.io/vi/blog/oss-melos-monorepo/) | vi | blog | BLOCKED | — |
-| 688 | [Mocktail: mock Dart dễ đọc mà không cần file generated](https://fluttercook.github.io/vi/blog/oss-mocktail/) | vi | blog | BLOCKED | — |
-| 689 | [Patrol: integration test có thể đi ra ngoài sandbox Flutter](https://fluttercook.github.io/vi/blog/oss-patrol-testing/) | vi | blog | BLOCKED | — |
-| 690 | [permission_handler: luồng xin quyền runtime có thể giải thích](https://fluttercook.github.io/vi/blog/oss-permission-handler/) | vi | blog | BLOCKED | — |
-| 691 | [Pigeon: platform channel có kiểu sinh từ một schema](https://fluttercook.github.io/vi/blog/oss-pigeon-typed-platform-channels/) | vi | blog | BLOCKED | — |
-| 692 | [Rive: animation vector tương tác bằng state machine](https://fluttercook.github.io/vi/blog/oss-rive-runtime/) | vi | blog | BLOCKED | — |
-| 693 | [Riverpod: state bất đồng bộ có thể test mà không dính widget](https://fluttercook.github.io/vi/blog/oss-riverpod/) | vi | blog | BLOCKED | — |
-| 694 | [Sentry Flutter: lỗi đi kèm context của release](https://fluttercook.github.io/vi/blog/oss-sentry-flutter/) | vi | blog | BLOCKED | — |
-| 695 | [shadcn_flutter: UI primitive có thể ghép cho Flutter](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter-components/) | vi | blog | BLOCKED | — |
-| 696 | [skeletonizer: loading UI từ chính widget tree thật](https://fluttercook.github.io/vi/blog/oss-skeletonizer/) | vi | blog | BLOCKED | — |
-| 697 | [supabase_flutter: auth, Postgres, realtime và storage](https://fluttercook.github.io/vi/blog/oss-supabase-flutter/) | vi | blog | BLOCKED | — |
-| 698 | [url_launcher: platform intent với hợp đồng fallback](https://fluttercook.github.io/vi/blog/oss-url-launcher/) | vi | blog | BLOCKED | — |
-| 699 | [Very Good CLI: scaffolding Flutter có opinion](https://fluttercook.github.io/vi/blog/oss-very-good-cli/) | vi | blog | BLOCKED | — |
-| 700 | [video_player: primitive video Flutter dựa trên platform](https://fluttercook.github.io/vi/blog/oss-video-player/) | vi | blog | BLOCKED | — |
+| 1 | [Creating a custom progress indicator in Flutter with CustomPaint](https://fluttercook.github.io/blog/creating-a-custom-progress-indicator/) | en | blog | PENDING | — |
+| 2 | [On-device AI in Flutter: what fits on a phone](https://fluttercook.github.io/blog/ai-on-device-flutter-gemma/) | en | blog | PENDING | — |
+| 3 | [Model routing and cascades: paying for the intelligence you need](https://fluttercook.github.io/blog/ai-model-routing-cascades/) | en | blog | PENDING | — |
+| 4 | [Streaming UX: designing for tokens arriving one at a time](https://fluttercook.github.io/blog/ai-streaming-ux-token-by-token/) | en | blog | PENDING | — |
+| 5 | [Synthetic data for evals: building a test set you can trust](https://fluttercook.github.io/blog/ai-synthetic-data-for-evals/) | en | blog | PENDING | — |
+| 6 | [Vision models in production: the parts the demo skips](https://fluttercook.github.io/blog/ai-multimodal-vision-in-production/) | en | blog | PENDING | — |
+| 7 | [Prompt injection: what actually defends against it](https://fluttercook.github.io/blog/ai-guardrails-prompt-injection-defense/) | en | blog | PENDING | — |
+| 8 | [Observability for LLM apps: tracing a non-deterministic system](https://fluttercook.github.io/blog/ai-observability-tracing-llm-apps/) | en | blog | PENDING | — |
+| 9 | [Chunking for retrieval: the decision that quietly caps your RAG quality](https://fluttercook.github.io/blog/ai-chunking-strategies-that-matter/) | en | blog | PENDING | — |
+| 10 | [Choosing an embedding model: the questions that actually matter](https://fluttercook.github.io/blog/ai-embeddings-choosing-a-model/) | en | blog | PENDING | — |
+| 11 | [Designing tools an AI agent can actually use](https://fluttercook.github.io/blog/ai-agent-tool-design/) | en | blog | PENDING | — |
+| 12 | [Writing a custom lint for your Dart codebase](https://fluttercook.github.io/blog/dart-custom-lints-analyzer/) | en | blog | PENDING | — |
+| 13 | [Code generation in Dart: build_runner without the frustration](https://fluttercook.github.io/blog/dart-build-runner-codegen/) | en | blog | PENDING | — |
+| 14 | [Dart streams in depth: backpressure, broadcast, and the leaks in between](https://fluttercook.github.io/blog/dart-streams-in-depth/) | en | blog | PENDING | — |
+| 15 | [Extension types in Dart: a new name for an old value](https://fluttercook.github.io/blog/dart-extension-types-zero-cost/) | en | blog | PENDING | — |
+| 16 | [Records and patterns in Dart: what they replace](https://fluttercook.github.io/blog/dart-records-and-patterns/) | en | blog | PENDING | — |
+| 17 | [Flutter error handling: catching what actually reaches users](https://fluttercook.github.io/blog/flutter-error-handling-crash-reporting/) | en | blog | PENDING | — |
+| 18 | [Dependency injection in Flutter without the ceremony](https://fluttercook.github.io/blog/flutter-dependency-injection-get-it/) | en | blog | PENDING | — |
+| 19 | [Flutter on desktop: the window is part of your app now](https://fluttercook.github.io/blog/flutter-desktop-window-management/) | en | blog | PENDING | — |
+| 20 | [Background work in Flutter: what the OS will actually let you run](https://fluttercook.github.io/blog/flutter-background-tasks-workmanager/) | en | blog | PENDING | — |
+| 21 | [Two layout systems that make AI posters look designed, not generated](https://fluttercook.github.io/blog/ai-poster-prompts-split-level-and-minimalist-editorial/) | en | blog | PENDING | — |
+| 22 | [The chief-of-staff pattern: turning scattered AI chats into an agent team](https://fluttercook.github.io/blog/building-an-ai-agent-team-chief-of-staff-pattern/) | en | blog | PENDING | — |
+| 23 | [Using AI without burning cash: free tiers, caching, and routing](https://fluttercook.github.io/blog/cutting-ai-costs-free-tiers-caching-and-routing/) | en | blog | PENDING | — |
+| 24 | [In-app purchases in Flutter: the parts that are not about the button](https://fluttercook.github.io/blog/flutter-in-app-purchases/) | en | blog | PENDING | — |
+| 25 | [Free AI coding agents: how to use OpenCode's free models without regretting it](https://fluttercook.github.io/blog/free-ai-coding-agents-opencode-safely/) | en | blog | PENDING | — |
+| 26 | [What the research actually says about prompt engineering — five claims, fact-checked](https://fluttercook.github.io/blog/what-the-research-says-about-prompt-engineering/) | en | blog | PENDING | — |
+| 27 | [What Flutter is: reading a 3D game built in 15 minutes to understand the whole framework](https://fluttercook.github.io/blog/flutter-introduction-2026/) | en | blog | PENDING | — |
+| 28 | [Push notifications in Flutter: the four states your app can be in](https://fluttercook.github.io/blog/flutter-push-notifications-fcm/) | en | blog | PENDING | — |
+| 29 | [Lovable left Next.js in 6 months: the numbers, and the parts you can actually reuse](https://fluttercook.github.io/blog/lovable-migration-nextjs-to-tanstack-start/) | en | blog | PENDING | — |
+| 30 | [Using web technology to build mobile apps: the 2026 technical map](https://fluttercook.github.io/blog/web-tech-to-mobile-app-2026/) | en | blog | PENDING | — |
+| 31 | [Agent memory: files, a vector store, or just a bigger context window](https://fluttercook.github.io/blog/agent-memory-files-vectors-context/) | en | blog | PENDING | — |
+| 32 | [AI code review nobody mutes: the problem is precision, not capability](https://fluttercook.github.io/blog/ai-code-review-that-gets-read/) | en | blog | PENDING | — |
+| 33 | [Cost per request: the number most AI features never compute](https://fluttercook.github.io/blog/ai-feature-unit-economics/) | en | blog | PENDING | — |
+| 34 | [Context engineering: a big window is not permission to fill it](https://fluttercook.github.io/blog/context-engineering-what-fits-in-the-window/) | en | blog | PENDING | — |
+| 35 | [Fine-tune, retrieve, or write a better prompt: a decision you can defend](https://fluttercook.github.io/blog/finetune-vs-rag-vs-prompt/) | en | blog | PENDING | — |
+| 36 | [Three kinds of Flutter animation, and how to pick the right one](https://fluttercook.github.io/blog/flutter-animation-implicit-explicit-physics/) | en | blog | PENDING | — |
+| 37 | [When widget composition runs out: writing your own RenderObject](https://fluttercook.github.io/blog/flutter-custom-renderobject/) | en | blog | PENDING | — |
+| 38 | [Impeller and a janky frame: how to find where the 16ms actually went](https://fluttercook.github.io/blog/flutter-impeller-jank-profiling/) | en | blog | PENDING | — |
+| 39 | [Flutter isolates: what actually goes off the UI thread, and what doesn't](https://fluttercook.github.io/blog/flutter-isolates-off-main-thread/) | en | blog | PENDING | — |
+| 40 | [Offline-first Flutter: the local database is the source of truth, not the API](https://fluttercook.github.io/blog/flutter-offline-first-drift-sync/) | en | blog | PENDING | — |
+| 41 | [A Flutter frame budget you can hold yourself to, instead of "optimise later"](https://fluttercook.github.io/blog/flutter-performance-budget-16ms/) | en | blog | PENDING | — |
+| 42 | [Calling native code from Dart: platform channels, Pigeon, or FFI](https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi/) | en | blog | PENDING | — |
+| 43 | [Secrets in a Flutter app: what you can store, and what you cannot](https://fluttercook.github.io/blog/flutter-secure-storage-secrets/) | en | blog | PENDING | — |
+| 44 | [Riverpod, Bloc, signals or setState: choosing Flutter state management and living with it](https://fluttercook.github.io/blog/flutter-state-management-decision-guide/) | en | blog | PENDING | — |
+| 45 | [Flutter tests that fail for a reason: widget, golden and integration](https://fluttercook.github.io/blog/flutter-testing-widget-golden-integration/) | en | blog | PENDING | — |
+| 46 | [Flutter on the web compiled to WebAssembly: what you get, what you give up](https://fluttercook.github.io/blog/flutter-web-wasm-2026/) | en | blog | PENDING | — |
+| 47 | [Running a model on your own machine: the four cases where it actually wins](https://fluttercook.github.io/blog/local-llms-when-they-beat-the-api/) | en | blog | PENDING | — |
+| 48 | [Prompt caching in practice: the win is in the ordering, not the flag](https://fluttercook.github.io/blog/prompt-caching-in-practice/) | en | blog | PENDING | — |
+| 49 | [Retrieval that doesn't lie: build the eval before you build the RAG](https://fluttercook.github.io/blog/rag-evaluation-before-you-ship/) | en | blog | PENDING | — |
+| 50 | [Shipping an LLM feature: the demo is 20% of the work](https://fluttercook.github.io/blog/shipping-an-llm-feature-evals-guardrails/) | en | blog | PENDING | — |
+| 51 | [Stop parsing prose: schemas, tool calling, and output you can type-check](https://fluttercook.github.io/blog/structured-output-json-schema-tool-calling/) | en | blog | PENDING | — |
+| 52 | [Flutter flavors: one codebase, three apps, zero copy-pasted config](https://fluttercook.github.io/blog/flutter-flavors-build-config/) | en | blog | PENDING | — |
+| 53 | [A Flutter CI pipeline that catches real problems](https://fluttercook.github.io/blog/flutter-ci-cd-github-actions/) | en | blog | PENDING | — |
+| 54 | [Fragment shaders in Flutter: the GPU escape hatch, and its costs](https://fluttercook.github.io/blog/flutter-shaders-fragment-glsl/) | en | blog | PENDING | — |
+| 55 | [Custom scroll physics: making a list stop where you want it to](https://fluttercook.github.io/blog/flutter-custom-scroll-physics/) | en | blog | PENDING | — |
+| 56 | [Why your tap doesn't register: hit testing and the gesture arena](https://fluttercook.github.io/blog/flutter-gestures-hit-testing/) | en | blog | PENDING | — |
+| 57 | [Why your ListView is slow, and the four fixes that actually work](https://fluttercook.github.io/blog/flutter-lists-performance-builder/) | en | blog | PENDING | — |
+| 58 | [The Flutter image pipeline: from a URL to pixels on screen](https://fluttercook.github.io/blog/flutter-image-caching-precache/) | en | blog | PENDING | — |
+| 59 | [Finding a Flutter memory leak: the five objects that never get disposed](https://fluttercook.github.io/blog/flutter-memory-leaks-devtools/) | en | blog | PENDING | — |
+| 60 | [Flutter cold start: measuring the time before your first frame](https://fluttercook.github.io/blog/flutter-startup-time-cold-start/) | en | blog | PENDING | — |
+| 61 | [Shrinking a Flutter app: where the megabytes actually are](https://fluttercook.github.io/blog/flutter-app-size-reduction/) | en | blog | PENDING | — |
+| 62 | [Flutter localization with ARB files: plurals, genders, and the parts that bite](https://fluttercook.github.io/blog/flutter-localization-intl-arb/) | en | blog | PENDING | — |
+| 63 | [Flutter accessibility: what the semantics tree actually reports](https://fluttercook.github.io/blog/flutter-accessibility-semantics/) | en | blog | PENDING | — |
+| 64 | [Flutter forms past the toy example: async validation, focus, and autofill](https://fluttercook.github.io/blog/flutter-forms-validation-at-scale/) | en | blog | PENDING | — |
+| 65 | [Material 3 theming in Flutter: colour roles, not colour values](https://fluttercook.github.io/blog/flutter-theming-material3-design-tokens/) | en | blog | PENDING | — |
+| 66 | [BuildContext is an element: reading the error messages that mention it](https://fluttercook.github.io/blog/flutter-build-context-explained/) | en | blog | PENDING | — |
+| 67 | [go_router and deep links: the parts the quickstart leaves out](https://fluttercook.github.io/blog/flutter-navigation-go-router-deep-links/) | en | blog | PENDING | — |
+| 68 | [Keys in Flutter: the one rule that explains every case](https://fluttercook.github.io/blog/flutter-keys-when-they-matter/) | en | blog | PENDING | — |
+| 69 | [Slivers, properly: the protocol behind every Flutter scroll effect](https://fluttercook.github.io/blog/flutter-slivers-custom-scroll/) | en | blog | PENDING | — |
+| 70 | [Dart and Flutter Agent Skills: cheaper, better agent workflows](https://fluttercook.github.io/blog/flutter-agent-skills-mcp/) | en | blog | PENDING | — |
+| 71 | [Agentic Hot Reload: when your coding agent reloads the running app](https://fluttercook.github.io/blog/flutter-agentic-hot-reload/) | en | blog | PENDING | — |
+| 72 | [Content-sized Flutter views in native parents](https://fluttercook.github.io/blog/flutter-content-sized-views/) | en | blog | PENDING | — |
+| 73 | [CupertinoMenuAnchor and modern Flutter menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor/) | en | blog | PENDING | — |
+| 74 | [Product flavors on Windows and Linux in Flutter 3.47](https://fluttercook.github.io/blog/flutter-desktop-flavors/) | en | blog | PENDING | — |
+| 75 | [Firebase AI Logic in Flutter: Gemini without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic/) | en | blog | PENDING | — |
+| 76 | [Fragment shaders in Flutter: uniforms by name and sync textures](https://fluttercook.github.io/blog/flutter-fragment-shader-api/) | en | blog | PENDING | — |
+| 77 | [On-device Gemma in Flutter: flutter_gemma and LiteRT-LM](https://fluttercook.github.io/blog/flutter-gemma-litert-ondevice/) | en | blog | PENDING | — |
+| 78 | [Genkit Dart: full-stack AI apps without leaving Dart](https://fluttercook.github.io/blog/flutter-genkit-dart/) | en | blog | PENDING | — |
+| 79 | [GenUI and A2UI: agents that compose widgets, not markdown](https://fluttercook.github.io/blog/flutter-genui-a2ui/) | en | blog | PENDING | — |
+| 80 | [Hybrid Composition++: fixing Android platform views without the jank](https://fluttercook.github.io/blog/flutter-hybrid-composition-plus-plus/) | en | blog | PENDING | — |
+| 81 | [Impeller is now the default desktop renderer — what actually changes](https://fluttercook.github.io/blog/flutter-impeller-default-desktop/) | en | blog | PENDING | — |
+| 82 | [Desktop multi-window APIs: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-desktop/) | en | blog | PENDING | — |
+| 83 | [Ship only the assets each platform needs](https://fluttercook.github.io/blog/flutter-platform-specific-assets/) | en | blog | PENDING | — |
+| 84 | [Public release windows: when your Flutter PR ships to stable](https://fluttercook.github.io/blog/flutter-public-release-windows/) | en | blog | PENDING | — |
+| 85 | [Standalone material_ui and cupertino_ui: what the 1.0 split changes](https://fluttercook.github.io/blog/flutter-standalone-material-ui-cupertino-ui/) | en | blog | PENDING | — |
+| 86 | [Swift Package Manager is the iOS/macOS default — leave CocoaPods behind](https://fluttercook.github.io/blog/flutter-swift-package-manager-default/) | en | blog | PENDING | — |
+| 87 | [UIScene lifecycle: the iOS 27 launch requirement Flutter apps must meet](https://fluttercook.github.io/blog/flutter-uiscene-ios-lifecycle/) | en | blog | PENDING | — |
+| 88 | [Flutter web Wasm: deferred loading for smaller first paint](https://fluttercook.github.io/blog/flutter-wasm-deferred-loading/) | en | blog | PENDING | — |
+| 89 | [Widget Previews are stable: iterate on UI without booting the whole app](https://fluttercook.github.io/blog/flutter-widget-previews-stable/) | en | blog | PENDING | — |
+| 90 | [What a secure Flutter authenticator must get right](https://fluttercook.github.io/blog/oss-aegis-authenticator/) | en | blog | PENDING | — |
+| 91 | [Bloc: the boring architecture that scales](https://fluttercook.github.io/blog/oss-bloc-architecture/) | en | blog | PENDING | — |
+| 92 | [Cashew: finance UI that stays local](https://fluttercook.github.io/blog/oss-cashew-budget/) | en | blog | PENDING | — |
+| 93 | [Ente: end-to-end encrypted photos in Flutter](https://fluttercook.github.io/blog/oss-ente-photos/) | en | blog | PENDING | — |
+| 94 | [Flame: game loops inside Flutter](https://fluttercook.github.io/blog/oss-flame-engine/) | en | blog | PENDING | — |
+| 95 | [FluffyChat: Matrix chat in Flutter with real E2EE](https://fluttercook.github.io/blog/oss-fluffychat-architecture/) | en | blog | PENDING | — |
+| 96 | [Flutter Deer: a production-shaped practice project](https://fluttercook.github.io/blog/oss-flutter-deer/) | en | blog | PENDING | — |
+| 97 | [Forui: an opinionated Flutter UI system](https://fluttercook.github.io/blog/oss-forui/) | en | blog | PENDING | — |
+| 98 | [Harmony Music: offline-first player patterns](https://fluttercook.github.io/blog/oss-harmony-music/) | en | blog | PENDING | — |
+| 99 | [Hiddify Next: Flutter UI over a tunnel core](https://fluttercook.github.io/blog/oss-hiddify-next/) | en | blog | PENDING | — |
+| 100 | [Immich: architecture lessons from a 100k-star Flutter photo stack](https://fluttercook.github.io/blog/oss-immich-architecture/) | en | blog | PENDING | — |
+| 101 | [Jaspr: server-driven Dart for the web](https://fluttercook.github.io/blog/oss-jaspr-dart-web/) | en | blog | PENDING | — |
+| 102 | [LocalSend: AirDrop-style transfer with zero cloud](https://fluttercook.github.io/blog/oss-localsend-architecture/) | en | blog | PENDING | — |
+| 103 | [Lotti: journaling with audio, habits, and a serious local DB](https://fluttercook.github.io/blog/oss-lotti-journal/) | en | blog | PENDING | — |
+| 104 | [RustDesk: Rust core, Flutter shell](https://fluttercook.github.io/blog/oss-rustdesk-flutter/) | en | blog | PENDING | — |
+| 105 | [Saber: handwriting notes and local-first files](https://fluttercook.github.io/blog/oss-saber-notes/) | en | blog | PENDING | — |
+| 106 | [Serverpod: full-stack Dart behind Flutter](https://fluttercook.github.io/blog/oss-serverpod/) | en | blog | PENDING | — |
+| 107 | [shadcn-flutter: porting a design system, not a theme](https://fluttercook.github.io/blog/oss-shadcn-flutter/) | en | blog | PENDING | — |
+| 108 | [Spotube: a privacy-minded Flutter music client](https://fluttercook.github.io/blog/oss-spotube-architecture/) | en | blog | PENDING | — |
+| 109 | [Venera: custom reader layouts in Flutter](https://fluttercook.github.io/blog/oss-venera-reader/) | en | blog | PENDING | — |
+| 110 | [A/B testing mobile UI without wrecking performance](https://fluttercook.github.io/blog/flutter-ab-testing-mobile/) | en | blog | PENDING | — |
+| 111 | [A practical mobile accessibility audit in one day](https://fluttercook.github.io/blog/flutter-accessibility-audit-steps/) | en | blog | PENDING | — |
+| 112 | [Accessibility semantics checklist for Flutter forms](https://fluttercook.github.io/blog/flutter-accessibility-semantics-checklist/) | en | blog | PENDING | — |
+| 113 | [Account recovery UX that reduces support tickets](https://fluttercook.github.io/blog/flutter-account-recovery-ux/) | en | blog | PENDING | — |
+| 114 | [Age assurance requirements affecting mobile apps in 2026](https://fluttercook.github.io/blog/flutter-age-assurance-2026/) | en | blog | PENDING | — |
+| 115 | [Package skills and Agent Skills for Flutter teams](https://fluttercook.github.io/blog/flutter-agent-skills-package-skills/) | en | blog | PENDING | — |
+| 116 | [Agentic Hot Reload: closing the prompt-to-pixels loop](https://fluttercook.github.io/blog/flutter-agentic-hot-reload-workflow/) | en | blog | PENDING | — |
+| 117 | [Unit economics of AI features in mobile apps](https://fluttercook.github.io/blog/flutter-ai-feature-unit-economics/) | en | blog | PENDING | — |
+| 118 | [Tracing LLM calls inside mobile apps](https://fluttercook.github.io/blog/flutter-ai-observability-tracing/) | en | blog | PENDING | — |
+| 119 | [Flutter AI Toolkit: production chat UX patterns](https://fluttercook.github.io/blog/flutter-ai-toolkit-chat-ux/) | en | blog | PENDING | — |
+| 120 | [A mobile analytics event schema that survives redesigns](https://fluttercook.github.io/blog/flutter-analytics-events-schema/) | en | blog | PENDING | — |
+| 121 | [Preparing Flutter apps for Android 17](https://fluttercook.github.io/blog/flutter-android-17-prep/) | en | blog | PENDING | — |
+| 122 | [Android App Bundles, ABI splits, and download size](https://fluttercook.github.io/blog/flutter-android-splits-aab/) | en | blog | PENDING | — |
+| 123 | [API versioning strategies for mobile clients](https://fluttercook.github.io/blog/flutter-api-versioning-mobile/) | en | blog | PENDING | — |
+| 124 | [Device integrity checks without ruining UX](https://fluttercook.github.io/blog/flutter-app-attest-play-integrity/) | en | blog | PENDING | — |
+| 125 | [App Clips and Instant Apps with Flutter modules](https://fluttercook.github.io/blog/flutter-app-clips-instant/) | en | blog | PENDING | — |
+| 126 | [Flutter and iOS app extensions without a second UI stack](https://fluttercook.github.io/blog/flutter-app-extensions-ios/) | en | blog | PENDING | — |
+| 127 | [App icon design that survives 2026 store grids](https://fluttercook.github.io/blog/flutter-app-icon-2026-guidelines/) | en | blog | PENDING | — |
+| 128 | [The April 2027 SDK deadline for App Store uploads](https://fluttercook.github.io/blog/flutter-app-store-2027-sdk-deadline/) | en | blog | PENDING | — |
+| 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | PENDING | — |
+| 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | PENDING | — |
+| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | PENDING | — |
+| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | PENDING | — |
+| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | PENDING | — |
+| 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | PENDING | — |
+| 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | PENDING | — |
+| 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | PENDING | — |
+| 137 | [Step-up authentication with biometrics for sensitive actions](https://fluttercook.github.io/blog/flutter-biometric-step-up/) | en | blog | PENDING | — |
+| 138 | [User safety features: block, mute, and restrict](https://fluttercook.github.io/blog/flutter-block-report-safety/) | en | blog | PENDING | — |
+| 139 | [Brand refreshes without breaking mobile users](https://fluttercook.github.io/blog/flutter-brand-refresh-risk/) | en | blog | PENDING | — |
+| 140 | [Alternative marketplaces: EU DMA and Brazil CADE rules](https://fluttercook.github.io/blog/flutter-brazil-eu-marketplace-rules/) | en | blog | PENDING | — |
+| 141 | [A bug report template that gets mobile issues fixed](https://fluttercook.github.io/blog/flutter-bug-report-template-mobile/) | en | blog | PENDING | — |
+| 142 | [Debug, profile, and release: stop optimizing the wrong mode](https://fluttercook.github.io/blog/flutter-build-modes-debug-profile/) | en | blog | PENDING | — |
+| 143 | [On-device vision with Camera and ML Kit in Flutter](https://fluttercook.github.io/blog/flutter-camera-mlkit-vision/) | en | blog | PENDING | — |
+| 144 | [Capacity planning for mobile platform teams](https://fluttercook.github.io/blog/flutter-capacity-planning-mobile/) | en | blog | PENDING | — |
+| 145 | [Certificate Transparency and mobile network trust](https://fluttercook.github.io/blog/flutter-certificate-transparency/) | en | blog | PENDING | — |
+| 146 | [Release notes users actually read](https://fluttercook.github.io/blog/flutter-changelog-release-notes/) | en | blog | PENDING | — |
+| 147 | [Kids apps: COPPA, age gates, and store questionnaires](https://fluttercook.github.io/blog/flutter-childrens-privacy-coppa/) | en | blog | PENDING | — |
+| 148 | [GitHub Actions for Flutter with sane caches](https://fluttercook.github.io/blog/flutter-ci-github-actions-cache/) | en | blog | PENDING | — |
+| 149 | [Clean architecture in Flutter without ceremony](https://fluttercook.github.io/blog/flutter-clean-architecture-not-religion/) | en | blog | PENDING | — |
+| 150 | [Code push, hotfix, and what Apple/Google actually allow](https://fluttercook.github.io/blog/flutter-code-push-alternatives/) | en | blog | PENDING | — |
+| 151 | [Codegen that pays for itself: freezed and json_serializable](https://fluttercook.github.io/blog/flutter-codegen-freezed-json/) | en | blog | PENDING | — |
+| 152 | [Running a healthy app community on Discord/GitHub](https://fluttercook.github.io/blog/flutter-community-discord-github/) | en | blog | PENDING | — |
+| 153 | [What a mature Flutter component library includes](https://fluttercook.github.io/blog/flutter-component-library-maturity/) | en | blog | PENDING | — |
+| 154 | [Hosting Jetpack Compose inside Flutter (and the reverse)](https://fluttercook.github.io/blog/flutter-compose-interop-android/) | en | blog | PENDING | — |
+| 155 | [const constructors: the cheapest Flutter performance win](https://fluttercook.github.io/blog/flutter-const-constructor-perf/) | en | blog | PENDING | — |
+| 156 | [UGC moderation stacks for mobile apps](https://fluttercook.github.io/blog/flutter-content-moderation-ugc/) | en | blog | PENDING | — |
+| 157 | [Content-sized Flutter views inside native scrollables](https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/) | en | blog | PENDING | — |
+| 158 | [True cost of cross-platform in 2026](https://fluttercook.github.io/blog/flutter-cost-of-crossplatform/) | en | blog | PENDING | — |
+| 159 | [Crash-free session SLOs for mobile teams](https://fluttercook.github.io/blog/flutter-crash-free-rate-slo/) | en | blog | PENDING | — |
+| 160 | [Symbolication done right for iOS and Android crashes](https://fluttercook.github.io/blog/flutter-crash-symbolication-symbols/) | en | blog | PENDING | — |
+| 161 | [Error boundaries and Crashlytics for Flutter production apps](https://fluttercook.github.io/blog/flutter-crashlytics-error-boundaries/) | en | blog | PENDING | — |
+| 162 | [CupertinoMenuAnchor and RawMenuAnchor menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor-ios/) | en | blog | PENDING | — |
+| 163 | [Dark mode that does not look inverted](https://fluttercook.github.io/blog/flutter-dark-mode-contrast/) | en | blog | PENDING | — |
+| 164 | [Dart primary constructors in Flutter model code](https://fluttercook.github.io/blog/flutter-dart-3-13-primary-constructors/) | en | blog | PENDING | — |
+| 165 | [GDPR/CCPA data deletion flows in mobile apps](https://fluttercook.github.io/blog/flutter-data-cleanup-gdpr/) | en | blog | PENDING | — |
+| 166 | [Universal Links and App Links that open the right screen](https://fluttercook.github.io/blog/flutter-deep-link-universal-links/) | en | blog | PENDING | — |
+| 167 | [A dependency update rhythm that avoids upgrade hell](https://fluttercook.github.io/blog/flutter-dependency-update-rhythm/) | en | blog | PENDING | — |
+| 168 | [Design reviews that catch mobile-specific failures](https://fluttercook.github.io/blog/flutter-design-review-mobile/) | en | blog | PENDING | — |
+| 169 | [Governing a multi-platform design system](https://fluttercook.github.io/blog/flutter-design-system-governance/) | en | blog | PENDING | — |
+| 170 | [Design tokens across Flutter, iOS, and Android](https://fluttercook.github.io/blog/flutter-design-tokens-crossplatform/) | en | blog | PENDING | — |
+| 171 | [Product flavors on Windows and Linux for CI matrices](https://fluttercook.github.io/blog/flutter-desktop-flavors-ci/) | en | blog | PENDING | — |
+| 172 | [Window management APIs for Flutter desktop apps](https://fluttercook.github.io/blog/flutter-desktop-window-management-api/) | en | blog | PENDING | — |
+| 173 | [DevTools Network and Memory views you should actually use](https://fluttercook.github.io/blog/flutter-devtools-network-memory/) | en | blog | PENDING | — |
+| 174 | [Mobile docs that stay accurate after ship](https://fluttercook.github.io/blog/flutter-documentation-that-lives/) | en | blog | PENDING | — |
+| 175 | [Dot shorthands in Flutter: cleaner enum and const syntax](https://fluttercook.github.io/blog/flutter-dot-shorthands/) | en | blog | PENDING | — |
+| 176 | [Offline-first Flutter with Drift and background sync](https://fluttercook.github.io/blog/flutter-drift-offline-first/) | en | blog | PENDING | — |
+| 177 | [When Flutter is wrong: choosing native iOS or Android](https://fluttercook.github.io/blog/flutter-dual-platform-native-strategy/) | en | blog | PENDING | — |
+| 178 | [K-12 education apps and student privacy](https://fluttercook.github.io/blog/flutter-education-k12-privacy/) | en | blog | PENDING | — |
+| 179 | [Device profiles that define 2026 mobile UX](https://fluttercook.github.io/blog/flutter-emerging-device-profiles/) | en | blog | PENDING | — |
+| 180 | [MDM, managed configuration, and enterprise Flutter apps](https://fluttercook.github.io/blog/flutter-enterprise-mdm/) | en | blog | PENDING | — |
+| 181 | [EU alternative payments and what Flutter teams must change](https://fluttercook.github.io/blog/flutter-eu-alternative-payments/) | en | blog | PENDING | — |
+| 182 | [Eval harnesses for mobile AI features](https://fluttercook.github.io/blog/flutter-evals-before-ship-ai/) | en | blog | PENDING | — |
+| 183 | [Reading mobile experiment results without fooling yourself](https://fluttercook.github.io/blog/flutter-experiment-readouts/) | en | blog | PENDING | — |
+| 184 | [Feature flag cleanup sprints that actually happen](https://fluttercook.github.io/blog/flutter-feature-flag-cleanup/) | en | blog | PENDING | — |
+| 185 | [Feature flags and remote config without a mess](https://fluttercook.github.io/blog/flutter-feature-flags-config/) | en | blog | PENDING | — |
+| 186 | [Fintech mobile compliance realities](https://fluttercook.github.io/blog/flutter-fintech-compliance-mobile/) | en | blog | PENDING | — |
+| 187 | [Firebase AI Logic: Gemini from Flutter without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic-security/) | en | blog | PENDING | — |
+| 188 | [Firebase App Distribution for Android/iOS betas](https://fluttercook.github.io/blog/flutter-firebase-app-distribution/) | en | blog | PENDING | — |
+| 189 | [Parallax backgrounds and camera work in Flame](https://fluttercook.github.io/blog/flutter-flame-parallax-backgrounds/) | en | blog | PENDING | — |
+| 190 | [Flutter on foldables and large screens in 2026](https://fluttercook.github.io/blog/flutter-foldable-large-screens/) | en | blog | PENDING | — |
+| 191 | [Shipping custom fonts without license landmines](https://fluttercook.github.io/blog/flutter-fonts-licensing-mobile/) | en | blog | PENDING | — |
+| 192 | [Form validation that users finish](https://fluttercook.github.io/blog/flutter-forms-validation-scale/) | en | blog | PENDING | — |
+| 193 | [Fragment shaders: bind uniforms by name in Flutter](https://fluttercook.github.io/blog/flutter-fragment-shader-uniforms-by-name/) | en | blog | PENDING | — |
+| 194 | [Paywall UX that converts without dark patterns](https://fluttercook.github.io/blog/flutter-freemium-paywall-ux/) | en | blog | PENDING | — |
+| 195 | [Shipping a 2D mini-game inside a Flutter product](https://fluttercook.github.io/blog/flutter-game-flame-product/) | en | blog | PENDING | — |
+| 196 | [On-device Gemma with flutter_gemma and LiteRT-LM](https://fluttercook.github.io/blog/flutter-gemma-litert-lm/) | en | blog | PENDING | — |
+| 197 | [Genkit Dart: full-stack AI flows in one language](https://fluttercook.github.io/blog/flutter-genkit-dart-fullstack/) | en | blog | PENDING | — |
+| 198 | [GenUI: when agents compose widgets instead of markdown](https://fluttercook.github.io/blog/flutter-genui-beyond-markdown/) | en | blog | PENDING | — |
+| 199 | [go_router deep links and URL strategies that scale](https://fluttercook.github.io/blog/flutter-go-router-deep-links-2026/) | en | blog | PENDING | — |
+| 200 | [Accessibility procurement for public-sector mobile apps](https://fluttercook.github.io/blog/flutter-government-accessibility/) | en | blog | PENDING | — |
+| 201 | [Prompt injection defenses for mobile AI features](https://fluttercook.github.io/blog/flutter-guardrails-prompt-injection/) | en | blog | PENDING | — |
+| 202 | [Hybrid Composition++: Vulkan-composited platform views](https://fluttercook.github.io/blog/flutter-hcpp-platform-views-vulkan/) | en | blog | PENDING | — |
+| 203 | [Health and wellness apps: regulations that bite](https://fluttercook.github.io/blog/flutter-health-data-regulations/) | en | blog | PENDING | — |
+| 204 | [Healthcare mobile basics: beyond the buzzword checklist](https://fluttercook.github.io/blog/flutter-healthcare-hipaa-basics/) | en | blog | PENDING | — |
+| 205 | [Hero animations without the glitches](https://fluttercook.github.io/blog/flutter-hero-shared-element/) | en | blog | PENDING | — |
+| 206 | [Hiring mobile engineers in a Flutter+native world](https://fluttercook.github.io/blog/flutter-hiring-mobile-engineers/) | en | blog | PENDING | — |
+| 207 | [Home screen widgets with Flutter shells](https://fluttercook.github.io/blog/flutter-home-screen-widgets/) | en | blog | PENDING | — |
+| 208 | [HTTP in Flutter: timeouts, retries, and cancellation](https://fluttercook.github.io/blog/flutter-http-dio-timeouts/) | en | blog | PENDING | — |
+| 209 | [Flutter localization with ARB and gen_l10n that translators like](https://fluttercook.github.io/blog/flutter-i18n-arb-gen-l10n/) | en | blog | PENDING | — |
+| 210 | [Image caching and decode budgets in Flutter lists](https://fluttercook.github.io/blog/flutter-image-cache-memory/) | en | blog | PENDING | — |
+| 211 | [Impeller on desktop: SDF text and Metal/Vulkan defaults](https://fluttercook.github.io/blog/flutter-impeller-desktop-sdf-text/) | en | blog | PENDING | — |
+| 212 | [In-app purchases with StoreKit 2 and Play Billing in Flutter](https://fluttercook.github.io/blog/flutter-in-app-purchase-storekit2/) | en | blog | PENDING | — |
+| 213 | [Subscription groups, upgrades, and proration explained](https://fluttercook.github.io/blog/flutter-in-app-purchase-subscription-groups/) | en | blog | PENDING | — |
+| 214 | [User communication during mobile incidents](https://fluttercook.github.io/blog/flutter-incident-comms-mobile/) | en | blog | PENDING | — |
+| 215 | [Integration tests that survive real devices](https://fluttercook.github.io/blog/flutter-integration-test-patrol/) | en | blog | PENDING | — |
+| 216 | [Mobile performance interview questions that matter](https://fluttercook.github.io/blog/flutter-interview-performance-questions/) | en | blog | PENDING | — |
+| 217 | [Isolates and compute() without the myths](https://fluttercook.github.io/blog/flutter-isolates-compute/) | en | blog | PENDING | — |
+| 218 | [Designing for Liquid Glass and Material without dual UIs](https://fluttercook.github.io/blog/flutter-liquid-glass-adaptive-ui/) | en | blog | PENDING | — |
+| 219 | [Marketing on-device AI without lying](https://fluttercook.github.io/blog/flutter-llm-on-device-privacy-marketing/) | en | blog | PENDING | — |
+| 220 | [Local notifications that do not spam or break on Android 13+](https://fluttercook.github.io/blog/flutter-local-notifications-2026/) | en | blog | PENDING | — |
+| 221 | [Pseudolocales and expansion testing before translators](https://fluttercook.github.io/blog/flutter-localization-pseudolocales/) | en | blog | PENDING | — |
+| 222 | [Logistics tracking UX under poor connectivity](https://fluttercook.github.io/blog/flutter-logistics-tracking-ux/) | en | blog | PENDING | — |
+| 223 | [Maps, location, and permission UX in Flutter apps](https://fluttercook.github.io/blog/flutter-maps-location-permissions/) | en | blog | PENDING | — |
+| 224 | [Material 3 Expressive theming without fighting Flutter](https://fluttercook.github.io/blog/flutter-material3-expressive-theming/) | en | blog | PENDING | — |
+| 225 | [Background audio with media_kit and platform media sessions](https://fluttercook.github.io/blog/flutter-mediakit-audio-background/) | en | blog | PENDING | — |
+| 226 | [Melos monorepos for Flutter apps and packages](https://fluttercook.github.io/blog/flutter-melos-monorepo/) | en | blog | PENDING | — |
+| 227 | [Haptics and microinteractions that feel native](https://fluttercook.github.io/blog/flutter-microinteractions-haptics/) | en | blog | PENDING | — |
+| 228 | [Camera and microphone permissions with honest UX](https://fluttercook.github.io/blog/flutter-microphone-camera-permission/) | en | blog | PENDING | — |
+| 229 | [Why your device lab needs a mid-tier Android](https://fluttercook.github.io/blog/flutter-mid-tier-device-lab/) | en | blog | PENDING | — |
+| 230 | [Migrating large apps to Material 3 Expressive](https://fluttercook.github.io/blog/flutter-migrate-material3-expressive/) | en | blog | PENDING | — |
+| 231 | [Migrating from React Native to Flutter in 2026](https://fluttercook.github.io/blog/flutter-migration-from-rn-2026/) | en | blog | PENDING | — |
+| 232 | [Moving Android XML / UIKit apps to Flutter gradually](https://fluttercook.github.io/blog/flutter-migration-from-xml-uikit/) | en | blog | PENDING | — |
+| 233 | [A 20-minute mobile smoke checklist before every release](https://fluttercook.github.io/blog/flutter-mobile-qa-smoke-checklist/) | en | blog | PENDING | — |
+| 234 | [Model routing and cascades for mobile AI](https://fluttercook.github.io/blog/flutter-model-routing-cascades/) | en | blog | PENDING | — |
+| 235 | [Multi-account apps without token soup](https://fluttercook.github.io/blog/flutter-multi-account-mobile/) | en | blog | PENDING | — |
+| 236 | [Desktop multi-window: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-popup-apis/) | en | blog | PENDING | — |
+| 237 | [Multimodal AI: camera to structured data in Flutter](https://fluttercook.github.io/blog/flutter-multimodal-camera-ai/) | en | blog | PENDING | — |
+| 238 | [Multiple Flutter instances in one host app](https://fluttercook.github.io/blog/flutter-multiple-flutter-instances/) | en | blog | PENDING | — |
+| 239 | [State restoration across process death](https://fluttercook.github.io/blog/flutter-navigation-restoration/) | en | blog | PENDING | — |
+| 240 | [Obfuscation, symbols, and secrets in Flutter release builds](https://fluttercook.github.io/blog/flutter-obfuscate-secrets-release/) | en | blog | PENDING | — |
+| 241 | [Mobile observability cost control](https://fluttercook.github.io/blog/flutter-observability-cost-mobile/) | en | blog | PENDING | — |
+| 242 | [Mobile observability: Sentry, Crashlytics, and custom traces](https://fluttercook.github.io/blog/flutter-observability-sentry-firebase/) | en | blog | PENDING | — |
+| 243 | [Graceful degradation when AI is unavailable](https://fluttercook.github.io/blog/flutter-offline-ai-fallback/) | en | blog | PENDING | — |
+| 244 | [Sync conflict resolution patterns for mobile apps](https://fluttercook.github.io/blog/flutter-offline-sync-conflict/) | en | blog | PENDING | — |
+| 245 | [Mobile OKRs that engineering can influence](https://fluttercook.github.io/blog/flutter-okrs-mobile-product/) | en | blog | PENDING | — |
+| 246 | [Mobile on-call runbooks that juniors can execute](https://fluttercook.github.io/blog/flutter-oncall-mobile-runbook/) | en | blog | PENDING | — |
+| 247 | [Product patterns for on-device LLMs in mobile apps](https://fluttercook.github.io/blog/flutter-ondevice-llm-product/) | en | blog | PENDING | — |
+| 248 | [How to study open-source Flutter apps without drowning](https://fluttercook.github.io/blog/flutter-open-source-app-study/) | en | blog | PENDING | — |
+| 249 | [How to pick a Flutter package in 2026](https://fluttercook.github.io/blog/flutter-package-selection-checklist/) | en | blog | PENDING | — |
+| 250 | [Pagination and infinite scroll without layout jank](https://fluttercook.github.io/blog/flutter-pagination-infinite-scroll/) | en | blog | PENDING | — |
+| 251 | [Passkeys and passwordless login in mobile apps](https://fluttercook.github.io/blog/flutter-passkeys-passwordless/) | en | blog | PENDING | — |
+| 252 | [Mobile payment fraud signals worth watching](https://fluttercook.github.io/blog/flutter-payments-fraud-mobile/) | en | blog | PENDING | — |
+| 253 | [Setting a frame budget your product team understands](https://fluttercook.github.io/blog/flutter-performance-budget-product/) | en | blog | PENDING | — |
+| 254 | [Photo library access: limited libraries and privacy labels](https://fluttercook.github.io/blog/flutter-photo-library-permissions/) | en | blog | PENDING | — |
+| 255 | [Pigeon: typed platform channels that scale](https://fluttercook.github.io/blog/flutter-pigeon-typed-channels/) | en | blog | PENDING | — |
+| 256 | [Ship only the assets each platform needs](https://fluttercook.github.io/blog/flutter-platform-assets-reduce-apk/) | en | blog | PENDING | — |
+| 257 | [Platform channels vs FFI in 2026: pick the right bridge](https://fluttercook.github.io/blog/flutter-platform-channels-vs-ffi-2026/) | en | blog | PENDING | — |
+| 258 | [Google Play policy changes mobile teams should track](https://fluttercook.github.io/blog/flutter-play-policy-2026/) | en | blog | PENDING | — |
+| 259 | [Portfolio Flutter projects that get interviews in 2026](https://fluttercook.github.io/blog/flutter-portfolio-projects-2026/) | en | blog | PENDING | — |
+| 260 | [Blameless mobile incident postmortems](https://fluttercook.github.io/blog/flutter-postmortem-blameless/) | en | blog | PENDING | — |
+| 261 | [Predictive back animations in Flutter Android apps](https://fluttercook.github.io/blog/flutter-predictive-back/) | en | blog | PENDING | — |
+| 262 | [Privacy manifests and required reason APIs for Flutter plugins](https://fluttercook.github.io/blog/flutter-privacy-manifest-ios/) | en | blog | PENDING | — |
+| 263 | [Prompt caching on mobile AI calls](https://fluttercook.github.io/blog/flutter-prompt-caching-mobile/) | en | blog | PENDING | — |
+| 264 | [Flutter Property Editor: inspect widgets without print debugging](https://fluttercook.github.io/blog/flutter-property-editor-devtools/) | en | blog | PENDING | — |
+| 265 | [Notification permission primers that earn the grant](https://fluttercook.github.io/blog/flutter-push-permission-primer/) | en | blog | PENDING | — |
+| 266 | [RAG on mobile: what belongs on-device vs server](https://fluttercook.github.io/blog/flutter-rag-on-mobile/) | en | blog | PENDING | — |
+| 267 | [prefers-reduced-motion and Flutter animations](https://fluttercook.github.io/blog/flutter-reduced-motion-a11y/) | en | blog | PENDING | — |
+| 268 | [Refund handling that protects ratings](https://fluttercook.github.io/blog/flutter-refund-handling-playbook/) | en | blog | PENDING | — |
+| 269 | [A mobile release checklist that prevents Friday fires](https://fluttercook.github.io/blog/flutter-release-checklist-mobile/) | en | blog | PENDING | — |
+| 270 | [Mobile rollback playbooks when stores are slow](https://fluttercook.github.io/blog/flutter-release-rollback-playbook/) | en | blog | PENDING | — |
+| 271 | [Public release windows: when your Flutter PR ships](https://fluttercook.github.io/blog/flutter-release-windows-2026/) | en | blog | PENDING | — |
+| 272 | [Running a remote mobile team across timezones](https://fluttercook.github.io/blog/flutter-remote-mobile-team/) | en | blog | PENDING | — |
+| 273 | [Retail POS companions and handheld workflows](https://fluttercook.github.io/blog/flutter-retail-pos-companion/) | en | blog | PENDING | — |
+| 274 | [Riverpod patterns that survive production scale](https://fluttercook.github.io/blog/flutter-riverpod-3-patterns/) | en | blog | PENDING | — |
+| 275 | [Communicating mobile roadmaps without over-promising](https://fluttercook.github.io/blog/flutter-roadmap-communication/) | en | blog | PENDING | — |
+| 276 | [RTL layouts that do not look broken in Flutter](https://fluttercook.github.io/blog/flutter-rtl-layout-flutter/) | en | blog | PENDING | — |
+| 277 | [flutter_rust_bridge for heavy compute in Flutter](https://fluttercook.github.io/blog/flutter-rust-bridge-performance/) | en | blog | PENDING | — |
+| 278 | [Building store screenshots that convert](https://fluttercook.github.io/blog/flutter-screenshot-studio-aso/) | en | blog | PENDING | — |
+| 279 | [SEA market expansion checklist for mobile products](https://fluttercook.github.io/blog/flutter-sea-expansion-checklist/) | en | blog | PENDING | — |
+| 280 | [Redacting secrets from mobile logs and crash reports](https://fluttercook.github.io/blog/flutter-secret-redaction-logs/) | en | blog | PENDING | — |
+| 281 | [Storing tokens with Secure Enclave / StrongBox](https://fluttercook.github.io/blog/flutter-secure-enclave-tokens/) | en | blog | PENDING | — |
+| 282 | [Secure storage and biometrics for Flutter tokens](https://fluttercook.github.io/blog/flutter-secure-storage-biometrics/) | en | blog | PENDING | — |
+| 283 | [Serverpod: one language from SQL to Flutter widgets](https://fluttercook.github.io/blog/flutter-serverpod-backend/) | en | blog | PENDING | — |
+| 284 | [Mobile session management: refresh tokens done right](https://fluttercook.github.io/blog/flutter-session-management-mobile/) | en | blog | PENDING | — |
+| 285 | [Slivers that scroll without jank](https://fluttercook.github.io/blog/flutter-slivers-performance/) | en | blog | PENDING | — |
+| 286 | [Migrating to standalone material_ui and cupertino_ui in Flutter 3.47](https://fluttercook.github.io/blog/flutter-standalone-design-packages-migration/) | en | blog | PENDING | — |
+| 287 | [Cold start budgets for Flutter apps](https://fluttercook.github.io/blog/flutter-startup-time-cold-start-2026/) | en | blog | PENDING | — |
+| 288 | [ASO for Flutter apps: screenshots, keywords, and ratings](https://fluttercook.github.io/blog/flutter-store-listing-aso/) | en | blog | PENDING | — |
+| 289 | [Mapping App Store guidelines to common Flutter features](https://fluttercook.github.io/blog/flutter-store-review-guidelines-map/) | en | blog | PENDING | — |
+| 290 | [SKStoreReview and in-app review prompts that do not annoy](https://fluttercook.github.io/blog/flutter-store-review-prompts/) | en | blog | PENDING | — |
+| 291 | [Replying to store reviews without sounding like a bot](https://fluttercook.github.io/blog/flutter-store-review-reply-playbook/) | en | blog | PENDING | — |
+| 292 | [Streaming LLM responses into Flutter UIs token by token](https://fluttercook.github.io/blog/flutter-streaming-ux-tokens/) | en | blog | PENDING | — |
+| 293 | [Structured output and tool calling in Flutter AI apps](https://fluttercook.github.io/blog/flutter-structured-output-tool-calling/) | en | blog | PENDING | — |
+| 294 | [Stylus pressure and tilt input in Flutter](https://fluttercook.github.io/blog/flutter-stylus-pencil-input/) | en | blog | PENDING | — |
+| 295 | [Swift Package Manager plugin migration checklist for Flutter](https://fluttercook.github.io/blog/flutter-swiftpm-plugin-migration-checklist/) | en | blog | PENDING | — |
+| 296 | [Switch expressions for cleaner Flutter mapping](https://fluttercook.github.io/blog/flutter-switch-expression-ui/) | en | blog | PENDING | — |
+| 297 | [Keyboard shortcuts and pointer support for tablets](https://fluttercook.github.io/blog/flutter-tablet-keyboard-shortcuts/) | en | blog | PENDING | — |
+| 298 | [A 2026 skills roadmap for Flutter teams](https://fluttercook.github.io/blog/flutter-team-skills-2026-roadmap/) | en | blog | PENDING | — |
+| 299 | [A mobile technical debt inventory that leaders fund](https://fluttercook.github.io/blog/flutter-technical-debt-inventory/) | en | blog | PENDING | — |
+| 300 | [TestFlight internal vs external testing that finds real bugs](https://fluttercook.github.io/blog/flutter-testflight-internal-external/) | en | blog | PENDING | — |
+| 301 | [Golden tests for design systems](https://fluttercook.github.io/blog/flutter-testing-goldens-design-system/) | en | blog | PENDING | — |
+| 302 | [Threat modeling a mobile app in one workshop](https://fluttercook.github.io/blog/flutter-threat-model-mobile/) | en | blog | PENDING | — |
+| 303 | [A weekly mobile crash triage that actually reduces issues](https://fluttercook.github.io/blog/flutter-triage-crash-weekly/) | en | blog | PENDING | — |
+| 304 | [UIScene lifecycle: the iOS 27 launch gate for Flutter apps](https://fluttercook.github.io/blog/flutter-uiscene-ios-27-checklist/) | en | blog | PENDING | — |
+| 305 | [Shipping mobile apps for the Vietnam market in 2026](https://fluttercook.github.io/blog/flutter-vietnam-mobile-market/) | en | blog | PENDING | — |
+| 306 | [Wasm deferred loading: split Flutter web for first paint](https://fluttercook.github.io/blog/flutter-wasm-deferred-loading-strategy/) | en | blog | PENDING | — |
+| 307 | [Wear companions: watchOS and Wear OS with Flutter phones](https://fluttercook.github.io/blog/flutter-watch-wear-companion/) | en | blog | PENDING | — |
+| 308 | [Embedding Flutter into an existing marketing site](https://fluttercook.github.io/blog/flutter-web-embed-existing-site/) | en | blog | PENDING | — |
+| 309 | [SEO for Flutter web: when to prerender and when not to](https://fluttercook.github.io/blog/flutter-web-seo-prerender/) | en | blog | PENDING | — |
+| 310 | [Widget Previewer is stable: isolate UI without booting the app](https://fluttercook.github.io/blog/flutter-widget-previewer-stable/) | en | blog | PENDING | — |
+| 311 | [Appwrite Flutter: backend services with explicit clients](https://fluttercook.github.io/blog/oss-appwrite-flutter/) | en | blog | PENDING | — |
+| 312 | [build_runner: make code generation a deterministic build step](https://fluttercook.github.io/blog/oss-build-runner/) | en | blog | PENDING | — |
+| 313 | [camera: a real capture pipeline, not just a preview](https://fluttercook.github.io/blog/oss-camera-plugin/) | en | blog | PENDING | — |
+| 314 | [connectivity_plus: network type is not internet reachability](https://fluttercook.github.io/blog/oss-connectivity-plus/) | en | blog | PENDING | — |
+| 315 | [desktop_multi_window: isolate desktop surfaces intentionally](https://fluttercook.github.io/blog/oss-desktop-multi-window/) | en | blog | PENDING | — |
+| 316 | [Dio: composeable networking with interceptors](https://fluttercook.github.io/blog/oss-dio-networking/) | en | blog | PENDING | — |
+| 317 | [Drift: typed SQL for an offline-first Flutter app](https://fluttercook.github.io/blog/oss-drift-database/) | en | blog | PENDING | — |
+| 318 | [Equatable: value semantics for Dart state objects](https://fluttercook.github.io/blog/oss-equatable/) | en | blog | PENDING | — |
+| 319 | [file_picker: one user intent across six platforms](https://fluttercook.github.io/blog/oss-file-picker/) | en | blog | PENDING | — |
+| 320 | [FlexColorScheme: design-system themes without boilerplate](https://fluttercook.github.io/blog/oss-flex-color-scheme/) | en | blog | PENDING | — |
+| 321 | [animations: reusable Material motion patterns](https://fluttercook.github.io/blog/oss-flutter-animations/) | en | blog | PENDING | — |
+| 322 | [flutter_bloc: explicit events and states at scale](https://fluttercook.github.io/blog/oss-flutter-bloc/) | en | blog | PENDING | — |
+| 323 | [flutter_hooks: reusable stateful behavior as tiny hooks](https://fluttercook.github.io/blog/oss-flutter-hooks/) | en | blog | PENDING | — |
+| 324 | [flutter_rust_bridge: typed Rust without hand-written FFI glue](https://fluttercook.github.io/blog/oss-flutter-rust-bridge/) | en | blog | PENDING | — |
+| 325 | [flutter_secure_storage: secrets behind platform keychains](https://fluttercook.github.io/blog/oss-flutter-secure-storage/) | en | blog | PENDING | — |
+| 326 | [ForUI: accessible headless components for Flutter](https://fluttercook.github.io/blog/oss-forui-components/) | en | blog | PENDING | — |
+| 327 | [Freezed: safer immutable models and unions](https://fluttercook.github.io/blog/oss-freezed/) | en | blog | PENDING | — |
+| 328 | [FVM: pin Flutter versions per repository](https://fluttercook.github.io/blog/oss-fvm-flutter-version-manager/) | en | blog | PENDING | — |
+| 329 | [go_router: URL-first navigation for Flutter](https://fluttercook.github.io/blog/oss-go-router/) | en | blog | PENDING | — |
+| 330 | [Golden Toolkit: visual regression with intent](https://fluttercook.github.io/blog/oss-golden-toolkit/) | en | blog | PENDING | — |
+| 331 | [image_picker: a small API over messy media sources](https://fluttercook.github.io/blog/oss-image-picker/) | en | blog | PENDING | — |
+| 332 | [intl: format locale-sensitive data deliberately](https://fluttercook.github.io/blog/oss-intl-localization/) | en | blog | PENDING | — |
+| 333 | [Isar: fast local objects with queryable indexes](https://fluttercook.github.io/blog/oss-isar-database/) | en | blog | PENDING | — |
+| 334 | [json_serializable: boring JSON that survives refactors](https://fluttercook.github.io/blog/oss-json-serializable/) | en | blog | PENDING | — |
+| 335 | [just_audio: controllable audio with streams](https://fluttercook.github.io/blog/oss-just-audio/) | en | blog | PENDING | — |
+| 336 | [local_auth: biometrics as a step-up, not a password store](https://fluttercook.github.io/blog/oss-local-auth/) | en | blog | PENDING | — |
+| 337 | [Melos: make a Flutter monorepo a product boundary](https://fluttercook.github.io/blog/oss-melos-monorepo/) | en | blog | PENDING | — |
+| 338 | [Mocktail: readable Dart mocks without generated files](https://fluttercook.github.io/blog/oss-mocktail/) | en | blog | PENDING | — |
+| 339 | [Patrol: integration tests that can leave the Flutter sandbox](https://fluttercook.github.io/blog/oss-patrol-testing/) | en | blog | PENDING | — |
+| 340 | [permission_handler: runtime permission flows you can explain](https://fluttercook.github.io/blog/oss-permission-handler/) | en | blog | PENDING | — |
+| 341 | [Pigeon: typed platform channels generated from one schema](https://fluttercook.github.io/blog/oss-pigeon-typed-platform-channels/) | en | blog | PENDING | — |
+| 342 | [Rive: interactive vector animation as a state machine](https://fluttercook.github.io/blog/oss-rive-runtime/) | en | blog | PENDING | — |
+| 343 | [Riverpod: testable async state without widget coupling](https://fluttercook.github.io/blog/oss-riverpod/) | en | blog | PENDING | — |
+| 344 | [Sentry Flutter: errors with release context](https://fluttercook.github.io/blog/oss-sentry-flutter/) | en | blog | PENDING | — |
+| 345 | [shadcn_flutter: composable UI primitives for Flutter](https://fluttercook.github.io/blog/oss-shadcn-flutter-components/) | en | blog | PENDING | — |
+| 346 | [skeletonizer: loading UI from the real widget tree](https://fluttercook.github.io/blog/oss-skeletonizer/) | en | blog | PENDING | — |
+| 347 | [supabase_flutter: auth, Postgres, realtime, and storage](https://fluttercook.github.io/blog/oss-supabase-flutter/) | en | blog | PENDING | — |
+| 348 | [url_launcher: platform intent with a fallback contract](https://fluttercook.github.io/blog/oss-url-launcher/) | en | blog | PENDING | — |
+| 349 | [Very Good CLI: opinionated Flutter scaffolding](https://fluttercook.github.io/blog/oss-very-good-cli/) | en | blog | PENDING | — |
+| 350 | [video_player: the platform-backed Flutter video primitive](https://fluttercook.github.io/blog/oss-video-player/) | en | blog | PENDING | — |
+| 351 | [Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint](https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/) | vi | blog | PENDING | — |
+| 352 | [AI chạy trên thiết bị trong Flutter: cái gì vừa với một chiếc điện thoại](https://fluttercook.github.io/vi/blog/ai-on-device-flutter-gemma/) | vi | blog | PENDING | — |
+| 353 | [Định tuyến mô hình và thác bậc: chỉ trả tiền cho mức thông minh bạn cần](https://fluttercook.github.io/vi/blog/ai-model-routing-cascades/) | vi | blog | PENDING | — |
+| 354 | [Trải nghiệm streaming: thiết kế cho token đến từng cái một](https://fluttercook.github.io/vi/blog/ai-streaming-ux-token-by-token/) | vi | blog | PENDING | — |
+| 355 | [Dữ liệu tổng hợp cho eval: xây bộ kiểm thử mà bạn tin được](https://fluttercook.github.io/vi/blog/ai-synthetic-data-for-evals/) | vi | blog | PENDING | — |
+| 356 | [Mô hình thị giác trong sản phẩm thật: những phần bản demo bỏ qua](https://fluttercook.github.io/vi/blog/ai-multimodal-vision-in-production/) | vi | blog | PENDING | — |
+| 357 | [Prompt injection: cái gì thật sự phòng thủ được](https://fluttercook.github.io/vi/blog/ai-guardrails-prompt-injection-defense/) | vi | blog | PENDING | — |
+| 358 | [Quan sát ứng dụng LLM: truy vết một hệ thống không tất định](https://fluttercook.github.io/vi/blog/ai-observability-tracing-llm-apps/) | vi | blog | PENDING | — |
+| 359 | [Chia nhỏ tài liệu cho truy hồi: quyết định âm thầm chặn trần chất lượng RAG](https://fluttercook.github.io/vi/blog/ai-chunking-strategies-that-matter/) | vi | blog | PENDING | — |
+| 360 | [Chọn mô hình embedding: những câu hỏi thật sự quan trọng](https://fluttercook.github.io/vi/blog/ai-embeddings-choosing-a-model/) | vi | blog | PENDING | — |
+| 361 | [Thiết kế công cụ mà AI agent thật sự dùng được](https://fluttercook.github.io/vi/blog/ai-agent-tool-design/) | vi | blog | PENDING | — |
+| 362 | [Viết một lint tuỳ chỉnh cho codebase Dart của bạn](https://fluttercook.github.io/vi/blog/dart-custom-lints-analyzer/) | vi | blog | PENDING | — |
+| 363 | [Sinh mã trong Dart: build_runner mà không bực mình](https://fluttercook.github.io/vi/blog/dart-build-runner-codegen/) | vi | blog | PENDING | — |
+| 364 | [Stream trong Dart chuyên sâu: backpressure, broadcast và những rò rỉ ở giữa](https://fluttercook.github.io/vi/blog/dart-streams-in-depth/) | vi | blog | PENDING | — |
+| 365 | [Extension type trong Dart: một cái tên mới cho giá trị cũ](https://fluttercook.github.io/vi/blog/dart-extension-types-zero-cost/) | vi | blog | PENDING | — |
+| 366 | [Record và pattern trong Dart: chúng thay thế những gì](https://fluttercook.github.io/vi/blog/dart-records-and-patterns/) | vi | blog | PENDING | — |
+| 367 | [Xử lý lỗi trong Flutter: bắt được thứ thật sự tới tay người dùng](https://fluttercook.github.io/vi/blog/flutter-error-handling-crash-reporting/) | vi | blog | PENDING | — |
+| 368 | [Tiêm phụ thuộc trong Flutter mà không cần nghi thức rườm rà](https://fluttercook.github.io/vi/blog/flutter-dependency-injection-get-it/) | vi | blog | PENDING | — |
+| 369 | [Flutter trên desktop: cửa sổ giờ là một phần của ứng dụng bạn](https://fluttercook.github.io/vi/blog/flutter-desktop-window-management/) | vi | blog | PENDING | — |
+| 370 | [Chạy nền trong Flutter: hệ điều hành thật sự cho phép bạn chạy gì](https://fluttercook.github.io/vi/blog/flutter-background-tasks-workmanager/) | vi | blog | PENDING | — |
+| 371 | [Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra](https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/) | vi | blog | PENDING | — |
+| 372 | [Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent](https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/) | vi | blog | PENDING | — |
+| 373 | [Dùng AI mà không đốt tiền: free tier, caching và định tuyến model](https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/) | vi | blog | PENDING | — |
+| 374 | [Mua hàng trong ứng dụng Flutter: những phần không nằm ở cái nút](https://fluttercook.github.io/vi/blog/flutter-in-app-purchases/) | vi | blog | PENDING | — |
+| 375 | [AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận](https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/) | vi | blog | PENDING | — |
+| 376 | [Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền](https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/) | vi | blog | PENDING | — |
+| 377 | [Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework](https://fluttercook.github.io/vi/blog/flutter-introduction-2026/) | vi | blog | PENDING | — |
+| 378 | [Push notification trong Flutter: bốn trạng thái ứng dụng có thể đang ở](https://fluttercook.github.io/vi/blog/flutter-push-notifications-fcm/) | vi | blog | PENDING | — |
+| 379 | [Lovable rời Next.js sau 6 tháng: những con số và phần bạn thật sự dùng lại được](https://fluttercook.github.io/vi/blog/lovable-migration-nextjs-to-tanstack-start/) | vi | blog | PENDING | — |
+| 380 | [Dùng công nghệ web để làm app mobile: bản đồ kỹ thuật 2026](https://fluttercook.github.io/vi/blog/web-tech-to-mobile-app-2026/) | vi | blog | PENDING | — |
+| 381 | [Bộ nhớ cho AI agent: file phẳng, vector store, hay chỉ cần context window to hơn](https://fluttercook.github.io/vi/blog/agent-memory-files-vectors-context/) | vi | blog | PENDING | — |
+| 382 | [AI code review không ai muốn tắt: vấn đề là độ chính xác, không phải năng lực](https://fluttercook.github.io/vi/blog/ai-code-review-that-gets-read/) | vi | blog | PENDING | — |
+| 383 | [Chi phí mỗi request: con số mà hầu hết feature AI không bao giờ tính](https://fluttercook.github.io/vi/blog/ai-feature-unit-economics/) | vi | blog | PENDING | — |
+| 384 | [Context engineering: window to không có nghĩa là được phép nhét đầy](https://fluttercook.github.io/vi/blog/context-engineering-what-fits-in-the-window/) | vi | blog | PENDING | — |
+| 385 | [Fine-tune, RAG hay chỉ cần prompt tốt hơn: một quyết định bạn bảo vệ được](https://fluttercook.github.io/vi/blog/finetune-vs-rag-vs-prompt/) | vi | blog | PENDING | — |
+| 386 | [Ba kiểu animation trong Flutter và cách chọn đúng kiểu](https://fluttercook.github.io/vi/blog/flutter-animation-implicit-explicit-physics/) | vi | blog | PENDING | — |
+| 387 | [Khi ghép widget không còn đủ: tự viết RenderObject](https://fluttercook.github.io/vi/blog/flutter-custom-renderobject/) | vi | blog | PENDING | — |
+| 388 | [Impeller và một frame bị giật: tìm xem 16ms đã trôi đi đâu](https://fluttercook.github.io/vi/blog/flutter-impeller-jank-profiling/) | vi | blog | PENDING | — |
+| 389 | [Isolate trong Flutter: cái gì thật sự rời khỏi UI thread, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-isolates-off-main-thread/) | vi | blog | PENDING | — |
+| 390 | [Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API](https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/) | vi | blog | PENDING | — |
+| 391 | [Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu "để sau tối ưu"](https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/) | vi | blog | PENDING | — |
+| 392 | [Gọi code native từ Dart: platform channel, Pigeon hay FFI](https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/) | vi | blog | PENDING | — |
+| 393 | [Bí mật trong ứng dụng Flutter: cái gì lưu được, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/) | vi | blog | PENDING | — |
+| 394 | [Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó](https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/) | vi | blog | PENDING | — |
+| 395 | [Test Flutter đỏ vì đúng lý do: widget, golden và integration](https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/) | vi | blog | PENDING | — |
+| 396 | [Flutter web biên dịch sang WebAssembly: được gì, mất gì](https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/) | vi | blog | PENDING | — |
+| 397 | [Chạy model ngay trên máy mình: bốn trường hợp local thật sự thắng API](https://fluttercook.github.io/vi/blog/local-llms-when-they-beat-the-api/) | vi | blog | PENDING | — |
+| 398 | [Prompt caching thực chiến: thắng thua nằm ở thứ tự prompt, không nằm ở cái flag](https://fluttercook.github.io/vi/blog/prompt-caching-in-practice/) | vi | blog | PENDING | — |
+| 399 | [Retrieval không nói dối: dựng eval trước khi dựng RAG](https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/) | vi | blog | PENDING | — |
+| 400 | [Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc](https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/) | vi | blog | PENDING | — |
+| 401 | [Đừng parse văn xuôi nữa: schema, tool calling và output type-check được](https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/) | vi | blog | PENDING | — |
+| 402 | [Flavor trong Flutter: một codebase, ba ứng dụng, không copy-paste cấu hình](https://fluttercook.github.io/vi/blog/flutter-flavors-build-config/) | vi | blog | PENDING | — |
+| 403 | [Một pipeline CI cho Flutter thật sự bắt được lỗi](https://fluttercook.github.io/vi/blog/flutter-ci-cd-github-actions/) | vi | blog | PENDING | — |
+| 404 | [Fragment shader trong Flutter: cửa thoát xuống GPU và cái giá của nó](https://fluttercook.github.io/vi/blog/flutter-shaders-fragment-glsl/) | vi | blog | PENDING | — |
+| 405 | [Scroll physics tự viết: khiến danh sách dừng đúng chỗ bạn muốn](https://fluttercook.github.io/vi/blog/flutter-custom-scroll-physics/) | vi | blog | PENDING | — |
+| 406 | [Vì sao cú chạm của bạn không ăn: hit testing và đấu trường cử chỉ](https://fluttercook.github.io/vi/blog/flutter-gestures-hit-testing/) | vi | blog | PENDING | — |
+| 407 | [Vì sao ListView của bạn chậm, và bốn cách sửa thật sự có tác dụng](https://fluttercook.github.io/vi/blog/flutter-lists-performance-builder/) | vi | blog | PENDING | — |
+| 408 | [Đường ống ảnh trong Flutter: từ một URL tới pixel trên màn hình](https://fluttercook.github.io/vi/blog/flutter-image-caching-precache/) | vi | blog | PENDING | — |
+| 409 | [Tìm rò rỉ bộ nhớ trong Flutter: năm loại đối tượng không bao giờ được dispose](https://fluttercook.github.io/vi/blog/flutter-memory-leaks-devtools/) | vi | blog | PENDING | — |
+| 410 | [Khởi động nguội trong Flutter: đo khoảng thời gian trước frame đầu tiên](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start/) | vi | blog | PENDING | — |
+| 411 | [Thu nhỏ ứng dụng Flutter: megabyte thật sự nằm ở đâu](https://fluttercook.github.io/vi/blog/flutter-app-size-reduction/) | vi | blog | PENDING | — |
+| 412 | [Đa ngôn ngữ trong Flutter với file ARB: số nhiều, giống, và những chỗ cắn người](https://fluttercook.github.io/vi/blog/flutter-localization-intl-arb/) | vi | blog | PENDING | — |
+| 413 | [Trợ năng trong Flutter: cây semantics thật sự báo cáo những gì](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics/) | vi | blog | PENDING | — |
+| 414 | [Form trong Flutter vượt khỏi ví dụ mẫu: validate bất đồng bộ, focus và autofill](https://fluttercook.github.io/vi/blog/flutter-forms-validation-at-scale/) | vi | blog | PENDING | — |
+| 415 | [Theming Material 3 trong Flutter: vai trò màu, không phải giá trị màu](https://fluttercook.github.io/vi/blog/flutter-theming-material3-design-tokens/) | vi | blog | PENDING | — |
+| 416 | [BuildContext chính là element: đọc hiểu những thông báo lỗi có nhắc tới nó](https://fluttercook.github.io/vi/blog/flutter-build-context-explained/) | vi | blog | PENDING | — |
+| 417 | [go_router và deep link: những phần mà bài quickstart bỏ qua](https://fluttercook.github.io/vi/blog/flutter-navigation-go-router-deep-links/) | vi | blog | PENDING | — |
+| 418 | [Key trong Flutter: một quy tắc duy nhất giải thích mọi trường hợp](https://fluttercook.github.io/vi/blog/flutter-keys-when-they-matter/) | vi | blog | PENDING | — |
+| 419 | [Hiểu đúng về sliver: giao thức đứng sau mọi hiệu ứng cuộn trong Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-custom-scroll/) | vi | blog | PENDING | — |
+| 420 | [Agent Skills cho Dart và Flutter: workflow agent rẻ và chuẩn hơn](https://fluttercook.github.io/vi/blog/flutter-agent-skills-mcp/) | vi | blog | PENDING | — |
+| 421 | [Agentic Hot Reload: khi coding agent tự reload app đang chạy](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload/) | vi | blog | PENDING | — |
+| 422 | [Flutter view co theo nội dung trong native parent](https://fluttercook.github.io/vi/blog/flutter-content-sized-views/) | vi | blog | PENDING | — |
+| 423 | [CupertinoMenuAnchor và menu Flutter hiện đại](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor/) | vi | blog | PENDING | — |
+| 424 | [Product flavor trên Windows và Linux trong Flutter 3.47](https://fluttercook.github.io/vi/blog/flutter-desktop-flavors/) | vi | blog | PENDING | — |
+| 425 | [Firebase AI Logic trong Flutter: Gemini không cần backend riêng](https://fluttercook.github.io/vi/blog/flutter-firebase-ai-logic/) | vi | blog | PENDING | — |
+| 426 | [Fragment shader trong Flutter: uniform theo tên và texture đồng bộ](https://fluttercook.github.io/vi/blog/flutter-fragment-shader-api/) | vi | blog | PENDING | — |
+| 427 | [Gemma on-device trong Flutter: flutter_gemma và LiteRT-LM](https://fluttercook.github.io/vi/blog/flutter-gemma-litert-ondevice/) | vi | blog | PENDING | — |
+| 428 | [Genkit Dart: app AI full-stack không rời Dart](https://fluttercook.github.io/vi/blog/flutter-genkit-dart/) | vi | blog | PENDING | — |
+| 429 | [GenUI và A2UI: agent ghép widget, không chỉ markdown](https://fluttercook.github.io/vi/blog/flutter-genui-a2ui/) | vi | blog | PENDING | — |
+| 430 | [Hybrid Composition++: sửa platform view Android hết jank](https://fluttercook.github.io/vi/blog/flutter-hybrid-composition-plus-plus/) | vi | blog | PENDING | — |
+| 431 | [Impeller thành renderer desktop mặc định — thực sự đổi gì](https://fluttercook.github.io/vi/blog/flutter-impeller-default-desktop/) | vi | blog | PENDING | — |
+| 432 | [API multi-window desktop: popup, dialog và windowHandle](https://fluttercook.github.io/vi/blog/flutter-multi-window-desktop/) | vi | blog | PENDING | — |
+| 433 | [Chỉ ship asset mà từng nền tảng cần](https://fluttercook.github.io/vi/blog/flutter-platform-specific-assets/) | vi | blog | PENDING | — |
+| 434 | [Public release windows: PR Flutter của bạn lên stable khi nào](https://fluttercook.github.io/vi/blog/flutter-public-release-windows/) | vi | blog | PENDING | — |
+| 435 | [material_ui và cupertino_ui độc lập: thay đổi gì ở bản 1.0](https://fluttercook.github.io/vi/blog/flutter-standalone-material-ui-cupertino-ui/) | vi | blog | PENDING | — |
+| 436 | [Swift Package Manager là mặc định iOS/macOS — rời CocoaPods](https://fluttercook.github.io/vi/blog/flutter-swift-package-manager-default/) | vi | blog | PENDING | — |
+| 437 | [UIScene lifecycle: yêu cầu khởi động iOS 27 mà app Flutter phải đạt](https://fluttercook.github.io/vi/blog/flutter-uiscene-ios-lifecycle/) | vi | blog | PENDING | — |
+| 438 | [Flutter web Wasm: deferred loading để first paint nhẹ hơn](https://fluttercook.github.io/vi/blog/flutter-wasm-deferred-loading/) | vi | blog | PENDING | — |
+| 439 | [Widget Previews đã stable: sửa UI không cần chạy cả app](https://fluttercook.github.io/vi/blog/flutter-widget-previews-stable/) | vi | blog | PENDING | — |
+| 440 | [App authenticator Flutter an toàn cần đúng gì](https://fluttercook.github.io/vi/blog/oss-aegis-authenticator/) | vi | blog | PENDING | — |
+| 441 | [Bloc: kiến trúc nhàm chán nhưng scale được](https://fluttercook.github.io/vi/blog/oss-bloc-architecture/) | vi | blog | PENDING | — |
+| 442 | [Cashew: UI tài chính giữ dữ liệu local](https://fluttercook.github.io/vi/blog/oss-cashew-budget/) | vi | blog | PENDING | — |
+| 443 | [Ente: ảnh mã hóa đầu-cuối trên Flutter](https://fluttercook.github.io/vi/blog/oss-ente-photos/) | vi | blog | PENDING | — |
+| 444 | [Flame: vòng lặp game bên trong Flutter](https://fluttercook.github.io/vi/blog/oss-flame-engine/) | vi | blog | PENDING | — |
+| 445 | [FluffyChat: chat Matrix trên Flutter với E2EE thật](https://fluttercook.github.io/vi/blog/oss-fluffychat-architecture/) | vi | blog | PENDING | — |
+| 446 | [Flutter Deer: dự án luyện tập dáng production](https://fluttercook.github.io/vi/blog/oss-flutter-deer/) | vi | blog | PENDING | — |
+| 447 | [Forui: hệ thống UI Flutter có chủ kiến](https://fluttercook.github.io/vi/blog/oss-forui/) | vi | blog | PENDING | — |
+| 448 | [Harmony Music: pattern player offline-first](https://fluttercook.github.io/vi/blog/oss-harmony-music/) | vi | blog | PENDING | — |
+| 449 | [Hiddify Next: UI Flutter trên lõi tunnel](https://fluttercook.github.io/vi/blog/oss-hiddify-next/) | vi | blog | PENDING | — |
+| 450 | [Immich: bài học kiến trúc từ stack ảnh Flutter 100k sao](https://fluttercook.github.io/vi/blog/oss-immich-architecture/) | vi | blog | PENDING | — |
+| 451 | [Jaspr: Dart server-driven cho web](https://fluttercook.github.io/vi/blog/oss-jaspr-dart-web/) | vi | blog | PENDING | — |
+| 452 | [LocalSend: truyền file kiểu AirDrop không cần cloud](https://fluttercook.github.io/vi/blog/oss-localsend-architecture/) | vi | blog | PENDING | — |
+| 453 | [Lotti: journal với audio, habit và local DB nghiêm túc](https://fluttercook.github.io/vi/blog/oss-lotti-journal/) | vi | blog | PENDING | — |
+| 454 | [RustDesk: lõi Rust, vỏ Flutter](https://fluttercook.github.io/vi/blog/oss-rustdesk-flutter/) | vi | blog | PENDING | — |
+| 455 | [Saber: ghi chú viết tay và file local-first](https://fluttercook.github.io/vi/blog/oss-saber-notes/) | vi | blog | PENDING | — |
+| 456 | [Serverpod: full-stack Dart phía sau Flutter](https://fluttercook.github.io/vi/blog/oss-serverpod/) | vi | blog | PENDING | — |
+| 457 | [shadcn-flutter: port design system, không chỉ theme](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter/) | vi | blog | PENDING | — |
+| 458 | [Spotube: client nhạc Flutter ưu tiên privacy](https://fluttercook.github.io/vi/blog/oss-spotube-architecture/) | vi | blog | PENDING | — |
+| 459 | [Venera: layout reader tùy chỉnh trong Flutter](https://fluttercook.github.io/vi/blog/oss-venera-reader/) | vi | blog | PENDING | — |
+| 460 | [A/B testing mobile UI without wrecking performance — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ab-testing-mobile/) | vi | blog | PENDING | — |
+| 461 | [A practical mobile accessibility audit in one day — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-audit-steps/) | vi | blog | PENDING | — |
+| 462 | [Accessibility semantics checklist for Flutter forms — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics-checklist/) | vi | blog | PENDING | — |
+| 463 | [Account recovery UX that reduces support tickets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-account-recovery-ux/) | vi | blog | PENDING | — |
+| 464 | [Age assurance requirements affecting mobile apps in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-age-assurance-2026/) | vi | blog | PENDING | — |
+| 465 | [Package skills and Agent Skills for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agent-skills-package-skills/) | vi | blog | PENDING | — |
+| 466 | [Agentic Hot Reload: closing the prompt-to-pixels loop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload-workflow/) | vi | blog | PENDING | — |
+| 467 | [Unit economics of AI features in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-feature-unit-economics/) | vi | blog | PENDING | — |
+| 468 | [Tracing LLM calls inside mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-observability-tracing/) | vi | blog | PENDING | — |
+| 469 | [Flutter AI Toolkit: production chat UX patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-toolkit-chat-ux/) | vi | blog | PENDING | — |
+| 470 | [A mobile analytics event schema that survives redesigns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-analytics-events-schema/) | vi | blog | PENDING | — |
+| 471 | [Preparing Flutter apps for Android 17 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-17-prep/) | vi | blog | PENDING | — |
+| 472 | [Android App Bundles, ABI splits, and download size — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-splits-aab/) | vi | blog | PENDING | — |
+| 473 | [API versioning strategies for mobile clients — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-api-versioning-mobile/) | vi | blog | PENDING | — |
+| 474 | [Device integrity checks without ruining UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-attest-play-integrity/) | vi | blog | PENDING | — |
+| 475 | [App Clips and Instant Apps with Flutter modules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-clips-instant/) | vi | blog | PENDING | — |
+| 476 | [Flutter and iOS app extensions without a second UI stack — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-extensions-ios/) | vi | blog | PENDING | — |
+| 477 | [App icon design that survives 2026 store grids — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-icon-2026-guidelines/) | vi | blog | PENDING | — |
+| 478 | [The April 2027 SDK deadline for App Store uploads — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-store-2027-sdk-deadline/) | vi | blog | PENDING | — |
+| 479 | [AR and visionOS companions for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ar-visionos-companion/) | vi | blog | PENDING | — |
+| 480 | [ADRs for mobile architecture decisions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-architecture-decision-records/) | vi | blog | PENDING | — |
+| 481 | [Certificate pinning and network security on mobile — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/) | vi | blog | PENDING | — |
+| 482 | [CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/) | vi | blog | PENDING | — |
+| 483 | [Escaping setState spaghetti with clear ownership — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/) | vi | blog | PENDING | — |
+| 484 | [Field-service apps: offline-first B2B patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-offline-field-apps/) | vi | blog | PENDING | — |
+| 485 | [SSO for enterprise mobile: OIDC and SAML realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-sso-saml-oidc/) | vi | blog | PENDING | — |
+| 486 | [Background work limits on iOS and Android in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-background-fetch-limits/) | vi | blog | PENDING | — |
+| 487 | [Step-up authentication with biometrics for sensitive actions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-biometric-step-up/) | vi | blog | PENDING | — |
+| 488 | [User safety features: block, mute, and restrict — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-block-report-safety/) | vi | blog | PENDING | — |
+| 489 | [Brand refreshes without breaking mobile users — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brand-refresh-risk/) | vi | blog | PENDING | — |
+| 490 | [Alternative marketplaces: EU DMA and Brazil CADE rules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brazil-eu-marketplace-rules/) | vi | blog | PENDING | — |
+| 491 | [A bug report template that gets mobile issues fixed — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-bug-report-template-mobile/) | vi | blog | PENDING | — |
+| 492 | [Debug, profile, and release: stop optimizing the wrong mode — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-build-modes-debug-profile/) | vi | blog | PENDING | — |
+| 493 | [On-device vision with Camera and ML Kit in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-camera-mlkit-vision/) | vi | blog | PENDING | — |
+| 494 | [Capacity planning for mobile platform teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-capacity-planning-mobile/) | vi | blog | PENDING | — |
+| 495 | [Certificate Transparency and mobile network trust — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-certificate-transparency/) | vi | blog | PENDING | — |
+| 496 | [Release notes users actually read — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-changelog-release-notes/) | vi | blog | PENDING | — |
+| 497 | [Kids apps: COPPA, age gates, and store questionnaires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-childrens-privacy-coppa/) | vi | blog | PENDING | — |
+| 498 | [GitHub Actions for Flutter with sane caches — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ci-github-actions-cache/) | vi | blog | PENDING | — |
+| 499 | [Clean architecture in Flutter without ceremony — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-clean-architecture-not-religion/) | vi | blog | PENDING | — |
+| 500 | [Code push, hotfix, and what Apple/Google actually allow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-code-push-alternatives/) | vi | blog | PENDING | — |
+| 501 | [Codegen that pays for itself: freezed and json_serializable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-codegen-freezed-json/) | vi | blog | PENDING | — |
+| 502 | [Running a healthy app community on Discord/GitHub — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-community-discord-github/) | vi | blog | PENDING | — |
+| 503 | [What a mature Flutter component library includes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-component-library-maturity/) | vi | blog | PENDING | — |
+| 504 | [Hosting Jetpack Compose inside Flutter (and the reverse) — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-compose-interop-android/) | vi | blog | PENDING | — |
+| 505 | [const constructors: the cheapest Flutter performance win — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-const-constructor-perf/) | vi | blog | PENDING | — |
+| 506 | [UGC moderation stacks for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-moderation-ugc/) | vi | blog | PENDING | — |
+| 507 | [Content-sized Flutter views inside native scrollables — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-sized-add-to-app/) | vi | blog | PENDING | — |
+| 508 | [True cost of cross-platform in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cost-of-crossplatform/) | vi | blog | PENDING | — |
+| 509 | [Crash-free session SLOs for mobile teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-free-rate-slo/) | vi | blog | PENDING | — |
+| 510 | [Symbolication done right for iOS and Android crashes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-symbolication-symbols/) | vi | blog | PENDING | — |
+| 511 | [Error boundaries and Crashlytics for Flutter production apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crashlytics-error-boundaries/) | vi | blog | PENDING | — |
+| 512 | [CupertinoMenuAnchor and RawMenuAnchor menus — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor-ios/) | vi | blog | PENDING | — |
+| 513 | [Dark mode that does not look inverted — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dark-mode-contrast/) | vi | blog | PENDING | — |
+| 514 | [Dart primary constructors in Flutter model code — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dart-3-13-primary-constructors/) | vi | blog | PENDING | — |
+| 515 | [GDPR/CCPA data deletion flows in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-data-cleanup-gdpr/) | vi | blog | PENDING | — |
+| 516 | [Universal Links and App Links that open the right screen — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-deep-link-universal-links/) | vi | blog | PENDING | — |
+| 517 | [A dependency update rhythm that avoids upgrade hell — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dependency-update-rhythm/) | vi | blog | PENDING | — |
+| 518 | [Design reviews that catch mobile-specific failures — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-design-review-mobile/) | vi | blog | PENDING | — |
+| 519 | [Governing a multi-platform design system — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-design-system-governance/) | vi | blog | PENDING | — |
+| 520 | [Design tokens across Flutter, iOS, and Android — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-design-tokens-crossplatform/) | vi | blog | PENDING | — |
+| 521 | [Product flavors on Windows and Linux for CI matrices — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-desktop-flavors-ci/) | vi | blog | PENDING | — |
+| 522 | [Window management APIs for Flutter desktop apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-desktop-window-management-api/) | vi | blog | PENDING | — |
+| 523 | [DevTools Network and Memory views you should actually use — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-devtools-network-memory/) | vi | blog | PENDING | — |
+| 524 | [Mobile docs that stay accurate after ship — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-documentation-that-lives/) | vi | blog | PENDING | — |
+| 525 | [Dot shorthands in Flutter: cleaner enum and const syntax — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dot-shorthands/) | vi | blog | PENDING | — |
+| 526 | [Offline-first Flutter with Drift and background sync — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-drift-offline-first/) | vi | blog | PENDING | — |
+| 527 | [When Flutter is wrong: choosing native iOS or Android — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dual-platform-native-strategy/) | vi | blog | PENDING | — |
+| 528 | [K-12 education apps and student privacy — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-education-k12-privacy/) | vi | blog | PENDING | — |
+| 529 | [Device profiles that define 2026 mobile UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-emerging-device-profiles/) | vi | blog | PENDING | — |
+| 530 | [MDM, managed configuration, and enterprise Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-enterprise-mdm/) | vi | blog | PENDING | — |
+| 531 | [EU alternative payments and what Flutter teams must change — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-eu-alternative-payments/) | vi | blog | PENDING | — |
+| 532 | [Eval harnesses for mobile AI features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-evals-before-ship-ai/) | vi | blog | PENDING | — |
+| 533 | [Reading mobile experiment results without fooling yourself — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-experiment-readouts/) | vi | blog | PENDING | — |
+| 534 | [Feature flag cleanup sprints that actually happen — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-feature-flag-cleanup/) | vi | blog | PENDING | — |
+| 535 | [Feature flags and remote config without a mess — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-feature-flags-config/) | vi | blog | PENDING | — |
+| 536 | [Fintech mobile compliance realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-fintech-compliance-mobile/) | vi | blog | PENDING | — |
+| 537 | [Firebase AI Logic: Gemini from Flutter without a custom backend — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-firebase-ai-logic-security/) | vi | blog | PENDING | — |
+| 538 | [Firebase App Distribution for Android/iOS betas — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-firebase-app-distribution/) | vi | blog | PENDING | — |
+| 539 | [Parallax backgrounds and camera work in Flame — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-flame-parallax-backgrounds/) | vi | blog | PENDING | — |
+| 540 | [Flutter on foldables and large screens in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-foldable-large-screens/) | vi | blog | PENDING | — |
+| 541 | [Shipping custom fonts without license landmines — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-fonts-licensing-mobile/) | vi | blog | PENDING | — |
+| 542 | [Form validation that users finish — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-forms-validation-scale/) | vi | blog | PENDING | — |
+| 543 | [Fragment shaders: bind uniforms by name in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-fragment-shader-uniforms-by-name/) | vi | blog | PENDING | — |
+| 544 | [Paywall UX that converts without dark patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-freemium-paywall-ux/) | vi | blog | PENDING | — |
+| 545 | [Shipping a 2D mini-game inside a Flutter product — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-game-flame-product/) | vi | blog | PENDING | — |
+| 546 | [On-device Gemma with flutter_gemma and LiteRT-LM — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-gemma-litert-lm/) | vi | blog | PENDING | — |
+| 547 | [Genkit Dart: full-stack AI flows in one language — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-genkit-dart-fullstack/) | vi | blog | PENDING | — |
+| 548 | [GenUI: when agents compose widgets instead of markdown — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-genui-beyond-markdown/) | vi | blog | PENDING | — |
+| 549 | [go_router deep links and URL strategies that scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-go-router-deep-links-2026/) | vi | blog | PENDING | — |
+| 550 | [Accessibility procurement for public-sector mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-government-accessibility/) | vi | blog | PENDING | — |
+| 551 | [Prompt injection defenses for mobile AI features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-guardrails-prompt-injection/) | vi | blog | PENDING | — |
+| 552 | [Hybrid Composition++: Vulkan-composited platform views — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-hcpp-platform-views-vulkan/) | vi | blog | PENDING | — |
+| 553 | [Health and wellness apps: regulations that bite — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-health-data-regulations/) | vi | blog | PENDING | — |
+| 554 | [Healthcare mobile basics: beyond the buzzword checklist — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-healthcare-hipaa-basics/) | vi | blog | PENDING | — |
+| 555 | [Hero animations without the glitches — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-hero-shared-element/) | vi | blog | PENDING | — |
+| 556 | [Hiring mobile engineers in a Flutter+native world — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-hiring-mobile-engineers/) | vi | blog | PENDING | — |
+| 557 | [Home screen widgets with Flutter shells — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-home-screen-widgets/) | vi | blog | PENDING | — |
+| 558 | [HTTP in Flutter: timeouts, retries, and cancellation — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-http-dio-timeouts/) | vi | blog | PENDING | — |
+| 559 | [Flutter localization with ARB and gen_l10n that translators like — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-i18n-arb-gen-l10n/) | vi | blog | PENDING | — |
+| 560 | [Image caching and decode budgets in Flutter lists — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-image-cache-memory/) | vi | blog | PENDING | — |
+| 561 | [Impeller on desktop: SDF text and Metal/Vulkan defaults — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-impeller-desktop-sdf-text/) | vi | blog | PENDING | — |
+| 562 | [In-app purchases with StoreKit 2 and Play Billing in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-in-app-purchase-storekit2/) | vi | blog | PENDING | — |
+| 563 | [Subscription groups, upgrades, and proration explained — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-in-app-purchase-subscription-groups/) | vi | blog | PENDING | — |
+| 564 | [User communication during mobile incidents — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-incident-comms-mobile/) | vi | blog | PENDING | — |
+| 565 | [Integration tests that survive real devices — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-integration-test-patrol/) | vi | blog | PENDING | — |
+| 566 | [Mobile performance interview questions that matter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-interview-performance-questions/) | vi | blog | PENDING | — |
+| 567 | [Isolates and compute() without the myths — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-isolates-compute/) | vi | blog | PENDING | — |
+| 568 | [Designing for Liquid Glass and Material without dual UIs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-liquid-glass-adaptive-ui/) | vi | blog | PENDING | — |
+| 569 | [Marketing on-device AI without lying — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-llm-on-device-privacy-marketing/) | vi | blog | PENDING | — |
+| 570 | [Local notifications that do not spam or break on Android 13+ — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-local-notifications-2026/) | vi | blog | PENDING | — |
+| 571 | [Pseudolocales and expansion testing before translators — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-localization-pseudolocales/) | vi | blog | PENDING | — |
+| 572 | [Logistics tracking UX under poor connectivity — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-logistics-tracking-ux/) | vi | blog | PENDING | — |
+| 573 | [Maps, location, and permission UX in Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-maps-location-permissions/) | vi | blog | PENDING | — |
+| 574 | [Material 3 Expressive theming without fighting Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-material3-expressive-theming/) | vi | blog | PENDING | — |
+| 575 | [Background audio with media_kit and platform media sessions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-mediakit-audio-background/) | vi | blog | PENDING | — |
+| 576 | [Melos monorepos for Flutter apps and packages — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-melos-monorepo/) | vi | blog | PENDING | — |
+| 577 | [Haptics and microinteractions that feel native — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-microinteractions-haptics/) | vi | blog | PENDING | — |
+| 578 | [Camera and microphone permissions with honest UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-microphone-camera-permission/) | vi | blog | PENDING | — |
+| 579 | [Why your device lab needs a mid-tier Android — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-mid-tier-device-lab/) | vi | blog | PENDING | — |
+| 580 | [Migrating large apps to Material 3 Expressive — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-migrate-material3-expressive/) | vi | blog | PENDING | — |
+| 581 | [Migrating from React Native to Flutter in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-migration-from-rn-2026/) | vi | blog | PENDING | — |
+| 582 | [Moving Android XML / UIKit apps to Flutter gradually — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-migration-from-xml-uikit/) | vi | blog | PENDING | — |
+| 583 | [A 20-minute mobile smoke checklist before every release — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-mobile-qa-smoke-checklist/) | vi | blog | PENDING | — |
+| 584 | [Model routing and cascades for mobile AI — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-model-routing-cascades/) | vi | blog | PENDING | — |
+| 585 | [Multi-account apps without token soup — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multi-account-mobile/) | vi | blog | PENDING | — |
+| 586 | [Desktop multi-window: popups, dialogs, and windowHandle — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multi-window-popup-apis/) | vi | blog | PENDING | — |
+| 587 | [Multimodal AI: camera to structured data in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multimodal-camera-ai/) | vi | blog | PENDING | — |
+| 588 | [Multiple Flutter instances in one host app — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-multiple-flutter-instances/) | vi | blog | PENDING | — |
+| 589 | [State restoration across process death — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-navigation-restoration/) | vi | blog | PENDING | — |
+| 590 | [Obfuscation, symbols, and secrets in Flutter release builds — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-obfuscate-secrets-release/) | vi | blog | PENDING | — |
+| 591 | [Mobile observability cost control — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-observability-cost-mobile/) | vi | blog | PENDING | — |
+| 592 | [Mobile observability: Sentry, Crashlytics, and custom traces — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-observability-sentry-firebase/) | vi | blog | PENDING | — |
+| 593 | [Graceful degradation when AI is unavailable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-offline-ai-fallback/) | vi | blog | PENDING | — |
+| 594 | [Sync conflict resolution patterns for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-offline-sync-conflict/) | vi | blog | PENDING | — |
+| 595 | [Mobile OKRs that engineering can influence — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-okrs-mobile-product/) | vi | blog | PENDING | — |
+| 596 | [Mobile on-call runbooks that juniors can execute — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-oncall-mobile-runbook/) | vi | blog | PENDING | — |
+| 597 | [Product patterns for on-device LLMs in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ondevice-llm-product/) | vi | blog | PENDING | — |
+| 598 | [How to study open-source Flutter apps without drowning — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-open-source-app-study/) | vi | blog | PENDING | — |
+| 599 | [How to pick a Flutter package in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-package-selection-checklist/) | vi | blog | PENDING | — |
+| 600 | [Pagination and infinite scroll without layout jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-pagination-infinite-scroll/) | vi | blog | PENDING | — |
+| 601 | [Passkeys and passwordless login in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-passkeys-passwordless/) | vi | blog | PENDING | — |
+| 602 | [Mobile payment fraud signals worth watching — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-payments-fraud-mobile/) | vi | blog | PENDING | — |
+| 603 | [Setting a frame budget your product team understands — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-performance-budget-product/) | vi | blog | PENDING | — |
+| 604 | [Photo library access: limited libraries and privacy labels — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-photo-library-permissions/) | vi | blog | PENDING | — |
+| 605 | [Pigeon: typed platform channels that scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-pigeon-typed-channels/) | vi | blog | PENDING | — |
+| 606 | [Ship only the assets each platform needs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-platform-assets-reduce-apk/) | vi | blog | PENDING | — |
+| 607 | [Platform channels vs FFI in 2026: pick the right bridge — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi-2026/) | vi | blog | PENDING | — |
+| 608 | [Google Play policy changes mobile teams should track — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-play-policy-2026/) | vi | blog | PENDING | — |
+| 609 | [Portfolio Flutter projects that get interviews in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-portfolio-projects-2026/) | vi | blog | PENDING | — |
+| 610 | [Blameless mobile incident postmortems — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-postmortem-blameless/) | vi | blog | PENDING | — |
+| 611 | [Predictive back animations in Flutter Android apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-predictive-back/) | vi | blog | PENDING | — |
+| 612 | [Privacy manifests and required reason APIs for Flutter plugins — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-privacy-manifest-ios/) | vi | blog | PENDING | — |
+| 613 | [Prompt caching on mobile AI calls — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-prompt-caching-mobile/) | vi | blog | PENDING | — |
+| 614 | [Flutter Property Editor: inspect widgets without print debugging — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-property-editor-devtools/) | vi | blog | PENDING | — |
+| 615 | [Notification permission primers that earn the grant — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-push-permission-primer/) | vi | blog | PENDING | — |
+| 616 | [RAG on mobile: what belongs on-device vs server — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rag-on-mobile/) | vi | blog | PENDING | — |
+| 617 | [prefers-reduced-motion and Flutter animations — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-reduced-motion-a11y/) | vi | blog | PENDING | — |
+| 618 | [Refund handling that protects ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-refund-handling-playbook/) | vi | blog | PENDING | — |
+| 619 | [A mobile release checklist that prevents Friday fires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-checklist-mobile/) | vi | blog | PENDING | — |
+| 620 | [Mobile rollback playbooks when stores are slow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-rollback-playbook/) | vi | blog | PENDING | — |
+| 621 | [Public release windows: when your Flutter PR ships — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-release-windows-2026/) | vi | blog | PENDING | — |
+| 622 | [Running a remote mobile team across timezones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-remote-mobile-team/) | vi | blog | PENDING | — |
+| 623 | [Retail POS companions and handheld workflows — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-retail-pos-companion/) | vi | blog | PENDING | — |
+| 624 | [Riverpod patterns that survive production scale — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-riverpod-3-patterns/) | vi | blog | PENDING | — |
+| 625 | [Communicating mobile roadmaps without over-promising — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-roadmap-communication/) | vi | blog | PENDING | — |
+| 626 | [RTL layouts that do not look broken in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rtl-layout-flutter/) | vi | blog | PENDING | — |
+| 627 | [flutter_rust_bridge for heavy compute in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rust-bridge-performance/) | vi | blog | PENDING | — |
+| 628 | [Building store screenshots that convert — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/) | vi | blog | PENDING | — |
+| 629 | [SEA market expansion checklist for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/) | vi | blog | PENDING | — |
+| 630 | [Redacting secrets from mobile logs and crash reports — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/) | vi | blog | PENDING | — |
+| 631 | [Storing tokens with Secure Enclave / StrongBox — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/) | vi | blog | PENDING | — |
+| 632 | [Secure storage and biometrics for Flutter tokens — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/) | vi | blog | PENDING | — |
+| 633 | [Serverpod: one language from SQL to Flutter widgets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-serverpod-backend/) | vi | blog | PENDING | — |
+| 634 | [Mobile session management: refresh tokens done right — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-session-management-mobile/) | vi | blog | PENDING | — |
+| 635 | [Slivers that scroll without jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-performance/) | vi | blog | PENDING | — |
+| 636 | [Migrating to standalone material_ui and cupertino_ui in Flutter 3.47 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-standalone-design-packages-migration/) | vi | blog | PENDING | — |
+| 637 | [Cold start budgets for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start-2026/) | vi | blog | PENDING | — |
+| 638 | [ASO for Flutter apps: screenshots, keywords, and ratings — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-listing-aso/) | vi | blog | PENDING | — |
+| 639 | [Mapping App Store guidelines to common Flutter features — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-guidelines-map/) | vi | blog | PENDING | — |
+| 640 | [SKStoreReview and in-app review prompts that do not annoy — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-prompts/) | vi | blog | PENDING | — |
+| 641 | [Replying to store reviews without sounding like a bot — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-store-review-reply-playbook/) | vi | blog | PENDING | — |
+| 642 | [Streaming LLM responses into Flutter UIs token by token — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-streaming-ux-tokens/) | vi | blog | PENDING | — |
+| 643 | [Structured output and tool calling in Flutter AI apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-structured-output-tool-calling/) | vi | blog | PENDING | — |
+| 644 | [Stylus pressure and tilt input in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-stylus-pencil-input/) | vi | blog | PENDING | — |
+| 645 | [Swift Package Manager plugin migration checklist for Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-swiftpm-plugin-migration-checklist/) | vi | blog | PENDING | — |
+| 646 | [Switch expressions for cleaner Flutter mapping — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-switch-expression-ui/) | vi | blog | PENDING | — |
+| 647 | [Keyboard shortcuts and pointer support for tablets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-tablet-keyboard-shortcuts/) | vi | blog | PENDING | — |
+| 648 | [A 2026 skills roadmap for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-team-skills-2026-roadmap/) | vi | blog | PENDING | — |
+| 649 | [A mobile technical debt inventory that leaders fund — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-technical-debt-inventory/) | vi | blog | PENDING | — |
+| 650 | [TestFlight internal vs external testing that finds real bugs — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testflight-internal-external/) | vi | blog | PENDING | — |
+| 651 | [Golden tests for design systems — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-testing-goldens-design-system/) | vi | blog | PENDING | — |
+| 652 | [Threat modeling a mobile app in one workshop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-threat-model-mobile/) | vi | blog | PENDING | — |
+| 653 | [A weekly mobile crash triage that actually reduces issues — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-triage-crash-weekly/) | vi | blog | PENDING | — |
+| 654 | [UIScene lifecycle: the iOS 27 launch gate for Flutter apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-uiscene-ios-27-checklist/) | vi | blog | PENDING | — |
+| 655 | [Shipping mobile apps for the Vietnam market in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-vietnam-mobile-market/) | vi | blog | PENDING | — |
+| 656 | [Wasm deferred loading: split Flutter web for first paint — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-wasm-deferred-loading-strategy/) | vi | blog | PENDING | — |
+| 657 | [Wear companions: watchOS and Wear OS with Flutter phones — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-watch-wear-companion/) | vi | blog | PENDING | — |
+| 658 | [Embedding Flutter into an existing marketing site — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-embed-existing-site/) | vi | blog | PENDING | — |
+| 659 | [SEO for Flutter web: when to prerender and when not to — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-web-seo-prerender/) | vi | blog | PENDING | — |
+| 660 | [Widget Previewer is stable: isolate UI without booting the app — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-widget-previewer-stable/) | vi | blog | PENDING | — |
+| 661 | [Appwrite Flutter: backend service với client rõ ràng](https://fluttercook.github.io/vi/blog/oss-appwrite-flutter/) | vi | blog | PENDING | — |
+| 662 | [build_runner: biến code generation thành build step deterministic](https://fluttercook.github.io/vi/blog/oss-build-runner/) | vi | blog | PENDING | — |
+| 663 | [camera: pipeline chụp thật, không chỉ là preview](https://fluttercook.github.io/vi/blog/oss-camera-plugin/) | vi | blog | PENDING | — |
+| 664 | [connectivity_plus: loại mạng không đồng nghĩa có internet](https://fluttercook.github.io/vi/blog/oss-connectivity-plus/) | vi | blog | PENDING | — |
+| 665 | [desktop_multi_window: quản lý nhiều cửa sổ desktop có chủ đích](https://fluttercook.github.io/vi/blog/oss-desktop-multi-window/) | vi | blog | PENDING | — |
+| 666 | [Dio: networking có thể ghép bằng interceptor](https://fluttercook.github.io/vi/blog/oss-dio-networking/) | vi | blog | PENDING | — |
+| 667 | [Drift: SQL có kiểu cho ứng dụng Flutter offline-first](https://fluttercook.github.io/vi/blog/oss-drift-database/) | vi | blog | PENDING | — |
+| 668 | [Equatable: value semantics cho state object Dart](https://fluttercook.github.io/vi/blog/oss-equatable/) | vi | blog | PENDING | — |
+| 669 | [file_picker: một user intent trên sáu platform](https://fluttercook.github.io/vi/blog/oss-file-picker/) | vi | blog | PENDING | — |
+| 670 | [FlexColorScheme: theme design system ít boilerplate](https://fluttercook.github.io/vi/blog/oss-flex-color-scheme/) | vi | blog | PENDING | — |
+| 671 | [animations: pattern motion Material có thể tái sử dụng](https://fluttercook.github.io/vi/blog/oss-flutter-animations/) | vi | blog | PENDING | — |
+| 672 | [flutter_bloc: event và state rõ ràng cho ứng dụng lớn](https://fluttercook.github.io/vi/blog/oss-flutter-bloc/) | vi | blog | PENDING | — |
+| 673 | [flutter_hooks: tái sử dụng behavior có state bằng hook nhỏ](https://fluttercook.github.io/vi/blog/oss-flutter-hooks/) | vi | blog | PENDING | — |
+| 674 | [flutter_rust_bridge: Rust có kiểu mà không phải tự viết FFI glue](https://fluttercook.github.io/vi/blog/oss-flutter-rust-bridge/) | vi | blog | PENDING | — |
+| 675 | [flutter_secure_storage: secret nằm sau keychain của platform](https://fluttercook.github.io/vi/blog/oss-flutter-secure-storage/) | vi | blog | PENDING | — |
+| 676 | [ForUI: component headless dễ tiếp cận cho Flutter](https://fluttercook.github.io/vi/blog/oss-forui-components/) | vi | blog | PENDING | — |
+| 677 | [Freezed: model bất biến và union an toàn hơn](https://fluttercook.github.io/vi/blog/oss-freezed/) | vi | blog | PENDING | — |
+| 678 | [FVM: ghim Flutter version theo từng repository](https://fluttercook.github.io/vi/blog/oss-fvm-flutter-version-manager/) | vi | blog | PENDING | — |
+| 679 | [go_router: Điều hướng Flutter lấy URL làm trung tâm](https://fluttercook.github.io/vi/blog/oss-go-router/) | vi | blog | PENDING | — |
+| 680 | [Golden Toolkit: regression hình ảnh có chủ đích](https://fluttercook.github.io/vi/blog/oss-golden-toolkit/) | vi | blog | PENDING | — |
+| 681 | [image_picker: API nhỏ cho các nguồn media phức tạp](https://fluttercook.github.io/vi/blog/oss-image-picker/) | vi | blog | PENDING | — |
+| 682 | [intl: format data theo locale một cách có chủ đích](https://fluttercook.github.io/vi/blog/oss-intl-localization/) | vi | blog | PENDING | — |
+| 683 | [Isar: object database local nhanh với index có thể query](https://fluttercook.github.io/vi/blog/oss-isar-database/) | vi | blog | PENDING | — |
+| 684 | [json_serializable: JSON nhàm chán nhưng bền qua refactor](https://fluttercook.github.io/vi/blog/oss-json-serializable/) | vi | blog | PENDING | — |
+| 685 | [just_audio: audio có thể điều khiển bằng stream](https://fluttercook.github.io/vi/blog/oss-just-audio/) | vi | blog | PENDING | — |
+| 686 | [local_auth: biometric là step-up, không phải nơi lưu password](https://fluttercook.github.io/vi/blog/oss-local-auth/) | vi | blog | PENDING | — |
+| 687 | [Melos: biến Flutter monorepo thành ranh giới sản phẩm](https://fluttercook.github.io/vi/blog/oss-melos-monorepo/) | vi | blog | PENDING | — |
+| 688 | [Mocktail: mock Dart dễ đọc mà không cần file generated](https://fluttercook.github.io/vi/blog/oss-mocktail/) | vi | blog | PENDING | — |
+| 689 | [Patrol: integration test có thể đi ra ngoài sandbox Flutter](https://fluttercook.github.io/vi/blog/oss-patrol-testing/) | vi | blog | PENDING | — |
+| 690 | [permission_handler: luồng xin quyền runtime có thể giải thích](https://fluttercook.github.io/vi/blog/oss-permission-handler/) | vi | blog | PENDING | — |
+| 691 | [Pigeon: platform channel có kiểu sinh từ một schema](https://fluttercook.github.io/vi/blog/oss-pigeon-typed-platform-channels/) | vi | blog | PENDING | — |
+| 692 | [Rive: animation vector tương tác bằng state machine](https://fluttercook.github.io/vi/blog/oss-rive-runtime/) | vi | blog | PENDING | — |
+| 693 | [Riverpod: state bất đồng bộ có thể test mà không dính widget](https://fluttercook.github.io/vi/blog/oss-riverpod/) | vi | blog | PENDING | — |
+| 694 | [Sentry Flutter: lỗi đi kèm context của release](https://fluttercook.github.io/vi/blog/oss-sentry-flutter/) | vi | blog | PENDING | — |
+| 695 | [shadcn_flutter: UI primitive có thể ghép cho Flutter](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter-components/) | vi | blog | PENDING | — |
+| 696 | [skeletonizer: loading UI từ chính widget tree thật](https://fluttercook.github.io/vi/blog/oss-skeletonizer/) | vi | blog | PENDING | — |
+| 697 | [supabase_flutter: auth, Postgres, realtime và storage](https://fluttercook.github.io/vi/blog/oss-supabase-flutter/) | vi | blog | PENDING | — |
+| 698 | [url_launcher: platform intent với hợp đồng fallback](https://fluttercook.github.io/vi/blog/oss-url-launcher/) | vi | blog | PENDING | — |
+| 699 | [Very Good CLI: scaffolding Flutter có opinion](https://fluttercook.github.io/vi/blog/oss-very-good-cli/) | vi | blog | PENDING | — |
+| 700 | [video_player: primitive video Flutter dựa trên platform](https://fluttercook.github.io/vi/blog/oss-video-player/) | vi | blog | PENDING | — |
 | 701 | [Apple Intelligence vs Gemini Intelligence: the on-device AI race reshaping mobile apps](https://fluttercook.github.io/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/) | en | news | LIVE | [open](https://fluttercook.blogspot.com/2026/07/apple-intelligence-vs-gemini.html) |
 | 702 | [Flutter's 2026 roadmap: WebAssembly by default, LG smart TVs, and the push for platform parity](https://fluttercook.github.io/news/flutter-2026-roadmap-webassembly-platform-parity/) | en | news | LIVE | [open](https://fluttercook.blogspot.com/2026/07/flutters-2026-roadmap-webassembly-by.html) |
 | 703 | [macOS 26 Tahoe: Liquid Glass comes to the Mac — and it's the last stop for Intel](https://fluttercook.github.io/news/macos-26-tahoe-liquid-glass-last-intel-mac/) | en | news | LIVE | [open](https://fluttercook.blogspot.com/2026/07/macos-26-tahoe-liquid-glass-comes-to.html) |
@@ -1471,40 +1471,40 @@ Blog id `2374794397032110467` · access **author-cannot-create** (role AUTHOR, 1
 | 706 | [Flutter 3.44 review: iOS 26 support, stateful hot reload on web, and Cupertino Squircles](https://fluttercook.github.io/news/flutter-3-44-ios-26-macos-support-web-hot-reload/) | en | news | LIVE | [open](https://fluttercook.blogspot.com/2026/07/flutter-344-review-ios-26-support.html) |
 | 707 | [Android 17 is here: Bubbles, Gemini Intelligence, and a serious push on foldables](https://fluttercook.github.io/news/android-17-bubbles-gemini-intelligence-foldables/) | en | news | LIVE | [open](https://fluttercook.blogspot.com/2026/07/android-17-is-here-bubbles-gemini.html) |
 | 708 | [iOS 26 and Liquid Glass: What Apple's biggest redesign in a decade means for mobile developers](https://fluttercook.github.io/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/) | en | news | LIVE | [open](https://fluttercook.blogspot.com/2026/07/ios-26-and-liquid-glass-what-apples.html) |
-| 709 | [Dart 3.13 primary constructors: less boilerplate, one real breaking change](https://fluttercook.github.io/news/dart-3-13-primary-constructors-guide/) | en | news | BLOCKED | — |
-| 710 | [Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop](https://fluttercook.github.io/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/) | en | news | BLOCKED | — |
-| 711 | [Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong](https://fluttercook.github.io/news/flutter-ai-agent-skills-guide/) | en | news | BLOCKED | — |
-| 712 | [Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes](https://fluttercook.github.io/news/flutter-gpu-3d-rendering-flutter-scene/) | en | news | BLOCKED | — |
-| 713 | [Impeller is now the default on macOS, Windows and Linux](https://fluttercook.github.io/news/flutter-impeller-desktop-default-renderer/) | en | news | BLOCKED | — |
-| 714 | [Migrating to material_ui and cupertino_ui: the design system leaves the SDK](https://fluttercook.github.io/news/flutter-material-ui-cupertino-ui-migration-guide/) | en | news | BLOCKED | — |
-| 715 | [Multi-window on Flutter desktop: what shipped in 3.47, and what to use today](https://fluttercook.github.io/news/flutter-multi-window-desktop-guide/) | en | news | BLOCKED | — |
-| 716 | [Swift Package Manager is the default now — and CocoaPods has a deadline](https://fluttercook.github.io/news/flutter-swift-package-manager-migration/) | en | news | BLOCKED | — |
-| 717 | [The UIScene migration: the iOS change that will crash unmigrated Flutter apps](https://fluttercook.github.io/news/flutter-uiscene-migration-ios-15-minimum/) | en | news | BLOCKED | — |
-| 718 | [Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers](https://fluttercook.github.io/news/flutter-webassembly-wasm-deferred-loading/) | en | news | BLOCKED | — |
-| 719 | [Flutter Widget Previews are stable: a practical guide to @Preview](https://fluttercook.github.io/news/flutter-widget-previews-stable-guide/) | en | news | BLOCKED | — |
-| 720 | [Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động](https://fluttercook.github.io/vi/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/) | vi | news | BLOCKED | — |
-| 721 | [Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa](https://fluttercook.github.io/vi/news/flutter-2026-roadmap-webassembly-platform-parity/) | vi | news | BLOCKED | — |
-| 722 | [macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel](https://fluttercook.github.io/vi/news/macos-26-tahoe-liquid-glass-last-intel-mac/) | vi | news | BLOCKED | — |
-| 723 | [iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt](https://fluttercook.github.io/vi/news/iphone-18-pro-foldable-iphone-fall-2026-preview/) | vi | news | BLOCKED | — |
-| 724 | [Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x](https://fluttercook.github.io/vi/news/iphone-17-pro-review-a19-pro-cameras-aluminum/) | vi | news | BLOCKED | — |
-| 725 | [Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles](https://fluttercook.github.io/vi/news/flutter-3-44-ios-26-macos-support-web-hot-reload/) | vi | news | BLOCKED | — |
-| 726 | [Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập](https://fluttercook.github.io/vi/news/android-17-bubbles-gemini-intelligence-foldables/) | vi | news | BLOCKED | — |
-| 727 | [iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động](https://fluttercook.github.io/vi/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/) | vi | news | BLOCKED | — |
-| 728 | [Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự](https://fluttercook.github.io/vi/news/dart-3-13-primary-constructors-guide/) | vi | news | BLOCKED | — |
-| 729 | [Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop](https://fluttercook.github.io/vi/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/) | vi | news | BLOCKED | — |
-| 730 | [Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai](https://fluttercook.github.io/vi/news/flutter-ai-agent-skills-guide/) | vi | news | BLOCKED | — |
-| 731 | [Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu](https://fluttercook.github.io/vi/news/flutter-gpu-3d-rendering-flutter-scene/) | vi | news | BLOCKED | — |
-| 732 | [Impeller giờ là mặc định trên macOS, Windows và Linux](https://fluttercook.github.io/vi/news/flutter-impeller-desktop-default-renderer/) | vi | news | BLOCKED | — |
-| 733 | [Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK](https://fluttercook.github.io/vi/news/flutter-material-ui-cupertino-ui-migration-guide/) | vi | news | BLOCKED | — |
-| 734 | [Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì](https://fluttercook.github.io/vi/news/flutter-multi-window-desktop-guide/) | vi | news | BLOCKED | — |
-| 735 | [Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót](https://fluttercook.github.io/vi/news/flutter-swift-package-manager-migration/) | vi | news | BLOCKED | — |
-| 736 | [Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash](https://fluttercook.github.io/vi/news/flutter-uiscene-migration-ios-15-minimum/) | vi | news | BLOCKED | — |
-| 737 | [Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header](https://fluttercook.github.io/vi/news/flutter-webassembly-wasm-deferred-loading/) | vi | news | BLOCKED | — |
-| 738 | [Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview](https://fluttercook.github.io/vi/news/flutter-widget-previews-stable-guide/) | vi | news | BLOCKED | — |
+| 709 | [Dart 3.13 primary constructors: less boilerplate, one real breaking change](https://fluttercook.github.io/news/dart-3-13-primary-constructors-guide/) | en | news | PENDING | — |
+| 710 | [Flutter 3.47: Material and Cupertino leave the SDK, Impeller takes over desktop](https://fluttercook.github.io/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/) | en | news | PENDING | — |
+| 711 | [Agent Skills for Dart and Flutter: teaching your AI the framework it keeps getting wrong](https://fluttercook.github.io/news/flutter-ai-agent-skills-guide/) | en | news | PENDING | — |
+| 712 | [Flutter GPU and 3D: what Impeller unlocked, and how far it actually goes](https://fluttercook.github.io/news/flutter-gpu-3d-rendering-flutter-scene/) | en | news | PENDING | — |
+| 713 | [Impeller is now the default on macOS, Windows and Linux](https://fluttercook.github.io/news/flutter-impeller-desktop-default-renderer/) | en | news | PENDING | — |
+| 714 | [Migrating to material_ui and cupertino_ui: the design system leaves the SDK](https://fluttercook.github.io/news/flutter-material-ui-cupertino-ui-migration-guide/) | en | news | PENDING | — |
+| 715 | [Multi-window on Flutter desktop: what shipped in 3.47, and what to use today](https://fluttercook.github.io/news/flutter-multi-window-desktop-guide/) | en | news | PENDING | — |
+| 716 | [Swift Package Manager is the default now — and CocoaPods has a deadline](https://fluttercook.github.io/news/flutter-swift-package-manager-migration/) | en | news | PENDING | — |
+| 717 | [The UIScene migration: the iOS change that will crash unmigrated Flutter apps](https://fluttercook.github.io/news/flutter-uiscene-migration-ios-15-minimum/) | en | news | PENDING | — |
+| 718 | [Shipping Flutter Web on WebAssembly: the migration, the browsers, the headers](https://fluttercook.github.io/news/flutter-webassembly-wasm-deferred-loading/) | en | news | PENDING | — |
+| 719 | [Flutter Widget Previews are stable: a practical guide to @Preview](https://fluttercook.github.io/news/flutter-widget-previews-stable-guide/) | en | news | PENDING | — |
+| 720 | [Apple Intelligence và Gemini Intelligence: cuộc đua AI trên thiết bị định hình lại app di động](https://fluttercook.github.io/vi/news/apple-intelligence-vs-gemini-intelligence-on-device-ai/) | vi | news | PENDING | — |
+| 721 | [Lộ trình Flutter 2026: WebAssembly mặc định, TV LG, và cú đẩy cho ngang tầm bản địa](https://fluttercook.github.io/vi/news/flutter-2026-roadmap-webassembly-platform-parity/) | vi | news | PENDING | — |
+| 722 | [macOS 26 Tahoe: Liquid Glass đến với Mac — và là điểm dừng cuối cho Intel](https://fluttercook.github.io/vi/news/macos-26-tahoe-liquid-glass-last-intel-mac/) | vi | news | PENDING | — |
+| 723 | [iPhone mùa thu 2026: một chiếc gập gia nhập iPhone 18 Pro, Apple tách lịch ra mắt](https://fluttercook.github.io/vi/news/iphone-18-pro-foldable-iphone-fall-2026-preview/) | vi | news | PENDING | — |
+| 724 | [Đánh giá iPhone 17 Pro: chip A19 Pro, nhôm trở lại, và tele zoom 8x](https://fluttercook.github.io/vi/news/iphone-17-pro-review-a19-pro-cameras-aluminum/) | vi | news | PENDING | — |
+| 725 | [Đánh giá Flutter 3.44: hỗ trợ iOS 26, hot reload có trạng thái trên web, và Cupertino Squircles](https://fluttercook.github.io/vi/news/flutter-3-44-ios-26-macos-support-web-hot-reload/) | vi | news | PENDING | — |
+| 726 | [Android 17 ra mắt: Bubbles, Gemini Intelligence và cú đẩy nghiêm túc cho máy gập](https://fluttercook.github.io/vi/news/android-17-bubbles-gemini-intelligence-foldables/) | vi | news | PENDING | — |
+| 727 | [iOS 26 và Liquid Glass: cuộc thiết kế lại lớn nhất một thập kỷ của Apple có ý nghĩa gì với dev di động](https://fluttercook.github.io/vi/news/ios-26-liquid-glass-what-it-means-for-mobile-developers/) | vi | news | PENDING | — |
+| 728 | [Primary constructor trong Dart 3.13: bớt boilerplate, một thay đổi phá vỡ thật sự](https://fluttercook.github.io/vi/news/dart-3-13-primary-constructors-guide/) | vi | news | PENDING | — |
+| 729 | [Flutter 3.47: Material và Cupertino rời khỏi SDK, Impeller tiếp quản desktop](https://fluttercook.github.io/vi/news/flutter-3-47-standalone-material-cupertino-impeller-desktop/) | vi | news | PENDING | — |
+| 730 | [Agent Skills cho Dart và Flutter: dạy AI cái framework nó cứ làm sai](https://fluttercook.github.io/vi/news/flutter-ai-agent-skills-guide/) | vi | news | PENDING | — |
+| 731 | [Flutter GPU và 3D: Impeller đã mở khoá gì, và đi được tới đâu](https://fluttercook.github.io/vi/news/flutter-gpu-3d-rendering-flutter-scene/) | vi | news | PENDING | — |
+| 732 | [Impeller giờ là mặc định trên macOS, Windows và Linux](https://fluttercook.github.io/vi/news/flutter-impeller-desktop-default-renderer/) | vi | news | PENDING | — |
+| 733 | [Migrate sang material_ui và cupertino_ui: design system rời khỏi SDK](https://fluttercook.github.io/vi/news/flutter-material-ui-cupertino-ui-migration-guide/) | vi | news | PENDING | — |
+| 734 | [Đa cửa sổ trên Flutter desktop: 3.47 có gì, và hôm nay nên dùng gì](https://fluttercook.github.io/vi/news/flutter-multi-window-desktop-guide/) | vi | news | PENDING | — |
+| 735 | [Swift Package Manager giờ là mặc định — và CocoaPods đã có hạn chót](https://fluttercook.github.io/vi/news/flutter-swift-package-manager-migration/) | vi | news | PENDING | — |
+| 736 | [Migrate UIScene: thay đổi iOS sẽ làm app Flutter chưa chuyển bị crash](https://fluttercook.github.io/vi/news/flutter-uiscene-migration-ios-15-minimum/) | vi | news | PENDING | — |
+| 737 | [Ship Flutter Web trên WebAssembly: cuộc migrate, trình duyệt, và hai cái header](https://fluttercook.github.io/vi/news/flutter-webassembly-wasm-deferred-loading/) | vi | news | PENDING | — |
+| 738 | [Flutter Widget Previews đã stable: hướng dẫn thực chiến với @Preview](https://fluttercook.github.io/vi/news/flutter-widget-previews-stable-guide/) | vi | news | PENDING | — |
 
 ## flutter9.blogspot.com
 
-Blog id `954315885651943515` · access **ok** (role ADMIN, 408 post(s) live) · 298/738 published.
+Blog id `954315885651943515` · access **not-probed** (--offline) · 141/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -1577,18 +1577,18 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 408 post(s) live) · 
 | 67 | [go_router and deep links: the parts the quickstart leaves out](https://fluttercook.github.io/blog/flutter-navigation-go-router-deep-links/) | en | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/gorouter-and-deep-links-parts.html) |
 | 68 | [Keys in Flutter: the one rule that explains every case](https://fluttercook.github.io/blog/flutter-keys-when-they-matter/) | en | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/keys-in-flutter-one-rule-that-explains.html) |
 | 69 | [Slivers, properly: the protocol behind every Flutter scroll effect](https://fluttercook.github.io/blog/flutter-slivers-custom-scroll/) | en | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/slivers-properly-protocol-behind-every.html) |
-| 70 | [Dart and Flutter Agent Skills: cheaper, better agent workflows](https://fluttercook.github.io/blog/flutter-agent-skills-mcp/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/dart-and-flutter-agent-skills-cheaper.html) |
-| 71 | [Agentic Hot Reload: when your coding agent reloads the running app](https://fluttercook.github.io/blog/flutter-agentic-hot-reload/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/agentic-hot-reload-when-your-coding.html) |
-| 72 | [Content-sized Flutter views in native parents](https://fluttercook.github.io/blog/flutter-content-sized-views/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/content-sized-flutter-views-in-native.html) |
-| 73 | [CupertinoMenuAnchor and modern Flutter menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/cupertinomenuanchor-and-modern-flutter.html) |
-| 74 | [Product flavors on Windows and Linux in Flutter 3.47](https://fluttercook.github.io/blog/flutter-desktop-flavors/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/product-flavors-on-windows-and-linux-in.html) |
-| 75 | [Firebase AI Logic in Flutter: Gemini without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/firebase-ai-logic-in-flutter-gemini.html) |
-| 76 | [Fragment shaders in Flutter: uniforms by name and sync textures](https://fluttercook.github.io/blog/flutter-fragment-shader-api/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/fragment-shaders-in-flutter-uniforms-by.html) |
-| 77 | [On-device Gemma in Flutter: flutter_gemma and LiteRT-LM](https://fluttercook.github.io/blog/flutter-gemma-litert-ondevice/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/on-device-gemma-in-flutter-fluttergemma.html) |
-| 78 | [Genkit Dart: full-stack AI apps without leaving Dart](https://fluttercook.github.io/blog/flutter-genkit-dart/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/genkit-dart-full-stack-ai-apps-without.html) |
-| 79 | [GenUI and A2UI: agents that compose widgets, not markdown](https://fluttercook.github.io/blog/flutter-genui-a2ui/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/genui-and-a2ui-agents-that-compose.html) |
-| 80 | [Hybrid Composition++: fixing Android platform views without the jank](https://fluttercook.github.io/blog/flutter-hybrid-composition-plus-plus/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/hybrid-composition-fixing-android.html) |
-| 81 | [Impeller is now the default desktop renderer — what actually changes](https://fluttercook.github.io/blog/flutter-impeller-default-desktop/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/impeller-is-now-default-desktop.html) |
+| 70 | [Dart and Flutter Agent Skills: cheaper, better agent workflows](https://fluttercook.github.io/blog/flutter-agent-skills-mcp/) | en | blog | PENDING | — |
+| 71 | [Agentic Hot Reload: when your coding agent reloads the running app](https://fluttercook.github.io/blog/flutter-agentic-hot-reload/) | en | blog | PENDING | — |
+| 72 | [Content-sized Flutter views in native parents](https://fluttercook.github.io/blog/flutter-content-sized-views/) | en | blog | PENDING | — |
+| 73 | [CupertinoMenuAnchor and modern Flutter menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor/) | en | blog | PENDING | — |
+| 74 | [Product flavors on Windows and Linux in Flutter 3.47](https://fluttercook.github.io/blog/flutter-desktop-flavors/) | en | blog | PENDING | — |
+| 75 | [Firebase AI Logic in Flutter: Gemini without a custom backend](https://fluttercook.github.io/blog/flutter-firebase-ai-logic/) | en | blog | PENDING | — |
+| 76 | [Fragment shaders in Flutter: uniforms by name and sync textures](https://fluttercook.github.io/blog/flutter-fragment-shader-api/) | en | blog | PENDING | — |
+| 77 | [On-device Gemma in Flutter: flutter_gemma and LiteRT-LM](https://fluttercook.github.io/blog/flutter-gemma-litert-ondevice/) | en | blog | PENDING | — |
+| 78 | [Genkit Dart: full-stack AI apps without leaving Dart](https://fluttercook.github.io/blog/flutter-genkit-dart/) | en | blog | PENDING | — |
+| 79 | [GenUI and A2UI: agents that compose widgets, not markdown](https://fluttercook.github.io/blog/flutter-genui-a2ui/) | en | blog | PENDING | — |
+| 80 | [Hybrid Composition++: fixing Android platform views without the jank](https://fluttercook.github.io/blog/flutter-hybrid-composition-plus-plus/) | en | blog | PENDING | — |
+| 81 | [Impeller is now the default desktop renderer — what actually changes](https://fluttercook.github.io/blog/flutter-impeller-default-desktop/) | en | blog | PENDING | — |
 | 82 | [Desktop multi-window APIs: popups, dialogs, and windowHandle](https://fluttercook.github.io/blog/flutter-multi-window-desktop/) | en | blog | PENDING | — |
 | 83 | [Ship only the assets each platform needs](https://fluttercook.github.io/blog/flutter-platform-specific-assets/) | en | blog | PENDING | — |
 | 84 | [Public release windows: when your Flutter PR ships to stable](https://fluttercook.github.io/blog/flutter-public-release-windows/) | en | blog | PENDING | — |
@@ -1617,57 +1617,57 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 408 post(s) live) · 
 | 107 | [shadcn-flutter: porting a design system, not a theme](https://fluttercook.github.io/blog/oss-shadcn-flutter/) | en | blog | PENDING | — |
 | 108 | [Spotube: a privacy-minded Flutter music client](https://fluttercook.github.io/blog/oss-spotube-architecture/) | en | blog | PENDING | — |
 | 109 | [Venera: custom reader layouts in Flutter](https://fluttercook.github.io/blog/oss-venera-reader/) | en | blog | PENDING | — |
-| 110 | [A/B testing mobile UI without wrecking performance](https://fluttercook.github.io/blog/flutter-ab-testing-mobile/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ab-testing-mobile-ui-without-wrecking.html) |
-| 111 | [A practical mobile accessibility audit in one day](https://fluttercook.github.io/blog/flutter-accessibility-audit-steps/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-practical-mobile-accessibility-audit.html) |
-| 112 | [Accessibility semantics checklist for Flutter forms](https://fluttercook.github.io/blog/flutter-accessibility-semantics-checklist/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/accessibility-semantics-checklist-for.html) |
-| 113 | [Account recovery UX that reduces support tickets](https://fluttercook.github.io/blog/flutter-account-recovery-ux/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/account-recovery-ux-that-reduces.html) |
-| 114 | [Age assurance requirements affecting mobile apps in 2026](https://fluttercook.github.io/blog/flutter-age-assurance-2026/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/age-assurance-requirements-affecting.html) |
-| 115 | [Package skills and Agent Skills for Flutter teams](https://fluttercook.github.io/blog/flutter-agent-skills-package-skills/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/package-skills-and-agent-skills-for.html) |
-| 116 | [Agentic Hot Reload: closing the prompt-to-pixels loop](https://fluttercook.github.io/blog/flutter-agentic-hot-reload-workflow/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/agentic-hot-reload-closing-prompt-to.html) |
-| 117 | [Unit economics of AI features in mobile apps](https://fluttercook.github.io/blog/flutter-ai-feature-unit-economics/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/unit-economics-of-ai-features-in-mobile.html) |
-| 118 | [Tracing LLM calls inside mobile apps](https://fluttercook.github.io/blog/flutter-ai-observability-tracing/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/tracing-llm-calls-inside-mobile-apps.html) |
-| 119 | [Flutter AI Toolkit: production chat UX patterns](https://fluttercook.github.io/blog/flutter-ai-toolkit-chat-ux/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flutter-ai-toolkit-production-chat-ux.html) |
-| 120 | [A mobile analytics event schema that survives redesigns](https://fluttercook.github.io/blog/flutter-analytics-events-schema/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-mobile-analytics-event-schema-that.html) |
-| 121 | [Preparing Flutter apps for Android 17](https://fluttercook.github.io/blog/flutter-android-17-prep/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/preparing-flutter-apps-for-android-17.html) |
-| 122 | [Android App Bundles, ABI splits, and download size](https://fluttercook.github.io/blog/flutter-android-splits-aab/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/android-app-bundles-abi-splits-and.html) |
-| 123 | [API versioning strategies for mobile clients](https://fluttercook.github.io/blog/flutter-api-versioning-mobile/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/api-versioning-strategies-for-mobile.html) |
-| 124 | [Device integrity checks without ruining UX](https://fluttercook.github.io/blog/flutter-app-attest-play-integrity/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/device-integrity-checks-without-ruining.html) |
-| 125 | [App Clips and Instant Apps with Flutter modules](https://fluttercook.github.io/blog/flutter-app-clips-instant/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/app-clips-and-instant-apps-with-flutter.html) |
-| 126 | [Flutter and iOS app extensions without a second UI stack](https://fluttercook.github.io/blog/flutter-app-extensions-ios/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flutter-and-ios-app-extensions-without.html) |
-| 127 | [App icon design that survives 2026 store grids](https://fluttercook.github.io/blog/flutter-app-icon-2026-guidelines/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/app-icon-design-that-survives-2026.html) |
-| 128 | [The April 2027 SDK deadline for App Store uploads](https://fluttercook.github.io/blog/flutter-app-store-2027-sdk-deadline/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app.html) |
-| 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile.html) |
-| 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions.html) |
-| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/certificate-pinning-and-network.html) |
-| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/carplay-and-android-auto-with-mobile.html) |
-| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear.html) |
-| 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/field-service-apps-offline-first-b2b.html) |
-| 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/sso-for-enterprise-mobile-oidc-and-saml.html) |
-| 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/background-work-limits-on-ios-and.html) |
-| 137 | [Step-up authentication with biometrics for sensitive actions](https://fluttercook.github.io/blog/flutter-biometric-step-up/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/step-up-authentication-with-biometrics.html) |
-| 138 | [User safety features: block, mute, and restrict](https://fluttercook.github.io/blog/flutter-block-report-safety/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/user-safety-features-block-mute-and.html) |
-| 139 | [Brand refreshes without breaking mobile users](https://fluttercook.github.io/blog/flutter-brand-refresh-risk/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/brand-refreshes-without-breaking-mobile.html) |
-| 140 | [Alternative marketplaces: EU DMA and Brazil CADE rules](https://fluttercook.github.io/blog/flutter-brazil-eu-marketplace-rules/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/alternative-marketplaces-eu-dma-and.html) |
-| 141 | [A bug report template that gets mobile issues fixed](https://fluttercook.github.io/blog/flutter-bug-report-template-mobile/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-bug-report-template-that-gets-mobile.html) |
-| 142 | [Debug, profile, and release: stop optimizing the wrong mode](https://fluttercook.github.io/blog/flutter-build-modes-debug-profile/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/debug-profile-and-release-stop.html) |
-| 143 | [On-device vision with Camera and ML Kit in Flutter](https://fluttercook.github.io/blog/flutter-camera-mlkit-vision/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/on-device-vision-with-camera-and-ml-kit.html) |
-| 144 | [Capacity planning for mobile platform teams](https://fluttercook.github.io/blog/flutter-capacity-planning-mobile/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/capacity-planning-for-mobile-platform.html) |
-| 145 | [Certificate Transparency and mobile network trust](https://fluttercook.github.io/blog/flutter-certificate-transparency/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/certificate-transparency-and-mobile.html) |
-| 146 | [Release notes users actually read](https://fluttercook.github.io/blog/flutter-changelog-release-notes/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/release-notes-users-actually-read.html) |
-| 147 | [Kids apps: COPPA, age gates, and store questionnaires](https://fluttercook.github.io/blog/flutter-childrens-privacy-coppa/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/kids-apps-coppa-age-gates-and-store.html) |
-| 148 | [GitHub Actions for Flutter with sane caches](https://fluttercook.github.io/blog/flutter-ci-github-actions-cache/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/github-actions-for-flutter-with-sane.html) |
-| 149 | [Clean architecture in Flutter without ceremony](https://fluttercook.github.io/blog/flutter-clean-architecture-not-religion/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/clean-architecture-in-flutter-without.html) |
-| 150 | [Code push, hotfix, and what Apple/Google actually allow](https://fluttercook.github.io/blog/flutter-code-push-alternatives/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/code-push-hotfix-and-what-applegoogle.html) |
-| 151 | [Codegen that pays for itself: freezed and json_serializable](https://fluttercook.github.io/blog/flutter-codegen-freezed-json/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/codegen-that-pays-for-itself-freezed.html) |
-| 152 | [Running a healthy app community on Discord/GitHub](https://fluttercook.github.io/blog/flutter-community-discord-github/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/running-healthy-app-community-on.html) |
-| 153 | [What a mature Flutter component library includes](https://fluttercook.github.io/blog/flutter-component-library-maturity/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/what-mature-flutter-component-library.html) |
-| 154 | [Hosting Jetpack Compose inside Flutter (and the reverse)](https://fluttercook.github.io/blog/flutter-compose-interop-android/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/hosting-jetpack-compose-inside-flutter.html) |
-| 155 | [const constructors: the cheapest Flutter performance win](https://fluttercook.github.io/blog/flutter-const-constructor-perf/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/const-constructors-cheapest-flutter.html) |
-| 156 | [UGC moderation stacks for mobile apps](https://fluttercook.github.io/blog/flutter-content-moderation-ugc/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ugc-moderation-stacks-for-mobile-apps.html) |
-| 157 | [Content-sized Flutter views inside native scrollables](https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/content-sized-flutter-views-inside.html) |
-| 158 | [True cost of cross-platform in 2026](https://fluttercook.github.io/blog/flutter-cost-of-crossplatform/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/true-cost-of-cross-platform-in-2026.html) |
-| 159 | [Crash-free session SLOs for mobile teams](https://fluttercook.github.io/blog/flutter-crash-free-rate-slo/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/crash-free-session-slos-for-mobile-teams.html) |
-| 160 | [Symbolication done right for iOS and Android crashes](https://fluttercook.github.io/blog/flutter-crash-symbolication-symbols/) | en | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/symbolication-done-right-for-ios-and.html) |
+| 110 | [A/B testing mobile UI without wrecking performance](https://fluttercook.github.io/blog/flutter-ab-testing-mobile/) | en | blog | PENDING | — |
+| 111 | [A practical mobile accessibility audit in one day](https://fluttercook.github.io/blog/flutter-accessibility-audit-steps/) | en | blog | PENDING | — |
+| 112 | [Accessibility semantics checklist for Flutter forms](https://fluttercook.github.io/blog/flutter-accessibility-semantics-checklist/) | en | blog | PENDING | — |
+| 113 | [Account recovery UX that reduces support tickets](https://fluttercook.github.io/blog/flutter-account-recovery-ux/) | en | blog | PENDING | — |
+| 114 | [Age assurance requirements affecting mobile apps in 2026](https://fluttercook.github.io/blog/flutter-age-assurance-2026/) | en | blog | PENDING | — |
+| 115 | [Package skills and Agent Skills for Flutter teams](https://fluttercook.github.io/blog/flutter-agent-skills-package-skills/) | en | blog | PENDING | — |
+| 116 | [Agentic Hot Reload: closing the prompt-to-pixels loop](https://fluttercook.github.io/blog/flutter-agentic-hot-reload-workflow/) | en | blog | PENDING | — |
+| 117 | [Unit economics of AI features in mobile apps](https://fluttercook.github.io/blog/flutter-ai-feature-unit-economics/) | en | blog | PENDING | — |
+| 118 | [Tracing LLM calls inside mobile apps](https://fluttercook.github.io/blog/flutter-ai-observability-tracing/) | en | blog | PENDING | — |
+| 119 | [Flutter AI Toolkit: production chat UX patterns](https://fluttercook.github.io/blog/flutter-ai-toolkit-chat-ux/) | en | blog | PENDING | — |
+| 120 | [A mobile analytics event schema that survives redesigns](https://fluttercook.github.io/blog/flutter-analytics-events-schema/) | en | blog | PENDING | — |
+| 121 | [Preparing Flutter apps for Android 17](https://fluttercook.github.io/blog/flutter-android-17-prep/) | en | blog | PENDING | — |
+| 122 | [Android App Bundles, ABI splits, and download size](https://fluttercook.github.io/blog/flutter-android-splits-aab/) | en | blog | PENDING | — |
+| 123 | [API versioning strategies for mobile clients](https://fluttercook.github.io/blog/flutter-api-versioning-mobile/) | en | blog | PENDING | — |
+| 124 | [Device integrity checks without ruining UX](https://fluttercook.github.io/blog/flutter-app-attest-play-integrity/) | en | blog | PENDING | — |
+| 125 | [App Clips and Instant Apps with Flutter modules](https://fluttercook.github.io/blog/flutter-app-clips-instant/) | en | blog | PENDING | — |
+| 126 | [Flutter and iOS app extensions without a second UI stack](https://fluttercook.github.io/blog/flutter-app-extensions-ios/) | en | blog | PENDING | — |
+| 127 | [App icon design that survives 2026 store grids](https://fluttercook.github.io/blog/flutter-app-icon-2026-guidelines/) | en | blog | PENDING | — |
+| 128 | [The April 2027 SDK deadline for App Store uploads](https://fluttercook.github.io/blog/flutter-app-store-2027-sdk-deadline/) | en | blog | PENDING | — |
+| 129 | [AR and visionOS companions for mobile products](https://fluttercook.github.io/blog/flutter-ar-visionos-companion/) | en | blog | PENDING | — |
+| 130 | [ADRs for mobile architecture decisions](https://fluttercook.github.io/blog/flutter-architecture-decision-records/) | en | blog | PENDING | — |
+| 131 | [Certificate pinning and network security on mobile](https://fluttercook.github.io/blog/flutter-attestation-network-security/) | en | blog | PENDING | — |
+| 132 | [CarPlay and Android Auto with mobile companion apps](https://fluttercook.github.io/blog/flutter-automotive-carplay-androidauto/) | en | blog | PENDING | — |
+| 133 | [Escaping setState spaghetti with clear ownership](https://fluttercook.github.io/blog/flutter-avoid-setstate-spaghetti/) | en | blog | PENDING | — |
+| 134 | [Field-service apps: offline-first B2B patterns](https://fluttercook.github.io/blog/flutter-b2b-offline-field-apps/) | en | blog | PENDING | — |
+| 135 | [SSO for enterprise mobile: OIDC and SAML realities](https://fluttercook.github.io/blog/flutter-b2b-sso-saml-oidc/) | en | blog | PENDING | — |
+| 136 | [Background work limits on iOS and Android in 2026](https://fluttercook.github.io/blog/flutter-background-fetch-limits/) | en | blog | PENDING | — |
+| 137 | [Step-up authentication with biometrics for sensitive actions](https://fluttercook.github.io/blog/flutter-biometric-step-up/) | en | blog | PENDING | — |
+| 138 | [User safety features: block, mute, and restrict](https://fluttercook.github.io/blog/flutter-block-report-safety/) | en | blog | PENDING | — |
+| 139 | [Brand refreshes without breaking mobile users](https://fluttercook.github.io/blog/flutter-brand-refresh-risk/) | en | blog | PENDING | — |
+| 140 | [Alternative marketplaces: EU DMA and Brazil CADE rules](https://fluttercook.github.io/blog/flutter-brazil-eu-marketplace-rules/) | en | blog | PENDING | — |
+| 141 | [A bug report template that gets mobile issues fixed](https://fluttercook.github.io/blog/flutter-bug-report-template-mobile/) | en | blog | PENDING | — |
+| 142 | [Debug, profile, and release: stop optimizing the wrong mode](https://fluttercook.github.io/blog/flutter-build-modes-debug-profile/) | en | blog | PENDING | — |
+| 143 | [On-device vision with Camera and ML Kit in Flutter](https://fluttercook.github.io/blog/flutter-camera-mlkit-vision/) | en | blog | PENDING | — |
+| 144 | [Capacity planning for mobile platform teams](https://fluttercook.github.io/blog/flutter-capacity-planning-mobile/) | en | blog | PENDING | — |
+| 145 | [Certificate Transparency and mobile network trust](https://fluttercook.github.io/blog/flutter-certificate-transparency/) | en | blog | PENDING | — |
+| 146 | [Release notes users actually read](https://fluttercook.github.io/blog/flutter-changelog-release-notes/) | en | blog | PENDING | — |
+| 147 | [Kids apps: COPPA, age gates, and store questionnaires](https://fluttercook.github.io/blog/flutter-childrens-privacy-coppa/) | en | blog | PENDING | — |
+| 148 | [GitHub Actions for Flutter with sane caches](https://fluttercook.github.io/blog/flutter-ci-github-actions-cache/) | en | blog | PENDING | — |
+| 149 | [Clean architecture in Flutter without ceremony](https://fluttercook.github.io/blog/flutter-clean-architecture-not-religion/) | en | blog | PENDING | — |
+| 150 | [Code push, hotfix, and what Apple/Google actually allow](https://fluttercook.github.io/blog/flutter-code-push-alternatives/) | en | blog | PENDING | — |
+| 151 | [Codegen that pays for itself: freezed and json_serializable](https://fluttercook.github.io/blog/flutter-codegen-freezed-json/) | en | blog | PENDING | — |
+| 152 | [Running a healthy app community on Discord/GitHub](https://fluttercook.github.io/blog/flutter-community-discord-github/) | en | blog | PENDING | — |
+| 153 | [What a mature Flutter component library includes](https://fluttercook.github.io/blog/flutter-component-library-maturity/) | en | blog | PENDING | — |
+| 154 | [Hosting Jetpack Compose inside Flutter (and the reverse)](https://fluttercook.github.io/blog/flutter-compose-interop-android/) | en | blog | PENDING | — |
+| 155 | [const constructors: the cheapest Flutter performance win](https://fluttercook.github.io/blog/flutter-const-constructor-perf/) | en | blog | PENDING | — |
+| 156 | [UGC moderation stacks for mobile apps](https://fluttercook.github.io/blog/flutter-content-moderation-ugc/) | en | blog | PENDING | — |
+| 157 | [Content-sized Flutter views inside native scrollables](https://fluttercook.github.io/blog/flutter-content-sized-add-to-app/) | en | blog | PENDING | — |
+| 158 | [True cost of cross-platform in 2026](https://fluttercook.github.io/blog/flutter-cost-of-crossplatform/) | en | blog | PENDING | — |
+| 159 | [Crash-free session SLOs for mobile teams](https://fluttercook.github.io/blog/flutter-crash-free-rate-slo/) | en | blog | PENDING | — |
+| 160 | [Symbolication done right for iOS and Android crashes](https://fluttercook.github.io/blog/flutter-crash-symbolication-symbols/) | en | blog | PENDING | — |
 | 161 | [Error boundaries and Crashlytics for Flutter production apps](https://fluttercook.github.io/blog/flutter-crashlytics-error-boundaries/) | en | blog | PENDING | — |
 | 162 | [CupertinoMenuAnchor and RawMenuAnchor menus](https://fluttercook.github.io/blog/flutter-cupertino-menu-anchor-ios/) | en | blog | PENDING | — |
 | 163 | [Dark mode that does not look inverted](https://fluttercook.github.io/blog/flutter-dark-mode-contrast/) | en | blog | PENDING | — |
@@ -1859,29 +1859,29 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 408 post(s) live) · 
 | 349 | [Very Good CLI: opinionated Flutter scaffolding](https://fluttercook.github.io/blog/oss-very-good-cli/) | en | blog | PENDING | — |
 | 350 | [video_player: the platform-backed Flutter video primitive](https://fluttercook.github.io/blog/oss-video-player/) | en | blog | PENDING | — |
 | 351 | [Tạo progress indicator tùy chỉnh trong Flutter với CustomPaint](https://fluttercook.github.io/vi/blog/creating-a-custom-progress-indicator/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/tao-progress-indicator-tuy-chinh-trong.html) |
-| 352 | [AI chạy trên thiết bị trong Flutter: cái gì vừa với một chiếc điện thoại](https://fluttercook.github.io/vi/blog/ai-on-device-flutter-gemma/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ai-chay-tren-thiet-bi-trong-flutter-cai.html) |
+| 352 | [AI chạy trên thiết bị trong Flutter: cái gì vừa với một chiếc điện thoại](https://fluttercook.github.io/vi/blog/ai-on-device-flutter-gemma/) | vi | blog | PENDING | — |
 | 353 | [Định tuyến mô hình và thác bậc: chỉ trả tiền cho mức thông minh bạn cần](https://fluttercook.github.io/vi/blog/ai-model-routing-cascades/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/inh-tuyen-mo-hinh-va-thac-bac-chi-tra.html) |
-| 354 | [Trải nghiệm streaming: thiết kế cho token đến từng cái một](https://fluttercook.github.io/vi/blog/ai-streaming-ux-token-by-token/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/trai-nghiem-streaming-thiet-ke-cho.html) |
-| 355 | [Dữ liệu tổng hợp cho eval: xây bộ kiểm thử mà bạn tin được](https://fluttercook.github.io/vi/blog/ai-synthetic-data-for-evals/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/du-lieu-tong-hop-cho-eval-xay-bo-kiem.html) |
-| 356 | [Mô hình thị giác trong sản phẩm thật: những phần bản demo bỏ qua](https://fluttercook.github.io/vi/blog/ai-multimodal-vision-in-production/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/mo-hinh-thi-giac-trong-san-pham-that.html) |
+| 354 | [Trải nghiệm streaming: thiết kế cho token đến từng cái một](https://fluttercook.github.io/vi/blog/ai-streaming-ux-token-by-token/) | vi | blog | PENDING | — |
+| 355 | [Dữ liệu tổng hợp cho eval: xây bộ kiểm thử mà bạn tin được](https://fluttercook.github.io/vi/blog/ai-synthetic-data-for-evals/) | vi | blog | PENDING | — |
+| 356 | [Mô hình thị giác trong sản phẩm thật: những phần bản demo bỏ qua](https://fluttercook.github.io/vi/blog/ai-multimodal-vision-in-production/) | vi | blog | PENDING | — |
 | 357 | [Prompt injection: cái gì thật sự phòng thủ được](https://fluttercook.github.io/vi/blog/ai-guardrails-prompt-injection-defense/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/prompt-injection-cai-gi-that-su-phong.html) |
-| 358 | [Quan sát ứng dụng LLM: truy vết một hệ thống không tất định](https://fluttercook.github.io/vi/blog/ai-observability-tracing-llm-apps/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/quan-sat-ung-dung-llm-truy-vet-mot-he.html) |
+| 358 | [Quan sát ứng dụng LLM: truy vết một hệ thống không tất định](https://fluttercook.github.io/vi/blog/ai-observability-tracing-llm-apps/) | vi | blog | PENDING | — |
 | 359 | [Chia nhỏ tài liệu cho truy hồi: quyết định âm thầm chặn trần chất lượng RAG](https://fluttercook.github.io/vi/blog/ai-chunking-strategies-that-matter/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/chia-nho-tai-lieu-cho-truy-hoi-quyet.html) |
 | 360 | [Chọn mô hình embedding: những câu hỏi thật sự quan trọng](https://fluttercook.github.io/vi/blog/ai-embeddings-choosing-a-model/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/chon-mo-hinh-embedding-nhung-cau-hoi.html) |
 | 361 | [Thiết kế công cụ mà AI agent thật sự dùng được](https://fluttercook.github.io/vi/blog/ai-agent-tool-design/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/09/thiet-ke-cong-cu-ma-ai-agent-that-su.html) |
-| 362 | [Viết một lint tuỳ chỉnh cho codebase Dart của bạn](https://fluttercook.github.io/vi/blog/dart-custom-lints-analyzer/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/viet-mot-lint-tuy-chinh-cho-codebase.html) |
-| 363 | [Sinh mã trong Dart: build_runner mà không bực mình](https://fluttercook.github.io/vi/blog/dart-build-runner-codegen/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/sinh-ma-trong-dart-buildrunner-ma-khong.html) |
-| 364 | [Stream trong Dart chuyên sâu: backpressure, broadcast và những rò rỉ ở giữa](https://fluttercook.github.io/vi/blog/dart-streams-in-depth/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/stream-trong-dart-chuyen-sau.html) |
-| 365 | [Extension type trong Dart: một cái tên mới cho giá trị cũ](https://fluttercook.github.io/vi/blog/dart-extension-types-zero-cost/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/extension-type-trong-dart-mot-cai-ten.html) |
-| 366 | [Record và pattern trong Dart: chúng thay thế những gì](https://fluttercook.github.io/vi/blog/dart-records-and-patterns/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/record-va-pattern-trong-dart-chung-thay.html) |
-| 367 | [Xử lý lỗi trong Flutter: bắt được thứ thật sự tới tay người dùng](https://fluttercook.github.io/vi/blog/flutter-error-handling-crash-reporting/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/xu-ly-loi-trong-flutter-bat-uoc-thu.html) |
-| 368 | [Tiêm phụ thuộc trong Flutter mà không cần nghi thức rườm rà](https://fluttercook.github.io/vi/blog/flutter-dependency-injection-get-it/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/tiem-phu-thuoc-trong-flutter-ma-khong.html) |
-| 369 | [Flutter trên desktop: cửa sổ giờ là một phần của ứng dụng bạn](https://fluttercook.github.io/vi/blog/flutter-desktop-window-management/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flutter-tren-desktop-cua-so-gio-la-mot.html) |
-| 370 | [Chạy nền trong Flutter: hệ điều hành thật sự cho phép bạn chạy gì](https://fluttercook.github.io/vi/blog/flutter-background-tasks-workmanager/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/chay-nen-trong-flutter-he-ieu-hanh-that.html) |
+| 362 | [Viết một lint tuỳ chỉnh cho codebase Dart của bạn](https://fluttercook.github.io/vi/blog/dart-custom-lints-analyzer/) | vi | blog | PENDING | — |
+| 363 | [Sinh mã trong Dart: build_runner mà không bực mình](https://fluttercook.github.io/vi/blog/dart-build-runner-codegen/) | vi | blog | PENDING | — |
+| 364 | [Stream trong Dart chuyên sâu: backpressure, broadcast và những rò rỉ ở giữa](https://fluttercook.github.io/vi/blog/dart-streams-in-depth/) | vi | blog | PENDING | — |
+| 365 | [Extension type trong Dart: một cái tên mới cho giá trị cũ](https://fluttercook.github.io/vi/blog/dart-extension-types-zero-cost/) | vi | blog | PENDING | — |
+| 366 | [Record và pattern trong Dart: chúng thay thế những gì](https://fluttercook.github.io/vi/blog/dart-records-and-patterns/) | vi | blog | PENDING | — |
+| 367 | [Xử lý lỗi trong Flutter: bắt được thứ thật sự tới tay người dùng](https://fluttercook.github.io/vi/blog/flutter-error-handling-crash-reporting/) | vi | blog | PENDING | — |
+| 368 | [Tiêm phụ thuộc trong Flutter mà không cần nghi thức rườm rà](https://fluttercook.github.io/vi/blog/flutter-dependency-injection-get-it/) | vi | blog | PENDING | — |
+| 369 | [Flutter trên desktop: cửa sổ giờ là một phần của ứng dụng bạn](https://fluttercook.github.io/vi/blog/flutter-desktop-window-management/) | vi | blog | PENDING | — |
+| 370 | [Chạy nền trong Flutter: hệ điều hành thật sự cho phép bạn chạy gì](https://fluttercook.github.io/vi/blog/flutter-background-tasks-workmanager/) | vi | blog | PENDING | — |
 | 371 | [Hai hệ bố cục khiến poster AI nhìn như được thiết kế, không phải được sinh ra](https://fluttercook.github.io/vi/blog/ai-poster-prompts-split-level-and-minimalist-editorial/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/hai-he-bo-cuc-khien-poster-ai-nhin-nhu.html) |
 | 372 | [Mô hình Chief of Staff: biến đống chat AI rời rạc thành một đội ngũ agent](https://fluttercook.github.io/vi/blog/building-an-ai-agent-team-chief-of-staff-pattern/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/mo-hinh-chief-of-staff-bien-ong-chat-ai.html) |
 | 373 | [Dùng AI mà không đốt tiền: free tier, caching và định tuyến model](https://fluttercook.github.io/vi/blog/cutting-ai-costs-free-tiers-caching-and-routing/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/dung-ai-ma-khong-ot-tien-free-tier.html) |
-| 374 | [Mua hàng trong ứng dụng Flutter: những phần không nằm ở cái nút](https://fluttercook.github.io/vi/blog/flutter-in-app-purchases/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/mua-hang-trong-ung-dung-flutter-nhung.html) |
+| 374 | [Mua hàng trong ứng dụng Flutter: những phần không nằm ở cái nút](https://fluttercook.github.io/vi/blog/flutter-in-app-purchases/) | vi | blog | PENDING | — |
 | 375 | [AI coding agent miễn phí: dùng model free của OpenCode sao cho khỏi hối hận](https://fluttercook.github.io/vi/blog/free-ai-coding-agents-opencode-safely/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/ai-coding-agent-mien-phi-dung-model.html) |
 | 376 | [Nghiên cứu thật sự nói gì về prompt engineering — kiểm chứng 5 tuyên bố đang lan truyền](https://fluttercook.github.io/vi/blog/what-the-research-says-about-prompt-engineering/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/nghien-cuu-that-su-noi-gi-ve-prompt.html) |
 | 377 | [Flutter là gì: đọc một game 3D dựng trong 15 phút để hiểu cả framework](https://fluttercook.github.io/vi/blog/flutter-introduction-2026/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/flutter-la-gi-oc-mot-game-3d-dung-trong.html) |
@@ -1909,36 +1909,36 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 408 post(s) live) · 
 | 399 | [Retrieval không nói dối: dựng eval trước khi dựng RAG](https://fluttercook.github.io/vi/blog/rag-evaluation-before-you-ship/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/retrieval-khong-noi-doi-dung-eval-truoc.html) |
 | 400 | [Đưa một tính năng LLM lên production: bản demo chỉ là 20% công việc](https://fluttercook.github.io/vi/blog/shipping-an-llm-feature-evals-guardrails/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/ua-mot-tinh-nang-llm-len-production-ban.html) |
 | 401 | [Đừng parse văn xuôi nữa: schema, tool calling và output type-check được](https://fluttercook.github.io/vi/blog/structured-output-json-schema-tool-calling/) | vi | blog | LIVE | [open](https://flutter9.blogspot.com/2026/08/ung-parse-van-xuoi-nua-schema-tool.html) |
-| 402 | [Flavor trong Flutter: một codebase, ba ứng dụng, không copy-paste cấu hình](https://fluttercook.github.io/vi/blog/flutter-flavors-build-config/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flavor-trong-flutter-mot-codebase-ba.html) |
-| 403 | [Một pipeline CI cho Flutter thật sự bắt được lỗi](https://fluttercook.github.io/vi/blog/flutter-ci-cd-github-actions/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/mot-pipeline-ci-cho-flutter-that-su-bat.html) |
+| 402 | [Flavor trong Flutter: một codebase, ba ứng dụng, không copy-paste cấu hình](https://fluttercook.github.io/vi/blog/flutter-flavors-build-config/) | vi | blog | PENDING | — |
+| 403 | [Một pipeline CI cho Flutter thật sự bắt được lỗi](https://fluttercook.github.io/vi/blog/flutter-ci-cd-github-actions/) | vi | blog | PENDING | — |
 | 404 | [Fragment shader trong Flutter: cửa thoát xuống GPU và cái giá của nó](https://fluttercook.github.io/vi/blog/flutter-shaders-fragment-glsl/) | vi | blog | PENDING | — |
-| 405 | [Scroll physics tự viết: khiến danh sách dừng đúng chỗ bạn muốn](https://fluttercook.github.io/vi/blog/flutter-custom-scroll-physics/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/scroll-physics-tu-viet-khien-danh-sach.html) |
-| 406 | [Vì sao cú chạm của bạn không ăn: hit testing và đấu trường cử chỉ](https://fluttercook.github.io/vi/blog/flutter-gestures-hit-testing/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/vi-sao-cu-cham-cua-ban-khong-hit.html) |
-| 407 | [Vì sao ListView của bạn chậm, và bốn cách sửa thật sự có tác dụng](https://fluttercook.github.io/vi/blog/flutter-lists-performance-builder/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/vi-sao-listview-cua-ban-cham-va-bon.html) |
-| 408 | [Đường ống ảnh trong Flutter: từ một URL tới pixel trên màn hình](https://fluttercook.github.io/vi/blog/flutter-image-caching-precache/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/uong-ong-anh-trong-flutter-tu-mot-url.html) |
-| 409 | [Tìm rò rỉ bộ nhớ trong Flutter: năm loại đối tượng không bao giờ được dispose](https://fluttercook.github.io/vi/blog/flutter-memory-leaks-devtools/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/tim-ro-ri-bo-nho-trong-flutter-nam-loai.html) |
+| 405 | [Scroll physics tự viết: khiến danh sách dừng đúng chỗ bạn muốn](https://fluttercook.github.io/vi/blog/flutter-custom-scroll-physics/) | vi | blog | PENDING | — |
+| 406 | [Vì sao cú chạm của bạn không ăn: hit testing và đấu trường cử chỉ](https://fluttercook.github.io/vi/blog/flutter-gestures-hit-testing/) | vi | blog | PENDING | — |
+| 407 | [Vì sao ListView của bạn chậm, và bốn cách sửa thật sự có tác dụng](https://fluttercook.github.io/vi/blog/flutter-lists-performance-builder/) | vi | blog | PENDING | — |
+| 408 | [Đường ống ảnh trong Flutter: từ một URL tới pixel trên màn hình](https://fluttercook.github.io/vi/blog/flutter-image-caching-precache/) | vi | blog | PENDING | — |
+| 409 | [Tìm rò rỉ bộ nhớ trong Flutter: năm loại đối tượng không bao giờ được dispose](https://fluttercook.github.io/vi/blog/flutter-memory-leaks-devtools/) | vi | blog | PENDING | — |
 | 410 | [Khởi động nguội trong Flutter: đo khoảng thời gian trước frame đầu tiên](https://fluttercook.github.io/vi/blog/flutter-startup-time-cold-start/) | vi | blog | PENDING | — |
-| 411 | [Thu nhỏ ứng dụng Flutter: megabyte thật sự nằm ở đâu](https://fluttercook.github.io/vi/blog/flutter-app-size-reduction/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/thu-nho-ung-dung-flutter-megabyte-that.html) |
-| 412 | [Đa ngôn ngữ trong Flutter với file ARB: số nhiều, giống, và những chỗ cắn người](https://fluttercook.github.io/vi/blog/flutter-localization-intl-arb/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-ngon-ngu-trong-flutter-voi-file-arb.html) |
-| 413 | [Trợ năng trong Flutter: cây semantics thật sự báo cáo những gì](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/tro-nang-trong-flutter-cay-semantics.html) |
-| 414 | [Form trong Flutter vượt khỏi ví dụ mẫu: validate bất đồng bộ, focus và autofill](https://fluttercook.github.io/vi/blog/flutter-forms-validation-at-scale/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/form-trong-flutter-vuot-khoi-vi-du-mau.html) |
+| 411 | [Thu nhỏ ứng dụng Flutter: megabyte thật sự nằm ở đâu](https://fluttercook.github.io/vi/blog/flutter-app-size-reduction/) | vi | blog | PENDING | — |
+| 412 | [Đa ngôn ngữ trong Flutter với file ARB: số nhiều, giống, và những chỗ cắn người](https://fluttercook.github.io/vi/blog/flutter-localization-intl-arb/) | vi | blog | PENDING | — |
+| 413 | [Trợ năng trong Flutter: cây semantics thật sự báo cáo những gì](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics/) | vi | blog | PENDING | — |
+| 414 | [Form trong Flutter vượt khỏi ví dụ mẫu: validate bất đồng bộ, focus và autofill](https://fluttercook.github.io/vi/blog/flutter-forms-validation-at-scale/) | vi | blog | PENDING | — |
 | 415 | [Theming Material 3 trong Flutter: vai trò màu, không phải giá trị màu](https://fluttercook.github.io/vi/blog/flutter-theming-material3-design-tokens/) | vi | blog | PENDING | — |
-| 416 | [BuildContext chính là element: đọc hiểu những thông báo lỗi có nhắc tới nó](https://fluttercook.github.io/vi/blog/flutter-build-context-explained/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/buildcontext-chinh-la-element-oc-hieu.html) |
+| 416 | [BuildContext chính là element: đọc hiểu những thông báo lỗi có nhắc tới nó](https://fluttercook.github.io/vi/blog/flutter-build-context-explained/) | vi | blog | PENDING | — |
 | 417 | [go_router và deep link: những phần mà bài quickstart bỏ qua](https://fluttercook.github.io/vi/blog/flutter-navigation-go-router-deep-links/) | vi | blog | PENDING | — |
-| 418 | [Key trong Flutter: một quy tắc duy nhất giải thích mọi trường hợp](https://fluttercook.github.io/vi/blog/flutter-keys-when-they-matter/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/key-trong-flutter-mot-quy-tac-duy-nhat.html) |
+| 418 | [Key trong Flutter: một quy tắc duy nhất giải thích mọi trường hợp](https://fluttercook.github.io/vi/blog/flutter-keys-when-they-matter/) | vi | blog | PENDING | — |
 | 419 | [Hiểu đúng về sliver: giao thức đứng sau mọi hiệu ứng cuộn trong Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-custom-scroll/) | vi | blog | PENDING | — |
-| 420 | [Agent Skills cho Dart và Flutter: workflow agent rẻ và chuẩn hơn](https://fluttercook.github.io/vi/blog/flutter-agent-skills-mcp/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/agent-skills-cho-dart-va-flutter.html) |
-| 421 | [Agentic Hot Reload: khi coding agent tự reload app đang chạy](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/agentic-hot-reload-khi-coding-agent-tu.html) |
-| 422 | [Flutter view co theo nội dung trong native parent](https://fluttercook.github.io/vi/blog/flutter-content-sized-views/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flutter-view-co-theo-noi-dung-trong.html) |
-| 423 | [CupertinoMenuAnchor và menu Flutter hiện đại](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/cupertinomenuanchor-va-menu-flutter.html) |
-| 424 | [Product flavor trên Windows và Linux trong Flutter 3.47](https://fluttercook.github.io/vi/blog/flutter-desktop-flavors/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/product-flavor-tren-windows-va-linux.html) |
-| 425 | [Firebase AI Logic trong Flutter: Gemini không cần backend riêng](https://fluttercook.github.io/vi/blog/flutter-firebase-ai-logic/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/firebase-ai-logic-trong-flutter-gemini.html) |
-| 426 | [Fragment shader trong Flutter: uniform theo tên và texture đồng bộ](https://fluttercook.github.io/vi/blog/flutter-fragment-shader-api/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/fragment-shader-trong-flutter-uniform.html) |
-| 427 | [Gemma on-device trong Flutter: flutter_gemma và LiteRT-LM](https://fluttercook.github.io/vi/blog/flutter-gemma-litert-ondevice/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/gemma-on-device-trong-flutter.html) |
-| 428 | [Genkit Dart: app AI full-stack không rời Dart](https://fluttercook.github.io/vi/blog/flutter-genkit-dart/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/genkit-dart-app-ai-full-stack-khong-roi.html) |
-| 429 | [GenUI và A2UI: agent ghép widget, không chỉ markdown](https://fluttercook.github.io/vi/blog/flutter-genui-a2ui/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/genui-va-a2ui-agent-ghep-widget-khong.html) |
-| 430 | [Hybrid Composition++: sửa platform view Android hết jank](https://fluttercook.github.io/vi/blog/flutter-hybrid-composition-plus-plus/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/hybrid-composition-sua-platform-view.html) |
-| 431 | [Impeller thành renderer desktop mặc định — thực sự đổi gì](https://fluttercook.github.io/vi/blog/flutter-impeller-default-desktop/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/impeller-thanh-renderer-desktop-mac-inh.html) |
+| 420 | [Agent Skills cho Dart và Flutter: workflow agent rẻ và chuẩn hơn](https://fluttercook.github.io/vi/blog/flutter-agent-skills-mcp/) | vi | blog | PENDING | — |
+| 421 | [Agentic Hot Reload: khi coding agent tự reload app đang chạy](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload/) | vi | blog | PENDING | — |
+| 422 | [Flutter view co theo nội dung trong native parent](https://fluttercook.github.io/vi/blog/flutter-content-sized-views/) | vi | blog | PENDING | — |
+| 423 | [CupertinoMenuAnchor và menu Flutter hiện đại](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor/) | vi | blog | PENDING | — |
+| 424 | [Product flavor trên Windows và Linux trong Flutter 3.47](https://fluttercook.github.io/vi/blog/flutter-desktop-flavors/) | vi | blog | PENDING | — |
+| 425 | [Firebase AI Logic trong Flutter: Gemini không cần backend riêng](https://fluttercook.github.io/vi/blog/flutter-firebase-ai-logic/) | vi | blog | PENDING | — |
+| 426 | [Fragment shader trong Flutter: uniform theo tên và texture đồng bộ](https://fluttercook.github.io/vi/blog/flutter-fragment-shader-api/) | vi | blog | PENDING | — |
+| 427 | [Gemma on-device trong Flutter: flutter_gemma và LiteRT-LM](https://fluttercook.github.io/vi/blog/flutter-gemma-litert-ondevice/) | vi | blog | PENDING | — |
+| 428 | [Genkit Dart: app AI full-stack không rời Dart](https://fluttercook.github.io/vi/blog/flutter-genkit-dart/) | vi | blog | PENDING | — |
+| 429 | [GenUI và A2UI: agent ghép widget, không chỉ markdown](https://fluttercook.github.io/vi/blog/flutter-genui-a2ui/) | vi | blog | PENDING | — |
+| 430 | [Hybrid Composition++: sửa platform view Android hết jank](https://fluttercook.github.io/vi/blog/flutter-hybrid-composition-plus-plus/) | vi | blog | PENDING | — |
+| 431 | [Impeller thành renderer desktop mặc định — thực sự đổi gì](https://fluttercook.github.io/vi/blog/flutter-impeller-default-desktop/) | vi | blog | PENDING | — |
 | 432 | [API multi-window desktop: popup, dialog và windowHandle](https://fluttercook.github.io/vi/blog/flutter-multi-window-desktop/) | vi | blog | PENDING | — |
 | 433 | [Chỉ ship asset mà từng nền tảng cần](https://fluttercook.github.io/vi/blog/flutter-platform-specific-assets/) | vi | blog | PENDING | — |
 | 434 | [Public release windows: PR Flutter của bạn lên stable khi nào](https://fluttercook.github.io/vi/blog/flutter-public-release-windows/) | vi | blog | PENDING | — |
@@ -1967,60 +1967,60 @@ Blog id `954315885651943515` · access **ok** (role ADMIN, 408 post(s) live) · 
 | 457 | [shadcn-flutter: port design system, không chỉ theme](https://fluttercook.github.io/vi/blog/oss-shadcn-flutter/) | vi | blog | PENDING | — |
 | 458 | [Spotube: client nhạc Flutter ưu tiên privacy](https://fluttercook.github.io/vi/blog/oss-spotube-architecture/) | vi | blog | PENDING | — |
 | 459 | [Venera: layout reader tùy chỉnh trong Flutter](https://fluttercook.github.io/vi/blog/oss-venera-reader/) | vi | blog | PENDING | — |
-| 460 | [A/B testing mobile UI without wrecking performance — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ab-testing-mobile/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ab-testing-mobile-ui-without-wrecking_01921497079.html) |
-| 461 | [A practical mobile accessibility audit in one day — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-audit-steps/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-practical-mobile-accessibility-audit_01718012820.html) |
-| 462 | [Accessibility semantics checklist for Flutter forms — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics-checklist/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/accessibility-semantics-checklist-for_0828840026.html) |
-| 463 | [Account recovery UX that reduces support tickets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-account-recovery-ux/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/account-recovery-ux-that-reduces_01459718424.html) |
-| 464 | [Age assurance requirements affecting mobile apps in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-age-assurance-2026/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/age-assurance-requirements-affecting_0713763249.html) |
-| 465 | [Package skills and Agent Skills for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agent-skills-package-skills/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/package-skills-and-agent-skills-for_0764786803.html) |
-| 466 | [Agentic Hot Reload: closing the prompt-to-pixels loop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload-workflow/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/agentic-hot-reload-closing-prompt-to_0473687828.html) |
-| 467 | [Unit economics of AI features in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-feature-unit-economics/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/unit-economics-of-ai-features-in-mobile_0599509183.html) |
-| 468 | [Tracing LLM calls inside mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-observability-tracing/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/tracing-llm-calls-inside-mobile-apps_01939793915.html) |
-| 469 | [Flutter AI Toolkit: production chat UX patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-toolkit-chat-ux/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flutter-ai-toolkit-production-chat-ux_01577610126.html) |
-| 470 | [A mobile analytics event schema that survives redesigns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-analytics-events-schema/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-mobile-analytics-event-schema-that_01903735531.html) |
-| 471 | [Preparing Flutter apps for Android 17 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-17-prep/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/preparing-flutter-apps-for-android-17_0695617032.html) |
-| 472 | [Android App Bundles, ABI splits, and download size — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-splits-aab/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/android-app-bundles-abi-splits-and_02105147339.html) |
-| 473 | [API versioning strategies for mobile clients — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-api-versioning-mobile/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/api-versioning-strategies-for-mobile_0279733061.html) |
-| 474 | [Device integrity checks without ruining UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-attest-play-integrity/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/device-integrity-checks-without-ruining_01135201515.html) |
-| 475 | [App Clips and Instant Apps with Flutter modules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-clips-instant/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/app-clips-and-instant-apps-with-flutter_0614198621.html) |
-| 476 | [Flutter and iOS app extensions without a second UI stack — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-extensions-ios/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/flutter-and-ios-app-extensions-without_01100602144.html) |
-| 477 | [App icon design that survives 2026 store grids — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-icon-2026-guidelines/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/app-icon-design-that-survives-2026_01738786478.html) |
-| 478 | [The April 2027 SDK deadline for App Store uploads — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-store-2027-sdk-deadline/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/the-april-2027-sdk-deadline-for-app_0549717227.html) |
-| 479 | [AR and visionOS companions for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ar-visionos-companion/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ar-and-visionos-companions-for-mobile_02103936149.html) |
-| 480 | [ADRs for mobile architecture decisions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-architecture-decision-records/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/adrs-for-mobile-architecture-decisions_01503755551.html) |
-| 481 | [Certificate pinning and network security on mobile — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/certificate-pinning-and-network_01989404614.html) |
-| 482 | [CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/carplay-and-android-auto-with-mobile_01523254165.html) |
-| 483 | [Escaping setState spaghetti with clear ownership — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/escaping-setstate-spaghetti-with-clear_01409186941.html) |
-| 484 | [Field-service apps: offline-first B2B patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-offline-field-apps/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/field-service-apps-offline-first-b2b_094274427.html) |
-| 485 | [SSO for enterprise mobile: OIDC and SAML realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-sso-saml-oidc/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/sso-for-enterprise-mobile-oidc-and-saml_01771093848.html) |
-| 486 | [Background work limits on iOS and Android in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-background-fetch-limits/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/background-work-limits-on-ios-and_01030593232.html) |
-| 487 | [Step-up authentication with biometrics for sensitive actions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-biometric-step-up/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/step-up-authentication-with-biometrics_01131435231.html) |
-| 488 | [User safety features: block, mute, and restrict — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-block-report-safety/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/user-safety-features-block-mute-and_0524149928.html) |
-| 489 | [Brand refreshes without breaking mobile users — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brand-refresh-risk/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/brand-refreshes-without-breaking-mobile_0105812436.html) |
-| 490 | [Alternative marketplaces: EU DMA and Brazil CADE rules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brazil-eu-marketplace-rules/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/alternative-marketplaces-eu-dma-and_0470041424.html) |
-| 491 | [A bug report template that gets mobile issues fixed — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-bug-report-template-mobile/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/a-bug-report-template-that-gets-mobile_01512211446.html) |
-| 492 | [Debug, profile, and release: stop optimizing the wrong mode — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-build-modes-debug-profile/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/debug-profile-and-release-stop_0233019078.html) |
-| 493 | [On-device vision with Camera and ML Kit in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-camera-mlkit-vision/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/on-device-vision-with-camera-and-ml-kit_0172555925.html) |
-| 494 | [Capacity planning for mobile platform teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-capacity-planning-mobile/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/capacity-planning-for-mobile-platform_01692591671.html) |
-| 495 | [Certificate Transparency and mobile network trust — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-certificate-transparency/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/certificate-transparency-and-mobile_0364747117.html) |
-| 496 | [Release notes users actually read — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-changelog-release-notes/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/release-notes-users-actually-read-huong.html) |
-| 497 | [Kids apps: COPPA, age gates, and store questionnaires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-childrens-privacy-coppa/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/kids-apps-coppa-age-gates-and-store_01928029707.html) |
-| 498 | [GitHub Actions for Flutter with sane caches — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ci-github-actions-cache/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/github-actions-for-flutter-with-sane_01803656371.html) |
-| 499 | [Clean architecture in Flutter without ceremony — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-clean-architecture-not-religion/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/clean-architecture-in-flutter-without_0653630372.html) |
-| 500 | [Code push, hotfix, and what Apple/Google actually allow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-code-push-alternatives/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/code-push-hotfix-and-what-applegoogle_0961092198.html) |
-| 501 | [Codegen that pays for itself: freezed and json_serializable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-codegen-freezed-json/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/codegen-that-pays-for-itself-freezed_01862363230.html) |
-| 502 | [Running a healthy app community on Discord/GitHub — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-community-discord-github/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/running-healthy-app-community-on_0383280688.html) |
-| 503 | [What a mature Flutter component library includes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-component-library-maturity/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/what-mature-flutter-component-library_0936608473.html) |
-| 504 | [Hosting Jetpack Compose inside Flutter (and the reverse) — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-compose-interop-android/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/hosting-jetpack-compose-inside-flutter_0184158635.html) |
-| 505 | [const constructors: the cheapest Flutter performance win — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-const-constructor-perf/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/const-constructors-cheapest-flutter_01011881697.html) |
-| 506 | [UGC moderation stacks for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-moderation-ugc/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/ugc-moderation-stacks-for-mobile-apps_0235572501.html) |
-| 507 | [Content-sized Flutter views inside native scrollables — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-sized-add-to-app/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/content-sized-flutter-views-inside_01901576243.html) |
-| 508 | [True cost of cross-platform in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cost-of-crossplatform/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/true-cost-of-cross-platform-in-2026_0891572117.html) |
-| 509 | [Crash-free session SLOs for mobile teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-free-rate-slo/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/crash-free-session-slos-for-mobile.html) |
-| 510 | [Symbolication done right for iOS and Android crashes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-symbolication-symbols/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/symbolication-done-right-for-ios-and_01730889658.html) |
-| 511 | [Error boundaries and Crashlytics for Flutter production apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crashlytics-error-boundaries/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/error-boundaries-and-crashlytics-for.html) |
-| 512 | [CupertinoMenuAnchor and RawMenuAnchor menus — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor-ios/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/cupertinomenuanchor-and-rawmenuanchor.html) |
-| 513 | [Dark mode that does not look inverted — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dark-mode-contrast/) | vi | blog | LIVE-UNTRACKED | [open](https://flutter9.blogspot.com/2026/09/dark-mode-that-does-not-look-inverted.html) |
+| 460 | [A/B testing mobile UI without wrecking performance — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ab-testing-mobile/) | vi | blog | PENDING | — |
+| 461 | [A practical mobile accessibility audit in one day — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-audit-steps/) | vi | blog | PENDING | — |
+| 462 | [Accessibility semantics checklist for Flutter forms — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-accessibility-semantics-checklist/) | vi | blog | PENDING | — |
+| 463 | [Account recovery UX that reduces support tickets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-account-recovery-ux/) | vi | blog | PENDING | — |
+| 464 | [Age assurance requirements affecting mobile apps in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-age-assurance-2026/) | vi | blog | PENDING | — |
+| 465 | [Package skills and Agent Skills for Flutter teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agent-skills-package-skills/) | vi | blog | PENDING | — |
+| 466 | [Agentic Hot Reload: closing the prompt-to-pixels loop — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-agentic-hot-reload-workflow/) | vi | blog | PENDING | — |
+| 467 | [Unit economics of AI features in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-feature-unit-economics/) | vi | blog | PENDING | — |
+| 468 | [Tracing LLM calls inside mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-observability-tracing/) | vi | blog | PENDING | — |
+| 469 | [Flutter AI Toolkit: production chat UX patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ai-toolkit-chat-ux/) | vi | blog | PENDING | — |
+| 470 | [A mobile analytics event schema that survives redesigns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-analytics-events-schema/) | vi | blog | PENDING | — |
+| 471 | [Preparing Flutter apps for Android 17 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-17-prep/) | vi | blog | PENDING | — |
+| 472 | [Android App Bundles, ABI splits, and download size — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-android-splits-aab/) | vi | blog | PENDING | — |
+| 473 | [API versioning strategies for mobile clients — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-api-versioning-mobile/) | vi | blog | PENDING | — |
+| 474 | [Device integrity checks without ruining UX — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-attest-play-integrity/) | vi | blog | PENDING | — |
+| 475 | [App Clips and Instant Apps with Flutter modules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-clips-instant/) | vi | blog | PENDING | — |
+| 476 | [Flutter and iOS app extensions without a second UI stack — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-extensions-ios/) | vi | blog | PENDING | — |
+| 477 | [App icon design that survives 2026 store grids — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-icon-2026-guidelines/) | vi | blog | PENDING | — |
+| 478 | [The April 2027 SDK deadline for App Store uploads — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-app-store-2027-sdk-deadline/) | vi | blog | PENDING | — |
+| 479 | [AR and visionOS companions for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ar-visionos-companion/) | vi | blog | PENDING | — |
+| 480 | [ADRs for mobile architecture decisions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-architecture-decision-records/) | vi | blog | PENDING | — |
+| 481 | [Certificate pinning and network security on mobile — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-attestation-network-security/) | vi | blog | PENDING | — |
+| 482 | [CarPlay and Android Auto with mobile companion apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-automotive-carplay-androidauto/) | vi | blog | PENDING | — |
+| 483 | [Escaping setState spaghetti with clear ownership — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-avoid-setstate-spaghetti/) | vi | blog | PENDING | — |
+| 484 | [Field-service apps: offline-first B2B patterns — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-offline-field-apps/) | vi | blog | PENDING | — |
+| 485 | [SSO for enterprise mobile: OIDC and SAML realities — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-b2b-sso-saml-oidc/) | vi | blog | PENDING | — |
+| 486 | [Background work limits on iOS and Android in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-background-fetch-limits/) | vi | blog | PENDING | — |
+| 487 | [Step-up authentication with biometrics for sensitive actions — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-biometric-step-up/) | vi | blog | PENDING | — |
+| 488 | [User safety features: block, mute, and restrict — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-block-report-safety/) | vi | blog | PENDING | — |
+| 489 | [Brand refreshes without breaking mobile users — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brand-refresh-risk/) | vi | blog | PENDING | — |
+| 490 | [Alternative marketplaces: EU DMA and Brazil CADE rules — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-brazil-eu-marketplace-rules/) | vi | blog | PENDING | — |
+| 491 | [A bug report template that gets mobile issues fixed — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-bug-report-template-mobile/) | vi | blog | PENDING | — |
+| 492 | [Debug, profile, and release: stop optimizing the wrong mode — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-build-modes-debug-profile/) | vi | blog | PENDING | — |
+| 493 | [On-device vision with Camera and ML Kit in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-camera-mlkit-vision/) | vi | blog | PENDING | — |
+| 494 | [Capacity planning for mobile platform teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-capacity-planning-mobile/) | vi | blog | PENDING | — |
+| 495 | [Certificate Transparency and mobile network trust — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-certificate-transparency/) | vi | blog | PENDING | — |
+| 496 | [Release notes users actually read — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-changelog-release-notes/) | vi | blog | PENDING | — |
+| 497 | [Kids apps: COPPA, age gates, and store questionnaires — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-childrens-privacy-coppa/) | vi | blog | PENDING | — |
+| 498 | [GitHub Actions for Flutter with sane caches — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-ci-github-actions-cache/) | vi | blog | PENDING | — |
+| 499 | [Clean architecture in Flutter without ceremony — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-clean-architecture-not-religion/) | vi | blog | PENDING | — |
+| 500 | [Code push, hotfix, and what Apple/Google actually allow — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-code-push-alternatives/) | vi | blog | PENDING | — |
+| 501 | [Codegen that pays for itself: freezed and json_serializable — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-codegen-freezed-json/) | vi | blog | PENDING | — |
+| 502 | [Running a healthy app community on Discord/GitHub — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-community-discord-github/) | vi | blog | PENDING | — |
+| 503 | [What a mature Flutter component library includes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-component-library-maturity/) | vi | blog | PENDING | — |
+| 504 | [Hosting Jetpack Compose inside Flutter (and the reverse) — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-compose-interop-android/) | vi | blog | PENDING | — |
+| 505 | [const constructors: the cheapest Flutter performance win — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-const-constructor-perf/) | vi | blog | PENDING | — |
+| 506 | [UGC moderation stacks for mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-moderation-ugc/) | vi | blog | PENDING | — |
+| 507 | [Content-sized Flutter views inside native scrollables — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-content-sized-add-to-app/) | vi | blog | PENDING | — |
+| 508 | [True cost of cross-platform in 2026 — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cost-of-crossplatform/) | vi | blog | PENDING | — |
+| 509 | [Crash-free session SLOs for mobile teams — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-free-rate-slo/) | vi | blog | PENDING | — |
+| 510 | [Symbolication done right for iOS and Android crashes — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crash-symbolication-symbols/) | vi | blog | PENDING | — |
+| 511 | [Error boundaries and Crashlytics for Flutter production apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-crashlytics-error-boundaries/) | vi | blog | PENDING | — |
+| 512 | [CupertinoMenuAnchor and RawMenuAnchor menus — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-cupertino-menu-anchor-ios/) | vi | blog | PENDING | — |
+| 513 | [Dark mode that does not look inverted — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dark-mode-contrast/) | vi | blog | PENDING | — |
 | 514 | [Dart primary constructors in Flutter model code — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-dart-3-13-primary-constructors/) | vi | blog | PENDING | — |
 | 515 | [GDPR/CCPA data deletion flows in mobile apps — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-data-cleanup-gdpr/) | vi | blog | PENDING | — |
 | 516 | [Universal Links and App Links that open the right screen — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-deep-link-universal-links/) | vi | blog | PENDING | — |
