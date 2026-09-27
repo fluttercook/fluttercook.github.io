@@ -1,12 +1,12 @@
 # Blogger publish status
 
-_Generated 2026-09-27 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
+_Generated 2026-09-28 by `scripts/blogger_status.py`. Source of truth for post ids: `data/blogger_sync.json`._
 
 **738 publishable articles** on the site (38 news, 700 blog).
 
 | Blog | Access | Published | Note |
 |---|---|---|---|
-| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | ⚪ not-probed | 660/738 | --offline |
+| [trunghieu-it.blogspot.com](https://trunghieu-it.blogspot.com/) | ⚪ not-probed | 666/738 | --offline |
 | [fluttercook.blogspot.com](https://fluttercook.blogspot.com/) | ⚪ not-probed | 8/738 | --offline |
 | [flutter9.blogspot.com](https://flutter9.blogspot.com/) | ⚪ not-probed | 141/738 | --offline |
 
@@ -14,7 +14,7 @@ Status values: **LIVE** synced by us · **LIVE-UNTRACKED** exists on the blog bu
 
 ## trunghieu-it.blogspot.com
 
-Blog id `8621533667729504576` · access **not-probed** (--offline) · 660/738 published.
+Blog id `8621533667729504576` · access **not-probed** (--offline) · 666/738 published.
 
 | # | Article | Lang | Type | Status | On blog |
 |---:|---|---|---|---|---|
@@ -410,7 +410,7 @@ Blog id `8621533667729504576` · access **not-probed** (--offline) · 660/738 pu
 | 390 | [Flutter offline-first: database dưới máy mới là nguồn sự thật, không phải API](https://fluttercook.github.io/vi/blog/flutter-offline-first-drift-sync/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/flutter-offline-first-database-duoi-may.html) |
 | 391 | [Ngân sách 16.6 ms cho mỗi frame Flutter — thay cho câu "để sau tối ưu"](https://fluttercook.github.io/vi/blog/flutter-performance-budget-16ms/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/ngan-sach-166-ms-cho-moi-frame-flutter.html) |
 | 392 | [Gọi code native từ Dart: platform channel, Pigeon hay FFI](https://fluttercook.github.io/vi/blog/flutter-platform-channels-vs-ffi/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/goi-code-native-tu-dart-platform.html) |
-| 393 | [Bí mật trong ứng dụng Flutter: cái gì lưu được, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/) | vi | blog | PENDING | — |
+| 393 | [Bí mật trong ứng dụng Flutter: cái gì lưu được, cái gì thì không](https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/bi-mat-trong-ung-dung-flutter-cai-gi.html) |
 | 394 | [Riverpod, Bloc, signals hay setState: chọn cách quản lý state Flutter và sống chung với nó](https://fluttercook.github.io/vi/blog/flutter-state-management-decision-guide/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/riverpod-bloc-signals-hay-setstate-chon.html) |
 | 395 | [Test Flutter đỏ vì đúng lý do: widget, golden và integration](https://fluttercook.github.io/vi/blog/flutter-testing-widget-golden-integration/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/test-flutter-o-vi-ung-ly-do-widget.html) |
 | 396 | [Flutter web biên dịch sang WebAssembly: được gì, mất gì](https://fluttercook.github.io/vi/blog/flutter-web-wasm-2026/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/08/flutter-web-bien-dich-sang-webassembly.html) |
@@ -645,11 +645,11 @@ Blog id `8621533667729504576` · access **not-probed** (--offline) · 660/738 pu
 | 625 | [Communicating mobile roadmaps without over-promising — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-roadmap-communication/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/communicating-mobile-roadmaps-without_0992621953.html) |
 | 626 | [RTL layouts that do not look broken in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rtl-layout-flutter/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/rtl-layouts-that-do-not-look-broken-in_0126640306.html) |
 | 627 | [flutter_rust_bridge for heavy compute in Flutter — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-rust-bridge-performance/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/flutterrustbridge-for-heavy-compute-in_01402305847.html) |
-| 628 | [Building store screenshots that convert — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/) | vi | blog | PENDING | — |
-| 629 | [SEA market expansion checklist for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/) | vi | blog | PENDING | — |
-| 630 | [Redacting secrets from mobile logs and crash reports — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/) | vi | blog | PENDING | — |
-| 631 | [Storing tokens with Secure Enclave / StrongBox — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/) | vi | blog | PENDING | — |
-| 632 | [Secure storage and biometrics for Flutter tokens — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/) | vi | blog | PENDING | — |
+| 628 | [Building store screenshots that convert — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/building-store-screenshots-that-convert_01958478303.html) |
+| 629 | [SEA market expansion checklist for mobile products — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/sea-market-expansion-checklist-for_0906758744.html) |
+| 630 | [Redacting secrets from mobile logs and crash reports — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/redacting-secrets-from-mobile-logs-and_01663034374.html) |
+| 631 | [Storing tokens with Secure Enclave / StrongBox — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/storing-tokens-with-secure-enclave_01523035650.html) |
+| 632 | [Secure storage and biometrics for Flutter tokens — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/) | vi | blog | LIVE | [open](https://trunghieu-it.blogspot.com/2026/09/secure-storage-and-biometrics-for_01397976083.html) |
 | 633 | [Serverpod: one language from SQL to Flutter widgets — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-serverpod-backend/) | vi | blog | PENDING | — |
 | 634 | [Mobile session management: refresh tokens done right — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-session-management-mobile/) | vi | blog | PENDING | — |
 | 635 | [Slivers that scroll without jank — hướng dẫn Flutter](https://fluttercook.github.io/vi/blog/flutter-slivers-performance/) | vi | blog | PENDING | — |

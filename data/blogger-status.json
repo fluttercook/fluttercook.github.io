@@ -1,5 +1,5 @@
 {
-  "generated": "2026-09-27",
+  "generated": "2026-09-28",
   "articles": 738,
   "blogs": [
     {
@@ -9,7 +9,7 @@
       "priority": 1,
       "access": "not-probed",
       "detail": "--offline",
-      "done": 660,
+      "done": 666,
       "total": 738,
       "posts": [
         {
@@ -4725,8 +4725,8 @@
           "publishDate": "2026-08-22",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-secure-storage-secrets/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/bi-mat-trong-ung-dung-flutter-cai-gi.html"
         },
         {
           "key": "blog/vi/flutter-state-management-decision-guide",
@@ -7545,8 +7545,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-screenshot-studio-aso/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/building-store-screenshots-that-convert_01958478303.html"
         },
         {
           "key": "blog/vi/flutter-sea-expansion-checklist",
@@ -7557,8 +7557,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-sea-expansion-checklist/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/sea-market-expansion-checklist-for_0906758744.html"
         },
         {
           "key": "blog/vi/flutter-secret-redaction-logs",
@@ -7569,8 +7569,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-secret-redaction-logs/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/redacting-secrets-from-mobile-logs-and_01663034374.html"
         },
         {
           "key": "blog/vi/flutter-secure-enclave-tokens",
@@ -7581,8 +7581,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-secure-enclave-tokens/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/storing-tokens-with-secure-enclave_01523035650.html"
         },
         {
           "key": "blog/vi/flutter-secure-storage-biometrics",
@@ -7593,8 +7593,8 @@
           "publishDate": "2026-09-11",
           "canonicalHost": "",
           "siteUrl": "https://fluttercook.github.io/vi/blog/flutter-secure-storage-biometrics/",
-          "status": "PENDING",
-          "blogUrl": ""
+          "status": "LIVE",
+          "blogUrl": "https://trunghieu-it.blogspot.com/2026/09/secure-storage-and-biometrics-for_01397976083.html"
         },
         {
           "key": "blog/vi/flutter-serverpod-backend",
